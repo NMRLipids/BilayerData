@@ -12,7 +12,7 @@ on:
   # Triggers the workflow on pull request events, but only for the "main" branch
   pull_request:
     branches: [ "main" ]
-    paths: ['Data/Simulations/**']
+    paths: ['Simulations/**']
     
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

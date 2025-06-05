@@ -8,7 +8,7 @@
 #  Fabián Suárez-Lestón
 #  fabian.suarez.leston@usc.es
 
-cd Data/Simulations
+cd Simulations
 
 paths=()
 ids=()
