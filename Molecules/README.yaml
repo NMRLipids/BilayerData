@@ -1,5 +1,8 @@
-## Mandatory fields for the metadata template
-# This template is used to describe the metadata of a molecule in a standardized way
+##################################################################################
+## Mandatory fields for the metadata template.
+# This template is used to describe the metadata of a molecule metadata.yaml file
+# in a standardized way.
+##################################################################################
 NMRlipids:
   id: string
   name: string
