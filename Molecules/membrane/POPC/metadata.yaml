@@ -1,7 +1,7 @@
 NMRlipids:
   id: POPC
 
-cross_references:
+sameAs:
  #key names must correspond to the identifier.org prefix
  # test lookup at https://identifiers.org/[prefix]/[value]
   pubchem.compound: 5497103
