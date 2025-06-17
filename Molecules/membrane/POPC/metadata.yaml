@@ -1,0 +1,29 @@
+cross_references:
+  pubchem: 5497103
+  chebi: CHEBI:15552
+  lipidmaps: LMGP01010002
+  hmdb: HMDB0004247
+  chemspider: 439578
+  inchi: InChI=1S/C42H82NO8P/c1-3-5-7-9-11-13-15-17-19-21-23-25-27-29-31-33-35-37-41(45)51-39-40(44)38-50-52(48,49)47-36-34-32-30-28-26-24-22-20-18-16-14-12-10-8-6-4-2/h17,40H,3-16,18-39H2,1-2H3,(H2,47,48,49)/b19-17-
+  inchi_key: QZQKXJYVZQFZQH-UHFFFAOYSA-N
+  smiles: CCCCCCCCCCCCCCC(=O)OC(COP(=O)(O)OCC1=CC=CC=C1)C(COC(=O)CCCCCCCCCCCCCCC)=O
+  kegg_compound: C00122
+  unii: 3XH2Y6Q0C4
+  cas: 4234-50-2
+
+properties:
+  name: 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  abbreviation: POPC
+  formula: C42H82NO8P
+  molar_mass: 760.0808
+  category: glycerophospholipid
+  description: >
+    1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine (POPC) is a phosphatidylcholine with a palmitoyl group at the sn-1 position and an oleoyl group at the sn-2 position of the glycerol backbone. It is a major component of biological membranes and is widely used in model membrane studies.
+  synonyms:
+    - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+    - POPC
+    - 16:0-18:1 PC
+    - 1-palmitoyl-2-oleoylphosphatidylcholine
+    - 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine
+    - PC(16:0/18:1(9Z))
+    - Phosphatidylcholine, 1-palmitoyl-2-oleoyl-
