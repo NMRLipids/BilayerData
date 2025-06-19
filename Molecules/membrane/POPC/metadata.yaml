@@ -1,7 +1,7 @@
 NMRlipids:
   id: POPC
   name: 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  charge: 0 
+  charge: 0
 
 # Chemical identifiers for the molecule serving as a unique identifier
   # The identifier.org prefix is used to look up the identifier in the identifiers.org database
@@ -15,7 +15,7 @@ sameAs:
   chebi: CHEBI:73001
   lipidmaps: LMGP01010005
   metabolights: MTBLC34080
-  slm: SLM:000000651 
+  slm: SLM:000000651
   pdb: LBN
   unii: TE895536Y5
   cas: 26853-31-6
@@ -31,7 +31,7 @@ bioschema_properties:
   # It is a text string that encodes the molecular structure
   # InChIKey is a hashed version of the InChI, used for easier searching
   # Both are used to uniquely identify chemical substances
-  # In case that multiple protonation states exist, multiple InChis and 
+  # In case that multiple protonation states exist, multiple InChis and
   # InChIKeys may be provided
   inChI: 'InChI=1S/C42H82NO8P/c1-6-8-10-12-14-16-18-20-21-23-25-27-29-31-33-35-42(45)51-40(39-50-52(46,47)49-37-36-43(3,4)5)38-48-41(44)34-32-30-28-26-24-22-19-17-15-13-11-9-7-2/h20-21,40H,6-19,22-39H2,1-5H3/b21-20-/t40-/m1/s1'
   inChIKey: WTJKGGKOPKCXLL-VYOBOKEXSA-N
@@ -51,4 +51,3 @@ bioschema_properties:
 
 # Additonal properties for the molecule, not covered by bioschema_properties
 properties:
-     

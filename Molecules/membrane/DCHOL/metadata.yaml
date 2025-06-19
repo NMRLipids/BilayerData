@@ -1,0 +1,7 @@
+NMRlipids:
+  id: DCHOL
+  name: 18,19-di-nor-cholesterol
+  charge:
+sameAs: {}
+bioschema_properties:
+  inChIKey: RRRDVXINMOMAEE-IOSDWTIVSA-N

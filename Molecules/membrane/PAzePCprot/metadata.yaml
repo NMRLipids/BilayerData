@@ -1,0 +1,18 @@
+NMRlipids:
+  id: PAzePCprot
+  name: 1-palmitoyl-2-azelaoyl-sn-glycero-3-phosphocholine protonated
+  charge:
+sameAs:
+  ChEBI: CHEBI:61817
+  pubchem.compound: 46907870
+  lipidmaps: LMGP20010007
+  metabolights: MTBLC61817
+  cas: 117746-89-1
+bioschema_properties:
+  iupacName: '[(2R)-2-(8-carboxyoctanoyloxy)-3-hexadecanoyloxypropyl] 2-(trimethylazaniumyl)ethyl
+    phosphate'
+  smiles: CCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCC(=O)O
+  inChI: InChI=1S/C33H64NO10P/c1-5-6-7-8-9-10-11-12-13-14-15-18-21-24-32(37)41-28-30(29-43-45(39,40)42-27-26-34(2,3)4)44-33(38)25-22-19-16-17-20-23-31(35)36/h30H,5-29H2,1-4H3,(H-,35,36,39,40)/t30-/m1/s1
+  inChIKey: GHQQYDSARXURNG-SSEXGKCCSA-N
+  molecularFormula: C33H64NO10P
+  MolecularWeight: 665.8

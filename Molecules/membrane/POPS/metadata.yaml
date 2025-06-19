@@ -1,0 +1,18 @@
+NMRlipids:
+  id: POPS
+  name: 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  charge:
+sameAs:
+  ChEBI: CHEBI:34086
+  pubchem.compound: 5283499
+  lipidmaps: LMGP03010024
+  slm: SLM:000005961
+  pdb: D39
+bioschema_properties:
+  iupacName: (2S)-2-amino-3-[[(2R)-3-hexadecanoyloxy-2-[(Z)-octadec-9-enoyl]oxypropoxy]-hydroxyphosphoryl]oxypropanoic
+    acid
+  smiles: CCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)(O)OC[C@@H](C(=O)O)N)OC(=O)CCCCCCC/C=C\CCCCCCCC
+  inChI: InChI=1S/C40H76NO10P/c1-3-5-7-9-11-13-15-17-18-20-22-24-26-28-30-32-39(43)51-36(34-49-52(46,47)50-35-37(41)40(44)45)33-48-38(42)31-29-27-25-23-21-19-16-14-12-10-8-6-4-2/h17-18,36-37H,3-16,19-35,41H2,1-2H3,(H,44,45)(H,46,47)/b18-17-/t36-,37+/m1/s1
+  inChIKey: OIWCYIUQAVBPGV-DAQGAKHBSA-N
+  molecularFormula: C40H76NO10P
+  MolecularWeight: 762.0

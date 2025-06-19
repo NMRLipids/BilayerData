@@ -1,0 +1,13 @@
+NMRlipids:
+  id: CER
+  name: N-palmitoyl-D-erythro-sphingosine
+  charge:
+sameAs:
+  pubchem.compound: 136212702
+bioschema_properties:
+  iupacName: N-[(E,2S,3R)-1-[(2R,5S,6R)-3,4-dihydroxy-6-(hydroxymethyl)-5-[(2S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxan-2-yl]oxy-3-hydroxyoctadec-4-en-2-yl]hexadecanamide
+  smiles: CCCCCCCCCCCCCCCC(=O)N[C@@H](CO[C@H]1C(C([C@@H]([C@H](O1)CO)O[C@H]2C(C([C@H]([C@H](O2)CO)O)O)O)O)O)[C@@H](/C=C/CCCCCCCCCCCCC)O
+  inChI: InChI=1S/C46H87NO13/c1-3-5-7-9-11-13-15-17-19-21-23-25-27-29-35(50)34(47-38(51)30-28-26-24-22-20-18-16-14-12-10-8-6-4-2)33-57-45-43(56)41(54)44(37(32-49)59-45)60-46-42(55)40(53)39(52)36(31-48)58-46/h27,29,34-37,39-46,48-50,52-56H,3-26,28,30-33H2,1-2H3,(H,47,51)/b29-27+/t34-,35+,36+,37+,39-,40?,41?,42?,43?,44+,45+,46-/m0/s1
+  inChIKey: HLIJNIKSBCIDGO-JXGKOFJOSA-N
+  molecularFormula: C46H87NO13
+  MolecularWeight: 862.2

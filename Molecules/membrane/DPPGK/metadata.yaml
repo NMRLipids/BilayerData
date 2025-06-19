@@ -1,0 +1,8 @@
+NMRlipids:
+  id: DPPGK
+  name: 1,2-dioleoyl-sn-glycero-3-[phospho-rac-(3-lysyl(1-glycerol))] (lysyl-PG)
+  charge:
+sameAs:
+  pubchem.compound: 136212477
+bioschema_properties:
+  inChIKey: QLNZUMYQGKEYKU-CIZZXKMDSA-N
