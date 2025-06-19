@@ -3,7 +3,7 @@ NMRlipids:
   name: 1-stearoyl-2-lauroyl-sn-glycero-3-phosphoinositol(-1)
   charge:
 sameAs:
-  ChEBI: '77343'
+  ChEBI: CHEBI:77343
   pubchem.compound: 52928409
   lipidmaps: LMGP06010956
   metabolights: MTBLC77158
