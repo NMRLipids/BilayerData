@@ -1,12 +1,12 @@
 # General credits
 
-NMRLipids project is run by [NMRLipids research collaboration](https://nmrlipids.blogspot.com/) since 2013.
+NMRlipids project is run by [NMRlipids research collaboration](https://nmrlipids.blogspot.com/) since 2013.
 
 # Contributors
 
-NMRLipids Databank separates [codespace](https://github.com/NMRLipids/Databank) from Data since June 2025 (v.1.1.0). Here we list only the contributors of the data part. The contributors of the Databank core code are listed in [Databank/AUTHORS.md](https://github.com/NMRLipids/Databank/blob/main/AUTHORS.md).
+NMRlipids Databank separates [codespace](https://github.com/NMRLipids/Databank) from Data since June 2025 (v.1.1.0). Here we list contributors of the data part only; the contributors of the Databank core code are listed in [Databank/AUTHORS.md](https://github.com/NMRLipids/Databank/blob/main/AUTHORS.md).
 
-Here is the authors in alphabetical order:
+Alphabetical list of contributors:
 
 - Alexey M. Nesterenko (@comcon1)
 - Anika Wurl (@awurl)
@@ -19,9 +19,9 @@ Here is the authors in alphabetical order:
 - Frederik Grote (@frgr2254)
 - Julianne Hoeflich (@JHoeflich1)
 - Hector Martinez-Seara Monne (@hseara)
-- Lara Bort (@larabort)
+- Lara Dautzenberg (@larabort)
 - Magnus-Elias Sletten (@MagnusSletten)
-- Markus Sakkari Miettinen (@markussmiettinen)
+- Markus Miettinen (@markussmiettinen)
 - Patrick Frankel (@PEFrankel)
 - Pavel Buslaev (@pbuslaev)
 - Samuli O.H. Ollila (@ohsOlilla)
