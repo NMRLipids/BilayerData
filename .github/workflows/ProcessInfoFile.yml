@@ -1,0 +1,52 @@
+name: Process info file from pull request
+
+permissions:
+  contents: read
+
+on:
+  pull_request_target:
+    types: [opened]
+    paths:
+      - 'UserData/**'
+jobs:
+  AddData:
+    if: "${{ github.event.pull_request.head.repo.full_name == 'MagnusSletten/BilayerData' && github.repository == 'NMRLipids/BilayerData' }}"
+    runs-on: nrec-large
+    environment: user_data_addition
+    container:
+      image: nmrlipids/core
+      options: --user 1000:1000
+    env:
+      NMLDB_DATA_PATH: ${{ github.workspace }}/BilayerData
+      NMLDB_SIMU_PATH: ${{ github.workspace }}/BilayerData/Simulations
+    steps:
+      - name: Checkout BilayerData
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.USER_DATA_TOKEN }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          path: BilayerData
+
+      - name: Checkout Databank
+        uses: actions/checkout@v4
+        with:
+          repository: NMRLipids/Databank
+          ref: main
+          path: Databank
+
+      - name: Compute new data
+        env:
+          TQDM_DISABLE: "True"
+        working-directory: "Databank"
+        run: |
+          pip install -e . -r ./Scripts/DatabankLib/requirements-dev.txt
+          python Scripts/WorkflowScripts/ProcessInfoFile.py \
+            --info_file_path ../BilayerData/UserData/info.yml
+
+      - name: Commit & push simulation files
+        uses: EndBug/add-and-commit@v9
+        with:
+          cwd: BilayerData
+          add: "Simulations/* UserData/*.yml"
+          message: "Processed info file and updated simulations"
