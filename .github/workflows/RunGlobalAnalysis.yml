@@ -1,0 +1,66 @@
+name: Run global analysis methods on simulations
+
+permissions:
+   contents: write       
+   pull-requests: write   
+
+on: 
+  pull_request_target:
+    types: [closed]
+    branches: 
+      - main 
+    paths: 
+      - 'Simulations/**'
+  workflow_dispatch:
+
+jobs:
+  Run_Analysis: 
+    if: github.event_name == 'workflow_dispatch' ||   
+      (github.event.pull_request.merged &&
+      github.event.pull_request.head.repo.full_name == 'MagnusSletten/BilayerData'  &&
+      github.repository == 'NMRLipids/BilayerData')
+    runs-on: ubuntu-latest
+    container:
+      image: nmrlipids/core
+      options: --user 1001:118
+    env:
+      NMLDB_DATA_PATH: ${{ github.workspace }}/BilayerData
+      NMLDB_SIMU_PATH: ${{ github.workspace }}/BilayerData/Simulations
+    steps:
+      - name: Checkout BilayerData
+        uses: actions/checkout@v4
+        with:
+          path: BilayerData
+
+      - name: Checkout Databank
+        uses: actions/checkout@v4
+        with:
+          repository: NMRLipids/Databank
+          ref: main
+          path: Databank
+
+      - name: Compute new data
+        env:
+          TQDM_DISABLE: "True"
+        working-directory: "Databank"
+        run: |
+          pip install -e . -r ./Scripts/DatabankLib/requirements.txt
+          python Scripts/WorkflowScripts/RunAnalysis.py 
+           
+      - name: Create Pull Request with simulation updates
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Run global analysis methods on simulations (Automated)"
+          committer: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+          author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+          title: Global simulation analysis after simulation addition
+          branch: analysis/update-sims-${{ github.run_number }}-${{ github.event.pull_request.number }}
+          base: main
+          body: |
+            This PR automatically runs the global analysis scripts:
+                - searchDATABANK  
+                - QualityEvaluation  
+                - makeRanking 
+            Related to the merge of PR #${{ github.event.pull_request.number }}. 
+          path: BilayerData

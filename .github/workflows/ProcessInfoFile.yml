@@ -40,7 +40,7 @@ jobs:
           TQDM_DISABLE: "True"
         working-directory: "Databank"
         run: |
-          pip install -e . -r ./Scripts/DatabankLib/requirements-dev.txt
+          pip install -e . -r ./Scripts/DatabankLib/requirements.txt
           python Scripts/WorkflowScripts/ProcessInfoFile.py \
             --info_file_path ../BilayerData/UserData/info.yml
 
