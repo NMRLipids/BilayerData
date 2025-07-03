@@ -2265,6 +2265,52 @@
         }
     },
     {
+        "POPC": { "sn-1": 0.692393, "sn-2": 0.442804, "headgroup": 0.556067, "total": 0.563754 },
+        "TotalQuality": { "headgroup": 0.556067, "tails": 0.567598, "total": 0.563754, "FFQuality": 1.355 },
+        "system": {
+            "DOI": "10.5281/zenodo.15021844",
+            "TRJ": [
+                ["md_every_100_ps.xtc"]
+            ],
+            "TPR": [
+                ["md.tpr"]
+            ],
+            "SOFTWARE": "gromacs",
+            "FF": "FF-development",
+            "FF_SOURCE": null,
+            "FF_DATE": 2025,
+            "PREEQTIME": 100,
+            "TIMELEFTOUT": 50,
+            "COMPOSITION": {
+                "POPC": {
+                    "NAME": "POPC",
+                    "MAPPING": "mappingPOPCsage_smiles.yaml",
+                    "COUNT": [128, 0]
+                },
+                "SOL": { "NAME": "TIP3P", "MAPPING": "mappingTIP3Psage_smiles.yaml", "COUNT": 5120 }
+            },
+            "SYSTEM": "POPCandTIP3P",
+            "TOP": [
+                ["bilayer9.top"]
+            ],
+            "DIR_WRK": "/media/julianne/DATA/Lipids/NMRLipids/temp/",
+            "TRAJECTORY_SIZE": 353450524,
+            "TRJLENGTH": 288500,
+            "TEMPERATURE": 300,
+            "NUMBER_OF_ATOMS": 32512,
+            "DATEOFRUNNING": "14/05/2025",
+            "TYPEOFSYSTEM": "lipid bilayer",
+            "ID": 837,
+            "EXPERIMENT": {
+                "ORDERPARAMETER": {
+                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                },
+                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+            },
+            "path": "bec/c80/becc80bf8adc6b6d08f7723d2b4653e347a77331/0eb9856aad2baa87438410ae693d18eebe3e8da1/"
+        }
+    },
+    {
         "DOPC": { "sn-1": 0.75016, "sn-2": 0.381065, "headgroup": 0.638109, "total": 0.589778 },
         "TotalQuality": { "headgroup": 0.638109, "tails": 0.565613, "total": 0.589778, "FFQuality": 0.922 },
         "system": {
@@ -2795,6 +2841,52 @@
             },
             "ID": 573,
             "path": "995/877/9958771b8fb92ac07be7d4285d09f8df65cc758e/5ad07cc3a737f917dc0e69d6f00b44091322ff68/"
+        }
+    },
+    {
+        "POPC": { "sn-1": 0.435525, "sn-2": 0.451094, "headgroup": 0.117569, "total": 0.334729 },
+        "TotalQuality": { "headgroup": 0.117569, "tails": 0.44331, "total": 0.334729, "FFQuality": 2.155 },
+        "system": {
+            "DOI": "10.5281/zenodo.15065748",
+            "TRJ": [
+                ["md_every_100_ps.xtc"]
+            ],
+            "TPR": [
+                ["md.tpr"]
+            ],
+            "SOFTWARE": "gromacs",
+            "FF": "FF-development",
+            "FF_SOURCE": null,
+            "FF_DATE": 2025,
+            "PREEQTIME": 100,
+            "TIMELEFTOUT": 50,
+            "COMPOSITION": {
+                "POPC": {
+                    "NAME": "POPC",
+                    "MAPPING": "mappingPOPCsage_smiles.yaml",
+                    "COUNT": [128, 0]
+                },
+                "SOL": { "NAME": "TIP3P", "MAPPING": "mappingTIP3Psage_smiles.yaml", "COUNT": 5120 }
+            },
+            "SYSTEM": "POPCandTIP3P",
+            "TOP": [
+                ["bilayer.top"]
+            ],
+            "DIR_WRK": "/media/julianne/DATA/Lipids/NMRLipids/temp/",
+            "TRAJECTORY_SIZE": 612881128,
+            "TRJLENGTH": 500100,
+            "TEMPERATURE": 300,
+            "NUMBER_OF_ATOMS": 32512,
+            "DATEOFRUNNING": "14/05/2025",
+            "TYPEOFSYSTEM": "lipid bilayer",
+            "ID": 836,
+            "EXPERIMENT": {
+                "ORDERPARAMETER": {
+                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                },
+                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+            },
+            "path": "618/da6/618da67594715bf1d8f167ee207e672022bf1ef3/141e154e24515d5de05c75384088437896b19079/"
         }
     },
     {
@@ -3941,6 +4033,52 @@
         }
     },
     {
+        "POPC": { "sn-1": 0.14354, "sn-2": 0.254853, "headgroup": 0.536115, "total": 0.311503 },
+        "TotalQuality": { "headgroup": 0.536115, "tails": 0.199196, "total": 0.311503, "FFQuality": 3.045 },
+        "system": {
+            "DOI": "10.5281/zenodo.15065566",
+            "TRJ": [
+                ["md_every_100_ps.xtc"]
+            ],
+            "TPR": [
+                ["md.tpr"]
+            ],
+            "SOFTWARE": "gromacs",
+            "FF": "Sage2.2.0 Espaloma Charges",
+            "FF_SOURCE": "OpenFF",
+            "FF_DATE": 2025,
+            "PREEQTIME": 100,
+            "TIMELEFTOUT": 50,
+            "COMPOSITION": {
+                "POPC": {
+                    "NAME": "POPC",
+                    "MAPPING": "mappingPOPCsage_smiles.yaml",
+                    "COUNT": [128, 0]
+                },
+                "SOL": { "NAME": "TIP3P", "MAPPING": "mappingTIP3Psage_smiles.yaml", "COUNT": 5120 }
+            },
+            "SYSTEM": "POPCandTIP3P",
+            "TOP": [
+                ["bilayer.top"]
+            ],
+            "DIR_WRK": "/media/julianne/DATA/Lipids/NMRLipids/temp/",
+            "TRAJECTORY_SIZE": 245244140,
+            "TRJLENGTH": 200100,
+            "TEMPERATURE": 300,
+            "NUMBER_OF_ATOMS": 32512,
+            "DATEOFRUNNING": "14/05/2025",
+            "TYPEOFSYSTEM": "lipid bilayer",
+            "ID": 834,
+            "EXPERIMENT": {
+                "ORDERPARAMETER": {
+                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                },
+                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+            },
+            "path": "3f8/237/3f82371d941cd4b7ef1f55268be8b31049048659/4c3d0df86a66ff5aeeca33bab80039851a5ad1bf/"
+        }
+    },
+    {
         "CHOL": { "headgroup": NaN, "tail": 0.235516, "total": 0.235516 },
         "POPC": { "sn-1": 0.597845, "sn-2": 0.493814, "headgroup": 0.706088, "total": 0.599249 },
         "TotalQuality": { "headgroup": 0.176522, "tails": 0.195336, "total": 0.208691, "FFQuality": 3.3858 },
@@ -4150,6 +4288,98 @@
                 "FORMFACTOR": {}
             },
             "path": "920/e99/920e9922bb4525d4634d704ca132b70fec41efb0/72afd68d9748c1a9e44512a53737fabc542f09a6/"
+        }
+    },
+    {
+        "POPC": { "sn-1": 0.152348, "sn-2": 0.202217, "headgroup": 0.529893, "total": 0.294819 },
+        "TotalQuality": { "headgroup": 0.529893, "tails": 0.177282, "total": 0.294819, "FFQuality": 1.645 },
+        "system": {
+            "DOI": "10.5281/zenodo.15002801",
+            "TRJ": [
+                ["md_every_100_ps.xtc"]
+            ],
+            "TPR": [
+                ["md.tpr"]
+            ],
+            "SOFTWARE": "gromacs",
+            "FF": "FF-development",
+            "FF_SOURCE": null,
+            "FF_DATE": 2025,
+            "PREEQTIME": 100,
+            "TIMELEFTOUT": 50,
+            "COMPOSITION": {
+                "POPC": {
+                    "NAME": "POPC",
+                    "MAPPING": "mappingPOPCsage_smiles.yaml",
+                    "COUNT": [128, 0]
+                },
+                "SOL": { "NAME": "TIP3P", "MAPPING": "mappingTIP3Psage_smiles.yaml", "COUNT": 5120 }
+            },
+            "SYSTEM": "POPCandTIP3P",
+            "TOP": [
+                ["bilayer5.top"]
+            ],
+            "DIR_WRK": "/media/julianne/DATA/Lipids/NMRLipids/temp/",
+            "TRAJECTORY_SIZE": 414960964,
+            "TRJLENGTH": 338800,
+            "TEMPERATURE": 300,
+            "NUMBER_OF_ATOMS": 32512,
+            "DATEOFRUNNING": "29/04/2025",
+            "TYPEOFSYSTEM": "lipid bilayer",
+            "EXPERIMENT": {
+                "ORDERPARAMETER": {
+                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                },
+                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+            },
+            "ID": 833,
+            "path": "aec/8cf/aec8cf3207aa4ab9efa02f7c3dce44997050f5ab/71a7aceda6cae85e8b582d6abbd78bfe5c999d91/"
+        }
+    },
+    {
+        "POPC": { "sn-1": 0.147209, "sn-2": 0.206327, "headgroup": 0.476603, "total": 0.276713 },
+        "TotalQuality": { "headgroup": 0.476603, "tails": 0.176768, "total": 0.276713, "FFQuality": 1.845 },
+        "system": {
+            "DOI": "10.5281/zenodo.15002712",
+            "TRJ": [
+                ["md_every_100_ps.xtc"]
+            ],
+            "TPR": [
+                ["md.tpr"]
+            ],
+            "SOFTWARE": "gromacs",
+            "FF": "FF-development",
+            "FF_SOURCE": null,
+            "FF_DATE": 2025,
+            "PREEQTIME": 100,
+            "TIMELEFTOUT": 50,
+            "COMPOSITION": {
+                "POPC": {
+                    "NAME": "POPC",
+                    "MAPPING": "mappingPOPCsage_smiles.yaml",
+                    "COUNT": [128, 0]
+                },
+                "SOL": { "NAME": "TIP3P", "MAPPING": "mappingTIP3Psage_smiles.yaml", "COUNT": 5120 }
+            },
+            "SYSTEM": "POPCandTIP3P",
+            "TOP": [
+                ["bilayer2.top"]
+            ],
+            "DIR_WRK": "/media/julianne/DATA/Lipids/NMRLipids/temp/",
+            "TRAJECTORY_SIZE": 350763692,
+            "TRJLENGTH": 286400,
+            "TEMPERATURE": 300,
+            "NUMBER_OF_ATOMS": 32512,
+            "DATEOFRUNNING": "29/04/2025",
+            "TYPEOFSYSTEM": "lipid bilayer",
+            "EXPERIMENT": {
+                "ORDERPARAMETER": {
+                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                },
+                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+            },
+            "ID": 832,
+            "path": "589/27c/58927c60d9fa51b9edd458502c6858dd25cba6af/852e7682947b9bb47cb8e216540acaaa267b3b57/"
         }
     },
     {
@@ -5193,6 +5423,98 @@
             },
             "ID": 483,
             "path": "611/eb1/611eb1451b3406f9a07395e74c89a779da77dd0e/7dacf9299757643c2ab76db9536d80031346829f/"
+        }
+    },
+    {
+        "POPC": { "sn-1": 0.00336962, "sn-2": 0.0330292, "headgroup": 0.512651, "total": 0.183016 },
+        "TotalQuality": { "headgroup": 0.512651, "tails": 0.0181994, "total": 0.183016, "FFQuality": 5.255 },
+        "system": {
+            "DOI": "10.5281/zenodo.14880880",
+            "TRJ": [
+                ["md_every_100_ps.xtc"]
+            ],
+            "TPR": [
+                ["md.tpr"]
+            ],
+            "SOFTWARE": "gromacs",
+            "FF": "Parsley 1.3.1",
+            "FF_SOURCE": "OpenFF",
+            "FF_DATE": 2025,
+            "PREEQTIME": 100,
+            "TIMELEFTOUT": 50,
+            "COMPOSITION": {
+                "POPC": {
+                    "NAME": "POPC",
+                    "MAPPING": "mappingPOPCsage_smiles.yaml",
+                    "COUNT": [128, 0]
+                },
+                "SOL": { "NAME": "TIP3P", "MAPPING": "mappingTIP3Psage_smiles.yaml", "COUNT": 5120 }
+            },
+            "SYSTEM": "POPCandTIP3P",
+            "TOP": [
+                ["bilayer.top"]
+            ],
+            "DIR_WRK": "/media/julianne/DATA/Lipids/NMRLipids/temp/",
+            "TRAJECTORY_SIZE": 613766788,
+            "TRJLENGTH": 500100,
+            "TEMPERATURE": 300,
+            "NUMBER_OF_ATOMS": 32512,
+            "DATEOFRUNNING": "14/05/2025",
+            "TYPEOFSYSTEM": "lipid bilayer",
+            "ID": 838,
+            "EXPERIMENT": {
+                "ORDERPARAMETER": {
+                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                },
+                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+            },
+            "path": "e2b/09a/e2b09acaead3655073b4ed768e4a08d879b0042d/bb294604ef4b17df4b59195e2ac600630d33c644/"
+        }
+    },
+    {
+        "POPC": { "sn-1": 0.00201438, "sn-2": 0.0095256, "headgroup": 0.295329, "total": 0.10229 },
+        "TotalQuality": { "headgroup": 0.295329, "tails": 0.00576999, "total": 0.10229, "FFQuality": 6.355 },
+        "system": {
+            "DOI": "10.5281/zenodo.15328669",
+            "TRJ": [
+                ["md_every_100_ps.xtc"]
+            ],
+            "TPR": [
+                ["md.tpr"]
+            ],
+            "SOFTWARE": "gromacs",
+            "FF": "FF-development",
+            "FF_SOURCE": null,
+            "FF_DATE": 2025,
+            "PREEQTIME": 100,
+            "TIMELEFTOUT": 50,
+            "COMPOSITION": {
+                "POPC": {
+                    "NAME": "POPC",
+                    "MAPPING": "mappingPOPCsage_smiles.yaml",
+                    "COUNT": [128, 0]
+                },
+                "SOL": { "NAME": "TIP3P", "MAPPING": "mappingTIP3Psage_smiles.yaml", "COUNT": 5120 }
+            },
+            "SYSTEM": "POPCandTIP3P",
+            "TOP": [
+                ["bilayer.top"]
+            ],
+            "DIR_WRK": "/media/julianne/DATA/Lipids/NMRLipids/temp/",
+            "TRAJECTORY_SIZE": 613193432,
+            "TRJLENGTH": 500100,
+            "TEMPERATURE": 300,
+            "NUMBER_OF_ATOMS": 32512,
+            "DATEOFRUNNING": "14/05/2025",
+            "TYPEOFSYSTEM": "lipid bilayer",
+            "ID": 835,
+            "EXPERIMENT": {
+                "ORDERPARAMETER": {
+                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                },
+                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+            },
+            "path": "58d/654/58d654af9894439448a86b0c7a9f13020d41d54d/afaaae028c976185c3ce34198181af80a226d37f/"
         }
     }
 ]
