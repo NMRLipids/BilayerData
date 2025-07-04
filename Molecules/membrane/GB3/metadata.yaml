@@ -1,5 +1,13 @@
 NMRlipids:
   id: GB3
+  name: Globotriaosylceramide
   charge:
-sameAs: {}
-bioschema_properties: {}
+sameAs:
+  slm: SLM:000485790
+bioschema_properties:
+  iupacName: N-[(E,2S,3R)-1-[(2R,3R,4R,5S,6R)-5-[(2S,3R,4R,5R,6R)-3,4-dihydroxy-6-(hydroxymethyl)-5-[(2R,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxan-2-yl]oxy-3,4-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3-hydroxyoctadec-4-en-2-yl]acetamide
+  smiles: CCCCCCCCCCCCC/C=C/[C@H]([C@H](CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O[C@H]2[C@@H]([C@H]([C@H]([C@H](O2)CO)O[C@@H]3[C@@H]([C@H]([C@H]([C@H](O3)CO)O)O)O)O)O)O)O)NC(=O)C)O
+  inChI: InChI=1S/C38H69NO18/c1-3-4-5-6-7-8-9-10-11-12-13-14-15-16-23(44)22(39-21(2)43)20-52-36-32(50)29(47)34(25(18-41)54-36)57-38-33(51)30(48)35(26(19-42)55-38)56-37-31(49)28(46)27(45)24(17-40)53-37/h15-16,22-38,40-42,44-51H,3-14,17-20H2,1-2H3,(H,39,43)/b16-15+/t22-,23+,24+,25+,26+,27-,28-,29+,30+,31+,32+,33+,34+,35-,36+,37+,38-/m0/s1
+  inChIKey: HFQKBOPMAOTAIR-TZSVBWBLSA-N
+  molecularFormula: C38H69NO18
+  MolecularWeight: '827.9'

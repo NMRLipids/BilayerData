@@ -9,10 +9,9 @@ sameAs:
   metabolights: MTBLC52333
   slm: SLM:000120672
 bioschema_properties:
-  iupacName: '[(2R)-2,3-bis[[(9Z,12Z)-octadeca-9,12-dienoyl]oxy]propyl] 2-(trimethylazaniumyl)ethyl
-    phosphate'
-  smiles: CCCCC/C=C\C/C=C\CCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCC/C=C\C/C=C\CCCCC
-  inChI: InChI=1S/C44H80NO8P/c1-6-8-10-12-14-16-18-20-22-24-26-28-30-32-34-36-43(46)50-40-42(41-52-54(48,49)51-39-38-45(3,4)5)53-44(47)37-35-33-31-29-27-25-23-21-19-17-15-13-11-9-7-2/h14-17,20-23,42H,6-13,18-19,24-41H2,1-5H3/b16-14-,17-15-,22-20-,23-21-/t42-/m1/s1
-  inChIKey: FVXDQWZBHIXIEJ-LNDKUQBDSA-N
-  molecularFormula: C44H80NO8P
-  molecularWeight: 782.1
+  iupacName: '[(2S)-3-hydroxy-2-[(Z)-octadec-9-enoyl]oxypropyl] (Z)-octadec-9-enoate'
+  smiles: CCCCCCCC/C=C\\CCCCCCCC(=O)OC[C@H](CO)OC(=O)CCCCCCC/C=C\\CCCCCCCC
+  inChI: InChI=1S/C39H72O5/c1-3-5-7-9-11-13-15-17-19-21-23-25-27-29-31-33-38(41)43-36-37(35-40)44-39(42)34-32-30-28-26-24-22-20-18-16-14-12-10-8-6-4-2/h17-20,37,40H,3-16,21-36H2,1-2H3/b19-17-,20-18-/t37-/m0/s1
+  inChIKey: AFSHUZFNMVJNKX-LLWMBOQKSA-N
+  molecularFormula: C39H72O5
+  MolecularWeight: '621'
