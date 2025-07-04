@@ -3,6 +3,12 @@ NMRlipids:
   name: 1,2-dioleoyl-sn-glycero-3-[phospho-rac-(3-lysyl(1-glycerol))] (lysyl-PG)
   charge:
 sameAs:
-  pubchem.compound: 136212477
+  pubchem.compound: 140699964
 bioschema_properties:
-  inChIKey: QLNZUMYQGKEYKU-CIZZXKMDSA-N
+  iupacName: '[3-[(2S)-2,6-bis(azaniumyl)hexanoyl]oxy-2-hydroxypropyl] [(2R)-2,3-bis[[(Z)-octadec-9-enoyl]oxy]propyl]
+    phosphate'
+  smiles: CCCCCCCC/C=C\\CCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC(COC(=O)[C@H](CCCC[NH3+])[NH3+])O)OC(=O)CCCCCCC/C=C\\CCCCCCCC
+  inChI: InChI=1S/C48H91N2O11P/c1-3-5-7-9-11-13-15-17-19-21-23-25-27-29-31-36-46(52)57-41-44(42-60-62(55,56)59-40-43(51)39-58-48(54)45(50)35-33-34-38-49)61-47(53)37-32-30-28-26-24-22-20-18-16-14-12-10-8-6-4-2/h17-20,43-45,51H,3-16,21-42,49-50H2,1-2H3,(H,55,56)/p+1/b19-17-,20-18-/t43?,44-,45+/m1/s1
+  inChIKey: LCKJYJKOGOEUAZ-GDRSUGLPSA-O
+  molecularFormula: C48H92N2O11P+
+  MolecularWeight: '904.2'
