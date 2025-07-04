@@ -1,0 +1,18 @@
+NMRlipids:
+  id: DMPC
+  name: 1,2-dimyristoyl-sn-glycero-3-phosphocholine
+  charge:
+sameAs:
+  ChEBI: CHEBI:45240
+  pubchem.compound: 5459377
+  lipidmaps: LMGP01010477
+  metabolights: MTBLC45240
+  slm: SLM:000012494
+  pdb: MC3
+bioschema_properties:
+  iupacName: '[(2R)-2,3-di(tetradecanoyloxy)propyl] 2-(trimethylazaniumyl)ethyl phosphate'
+  smiles: CCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCC
+  inChI: InChI=1S/C36H72NO8P/c1-6-8-10-12-14-16-18-20-22-24-26-28-35(38)42-32-34(33-44-46(40,41)43-31-30-37(3,4)5)45-36(39)29-27-25-23-21-19-17-15-13-11-9-7-2/h34H,6-33H2,1-5H3/t34-/m1/s1
+  inChIKey: CITHEXJVPOWHKC-UUWRZZSWSA-N
+  molecularFormula: C36H72NO8P
+  MolecularWeight: '677.9'
