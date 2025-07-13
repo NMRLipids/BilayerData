@@ -3,7 +3,7 @@
 Adding new data is described in detail in [the NMRlipids documentation](https://nmrlipids.github.io/). Please follow the instructions carefully for both simulations and experiments, filling metadata fields with meaningful and complete information.
 
 # Adding molecules
-If data addition requires a molecule that is currently absent, you are very welcome to add new molecules. Please be careful with modifying molecule information, mapping files of molecules as it could affect the recomputation of other contributors' data.
+If data addition requires a molecule that is currently absent, you are very welcome to add new molecules. Please be careful with modifying molecule information, especially mapping files of molecules, as it could affect the recomputation of other contributors' data.
 
 To add a new molecule please add a mapping file as described in [https://nmrlipids.github.io/moleculesAndMapping.html#universal-atom-names-in-mapping-files](https://nmrlipids.github.io/moleculesAndMapping.html#universal-atom-names-in-mapping-files)
 
