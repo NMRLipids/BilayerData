@@ -3,17 +3,19 @@ NMRlipids:
   name: N-palmitoyl-D-erythro-sphingosylphosphorylcholine
   charge:
 sameAs:
-  ChEBI: CHEBI:78646
   pubchem.compound: 9939941
+  chebi: CHEBI:78646
   lipidmaps: LMSP03010003
   metabolights: MTBLC78646
   slm: SLM:000389794
   pdb: HWP
 bioschema_properties:
-  iupacName: '[3-hexadecanoyloxy-2-[(Z)-octadec-9-enoyl]oxypropyl] 2-(trimethylazaniumyl)ethyl
+  name: '[(E,2S,3R)-2-(hexadecanoylamino)-3-hydroxyoctadec-4-enyl] 2-(trimethylazaniumyl)ethyl
     phosphate'
-  smiles: CCCCCCCCCCCCCCCC(=O)OCC(COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCC/C=C\\CCCCCCCC
-  inChI: InChI=1S/C42H82NO8P/c1-6-8-10-12-14-16-18-20-21-23-25-27-29-31-33-35-42(45)51-40(39-50-52(46,47)49-37-36-43(3,4)5)38-48-41(44)34-32-30-28-26-24-22-19-17-15-13-11-9-7-2/h20-21,40H,6-19,22-39H2,1-5H3/b21-20-/t40-/m1/s1
-  inChIKey: WTJKGGKOPKCXLL-MRCUWXFGSA-N
-  molecularFormula: C42H82NO8P
-  MolecularWeight: '760.1'
+  iupacName: '[(E,2S,3R)-2-(hexadecanoylamino)-3-hydroxyoctadec-4-enyl] 2-(trimethylazaniumyl)ethyl
+    phosphate'
+  molecularFormula: C39H79N2O6P
+  molecularWeight: 703.0
+  inChI: InChI=1S/C39H79N2O6P/c1-6-8-10-12-14-16-18-20-22-24-26-28-30-32-38(42)37(36-47-48(44,45)46-35-34-41(3,4)5)40-39(43)33-31-29-27-25-23-21-19-17-15-13-11-9-7-2/h30,32,37-38,42H,6-29,31,33-36H2,1-5H3,(H-,40,43,44,45)/b32-30+/t37-,38+/m0/s1
+  inChIKey: RWKUXQNLWDTSLO-GWQJGLRPSA-N
+  smiles: CCCCCCCCCCCCCCCC(=O)N[C@@H](COP(=O)([O-])OCC[N+](C)(C)C)[C@@H](/C=C/CCCCCCCCCCCCC)O
