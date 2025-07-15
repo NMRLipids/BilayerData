@@ -1,6 +1,6 @@
 NMRlipids:
   id: GB3
-  name: Globotriaosylceramide
+  name: Gb3(d18:1/24:0)
   charge:
 sameAs:
   pubchem.compound: 90659803
