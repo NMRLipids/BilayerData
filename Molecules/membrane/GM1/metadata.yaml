@@ -1,6 +1,6 @@
 NMRlipids:
   id: GM1
-  name: GM1 Ganglioside
+  name: GM1(d18:1/16:0)
   charge:
 sameAs:
   pubchem.compound: 90659792
