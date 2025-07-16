@@ -1,0 +1,19 @@
+NMRlipids:
+  id: GM1
+  name: GM1(d18:1/16:0)
+  charge:
+sameAs:
+  pubchem.compound: 90659792
+  chebi: CHEBI:84670
+  lipidmaps: LMSP0601AP10
+  metabolights: MTBLC84670
+bioschema_properties:
+  name: (2S,4S,5R,6R)-5-acetamido-2-[(2S,3R,4R,5S,6R)-5-[(2S,3R,4R,5R,6R)-3-acetamido-5-hydroxy-6-(hydroxymethyl)-4-[(2R,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxan-2-yl]oxy-2-[(2R,3S,4R,5R,6R)-6-[(E,2S,3R)-2-(hexadecanoylamino)-3-hydroxyoctadec-4-enoxy]-4,5-dihydroxy-2-(hydroxymethyl)oxan-3-yl]oxy-3-hydroxy-6-(hydroxymethyl)oxan-4-yl]oxy-4-hydroxy-6-[(1R,2R)-1,2,3-trihydroxypropyl]oxane-2-carboxylic
+    acid
+  iupacName: (2S,4S,5R,6R)-5-acetamido-2-[(2S,3R,4R,5S,6R)-5-[(2S,3R,4R,5R,6R)-3-acetamido-5-hydroxy-6-(hydroxymethyl)-4-[(2R,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxan-2-yl]oxy-2-[(2R,3S,4R,5R,6R)-6-[(E,2S,3R)-2-(hexadecanoylamino)-3-hydroxyoctadec-4-enoxy]-4,5-dihydroxy-2-(hydroxymethyl)oxan-3-yl]oxy-3-hydroxy-6-(hydroxymethyl)oxan-4-yl]oxy-4-hydroxy-6-[(1R,2R)-1,2,3-trihydroxypropyl]oxane-2-carboxylic
+    acid
+  molecularFormula: C71H127N3O31
+  molecularWeight: 1518.8
+  inChI: InChI=1S/C71H127N3O31/c1-5-7-9-11-13-15-17-19-21-23-25-27-29-31-43(82)42(74-50(85)32-30-28-26-24-22-20-18-16-14-12-10-8-6-2)39-96-67-59(92)57(90)61(48(37-78)99-67)101-69-60(93)65(105-71(70(94)95)33-44(83)51(72-40(3)80)64(104-71)53(86)45(84)34-75)62(49(38-79)100-69)102-66-52(73-41(4)81)63(55(88)47(36-77)97-66)103-68-58(91)56(89)54(87)46(35-76)98-68/h29,31,42-49,51-69,75-79,82-84,86-93H,5-28,30,32-39H2,1-4H3,(H,72,80)(H,73,81)(H,74,85)(H,94,95)/b31-29+/t42-,43+,44-,45+,46+,47+,48+,49+,51+,52+,53+,54-,55-,56-,57+,58+,59+,60+,61+,62-,63+,64+,65+,66-,67+,68-,69-,71-/m0/s1
+  inChIKey: BWZAKDPPVXHOTB-GGWFBJPCSA-N
+  smiles: CCCCCCCCCCCCCCCC(=O)N[C@@H](CO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O[C@H]2[C@@H]([C@H]([C@H]([C@H](O2)CO)O[C@H]3[C@@H]([C@H]([C@H]([C@H](O3)CO)O)O[C@H]4[C@@H]([C@H]([C@H]([C@H](O4)CO)O)O)O)NC(=O)C)O[C@@]5(C[C@@H]([C@H]([C@@H](O5)[C@@H]([C@@H](CO)O)O)NC(=O)C)O)C(=O)O)O)O)O)[C@@H](/C=C/CCCCCCCCCCCCC)O
