@@ -10,7 +10,7 @@ on:
       - 'UserData/**'
 jobs:
   AddData:
-    if: "${{ github.event.pull_request.head.repo.full_name == 'MagnusSletten/BilayerData' && github.repository == 'NMRLipids/BilayerData' }}"
+    if: "${{ github.event.pull_request.head.repo.full_name == 'NMRLipids/UserData' && github.repository == 'NMRLipids/BilayerData' }}"
     runs-on: nrec-large
     environment: user_data_addition
     container:
