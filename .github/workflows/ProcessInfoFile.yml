@@ -13,6 +13,7 @@ jobs:
     if: "${{ github.event.pull_request.head.repo.full_name == 'NMRLipids/UserData' && github.repository == 'NMRLipids/BilayerData' }}"
     runs-on: nrec-large
     environment: user_data_addition
+    timeout-minutes: 1440
     container:
       image: nmrlipids/core
       options: --user 1000:1000
