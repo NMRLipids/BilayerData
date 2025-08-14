@@ -58,9 +58,9 @@ else
  fixlist=()
  unique_ids=()
 
- # Repeated IDs
+ # Repeated IDs, excluding negatives IDs
  if [[ ${#duplicates[@]} -ne 0 ]]; then
-  unique_ids=($( printf "%s\n" "${duplicates[@]}" | sort -u ))
+  unique_ids=($( printf "%s\n" "${duplicates[@]}" | awk '$1>=0' | sort -u ))
  fi
 
  # No ID assigned
