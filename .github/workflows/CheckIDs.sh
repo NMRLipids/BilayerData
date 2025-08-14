@@ -37,14 +37,22 @@ max_id=$( cat COUNTER_ID )
 # Find duplicates in the array of IDs; from https://stackoverflow.com/questions/22055238/search-duplicate-element-array
 duplicates=($( printf '%s\n' "${ids[@]}"|awk '!($0 in seen){seen[$0];next} 1' ))
 
-if [[ ${#duplicates[@]} -eq 0 ]] && [[ ${idlist[0]} -ne 0 ]]; then
- echo "### :white_check_mark: All systems have an unique ID associated" >> $GITHUB_STEP_SUMMARY
+# Collect the paths with negative IDs
+neg_paths=()
+for j in $( seq ${#paths[@]} ); do
+  if [[ ${ids[$((${j}-1))]} -lt 0 ]]; then
+    neg_paths+=(${paths[$((${j}-1))]})
+  fi
+done
+
+if [[ ${#duplicates[@]} -eq 0 ]] && [[ ${idlist[0]} -ne 0 ]] && [[ ${#neg_paths[@]} -eq 0 ]]; then
+ echo "### :white_check_mark: All systems have a unique positive ID associated" >> $GITHUB_STEP_SUMMARY
 
  # No IDs were generated
  echo "newids=false" >> $GITHUB_OUTPUT
 
 else
- echo "### :warning: Duplicates and/or missing IDs have been found" >> $GITHUB_STEP_SUMMARY
+ echo "### :warning: Duplicates, missing IDs, and/or negative IDs have been found" >> $GITHUB_STEP_SUMMARY
  echo " " >> $GITHUB_STEP_SUMMARY
 
  fixlist=()
@@ -81,13 +89,23 @@ else
    done
    counter=$((${counter}+${#list[@]}))
   else
-   echo "#### Systems with duplicated index ${u}": 
+   echo "#### Systems with duplicated index ${u}":  >> $GITHUB_STEP_SUMMARY
    for item in ${list[@]}; do
     echo \`${item}\` >> $GITHUB_STEP_SUMMARY
    done
    counter=$((${counter}+${#list[@]}-1))
   fi
  done
+
+ # List negative IDs
+ if [[ ${#neg_paths[@]} -gt 0 ]]; then
+  echo "#### Systems with negative ID:" >> $GITHUB_STEP_SUMMARY
+  for p in ${neg_paths[@]}; do
+    echo \`${p}\` >> $GITHUB_STEP_SUMMARY
+  done
+  counter=$((${counter}+${#neg_paths[@]}))
+ fi
+
  echo "#### Number of systems to be fixed: "${counter} >> $GITHUB_STEP_SUMMARY
  echo " " >> $GITHUB_STEP_SUMMARY
 
@@ -116,11 +134,23 @@ else
     done
    fi
   done
- 
-  # Update the list of used IDs
-  echo ${new_id[$((${counter}-1))]} > COUNTER_ID
 
-  # New IDs were generated
+  # Fix negative IDs
+  if [[ ${#neg_paths[@]} -gt 0 ]]; then
+    echo "#### Fixing negative ID entries..." >> $GITHUB_STEP_SUMMARY
+    for p in ${neg_paths[@]}; do
+      echo "#### ID ${new_id[counter]} :arrow_right: \`${p}\`" >> $GITHUB_STEP_SUMMARY
+      sed -i"" "s/^ID:.*/ID: ${new_id[counter]}/" ${p}/README.yaml
+      counter=$((${counter}+1))
+    done
+  fi
+
+  # Update COUNTER_ID if new IDs were generated
+  if [[ ${counter} -gt 0 ]]; then
+    echo ${new_id[$((${counter}-1))]} > COUNTER_ID
+  fi
+
   echo "newids=true" >> $GITHUB_OUTPUT
- fi
 fi
+fi
+
