@@ -1,0 +1,39 @@
+DOI: 10.5281/zenodo.16813252
+TRJ: dump100.xtc
+TPR: dump100.tpr
+SOFTWARE: GROMACS
+PREEQTIME: 100
+TIMELEFTOUT: 0
+TEMPERATURE: 310
+SYSTEM: IMM_TLCL_divided_PA_PG_310K
+PUBLICATION: https://doi.org/10.5281/zenodo.15600824
+AUTHORS_CONTACT: Alexey Nesterenko
+SOFTWARE_VERSION: '2024'
+FF: CHARMM36
+FF_SOURCE: CHARMM-GUI_recombined
+FF_DATE: '2025-04-30'
+TOP: topol.top
+GRO: dump100.gro
+EDR: dump100.edr
+COMPOSITION:
+  DLIPG:
+    NAME: DLIPG
+    MAPPING: mappingDLiPGcharmm.yaml
+  DLIPA:
+    NAME: DLIPA
+    MAPPING: mappingDLiPAcharmm.yaml
+  SAPC:
+    NAME: SAPC
+    MAPPING: mappingSAPCcharmm.yaml
+  POPE:
+    NAME: POPE
+    MAPPING: mappingPOPEcharmm.yaml
+  SOL:
+    NAME: TIP3
+    MAPPING: mappingTIP3PCHARMMgui.yaml
+  POT:
+    NAME: POT
+    MAPPING: mappingPOT.yaml
+  CLA:
+    NAME: CLA
+    MAPPING: mappingCLA.yaml
