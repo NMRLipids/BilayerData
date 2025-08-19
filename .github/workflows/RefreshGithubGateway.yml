@@ -12,6 +12,7 @@ on:
 jobs:
   refresh-upload-portal:
     runs-on: ubuntu-latest
+    if: github.repository == 'NMRLipids/BilayerData'
     steps:
       - name: Hit refresh endpoint
         id: refresh
