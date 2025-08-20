@@ -5518,63 +5518,103 @@
         }
     },
     {
-        "POPC": { "sn-1": NaN, "sn-2": NaN, "headgroup": 0.00609809, "total": 0.00609809 },
-        "TotalQuality": { "headgroup": 0.000381131, "tails": 0, "total": 0.000381131 },
+        "POPC": { "sn-1": NaN, "sn-2": NaN, "headgroup": 0.00579869, "total": 0.00579869 },
+        "TotalQuality": { "headgroup": 0.000362418, "tails": 0, "total": 0.000362418 },
         "system": {
-            "DOI": "10.5281/zenodo.3857816",
+            "DOI": "10.5281/zenodo.3613573",
+            "SYSTEM": "POPC_T298K",
             "SOFTWARE": "gromacs",
+            "FF": "Slipids",
+            "FF_SOURCE": "http://www.fos.su.se/~sasha/SLipids/, https://bitbucket.org/hseara/ions/",
+            "FF_DATE": "??",
             "TRJ": [
-                ["run2.xtc"]
+                ["PCPG_CA0.xtc"]
             ],
             "TPR": [
-                ["run2.tpr"]
+                ["PCPG_CA0.tpr"]
             ],
-            "PREEQTIME": 120,
-            "TIMELEFTOUT": 0,
+            "PREEQTIME": 0,
+            "TIMELEFTOUT": 100,
+            "DIR_WRK": "/usr/home/bort/Databank",
             "COMPOSITION": {
                 "POPC": {
-                    "NAME": "PC",
-                    "MOLTYPE": "system1",
-                    "MAPPING": "mappingPOPClipid17.yaml",
-                    "COUNT": [76, 74]
+                    "NAME": "POPC",
+                    "MAPPING": "mappingPOPCslipids.yaml",
+                    "COUNT": [64, 64]
                 },
                 "POPG": {
-                    "NAME": "PGR",
-                    "MOLTYPE": "system2",
-                    "MAPPING": "mappingPOPGlipid17.yaml",
-                    "COUNT": [75, 75]
+                    "NAME": "POPG",
+                    "MAPPING": "mappingPOPGslipids.yaml",
+                    "COUNT": [64, 64]
                 },
-                "SOL": { "NAME": "SOL", "MAPPING": "mappingTIP3Pwater.yaml", "COUNT": 31572 },
-                "SOD": { "NAME": "NA", "MAPPING": "mappingNA.yaml", "COUNT": 150 }
+                "SOD": { "NAME": "NA", "MAPPING": "mappingNA.yaml", "COUNT": 128 },
+                "SOL": { "NAME": "SOL", "MAPPING": "mappingTIP3PwaterSlipids.yaml", "COUNT": 12800 }
             },
-            "DIR_WRK": "/usr/home/bort/Databank",
-            "PUBLICATION": null,
-            "AUTHORS_CONTACT": "Virtanen, Salla; Ollila, O. H. Samuli",
-            "SYSTEM": "150POPC_150POPG_31572SOL_150SOD_298K",
-            "SOFTWARE_VERSION": null,
-            "FF": "Lipid17",
-            "FF_SOURCE": "starting structure and lipid 17 parameters from https://zenodo.org/record/2585523#.Xbf0FC17FBx",
-            "FF_DATE": null,
-            "CPT": null,
-            "LOG": null,
-            "TOP": [
-                ["gromacsFIXED.top"]
-            ],
-            "TRAJECTORY_SIZE": 4953124108,
-            "TRJLENGTH": 200020,
+            "TRAJECTORY_SIZE": 1340011568,
+            "TRJLENGTH": 500100,
             "TEMPERATURE": 298,
-            "NUMBER_OF_ATOMS": 134016,
-            "DATEOFRUNNING": "03/01/2022",
+            "NUMBER_OF_ATOMS": 71936,
+            "DATEOFRUNNING": "21/12/2021",
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1002/j.1460-2075.1987.tb02595.x": "10.1002/j.1460-2075.1987.tb02595.x/6" },
+                    "POPC": { "10.1002/j.1460-2075.1987.tb02595.x": "10.1002/j.1460-2075.1987.tb02595.x/5" },
                     "POPG": {}
                 },
                 "FORMFACTOR": {}
             },
-            "ID": 503,
-            "path": "50a/869/50a869e592b5cb04f2139c462da1fd7814832acd/4416de72d1d15b560aef6adf7222ea774c90b53f/"
+            "ID": 307,
+            "path": "c74/6ca/c746ca52b71d685e53a802e8046e1253baf6af2b/8850a90345eb033df4ae3228c3b9fa1fbbe40162/"
+        }
+    },
+    {
+        "POPC": { "sn-1": NaN, "sn-2": NaN, "headgroup": 0.00448247, "total": 0.00448247 },
+        "TotalQuality": { "headgroup": 0.000280154, "tails": 0, "total": 0.000280154 },
+        "system": {
+            "FF_DATE": "?/?/2020",
+            "TYPEOFSYSTEM": "lipid bilayer",
+            "SYSTEM": "POPC:POPG(1:1)_T298K",
+            "TEMPERATURE": 298,
+            "NUMBER_OF_ATOMS": 133800,
+            "EXPERIMENT": {
+                "ORDERPARAMETER": {
+                    "POPG": {},
+                    "POPC": { "10.1002/j.1460-2075.1987.tb02595.x": "10.1002/j.1460-2075.1987.tb02595.x/5" }
+                },
+                "FORMFACTOR": {}
+            },
+            "FF_SOURCE": "CHARMM-GUI",
+            "COMPOSITION": {
+                "POPG": {
+                    "NAME": "POPG",
+                    "COUNT": [75, 75],
+                    "MAPPING": "mappingPOPGcharmm.yaml"
+                },
+                "POPC": {
+                    "NAME": "POPC",
+                    "COUNT": [75, 75],
+                    "MAPPING": "mappingPOPCcharmm.yaml"
+                },
+                "SOL": { "NAME": "TIP3", "COUNT": 31500, "MAPPING": "mappingTIP3PCHARMMgui.yaml" },
+                "SOD": { "NAME": "SOD", "COUNT": 150, "MAPPING": "mappingSOD.yaml" }
+            },
+            "TIMELEFTOUT": 0,
+            "TRJLENGTH": 300020,
+            "DATEOFRUNNING": "01/10/2021",
+            "FF": "CHARMM36",
+            "SOFTWARE": "gromacs",
+            "PREEQTIME": 100,
+            "DOI": "10.5281/zenodo.3997116",
+            "TRAJECTORY_SIZE": 7413293748,
+            "TPR": [
+                ["run_400ns.tpr"]
+            ],
+            "TRJ": [
+                ["100-400ns.xtc"]
+            ],
+            "DIR_WRK": "/media/osollila/Data/tmp/DATABANK/",
+            "ID": 592,
+            "path": "0c2/1a9/0c21a9be136ea0eb9df9e5c6cdc19f723a0af245/9ac73b6a98acb54a7a67a5d690794ad7f1e4a1d1/"
         }
     },
     {
@@ -5628,8 +5668,8 @@
         }
     },
     {
-        "POPC": { "sn-1": NaN, "sn-2": NaN, "headgroup": 0.000804793, "total": 0.000804793 },
-        "TotalQuality": { "headgroup": 5.02996e-05, "tails": 0, "total": 5.02996e-05 },
+        "POPC": { "sn-1": NaN, "sn-2": NaN, "headgroup": 0.00208751, "total": 0.00208751 },
+        "TotalQuality": { "headgroup": 0.000130469, "tails": 0, "total": 0.000130469 },
         "system": {
             "FF_DATE": "?/?/2020",
             "TYPEOFSYSTEM": "lipid bilayer",
@@ -5639,7 +5679,7 @@
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
                     "POPG": {},
-                    "POPC": { "10.1002/j.1460-2075.1987.tb02595.x": "10.1002/j.1460-2075.1987.tb02595.x/6" }
+                    "POPC": { "10.1002/j.1460-2075.1987.tb02595.x": "10.1002/j.1460-2075.1987.tb02595.x/5" }
                 },
                 "FORMFACTOR": {}
             },
@@ -5678,53 +5718,63 @@
         }
     },
     {
-        "POPC": { "sn-1": NaN, "sn-2": NaN, "headgroup": 0.000728805, "total": 0.000728805 },
-        "TotalQuality": { "headgroup": 4.55503e-05, "tails": 0, "total": 4.55503e-05 },
+        "POPC": { "sn-1": NaN, "sn-2": NaN, "headgroup": 0.00137297, "total": 0.00137297 },
+        "TotalQuality": { "headgroup": 8.58106e-05, "tails": 0, "total": 8.58106e-05 },
         "system": {
-            "DOI": "10.5281/zenodo.3613573",
-            "SYSTEM": "POPC_T298K",
+            "DOI": "10.5281/zenodo.3857816",
             "SOFTWARE": "gromacs",
-            "FF": "Slipids",
-            "FF_SOURCE": "http://www.fos.su.se/~sasha/SLipids/, https://bitbucket.org/hseara/ions/",
-            "FF_DATE": "??",
             "TRJ": [
-                ["PCPG_CA0.xtc"]
+                ["run2.xtc"]
             ],
             "TPR": [
-                ["PCPG_CA0.tpr"]
+                ["run2.tpr"]
             ],
-            "PREEQTIME": 0,
-            "TIMELEFTOUT": 100,
-            "DIR_WRK": "/usr/home/bort/Databank",
+            "PREEQTIME": 120,
+            "TIMELEFTOUT": 0,
             "COMPOSITION": {
                 "POPC": {
-                    "NAME": "POPC",
-                    "MAPPING": "mappingPOPCslipids.yaml",
-                    "COUNT": [64, 64]
+                    "NAME": "PC",
+                    "MOLTYPE": "system1",
+                    "MAPPING": "mappingPOPClipid17.yaml",
+                    "COUNT": [76, 74]
                 },
                 "POPG": {
-                    "NAME": "POPG",
-                    "MAPPING": "mappingPOPGslipids.yaml",
-                    "COUNT": [64, 64]
+                    "NAME": "PGR",
+                    "MOLTYPE": "system2",
+                    "MAPPING": "mappingPOPGlipid17.yaml",
+                    "COUNT": [75, 75]
                 },
-                "SOD": { "NAME": "NA", "MAPPING": "mappingNA.yaml", "COUNT": 128 },
-                "SOL": { "NAME": "SOL", "MAPPING": "mappingTIP3PwaterSlipids.yaml", "COUNT": 12800 }
+                "SOL": { "NAME": "SOL", "MAPPING": "mappingTIP3Pwater.yaml", "COUNT": 31572 },
+                "SOD": { "NAME": "NA", "MAPPING": "mappingNA.yaml", "COUNT": 150 }
             },
-            "TRAJECTORY_SIZE": 1340011568,
-            "TRJLENGTH": 500100,
+            "DIR_WRK": "/usr/home/bort/Databank",
+            "PUBLICATION": null,
+            "AUTHORS_CONTACT": "Virtanen, Salla; Ollila, O. H. Samuli",
+            "SYSTEM": "150POPC_150POPG_31572SOL_150SOD_298K",
+            "SOFTWARE_VERSION": null,
+            "FF": "Lipid17",
+            "FF_SOURCE": "starting structure and lipid 17 parameters from https://zenodo.org/record/2585523#.Xbf0FC17FBx",
+            "FF_DATE": null,
+            "CPT": null,
+            "LOG": null,
+            "TOP": [
+                ["gromacsFIXED.top"]
+            ],
+            "TRAJECTORY_SIZE": 4953124108,
+            "TRJLENGTH": 200020,
             "TEMPERATURE": 298,
-            "NUMBER_OF_ATOMS": 71936,
-            "DATEOFRUNNING": "21/12/2021",
+            "NUMBER_OF_ATOMS": 134016,
+            "DATEOFRUNNING": "03/01/2022",
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1002/j.1460-2075.1987.tb02595.x": "10.1002/j.1460-2075.1987.tb02595.x/6" },
+                    "POPC": { "10.1002/j.1460-2075.1987.tb02595.x": "10.1002/j.1460-2075.1987.tb02595.x/5" },
                     "POPG": {}
                 },
                 "FORMFACTOR": {}
             },
-            "ID": 307,
-            "path": "c74/6ca/c746ca52b71d685e53a802e8046e1253baf6af2b/8850a90345eb033df4ae3228c3b9fa1fbbe40162/"
+            "ID": 503,
+            "path": "50a/869/50a869e592b5cb04f2139c462da1fd7814832acd/4416de72d1d15b560aef6adf7222ea774c90b53f/"
         }
     },
     {
@@ -5775,56 +5825,6 @@
             "DIR_WRK": "/media/osollila/Data/tmp/DATABANK/",
             "ID": 429,
             "path": "2b9/b0d/2b9b0d32b79cea2fe66a283bf52e9c1f648393e4/b9251450aa7886b4109908c1ada3d666a77ba77b/"
-        }
-    },
-    {
-        "POPC": { "sn-1": NaN, "sn-2": NaN, "headgroup": 0.000297749, "total": 0.000297749 },
-        "TotalQuality": { "headgroup": 1.86093e-05, "tails": 0, "total": 1.86093e-05 },
-        "system": {
-            "FF_DATE": "?/?/2020",
-            "TYPEOFSYSTEM": "lipid bilayer",
-            "SYSTEM": "POPC:POPG(1:1)_T298K",
-            "TEMPERATURE": 298,
-            "NUMBER_OF_ATOMS": 133800,
-            "EXPERIMENT": {
-                "ORDERPARAMETER": {
-                    "POPG": {},
-                    "POPC": { "10.1002/j.1460-2075.1987.tb02595.x": "10.1002/j.1460-2075.1987.tb02595.x/6" }
-                },
-                "FORMFACTOR": {}
-            },
-            "FF_SOURCE": "CHARMM-GUI",
-            "COMPOSITION": {
-                "POPG": {
-                    "NAME": "POPG",
-                    "COUNT": [75, 75],
-                    "MAPPING": "mappingPOPGcharmm.yaml"
-                },
-                "POPC": {
-                    "NAME": "POPC",
-                    "COUNT": [75, 75],
-                    "MAPPING": "mappingPOPCcharmm.yaml"
-                },
-                "SOL": { "NAME": "TIP3", "COUNT": 31500, "MAPPING": "mappingTIP3PCHARMMgui.yaml" },
-                "SOD": { "NAME": "SOD", "COUNT": 150, "MAPPING": "mappingSOD.yaml" }
-            },
-            "TIMELEFTOUT": 0,
-            "TRJLENGTH": 300020,
-            "DATEOFRUNNING": "01/10/2021",
-            "FF": "CHARMM36",
-            "SOFTWARE": "gromacs",
-            "PREEQTIME": 100,
-            "DOI": "10.5281/zenodo.3997116",
-            "TRAJECTORY_SIZE": 7413293748,
-            "TPR": [
-                ["run_400ns.tpr"]
-            ],
-            "TRJ": [
-                ["100-400ns.xtc"]
-            ],
-            "DIR_WRK": "/media/osollila/Data/tmp/DATABANK/",
-            "ID": 592,
-            "path": "0c2/1a9/0c21a9be136ea0eb9df9e5c6cdc19f723a0af245/9ac73b6a98acb54a7a67a5d690794ad7f1e4a1d1/"
         }
     },
     {
