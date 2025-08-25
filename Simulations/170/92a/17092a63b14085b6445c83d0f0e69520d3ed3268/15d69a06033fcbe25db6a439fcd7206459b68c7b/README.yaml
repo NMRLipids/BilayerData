@@ -15,7 +15,7 @@ COMPOSITION:
     - 100
   SOL:
     NAME: SPC
-    MAPPING: mappingwaterlipid14.yaml
+    MAPPING: mappingSPC_OPLS4.yaml
     COUNT: 1000
 DIR_WRK: /set-in-console
 PUBLICATION: null
