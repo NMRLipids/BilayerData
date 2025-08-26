@@ -15,9 +15,6 @@ COMPOSITION:
   POPS:
     NAME: POPS
     MAPPING: mappingPOPScharmm.yaml
-  ? ''
-  : NAME: ''
-    MAPPING: ''
   SOL:
     NAME: SOL
     MAPPING: mappingTIP3PCHARMMgui.yaml
