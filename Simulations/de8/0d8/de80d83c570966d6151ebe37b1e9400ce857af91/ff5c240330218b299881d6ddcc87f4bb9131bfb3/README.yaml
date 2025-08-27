@@ -27,7 +27,7 @@ COMPOSITION:
     - 72
   SOL:
     NAME: SOL
-    MAPPING: mappingTIP3PCHARMMgui.yaml
+    MAPPING: mappingTIP3Pwater.yaml
     COUNT: 5760
   SOD:
     NAME: NA
