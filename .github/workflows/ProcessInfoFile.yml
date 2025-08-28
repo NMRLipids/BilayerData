@@ -1,0 +1,67 @@
+name: Process info file from pull request
+
+permissions:
+  contents: read
+
+on:
+  pull_request_target:
+    types: [opened]
+    paths:
+      - 'UserData/**'
+jobs:
+  AddData:
+    if: "${{ github.event.pull_request.head.repo.full_name == 'NMRLipids/UserData' && github.repository == 'NMRLipids/BilayerData' }}"
+    runs-on: nrec-large
+    environment: user_data_addition
+    timeout-minutes: 1440
+    container:
+      image: nmrlipids/core
+      options: --user 1000:1000
+    env:
+      NMLDB_DATA_PATH: ${{ github.workspace }}/BilayerData
+      NMLDB_SIMU_PATH: ${{ github.workspace }}/BilayerData/Simulations
+    steps:
+      - name: Checkout BilayerData
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          path: BilayerData
+          persist-credentials: false
+
+      - name: Checkout Databank
+        uses: actions/checkout@v4
+        with:
+          repository: NMRLipids/Databank
+          ref: main
+          path: Databank
+
+      - name: Compute new data
+        env:
+          TQDM_DISABLE: True
+        working-directory: Databank
+        run: |
+          pip install -e . -r ./Scripts/DatabankLib/requirements.txt
+          python Scripts/WorkflowScripts/ProcessInfoFile.py \
+            --info_file_path ../BilayerData/UserData/info.yml
+    
+      - uses: actions/create-github-app-token@v2
+        id: app-token
+        with:
+          app-id:      ${{ vars.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner:       ${{ github.event.pull_request.head.repo.owner.login }}
+          repositories: ${{ github.event.pull_request.head.repo.name }}
+      
+      - name: Add, commit and push changes 
+        working-directory: BilayerData
+        run: |
+          git config user.name "simulation-addition-admin[bot]"
+          git config user.email "simulation-addition-admin[bot]@users.noreply.github.com"
+          TOKEN='${{ steps.app-token.outputs.token }}'
+          REPO='${{ github.event.pull_request.head.repo.full_name }}'
+          git remote set-url origin "https://x-access-token:${TOKEN}@github.com/${REPO}.git"
+          git add Simulations/**/*.yaml Simulations/**/*.json
+          git rm UserData/*.yml 
+          git commit -m "Process info.yml [bot]" 
+          git push 

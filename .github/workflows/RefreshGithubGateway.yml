@@ -1,0 +1,23 @@
+name: Refresh Upload Portal Data
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Molecules/**'
+
+  workflow_dispatch:
+
+jobs:
+  refresh-upload-portal:
+    runs-on: ubuntu-latest
+    if: github.repository == 'NMRLipids/BilayerData'
+    steps:
+      - name: Hit refresh endpoint
+        id: refresh
+        run: |
+            curl --silent --show-error --fail-with-body \
+              -X POST \
+              -H "Authorization: Bearer ${{ secrets.UPLOAD_PORTAL_REFRESH_TOKEN }}" \
+              https://upload-portal.nmrlipids.fi/api/refresh-databank-files 
