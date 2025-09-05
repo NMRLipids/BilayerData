@@ -7,7 +7,7 @@ sameAs:
   pubchem.compound: 5283499
   lipidmaps: LMGP03010024
   slm: SLM:000005961
-  pdb: D39
+  pdb.ligand: D39
 bioschema_properties:
   iupacName: (2S)-2-amino-3-[[(2R)-3-hexadecanoyloxy-2-[(Z)-octadec-9-enoyl]oxypropoxy]-hydroxyphosphoryl]oxypropanoic
     acid

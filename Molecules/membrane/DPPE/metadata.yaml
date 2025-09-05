@@ -8,7 +8,7 @@ sameAs:
   lipidmaps: LMGP02010037
   metabolights: MTBLC73005
   slm: SLM:000034909
-  pdb: PEF
+  pdb.ligand: PEF
 bioschema_properties:
   iupacName: '[(2R)-3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-hexadecanoyloxypropyl]
     hexadecanoate'

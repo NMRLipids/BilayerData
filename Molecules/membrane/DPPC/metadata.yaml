@@ -8,7 +8,7 @@ sameAs:
   lipidmaps: LMGP01010564
   metabolights: MTBLC72999
   slm: SLM:000000505
-  pdb: PCF
+  pdb.ligand: PCF
 bioschema_properties:
   iupacName: '[(2R)-2,3-di(hexadecanoyloxy)propyl] 2-(trimethylazaniumyl)ethyl phosphate'
   smiles: CCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCC

@@ -8,7 +8,7 @@ sameAs:
   lipidmaps: LMSP03010003
   metabolights: MTBLC78646
   slm: SLM:000389794
-  pdb: HWP
+  pdb.ligand: HWP
 bioschema_properties:
   name: '[(E,2S,3R)-2-(hexadecanoylamino)-3-hydroxyoctadec-4-enyl] 2-(trimethylazaniumyl)ethyl
     phosphate'
