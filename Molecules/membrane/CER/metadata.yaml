@@ -8,7 +8,7 @@ sameAs:
   lipidmaps: LMSP02010004
   metabolights: MTBLC72959
   slm: SLM:000000554
-  pdb: 16C
+  pdb.ligand: 16C
 bioschema_properties:
   name: N-[(E,2S,3R)-1,3-dihydroxyoctadec-4-en-2-yl]hexadecanamide
   iupacName: N-[(E,2S,3R)-1,3-dihydroxyoctadec-4-en-2-yl]hexadecanamide

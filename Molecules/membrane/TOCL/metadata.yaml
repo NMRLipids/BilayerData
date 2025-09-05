@@ -8,7 +8,7 @@ sameAs:
   lipidmaps: LMGP12010525
   metabolights: MTBLC60356
   slm: SLM:000389835
-  pdb: QSR
+  pdb.ligand: QSR
 bioschema_properties:
   iupacName: '[(2R)-3-[[3-[[(2R)-2,3-bis[[(Z)-octadec-9-enoyl]oxy]propoxy]-hydroxyphosphoryl]oxy-2-hydroxypropoxy]-hydroxyphosphoryl]oxy-2-[(Z)-octadec-9-enoyl]oxypropyl]
     (Z)-octadec-9-enoate'

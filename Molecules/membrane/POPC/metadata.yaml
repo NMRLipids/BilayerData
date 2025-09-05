@@ -8,7 +8,7 @@ sameAs:
   lipidmaps: LMGP01010005
   metabolights: MTBLC34080
   slm: SLM:000000651
-  pdb: LBN
+  pdb.ligand: LBN
 bioschema_properties:
   iupacName: '[(2R)-3-hexadecanoyloxy-2-[(Z)-octadec-9-enoyl]oxypropyl] 2-(trimethylazaniumyl)ethyl
     phosphate'

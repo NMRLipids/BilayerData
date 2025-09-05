@@ -8,7 +8,7 @@ sameAs:
   lipidmaps: LMGP02010009
   metabolights: MTBLC73124
   slm: SLM:000000662
-  pdb: 6OU
+  pdb.ligand: 6OU
 bioschema_properties:
   iupacName: '[(2R)-1-[2-aminoethoxy(hydroxy)phosphoryl]oxy-3-hexadecanoyloxypropan-2-yl]
     (Z)-octadec-9-enoate'
