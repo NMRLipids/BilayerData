@@ -1,0 +1,43 @@
+name: Validate info file
+permissions:
+  contents: read
+
+on:
+  pull_request_target:
+    types: [opened]
+    paths:
+      - 'UserData/**'
+jobs:
+  ValidateInfoFile:
+    if: "${{ github.event.pull_request.head.repo.full_name == 'NMRlipids/UserData' && github.repository == 'NMRlipids/BilayerData' }}"
+    runs-on: ubuntu-latest
+    container:
+      image: nmrlipids/core
+      options: --user 1001:118
+    env:
+      NMLDB_DATA_PATH: ${{ github.workspace }}/BilayerData
+      NMLDB_SIMU_PATH: ${{ github.workspace }}/BilayerData/Simulations
+    steps:
+      - name: Checkout BilayerData
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          path: BilayerData
+          persist-credentials: false
+
+      - name: Checkout Databank
+        uses: actions/checkout@v4
+        with:
+          repository: NMRlipids/Databank
+          ref: main
+          path: Databank
+
+      - name: Run dry run of AddData 
+        env:
+          TQDM_DISABLE: True
+        working-directory: Databank
+        run: |
+          pip install -e . -r ./Scripts/DatabankLib/requirements.txt
+          python Scripts/WorkflowScripts/ProcessInfoFile.py \
+            --info_file_path ../BilayerData/UserData/info.yml --dry-run
