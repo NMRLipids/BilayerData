@@ -1,0 +1,26 @@
+DOI: 10.5281/zenodo.10464960
+TRJ: POPC_113mM_NaCl_prosECCo75.xtc
+TPR: POPC_113mM_NaCl_prosECCo75.tpr
+SOFTWARE: gromacs
+PREEQTIME: 0
+TIMELEFTOUT: 0
+SYSTEM: POPC_113mM_NaCl_prosECCo75
+FF: prosECCo
+CPT: POPC_113mM_NaCl_prosECCo75.cpt
+LOG: POPC_113mM_NaCl_prosECCo75.log
+TOP: POPC_113mM_NaCl_prosECCo75.top
+GRO: POPC_113mM_NaCl_prosECCo75.gro
+EDR: POPC_113mM_NaCl_prosECCo75.edr
+COMPOSITION:
+  POPC:
+    NAME: POPC
+    MAPPING: mappingPOPCcharmm.yaml
+  SOL:
+    NAME: SOL
+    MAPPING: mappingTIP3PCHARMMgui.yaml
+  SOD:
+    NAME: NA
+    MAPPING: mappingSODecc.yaml
+  CLA:
+    NAME: CL
+    MAPPING: mappingCLAecc.yaml
