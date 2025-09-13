@@ -19,7 +19,6 @@ jobs:
       options: --user 1000:1000
     env:
       NMLDB_DATA_PATH: ${{ github.workspace }}/BilayerData
-      NMLDB_SIMU_PATH: ${{ github.workspace }}/BilayerData/Simulations
       MEM_CUTOFF: 1500000000
     steps:
       - name: Checkout BilayerData
