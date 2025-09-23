@@ -5426,6 +5426,63 @@
         }
     },
     {
+        "POPS": { "sn-1": 0.00467443, "sn-2": 0.037316, "headgroup": 0.249069, "total": 0.0970196 },
+        "TotalQuality": { "headgroup": 0.249069, "tails": 0.0209952, "total": 0.0970196, "FFQuality": 1.677 },
+        "system": {
+            "DOI": "10.5281/zenodo.10467181",
+            "TRJ": [
+                ["POPS_144_144_Na_contraions_prosECCo75.xtc"]
+            ],
+            "TPR": [
+                ["POPS_144_144_Na_contraions_prosECCo75.tpr"]
+            ],
+            "SOFTWARE": "gromacs",
+            "PREEQTIME": 0,
+            "TIMELEFTOUT": 0,
+            "SYSTEM": "POPS_prosECCo",
+            "PUBLICATION": "https://doi.org/10.1021/acs.jctc.4c00743",
+            "FF": "PROSECCO",
+            "CPT": [
+                ["POPS_144_144_Na_contraions_prosECCo75.cpt"]
+            ],
+            "LOG": [
+                ["POPS_144_144_Na_contraions_prosECCo75.log"]
+            ],
+            "TOP": [
+                ["POPS_144_144_Na_contraions_prosECCo75.top"]
+            ],
+            "GRO": [
+                ["POPS_144_144_Na_contraions_prosECCo75.gro"]
+            ],
+            "EDR": [
+                ["POPS_144_144_Na_contraions_prosECCo75.edr"]
+            ],
+            "COMPOSITION": {
+                "POPS": {
+                    "NAME": "POPS",
+                    "MAPPING": "mappingPOPScharmm.yaml",
+                    "COUNT": [72, 72]
+                },
+                "SOL": { "NAME": "SOL", "MAPPING": "mappingTIP3Pwater.yaml", "COUNT": 5760 },
+                "SOD": { "NAME": "NA", "MAPPING": "mappingSODecc.yaml", "COUNT": 144 }
+            },
+            "TRAJECTORY_SIZE": 653757492,
+            "TRJLENGTH": 500100,
+            "TEMPERATURE": 298,
+            "NUMBER_OF_ATOMS": 35712,
+            "DATEOFRUNNING": "23/09/2025",
+            "TYPEOFSYSTEM": "lipid bilayer",
+            "ID": -2,
+            "EXPERIMENT": {
+                "ORDERPARAMETER": {
+                    "POPS": { "10.1021/acs.jctc.9b00824": "10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091": "10.1021/acs.jpcb.9b06091/1" }
+                },
+                "FORMFACTOR": "10.1039/C4SM00066H/1"
+            },
+            "path": "de8/0d8/de80d83c570966d6151ebe37b1e9400ce857af91/ff5c240330218b299881d6ddcc87f4bb9131bfb3/"
+        }
+    },
+    {
         "POPC": { "sn-1": 0.00336962, "sn-2": 0.0330292, "headgroup": 0.512651, "total": 0.183016 },
         "TotalQuality": { "headgroup": 0.512651, "tails": 0.0181994, "total": 0.183016, "FFQuality": 5.255 },
         "system": {
