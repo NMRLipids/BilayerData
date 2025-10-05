@@ -41,9 +41,9 @@ jobs:
           TQDM_DISABLE: True
         working-directory: Databank
         run: |
-          pip install -e . -r ./Scripts/DatabankLib/requirements.txt
-          python Scripts/WorkflowScripts/ProcessInfoFile.py \
-            --info_file_path ../BilayerData/UserData/info.yml
+          pip install .
+          python developer/ProcessInfoFile.py \
+            --info_file_path ../BilayerData/UserData/info.yml 
     
       - uses: actions/create-github-app-token@v2
         id: app-token

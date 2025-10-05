@@ -28,7 +28,7 @@ jobs:
       - name: Checkout Databank
         uses: actions/checkout@v4
         with:
-          repository: NMRlipids/Databank
+          repository: NMRLipids/Databank
           ref: main
           path: Databank
 
@@ -37,6 +37,6 @@ jobs:
           TQDM_DISABLE: True
         working-directory: Databank
         run: |
-          pip install -e . -r ./Scripts/DatabankLib/requirements.txt
-          python Scripts/WorkflowScripts/ProcessInfoFile.py \
+          pip install .
+          python developer/ProcessInfoFile.py \
             --info_file_path ../BilayerData/UserData/info.yml --dry-run
