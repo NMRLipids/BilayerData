@@ -33,10 +33,9 @@ jobs:
           - name: Install Databank dependencies
             working-directory: "Databank"
             run: |
-               pip install -e . -r ./Scripts/DatabankLib/requirements.txt
+               pip install . 
 
           - name: Validate
             working-directory: "Databank"
             run: |
-              python Scripts/WorkflowScripts/ValidateData.py
-
+              python developer/ValidateData.py

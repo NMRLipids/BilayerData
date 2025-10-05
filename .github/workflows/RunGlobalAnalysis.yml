@@ -44,8 +44,8 @@ jobs:
           TQDM_DISABLE: "True"
         working-directory: "Databank"
         run: |
-          pip install -e . -r ./Scripts/DatabankLib/requirements.txt
-          python Scripts/WorkflowScripts/RunAnalysis.py 
+          pip install .
+          python developer/RunAnalysis.py 
            
       - name: Create Pull Request with simulation updates
         uses: peter-evans/create-pull-request@v7
