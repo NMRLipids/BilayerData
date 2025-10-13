@@ -1,7 +1,7 @@
 NMRlipids:
   id: SM16
   name: N-palmitoyl-D-erythro-sphingosylphosphorylcholine
-  charge:
+  charge: 0
 sameAs:
   pubchem.compound: 9939941
   chebi: CHEBI:78646

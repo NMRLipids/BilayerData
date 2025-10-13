@@ -1,7 +1,7 @@
 NMRlipids:
   id: CER180
   name: N-stearoyl-D-erythro-sphingosine
-  charge:
+  charge: 0
 sameAs:
   pubchem.compound: 5283565
   chebi: CHEBI:72961
