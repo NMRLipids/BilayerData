@@ -1,7 +1,7 @@
 NMRlipids:
   id: GB3
   name: Gb3(d18:1/24:0)
-  charge:
+  charge: 0
 sameAs:
   pubchem.compound: 90659803
   chebi: CHEBI:84695

@@ -1,7 +1,7 @@
 NMRlipids:
   id: SOPC
   name: 1-stearoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  charge:
+  charge: 0
 sameAs:
   ChEBI: CHEBI:75034
   pubchem.compound: 24778825
@@ -15,4 +15,4 @@ bioschema_properties:
   inChI: InChI=1S/C44H86NO8P/c1-6-8-10-12-14-16-18-20-22-24-26-28-30-32-34-36-43(46)50-40-42(41-52-54(48,49)51-39-38-45(3,4)5)53-44(47)37-35-33-31-29-27-25-23-21-19-17-15-13-11-9-7-2/h21,23,42H,6-20,22,24-41H2,1-5H3/b23-21-/t42-/m1/s1
   inChIKey: ATHVAWFAEPLPPQ-VRDBWYNSSA-N
   molecularFormula: C44H86NO8P
-  MolecularWeight: '788.1'
+  molecularWeight: '788.1'

@@ -1,7 +1,7 @@
 NMRlipids:
   id: GM1
   name: GM1(d18:1/16:0)
-  charge:
+  charge: -1
 sameAs:
   pubchem.compound: 90659792
   chebi: CHEBI:84670

@@ -1,6 +1,6 @@
 NMRlipids:
   id: SAPI25
-  charge:
+  charge: -3
 sameAs:
   pubchem.compound: 5497157
   chebi: CHEBI:77276
