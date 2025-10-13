@@ -11,12 +11,15 @@ jobs:
     steps:
       - name: Wipe everything under _work
         run: |
+          # Move two levels up from $GITHUB_WORKSPACE to reach _work directory
           WORKDIR="$(dirname "$(dirname "$GITHUB_WORKSPACE")")"
 
           echo "Detected workspace: $GITHUB_WORKSPACE"
           echo "Resolved workdir:   $WORKDIR"
           echo
 
+          # Safety check: verify that the resolved directory name is "_work"
+          # before running deletion. 
           if [[ "$(basename "$WORKDIR")" == "_work" ]]; then
             echo "Confirmed _work directory, proceeding with cleanup."
             sudo find "$WORKDIR" -mindepth 1 -maxdepth 1 -exec rm -rf -- {} +
