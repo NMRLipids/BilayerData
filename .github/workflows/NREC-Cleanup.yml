@@ -1,0 +1,33 @@
+name: Weekly NREC Workspace Cleanup
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"  
+  workflow_dispatch:
+
+jobs:
+  cleanup:
+    runs-on: [nrec-large]
+    steps:
+      - name: Wipe everything under _work
+        run: |
+          # Move two levels up from $GITHUB_WORKSPACE to reach _work directory
+          WORKDIR="$(dirname "$(dirname "$GITHUB_WORKSPACE")")"
+
+          echo "Detected workspace: $GITHUB_WORKSPACE"
+          echo "Resolved workdir:   $WORKDIR"
+          echo
+
+          # Safety check: verify that the resolved directory name is "_work"
+          # before running deletion. 
+          if [[ "$(basename "$WORKDIR")" == "_work" ]]; then
+            echo "Confirmed _work directory, proceeding with cleanup."
+            sudo find "$WORKDIR" -mindepth 1 -maxdepth 1 -exec rm -rf -- {} +
+          else
+            echo "Safety check failed — $WORKDIR is not named _work"
+            exit 1
+          fi
+
+          echo
+          echo "Cleanup complete. Current disk usage:"
+          df -h
