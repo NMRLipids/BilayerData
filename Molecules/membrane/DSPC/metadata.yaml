@@ -1,7 +1,7 @@
 NMRlipids:
   id: DSPC
   name: 1,2-distearoyl-sn-glycero-3-phosphocholine
-  charge:
+  charge: 0
 sameAs:
   pubchem.compound: 94190
   lipidmaps: LMGP01010006
