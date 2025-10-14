@@ -19,7 +19,7 @@ COMPOSITION:
     COUNT: 57600
   CHOL:
     NAME: CHOL
-    MAPPING: mappingCHOLESTEROLmacrog.yaml
+    MAPPING: mappingCHOLESTEROLmacrog2.yaml
     COUNT:
     - 64
     - 64
