@@ -1,7 +1,7 @@
 NMRlipids:
   id: SLPI
   name: 1-stearoyl-2-lauroyl-sn-glycero-3-phosphoinositol(-1)
-  charge: 0
+  charge: -1
 sameAs:
   ChEBI: CHEBI:77343
   pubchem.compound: 52928409
