@@ -1,0 +1,49 @@
+name: AutocompleteMetadata.yml
+
+on:
+  push:
+    paths:
+      - 'Molecules/membrane/**/metadata.yaml'
+      - 'Molecules/solution/**/metadata.yaml'
+  pull_request:
+    paths:
+      - 'Molecules/membrane/**/metadata.yaml'
+      - 'Molecules/solution/**/metadata.yaml'
+
+jobs:
+  add-metadata:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Find changed metadata.yaml files
+        id: files
+        run: |
+          echo "::set-output name=changed_files::$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }} \
+            | grep -E '^Molecules/(membrane|solution)/[^/]+/metadata\.yaml$' | tr '\n' ' ')"
+
+      - name: Run AddMetadata.py and create suggestions
+        if: steps.files.outputs.changed_files != ''
+        env:
+          CHANGED_FILES: ${{ steps.files.outputs.changed_files }}
+        run: |
+          for file in $CHANGED_FILES; do
+            python AutocompleteMetadata.py "$file"
+          done
+
+      - name: Suggest changes on PR
+        if: steps.files.outputs.changed_files != ''
+        uses: reviewdog/action-suggester@v1
+        with:
+          tool_name: addmetadata
+          github_token: ${{ secrets.GITHUB_TOKEN }}
