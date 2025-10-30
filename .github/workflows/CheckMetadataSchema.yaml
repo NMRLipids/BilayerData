@@ -1,0 +1,34 @@
+name: CheckMetadataSchema.yaml
+
+on:
+  push:
+    paths:
+      - 'Molecules/membrane/*/metadata.yaml'
+      - 'Molecules/solution/*/metadata.yaml'
+  pull_request:
+    paths:
+      - 'Molecules/membrane/*/metadata.yaml'
+      - 'Molecules/solution/*/metadata.yaml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install check-jsonschema
+        run: pip install check-jsonschema==0.34.1
+
+      - name: Validate metadata.yaml files
+        run: |
+          for file in Molecules/membrane/*/metadata.yaml Molecules/solution/*/metadata.yaml; do
+            if [ -f "$file" ]; then
+              check-jsonschema --schemafile Molecules/metadata_schema.json "$file"
+            fi
+          done
