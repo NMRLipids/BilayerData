@@ -51,7 +51,7 @@ def get_unichem(inchikey):
 def extract_sameas(sources):
     mapping = {
         "pubchem": "pubchem.compound",
-        "chebi": "chebi",
+        "chebi": "ChEBI",
         "lipidmaps": "lipidmaps",
         "metabolights": "metabolights",
         "swisslipids": "slm",
