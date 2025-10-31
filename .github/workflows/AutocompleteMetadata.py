@@ -80,7 +80,7 @@ def extract_sameas(sources):
         prefix = mapping.get(src["shortName"])
         if prefix:
             value = src["compoundId"]
-            if prefix == "chebi":
+            if prefix == "ChEBI":
                 value = f"CHEBI:{value}" if value else ""
             elif prefix == "pubchem.compound":
                 try:
