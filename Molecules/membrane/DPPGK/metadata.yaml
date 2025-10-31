@@ -1,7 +1,7 @@
 NMRlipids:
   id: DPPGK
   name: 1,2-dioleoyl-sn-glycero-3-[phospho-rac-(3-lysyl(1-glycerol))] (lysyl-PG)
-  charge: 1
+  charge: +1
 sameAs:
   pubchem.compound: 140699964
 bioschema_properties:
@@ -12,6 +12,3 @@ bioschema_properties:
   inChIKey: LCKJYJKOGOEUAZ-GDRSUGLPSA-O
   molecularFormula: C48H92N2O11P+
   molecularWeight: '904.2'
-  name: '[3-[(2S)-2,6-bis(azaniumyl)hexanoyl]oxy-2-hydroxypropyl] [(2R)-2,3-bis[[(Z)-octadec-9-enoyl]oxy]propyl]
-    phosphate'
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=140699964&t=l

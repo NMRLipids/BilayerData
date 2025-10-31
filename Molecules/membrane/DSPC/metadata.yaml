@@ -8,7 +8,6 @@ sameAs:
   metabolights: MTBLC83718
   slm: SLM:000012489
   pdb.ligand: PC1
-  ChEBI: '83718'
 bioschema_properties:
   iupacName: '[(2R)-2,3-di(octadecanoyloxy)propyl] 2-(trimethylazaniumyl)ethyl phosphate'
   smiles: CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC
@@ -16,17 +15,3 @@ bioschema_properties:
   inChIKey: NRJAVPSFFCBXDT-HUESYALOSA-N
   molecularFormula: C44H88NO8P
   molecularWeight: '790.1'
-  name: '[(2R)-2,3-di(octadecanoyloxy)propyl] 2-(trimethylazaniumyl)ethyl phosphate'
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=94190&t=l
-  alternateName:
-  - PC 18:0/18:0
-  - PC (18:0)<small><sub>2</sub></small>
-  - PC(18:0/18:0)
-  - Distearoyl phosphatidylcholine
-  - GPCho(36:0)
-  - GPCho(18:0/18:0)
-  - Phosphatidylcholine(18:0/18:0)
-  - Phosphatidylcholine(36:0)
-  - PC(36:0)
-  - 1,2-Distearoyl-sn-3-phosphacholine
-  - GPC(18:0/18:0)

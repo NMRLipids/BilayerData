@@ -17,18 +17,3 @@ bioschema_properties:
   inChIKey: SLKDGVPOSSLUAI-PGUFJCEWSA-N
   molecularFormula: C37H74NO8P
   molecularWeight: '692'
-  name: '[(2R)-3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-hexadecanoyloxypropyl] hexadecanoate'
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=445468&t=l
-  alternateName:
-  - Dipalmitoyl phosphatidylethanolamine
-  - 1,2-dipalmitoyl-<em>sn</em>-glycero-3-phosphoethanolamine
-  - PE(16:0/16:0)
-  - 1,2-Dihexadecanoyl-sn-glycerol-3-phosphorylethanolamine
-  - 2-aminoethyl (2<i>R</i>)-2,3-bis(hexadecanoyloxy)propyl hydrogen phosphate
-  - 2-aminoethyl (2<i>R</i>)-2,3-bis(palmitoyloxy)propyl hydrogen phosphate
-  - (R)-1-((((2-Aminoethoxy)hydroxyphosphinoyl)oxy)methyl)ethane-1,2-diyl dihexadecanoate
-  - Phosphatidylethanolamine(16:0/16:0)
-  - GPEtn(32:0)
-  - PE(32:0)
-  - GPEtn(16:0/16:0)
-  - Phophatidylethanolamine(32:0)

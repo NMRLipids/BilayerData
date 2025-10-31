@@ -5,7 +5,6 @@ sameAs:
   pubchem.compound: 5497157
   chebi: CHEBI:77276
   metabolights: MTBLC77276
-  ChEBI: '77276'
 bioschema_properties:
   name: '[(2R)-1-[hydroxy-[(1R,2R,3S,4R,5R,6S)-2,3,6-trihydroxy-4,5-diphosphonooxycyclohexyl]oxyphosphoryl]oxy-3-octadecanoyloxypropan-2-yl]
     (5Z,8Z,11Z,14Z)-icosa-5,8,11,14-tetraenoate'
@@ -16,10 +15,3 @@ bioschema_properties:
   inChI: InChI=1S/C47H85O19P3/c1-3-5-7-9-11-13-15-17-19-20-22-24-26-28-30-32-34-36-41(49)63-39(37-61-40(48)35-33-31-29-27-25-23-21-18-16-14-12-10-8-6-4-2)38-62-69(59,60)66-45-42(50)43(51)46(64-67(53,54)55)47(44(45)52)65-68(56,57)58/h11,13,17,19,22,24,28,30,39,42-47,50-52H,3-10,12,14-16,18,20-21,23,25-27,29,31-38H2,1-2H3,(H,59,60)(H2,53,54,55)(H2,56,57,58)/b13-11-,19-17-,24-22-,30-28-/t39-,42-,43+,44+,45-,46-,47-/m1/s1
   inChIKey: CNWINRVXAYPOMW-FCNJXWMTSA-N
   smiles: CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)(O)O[C@@H]1[C@@H]([C@@H]([C@H]([C@@H]([C@H]1O)OP(=O)(O)O)OP(=O)(O)O)O)O)OC(=O)CCC/C=C\C/C=C\C/C=C\C/C=C\CCCCC
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=5497157&t=l
-  alternateName:
-  - 1-stearoyl-2-arachidonoyl-<em>sn</em>-phosphatidylinositol 4,5-biphosphate
-  - 1-octadecanoyl-2-(5<i>Z</i>,8<i>Z</i>,11<i>Z</i>,14<i>Z</i>)-icosatetraenoyl-<em>sn</em>-glycero-3-phospho-1<small>D</small>-<em>myo</em>-inositol
-    4,5-biphosphate
-  - 1-octadecanoyl-2-(5<i>Z</i>,8<i>Z</i>,11<i>Z</i>,14<i>Z</i>)-eicosatetraenoyl-<em>sn</em>-glycero-3-phospho-1<small>D</small>-<em>myo</em>-inositol
-    4,5-biphosphate

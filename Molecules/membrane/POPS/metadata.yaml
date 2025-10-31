@@ -8,7 +8,6 @@ sameAs:
   lipidmaps: LMGP03010024
   slm: SLM:000005961
   pdb.ligand: D39
-  metabolights: MTBLC34086
 bioschema_properties:
   iupacName: (2S)-2-amino-3-[[(2R)-3-hexadecanoyloxy-2-[(Z)-octadec-9-enoyl]oxypropoxy]-hydroxyphosphoryl]oxypropanoic
     acid
@@ -17,11 +16,3 @@ bioschema_properties:
   inChIKey: OIWCYIUQAVBPGV-DAQGAKHBSA-N
   molecularFormula: C40H76NO10P
   molecularWeight: '762'
-  name: (2S)-2-amino-3-[[(2R)-3-hexadecanoyloxy-2-[(Z)-octadec-9-enoyl]oxypropoxy]-hydroxyphosphoryl]oxypropanoic
-    acid
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=5283499&t=l
-  alternateName:
-  - 1-Hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphoserine
-  - 1-Palmitoyl-2-oleoylglycero-3-phosphoserine
-  - 1-Palmitoyl-2-oleoyl-glycero-3-phosphoserine
-  - 1-Palmitoyl-2-oleoylphosphatidylserine
