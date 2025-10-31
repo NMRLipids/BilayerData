@@ -36,6 +36,22 @@ def get_pubchem_synonyms(cid):
             return resp.json().get("InformationList", {}).get("Information", [{}])[0].get("Synonym", [])
     return []
 
+def get_chebi(chebi_id):
+    if not chebi_id:
+        return {}
+    
+    url = f"https://www.ebi.ac.uk/chebi/backend/api/public/compound/{chebi_id}/?only_ontology_parents=false&only_ontology_children=false"
+    
+    try:
+        if check_api(url):
+            resp = requests.get(url)
+            if resp.status_code == 200:
+                return resp.json()
+    except requests.RequestException:
+        pass
+    
+    return {}
+
 def get_unichem(inchikey):
     url = "https://www.ebi.ac.uk/unichem/api/v1/compounds"
     if check_api("https://www.ebi.ac.uk/unichem/api/v1/sources"):
@@ -129,6 +145,33 @@ def main():
     cid = pubchem.get("CID", sameas.get("pubchem.compound"))
     synonyms = get_pubchem_synonyms(cid) if cid else []
 
+    # First, check if there's a ChEBI ID from unichem
+    chebi_id = sameas.get("ChEBI", "").replace("CHEBI:", "")
+    chebi_data = get_chebi(chebi_id) if chebi_id else {}
+    
+    # Collect alternate names with priority
+    alternate_names = []
+    
+    # 1. Try ChEBI synonyms first
+    if chebi_data and 'names' in chebi_data:
+        # Extract only the 'name' from SYNONYM type
+        alternate_names = [
+            syn['name'] 
+            for syn in chebi_data.get('names', {}).get('SYNONYM', []) 
+            if syn.get('type') == 'SYNONYM' and syn.get('name')
+        ]
+    
+    # 2. If no ChEBI synonyms, try ChEMBL synonyms
+    if not alternate_names and chembl.get("molecule_synonyms"):
+        alternate_names = [
+            syn.get('molecule_synonym', '') 
+            for syn in chembl.get("molecule_synonyms", [])
+        ]
+    
+    # 3. If still no synonyms, try PubChem synonyms
+    if not alternate_names and synonyms:
+        alternate_names = synonyms
+
     molecule_props = chembl.get("molecule_properties", {})
     molecule_structures = chembl.get("molecule_structures", {})
     chembl_id = get_chembl_id_from_unichem(sources)
@@ -141,15 +184,7 @@ def main():
     else:
         image_url = ""
 
-    chembl_synonyms = chembl.get("molecule_synonyms", [])
-    if chembl_synonyms:
-        alternate_names = chembl_synonyms
-    elif synonyms:
-        alternate_names = synonyms
-    else:
-        alternate_names = []
-
-    bioschema = {
+     bioschema = {
         "name": molecule_props.get("iupac_name") or pubchem.get("IUPACName", ""),
         "iupacName": molecule_props.get("iupac_name") or pubchem.get("IUPACName", ""),
         "molecularFormula": molecule_props.get("full_molformula") or pubchem.get("MolecularFormula", ""),
