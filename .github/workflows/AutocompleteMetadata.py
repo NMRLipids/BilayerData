@@ -184,7 +184,7 @@ def main():
     else:
         image_url = ""
 
-     bioschema = {
+    bioschema = {
         "name": molecule_props.get("iupac_name") or pubchem.get("IUPACName", ""),
         "iupacName": molecule_props.get("iupac_name") or pubchem.get("IUPACName", ""),
         "molecularFormula": molecule_props.get("full_molformula") or pubchem.get("MolecularFormula", ""),
