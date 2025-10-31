@@ -7,6 +7,8 @@ sameAs:
   pubchem.compound: 62852
   metabolights: MTBLC41128
   pdb.ligand: BOG
+  pdb: BOG
+  chebi: CHEBI:41128
 bioschema_properties:
   iupacName: (2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-octoxyoxane-3,4,5-triol
   smiles: CCCCCCCCO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O
@@ -14,3 +16,114 @@ bioschema_properties:
   inChIKey: HEGSGKPQLMEBJL-RKQHYHRCSA-N
   molecularFormula: C14H28O6
   molecularWeight: '292.37'
+  name: (2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-octoxyoxane-3,4,5-triol
+  image: https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL446037?dimensions=200
+  alternateName:
+  - 29836-26-8
+  - OCTYL BETA-D-GLUCOPYRANOSIDE
+  - n-Octyl-beta-D-glucopyranoside
+  - 1-O-n-Octyl-beta-D-glucopyranoside
+  - caprylyl glucoside
+  - beta-D-Octyl glucoside
+  - Octyl-beta-D-glucoside
+  - octylglucoside
+  - (2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-octoxyoxane-3,4,5-triol
+  - V109WUT6RL
+  - beta-D-Glucopyranoside, octyl
+  - DTXSID6042234
+  - DTXCID4022234
+  - CHEBI:41128
+  - octylglucopyranoside
+  - beta-octyl-d-glucoside
+  - octyl-alpha-D-glucoside
+  - beta-octylglucopyranoside
+  - RefChem:856084
+  - 249-887-8
+  - Octyl-beta-D-glucopyranoside
+  - B-Octylglucoside
+  - Octyl beta-D-glucoside
+  - Octyl b-D-Glucopyranoside
+  - MFCD00063288
+  - n-Octyl glucoside
+  - 1-O-Octyl-beta-D-glucopyranoside
+  - (2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-(octyloxy)tetrahydro-2H-pyran-3,4,5-triol
+  - 1174225-19-4
+  - n-Octyl-beta-D-Glucoside
+  - n-Octyl |A-D-glucopyranoside
+  - n-Octyl beta-D-glucopyranoside
+  - C14H28O6
+  - 1-O-octyl-.beta.-D-glucopyranoside
+  - OGP
+  - M02217
+  - 144388-20-5
+  - BOG
+  - octyl-glucoside
+  - OCTYL L-GLUCOPYRANOSIDE
+  - 78168-20-4
+  - 2-[4-[Acetyl[[2-(acetylamino)-3,4-dihydro-4-oxo-6-pteridinyl]methyl]amino]phenyl]-4,5-dihydro-5-oxo-
+  - Octyl ?-D-Glucopyranoside
+  - OG
+  - Octyl .beta.-D-glucopyranoside
+  - UNII-V109WUT6RL
+  - GLC-(1-1)OCT
+  - .beta.-D-Glucopyranoside, octyl
+  - Oct beta-Glc
+  - beta-octylglucoside
+  - EINECS 249-887-8
+  - N-OCTYL-|A-D-GLUCOPYRANOSIDE
+  - octyl beta-D-glucose
+  - 'Octyl hexopyranoside #'
+  - OyEthA>>uAEIINICUO
+  - Octyl .beta.-glucoside
+  - beta-Octyl monoglucoside
+  - n-octyl-|A-D-glucoside
+  - SUCRAPH AG-8
+  - n-Octyl beta-D-glucoside
+  - Octyl beta-glucopyranoside
+  - 1-Octyl beta-D-glucoside
+  - n-Octylglucoside, non-ionic
+  - SCHEMBL61562
+  - n-Octyl-ss-D-Glucopyranoside
+  - Octyl-I(2)-D-glucopyranoside
+  - 1-octyl-beta-d-glucopyranoside
+  - 1-Octyl beta-D-glucopyranoside
+  - CHEMBL446037
+  - Octyl-.beta.-D-glucopyranoside
+  - orb1685725
+  - 1-O-Octyl-?-D-glucopyranoside
+  - 1-O-Octyl-beta-D-glucopyranose
+  - n-octyl-.beta.-d-glucopyranoside
+  - 1-n-Octyl beta-D-glucopyranoside
+  - CHEBI:136667
+  - n-Octyl- beta -D-glucopyranoside
+  - n-Octyl--D-glucopyranoside;OG;OGP
+  - Tox21_302162
+  - 54549-23-4 (alpha/beta mix)
+  - beta-D-Glucopyranoside, octyl (9CI)
+  - AKOS015919434
+  - CCG-233290
+  - DO05161
+  - MO07054
+  - Glucopyranoside, octyl, beta-D- (8CI)
+  - NCGC00255887-01
+  - AS-18093
+  - N-OCTYL-.BETA.-D-GLUCOSIDE [MI]
+  - Octyl-|A-D-glucopyranoside research grade
+  - SY074759
+  - CAS-29836-26-8
+  - DS-021969
+  - HY-116285
+  - CS-0064659
+  - NS00015079
+  - O0232
+  - Octyl beta-D-glucopyranoside, >=98% (GC)
+  - F14806
+  - M-1311
+  - Q7077127
+  - Octyl beta-D-glucopyranoside, BioXtra, >=98% (GC)
+  - Octyl beta-D-glucopyranoside, Vetec(TM) reagent grade, 98%
+  - n-Octylglucoside;1-O-Octyl b-D-glucopyranoside;OG;Caprylyl glucoside
+  - (2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-(octyloxy)oxane-3,4,5-triol
+  - (2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-octoxy-tetrahydropyran-3,4,5-triol
+  - Beta-Octylglucoside; octyl beta-D-glucoside; octyl D-glucoside; octyl glucoside
+  - NCGC00385963-01!(2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-octoxyoxane-3,4,5-triol

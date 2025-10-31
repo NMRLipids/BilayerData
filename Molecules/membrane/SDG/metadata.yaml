@@ -8,6 +8,7 @@ sameAs:
   lipidmaps: LMGL02010216
   metabolights: MTBLC77129
   slm: SLM:000123251
+  chebi: CHEBI:77129
 bioschema_properties:
   iupacName: '[(2S)-1-hydroxy-3-octadecanoyloxypropan-2-yl] (4Z,7Z,10Z,13Z,16Z,19Z)-docosa-4,7,10,13,16,19-hexaenoate'
   smiles: CCCCCCCCCCCCCCCCCC(=O)OC[C@H](CO)OC(=O)CC/C=C\C/C=C\C/C=C\C/C=C\C/C=C\C/C=C\CC
@@ -15,3 +16,50 @@ bioschema_properties:
   inChIKey: LBDXVTOFXXDOGH-KXYFHQNYSA-N
   molecularFormula: C43H72O5
   molecularWeight: '669'
+  name: '[(2S)-1-hydroxy-3-octadecanoyloxypropan-2-yl] (4Z,7Z,10Z,13Z,16Z,19Z)-docosa-4,7,10,13,16,19-hexaenoate'
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=9543881&t=l
+  alternateName:
+  - 1-stearoyl-2-docosahexaenoyl-sn-glycerol
+  - '[(2S)-1-hydroxy-3-octadecanoyloxypropan-2-yl] (4Z,7Z,10Z,13Z,16Z,19Z)-docosa-4,7,10,13,16,19-hexaenoate'
+  - ((2S)-1-hydroxy-3-octadecanoyloxypropan-2-yl) (4Z,7Z,10Z,13Z,16Z,19Z)-docosa-4,7,10,13,16,19-hexaenoate
+  - RefChem:907848
+  - GlyTouCan:G04172KB
+  - G04172KB
+  - 18:0-22:6 DG
+  - 65886-80-8
+  - Diacylglycerol(40:6)
+  - Diacylglycerol(18:0/22:6)
+  - Diacylglycerol(18:0/22:6n3)
+  - DAG(40:6)
+  - DAG(18:0/22:6n3)
+  - DG(18:0/22:6n3)
+  - DAG(18:0/22:6)
+  - 1-octadecanoyl-2-(4Z,7Z,10Z,13Z,16Z,19Z-docosahexaenoyl)-sn-glycerol
+  - DG(18:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z)/0:0)
+  - DG(18:0/22:6/0:0)[iso2]
+  - DG(18:0/22:6)
+  - 1-stearoyl-2-(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-sn-glycerol
+  - (4Z,7Z,10Z,13Z,16Z,19Z)-(S)-1-Hydroxy-3-(stearoyloxy)propan-2-yl docosa-4,7,10,13,16,19-hexaenoate
+  - LMGL02010216
+  - starbld0008928
+  - orb1744560
+  - SCHEMBL29358620
+  - CHEBI:77129
+  - DG(18:0/22:6omega3)
+  - LBDXVTOFXXDOGH-KXYFHQNYSA-N
+  - DAG(18:0/22:6omega3)
+  - Diacylglycerol(18:0/22:6w3)
+  - Diacylglycerol(18:0/22:6omega3)
+  - DAG(18:0/22:6w3)
+  - BP-42955
+  - DA-49131
+  - DG(18:0/22:6w3)
+  - DAG 18:0/22:6(omega-3)/0:0
+  - HY-143212
+  - CS-0373990
+  - DG(18:0_22:6)
+  - DG(18:0/22:6/0:0)
+  - Q27146672
+  - DG(18:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z)/0:0)[iso2]
+  - (2S)-1-hydroxy-3-(octadecanoyloxy)propan-2-yl (4Z,7Z,10Z,13Z,16Z,19Z)-docosa-4,7,10,13,16,19-hexaenoate
+  - (2S)-1-hydroxy-3-(stearoyloxy)propan-2-yl (4Z,7Z,10Z,13Z,16Z,19Z)-docosa-4,7,10,13,16,19-hexaenoate

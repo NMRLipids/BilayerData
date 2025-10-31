@@ -9,6 +9,8 @@ sameAs:
   metabolights: MTBLC72999
   slm: SLM:000000505
   pdb.ligand: PCF
+  pdb: PCF
+  chebi: CHEBI:72999
 bioschema_properties:
   iupacName: '[(2R)-2,3-di(hexadecanoyloxy)propyl] 2-(trimethylazaniumyl)ethyl phosphate'
   smiles: CCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCC
@@ -16,3 +18,180 @@ bioschema_properties:
   inChIKey: KILNVBDSWZSGLL-KXQOOQHDSA-N
   molecularFormula: C40H80NO8P
   molecularWeight: '734'
+  name: '[(2R)-2,3-di(hexadecanoyloxy)propyl] 2-(trimethylazaniumyl)ethyl phosphate'
+  image: https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL1200737?dimensions=200
+  alternateName:
+  - 63-89-8
+  - Colfosceril palmitate
+  - 1,2-Dipalmitoyl-sn-glycero-3-phosphocholine
+  - diPalmitoylphosphatidylcholine
+  - 1,2-dihexadecanoyl-sn-glycero-3-phosphocholine
+  - Palmitate de colfosceril
+  - Palmitato de colfoscerilo
+  - Colfoscerili palmitas
+  - Dppc, l-
+  - Dppc, r-
+  - Colfosceril
+  - Dipalmitoyl lecithin, l-
+  - 129Y83
+  - 319X2NFW0A
+  - Dipalmitoyl glycerophosphocholine
+  - DTXSID5046720
+  - CHEBI:72999
+  - 1-16:0-2-16:0-phosphatidylcholine
+  - SURFAXIN COMPONENT DPPC
+  - DTXCID3026720
+  - 16:0-16:0-PC
+  - 129-Y-83
+  - '[(2R)-2,3-di(hexadecanoyloxy)propyl] 2-(trimethylazaniumyl)ethyl phosphate'
+  - (R)-(4-Oxido-10-oxo-7-palmitoyl-3,5,9-trioxa-4-phosphapentacosyl)trimethylammonium
+    4-oxide
+  - ((2R)-2,3-di(hexadecanoyloxy)propyl) 2-(trimethylazaniumyl)ethyl phosphate
+  - colfosceril palmitato
+  - RefChem:918923
+  - R07AA01
+  - 200-567-6
+  - 2-(((2R)-2,3-di(hexadecanoyloxy)propoxy)-hydroxyphosphoryl)oxyethyl-trimethylazanium
+  - CHEBI:40265
+  - DPPC
+  - (R)-2,3-Bis(palmitoyloxy)propyl (2-(trimethylammonio)ethyl) phosphate
+  - 1,2-Dipalmitoyl-L-lecithin
+  - PC(16:0/16:0)
+  - MFCD00036903
+  - C40H80NO8P
+  - L-DPPC
+  - 1,2-Dipalmitoyl-sn-glycero-3-phosphorylcholine
+  - 1,2-Dihexadecanoyl-sn-glycero-3-phosphorylcholine
+  - Phosphatidylcholine(32:0)
+  - Dipalmitoyl-L-alpha-lecithin
+  - 1,2-Dipalmitoyl-3-sn-phosphatidylcholine
+  - Dipalmitoyl-phosphatidylcholine
+  - Phosphatidylcholine(16:0/16:0)
+  - L-a-Dipalmitoyl lecithin
+  - (2-{[(2R)-2,3-bis(hexadecanoyloxy)propyl phosphonato]oxy}ethyl)trimethylazanium
+  - Choline hydroxide, dihydrogen phosphate, inner salt, ester with L-1,2-dipalmitin
+  - PC 32:0
+  - 3,5,9-Trioxa-4-phosphapentacosan-1-aminium, 4-hydroxy-N,N,N-trimethyl-10-oxo-7-((1-oxohexadecyl)oxy)-,
+    hydroxide, inner salt, 4-oxide, (R)-
+  - L-Dipalmitoyl lecithin
+  - 1,2-DIACYL-SN-GLYCERO-3-PHOSHOCHOLINE
+  - UNII-319X2NFW0A
+  - dipalmitoyl-GPC
+  - 1,2-dipalmitoyl-sn-glycero-3-Phosphatidylcholine
+  - 1,?2-?Dipalmitoyl-?sn-?glycero-?3-?phosphocholine (Colfosceril Palmitate)
+  - Colfoscerilpalmitat
+  - Colfoscerili palmitas [INN-Latin]
+  - Colfoscerilpalmitate
+  - L-alpha-DPPC
+  - EINECS 200-567-6
+  - Palmitate de colfosceril [INN-French]
+  - Colfosceril palmitate [USAN:INN:BAN]
+  - L-a-Dipalmitoylecithin
+  - L-a-Dipalmitoyllecithin
+  - Palmitato de colfoscerilo [INN-Spanish]
+  - L-a-DPPC
+  - sn-3-Dipalmitoyllecithin
+  - Dipalmitoyl-L-a-lecithin
+  - L-alpha-Dipalmitoylecithin
+  - NCGC00167568-01
+  - L-alpha-Dipalmitoyllecithin
+  - COLFOSCERIL [VANDF]
+  - SCHEMBL24980
+  - L-b,g-Dipalmitoyl-a-lecithin
+  - MLS000028586
+  - 1,2-Dipalmitoyl-L-a-lecithin
+  - L-1,2-Dipalmitoyl-a-lecithin
+  - L-a-1,2-Dipalmitoyl lecithin
+  - orb1299520
+  - CHEMBL1200737
+  - b,g-Dipalmitoyl-L-(a)-lecithin
+  - DPPC;L-,-Dipalmitoyl--lecithin
+  - LUCINACTANT COMPONENT DPPC
+  - L-a-Dipalmitoylphosphatidylcholine
+  - L-b,g-Dipalmitoyl-alpha-lecithin
+  - MSK2864
+  - phosphatidylcholine 16:0/16:0
+  - 1,2-Dipalmitoyl-L-alpha-lecithin
+  - Colfosceril palmitate (USAN/INN)
+  - COLFOSCERIL PALMITATE [MI]
+  - GLXC-23174
+  - HMS2231H14
+  - HMS3650O14
+  - L-1,2-Dipalmitoyl-alpha-lecithin
+  - L-alpha-1,2-Dipalmitoyl lecithin
+  - COLFOSCERIL PALMITATE [INN]
+  - Dipalmitoyl L-a-phosphatidylcholine
+  - Dipalmitoyl-L-a-phosphatidylcholine
+  - L-b,g-Dipalmitoylphosphatidylcholine
+  - COLFOSCERIL PALMITATE [USAN]
+  - Dipalmitoyl-sn-3-phosphatidylcholine
+  - Tox21_112563
+  - b,g-Dipalmitoyl-L-phosphatidylcholine
+  - COLFOSCERIL PALMITATE [VANDF]
+  - L-1,2-Dipalmitoylphosphatidylcholine
+  - L-alpha-Dipalmitoylphosphatidylcholine
+  - LMGP01010564
+  - 1,2-Dipalmitoyl-L-phosphatidylcholine
+  - AKOS016013969
+  - COLFOSCERIL PALMITATE [WHO-DD]
+  - Dipalmitoyl L-alpha-phosphatidylcholine
+  - Dipalmitoyl-L-alpha-phosphatidylcholine
+  - 1,2-Dipalmitoyl-sn-phosphatidylcholine
+  - 1,2-L-a-Dipalmitoylphosphatidylcholine
+  - b,g-Dipalmitoyl L-a-phosphatidylcholine
+  - DB09114
+  - FD46765
+  - L-b,g-Dipalmitoyl-a-phosphatidylcholine
+  - L-beta,gamma-Dipalmitoyl-alpha-lecithin
+  - 1,2-Dipalmitoylglycero-3-phosphocholine
+  - CAS-63-89-8
+  - L-alpha-Phosphatidylcholine, dipalmitoyl
+  - 1,2-Dipalmitoyl-L-3-phosphatidylcholine
+  - 1,2-Dipalmitoyl-L-a-phosphatidylcholine
+  - 1,2-Dipalmitoyl-sn-glycerophosphocholine
+  - Dipalmitoyl-L-3-glycerylphosphorylcholine
+  - (7R)-4-Hydroxy-N,N,N-trimethyl-10-oxo-7-[(1-oxohexadecyl)oxy]- 3,5,9-trioxa-4-phosphapentacosan-1-aminium
+    4-oxide, inner salt
+  - BP-26313
+  - Dihexadecanoyl-sn-glycero-3-phosphocholine
+  - SMR000058951
+  - SY057411
+  - 1,2-L-alpha-Dipalmitoylphosphatidylcholine
+  - COLFOSCERIL PALMITATE [ORANGE BOOK]
+  - 1,2-Dipalmitoyl-L-alpha-phosphatidylcholine
+  - 1,2-Dipalmitoyl-sn-3-glycerophosphocholine
+  - 1,2-Dipalmitoyl-sn-glycerophosphorylcholine
+  - b,g-Dipalmitoyl L-alpha-phosphatidylcholine
+  - GPC(16:0/16:0)
+  - HY-109506
+  - L-b,g-Dipalmitoyl-alpha-phosphatidylcholine
+  - CS-0031214
+  - D3925
+  - 1,2-Dipalmitoyl-sn-glycerol-3-phosphocholine
+  - 1,2-Dipalmitoyl-sn-glyceryl-3-phosphocholine
+  - D03585
+  - H10481
+  - OP0201 COMPONENT COLFOSCERIL PALMITATE
+  - SBI-0633659.0002
+  - 1,2-Bis(palmitoyl)-sn-glycero-3-phosphocholine
+  - EN300-7365657
+  - OP-0201 COMPONENT COLFOSCERIL PALMITATE
+  - 1,2-Bis(hexadecanoyl)-sn-glycero-3-phosphocholine
+  - 1,2-Dihexadecanoyl-sn-glycerol-3-phosphorylcholine
+  - F601359
+  - Q5144764
+  - EXOSURF NEONATAL COMPONENT COLFOSCERIL PALMITATE
+  - 1.2 DIPALMITOYL-SN-GLYCERO-3-PHOSPHATIDYLCHOLINE
+  - 1,2-Dipalmitoyl-sn-glycero-3-phosphocholine, >=99% (TLC)
+  - 1.2 DIPALMITOYL-SN-GLYCERO-3-PHOSPHATIDYLCHOLINE (DPPC)
+  - 1,2-Dipalmitoyl-sn-glycero-3-phosphocholine, semisynthetic, >=99%
+  - (2-{[2.3-bis(hexadecanoyloxy)propyl phosphono]oxy}ethyl)trimethylazanium
+  - (2R)-2,3-bis(hexadecanoyloxy)propyl 2-(trimethylammonio)ethyl phosphate
+  - (2R)-2,3-bis(hexadecanoyloxy)propyl 2-(trimethylazaniumyl)ethyl phosphate
+  - '[(2R)-2,3-di(hexadecanoyloxy)propyl] 2-(trimethylammonio)ethyl phosphate'
+  - 16:0 PC (DPPC), 1,2-dipalmitoyl-sn-glycero-3-phosphocholine, powder
+  - 2-[[(2R)-2,3-di(hexadecanoyloxy)propoxy]-hydroxy-phosphoryl]oxyethyl-trimethyl-ammonium
+  - (R)-4-hydroxy-N,N,N-trimethyl-10-oxo-7-[(1-oxohexadecyl)oxy]-3,5,9-Trioxa-4-phosphapentacosan-1-aminium
+    4-oxide hydroxide inner salt
+  - (R)-4-hydroxy-N,N,N-trimethyl-10-oxo-7-[(1-oxohexadecyl)oxy]-3,5,9-Trioxa-4-phosphapentacosan-1-aminium
+    4-oxide inner salt

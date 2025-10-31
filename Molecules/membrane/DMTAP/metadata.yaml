@@ -1,7 +1,7 @@
 NMRlipids:
   id: DMTAP
   name: 1,2-dimyristoyl-3-trimethylammonium-propane
-  charge: +1
+  charge: 1
 sameAs:
   pubchem.compound: 14763875
 bioschema_properties:
@@ -11,3 +11,12 @@ bioschema_properties:
   inChIKey: IGKWQNBUDQUOJB-UHFFFAOYSA-N
   molecularFormula: C34H68NO4+
   molecularWeight: '554.9'
+  name: 2,3-di(tetradecanoyloxy)propyl-trimethylazanium
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=9807745&t=l
+  alternateName:
+  - 72719-83-6
+  - 1-Propanaminium, N,N,N-trimethyl-2,3-bis[(1-oxotetradecyl)oxy]-
+  - (2S)-N,N,N-Trimethyl-2,3-bis[(1-oxotetradecyl)oxy]-1-propanaminium
+  - SCHEMBL14216662
+  - DTXSID00430969
+  - PD205667

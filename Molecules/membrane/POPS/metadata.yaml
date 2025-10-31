@@ -8,6 +8,9 @@ sameAs:
   lipidmaps: LMGP03010024
   slm: SLM:000005961
   pdb.ligand: D39
+  pdb: D39
+  chebi: CHEBI:34086
+  metabolights: MTBLC34086
 bioschema_properties:
   iupacName: (2S)-2-amino-3-[[(2R)-3-hexadecanoyloxy-2-[(Z)-octadec-9-enoyl]oxypropoxy]-hydroxyphosphoryl]oxypropanoic
     acid
@@ -16,3 +19,48 @@ bioschema_properties:
   inChIKey: OIWCYIUQAVBPGV-DAQGAKHBSA-N
   molecularFormula: C40H76NO10P
   molecularWeight: '762'
+  name: (2S)-2-amino-3-[[(2R)-3-hexadecanoyloxy-2-[(Z)-octadec-9-enoyl]oxypropoxy]-hydroxyphosphoryl]oxypropanoic
+    acid
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=5283499&t=l
+  alternateName:
+  - POPS
+  - PS(16:0/18:1(9Z))
+  - RefChem:1097078
+  - (2S)-2-amino-3-((((2R)-3-(hexadecanoyloxy)-2-((9Z)-octadec-9-enoyloxy)propoxy)(hydroxy)phosphoryl)oxy)propanoic
+    acid
+  - 40290-44-6
+  - 1-Palmitoyl-2-oleoylphosphatidylserine
+  - 1-palmitoyl-2-oleoylglycero-3-phosphoserine
+  - 1-Palmitoyl-2-oleoyl-glycero-3-phosphoserine
+  - PS(16:0/18:1)
+  - 1-Hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphoserine
+  - Palmitoyloleoyl-gps
+  - '{1-O-hexadecanoyl-2-O-[(Z)-octadec-9-enoyl]-sn-glycero-3-phospho}serine'
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoserine
+  - 1-Palmitoyl-2-oleoyl-sn-glycero-3-phosphatidylserine
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-l-serine
+  - L-Serine, 3-[(1-oxohexadecyl)oxy]-2-[(1-oxo-9-octadecenyl)oxy]propyl hydrogen
+    phosphate (ester), [R-(Z)]-
+  - POPS lipid
+  - (2~{S})-2-azanyl-3-[[(2~{R})-3-hexadecanoyloxy-2-[(~{Z})-octadec-9-enoyl]oxy-propoxy]-oxidanyl-phosphoryl]oxy-propanoic
+    acid
+  - L-Serine, 3-((1-oxohexadecyl)oxy)-2-((1-oxo-9-octadecenyl)oxy)propyl hydrogen
+    phosphate (ester), (R-(Z))-
+  - SCHEMBL234216
+  - CHEBI:34086
+  - DTXSID201229500
+  - Phosphatidylserine(16:0/18:1)
+  - PSer(16:0/18:1)
+  - PSer(16:0/18:1n9)
+  - PSer(16:0/18:1w9)
+  - LMGP03010024
+  - Phosphatidylserine(16:0/18:1n9)
+  - Phosphatidylserine(16:0/18:1w9)
+  - (2S)-2-amino-3-[[(2R)-3-hexadecanoyloxy-2-[(Z)-octadec-9-enoyl]oxypropoxy]-hydroxyphosphoryl]oxypropanoic
+    acid
+  - PD205982
+  - PS(16:0/18:1n9)
+  - PS(16:0/18:1w9)
+  - Q27115801
+  - O-(hydroxy{[(2R)-2-[(9Z)-octadec-9-enoyloxy]-3-(hexadecanoyloxy)propyl]oxy}phosphoryl)-L-serine
+  - O-{[(2R)-3-(hexadecanoyloxy)-2-{[(9Z)-octadec-9-enoyl]oxy}propoxy](hydroxy)phosphoryl}-L-serine

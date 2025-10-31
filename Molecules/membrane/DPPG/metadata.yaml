@@ -9,10 +9,51 @@ sameAs:
   metabolights: MTBLC73205
   slm: SLM:000000812
   pdb.ligand: LHG
+  pdb: LHG
+  chebi: CHEBI:73205
 bioschema_properties:
-  iupacName: '[(2R)-3-[[(2S)-2,3-dihydroxypropoxy]-hydroxyphosphoryl]oxy-2-hexadecanoyloxypropyl] hexadecanoate'
+  iupacName: '[(2R)-3-[[(2S)-2,3-dihydroxypropoxy]-hydroxyphosphoryl]oxy-2-hexadecanoyloxypropyl]
+    hexadecanoate'
   smiles: CCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)(O)OC[C@H](CO)O)OC(=O)CCCCCCCCCCCCCCC
   inChI: InChI=1S/C38H75O10P/c1-3-5-7-9-11-13-15-17-19-21-23-25-27-29-37(41)45-33-36(34-47-49(43,44)46-32-35(40)31-39)48-38(42)30-28-26-24-22-20-18-16-14-12-10-8-6-4-2/h35-36,39-40H,3-34H2,1-2H3,(H,43,44)/t35-,36+/m0/s1
   inChIKey: BIABMEZBCHDPBV-MPQUPPDSSA-N
   molecularFormula: C38H75O10P
   molecularWeight: '723'
+  name: '[(2R)-3-[[(2S)-2,3-dihydroxypropoxy]-hydroxyphosphoryl]oxy-2-hexadecanoyloxypropyl]
+    hexadecanoate'
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=446440&t=l
+  alternateName:
+  - PG(16:0/16:0)
+  - RefChem:411806
+  - GlyTouCan:G76057CD
+  - G76057CD
+  - ((2R)-2,3-bis(hexadecanoyloxy)propoxy)((2S)-2,3-dihydroxypropoxy)phosphinic acid
+  - Phosphatidylglycerol(32:0)
+  - 1,2-DIPALMITOYL-PHOSPHATIDYL-GLYCEROLE
+  - Phosphatidylglycerol(16:0/16:0)
+  - GPG(32:0)
+  - 1,2-dihexadecanoyl-sn-glycero-3-phospho-(1'-sn-glycerol)
+  - PG(32:0)
+  - GPG(16:0/16:0)
+  - '[(2R)-3-[[(2S)-2,3-dihydroxypropoxy]-hydroxyphosphoryl]oxy-2-hexadecanoyloxypropyl]
+    hexadecanoate'
+  - 148466-49-3
+  - LHG
+  - dihexadecanoylphosphatidylglycerol
+  - SCHEMBL29369437
+  - CHEBI:73205
+  - DTXSID301111154
+  - LMGP04010986
+  - 1,2-dihexadecanoylphosphatidylglycerol
+  - 74300-16-6
+  - NS00071945
+  - 1,2-dipalmitoyl-rac-glycero-3-phosphoglycerol
+  - 1,2-palmitoyl-sn-glycero-3-phospho-(1'-sn-glycerol)
+  - 1,2-dihexadecanoyl-rac-glycero-3-phospho-(1'-rac-glycerol)
+  - '[2.3-bis(hexadecanoyloxy)propoxy][2.3-dihydroxypropoxy]phosphinic acid'
+  - (2R)-3-({[(2S)-2,3-dihydroxypropoxy](hydroxy)phosphoryl}oxy)-2-(hexadecanoyloxy)propyl
+    hexadecanoate
+  - (2R)-3-{[(S)-{[(2S)-2,3-dihydroxypropyl]oxy}(hydroxy)phosphoryl]oxy}propane-1,2-diyl
+    dihexadecanoate
+  - 1,1a(2)-[(1R)-1-[[[[(2S)-2,3-Dihydroxypropoxy]hydroxyphosphinyl]oxy]methyl]-1,2-ethanediyl]
+    dihexadecanoate

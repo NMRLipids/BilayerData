@@ -9,6 +9,7 @@ sameAs:
   metabolights: MTBLC72961
   slm: SLM:000000555
   pdb.ligand: 18C
+  pdb: 18C
 bioschema_properties:
   name: N-[(E,2S,3R)-1,3-dihydroxyoctadec-4-en-2-yl]octadecanamide
   iupacName: N-[(E,2S,3R)-1,3-dihydroxyoctadec-4-en-2-yl]octadecanamide
@@ -17,3 +18,63 @@ bioschema_properties:
   inChI: InChI=1S/C36H71NO3/c1-3-5-7-9-11-13-15-17-18-20-22-24-26-28-30-32-36(40)37-34(33-38)35(39)31-29-27-25-23-21-19-16-14-12-10-8-6-4-2/h29,31,34-35,38-39H,3-28,30,32-33H2,1-2H3,(H,37,40)/b31-29+/t34-,35+/m0/s1
   inChIKey: VODZWWMEJITOND-NXCSZAMKSA-N
   smiles: CCCCCCCCCCCCCCCCCC(=O)N[C@@H](CO)[C@@H](/C=C/CCCCCCCCCCCCC)O
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=5283565&t=l
+  alternateName:
+  - 2304-81-6
+  - N-stearoyl-D-erythro-sphingosine
+  - C18-CERAMIDE
+  - V3Q7C63KSS
+  - DTXSID001317818
+  - RefChem:1080585
+  - DTXCID4068955
+  - C18 Ceramide
+  - N-Stearoyl-D-sphingosine
+  - N-Stearoylsphingosine
+  - Cer(d18:1/18:0)
+  - C18 Cer
+  - C18 Ceramide (d18:1/18:0)
+  - N-[(E,2S,3R)-1,3-dihydroxyoctadec-4-en-2-yl]octadecanamide
+  - N-(octadecanoyl)-sphing-4-enine
+  - N-(stearoyl)-ceramide
+  - N-octadecanoylsphingosine
+  - N-(octadecanoyl)-ceramide
+  - Ceramide (d18:1/18:0)
+  - N-((E,2s,3r)-1,3-Dihydroxyoctadec-4-En-2-Yl)stearamide
+  - Octadecanamide, N-[(1S,2R,3E)-2-hydroxy-1-(hydroxymethyl)-3-heptadecen-1-yl]-
+  - C36H71NO3
+  - Ceramide (Egg)
+  - CMC_12037
+  - N-(stearoyl)ceramide
+  - N-stearoyl sphingosine
+  - N-(octadecanoyl)ceramide
+  - N-stearoylsphing-4-enine
+  - N-octadecanoylsphing-4-enine
+  - SCHEMBL760704
+  - orb1694298
+  - N-(octadecanoyl)sphing-4-enine
+  - CHEBI:72961
+  - Ceramide 18;D-erythro-1,3-Dihydroxy-2-octadecanoylamido-trans-4-octadecene;N-Octadecanoylsphingosine;N-Stearoyl-C18-sphingosine;N-Stearoyl-D-erythro-sphingosine
+  - CMC_12704
+  - LMSP02010006
+  - MSK005013
+  - AKOS040754845
+  - N-[(1S,2R,3E)-2-Hydroxy-1-(hydroxymethyl)-3-heptadecen-1-yl]octadecanamide
+  - 136846-30-5
+  - AS-75860
+  - BP-28817
+  - DB-231033
+  - HY-100355
+  - CS-0018669
+  - N-Stearoyl-D-sphingosine, >=98.0% (TLC)
+  - G91463
+  - Q27140214
+  - (2S,3R,4E)-2-(N-stearoylamino)-4-octadecene-1,3-diol
+  - N-((2S,3R,E)-1,3-dihydroxyoctadec-4-en-2-yl)stearamide
+  - N-Stearoyl ceramide (synthetic), C18-Ceramide (synthetic)
+  - (2S, 3R, 4E)-2-(N-stearoylamino)-4-octadecene-1,3-diol
+  - N-[(2S,3R,4E)-1,3-dihydroxyoctadec-4-en-2-yl]octadecanamide
+  - rel-N-((2S,3R,E)-1,3-Dihydroxyoctadec-4-en-2-yl)stearamide
+  - C18 Ceramide (d18:1/18:0), N-stearoyl-D-erythro-sphingosine, powder
+  - N-[(E,1S,2R)-2-hydroxy-1-(hydroxymethyl)heptadec-3-enyl]octadecanamide
+  - N-[(1S,2R,3E)-2-hydroxy-1-(hydroxymethyl)heptadec-3-en-1-yl]octadecanamide
+  - octadecanamide, N-[(1S,2R,3E)-2-hydroxy-1-(hydroxymethyl)-3-heptadecenyl]-
