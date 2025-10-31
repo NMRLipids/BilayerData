@@ -6,8 +6,6 @@ sameAs:
   ChEBI: CHEBI:34080
   pubchem.compound: 5283509
   lipidmaps: LMGP04010002
-  chebi: CHEBI:34080
-  metabolights: MTBLC34080
 bioschema_properties:
   iupacName: '[(2R)-1-[2,3-dihydroxypropoxy(hydroxy)phosphoryl]oxy-3-hexadecanoyloxypropan-2-yl]
     (Z)-octadec-9-enoate'
@@ -16,64 +14,3 @@ bioschema_properties:
   inChIKey: PAZGBAOHGQRCBP-DDDNOICHSA-N
   molecularFormula: C40H77O10P
   molecularWeight: '749'
-  name: '[(2R)-1-[2,3-dihydroxypropoxy(hydroxy)phosphoryl]oxy-3-hexadecanoyloxypropan-2-yl]
-    (Z)-octadec-9-enoate'
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=5283509&t=l
-  alternateName:
-  - 185435-28-3
-  - POPG, l-
-  - 1-Palmitoyl-2-oleoyl-sn-glycero-3-(phospho-rac-(1-glycerol))
-  - 1-Palmitoyl-2-oleoyl-sn-glycero-3-phosphatidylglycerol
-  - POPG, R-
-  - F72017VPR7
-  - L-alpha-1-Palmitoyl-2-oleoylglycerophosphoglycerol
-  - 9-Octadecenoic acid (9Z)-, (1R)-1-((((2,3-dihydroxypropoxy)hydroxyphosphinyl)oxy)methyl)-2-((1-oxohexadecyl)oxy)ethyl
-    ester
-  - 9-Octadecenoic acid (Z)-, 1-((((2,3-dihydroxypropoxy)hydroxyphosphinyl)oxy)methyl)-2-((1-oxohexadecyl)oxy)ethyl
-    ester, (1R)-
-  - (2,3-dihydroxypropoxy)((2R)-3-(hexadecanoyloxy)-2-((9Z)-octadec-9-enoyloxy)propoxy)phosphinic
-    acid
-  - (2,3-dihydroxypropoxy)[(2R)-3-(hexadecanoyloxy)-2-[(9Z)-octadec-9-enoyloxy]propoxy]phosphinic
-    acid
-  - RefChem:76856
-  - GlyTouCan:G25915DO
-  - G25915DO
-  - POPG
-  - '[(2R)-1-[2,3-dihydroxypropoxy(hydroxy)phosphoryl]oxy-3-hexadecanoyloxypropan-2-yl]
-    (Z)-octadec-9-enoate'
-  - 1-Palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
-  - 1-Palmitoyl-2-oleoyl-sn-glycero-3-phospho-rac-glycerol
-  - 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phospho-(1'-rac-glycerol)
-  - PG(16:0/18:1)
-  - 16:0-18:1 PG
-  - UNII-F72017VPR7
-  - 1-Hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phospho-sn-glycerol
-  - 1-palmitoyl-2-oleoyl--sn-glycero-3-(phospho-rac-(1-glycerol))
-  - orb2944082
-  - SCHEMBL29351488
-  - CHEBI:34080
-  - GLXC-21997
-  - Palmitoyloleoyl-phosphatidylglycerol
-  - 1-Hexadecanoyl-2-[cis-9-octadecanoyl]-sn-glycero-3-[phospho-rac-(1-glycerol)]
-    ammonium salt
-  - Palmitoyl-oleoyl-phosphatidylglycerol
-  - LMGP04010002
-  - 1-Palmitoyl-2-oleoyl-sn-glycero-3-phospho-(1'-rac-glycerol)
-  - DB11331
-  - 1-Palmitoyl-2-oleoyl-phosphatidylglycerol
-  - DA-69578
-  - PD085708
-  - HY-142991
-  - CS-0374728
-  - 490H053
-  - EN300-21692682
-  - Q27115796
-  - L-.ALPHA.-1-PALMITOYL-2-OLEOYLGLYCEROPHOSPHOGLYCEROL
-  - 1-Palmitoyl-2-oleoyl-sn-glycero-3-phospho-rac-glycerol sodium salt
-  - '{1-hexadecanoyl-2-[(Z)-octadec-9-enoyl]-sn-glycero-3-phospho}glycerol'
-  - 1-Hexadecanoyl-2-[cis-9-octadecanoyl]-sn-glycero-3-[phospho-rac-(1-glycerol)]ammonium
-    salt
-  - (19R)-22,25,26-trihydroxy-16,22-dioxo-17,21,23-trioxa-22lambda(5)-phosphahexacosan-19-yl
-    (9Z)-octadec-9-enoate
-  - 9-Octadecenoic acid (9Z)-, 1-[[[(2,3-dihydroxypropoxy)hydroxyphosphinyl]oxy]methyl]-2-[(1-oxohexadecyl)oxy]ethyl
-    ester

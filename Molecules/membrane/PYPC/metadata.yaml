@@ -8,7 +8,6 @@ sameAs:
   lipidmaps: LMGP01010566
   metabolights: MTBLC74000
   slm: SLM:000000652
-  chebi: CHEBI:74000
 bioschema_properties:
   iupacName: '[(2R)-3-hexadecanoyloxy-2-[(Z)-hexadec-9-enoyl]oxypropyl] 2-(trimethylazaniumyl)ethyl
     phosphate'
@@ -17,47 +16,3 @@ bioschema_properties:
   inChIKey: QIBZFHLFHCIUOT-NPBIGWJUSA-N
   molecularFormula: C40H78NO8P
   molecularWeight: '732'
-  name: '[(2R)-3-hexadecanoyloxy-2-[(Z)-hexadec-9-enoyl]oxypropyl] 2-(trimethylazaniumyl)ethyl
-    phosphate'
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=6443788&t=l
-  alternateName:
-  - Ppa-gpc
-  - 1-Palmitoyl-2-palmitoleoyl-sn-glycero-3-phosphocholine
-  - 53595-24-7
-  - (CD3-16.0)(16.1)PC
-  - CHEBI:74000
-  - DTXSID901209735
-  - '[(2R)-3-hexadecanoyloxy-2-[(Z)-hexadec-9-enoyl]oxypropyl] 2-(trimethylazaniumyl)ethyl
-    phosphate'
-  - 3,5,9-Trioxa-4-phosphapentacosan-1-aminium, 4-hydroxy-N,N,N-trimethyl-10-oxo-7-((1-oxo-9-hexadecenyl)oxy)-,
-    hydroxide, inner salt, 4-oxide, (R-(Z))-
-  - ((2R)-3-hexadecanoyloxy-2-((Z)-hexadec-9-enoyl)oxypropyl) 2-(trimethylazaniumyl)ethyl
-    phosphate
-  - RefChem:76861
-  - DTXCID401641112
-  - palmitoylpalmitoleoylphosphatidylcholine
-  - PC(16:0/16:1(9Z))
-  - PC(16:0/16:1)
-  - 1-hexadecanoyl-2-(9Z-hexadecenoyl)-sn-glycero-3-phosphocholine
-  - PC 32:1
-  - 1-palmitoyl-2-palmitoleoyl-GPC
-  - SCHEMBL29426366
-  - LMGP01010566
-  - 1-(16,16,16-Trideuteriopalmitoyl)-2-palmitoleoyl-sn-glycero-3-phosphocholine
-  - DB-250469
-  - GPC(16:0/16:1)
-  - 1-palmitoyl-2-palmitoleoyl-GPC (16:0/16:1)
-  - sn-1-palmitoyl-2-palmitoleoylphosphatidylcholine
-  - 1-hexadecanoyl-2-(9Z-hexadecenoyl)-sn-glycero-3-phosphocholine zwitterion
-  - (R,Z)-2-(hexadec-9-enoyloxy)-3-(palmitoyloxy)propyl (2-(trimethylammonio)ethyl)
-    phosphate
-  - (2R)-2-[(9Z)-hexadec-9-enoyloxy]-3-(palmitoyloxy)propyl 2-(trimethylammonio)ethyl
-    phosphate
-  - (2R)-3-(hexadecanoyloxy)-2-[(9Z)-hexadec-9-enoyloxy]propyl 2-(trimethylammonio)ethyl
-    phosphate
-  - (2R)-3-(hexadecanoyloxy)-2-[(9Z)-hexadec-9-enoyloxy]propyl 2-(trimethylazaniumyl)ethyl
-    phosphate
-  - (R-(Z))-4-hydroxy-N,N,N-trimethyl-10-oxo-7-((1-oxo-9-hexadecenyl)oxy)-3,5,9-trioxa-4-phosphapentacosan-1-aminium,
-    hydroxide, inner salt, 4-oxide
-  - 3,5,9-Trioxa-4-phosphapentacosan-1-aminium, 4-hydroxy-N,N,N-trimethyl-10-oxo-7-[(1-oxo-9-hexadecenyl)oxy]-,
-    inner salt, 4-oxide, [R-(Z)]-

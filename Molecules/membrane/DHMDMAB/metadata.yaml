@@ -1,7 +1,7 @@
 NMRlipids:
   id: DHMDMAB
   name: dihexadecyldimethylammonium
-  charge: 1
+  charge: +1
 sameAs:
   pubchem.compound: 15744
 bioschema_properties:
@@ -11,24 +11,3 @@ bioschema_properties:
   inChIKey: SWSFKKWJEHRFFP-UHFFFAOYSA-N
   molecularFormula: C34H72N+
   molecularWeight: '494.9'
-  name: dihexadecyl(dimethyl)azanium
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=15744&t=l
-  alternateName:
-  - 42187-36-0
-  - Dihexadecyldimethylammonium
-  - DHDAA
-  - DHDMAB
-  - RefChem:920191
-  - Dimethyldipalmitylammonium
-  - 52R6NK0J93
-  - UNII-52R6NK0J93
-  - DICETYLDIMONIUM
-  - 1-Hexadecanaminium, N-hexadecyl-N,N-dimethyl-
-  - DIMETHYLDICETYLAMMONIUM
-  - SCHEMBL30455
-  - Dihexadecyldimethylammonium ion
-  - DTXSID70873465
-  - PD198387
-  - NS00001448
-  - Q27261016
-  - Dialkyl dimethyl ammonium compound C16:C16 (DADMAC C16:C16)

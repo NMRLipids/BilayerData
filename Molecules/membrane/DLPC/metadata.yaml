@@ -8,7 +8,6 @@ sameAs:
   lipidmaps: LMGP01010429
   metabolights: MTBLC65211
   slm: SLM:000012481
-  chebi: CHEBI:65211
 bioschema_properties:
   iupacName: '[(2R)-2,3-di(dodecanoyloxy)propyl] 2-(trimethylazaniumyl)ethyl phosphate'
   smiles: CCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCC
@@ -16,72 +15,3 @@ bioschema_properties:
   inChIKey: IJFVSSZAOYLHEE-SSEXGKCCSA-N
   molecularFormula: C32H64NO8P
   molecularWeight: '621.8'
-  name: '[(2R)-2,3-di(dodecanoyloxy)propyl] 2-(trimethylazaniumyl)ethyl phosphate'
-  image: https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL4288877?dimensions=200
-  alternateName:
-  - 18194-25-7
-  - 1,2-Dilauroyl-sn-glycero-3-phosphocholine
-  - 1,2-Didodecanoyl-sn-glycero-3-phosphocholine
-  - 1,2-Dilauroyl-L-phosphatidylcholine
-  - 1,2-didodecanoyl-sn-phosphatidylcholine
-  - PC(12:0/12:0)
-  - 31NE1DVE91
-  - L-alpha-Dilauroyl-sn-glycero-3-phosphocholine
-  - CHEBI:65211
-  - RefChem:71953
-  - 242-086-4
-  - DLPC
-  - Dilauroyl phosphatidylcholine
-  - 12-Didodecanoyl-sn-glycero-3-phosphocholine
-  - MFCD00066561
-  - C32H64NO8P
-  - Dilauroyl lecithin
-  - (R)-2,3-Bis(dodecanoyloxy)propyl (2-(trimethylammonio)ethyl) phosphate
-  - '[(2R)-2,3-di(dodecanoyloxy)propyl] 2-(trimethylazaniumyl)ethyl phosphate'
-  - CHEMBL4288877
-  - 1,2-Dilauroyl-sn-3-phosphatidylcholine
-  - 127641-86-5
-  - (R)-(7-Lauroyl-4-oxido-10-oxo-3,5,9-trioxa-4-phosphahenicosyl)trimethylammonium
-    4-oxide
-  - Choline, hydroxide, dihydrogen phosphate, inner salt, ester with 1,2-dilaurin,
-    L-
-  - Dilauroylphosphatidylcholine
-  - L-?-Dilauroyl Phosphatidylcholine
-  - (R)-2,3-Bis(dodecanoyloxy)propyl(2-(trimethylammonio)ethyl)phosphate
-  - (2-{[(2R)-2,3-bis(dodecanoyloxy)propyl phosphonato]oxy}ethyl)trimethylazanium
-  - 1,2-Dilaurin dihydrogen phosphate monoester with L-choline hydroxide inner salt
-  - UNII-31NE1DVE91
-  - L-Dilauroyllecithin
-  - EINECS 242-086-4
-  - DLPC, L-
-  - DLPC, R-
-  - SCHEMBL44308
-  - DLPC;L-,-Dilauroyl--lecithin
-  - orb1306315
-  - DTXSID10904060
-  - BDBM50467998
-  - LMGP01010429
-  - AKOS024458126
-  - .alpha.-L-Phosphatidylcholine dilauroyl
-  - AS-66195
-  - BP-26305
-  - DA-59785
-  - SY073740
-  - HY-107737
-  - CS-0029419
-  - NS00073970
-  - 1,2-DILAUROYL-PHOSPHATIDYLCHOLINE, R-
-  - 1,2-didodeca-noyl-sn-glycero-3-phosphocholine
-  - 1,2-dilauroyl-sn-glycero-3-phosphocholine betaine
-  - Q27133754
-  - 1,2-Didodecanoyl-sn-glycero-3-phosphocholine, >=99%, synthetic
-  - (2R)-2,3-bis(dodecanoyloxy)propyl 2-(trimethylammonio)ethyl phosphate
-  - '[(2R)-2,3-di(dodecanoyloxy)propyl] 2-(trimethylammonio)ethyl phosphate'
-  - 12:0 PC (DLPC), 1,2-dilauroyl-sn-glycero-3-phosphocholine, powder
-  - 2-[[(2R)-2,3-di(dodecanoyloxy)propoxy]-hydroxy-phosphoryl]oxyethyl-trimethyl-ammonium
-  - 3,5,9-Trioxa-4-phosphaheneicosan-1-aminium, 4-hydroxy-N,N,N-trimethyl-10-oxo-7-((1-oxododecyl)oxy)-,
-    hydroxide, inner salt, 4-oxide, (S)-
-  - 3,5,9-TRIOXA-4-PHOSPHAHENEICOSAN-1-AMINIUM, 4-HYDROXY-N,N,N-TRIMETHYL-10-OXO-7-((1-OXODODECYL)OXY)-,
-    INNER SALT, 4-OXIDE, (7R)-
-  - 3,5,9-Trioxa-4-phosphaheneicosan-1-aminium,4-hydroxy-N,N,N-trimethyl-10-oxo-7-[(1-oxododecyl)oxy]-,inner
-    salt,4-oxide,(7R)-

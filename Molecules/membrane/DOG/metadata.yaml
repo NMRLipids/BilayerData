@@ -8,7 +8,6 @@ sameAs:
   lipidmaps: LMGL02010049
   metabolights: MTBLC52333
   slm: SLM:000120672
-  chebi: CHEBI:52333
 bioschema_properties:
   iupacName: '[(2S)-3-hydroxy-2-[(Z)-octadec-9-enoyl]oxypropyl] (Z)-octadec-9-enoate'
   smiles: CCCCCCCC/C=C\\CCCCCCCC(=O)OC[C@H](CO)OC(=O)CCCCCCC/C=C\\CCCCCCCC
@@ -16,75 +15,3 @@ bioschema_properties:
   inChIKey: AFSHUZFNMVJNKX-LLWMBOQKSA-N
   molecularFormula: C39H72O5
   molecularWeight: '621'
-  name: '[(2S)-3-hydroxy-2-[(Z)-octadec-9-enoyl]oxypropyl] (Z)-octadec-9-enoate'
-  image: https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL590047?dimensions=200
-  alternateName:
-  - 1,2-Dioleoyl-sn-glycerol
-  - 24529-88-2
-  - DG(18:1(9Z)/18:1(9Z)/0:0)
-  - CHEBI:52333
-  - DG(18:1/18:1/0:0)
-  - DTXSID001312870
-  - '[(2S)-3-hydroxy-2-[(Z)-octadec-9-enoyl]oxypropyl] (Z)-octadec-9-enoate'
-  - ((2S)-3-hydroxy-2-((Z)-octadec-9-enoyl)oxypropyl) (Z)-octadec-9-enoate
-  - RefChem:72002
-  - GlyTouCan:G93354MA
-  - DTXCID601742710
-  - G93354MA
-  - (2S)-1-hydroxy-3-((9Z)-octadec-9-enoyloxy)propan-2-yl (9Z)-octadec-9-enoate
-  - Sn-1,2-Diolein
-  - sn-1,2-Dioleoylglycerol
-  - Glyceryl 1,2-dioleate, (S)-
-  - 1,2-dioleoyl-glycerol
-  - MFCD00148866
-  - 0B6KAM5VNK
-  - 1,2-di-(9Z-octadecenoyl)-sn-glycerol
-  - CHEMBL590047
-  - Olein, 1,2-di-, (S)-(-)-
-  - (Z)-(S)-3-Hydroxypropane-1,2-diyl dioleate
-  - 9-Octadecenoic acid (Z)-, 1-(hydroxymethyl)-1,2-ethanediyl ester, (S)-
-  - C39H72O5
-  - DG 36:2
-  - UNII-0B6KAM5VNK
-  - 9-Octadecenoic acid (9Z)-, 1,1'-[(1S)-1-(hydroxymethyl)-1,2-ethanediyl] ester
-  - 1,2-DIOLEOYL-GLYCEROL (18:1)
-  - BRN 1730457
-  - (S)-1,2-Diolein
-  - 1,2-dioleoyl-sn-glyc-erol
-  - (S)-glyceryl 1,2-dioleate
-  - 4-02-00-01662 (Beilstein Handbook Reference)
-  - SCHEMBL160985
-  - '"1,2-Dioleoyl-rac-glycerol"'
-  - 9-octadecenoic acid, 1-(hydroxymethyl)-1,2-ethanediyl ester, (9Z,9'Z)-
-  - 9-OCTADECENOIC ACID (9Z)-, 1,1'-((1S)-1-(HYDROXYMETHYL)-1,2-ETHANEDIYL) ESTER
-  - HMS3649C17
-  - ALN29882
-  - Diacylglycerol(18:1n9/18:1n9)
-  - Diacylglycerol(18:1w9/18:1w9)
-  - BDBM50307105
-  - EX-A10865
-  - LMGL02010049
-  - 1,2-Dioleoyl-sn-glycerol, >=97%
-  - 1,2-DI-O-OLEOYL-SN-GLYCEROL
-  - DAG(18:1n9/18:1n9)
-  - DAG(18:1w9/18:1w9)
-  - DG(18:1n9/18:1n9)
-  - DG(18:1w9/18:1w9)
-  - 1,2-Bis(O-9Z-octadecenoyl)-sn-glycerol
-  - 1,2-Di(cis-9-octadecenoyl)-sn-glycerol
-  - BP-42520
-  - FD166327
-  - PD020891
-  - SY300562
-  - HY-141572
-  - CS-0181664
-  - (Z)-(S)-3-Hydroxypropane-1,2-diyldioleate
-  - G77989
-  - DG(18:1_18:1)
-  - SR-01000947053
-  - SR-01000947053-1
-  - Q27123383
-  - (2S)-3-hydroxypropane-1,2-diyl (9Z)bis-octadec-9-enoate
-  - '[(2S)-3-hydroxy-2-[(Z)-octadec-9-enoyl]oxy-propyl] (Z)-octadec-9-enoate'
-  - (9Z)-9-Octadecenoic acid 1,1'-[(1S)-1-(hydroxymethyl)-1,2-ethanediyl] ester
-  - 9-OCTADECENOIC ACID (9Z)-, (1S)-1-(HYDROXYMETHYL)-1,2-ETHANEDIYL ESTER
