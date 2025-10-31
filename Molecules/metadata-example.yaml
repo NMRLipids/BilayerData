@@ -24,7 +24,7 @@ sameAs:
   lipidmaps: string
   metabolights: string
   slm: string
-  pdb: string
+  pdb.ligand: string
   unii: string
   cas: string
 
