@@ -5,6 +5,8 @@ NMRlipids:
 sameAs:
   ChEBI: CHEBI:84153
   pubchem.compound: 166642670
+  lipidmaps: LMGP06010010
+  metabolights: MTBLC84153
 bioschema_properties:
   iupacName: '[(2R)-1-[hydroxy-[(2R,3S,5R,6R)-2,3,4,5,6-pentahydroxycyclohexyl]oxyphosphoryl]oxy-3-octadecanoyloxypropan-2-yl]
     (5Z,8Z,11Z,14Z)-icosa-5,8,11,14-tetraenoate'
@@ -13,3 +15,16 @@ bioschema_properties:
   inChIKey: KRTOMQDUKGRFDJ-ZAHDIIMDSA-N
   molecularFormula: C47H83O13P
   molecularWeight: '887.1'
+  alternateName:
+  - 1-octadecanoyl-2-(5<i>Z</i>,8<i>Z</i>,11<i>Z</i>,14<i>Z</i>-icosatetraenoyl)-<em>sn</em>-glycero-3-phospho-1<small>D</small>-<i>myo</i>-inositol
+  - PI(18:0/20:4(5Z,8Z,11Z,14Z))
+  - 18:0/20:4-PI
+  - 18:0/20:4-phosphatidylinositol
+  - PI(18:0/20:4n6)
+  - PI(18:0/20:4)
+  - PIno(18:0/20:4n6)
+  - Phosphatidylinositol(18:0/20:4n6)
+  - PIno(18:0/20:4)
+  - Phosphatidylinositol(18:0/20:4w6)
+  - Phosphatidylinositol(18:0/20:4)
+  - 1-stearoyl-2-[(5<i>Z</i>,8<i>Z</i>,11<i>Z</i>,14<i>Z</i>-icosatetraenoyl)]-<em>sn</em>-glycero-3-phospho-1<small>D</small>-<i>myo</i>-inositol

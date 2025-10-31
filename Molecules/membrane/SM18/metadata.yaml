@@ -16,3 +16,18 @@ bioschema_properties:
   inChIKey: LKQLRGMMMAHREN-YJFXYUILSA-N
   molecularFormula: C41H83N2O6P
   molecularWeight: '731.1'
+  name: '[(E,2S,3R)-3-hydroxy-2-(octadecanoylamino)octadec-4-enyl] 2-(trimethylazaniumyl)ethyl
+    phosphate'
+  image: https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL1609656?dimensions=200
+  alternateName:
+  - <em>N</em>-octadecanoylsphingosine-1-phosphocholine
+  - sphingomyelin (d18:1/18:0)
+  - <em>N</em>-octadecanoylsphing-4-enine-1-phosphocholine
+  - <em>N</em>-stearoylsphing-4-enine-1-phosphocholine
+  - SM(d18:1/18:0)
+  - C18 Sphingomyelin
+  - 2,3-Sppc
+  - 2,3-(N-Steroylsphingosyl)-1-phosphocholine
+  - (2<i>S</i>,3<i>R</i>,4<i>E</i>)-3-hydroxy-2-(stearoylamino)octadec-4-en-1-yl 2-(trimethylammonio)ethyl
+    phosphate
+  - stearoyl sphingomyelin

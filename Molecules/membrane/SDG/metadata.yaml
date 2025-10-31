@@ -15,3 +15,24 @@ bioschema_properties:
   inChIKey: LBDXVTOFXXDOGH-KXYFHQNYSA-N
   molecularFormula: C43H72O5
   molecularWeight: '669'
+  name: '[(2S)-1-hydroxy-3-octadecanoyloxypropan-2-yl] (4Z,7Z,10Z,13Z,16Z,19Z)-docosa-4,7,10,13,16,19-hexaenoate'
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=9543881&t=l
+  alternateName:
+  - DAG 18:0/22:6(ω-3)/0:0
+  - DG(18:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z)/0:0)
+  - DG(18:0/22:6/0:0)
+  - 1-octadecanoyl-2-(4Z,7Z,10Z,13Z,16Z,19Z-docosahexaenoyl)-sn-glycerol
+  - 1-Stearoyl-2-docosahexaenoyl-sn-glycerol
+  - DG(18:0/22:6)
+  - DAG(18:0/22:6n3)
+  - Diacylglycerol(40:6)
+  - DG(40:6)
+  - Diacylglycerol(18:0/22:6ω3)
+  - Diacylglycerol(18:0/22:6n3)
+  - DAG(18:0/22:6ω3)
+  - Diacylglycerol(18:0/22:6)
+  - DAG(18:0/22:6)
+  - DG(18:0/22:6ω3)
+  - DAG(40:6)
+  - DG(18:0/22:6n3)
+  - (2<i>S</i>)-1-hydroxy-3-(stearoyloxy)propan-2-yl (4<i>Z</i>,7<i>Z</i>,10<i>Z</i>,13<i>Z</i>,16<i>Z</i>,19<i>Z</i>)-docosa-4,7,10,13,16,19-hexaenoate

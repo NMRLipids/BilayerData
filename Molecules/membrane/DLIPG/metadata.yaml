@@ -3,15 +3,36 @@ NMRlipids:
   name: 1,2-dilinoleoyl-sn-glycero-3-phosphoglycerol
   charge: -1
 sameAs:
-  ChEBI: CHEBI:89361 
+  ChEBI: CHEBI:89361
   slm: SLM:000041291
   HMDB: HMDB0010650
   pubchem.compound: 52927219
   lipidmaps: LMGP04010956
+  metabolights: MTBLC89361
 bioschema_properties:
-  iupacName: "1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phospho-(1'-sn-glycerol)"
+  iupacName: 1,2-di-(9Z,12Z-octadecadienoyl)-sn-glycero-3-phospho-(1'-sn-glycerol)
   smiles: C([C@@](COC(CCCCCCC/C=C\C/C=C\CCCCC)=O)(OC(CCCCCCC/C=C\C/C=C\CCCCC)=O)[H])OP(=O)(O)OC[C@@](CO)([H])O
   inChI: InChI=1S/C42H75O10P/c1-3-5-7-9-11-13-15-17-19-21-23-25-27-29-31-33-41(45)49-37-40(38-51-53(47,48)50-36-39(44)35-43)52-42(46)34-32-30-28-26-24-22-20-18-16-14-12-10-8-6-4-2/h11-14,17-20,39-40,43-44H,3-10,15-16,21-38H2,1-2H3,(H,47,48)/b13-11-,14-12-,19-17-,20-18-/t39-,40+/m0/s1
   inChIKey: AKWGRDPPGYFWIW-IYYSTRLISA-N
   molecularFormula: C42H75O10P
   molecularWeight: '771.014'
+  name: '[(2R)-3-[[(2S)-2,3-dihydroxypropoxy]-hydroxyphosphoryl]oxy-2-[(9Z,12Z)-octadeca-9,12-dienoyl]oxypropyl]
+    (9Z,12Z)-octadeca-9,12-dienoate'
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=52927219&t=l
+  alternateName:
+  - Phosphatidylglycerol(18:2/18:2)
+  - Phosphatidylglycerol(18:2n6/18:2n6)
+  - PG(36:4)
+  - '[(2R)-2,3-bis[(9Z,12Z)-octadeca-9,12-dienoyloxy]propoxy][(2S)-2,3-dihydroxypropoxy]phosphinic
+    acid'
+  - GPG(18:2w6/18:2w6)
+  - 1,2-Di(9Z,12Z-octadecadienoyl)-rac-glycero-3-phospho-(1'-glycerol)
+  - PG(18:2n6/18:2n6)
+  - GPG(18:2/18:2)
+  - PG(18:2w6/18:2w6)
+  - Phosphatidylglycerol(18:2w6/18:2w6)
+  - PG(18:2/18:2)
+  - 1,2-Dilinoleoyl-rac-glycero-3-phosphoglycerol
+  - GPG(36:4)
+  - Phosphatidylglycerol(36:4)
+  - GPG(18:2n6/18:2n6)

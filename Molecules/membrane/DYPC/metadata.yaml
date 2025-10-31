@@ -16,3 +16,25 @@ bioschema_properties:
   inChIKey: GPWHCUUIQMGELX-VHQDNGOZSA-N
   molecularFormula: C40H76NO8P
   molecularWeight: '730'
+  name: '[(2R)-2,3-bis[[(Z)-hexadec-9-enoyl]oxy]propyl] 2-(trimethylazaniumyl)ethyl
+    phosphate'
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=24778764&t=l
+  alternateName:
+  - 1,2-di-(9<i>Z</i>-hexadecenoyl)-<em>sn</em>-glycero-3-phosphocholine
+  - PC 16:1(9<i>Z</i>)/16:1(9<i>Z</i>)
+  - 1,2-Dipalmitoleoyl-sn-glycero-3-phosphorylcholine
+  - PC(16:1/16:1)
+  - L-Dipalmitoleoyllecithin
+  - PC(16:1(9Z)/16:1(9Z))
+  - dipalmitoleoyl-<small>L</small>-α-glycerophosphorylcholine
+  - PC(16:1n7/16:1n7)
+  - PC(16:1w7/16:1w7)
+  - Phosphatidylcholine(16:1n7/16:1n7)
+  - Phosphatidylcholine(32:2)
+  - GPCho(16:1/16:1)
+  - GPCho(16:1n7/16:1n7)
+  - GPCho(16:1w7/16:1w7)
+  - PC(32:2)
+  - GPCho(32:2)
+  - Phosphatidylcholine(16:1/16:1)
+  - Phosphatidylcholine(16:1w7/16:1w7)

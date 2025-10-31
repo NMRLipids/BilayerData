@@ -16,3 +16,19 @@ bioschema_properties:
   inChIKey: PDLAMJKMOKWLAJ-KTBSNPQYSA-N
   molecularFormula: C43H81O13P
   molecularWeight: '836.063'
+  alternateName:
+  - 2-oleoyl-1-palmitoyl-<em>sn</em>-glycero-3-phospho-<small>D</small>-<i>myo</i>-inositol
+  - 1-hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phospho-(1'-myo-inositol)
+  - PI(16:0/18:1)
+  - PI(16:0/18:1(9Z))
+  - Phosphatidylinositol(16:0/18:1)
+  - PI(34:1)
+  - PI(16:0/18:1ω9)
+  - Phosphatidylinositol(16:0/18:1ω9)
+  - PIno(16:0/18:1ω9)
+  - PIno(34:1)
+  - Phosphatidylinositol(34:1)
+  - 1-Palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol
+  - PIno(16:0/18:1)
+  - 1-16:0-2-18:1-phosphatidylinositol
+  - 16:0-18:1-PI

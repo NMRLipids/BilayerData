@@ -14,3 +14,9 @@ bioschema_properties:
   inChIKey: GHQQYDSARXURNG-SSEXGKCCSA-M
   molecularFormula: C33H63NO10P-
   molecularWeight: '664.8'
+  name: 9-[(2R)-1-hexadecanoyloxy-3-[oxido-[2-(trimethylazaniumyl)ethoxy]phosphoryl]oxypropan-2-yl]oxy-9-oxononanoate
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=86289475&t=l
+  alternateName:
+  - 1-hexadecanoyl-2-(8-carboxylatooctanoyl)-<em>sn</em>-glycero-3-phosphocholine(1−)
+  - 1-palmitoyl-2-(8-carboxylatooctanoyl)phosphatidylcholine(1−)
+  - 1-hexadecanoyl-2-(9-oxo-9-oxidononanoyl)-<em>sn</em>-glycero-3-phosphocholine(1−)

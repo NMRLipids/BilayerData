@@ -14,3 +14,13 @@ bioschema_properties:
   inChIKey: HEGSGKPQLMEBJL-RKQHYHRCSA-N
   molecularFormula: C14H28O6
   molecularWeight: '292.37'
+  name: (2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-octoxyoxane-3,4,5-triol
+  image: https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL446037?dimensions=200
+  alternateName:
+  - β-octylglucoside
+  - 1-octyl-β-<small>D</small>-glucopyranoside
+  - 1-<em>O</em>-<em>n</em>-octyl-β-<small>D</small>-glucopyranoside
+  - β-<small>D</small>-octyl glucoside
+  - 1-<em>O</em>-octyl-β-<small>D</small>-glucopyranoside
+  - octyl-β-<small>D</small>-glucoside
+  - Oct β-Glc
