@@ -8,7 +8,6 @@ sameAs:
   lipidmaps: LMGP02010094
   metabolights: MTBLC79109
   slm: SLM:000035978
-  chebi: CHEBI:78266
 bioschema_properties:
   iupacName: '[(2R)-1-[2-aminoethoxy(hydroxy)phosphoryl]oxy-3-octadecanoyloxypropan-2-yl]
     (4Z,7Z,10Z,13Z,16Z,19Z)-docosa-4,7,10,13,16,19-hexaenoate'
@@ -17,43 +16,3 @@ bioschema_properties:
   inChIKey: XYYHNDVKALDFHQ-OXHZBIAZSA-N
   molecularFormula: C45H78NO8P
   molecularWeight: '792.1'
-  name: '[(2R)-1-[2-aminoethoxy(hydroxy)phosphoryl]oxy-3-octadecanoyloxypropan-2-yl]
-    (4Z,7Z,10Z,13Z,16Z,19Z)-docosa-4,7,10,13,16,19-hexaenoate'
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=9546798&t=l
-  alternateName:
-  - PE(18:0/22:6)
-  - PE(18:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z))
-  - 1-octadecanoyl-2-(4Z,7Z,10Z,13Z,16Z,19Z-docosahexaenoyl)-sn-glycero-3-phosphoethanolamine
-  - PE(40:6)
-  - CHEBI:79109
-  - GlyTouCan:G16578QG
-  - RefChem:1048552
-  - G16578QG
-  - GPEtn(40:6)
-  - 1-stearoyl-2-docosahexaenoyl-sn-glycero-3-phosphoethanolamine
-  - GPEtn(18:0/22:6)
-  - GPEtn(18:0/22:6n3)
-  - GPEtn(18:0/22:6w3)
-  - 96998-01-5
-  - PE(18:0/22:6n3)
-  - PE(18:0/22:6w3)
-  - 18:0-22:6 PE
-  - 4,7,10,13,16,19-Docosahexaenoic acid, 1-[[[(2-aminoethoxy)hydroxyphosphinyl]oxy]methyl]-2-[(1-oxooctadecyl)oxy]ethyl
-    ester, [R-(all-Z)]-
-  - (2R)-1-(((2-aminoethoxy)(hydroxy)phosphoryl)oxy)-3-(stearoyloxy)propan-2-yl (4Z,7Z,10Z,13Z,16Z,19Z)-docosa-4,7,10,13,16,19-hexaenoate
-  - LMGP02010094
-  - orb2815819
-  - phosphatidylethanolamine(40:6)
-  - SCHEMBL2125470
-  - Phosphatidylethanolamine(18:0/22:6)
-  - Phosphatidylethanolamine(18:0/22:6n3)
-  - Phosphatidylethanolamine(18:0/22:6w3)
-  - BP-42948
-  - CS-0996831
-  - Q27148167
-  - 1-stearoyl-2-(4Z,7Z,10Z,13Z,16Z,19Z-docosahexaenoyl)-sn-glycero-3-phosphoethanolamine
-  - (2-aminoethoxy)[2-[docosa-4.7.10.13.16.19-hexaenoyloxy]-3-(octadecanoyloxy)propoxy]phosphinic
-    acid
-  - (21R)-27-amino-24-hydroxy-24-oxido-18-oxo-19,23,25-trioxa-24lambda(5)-phosphaheptacosan-21-yl
-    (4Z,7Z,10Z,13Z,16Z,19Z)-docosa-4,7,10,13,16,19-hexaenoate
-  - '[(2R)-1-[2-aminoethoxy(hydroxy)phosphoryl]oxy-3-octadecanoyloxypropan-2-yl] (4Z,7Z,10Z,13Z,16Z,19Z)-docosa-4,7,10,13,16,19-hexaenoate'

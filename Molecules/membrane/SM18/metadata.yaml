@@ -8,7 +8,6 @@ sameAs:
   lipidmaps: LMSP03010001
   metabolights: MTBLC83358
   slm: SLM:000395267
-  chebi: CHEBI:83358
 bioschema_properties:
   iupacName: '[(E,2S,3R)-3-hydroxy-2-(octadecanoylamino)octadec-4-enyl] 2-(trimethylazaniumyl)ethyl
     phosphate'
@@ -17,82 +16,3 @@ bioschema_properties:
   inChIKey: LKQLRGMMMAHREN-YJFXYUILSA-N
   molecularFormula: C41H83N2O6P
   molecularWeight: '731.1'
-  name: '[(E,2S,3R)-3-hydroxy-2-(octadecanoylamino)octadec-4-enyl] 2-(trimethylazaniumyl)ethyl
-    phosphate'
-  image: https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL1609656?dimensions=200
-  alternateName:
-  - 58909-84-5
-  - N-stearoylsphingomyelin
-  - 2,3-Sppc
-  - C18 Sphingomyelin
-  - stearoylsphingomyelin
-  - N-stearoylsphingosine-1-phosphocholine
-  - sphingomyelin 18:0
-  - CHEBI:83358
-  - 05UG6280NI
-  - 2,3-(N-Steroylsphingosyl)-1-phosphocholine
-  - N-stearoylsphingosine-phosphorylcholine
-  - DTXSID501313528
-  - N-SSPC
-  - RefChem:927335
-  - CHEBI:143617
-  - DTXCID701743347
-  - Sphingomyelin from Bovine Brain
-  - N-(octadecanoyl)-sphing-4-enine-1-phosphocholine
-  - SM(d18:1/18:0)
-  - N-stearoyl-D-erythro-sphingosylphosphorylcholine
-  - Sphingomyelin (d18:1/18:0)
-  - '[(E,2S,3R)-3-hydroxy-2-(octadecanoylamino)octadec-4-enyl] 2-(trimethylazaniumyl)ethyl
-    phosphate'
-  - SM d36:1
-  - C41H83N2O6P
-  - Sphingomyelin (Brain, Porcine)
-  - (2-{[(2S,3R,4E)-3-hydroxy-2-octadecanamidooctadec-4-en-1-yl phosphonato]oxy}ethyl)trimethylazanium
-  - 134731-80-9
-  - 3,5-Dioxa-8-aza-4-phosphahexacosan-1-aminium, 4-hydroxy-7-[(1R,2E)-1-hydroxy-2-hexadecen-1-yl]-N,N,N-trimethyl-9-oxo-,
-    inner salt, 4-oxide, (7S)-
-  - UNII-05UG6280NI
-  - 383907-91-3
-  - 18:0 SM (d18:1/18:0)
-  - stearoyl sphingomyelin
-  - BML3-D05
-  - orb1296060
-  - orb1982715
-  - CHEMBL1609656
-  - SCHEMBL14889266
-  - LKQLRGMMMAHREN-YJFXYUILSA-N
-  - LMSP03010001
-  - MFCD02259130
-  - MSK170769
-  - AKOS037645436
-  - N-Octadecanoylsphingosylphosphorylcholine
-  - NCGC00161363-01
-  - AS-60769
-  - BP-42376
-  - N-octadecanoylsphingosine-1-phosphocholine
-  - N-stearoylsphing-4-enine-1-phosphocholine
-  - SphingomyelinsSM (from bovine spinal cord)
-  - HY-148388
-  - CS-0621186
-  - N-octadecanoylsphing-4-enine-1-phosphocholine
-  - G77945
-  - Brain SM, Sphingomyelin (Brain, Porcine), powder
-  - SPHINGOMYELINS N-STEAROYLSPHINGOMYELIN [MI]
-  - Q27156784
-  - 18:0 SM (d18:1/18:0), N-stearoyl-D-erythro-sphingosylphosphorylcholine, powder
-  - N-Acyl-4-sphingenyl-1-O-phosphorylcholine;N-Acyl-D-sphingosine-1-phosphocholine
-  - (2S,3R,4E)-3-hydroxy-2-(octadecanoylamino)octadec-4-en-1-yl 2-(trimethylazaniumyl)ethyl
-    phosphate
-  - (2S,3R,4E)-3-hydroxy-2-(stearoylamino)octadec-4-en-1-yl 2-(trimethylammonio)ethyl
-    phosphate
-  - '[(E,2S,3R)-3-hydroxy-2-(octadecanoylamino)octadec-4-enyl] 2-(trimethylammonio)ethyl
-    phosphate'
-  - 3,5-DIOXA-8-AZA-4-PHOSPHAHEXACOSAN-1-AMINIUM, 4-HYDROXY-7-((1R,2E)-1-HYDROXY-2-HEXADECENYL)-N,N,N-TRIMETHYL-9-OXO-,
-    INNER SALT, 4-OXIDE, (7S)-
-  - 3,5-Dioxa-8-aza-4-phosphahexacosan-1-aminium, 4-hydroxy-7-(1-hydroxy-2-hexadecenyl)-N,N,N-trimethyl-9-oxo-,
-    hydroxide, inner salt, 4-oxide, (R-(R*,S*-(E)))-
-  - 3,5-DIOXA-8-AZA-4-PHOSPHAHEXACOSAN-1-AMINIUM, 4-HYDROXY-7-(1-HYDROXY-2-HEXADECENYL)-N,N,N-TRIMETHYL-9-OXO-,
-    INNER SALT, 4-OXIDE, (R-(R*,S*-(E)))-
-  - Ethanaminium, 2-[[hydroxy[[(2R,3S,4E)-3-hydroxy-2-[(1-oxooctadecyl)amino]-4-octadecen-1-yl]oxy]phosphinyl]oxy]-N,N,N-trimethyl-,
-    inner salt, rel-
-  - Ethanaminium,2-[[hydroxy[[(2R,3S,4E)-3-hydroxy-2-[(1-oxooctadecyl)amino]-4-octadecen-1-yl]oxy]phosphinyl]oxy]-N,N,N-trimethyl-,innersalt,rel-

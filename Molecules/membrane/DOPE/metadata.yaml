@@ -9,7 +9,6 @@ sameAs:
   metabolights: MTBLC74986
   slm: SLM:000034898
   pdb.ligand: PEE
-  pdb: PEE
 bioschema_properties:
   name: '[(2R)-3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-[(Z)-octadec-9-enoyl]oxypropyl]
     (Z)-octadec-9-enoate'
@@ -20,72 +19,3 @@ bioschema_properties:
   inChI: InChI=1S/C41H78NO8P/c1-3-5-7-9-11-13-15-17-19-21-23-25-27-29-31-33-40(43)47-37-39(38-49-51(45,46)48-36-35-42)50-41(44)34-32-30-28-26-24-22-20-18-16-14-12-10-8-6-4-2/h17-20,39H,3-16,21-38,42H2,1-2H3,(H,45,46)/b19-17-,20-18-/t39-/m1/s1
   inChIKey: MWRBNPKJOOWZPW-NYVOMTAGSA-N
   smiles: CCCCCCCC/C=C\CCCCCCCC(=O)OC[C@H](COP(=O)(O)OCCN)OC(=O)CCCCCCC/C=C\CCCCCCCC
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=9546757&t=l
-  alternateName:
-  - 1,2-Dioleoyl-sn-glycero-3-phosphoethanolamine
-  - 4004-05-1
-  - PE(18:1(9Z)/18:1(9Z))
-  - DOPE, l-
-  - JNP6V6AI0U
-  - DOPE, R-
-  - 1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphoethanolamine
-  - DTXSID601029609
-  - RefChem:906745
-  - GlyTouCan:G04508FV
-  - 1-2-DOPE
-  - DTXCID901775954
-  - G04508FV
-  - 1-2-di-(9-octadecenoyl)-sn-glycero-3-phosphoethethanolamine
-  - (2-aminoethoxy)((2R)-2,3-bis((9Z)-octadec-9-enoyloxy)propoxy)phosphinic acid
-  - DOPE
-  - DOPE (Excipient)
-  - 1,2-Dioleoyl-sn-gl
-  - GPEtn(18:1/18:1)
-  - GPEtn(18:1n9/18:1n9)
-  - GPEtn(18:1w9/18:1w9)
-  - PE(18:1/18:1)
-  - Phophatidylethanolamine(18:1n9/18:1n9)
-  - Phophatidylethanolamine(18:1w9/18:1w9)
-  - 2-Aminoethyl (R)-2,3-Bis(oleoyloxy)propyl Hydrogen Phosphate
-  - (Z)-(2R)-3-(((2-Aminoethoxy)(hydroxy)phosphoryl)oxy)propane-1,2-diyl dioleate
-  - Olein, 1,2-di-, 2-aminoethyl hydrogen phosphate, L-
-  - 1,2-Dioleoyl-sn-glycero-3-phosphatidylethanolamine (DOPE)
-  - MFCD16621009
-  - (2R)-3-(((2-aminoethoxy)(hydroxy)phosphoryl)oxy)propane-1,2-diyl dioleate
-  - Ethanol, 2-amino-, dihydrogen phosphate (ester), monoester with 1,2-diolein, L-
-  - '[(2R)-3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-[(Z)-octadec-9-enoyl]oxypropyl]
-    (Z)-octadec-9-enoate'
-  - 9-Octadecenoic acid (Z)-, 1-[[[(2-aminoethoxy)hydroxyphosphinyl]oxy]methyl]-1,2-ethanediyl
-    ester, (R)-
-  - C41H78NO8P
-  - L-alpha-Phosphatidylethanolamine, dioleoyl
-  - UNII-JNP6V6AI0U
-  - SCHEMBL25038
-  - orb1307144
-  - CHEBI:84839
-  - LMGP02010052
-  - AKOS024418762
-  - HY-112005A
-  - AS-74734
-  - BP-25709
-  - DA-52664
-  - SY055935
-  - 1,2-dioleoyl-sn-glycerophosphoethanolamine
-  - HY-112005
-  - CS-0042337
-  - CS-1096705
-  - D4251
-  - 1,2-dioleoyl-rac-glycero-3-phosphoethanolamine
-  - H11535
-  - M01678
-  - Q21079469
-  - 1,2-di-[(9Z)-octadecenoyl]-sn-glycero-3-phosphoethanolamine
-  - (2R)-3-(((2-aminoethoxy)(hydroxy)phosphoryl)oxy)propane-1,2-diyldioleate
-  - (2R)-1-[(2-azaniumylethyl phosphonato)oxy]-3-[(9Z)-octadec-9-enoyloxy]propan-2-yl
-    (9Z)-octadec-9-enoate
-  - (2R)-3-{[(2-aminoethoxy)(hydroxy)phosphoryl]oxy}-2-[(9Z)-octadec-9-enoyloxy]propyl
-    (9Z)-octadec-9-enoate
-  - (2R)-3-{[(R)-(2-aminoethoxy)(hydroxy)phosphoryl]oxy}-2-{[(9Z)-octadec-9-enoyl]oxy}propyl
-    (9Z)-octadec-9-enoate
-  - '[(2R)-3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-[(Z)-octadec-9-enoyl]oxy-propyl]
-    (Z)-octadec-9-enoate'

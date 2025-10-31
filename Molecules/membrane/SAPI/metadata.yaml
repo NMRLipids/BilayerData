@@ -5,9 +5,6 @@ NMRlipids:
 sameAs:
   ChEBI: CHEBI:84153
   pubchem.compound: 166642670
-  chebi: CHEBI:84153
-  lipidmaps: LMGP06010010
-  metabolights: MTBLC84153
 bioschema_properties:
   iupacName: '[(2R)-1-[hydroxy-[(2R,3S,5R,6R)-2,3,4,5,6-pentahydroxycyclohexyl]oxyphosphoryl]oxy-3-octadecanoyloxypropan-2-yl]
     (5Z,8Z,11Z,14Z)-icosa-5,8,11,14-tetraenoate'

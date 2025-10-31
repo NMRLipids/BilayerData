@@ -8,7 +8,6 @@ sameAs:
   lipidmaps: LMGP20010007
   metabolights: MTBLC61817
   cas: 117746-89-1
-  chebi: CHEBI:61817
 bioschema_properties:
   iupacName: '[(2R)-2-(8-carboxyoctanoyloxy)-3-hexadecanoyloxypropyl] 2-(trimethylazaniumyl)ethyl
     phosphate'
@@ -17,53 +16,3 @@ bioschema_properties:
   inChIKey: GHQQYDSARXURNG-SSEXGKCCSA-N
   molecularFormula: C33H64NO10P
   molecularWeight: '665.8'
-  name: '[(2R)-2-(8-carboxyoctanoyloxy)-3-hexadecanoyloxypropyl] 2-(trimethylazaniumyl)ethyl
-    phosphate'
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=46907870&t=l
-  alternateName:
-  - 1-palmitoyl-2-azelaoyl-sn-glycero-3-phosphocholine
-  - CHEBI:61817
-  - RefChem:907776
-  - PAz-PC
-  - PazePC
-  - 117746-89-1
-  - 1-palmitoyl-2-azelaoyl PC
-  - azelaoyl PC
-  - 117205-52-4
-  - 16:0-09:0(ALDO)phosphocholine
-  - 16:0-09:0(ALDO)PC
-  - PC(16:0/9:0(COOH))
-  - '[(2R)-2-(8-carboxyoctanoyloxy)-3-hexadecanoyloxypropyl] 2-(trimethylazaniumyl)ethyl
-    phosphate'
-  - 1-O-palmitoyl-2-O-azelaoyl-sn-glycero-3-phosphocholine
-  - 1-hexadecanoyl-2-(9-carboxy-nonanoyl)-sn-glycero-3-phosphocholine
-  - C33H64NO10P
-  - (7R)-7-[(8-Carboxy-1-oxooctyl)oxy]-4-hydroxy-N,N,N-trimethyl-10-oxo-3,5,9-trioxa-4-phosphapentacosan-1-aminium
-    4-Oxide Inner Salt;
-  - (R)-7-[(8-Carboxy-1-oxooctyl)oxy]-4-hydroxy-N,N,N-trimethyl-10-oxo-3,5,9-trioxa-4-phosphapentacosan-1-aminium
-    4-Oxide Inner Salt; 1-Palmitoyl-2-azelaoyl-sn-glycerophosphorylcholine
-  - Epitope ID:153523
-  - PazePC (>90%)
-  - GTPL5427
-  - orb1694167
-  - SCHEMBL22607965
-  - DTXSID20922533
-  - GHQQYDSARXURNG-SSEXGKCCSA-N
-  - HMS3649G17
-  - LMGP20010007
-  - MFCD03412020
-  - AKOS040754953
-  - HY-134154
-  - CS-0138434
-  - Q27088247
-  - 2-O-azelaoyl-1-O-palmitoyl-sn-glycero-3-phosphocholine
-  - PAzePC, 1-palmitoyl-2-azelaoyl-sn-glycero-3-phosphocholine, powder
-  - 1-O-Hexadecanoyl-2-O-(9-carboxyoctanoyl)-sn-glyceryl-3-phosphocholine
-  - PAzePC, 1-palmitoyl-2-azelaoyl-sn-glycero-3-phosphocholine, chloroform
-  - 2-[(8-Carboxyoctanoyl)oxy]-3-(hexadecanoyloxy)propyl 2-(trimethylazaniumyl)ethyl
-    phosphate
-  - (2-{[(2R)-2-[(8-carboxyoctanoyl)oxy]-3-(hexadecanoyloxy)propyl phosphonato]oxy}ethyl)trimethylazanium
-  - (2R)-2-[(8-carboxyoctanoyl)oxy]-3-(palmitoyloxy)propyl 2-(trimethylazaniumyl)ethyl
-    phosphate
-  - '[(2R)-2-(8-carboxyoctanoyloxy)-3-hexadecanoyloxy-propyl] 2-(trimethylammonio)ethyl
-    phosphate'

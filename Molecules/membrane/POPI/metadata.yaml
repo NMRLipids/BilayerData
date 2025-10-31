@@ -8,7 +8,6 @@ sameAs:
   lipidmaps: LMGP06010001
   metabolights: MTBLC73215
   slm: SLM:000000685
-  chebi: CHEBI:73215
 bioschema_properties:
   iupacName: (2R)-1-(hexadecanoyloxy)-3-[(hydroxy{[(1S,2R,3R,4S,5S,6R)-2,3,4,5,6-pentahydroxycyclohexyl]oxy}phosphoryl)oxy]propan-2-yl
     (9Z)-octadec-9-enoate
