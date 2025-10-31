@@ -20,7 +20,7 @@ sameAs:
   #key names must correspond to the identifier.org prefix
   # test lookup at https://identifiers.org/[prefix]/[value]
   pubchem.compound: integer
-  chebi: string
+  ChEBI: string
   lipidmaps: string
   metabolights: string
   slm: string
