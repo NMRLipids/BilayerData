@@ -17,3 +17,29 @@ bioschema_properties:
   inChIKey: WTJKGGKOPKCXLL-VYOBOKEXSA-N
   molecularFormula: C42H82NO8P
   molecularWeight: '760.1'
+  name: '[(2R)-3-hexadecanoyloxy-2-[(Z)-octadec-9-enoyl]oxypropyl] 2-(trimethylazaniumyl)ethyl
+    phosphate'
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=5497103&t=l
+  alternateName:
+  - PC(16:0/18:1(9Z))
+  - 1-hexadecanoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - PC(16:0/18:1ω9)
+  - PC(16:0/18:1)
+  - Palmitoyloleoylphosphatidylcholine
+  - 1-Palmitoyl-2-oleoylphosphatidylcholine
+  - 1-Popc
+  - 1-Palmotoyl-2-oleoylglycero-3-phosphocholine
+  - 1-Palmitoyl-2-oleoyl-lecithin
+  - GPCho(16:0/18:1)
+  - GPCho(34:1)
+  - Phosphatidylcholine(16:0/18:1ω9)
+  - Phosphatidylcholine(34:1)
+  - Phosphatidylcholine(16:0/18:1)
+  - Lecithin
+  - GPCho(16:0/18:1ω9)
+  - PC(34:1)
+  - 1-16:0-2-18:1-phosphatidylcholine
+  - 16:0-18:1-PC
+  - GPC(16:0/18:1)
+  - 1-palmitoyl-2-oleoyl-GPC (16:0/18:1)
+  - 1-palmitoyl-2-oleoyl-GPC

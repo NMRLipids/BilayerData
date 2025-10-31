@@ -15,3 +15,10 @@ bioschema_properties:
   inChIKey: AFSHUZFNMVJNKX-LLWMBOQKSA-N
   molecularFormula: C39H72O5
   molecularWeight: '621'
+  name: '[(2S)-3-hydroxy-2-[(Z)-octadec-9-enoyl]oxypropyl] (Z)-octadec-9-enoate'
+  image: https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL590047?dimensions=200
+  alternateName:
+  - sn-1,2-dioleoylglycerol
+  - sn-1,2-Diolein
+  - DG(18:1/18:1/0:0)
+  - DG(18:1(9Z)/18:1(9Z)/0:0)

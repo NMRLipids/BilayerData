@@ -16,3 +16,23 @@ bioschema_properties:
   inChIKey: CITHEXJVPOWHKC-UUWRZZSWSA-N
   molecularFormula: C36H72NO8P
   molecularWeight: '677.9'
+  name: '[(2R)-2,3-di(tetradecanoyloxy)propyl] 2-(trimethylazaniumyl)ethyl phosphate'
+  image: https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL451503?dimensions=200
+  alternateName:
+  - 1,2-DIMYRISTOYL-SN-GLYCERO-3-PHOSPHOCHOLINE
+  - 1,2-dimyristoyl-sn-glycero-3-phosphocholine
+  - 1,2-ditetradecanoyl-sn-glycero-3-phosphocholine
+  - 1,2-di-O-tetradecanoyl-sn-glycero-3-phosphocholine
+  - dimyristoylphosphatidylcholine
+  - DMPC
+  - PC(14:0/14:0)
+  - 1,2-Dimyristoylphosphatidylcholine
+  - Dimyristoyl phosphatidylcholine
+  - 1,2-Dimyristoyl-L-3-phosphatidylcholine
+  - 1,2-dimyristoyl-GPC
+  - GPC(14:0/14:0)
+  - phosphatidylcholine(14:0/14:0)
+  - phosphatidylcholine(28:0)
+  - GPC(28:0)
+  - PC(28:0)
+  - Dimyristoyl lecithin

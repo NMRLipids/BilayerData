@@ -14,3 +14,10 @@ bioschema_properties:
   inChIKey: LSHJMDWWJIYXEM-XGJIDDIWSA-L
   molecularFormula: C81H142O17P2
   molecularWeight: '1447.9'
+  name: '[3-[[(2R)-2,3-bis[[(9Z,12Z)-octadeca-9,12-dienoyl]oxy]propoxy]-oxidophosphoryl]oxy-2-hydroxypropyl]
+    [(2R)-2,3-bis[[(9Z,12Z)-octadeca-9,12-dienoyl]oxy]propyl] phosphate'
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=86290185&t=l
+  alternateName:
+  - 1'-[1,2-dilinoleoyl-sn-glycero-3-phospho]-3'-[1,2-dilinoleoyl-sn-glycero-3-phospho]-glycerol(2−)
+  - 1,1',2,2'-tetra-(9Z,12Z)-octadecadienoyl cardiolipin(2−)
+  - CL(18:2(9Z,12Z)/18:2(9Z,12Z)/18:2(9Z,12Z)/18:2(9Z,12Z))(2−)

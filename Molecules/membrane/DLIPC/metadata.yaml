@@ -17,3 +17,30 @@ bioschema_properties:
   inChIKey: FVXDQWZBHIXIEJ-LNDKUQBDSA-N
   molecularFormula: C44H80NO8P
   molecularWeight: '782.1'
+  name: '[(2R)-2,3-bis[[(9Z,12Z)-octadeca-9,12-dienoyl]oxy]propyl] 2-(trimethylazaniumyl)ethyl
+    phosphate'
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=5288075&t=l
+  alternateName:
+  - 1,2-DILINOLEOYL-SN-GLYCERO-3-PHOSPHOCHOLINE
+  - (2R)-2,3-bis[(9Z,12Z)-octadeca-9,12-dienoyloxy]propyl 2-(trimethylammonio)ethyl
+    phosphate
+  - DI-LINOLEOYL-3-SN-PHOSPHATIDYLCHOLINE
+  - 1,2-di-O-linoleoyl-sn-glycero-3-phosphocholine
+  - L-Dilinoleoyllecithin
+  - DLPC
+  - DL-PC
+  - dilinoleoylphosphatidylcholine
+  - DLNPC
+  - (2R)-2,3-bis{[(9Z,12Z)-octadeca-9,12-dienoyl]oxy}propyl 2-(trimethylazaniumyl)ethyl
+    phosphate
+  - PC(18:2(9Z,12Z)/18:2(9Z,12Z))
+  - 1,2-dilinoleoyl-sn-glycero-3-phosphocholine
+  - PC(18:2w6/18:2w6)
+  - GPCho(18:2w6/18:2w6)
+  - PC(18:2n6/18:2n6)
+  - PC(18:2/18:2)
+  - GPCho(18:2/18:2)
+  - Phosphatidylcholine(18:2/18:2)
+  - Phosphatidylcholine(18:2n6/18:2n6)
+  - Phosphatidylcholine(18:2w6/18:2w6)
+  - GPCho(18:2n6/18:2n6)

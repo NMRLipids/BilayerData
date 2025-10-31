@@ -15,3 +15,16 @@ bioschema_properties:
   inChIKey: IJFVSSZAOYLHEE-SSEXGKCCSA-N
   molecularFormula: C32H64NO8P
   molecularWeight: '621.8'
+  name: '[(2R)-2,3-di(dodecanoyloxy)propyl] 2-(trimethylazaniumyl)ethyl phosphate'
+  image: https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL4288877?dimensions=200
+  alternateName:
+  - DLPC
+  - Dilauroyl phosphatidylcholine
+  - PC(12:0/12:0)
+  - 1,2-didodecanoyl-sn-glycero-3-phosphocholine
+  - 1,2-Dilauroyl-L-phosphatidylcholine
+  - 1,2-didodecanoyl-sn-phosphatidylcholine
+  - (R)-(7-Lauroyl-4-oxido-10-oxo-3,5,9-trioxa-4-phosphahenicosyl)trimethylammonium
+    4-oxide
+  - L-alpha-Dilauroyl-sn-glycero-3-phosphocholine
+  - 1,2-dilauroyl-sn-glycero-3-phosphocholine betaine
