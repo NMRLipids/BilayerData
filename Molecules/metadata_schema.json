@@ -28,10 +28,15 @@
           "description": "PubChem Compound identifier",
           "pattern": "^\\d+$"
         },
-        "chebi": {
+        "ChEBI": {
           "type": "string",
           "description": "ChEBI identifier",
           "pattern": "^CHEBI:\\d+$"
+        },
+        "ChEMBL": {
+          "type": "string",
+          "description": "CHEMBL identifier",
+          "pattern": "^CHEMBL\\d+$"
         },
         "lipidmaps": {
           "type": "string",
@@ -139,4 +144,3 @@
   "description": "Molecule Metadata Schema for NMRlipids",
   "$comment": "Schema version 1.0.0, Last updated: 2025-10-30"
 }
-
