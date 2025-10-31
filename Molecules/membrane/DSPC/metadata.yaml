@@ -8,6 +8,7 @@ sameAs:
   metabolights: MTBLC83718
   slm: SLM:000012489
   pdb.ligand: PC1
+  chebi: CHEBI:83718
 bioschema_properties:
   iupacName: '[(2R)-2,3-di(octadecanoyloxy)propyl] 2-(trimethylazaniumyl)ethyl phosphate'
   smiles: CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCCCCCCCCCCCCCCC
@@ -15,3 +16,94 @@ bioschema_properties:
   inChIKey: NRJAVPSFFCBXDT-HUESYALOSA-N
   molecularFormula: C44H88NO8P
   molecularWeight: '790.1'
+  name: '[(2R)-2,3-di(octadecanoyloxy)propyl] 2-(trimethylazaniumyl)ethyl phosphate'
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=94190&t=l
+  alternateName:
+  - 816-94-4
+  - 1,2-Distearoyl-sn-glycero-3-phosphocholine
+  - DSPC
+  - Distearoyl phosphatidylcholine
+  - PC(18:0/18:0)
+  - 1,2-Distearoyl-sn-3-phosphacholine
+  - 043IPI2M0K
+  - L-DISTEAROYLLECITHIN
+  - NSC-725285
+  - CHEBI:83718
+  - DTXSID20231218
+  - distearoyl-sn-glycero-3-phosphocholine
+  - 1,2-DISTEARIN SN-3-PHOSPHORYLCHOLINE
+  - L-DSPC
+  - RefChem:906756
+  - DSPC R-
+  - 1,2-distearoyllecithin, (R)-
+  - DTXCID20153709
+  - 212-440-2
+  - PC(36:0)
+  - (R)-2,3-Bis(stearoyloxy)propyl (2-(trimethylammonio)ethyl) phosphate
+  - 1,2-dioctadecanoyl-sn-glycero-3-phosphocholine
+  - MFCD00036905
+  - DSPC (Excipient)
+  - C44H88NO8P
+  - L-alpha-Phosphatidylcholine, distearoyl
+  - '[(2R)-2,3-di(octadecanoyloxy)propyl] 2-(trimethylazaniumyl)ethyl phosphate'
+  - Di-stearoyl-phosphatidylcholine
+  - 1,2-distearoyl-sn-glycero-3-phosphorylcholine
+  - Phosphatidylcholine(18:0/18:0)
+  - GPCho(18:0/18:0)
+  - 1,2-DSPC
+  - UNII-043IPI2M0K
+  - (R)-2,3-Bis(stearoyloxy)propyl [2-(Trimethylammonio)ethyl] Phosphate
+  - EINECS 212-440-2
+  - L-beta,gamma,Disteroyl-alpha-lecithin
+  - 1,2-Distearoyl-sn-glycerophosphocholine
+  - DSPC R-ISOMER
+  - 3-sn-Phosphatidylcholine, 1,2-distearoyl
+  - SCHEMBL24563
+  - Phosphatidylcholine Hydrogenated
+  - orb1298055
+  - DSPC;L-,-Distearoyl--lecithin
+  - 1,2-DSPC?
+  - 1,2-DISTEAROYL-SN-GLYCERO-3-PHOSPHOCHOLINE (DSPC)
+  - 18:0 PC (DSPC)
+  - BCP11135
+  - HY-W040193A
+  - LMGP01010006
+  - MSK001064
+  - NSC725285
+  - DISTEAROYL-L-.ALPHA.-LECITHIN
+  - '[(2R)-2,3-di(octadecanoyloxy)propyl] 2-(trimethylammonio)ethyl phosphate'
+  - AKOS016012934
+  - DISTEAROYL GLYCEROPHOSPHOCHOLINE
+  - L-beta,gamma-Distearoyl-alpha-lecithin
+  - CS-W020933
+  - GS-6169
+  - HY-W040193
+  - NSC 725285
+  - (R)-(7-Lauroyl-4-oxido-10-oxo-3,5,9-trioxa-4-phosphaheptacosyl)trimethylammonium
+    4-oxide
+  - L-alpha-Phosphatidyl choline, distearoyl
+  - 4-Hydroxy-N,N,N-trimethyl-10-oxo-7-((1-oxooctadecyl)oxy)-3,5,9-trioxa-4-phosphaheptacosan-1-aminium
+    hydroxide, inner salt, 4-oxide, (R)-
+  - BP-25623
+  - SY057807
+  - GPC(18:0/18:0)
+  - CS-1096704
+  - D3926
+  - PC (18:0)2
+  - PC 18:0/18:0
+  - 1,2-Distearoyl-sn-Glycero-3-Phosphatidylcholine
+  - PC(18_0/18_0)
+  - F793317
+  - 1,2-DIASTEAROYL-SN-GLYCERO-3-PHOSPHOCHOLINE
+  - 1,2-Distearoyl-sn-glycero-3-phosphocholine, >=99%
+  - Q27157143
+  - 1,2-DISTEAROYL-SN-GLYCERO-3-PHOSPHOCHOLINE [II]
+  - 1,2-Distearoyl-sn-glycero-3-phosphocholine, >=99% (TLC)
+  - (2R)-2,3-bis(octadecanoyloxy)propyl 2-(trimethylammonio)ethyl phosphate
+  - (2R)-2,3-bis(octadecanoyloxy)propyl 2-(trimethylazaniumyl)ethyl phosphate
+  - 18:0 PC (DSPC), 1,2-distearoyl-sn-glycero-3-phosphocholine, powder
+  - (2-{[(2R)-2,3-bis(octadecanoyloxy)propyl phosphono]oxy}ethyl)trimethylazanium
+  - 3,5,9-Trioxa-4-phosphaheptacosan-1-aminium, 4-hydroxy-N,N,N-trimethyl-10-oxo-7-((1-oxooctadecyl)oxy)-,
+    hydroxide, inner salt, 4-oxide, (R)-
+  - 3,5,9-TRIOXA-4-PHOSPHAHEPTACOSAN-1-AMINIUM, 4-HYDROXY-N,N,N-TRIMETHYL-10-OXO-7-((1-OXOOCTADECYL)OXY)-,
+    INNER SALT, 4-OXIDE, (7R)-

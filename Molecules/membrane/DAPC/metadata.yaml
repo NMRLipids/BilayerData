@@ -8,6 +8,7 @@ sameAs:
   lipidmaps: LMGP01011052
   metabolights: MTBLC60657
   slm: SLM:000012456
+  chebi: CHEBI:60657
 bioschema_properties:
   iupacName: '[(2R)-2,3-bis[[(5Z,8Z,11Z,14Z)-icosa-5,8,11,14-tetraenoyl]oxy]propyl]
     2-(trimethylazaniumyl)ethyl phosphate'
@@ -16,3 +17,56 @@ bioschema_properties:
   inChIKey: LZLVZIFMYXDKCN-QJWFYWCHSA-N
   molecularFormula: C48H80NO8P
   molecularWeight: '830.1'
+  name: '[(2R)-2,3-bis[[(5Z,8Z,11Z,14Z)-icosa-5,8,11,14-tetraenoyl]oxy]propyl] 2-(trimethylazaniumyl)ethyl
+    phosphate'
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=24779076&t=l
+  alternateName:
+  - L-a-Lecithin-diarachidonoyl
+  - Diarachidonyl lecithin
+  - 17688-29-8
+  - PC(20:4/20:4)
+  - Diarachidonoylphosphatidylcholine
+  - Diarachidonyl phosphatidylcholine
+  - PC(20:4(5Z,8Z,11Z,14Z)/20:4(5Z,8Z,11Z,14Z))
+  - L-Diarachidonoyl lecithin
+  - 1,2-Diarachidonylphosphatidylcholine
+  - 1,2-Diarachidonyl-L-alpha-glycerophosphorylcholine
+  - 1,2-di-O-arachidonoyl-sn-glycero-3-phosphocholine
+  - 1,2-di-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-3-phosphocholine
+  - 1,2-diarachidonoyl-sn-glycero-3-phosphocholine
+  - Arachidonin, 1,2-di, dihydrogen phosphate, monoester with choline hydroxide, inner
+    salt, L-
+  - Choline, hydroxide, dihydrogen phosphate, inner salt, ester with 1,2-diarachidonin,
+    L-
+  - CHEBI:60657
+  - '[(2R)-2,3-bis[[(5Z,8Z,11Z,14Z)-icosa-5,8,11,14-tetraenoyl]oxy]propyl] 2-(trimethylazaniumyl)ethyl
+    phosphate'
+  - SCHEMBL235399
+  - 20:4 (Cis) PC
+  - C48H80NO8P
+  - orb2283841
+  - Diarachidonoyl phosphatidylcholine
+  - LZLVZIFMYXDKCN-QJWFYWCHSA-N
+  - DTXSID801297385
+  - 3,5,9-Trioxa-4-phosphanonacosa-14,17,20,23-tetraen-1-aminium, 4-hydroxy-N,N,N-trimethyl-10-oxo-7-[(1-oxo-5,8,11,14-eicosatetraenyl)oxy]-,
+    inner salt, 4-oxide, [R-(all-Z)]-
+  - 12-Diarachidonoyl-sn-glycero-3-PC
+  - GPCho(20:4n6/20:4n6)
+  - GPCho(20:4w6/20:4w6)
+  - LMGP01011052
+  - MFCD00171670
+  - PC(20:4n6/20:4n6)
+  - PC(20:4w6/20:4w6)
+  - Phosphatidylcholine(20:4n6/20:4n6)
+  - Phosphatidylcholine(20:4w6/20:4w6)
+  - BP-42935
+  - PD053621
+  - HY-157721
+  - CS-0997357
+  - 1,2-diarachidonoyl-rac-glycero-3-phosphocholine
+  - Q27104877
+  - (2-{[(2R)-2,3-Bis[(5Z,8Z,11Z,14Z)-icosa-5,8,11,14-tetraenoyloxy]propyl phosphonato]oxy}ethyl)trimethylazanium
+  - (7R,14Z,17Z,20Z,23Z)-4-hydroxy-7-[(5Z,8Z,11Z,14Z)-icosa-5,8,11,14-tetraenoyloxy]-N,N,N-trimethyl-10-oxo-3,5,9-trioxa-4-phosphanonacosa-14,17,20,23-tetraen-1-aminium
+    4-oxide
+  - '[(2R)-2,3-bis[[(5Z,8Z,11Z,14Z)-icosa-5,8,11,14-tetraenoyl]oxy]propyl] 2-(trimethylammonio)ethyl
+    phosphate'

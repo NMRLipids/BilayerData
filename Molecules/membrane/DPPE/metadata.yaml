@@ -9,6 +9,7 @@ sameAs:
   metabolights: MTBLC73005
   slm: SLM:000034909
   pdb.ligand: PEF
+  chebi: CHEBI:73127
 bioschema_properties:
   iupacName: '[(2R)-3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-hexadecanoyloxypropyl]
     hexadecanoate'
@@ -17,3 +18,74 @@ bioschema_properties:
   inChIKey: SLKDGVPOSSLUAI-PGUFJCEWSA-N
   molecularFormula: C37H74NO8P
   molecularWeight: '692'
+  name: '[(2R)-3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-hexadecanoyloxypropyl] hexadecanoate'
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=445468&t=l
+  alternateName:
+  - 923-61-5
+  - 1,2-Dipalmitoyl-sn-glycero-3-phosphoethanolamine
+  - 1,2-dihexadecanoyl-sn-glycero-3-phosphoethanolamine
+  - 4FWH120Z1Z
+  - 1,2-Dihexadecanoyl-sn-glycerol-3-phosphorylethanolamine
+  - CHEBI:73127
+  - 2-aminoethyl (2R)-2,3-bis(palmitoyloxy)propyl hydrogen phosphate
+  - 2-aminoethyl (2R)-2,3-bis(hexadecanoyloxy)propyl hydrogen phosphate
+  - RefChem:411644
+  - GlyTouCan:G37614NC
+  - G37614NC
+  - 213-097-1
+  - Dipalmitoyl phosphatidylethanolamine
+  - C37H74NO8P
+  - PE(16:0/16:0)
+  - MFCD00036776
+  - 1,2-Dipalmitoyl-sn-glycero-3-phosphorylethanolamine
+  - GPEtn(32:0)
+  - Phophatidylethanolamine(32:0)
+  - DI-PALMITOYL-3-SN-PHOSPHATIDYLETHANOLAMINE
+  - GPEtn(16:0/16:0)
+  - (2R)-3-(((2-Aminoethoxy)(hydroxy)phosphoryl)oxy)propane-1,2-diyl dipalmitate
+  - PE(32:0)
+  - 1,2-Dipalmitoyl-3-sn-phosphatidylethanolamine
+  - Dipalmitoyl phosphoethanolamine
+  - (R)-1-((((2-Aminoethoxy)hydroxyphosphinoyl)oxy)methyl)ethane-1,2-diyl dihexadecanoate
+  - '[(2R)-3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-hexadecanoyloxypropyl] hexadecanoate'
+  - Hexadecanoic acid, 1-[[[(2-aminoethoxy)hydroxyphosphinyl]oxy]methyl]-1,2-ethanediyl
+    ester, (R)-
+  - Palmitin, 1,2-di-, 2-aminoethyl hydrogen phosphate, L-
+  - UNII-4FWH120Z1Z
+  - 3-[AMINOETHYLPHOSPHORYL]-[1,2-DI-PALMITOYL]-SN-GLYCEROL
+  - 1,2-Dipalmitoyl-3-phosphatidylethanolamine
+  - EINECS 213-097-1
+  - Phophatidylethanolamine
+  - DPPE, L-
+  - DPPE, R-
+  - SCHEMBL202169
+  - DPPE;L-,-Dipalmitoyl--cephalin
+  - DTXSID90919258
+  - CEPHALIN, L-ALPHA-DIPALMITOYL
+  - LMGP02010037
+  - MSK157188
+  - AKOS030524265
+  - CS-W021008
+  - DB01728
+  - HY-W040268
+  - Phosphatidylethanolamine(16:0/16:0)
+  - '[(2R)-3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-hexadecanoyloxy-propyl] hexadecanoate'
+  - SY057796
+  - DB-027520
+  - D4213
+  - NS00041721
+  - H11750
+  - 1, 2-dipalmitoyl-sn-glycero-3-phosphoethanolamine
+  - 923D615
+  - F953778
+  - 1,2-Dipalmitoyl-sn-Glycero-3-Phosphatidylethanolamine
+  - Q27140326
+  - 1,2-Dipalmitoyl-sn-glycero-3-phosphoethanolamine, >=97%
+  - 2-Aminoethyl (R)-2,3-Bis(hexadecanoyloxy)propyl Hydrogen Phosphate
+  - (2R)-3-(((2-Aminoethoxy)(hydroxy)phosphoryl)oxy)propane-1,2-diyldipalmitate
+  - (2R)-3-{[(2-aminoethoxy)(hydroxy)phosphoryl]oxy}-2-(hexadecanoyloxy)propyl hexadecanoate
+  - (2R)-3-{[(S)-(2-aminoethoxy)(hydroxy)phosphoryl]oxy}propane-1,2-diyl dihexadecanoate
+  - 3-[[(2-Aminoethoxy)(hydroxy)phosphoryl]oxy]propane-1,2-diyl (2R)-Dipalmitate
+  - 3-{[(2-Aminoethoxy)(hydroxy)phosphoryl]oxy}-2-(hexadecanoyloxy)propyl hexadecanoate
+  - HEXADECANOIC ACID, 1,1'-((1R)-1-((((3-AMINO-1-OXOPROPOXY)HYDROXYPHOSPHINYL)OXY)METHYL)-1,2-ETHANEDIYL)
+    ESTER

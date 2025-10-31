@@ -9,6 +9,7 @@ sameAs:
   metabolights: MTBLC60568
   slm: SLM:000000658
   pdb.ligand: 17F
+  chebi: CHEBI:60568
 bioschema_properties:
   iupacName: '[(2S)-2-azaniumyl-2-carboxyethyl] [(2R)-2,3-bis[[(Z)-octadec-9-enoyl]oxy]propyl]
     phosphate'
@@ -17,3 +18,63 @@ bioschema_properties:
   inChIKey: WTBFLCSPLLEDEM-JIDRGYQWSA-N
   molecularFormula: C42H78NO10P
   molecularWeight: '788'
+  name: (2S)-2-amino-3-[[(2R)-2,3-bis[[(Z)-octadec-9-enoyl]oxy]propoxy]-hydroxyphosphoryl]oxypropanoic
+    acid
+  image: https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL4165044?dimensions=200
+  alternateName:
+  - Dioleoyl phosphatidylserine
+  - 1,2-Dioleoylphosphatidylserine
+  - DOPSE
+  - 1,2-Dlps
+  - 70614-14-1
+  - 1,2-Dioleoyl-sn-glycero-3-phospho-L-serine
+  - 1,2-Dioleoyl-sn-glycero-3-phosphoserine
+  - Dioleoylphosphatidylserine
+  - CHEBI:60568
+  - KJ401H4834
+  - DTXSID701311823
+  - L-Serine, 2,3-bis((1-oxo-9-octadecenyl)oxy)propyl hydrogen phosphate (ester),
+    (R-(Z,Z))-
+  - 4,6,10-TRIOXA-5-PHOSPHAOCTACOS-19-ENOIC ACID, 2-AMINO-5-HYDROXY-11-OXO-8-(((9Z)-1-OXO-9-OCTADECEN-1-YL)OXY)-,
+    5-OXIDE, (2S,8R,19Z)-
+  - 4,6,10-Trioxa-5-phosphaoctacos-19-enoic acid, 2-amino-5-hydroxy-11-oxo-8-[[(9Z)-1-oxo-9-octadecen-1-yl]oxy]-,
+    5-oxide, (2S,8R,19Z)-
+  - RefChem:920382
+  - GlyTouCan:G29020EU
+  - DTXCID601741643
+  - G29020EU
+  - Phosphatidylserine(36:2)
+  - PS(18:1(9Z)/18:1(9Z))
+  - PS(18:1/18:1)
+  - Phosphatidylserine(18:1/18:1)
+  - PS(36:2)
+  - PS(18:1omega9/18:1omega9)
+  - 1,2-di-(9Z-octadecenoyl)-sn-glycero-3-phosphoserine
+  - Phosphatidylserine(18:1omega9/18:1omega9)
+  - O-[(S)-({(2r)-2,3-Bis[(9z)-Octadec-9-Enoyloxy]propyl}oxy)(Hydroxy)phosphoryl]-L-Serine
+  - L-Serine, 2,3-bis[(1-oxo-9-octadecenyl)oxy]propyl-2-t hydrogen phosphate (ester),
+    [R-(Z,Z)]-
+  - PS(36:02)
+  - UNII-KJ401H4834
+  - Epitope ID:140431
+  - DOPS, R-
+  - SCHEMBL203029
+  - orb2813948
+  - CHEMBL4165044
+  - 18:1 PS (DOPS)
+  - PSer(18:1/18:1)
+  - PSer(18:1n9/18:1n9)
+  - PSer(18:1w9/18:1w9)
+  - LMGP03010030
+  - Phosphatidylserine(18:1n9/18:1n9)
+  - Phosphatidylserine(18:1w9/18:1w9)
+  - PS(18:1n9/18:1n9)
+  - PS(18:1w9/18:1w9)
+  - (2S)-2-amino-3-[[(2R)-2,3-bis[[(Z)-octadec-9-enoyl]oxy]propoxy]-hydroxyphosphoryl]oxypropanoic
+    acid
+  - 1,2-dioleoyl-rac-glycero-3-phosphoserine
+  - PD131389
+  - PS(18:1_18:1)
+  - Q27127822
+  - O-(((R)-2,3-Bis(oleoyloxy)propoxy)(hydroxy)phosphoryl)-L-serine
+  - O-[({(2R)-2,3-bis[(9Z)-octadec-9-enoyloxy]propyl}oxy)(hydroxy)phosphoryl]-L-serine

@@ -9,6 +9,7 @@ sameAs:
   metabolights: MTBLC73124
   slm: SLM:000000662
   pdb.ligand: 6OU
+  chebi: CHEBI:34083
 bioschema_properties:
   iupacName: '[(2R)-1-[2-aminoethoxy(hydroxy)phosphoryl]oxy-3-hexadecanoyloxypropan-2-yl]
     (Z)-octadec-9-enoate'
@@ -17,3 +18,68 @@ bioschema_properties:
   inChIKey: FHQVHHIBKUMWTI-OTMQOFQLSA-N
   molecularFormula: C39H76NO8P
   molecularWeight: '718'
+  name: '[(2R)-1-[2-aminoethoxy(hydroxy)phosphoryl]oxy-3-hexadecanoyloxypropan-2-yl]
+    (Z)-octadec-9-enoate'
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=5283496&t=l
+  alternateName:
+  - 26662-94-2
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  - VM33LRU3A6
+  - '[(2R)-1-[2-aminoethoxy(hydroxy)phosphoryl]oxy-3-hexadecanoyloxypropan-2-yl] (Z)-octadec-9-enoate'
+  - CHEBI:73124
+  - DTXSID401212159
+  - 1-Hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphoethanolamine
+  - 16:0-18:1-PE
+  - phosphatidylethanolamine (16:0/18:1)
+  - ((2R)-1-(2-aminoethoxy(hydroxy)phosphoryl)oxy-3-hexadecanoyloxypropan-2-yl) (Z)-octadec-9-enoate
+  - RefChem:907781
+  - GlyTouCan:G03337GS
+  - CHEBI:136148
+  - DTXCID401643518
+  - G03337GS
+  - 2-azaniumylethyl ((2R)-3-hexadecanoyloxy-2-((Z)-octadec-9-enoyl)oxypropyl) phosphate
+  - 247-894-0
+  - UNII-VM33LRU3A6
+  - PE(16:0/18:1(9Z))
+  - EINECS 247-894-0
+  - MFCD00672608
+  - 1-Palmitoyl-2-oleoyl-sn-glycero-3-PE
+  - (R)-1-((((2-Aminoethoxy)hydroxyphosphinyl)oxy)methyl)-2-((1-oxohexadecyl)oxy)ethyl
+    oleate
+  - (2R,9Z)-1-(((2-Aminoethoxy)(hydroxy)phosphoryl)oxy)-3-(palmitoyloxy)propan-2-yl
+    oleate
+  - 1-palmitoyl-2-oleoyl-GPE
+  - PE 34:1
+  - '[(2~{r})-1-[2-Azanylethoxy(Oxidanyl)phosphoryl]oxy-3-Hexadecanoyloxy-Propan-2-Yl]
+    (~{z})-Octadec-9-Enoate'
+  - GPE(34:1)
+  - 1-16:0-2-18:1-phosphatidylethanolamine
+  - 2-Oleoyl-1-palmitoyl-sn-glycero-3-phosphoethanolamine
+  - GPE(16:0/18:1)
+  - C39H76NO8P
+  - SCHEMBL234578
+  - 1,2-POPE
+  - orb1737446
+  - CHEBI:34083
+  - GPEtn(16:0/18:1omega9)
+  - PE(16:0/18:1omega9)
+  - LMGP02010009
+  - MSK001073
+  - HY-W583868
+  - 1-Palmitoyl-2-oleoyl phosphoethanolamine
+  - BP-26333
+  - DA-69823
+  - SY355806
+  - CS-0636385
+  - NS00050060
+  - Phosphatidylethanolamine(16:0/18:1omega9)
+  - F77444
+  - Q27889340
+  - 1-hexadecanoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  - 2-Oleoyl-1-palmitoyl-sn-glycero-3-phosphoethanolamine (POPE)
+  - '{1-hexadecanoyl-2-[(Z)-octadec-9-enoyl]-sn-glycero-3-phospho}ethanolamine'
+  - (2R)-1-[[(2-Aminoethoxy)(hydroxy)phosphoryl]oxy]-3-(palmitoyloxy)-2-propyl Oleate
+  - (19R)-25-amino-22-hydroxy-22-oxido-16-oxo-17,21,23-trioxa-22lambda(5)-phosphapentacosan-19-yl
+    (9Z)-octadec-9-enoate
+  - '[(1R)-1-[[2-aminoethoxy(hydroxy)phosphoryl]oxymethyl]-2-hexadecanoyloxy-ethyl]
+    (Z)-octadec-9-enoate'

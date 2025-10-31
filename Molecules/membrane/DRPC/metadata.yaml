@@ -7,6 +7,7 @@ sameAs:
   pubchem.compound: 24778648
   lipidmaps: LMGP01010523
   slm: SLM:000012476
+  chebi: CHEBI:137160
 bioschema_properties:
   iupacName: '[(2R)-2,3-bis[[(Z)-tetradec-9-enoyl]oxy]propyl] 2-(trimethylazaniumyl)ethyl
     phosphate'
@@ -15,3 +16,35 @@ bioschema_properties:
   inChIKey: AVCZHZMYOZARRJ-JWLMTKEBSA-N
   molecularFormula: C36H68NO8P
   molecularWeight: '673.9'
+  name: '[(2R)-2,3-bis[[(Z)-tetradec-9-enoyl]oxy]propyl] 2-(trimethylazaniumyl)ethyl
+    phosphate'
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=24778648&t=l
+  alternateName:
+  - 1,2-Dimyristoleoyl-sn-glycero-3-phosphocholine
+  - L-Dimyristoleoyl lecithin
+  - PC(14:1(9Z)/14:1(9Z))
+  - 1,2-di-(9Z-tetradecenoyl)-sn-glycero-3-phosphocholine
+  - PC(14:1/14:1)
+  - Dimyristoleoyl-L-alpha-glycerophosphorylcholine
+  - '[(2R)-2,3-bis[[(Z)-tetradec-9-enoyl]oxy]propyl] 2-(trimethylazaniumyl)ethyl phosphate'
+  - PC(28:2)
+  - Phosphatidylcholine(28:2)
+  - GPCho(28:2)
+  - SCHEMBL234970
+  - AVCZHZMYOZARRJ-JWLMTKEBSA-N
+  - CHEBI:137160
+  - Phosphatidylcholine(14:1/14:1)
+  - GPCho(14:1/14:1)
+  - GPCho(14:1n5/14:1n5)
+  - GPCho(14:1w5/14:1w5)
+  - LMGP01010523
+  - 14:1 (.DELTA.9-Cis) PC
+  - PC(14:1n5/14:1n5)
+  - PC(14:1w5/14:1w5)
+  - Phosphatidylcholine(14:1n5/14:1n5)
+  - Phosphatidylcholine(14:1w5/14:1w5)
+  - 1,2-dimyristoleoyl-rac-glycero-3-phosphocholine
+  - Dimyristoleoyl-L-.alpha.-glycerophosphorylcholine
+  - 14:1 (Delta9-Cis) PC, 1,2-dimyristoleoyl-sn-glycero-3-phosphocholine, powder
+  - 3,5,9-Trioxa-4-phosphatricos-18-en-1-aminium, 4-hydroxy-N,N,N-trimethyl-10-oxo-7-[(1-oxo-9-tetradecenyl)oxy]-,
+    inner salt, 4-oxide, [R-(Z,Z)]-

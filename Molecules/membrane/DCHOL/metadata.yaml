@@ -11,3 +11,5 @@ bioschema_properties:
   inChIKey: RRRDVXINMOMAEE-ZGVAJZRXSA-N
   molecularFormula: C25H42O
   molecularWeight: '358.6'
+  name: (3S,8S,9S,10R,13R,14R,17R)-17-[(2R)-6-methylheptan-2-yl]-2,3,4,7,8,9,10,11,12,13,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-3-ol
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=102149882&t=l
