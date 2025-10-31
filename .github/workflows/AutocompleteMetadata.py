@@ -68,6 +68,7 @@ def extract_sameas(sources):
     mapping = {
         "pubchem": "pubchem.compound",
         "chebi": "ChEBI",
+        "chembl": "ChEMBL",
         "lipidmaps": "lipidmaps",
         "metabolights": "metabolights",
         "swisslipids": "slm",
