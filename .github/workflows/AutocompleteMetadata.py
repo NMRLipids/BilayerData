@@ -55,7 +55,7 @@ def extract_sameas(sources):
         "lipidmaps": "lipidmaps",
         "metabolights": "metabolights",
         "swisslipids": "slm",
-        "pdb": "pdb",
+        "pdb": "pdb.ligand",
         "unii": "unii",
         "cas": "cas"
     }
