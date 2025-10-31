@@ -7,6 +7,7 @@ sameAs:
   pubchem.compound: 62852
   metabolights: MTBLC41128
   pdb.ligand: BOG
+  ChEMBL: CHEMBL446037
 bioschema_properties:
   iupacName: (2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-octoxyoxane-3,4,5-triol
   smiles: CCCCCCCCO[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O

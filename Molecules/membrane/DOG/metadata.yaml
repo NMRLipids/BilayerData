@@ -8,6 +8,7 @@ sameAs:
   lipidmaps: LMGL02010049
   metabolights: MTBLC52333
   slm: SLM:000120672
+  ChEMBL: CHEMBL590047
 bioschema_properties:
   iupacName: '[(2S)-3-hydroxy-2-[(Z)-octadec-9-enoyl]oxypropyl] (Z)-octadec-9-enoate'
   smiles: CCCCCCCC/C=C\\CCCCCCCC(=O)OC[C@H](CO)OC(=O)CCCCCCC/C=C\\CCCCCCCC

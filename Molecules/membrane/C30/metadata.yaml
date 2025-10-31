@@ -7,6 +7,7 @@ sameAs:
   ChEBI: CHEBI:31006
   lipidmaps: LMFA11000588
   metabolights: MTBLC31006
+  ChEMBL: CHEMBL1482375
 bioschema_properties:
   name: n-Triacontane
   iupacName: triacontane

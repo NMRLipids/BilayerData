@@ -9,6 +9,7 @@ sameAs:
   slm: SLM:000389794
   pdb.ligand: HWP
   ChEBI: CHEBI:78646
+  ChEMBL: CHEMBL4526394
 bioschema_properties:
   name: '[(E,2S,3R)-2-(hexadecanoylamino)-3-hydroxyoctadec-4-enyl] 2-(trimethylazaniumyl)ethyl
     phosphate'
