@@ -32,7 +32,7 @@ jobs:
       - name: Checkout Databank
         uses: actions/checkout@v4
         with:
-          repository: NMRLipids/Databank
+          repository: NMRLipids/FAIRMD_lipids
           ref: main
           path: Databank
 
