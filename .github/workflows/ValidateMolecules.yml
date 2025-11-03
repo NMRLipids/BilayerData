@@ -26,7 +26,7 @@ jobs:
           - name: Checkout Databank
             uses: actions/checkout@v4
             with:
-                repository: NMRlipids/Databank
+                repository: NMRlipids/FAIRMD_lipids
                 ref: main
                 path: Databank
             
