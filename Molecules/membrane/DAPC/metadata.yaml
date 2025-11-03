@@ -16,3 +16,19 @@ bioschema_properties:
   inChIKey: LZLVZIFMYXDKCN-QJWFYWCHSA-N
   molecularFormula: C48H80NO8P
   molecularWeight: '830.1'
+  name: '[(2R)-2,3-bis[[(5Z,8Z,11Z,14Z)-icosa-5,8,11,14-tetraenoyl]oxy]propyl] 2-(trimethylazaniumyl)ethyl
+    phosphate'
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=24779076&t=l
+  alternateName:
+  - 1,2-diarachidonoyl-sn-glycero-3-phosphocholine
+  - 1,2-Diarachidonyl-L-α-glycerophosphorylcholine
+  - PC(20:4/20:4)
+  - Diarachidonyl phosphatidylcholine
+  - PC(20:4(5Z,8Z,11Z,14Z)/20:4(5Z,8Z,11Z,14Z))
+  - 1,2-di-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-3-phosphocholine
+  - Diarachidonyl lecithin
+  - 1,2-Diarachidonylphosphatidylcholine
+  - Diarachidonoylphosphatidylcholine
+  - 1,2-Diarachidyl-3-phosphatidylcholine
+  - DAPC
+  - 1,2-Diarachidonoyl-glycero-3-phosphocholine

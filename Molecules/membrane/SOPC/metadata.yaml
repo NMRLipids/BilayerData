@@ -16,3 +16,32 @@ bioschema_properties:
   inChIKey: ATHVAWFAEPLPPQ-VRDBWYNSSA-N
   molecularFormula: C44H86NO8P
   molecularWeight: '788.1'
+  name: '[(2R)-3-octadecanoyloxy-2-[(Z)-octadec-9-enoyl]oxypropyl] 2-(trimethylazaniumyl)ethyl
+    phosphate'
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=24778825&t=l
+  alternateName:
+  - 1-octadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine
+  - (2R)-3-(octadecanoyloxy)-2-[(9Z)-octadec-9-enoyloxy]propyl 2-(trimethylammonio)ethyl
+    phosphate
+  - 1-Stearoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - phosphatidylcholine(18:0/18:1(9Z))
+  - PC 18:0/18:1(9Z)
+  - GPCho 18:0/18:1(9Z)
+  - 1-octadecanoyl-2-(9Z)-octadecenoyl-sn-glycero-3-phosphocholine
+  - SOPC
+  - PC(18:0/18:1(9Z))
+  - L-α-1-stearoyl-2-oleoyl lecithin
+  - PC(18:0/18:1ω9)
+  - Phosphatidylcholine(18:0/18:1)
+  - Phosphatidylcholine(36:1)
+  - Phosphatidylcholine(18:0/18:1ω9)
+  - 1-Steroyl-2-oleoylphosphatidylcholine
+  - 1-18:0-2-18:1-phosphatidylcholine
+  - 18:0-18:1-PC
+  - Phosphatidylcholine(18:0/18:1n9)
+  - PC(18:0/18:1w9)
+  - Phosphatidylcholine(18:0/18:1w9)
+  - PC(18:0/18:1n9)
+  - 1-stearoyl-2-oleoyl-GPC
+  - GPC(18:0/18:1)
+  - 1-stearoyl-2-oleoyl-GPC (18:0/18:1)

@@ -16,3 +16,13 @@ bioschema_properties:
   inChIKey: XYYHNDVKALDFHQ-OXHZBIAZSA-N
   molecularFormula: C45H78NO8P
   molecularWeight: '792.1'
+  name: '[(2R)-1-[2-aminoethoxy(hydroxy)phosphoryl]oxy-3-octadecanoyloxypropan-2-yl]
+    (4Z,7Z,10Z,13Z,16Z,19Z)-docosa-4,7,10,13,16,19-hexaenoate'
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=9546798&t=l
+  alternateName:
+  - 1-octadecanoyl-2-docosahexaenoyl-sn-glycero-3-phosphoethanolamine zwitterion
+  - PE(18:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z))
+  - GPE(18:0/22:6)
+  - 1-stearoyl-2-docosahexaenoyl-GPE (18:0/22:6)
+  - PE(18:0/22:6)
+  - 1-stearoyl-2-docosahexaenoyl-GPE

@@ -16,3 +16,12 @@ bioschema_properties:
   inChIKey: GHQQYDSARXURNG-SSEXGKCCSA-N
   molecularFormula: C33H64NO10P
   molecularWeight: '665.8'
+  name: '[(2R)-2-(8-carboxyoctanoyloxy)-3-hexadecanoyloxypropyl] 2-(trimethylazaniumyl)ethyl
+    phosphate'
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=46907870&t=l
+  alternateName:
+  - 1-O-palmitoyl-2-O-azelaoyl-sn-glycero-3-phosphocholine
+  - 16:0-09:0(ALDO)phosphocholine
+  - 16:0-09:0(ALDO)PC
+  - 2-O-azelaoyl-1-O-palmitoyl-sn-glycero-3-phosphocholine
+  - PazePC

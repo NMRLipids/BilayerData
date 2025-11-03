@@ -16,3 +16,18 @@ bioschema_properties:
   inChIKey: KZVRAFHIKMDULK-HAVSRZFESA-N
   molecularFormula: C45H83O13P
   molecularWeight: '863.1'
+  alternateName:
+  - 1-octadecanoyl-2-(9Z,12Z)-octadecadienoyl-sn-glycero-3-phospho-1D-myo-inositol
+  - 1-stearoyl-2-linoleoyl-phosphatidylinositol
+  - 1-octadecanoyl-2-(9Z,12Z-octadecadienoyl)-glycero-3-phospho-(1'-myo-inositol)
+  - PI(18:0/18:2(9Z,12Z))
+  - Phosphatidylinositol(18:0/18:2)
+  - Phosphatidylinositol(18:0/18:2n6)
+  - Phosphatidylinositol(36:2)
+  - PI(18:0/18:2ω6)
+  - Phosphatidylinositol(18:0/18:2ω6)
+  - PI(36:2)
+  - PI(18:0/18:2n6)
+  - PI(18:0/18:2)
+  - 1-18:0-2-18:2-phosphatidylinositol
+  - 18:0-18:2-PI

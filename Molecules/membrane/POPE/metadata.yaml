@@ -17,3 +17,8 @@ bioschema_properties:
   inChIKey: FHQVHHIBKUMWTI-OTMQOFQLSA-N
   molecularFormula: C39H76NO8P
   molecularWeight: '718'
+  name: '[(2R)-1-[2-aminoethoxy(hydroxy)phosphoryl]oxy-3-hexadecanoyloxypropan-2-yl]
+    (Z)-octadec-9-enoate'
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=5283496&t=l
+  alternateName:
+  - 1-Hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphoethanolamine
