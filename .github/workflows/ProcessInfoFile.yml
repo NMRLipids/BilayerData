@@ -18,7 +18,7 @@ jobs:
       image: nmrlipids/core
       options: --user 1000:1000
     env:
-      NMLDB_DATA_PATH: ${{ github.workspace }}/BilayerData
+      FMDL_DATA_PATH: ${{ github.workspace }}/BilayerData
       MEM_CUTOFF: 1500000000
     steps:
       - name: Checkout BilayerData
