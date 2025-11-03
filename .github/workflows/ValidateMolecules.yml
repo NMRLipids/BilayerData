@@ -14,7 +14,7 @@ jobs:
             image: nmrlipids/core
             options: --user 1001:118 # run container as uid=1001,gid=118 to match the GitHub runner user
         env:
-            NMLDB_DATA_PATH: ${{ github.workspace }}/BilayerData
+            FMDL_DATA_PATH: ${{ github.workspace }}/BilayerData
         steps:
           - name: Checkout BilayerData
             uses: actions/checkout@v4
