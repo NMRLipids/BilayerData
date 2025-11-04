@@ -63,7 +63,7 @@ jobs:
         working-directory: BilayerData
         run: |
           # Use xargs to safely handle filenames with spaces
-          echo "${{ steps.files.outputs.changed_files }}" | xargs -n1 python ../Databank/AutocompleteMetadata.py
+          echo "${{ steps.files.outputs.changed_files }}" | xargs -n1 python ../Databank/developer/AutocompleteMetadata.py
 
       - name: Suggest changes on PR
         if: steps.files.outputs.changed_files != ''
