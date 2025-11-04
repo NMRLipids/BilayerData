@@ -1,10 +1,6 @@
 name: CheckMetadataSchema.yaml
 
 on:
-  push:
-    paths:
-      - 'Molecules/membrane/*/metadata.yaml'
-      - 'Molecules/solution/*/metadata.yaml'
   pull_request:
     paths:
       - 'Molecules/membrane/*/metadata.yaml'
@@ -36,11 +32,6 @@ jobs:
           ref: main
           path: Databank        
           
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
       - name: Install Databank dependencies
         working-directory: Databank
         run: |
