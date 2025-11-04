@@ -1,7 +1,7 @@
 name: AutocompleteMetadata
 
 on:
-  pull_request:
+  pull_request_target:
     paths:
       - 'Molecules/membrane/**/metadata.yaml'
       - 'Molecules/solution/**/metadata.yaml'
