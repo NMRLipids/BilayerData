@@ -9,8 +9,9 @@ sameAs:
   slm: SLM:000509264
 bioschema_properties:
   iupacName: "[(2R)-1-hexadecanoyloxy-3-[[3-[[(2R)-3-hexadecanoyloxy-2-[(Z)-octadec-11-enoyl]oxypropoxy]-hydroxyphosphoryl]oxy-2-hydroxypropoxy]-hydroxyphosphoryl]oxypropan-2-yl] (Z)-octadec-11-enoate"
+  name: "[(2R)-1-hexadecanoyloxy-3-[[3-[[(2R)-3-hexadecanoyloxy-2-[(Z)-octadec-11-enoyl]oxypropoxy]-hydroxyphosphoryl]oxy-2-hydroxypropoxy]-hydroxyphosphoryl]oxypropan-2-yl] (Z)-octadec-11-enoate"
   smiles: P(OC[C@]([H])(OC(CCCCCCCCC/C=C\CCCCCC)=O)COC(CCCCCCCCCCCCCCC)=O)(O)(OC[C@](O)([H])COP(OC[C@]([H])(OC(CCCCCCCCC/C=C\CCCCCC)=O)COC(CCCCCCCCCCCCCCC)=O)(O)=O)=O
   inChI: InChI=1S/C77H146O17P2/c1-5-9-13-17-21-25-29-33-35-39-43-47-51-55-59-63-76(81)93-72(67-87-74(79)61-57-53-49-45-41-37-31-27-23-19-15-11-7-3)69-91-95(83,84)89-65-71(78)66-90-96(85,86)92-70-73(68-88-75(80)62-58-54-50-46-42-38-32-28-24-20-16-12-8-4)94-77(82)64-60-56-52-48-44-40-36-34-30-26-22-18-14-10-6-2/h25-26,29-30,71-73,78H,5-24,27-28,31-70H2,1-4H3,(H,83,84)(H,85,86)/b29-25-,30-26-/t72-,73-/m1/s1
   inChIKey: JUCXSYKLUQLDIW-KGVAMPRLSA-N
   molecularFormula: C77H146O17P2
-  MolecularWeight: 1405.9
+  molecularWeight: 1405.9
