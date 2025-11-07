@@ -45,6 +45,6 @@ jobs:
         run: |
           for file in Molecules/membrane/*/metadata.yaml Molecules/solution/*/metadata.yaml; do
             if [ -f "$file" ]; then
-              check-jsonschema --schemafile ..Databank/src/fairmd/lipids/SchemaValidation/Schema/metadata_schema.json "$file"
+              check-jsonschema --schemafile ../Databank/src/fairmd/lipids/SchemaValidation/Schema/metadata_schema.json "$file"
             fi
           done
