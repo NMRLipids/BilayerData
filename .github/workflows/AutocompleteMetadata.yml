@@ -34,7 +34,7 @@ jobs:
       - name: Install the gh cli
         uses: ksivamuthu/actions-setup-gh-cli@v3
         with:
-          version: 2.83
+          version: 2.83.0
 
       - uses: actions/checkout@v4
         with:
