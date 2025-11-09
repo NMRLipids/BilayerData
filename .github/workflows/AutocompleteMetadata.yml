@@ -22,18 +22,22 @@ jobs:
       options: --user 1001:118
       env:
         FMDL_DATA_PATH: ${{ github.workspace }}/BilayerData
+        GH_TOKEN: ${{ github.token }}
 
     steps:
-      - name: Checkout BilayerData
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.ref }}
           path: BilayerData
           persist-credentials: false
 
-      - name: Checkout Databank
-        uses: actions/checkout@v4
+      - name: Install the gh cli
+        uses: ksivamuthu/actions-setup-gh-cli@v3
+        with:
+          version: 2.83
+
+      - uses: actions/checkout@v4
         with:
           repository: NMRlipids/FAIRMD_lipids
           ref: main
@@ -49,7 +53,10 @@ jobs:
         id: files
         working-directory: BilayerData
         run: |
-          changed_files=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} \
+          changed_files=$(gh pr diff ${{ github.event.pull_request.number }} --repo ${{ github.repository }} \
+            | grep -E 'diff --git a/Molecules/(membrane|solution)/[^/]+/metadata\.yaml' \
+            | awk '{print $3}' \
+            | sed 's|^a/||' \
             | grep -E '^Molecules/(membrane|solution)/[^/]+/metadata\.yaml$' || true)
           changed_files_list=$(echo "$changed_files" | tr '\n' ' ' | xargs)
           echo "changed_files=${changed_files_list}" >> $GITHUB_OUTPUT
