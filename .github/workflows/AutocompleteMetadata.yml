@@ -47,6 +47,11 @@ jobs:
         working-directory: Databank
         run: |
           pip install .
+      
+      - name: Install requests
+        working-directory: Databank
+        run: |
+          pip install requests  
 
       - name: Find changed metadata.yaml files
         id: files
