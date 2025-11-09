@@ -13,7 +13,6 @@ permissions:
 jobs:
   add-metadata:
     if: |
-      github.repository == 'NMRLipids/BilayerData' &&
       github.event_name == 'pull_request_target'
     runs-on: ubuntu-latest
 
