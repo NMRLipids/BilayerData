@@ -1,5 +1,6 @@
 NMRlipids:
   id: SAPI25
+  name: '[(2R)-1-[hydroxy-[(1R,2R,3S,4R,5R,6S)-2,3,6-trihydroxy-4,5-diphosphonooxycyclohexyl]oxyphosphoryl]oxy-3-octadecanoyloxypropan-2-yl] (5Z,8Z,11Z,14Z)-icosa-5,8,11,14-tetraenoate'
   charge: -4
 sameAs:
   pubchem.compound: 5497157
