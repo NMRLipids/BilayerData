@@ -1,6 +1,6 @@
 NMRlipids:
   id: POPI
-  name: 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol
+  name: '1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol'
   charge: -1
 sameAs:
   ChEBI: CHEBI:72837
