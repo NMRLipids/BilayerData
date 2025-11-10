@@ -3,7 +3,7 @@ NMRlipids:
   name: N-stearoyl-D-erythro-sphingosylphosphorylcholine
   charge: 0
 sameAs:
-  ChEBI: '83358'
+  ChEBI: CHEBI:83358
   pubchem.compound: 6453725
   lipidmaps: LMSP03010001
   metabolights: MTBLC83358
