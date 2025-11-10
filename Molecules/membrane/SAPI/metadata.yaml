@@ -14,7 +14,7 @@ bioschema_properties:
   inChI: InChI=1S/C47H83O13P/c1-3-5-7-9-11-13-15-17-19-20-22-24-26-28-30-32-34-36-41(49)59-39(38-58-61(55,56)60-47-45(53)43(51)42(50)44(52)46(47)54)37-57-40(48)35-33-31-29-27-25-23-21-18-16-14-12-10-8-6-4-2/h11,13,17,19,22,24,28,30,39,42-47,50-54H,3-10,12,14-16,18,20-21,23,25-27,29,31-38H2,1-2H3,(H,55,56)/b13-11-,19-17-,24-22-,30-28-/t39-,42-,43-,44+,45-,46-,47-/m1/s1
   inChIKey: KRTOMQDUKGRFDJ-ZAHDIIMDSA-N
   molecularFormula: C47H83O13P
-  molecularWeight: '887.1'
+  molecularWeight: 887.1
   alternateName:
   - 1-octadecanoyl-2-(5Z,8Z,11Z,14Z-icosatetraenoyl)-sn-glycero-3-phospho-1D-myo-inositol
   - PI(18:0/20:4(5Z,8Z,11Z,14Z))

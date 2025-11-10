@@ -14,7 +14,7 @@ bioschema_properties:
   inChI: InChI=1S/C52H100NO8P/c1-6-8-10-12-14-16-18-20-22-24-26-28-30-32-34-36-38-40-42-44-51(54)58-48-50(49-60-62(56,57)59-47-46-53(3,4)5)61-52(55)45-43-41-39-37-35-33-31-29-27-25-23-21-19-17-15-13-11-9-7-2/h20-23,50H,6-19,24-49H2,1-5H3/b22-20-,23-21-/t50-/m1/s1
   inChIKey: SDEURMLKLAEUAY-JFSPZUDSSA-N
   molecularFormula: C52H100NO8P
-  molecularWeight: '898.3'
+  molecularWeight: 898.3
   name: '[(2R)-2,3-bis[[(Z)-docos-13-enoyl]oxy]propyl] 2-(trimethylazaniumyl)ethyl
     phosphate'
   image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=24779126&t=l

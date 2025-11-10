@@ -14,7 +14,7 @@ bioschema_properties:
   inChI: InChI=1S/C14H28O6/c1-2-3-4-5-6-7-8-19-14-13(18)12(17)11(16)10(9-15)20-14/h10-18H,2-9H2,1H3/t10-,11-,12+,13-,14-/m1/s1
   inChIKey: HEGSGKPQLMEBJL-RKQHYHRCSA-N
   molecularFormula: C14H28O6
-  molecularWeight: '292.37'
+  molecularWeight: 292.37
   name: (2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-octoxyoxane-3,4,5-triol
   image: https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL446037?dimensions=200
   alternateName:
