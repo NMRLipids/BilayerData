@@ -9,6 +9,7 @@ sameAs:
   metabolights: MTBLC77158
   slm: SLM:000020037
 bioschema_properties:
+  name: 1-stearoyl-2-lauroyl-sn-glycero-3-phosphoinositol(-1)
   iupacName: '[(2R)-3-[hydroxy-[(5R)-2,3,4,5,6-pentahydroxycyclohexyl]oxyphosphoryl]oxy-2-[(9Z,12Z)-octadeca-9,12-dienoyl]oxypropyl]
     octadecanoate'
   smiles: CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)(O)OC1C([C@@H](C(C(C1O)O)O)O)O)OC(=O)CCCCCCC/C=C\C/C=C\CCCCC
