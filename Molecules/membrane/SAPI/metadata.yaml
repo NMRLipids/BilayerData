@@ -1,6 +1,6 @@
 NMRlipids:
   id: SAPI
-  name: 1-stearoyl-2-arachidonoyl-sn-glycero-3-phosphoinositol
+  name: 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol
   charge: -1
 sameAs:
   ChEBI: CHEBI:84153
@@ -8,6 +8,7 @@ sameAs:
   lipidmaps: LMGP06010010
   metabolights: MTBLC84153
 bioschema_properties:
+  name: 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol
   iupacName: '[(2R)-1-[hydroxy-[(2R,3S,5R,6R)-2,3,4,5,6-pentahydroxycyclohexyl]oxyphosphoryl]oxy-3-octadecanoyloxypropan-2-yl]
     (5Z,8Z,11Z,14Z)-icosa-5,8,11,14-tetraenoate'
   smiles: CCCCCCCCCCCCCCCCCC(=O)OC[C@H](COP(O)(=O)O[C@H]1[C@H](O)[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O)OC(=O)CCC\C=C/C\C=C/C\C=C/C\C=C/CCCCC
