@@ -25,7 +25,7 @@ jobs:
 
     steps:
       - name: Checkout BilayerData
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.ref }}
@@ -33,7 +33,7 @@ jobs:
           persist-credentials: false
       
       - name: Checkout Databank
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
         with:
           repository: NMRlipids/FAIRMD_lipids
           ref: main
