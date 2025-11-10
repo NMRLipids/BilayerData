@@ -1,6 +1,5 @@
 NMRlipids:
   id: POPI
-  name: '1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol'
   charge: -1
 sameAs:
   ChEBI: CHEBI:72837
@@ -9,6 +8,7 @@ sameAs:
   metabolights: MTBLC73215
   slm: SLM:000000685
 bioschema_properties:
+  name: 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol
   iupacName: (2R)-1-(hexadecanoyloxy)-3-[(hydroxy{[(1S,2R,3R,4S,5S,6R)-2,3,4,5,6-pentahydroxycyclohexyl]oxy}phosphoryl)oxy]propan-2-yl
     (9Z)-octadec-9-enoate
   smiles: '[C@]([H])(OC(CCCCCCC/C=C\CCCCCCCC)=O)(COP(=O)(O)O[C@H]1[C@H](O)[C@@H](O)[C@H](O)[C@@H](O)[C@H]1O)COC(CCCCCCCCCCCCCCC)=O'
