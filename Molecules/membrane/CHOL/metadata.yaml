@@ -16,7 +16,7 @@ bioschema_properties:
   inChI: InChI=1S/C27H46O/c1-18(2)7-6-8-19(3)23-11-12-24-22-10-9-20-17-21(28)13-15-26(20,4)25(22)14-16-27(23,24)5/h9,18-19,21-25,28H,6-8,10-17H2,1-5H3/t19-,21+,22+,23-,24+,25+,26+,27-/m1/s1
   inChIKey: HVYWMOMLDIMFJA-DPAQBDIFSA-N
   molecularFormula: C27H46O
-  molecularWeight: '386.7'
+  molecularWeight: 386.7
   name: (3S,8S,9S,10R,13R,14S,17R)-10,13-dimethyl-17-[(2R)-6-methylheptan-2-yl]-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol
   image: https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL112570?dimensions=200
   alternateName:
