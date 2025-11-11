@@ -1,0 +1,35 @@
+DOI: 10.5281/zenodo.16842791
+TRJ: dump1000.xtc
+TPR: dump1000.tpr
+SOFTWARE: gromacs
+PREEQTIME: 0
+TIMELEFTOUT: 0
+TEMPERATURE: 310
+SYSTEM: ECOLI_MODEL_MEMBRANE_UIB
+PUBLICATION: https://doi.org/10.5281/zenodo.15600823
+AUTHORS_CONTACT: Alexey Nesterenko and Olivia Lykke Nygaard
+SOFTWARE_VERSION: 2023+
+FF: CHARMM36
+FF_SOURCE: CHARMM-GUI
+FF_DATE: '2022'
+GRO: dump300.gro
+EDR: dump1000.edr
+COMPOSITION:
+  DOPG:
+    NAME: DOPG
+    MAPPING: mappingDOPGcharmm.yaml
+  PYPE:
+    NAME: PYPE
+    MAPPING: mappingPYPEcharmm.yaml
+  PVCL:
+    NAME: PVCL2
+    MAPPING: mappingPVCL2charmm.yaml
+  SOL:
+    NAME: TIP3
+    MAPPING: mappingTIP3PCHARMMgui.yaml
+  POT:
+    NAME: POT
+    MAPPING: mappingPOT.yaml
+  CLA:
+    NAME: CLA
+    MAPPING: mappingCLA.yaml
