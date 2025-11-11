@@ -1,6 +1,10 @@
 name: AutocompleteMetadata
 
 on:
+  push:
+    paths:
+      - 'Molecules/membrane/**/metadata.yaml'
+      - 'Molecules/solution/**/metadata.yaml'
   pull_request_target:
     paths:
       - 'Molecules/membrane/**/metadata.yaml'
@@ -12,8 +16,6 @@ permissions:
 
 jobs:
   add-metadata:
-    if: |
-      github.event_name == 'pull_request_target'
     runs-on: ubuntu-latest
 
     container:
