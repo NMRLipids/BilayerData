@@ -1192,64 +1192,6 @@
         }
     },
     {
-        "TotalQuality": { "FFQuality": 0.2645 },
-        "system": {
-            "DOI": "10.5281/zenodo.7061800",
-            "SOFTWARE": "gromacs",
-            "TRJ": [
-                ["CHOL4_small.xtc"]
-            ],
-            "TPR": [
-                ["CHOL4_small.tpr"]
-            ],
-            "PREEQTIME": 0,
-            "TIMELEFTOUT": 100,
-            "COMPOSITION": {
-                "POPC": {
-                    "NAME": "POPC",
-                    "MAPPING": "mappingPOPCmacrogFUCHS.yaml",
-                    "COUNT": [32, 32]
-                },
-                "SOL": { "NAME": "SOL", "MAPPING": "mappingTIP3Pwater.yaml", "COUNT": 3600 },
-                "CHOL": {
-                    "NAME": "CHOL",
-                    "MAPPING": "mappingCHOLESTEROLmacrog.yaml",
-                    "COUNT": [4, 4]
-                }
-            },
-            "DIR_WRK": "/media/osollila/Data1/tmp/DATABANK/",
-            "PUBLICATION": null,
-            "AUTHORS_CONTACT": "Matti Javanainen",
-            "SYSTEM": "MacRog_POPC_CHOL11_S",
-            "SOFTWARE_VERSION": 2021,
-            "FF": "MacRog",
-            "FF_SOURCE": null,
-            "FF_DATE": null,
-            "CPT": [
-                ["CHOL4_small.cpt"]
-            ],
-            "LOG": null,
-            "TOP": [
-                ["CHOL4_small.top"]
-            ],
-            "TRAJECTORY_SIZE": 73656580,
-            "TRJLENGTH": 1.001e+06,
-            "TEMPERATURE": 298.15,
-            "NUMBER_OF_ATOMS": 19968,
-            "DATEOFRUNNING": "17/10/2022",
-            "TYPEOFSYSTEM": "lipid bilayer",
-            "EXPERIMENT": {
-                "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
-                },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/3"
-            },
-            "ID": 665,
-            "path": "687/d70/687d70e3855bd3ed984fda6baeef96d42ba9126d/78ba0e56b430751678b07c2665a17c17b64203e6/"
-        }
-    },
-    {
         "POPC": { "sn-1": 0.373338, "sn-2": 0.712232, "headgroup": 0.0291477, "total": 0.371573 },
         "TotalQuality": { "headgroup": 0.0215263, "tails": 0.400861, "total": 0.274416, "FFQuality": 0.2661 },
         "system": {
@@ -1361,7 +1303,7 @@
         }
     },
     {
-        "POPE": { "sn-1": 0.570356, "sn-2": 0.280049, "headgroup": 0.272772, "total": 0.374392 },
+        "POPE": { "headgroup": 0.272772, "sn-1": 0.570356, "sn-2": 0.280049, "total": 0.374392 },
         "TotalQuality": { "headgroup": 0.272772, "tails": 0.425202, "total": 0.374392, "FFQuality": 0.3 },
         "system": {
             "DOI": "10.5281/zenodo.1293774",
@@ -1414,7 +1356,7 @@
         }
     },
     {
-        "POPE": { "sn-1": 0.564762, "sn-2": 0.262314, "headgroup": 0.319518, "total": 0.382198 },
+        "POPE": { "headgroup": 0.319518, "sn-1": 0.564762, "sn-2": 0.262314, "total": 0.382198 },
         "TotalQuality": { "headgroup": 0.319518, "tails": 0.413538, "total": 0.382198, "FFQuality": 0.3 },
         "system": {
             "DOI": "10.5281/zenodo.1293774",
@@ -1633,15 +1575,15 @@
         }
     },
     {
-        "TotalQuality": { "FFQuality": 0.3645 },
+        "TotalQuality": { "FFQuality": 0.3912 },
         "system": {
             "DOI": "10.5281/zenodo.7061800",
             "SOFTWARE": "gromacs",
             "TRJ": [
-                ["CHOL4_large.xtc"]
+                ["CHOL4_small.xtc"]
             ],
             "TPR": [
-                ["CHOL4_large.tpr"]
+                ["CHOL4_small.tpr"]
             ],
             "PREEQTIME": 0,
             "TIMELEFTOUT": 100,
@@ -1649,34 +1591,34 @@
                 "POPC": {
                     "NAME": "POPC",
                     "MAPPING": "mappingPOPCmacrogFUCHS.yaml",
-                    "COUNT": [512, 512]
+                    "COUNT": [32, 32]
                 },
-                "SOL": { "NAME": "SOL", "MAPPING": "mappingTIP3Pwater.yaml", "COUNT": 57600 },
+                "SOL": { "NAME": "SOL", "MAPPING": "mappingTIP3Pwater.yaml", "COUNT": 3600 },
                 "CHOL": {
                     "NAME": "CHOL",
-                    "MAPPING": "mappingCHOLESTEROLmacrog.yaml",
-                    "COUNT": [64, 64]
+                    "MAPPING": "mappingCHOLESTEROLmacrog2.yaml",
+                    "COUNT": [4, 4]
                 }
             },
             "DIR_WRK": "/media/osollila/Data1/tmp/DATABANK/",
             "PUBLICATION": null,
             "AUTHORS_CONTACT": "Matti Javanainen",
-            "SYSTEM": "MacRog_POPC_CHOL11_L",
+            "SYSTEM": "MacRog_POPC_CHOL11_S",
             "SOFTWARE_VERSION": 2021,
             "FF": "MacRog",
             "FF_SOURCE": null,
             "FF_DATE": null,
             "CPT": [
-                ["CHOL4_large.cpt"]
+                ["CHOL4_small.cpt"]
             ],
             "LOG": null,
             "TOP": [
-                ["CHOL4_large.top"]
+                ["CHOL4_small.top"]
             ],
-            "TRAJECTORY_SIZE": 1204100132,
+            "TRAJECTORY_SIZE": 73656580,
             "TRJLENGTH": 1.001e+06,
             "TEMPERATURE": 298.15,
-            "NUMBER_OF_ATOMS": 319488,
+            "NUMBER_OF_ATOMS": 19968,
             "DATEOFRUNNING": "17/10/2022",
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
@@ -1686,66 +1628,8 @@
                 },
                 "FORMFACTOR": "unpublished/NMRlipidsIII/3"
             },
-            "ID": 660,
-            "path": "7f6/73c/7f673c119523044d7e2d5986e8db7ab5c5a18e64/545850139a3d54a3d727c323db0355e40bb6d032/"
-        }
-    },
-    {
-        "TotalQuality": { "FFQuality": 0.3645 },
-        "system": {
-            "DOI": "10.5281/zenodo.7061800",
-            "SOFTWARE": "gromacs",
-            "TRJ": [
-                ["CHOL4_medium.xtc"]
-            ],
-            "TPR": [
-                ["CHOL4_medium.tpr"]
-            ],
-            "PREEQTIME": 0,
-            "TIMELEFTOUT": 100,
-            "COMPOSITION": {
-                "POPC": {
-                    "NAME": "POPC",
-                    "MAPPING": "mappingPOPCmacrogFUCHS.yaml",
-                    "COUNT": [128, 128]
-                },
-                "SOL": { "NAME": "SOL", "MAPPING": "mappingTIP3Pwater.yaml", "COUNT": 14400 },
-                "CHOL": {
-                    "NAME": "CHOL",
-                    "MAPPING": "mappingCHOLESTEROLmacrog.yaml",
-                    "COUNT": [16, 16]
-                }
-            },
-            "DIR_WRK": "/media/osollila/Data1/tmp/DATABANK/",
-            "PUBLICATION": null,
-            "AUTHORS_CONTACT": "Matti Javanainen",
-            "SYSTEM": "MacRog_POPC_CHOL11_M",
-            "SOFTWARE_VERSION": 2021,
-            "FF": "MacRog",
-            "FF_SOURCE": null,
-            "FF_DATE": null,
-            "CPT": [
-                ["CHOL4_medium.cpt"]
-            ],
-            "LOG": null,
-            "TOP": [
-                ["CHOL4_medium.top"]
-            ],
-            "TRAJECTORY_SIZE": 297290712,
-            "TRJLENGTH": 1.001e+06,
-            "TEMPERATURE": 298.15,
-            "NUMBER_OF_ATOMS": 79872,
-            "DATEOFRUNNING": "17/10/2022",
-            "TYPEOFSYSTEM": "lipid bilayer",
-            "EXPERIMENT": {
-                "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
-                },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/3"
-            },
-            "ID": 695,
-            "path": "75b/d62/75bd625d0c29f45c4b3a1bc107df9122abc270be/a6ac2c52a4fe03bc145c34c7d9c759840702e6b1/"
+            "ID": 665,
+            "path": "687/d70/687d70e3855bd3ed984fda6baeef96d42ba9126d/78ba0e56b430751678b07c2665a17c17b64203e6/"
         }
     },
     {
@@ -2394,6 +2278,122 @@
             },
             "ID": 595,
             "path": "3ef/72b/3ef72bbbb9a3071dd6dcf9daf45375dd0561e4d4/1fe82655b1eb044705ade4ac9bfe85699ebbc904/"
+        }
+    },
+    {
+        "TotalQuality": { "FFQuality": 0.4913 },
+        "system": {
+            "DOI": "10.5281/zenodo.7061800",
+            "SOFTWARE": "gromacs",
+            "TRJ": [
+                ["CHOL4_medium.xtc"]
+            ],
+            "TPR": [
+                ["CHOL4_medium.tpr"]
+            ],
+            "PREEQTIME": 0,
+            "TIMELEFTOUT": 100,
+            "COMPOSITION": {
+                "POPC": {
+                    "NAME": "POPC",
+                    "MAPPING": "mappingPOPCmacrogFUCHS.yaml",
+                    "COUNT": [128, 128]
+                },
+                "SOL": { "NAME": "SOL", "MAPPING": "mappingTIP3Pwater.yaml", "COUNT": 14400 },
+                "CHOL": {
+                    "NAME": "CHOL",
+                    "MAPPING": "mappingCHOLESTEROLmacrog2.yaml",
+                    "COUNT": [16, 16]
+                }
+            },
+            "DIR_WRK": "/media/osollila/Data1/tmp/DATABANK/",
+            "PUBLICATION": null,
+            "AUTHORS_CONTACT": "Matti Javanainen",
+            "SYSTEM": "MacRog_POPC_CHOL11_M",
+            "SOFTWARE_VERSION": 2021,
+            "FF": "MacRog",
+            "FF_SOURCE": null,
+            "FF_DATE": null,
+            "CPT": [
+                ["CHOL4_medium.cpt"]
+            ],
+            "LOG": null,
+            "TOP": [
+                ["CHOL4_medium.top"]
+            ],
+            "TRAJECTORY_SIZE": 297290712,
+            "TRJLENGTH": 1.001e+06,
+            "TEMPERATURE": 298.15,
+            "NUMBER_OF_ATOMS": 79872,
+            "DATEOFRUNNING": "17/10/2022",
+            "TYPEOFSYSTEM": "lipid bilayer",
+            "EXPERIMENT": {
+                "ORDERPARAMETER": {
+                    "POPC": {},
+                    "CHOL": {}
+                },
+                "FORMFACTOR": "unpublished/NMRlipidsIII/3"
+            },
+            "ID": 695,
+            "path": "75b/d62/75bd625d0c29f45c4b3a1bc107df9122abc270be/a6ac2c52a4fe03bc145c34c7d9c759840702e6b1/"
+        }
+    },
+    {
+        "TotalQuality": { "FFQuality": 0.5006 },
+        "system": {
+            "DOI": "10.5281/zenodo.7061800",
+            "SOFTWARE": "gromacs",
+            "TRJ": [
+                ["CHOL8_small.xtc"]
+            ],
+            "TPR": [
+                ["CHOL8_small.tpr"]
+            ],
+            "PREEQTIME": 0,
+            "TIMELEFTOUT": 100,
+            "COMPOSITION": {
+                "POPC": {
+                    "NAME": "POPC",
+                    "MAPPING": "mappingPOPCmacrogFUCHS.yaml",
+                    "COUNT": [32, 32]
+                },
+                "SOL": { "NAME": "SOL", "MAPPING": "mappingTIP3Pwater.yaml", "COUNT": 4000 },
+                "CHOL": {
+                    "NAME": "CHOL",
+                    "MAPPING": "mappingCHOLESTEROLmacrog2.yaml",
+                    "COUNT": [8, 8]
+                }
+            },
+            "DIR_WRK": "/media/osollila/Data1/tmp/DATABANK/",
+            "PUBLICATION": null,
+            "AUTHORS_CONTACT": "Matti Javanainen",
+            "SYSTEM": "MacRog_POPC_CHOL20_S",
+            "SOFTWARE_VERSION": 2021,
+            "FF": "MacRog",
+            "FF_SOURCE": null,
+            "FF_DATE": null,
+            "CPT": [
+                ["CHOL8_small.cpt"]
+            ],
+            "LOG": null,
+            "TOP": [
+                ["CHOL8_small.top"]
+            ],
+            "TRAJECTORY_SIZE": 80216928,
+            "TRJLENGTH": 1.001e+06,
+            "TEMPERATURE": 298.15,
+            "NUMBER_OF_ATOMS": 21760,
+            "DATEOFRUNNING": "17/10/2022",
+            "TYPEOFSYSTEM": "lipid bilayer",
+            "EXPERIMENT": {
+                "ORDERPARAMETER": {
+                    "POPC": {},
+                    "CHOL": {}
+                },
+                "FORMFACTOR": "unpublished/NMRlipidsIII/5"
+            },
+            "ID": 702,
+            "path": "2f6/ef0/2f6ef0068ae0319e0f4b6f860e8d843421b286bd/685f534cf530904ae20f49c0d371b30ea71ff383/"
         }
     },
     {
@@ -3101,6 +3101,64 @@
         }
     },
     {
+        "TotalQuality": { "FFQuality": 0.5914 },
+        "system": {
+            "DOI": "10.5281/zenodo.7061800",
+            "SOFTWARE": "gromacs",
+            "TRJ": [
+                ["CHOL4_large.xtc"]
+            ],
+            "TPR": [
+                ["CHOL4_large.tpr"]
+            ],
+            "PREEQTIME": 0,
+            "TIMELEFTOUT": 100,
+            "COMPOSITION": {
+                "POPC": {
+                    "NAME": "POPC",
+                    "MAPPING": "mappingPOPCmacrogFUCHS.yaml",
+                    "COUNT": [512, 512]
+                },
+                "SOL": { "NAME": "SOL", "MAPPING": "mappingTIP3Pwater.yaml", "COUNT": 57600 },
+                "CHOL": {
+                    "NAME": "CHOL",
+                    "MAPPING": "mappingCHOLESTEROLmacrog2.yaml",
+                    "COUNT": [64, 64]
+                }
+            },
+            "DIR_WRK": "/media/osollila/Data1/tmp/DATABANK/",
+            "PUBLICATION": null,
+            "AUTHORS_CONTACT": "Matti Javanainen",
+            "SYSTEM": "MacRog_POPC_CHOL11_L",
+            "SOFTWARE_VERSION": 2021,
+            "FF": "MacRog",
+            "FF_SOURCE": null,
+            "FF_DATE": null,
+            "CPT": [
+                ["CHOL4_large.cpt"]
+            ],
+            "LOG": null,
+            "TOP": [
+                ["CHOL4_large.top"]
+            ],
+            "TRAJECTORY_SIZE": 1204100132,
+            "TRJLENGTH": 1.001e+06,
+            "TEMPERATURE": 298.15,
+            "NUMBER_OF_ATOMS": 319488,
+            "DATEOFRUNNING": "17/10/2022",
+            "TYPEOFSYSTEM": "lipid bilayer",
+            "EXPERIMENT": {
+                "ORDERPARAMETER": {
+                    "POPC": {},
+                    "CHOL": {}
+                },
+                "FORMFACTOR": "unpublished/NMRlipidsIII/3"
+            },
+            "ID": 660,
+            "path": "7f6/73c/7f673c119523044d7e2d5986e8db7ab5c5a18e64/545850139a3d54a3d727c323db0355e40bb6d032/"
+        }
+    },
+    {
         "POPS": { "sn-1": 0.611364, "sn-2": 0.494376, "headgroup": 0.125188, "total": 0.410309 },
         "TotalQuality": { "headgroup": 0.125188, "tails": 0.55287, "total": 0.410309, "FFQuality": 0.6 },
         "system": {
@@ -3152,64 +3210,6 @@
             },
             "ID": 473,
             "path": "351/942/3519421ff6c7df40e1da7ac6b6e9ea4d06c911ca/1419f364222a22aadc90d4ec0963e18173e1df2a/"
-        }
-    },
-    {
-        "TotalQuality": { "FFQuality": 0.6258 },
-        "system": {
-            "DOI": "10.5281/zenodo.7061800",
-            "SOFTWARE": "gromacs",
-            "TRJ": [
-                ["CHOL8_small.xtc"]
-            ],
-            "TPR": [
-                ["CHOL8_small.tpr"]
-            ],
-            "PREEQTIME": 0,
-            "TIMELEFTOUT": 100,
-            "COMPOSITION": {
-                "POPC": {
-                    "NAME": "POPC",
-                    "MAPPING": "mappingPOPCmacrogFUCHS.yaml",
-                    "COUNT": [32, 32]
-                },
-                "SOL": { "NAME": "SOL", "MAPPING": "mappingTIP3Pwater.yaml", "COUNT": 4000 },
-                "CHOL": {
-                    "NAME": "CHOL",
-                    "MAPPING": "mappingCHOLESTEROLmacrog.yaml",
-                    "COUNT": [8, 8]
-                }
-            },
-            "DIR_WRK": "/media/osollila/Data1/tmp/DATABANK/",
-            "PUBLICATION": null,
-            "AUTHORS_CONTACT": "Matti Javanainen",
-            "SYSTEM": "MacRog_POPC_CHOL20_S",
-            "SOFTWARE_VERSION": 2021,
-            "FF": "MacRog",
-            "FF_SOURCE": null,
-            "FF_DATE": null,
-            "CPT": [
-                ["CHOL8_small.cpt"]
-            ],
-            "LOG": null,
-            "TOP": [
-                ["CHOL8_small.top"]
-            ],
-            "TRAJECTORY_SIZE": 80216928,
-            "TRJLENGTH": 1.001e+06,
-            "TEMPERATURE": 298.15,
-            "NUMBER_OF_ATOMS": 21760,
-            "DATEOFRUNNING": "17/10/2022",
-            "TYPEOFSYSTEM": "lipid bilayer",
-            "EXPERIMENT": {
-                "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
-                },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/5"
-            },
-            "ID": 702,
-            "path": "2f6/ef0/2f6ef0068ae0319e0f4b6f860e8d843421b286bd/685f534cf530904ae20f49c0d371b30ea71ff383/"
         }
     },
     {
@@ -4437,7 +4437,7 @@
         }
     },
     {
-        "DOPC": { "sn-1": 0.75016, "sn-2": 0.381065, "headgroup": 0.638109, "total": 0.589778 },
+        "DOPC": { "headgroup": 0.638109, "sn-1": 0.75016, "sn-2": 0.381065, "total": 0.589778 },
         "TotalQuality": { "headgroup": 0.638109, "tails": 0.565613, "total": 0.589778, "FFQuality": 0.922 },
         "system": {
             "DOI": "10.5281/zenodo.6943086",
@@ -4493,7 +4493,7 @@
         }
     },
     {
-        "DOPC": { "sn-1": 0.814323, "sn-2": 0.399765, "headgroup": 0.641559, "total": 0.618549 },
+        "DOPC": { "headgroup": 0.641559, "sn-1": 0.814323, "sn-2": 0.399765, "total": 0.618549 },
         "TotalQuality": { "headgroup": 0.641559, "tails": 0.607044, "total": 0.618549, "FFQuality": 0.922 },
         "system": {
             "DOI": "10.5281/zenodo.6943086",
@@ -4763,7 +4763,7 @@
         }
     },
     {
-        "DOPC": { "sn-1": 0.688792, "sn-2": 0.333611, "headgroup": 0.644916, "total": 0.555773 },
+        "DOPC": { "headgroup": 0.644916, "sn-1": 0.688792, "sn-2": 0.333611, "total": 0.555773 },
         "TotalQuality": { "headgroup": 0.644916, "tails": 0.511202, "total": 0.555773, "FFQuality": 1.022 },
         "system": {
             "DOI": "10.5281/zenodo.6943086",
@@ -6474,7 +6474,7 @@
         }
     },
     {
-        "POPE": { "sn-1": 0.521477, "sn-2": 0.271854, "headgroup": 0.538609, "total": 0.44398 },
+        "POPE": { "headgroup": 0.538609, "sn-1": 0.521477, "sn-2": 0.271854, "total": 0.44398 },
         "TotalQuality": { "headgroup": 0.538609, "tails": 0.396666, "total": 0.44398, "FFQuality": 1.3 },
         "system": {
             "FF_DATE": "??",
@@ -8072,7 +8072,7 @@
         }
     },
     {
-        "POPE": { "sn-1": 0.141026, "sn-2": 0.0706105, "headgroup": 0.529731, "total": 0.247123 },
+        "POPE": { "headgroup": 0.529731, "sn-1": 0.141026, "sn-2": 0.0706105, "total": 0.247123 },
         "TotalQuality": { "headgroup": 0.529731, "tails": 0.105818, "total": 0.247123, "FFQuality": 1.7 },
         "system": {
             "AUTHORS_CONTACT": "ANTONIO PEON",
@@ -8755,7 +8755,7 @@
         }
     },
     {
-        "POPE": { "sn-1": 0.190558, "sn-2": 0.118328, "headgroup": 0.372391, "total": 0.227092 },
+        "POPE": { "headgroup": 0.372391, "sn-1": 0.190558, "sn-2": 0.118328, "total": 0.227092 },
         "TotalQuality": { "headgroup": 0.372391, "tails": 0.154443, "total": 0.227092, "FFQuality": 2 },
         "system": {
             "DOI": "10.5281/zenodo.8435138",
@@ -8806,122 +8806,6 @@
             },
             "ID": 790,
             "path": "aef/442/aef4429d5c23dd3d6aea0683a552c7d8cbc787df/03c4667949377aca6116c541ee3a7a26c367d8eb/"
-        }
-    },
-    {
-        "TotalQuality": { "FFQuality": 2.0339 },
-        "system": {
-            "DOI": "10.5281/zenodo.7061800",
-            "SOFTWARE": "gromacs",
-            "TRJ": [
-                ["CHOL20_large.xtc"]
-            ],
-            "TPR": [
-                ["CHOL20_large.tpr"]
-            ],
-            "PREEQTIME": 0,
-            "TIMELEFTOUT": 100,
-            "COMPOSITION": {
-                "POPC": {
-                    "NAME": "POPC",
-                    "MAPPING": "mappingPOPCmacrogFUCHS.yaml",
-                    "COUNT": [512, 512]
-                },
-                "SOL": { "NAME": "SOL", "MAPPING": "mappingTIP3Pwater.yaml", "COUNT": 83200 },
-                "CHOL": {
-                    "NAME": "CHOL",
-                    "MAPPING": "mappingCHOLESTEROLmacrog.yaml",
-                    "COUNT": [320, 320]
-                }
-            },
-            "DIR_WRK": "/media/osollila/Data1/tmp/DATABANK/",
-            "PUBLICATION": null,
-            "AUTHORS_CONTACT": "Matti Javanainen",
-            "SYSTEM": "MacRog_POPC_CHOL38_L",
-            "SOFTWARE_VERSION": 2021,
-            "FF": "MacRog",
-            "FF_SOURCE": null,
-            "FF_DATE": null,
-            "CPT": [
-                ["CHOL20_large.cpt"]
-            ],
-            "LOG": null,
-            "TOP": [
-                ["CHOL20_large.top"]
-            ],
-            "TRAJECTORY_SIZE": 1634081760,
-            "TRJLENGTH": 1.001e+06,
-            "TEMPERATURE": 298.15,
-            "NUMBER_OF_ATOMS": 434176,
-            "DATEOFRUNNING": "17/10/2022",
-            "TYPEOFSYSTEM": "lipid bilayer",
-            "EXPERIMENT": {
-                "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
-                },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/8"
-            },
-            "ID": 698,
-            "path": "af2/1da/af21da6438fb2e1305dec6ef0a69e6148f11edfd/fdcab103936e99ce9736c2edca9650d783f466bc/"
-        }
-    },
-    {
-        "TotalQuality": { "FFQuality": 2.0339 },
-        "system": {
-            "DOI": "10.5281/zenodo.7061800",
-            "SOFTWARE": "gromacs",
-            "TRJ": [
-                ["CHOL20_small.xtc"]
-            ],
-            "TPR": [
-                ["CHOL20_small.tpr"]
-            ],
-            "PREEQTIME": 0,
-            "TIMELEFTOUT": 100,
-            "COMPOSITION": {
-                "POPC": {
-                    "NAME": "POPC",
-                    "MAPPING": "mappingPOPCmacrogFUCHS.yaml",
-                    "COUNT": [32, 32]
-                },
-                "SOL": { "NAME": "SOL", "MAPPING": "mappingTIP3Pwater.yaml", "COUNT": 5200 },
-                "CHOL": {
-                    "NAME": "CHOL",
-                    "MAPPING": "mappingCHOLESTEROLmacrog.yaml",
-                    "COUNT": [20, 20]
-                }
-            },
-            "DIR_WRK": "/media/osollila/Data1/tmp/DATABANK/",
-            "PUBLICATION": null,
-            "AUTHORS_CONTACT": "Matti Javanainen",
-            "SYSTEM": "MacRog_POPC_CHOL38_S",
-            "SOFTWARE_VERSION": 2021,
-            "FF": "MacRog",
-            "FF_SOURCE": null,
-            "FF_DATE": null,
-            "CPT": [
-                ["CHOL20_small.cpt"]
-            ],
-            "LOG": null,
-            "TOP": [
-                ["CHOL20_small.top"]
-            ],
-            "TRAJECTORY_SIZE": 99844408,
-            "TRJLENGTH": 1.001e+06,
-            "TEMPERATURE": 298.15,
-            "NUMBER_OF_ATOMS": 27136,
-            "DATEOFRUNNING": "17/10/2022",
-            "TYPEOFSYSTEM": "lipid bilayer",
-            "EXPERIMENT": {
-                "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
-                },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/8"
-            },
-            "ID": 716,
-            "path": "568/efe/568efe83b7ac0fa45bd7b3cd683f43b571d13115/b766113b1bec2f3668be2c82812c23164c42eeea/"
         }
     },
     {
@@ -9038,122 +8922,6 @@
             },
             "ID": 704,
             "path": "8a3/b23/8a3b239ccdf049fa51ffef3b436541da170b0b29/9ddacfe8666c6c43d77985ec2dcf5fd6d49dd452/"
-        }
-    },
-    {
-        "TotalQuality": { "FFQuality": 2.0517 },
-        "system": {
-            "DOI": "10.5281/zenodo.7061800",
-            "SOFTWARE": "gromacs",
-            "TRJ": [
-                ["CHOL28_medium.xtc"]
-            ],
-            "TPR": [
-                ["CHOL28_medium.tpr"]
-            ],
-            "PREEQTIME": 0,
-            "TIMELEFTOUT": 100,
-            "COMPOSITION": {
-                "POPC": {
-                    "NAME": "POPC",
-                    "MAPPING": "mappingPOPCmacrogFUCHS.yaml",
-                    "COUNT": [128, 128]
-                },
-                "SOL": { "NAME": "SOL", "MAPPING": "mappingTIP3Pwater.yaml", "COUNT": 24000 },
-                "CHOL": {
-                    "NAME": "CHOL",
-                    "MAPPING": "mappingCHOLESTEROLmacrog.yaml",
-                    "COUNT": [112, 112]
-                }
-            },
-            "DIR_WRK": "/media/osollila/Data1/tmp/DATABANK/",
-            "PUBLICATION": null,
-            "AUTHORS_CONTACT": "Matti Javanainen",
-            "SYSTEM": "MacRog_POPC_CHOL47_M",
-            "SOFTWARE_VERSION": 2021,
-            "FF": "MacRog",
-            "FF_SOURCE": null,
-            "FF_DATE": null,
-            "CPT": [
-                ["CHOL28_medium.cpt"]
-            ],
-            "LOG": null,
-            "TOP": [
-                ["CHOL28_medium.top"]
-            ],
-            "TRAJECTORY_SIZE": 460241260,
-            "TRJLENGTH": 1.001e+06,
-            "TEMPERATURE": 298.15,
-            "NUMBER_OF_ATOMS": 122880,
-            "DATEOFRUNNING": "17/10/2022",
-            "TYPEOFSYSTEM": "lipid bilayer",
-            "EXPERIMENT": {
-                "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
-                },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/9"
-            },
-            "ID": 699,
-            "path": "b23/d28/b23d28fa4a500716f0af641a7b274ed74c0ed4af/e04e3b99e8e7fbce0a119c88df424c02eb6f2874/"
-        }
-    },
-    {
-        "TotalQuality": { "FFQuality": 2.0517 },
-        "system": {
-            "DOI": "10.5281/zenodo.7061800",
-            "SOFTWARE": "gromacs",
-            "TRJ": [
-                ["CHOL28_large.xtc"]
-            ],
-            "TPR": [
-                ["CHOL28_large.tpr"]
-            ],
-            "PREEQTIME": 0,
-            "TIMELEFTOUT": 100,
-            "COMPOSITION": {
-                "POPC": {
-                    "NAME": "POPC",
-                    "MAPPING": "mappingPOPCmacrogFUCHS.yaml",
-                    "COUNT": [512, 512]
-                },
-                "SOL": { "NAME": "SOL", "MAPPING": "mappingTIP3Pwater.yaml", "COUNT": 96000 },
-                "CHOL": {
-                    "NAME": "CHOL",
-                    "MAPPING": "mappingCHOLESTEROLmacrog.yaml",
-                    "COUNT": [448, 448]
-                }
-            },
-            "DIR_WRK": "/media/osollila/Data1/tmp/DATABANK/",
-            "PUBLICATION": null,
-            "AUTHORS_CONTACT": "Matti Javanainen",
-            "SYSTEM": "MacRog_POPC_CHOL47_L",
-            "SOFTWARE_VERSION": 2021,
-            "FF": "MacRog",
-            "FF_SOURCE": null,
-            "FF_DATE": null,
-            "CPT": [
-                ["CHOL28_large.cpt"]
-            ],
-            "LOG": null,
-            "TOP": [
-                ["CHOL28_large.top"]
-            ],
-            "TRAJECTORY_SIZE": 1865067540,
-            "TRJLENGTH": 1.001e+06,
-            "TEMPERATURE": 298.15,
-            "NUMBER_OF_ATOMS": 491520,
-            "DATEOFRUNNING": "17/10/2022",
-            "TYPEOFSYSTEM": "lipid bilayer",
-            "EXPERIMENT": {
-                "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
-                },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/9"
-            },
-            "ID": 671,
-            "path": "ddb/6f6/ddb6f616802ccd84f18b979b61503f8361c1fb4b/8af44af412b5e63f797a8a9039eed3cea5a5936d/"
         }
     },
     {
@@ -9367,6 +9135,64 @@
             },
             "ID": 483,
             "path": "611/eb1/611eb1451b3406f9a07395e74c89a779da77dd0e/7dacf9299757643c2ab76db9536d80031346829f/"
+        }
+    },
+    {
+        "TotalQuality": { "FFQuality": 2.1098 },
+        "system": {
+            "DOI": "10.5281/zenodo.7061800",
+            "SOFTWARE": "gromacs",
+            "TRJ": [
+                ["CHOL20_small.xtc"]
+            ],
+            "TPR": [
+                ["CHOL20_small.tpr"]
+            ],
+            "PREEQTIME": 0,
+            "TIMELEFTOUT": 100,
+            "COMPOSITION": {
+                "POPC": {
+                    "NAME": "POPC",
+                    "MAPPING": "mappingPOPCmacrogFUCHS.yaml",
+                    "COUNT": [32, 32]
+                },
+                "SOL": { "NAME": "SOL", "MAPPING": "mappingTIP3Pwater.yaml", "COUNT": 5200 },
+                "CHOL": {
+                    "NAME": "CHOL",
+                    "MAPPING": "mappingCHOLESTEROLmacrog2.yaml",
+                    "COUNT": [20, 20]
+                }
+            },
+            "DIR_WRK": "/media/osollila/Data1/tmp/DATABANK/",
+            "PUBLICATION": null,
+            "AUTHORS_CONTACT": "Matti Javanainen",
+            "SYSTEM": "MacRog_POPC_CHOL38_S",
+            "SOFTWARE_VERSION": 2021,
+            "FF": "MacRog",
+            "FF_SOURCE": null,
+            "FF_DATE": null,
+            "CPT": [
+                ["CHOL20_small.cpt"]
+            ],
+            "LOG": null,
+            "TOP": [
+                ["CHOL20_small.top"]
+            ],
+            "TRAJECTORY_SIZE": 99844408,
+            "TRJLENGTH": 1.001e+06,
+            "TEMPERATURE": 298.15,
+            "NUMBER_OF_ATOMS": 27136,
+            "DATEOFRUNNING": "17/10/2022",
+            "TYPEOFSYSTEM": "lipid bilayer",
+            "EXPERIMENT": {
+                "ORDERPARAMETER": {
+                    "POPC": {},
+                    "CHOL": {}
+                },
+                "FORMFACTOR": "unpublished/NMRlipidsIII/8"
+            },
+            "ID": 716,
+            "path": "568/efe/568efe83b7ac0fa45bd7b3cd683f43b571d13115/b766113b1bec2f3668be2c82812c23164c42eeea/"
         }
     },
     {
@@ -9686,6 +9512,64 @@
             },
             "ID": 472,
             "path": "6eb/dbf/6ebdbfc108ce1205a1f50039ea1b7129cad1534a/45c63a6b3ce74d4d0e5c03656cae0fc68faeceb4/"
+        }
+    },
+    {
+        "TotalQuality": { "FFQuality": 2.2099 },
+        "system": {
+            "DOI": "10.5281/zenodo.7061800",
+            "SOFTWARE": "gromacs",
+            "TRJ": [
+                ["CHOL20_large.xtc"]
+            ],
+            "TPR": [
+                ["CHOL20_large.tpr"]
+            ],
+            "PREEQTIME": 0,
+            "TIMELEFTOUT": 100,
+            "COMPOSITION": {
+                "POPC": {
+                    "NAME": "POPC",
+                    "MAPPING": "mappingPOPCmacrogFUCHS.yaml",
+                    "COUNT": [512, 512]
+                },
+                "SOL": { "NAME": "SOL", "MAPPING": "mappingTIP3Pwater.yaml", "COUNT": 83200 },
+                "CHOL": {
+                    "NAME": "CHOL",
+                    "MAPPING": "mappingCHOLESTEROLmacrog2.yaml",
+                    "COUNT": [320, 320]
+                }
+            },
+            "DIR_WRK": "/media/osollila/Data1/tmp/DATABANK/",
+            "PUBLICATION": null,
+            "AUTHORS_CONTACT": "Matti Javanainen",
+            "SYSTEM": "MacRog_POPC_CHOL38_L",
+            "SOFTWARE_VERSION": 2021,
+            "FF": "MacRog",
+            "FF_SOURCE": null,
+            "FF_DATE": null,
+            "CPT": [
+                ["CHOL20_large.cpt"]
+            ],
+            "LOG": null,
+            "TOP": [
+                ["CHOL20_large.top"]
+            ],
+            "TRAJECTORY_SIZE": 1634081760,
+            "TRJLENGTH": 1.001e+06,
+            "TEMPERATURE": 298.15,
+            "NUMBER_OF_ATOMS": 434176,
+            "DATEOFRUNNING": "17/10/2022",
+            "TYPEOFSYSTEM": "lipid bilayer",
+            "EXPERIMENT": {
+                "ORDERPARAMETER": {
+                    "POPC": {},
+                    "CHOL": {}
+                },
+                "FORMFACTOR": "unpublished/NMRlipidsIII/8"
+            },
+            "ID": 698,
+            "path": "af2/1da/af21da6438fb2e1305dec6ef0a69e6148f11edfd/fdcab103936e99ce9736c2edca9650d783f466bc/"
         }
     },
     {
@@ -10155,6 +10039,122 @@
         }
     },
     {
+        "TotalQuality": { "FFQuality": 2.3267 },
+        "system": {
+            "DOI": "10.5281/zenodo.7061800",
+            "SOFTWARE": "gromacs",
+            "TRJ": [
+                ["CHOL28_medium.xtc"]
+            ],
+            "TPR": [
+                ["CHOL28_medium.tpr"]
+            ],
+            "PREEQTIME": 0,
+            "TIMELEFTOUT": 100,
+            "COMPOSITION": {
+                "POPC": {
+                    "NAME": "POPC",
+                    "MAPPING": "mappingPOPCmacrogFUCHS.yaml",
+                    "COUNT": [128, 128]
+                },
+                "SOL": { "NAME": "SOL", "MAPPING": "mappingTIP3Pwater.yaml", "COUNT": 24000 },
+                "CHOL": {
+                    "NAME": "CHOL",
+                    "MAPPING": "mappingCHOLESTEROLmacrog2.yaml",
+                    "COUNT": [112, 112]
+                }
+            },
+            "DIR_WRK": "/media/osollila/Data1/tmp/DATABANK/",
+            "PUBLICATION": null,
+            "AUTHORS_CONTACT": "Matti Javanainen",
+            "SYSTEM": "MacRog_POPC_CHOL47_M",
+            "SOFTWARE_VERSION": 2021,
+            "FF": "MacRog",
+            "FF_SOURCE": null,
+            "FF_DATE": null,
+            "CPT": [
+                ["CHOL28_medium.cpt"]
+            ],
+            "LOG": null,
+            "TOP": [
+                ["CHOL28_medium.top"]
+            ],
+            "TRAJECTORY_SIZE": 460241260,
+            "TRJLENGTH": 1.001e+06,
+            "TEMPERATURE": 298.15,
+            "NUMBER_OF_ATOMS": 122880,
+            "DATEOFRUNNING": "17/10/2022",
+            "TYPEOFSYSTEM": "lipid bilayer",
+            "EXPERIMENT": {
+                "ORDERPARAMETER": {
+                    "POPC": {},
+                    "CHOL": {}
+                },
+                "FORMFACTOR": "unpublished/NMRlipidsIII/9"
+            },
+            "ID": 699,
+            "path": "b23/d28/b23d28fa4a500716f0af641a7b274ed74c0ed4af/e04e3b99e8e7fbce0a119c88df424c02eb6f2874/"
+        }
+    },
+    {
+        "TotalQuality": { "FFQuality": 2.3267 },
+        "system": {
+            "DOI": "10.5281/zenodo.7061800",
+            "SOFTWARE": "gromacs",
+            "TRJ": [
+                ["CHOL28_large.xtc"]
+            ],
+            "TPR": [
+                ["CHOL28_large.tpr"]
+            ],
+            "PREEQTIME": 0,
+            "TIMELEFTOUT": 100,
+            "COMPOSITION": {
+                "POPC": {
+                    "NAME": "POPC",
+                    "MAPPING": "mappingPOPCmacrogFUCHS.yaml",
+                    "COUNT": [512, 512]
+                },
+                "SOL": { "NAME": "SOL", "MAPPING": "mappingTIP3Pwater.yaml", "COUNT": 96000 },
+                "CHOL": {
+                    "NAME": "CHOL",
+                    "MAPPING": "mappingCHOLESTEROLmacrog2.yaml",
+                    "COUNT": [448, 448]
+                }
+            },
+            "DIR_WRK": "/media/osollila/Data1/tmp/DATABANK/",
+            "PUBLICATION": null,
+            "AUTHORS_CONTACT": "Matti Javanainen",
+            "SYSTEM": "MacRog_POPC_CHOL47_L",
+            "SOFTWARE_VERSION": 2021,
+            "FF": "MacRog",
+            "FF_SOURCE": null,
+            "FF_DATE": null,
+            "CPT": [
+                ["CHOL28_large.cpt"]
+            ],
+            "LOG": null,
+            "TOP": [
+                ["CHOL28_large.top"]
+            ],
+            "TRAJECTORY_SIZE": 1865067540,
+            "TRJLENGTH": 1.001e+06,
+            "TEMPERATURE": 298.15,
+            "NUMBER_OF_ATOMS": 491520,
+            "DATEOFRUNNING": "17/10/2022",
+            "TYPEOFSYSTEM": "lipid bilayer",
+            "EXPERIMENT": {
+                "ORDERPARAMETER": {
+                    "POPC": {},
+                    "CHOL": {}
+                },
+                "FORMFACTOR": "unpublished/NMRlipidsIII/9"
+            },
+            "ID": 671,
+            "path": "ddb/6f6/ddb6f616802ccd84f18b979b61503f8361c1fb4b/8af44af412b5e63f797a8a9039eed3cea5a5936d/"
+        }
+    },
+    {
         "TotalQuality": { "FFQuality": 2.3517 },
         "system": {
             "DOI": "10.5281/zenodo.6992065",
@@ -10458,7 +10458,7 @@
         }
     },
     {
-        "POPE": { "sn-1": 0.0974158, "sn-2": 0.233935, "headgroup": 0.205866, "total": 0.179072 },
+        "POPE": { "headgroup": 0.205866, "sn-1": 0.0974158, "sn-2": 0.233935, "total": 0.179072 },
         "TotalQuality": { "headgroup": 0.205866, "tails": 0.165675, "total": 0.179072, "FFQuality": 3.8 },
         "system": {
             "DOI": "10.5281/zenodo.7602924",
