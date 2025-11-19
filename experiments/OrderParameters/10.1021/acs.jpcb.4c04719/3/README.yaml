@@ -1,5 +1,21 @@
-DOI: 10.1021/acs.jpcb.4c04719
+ARTICLE_DOI: 10.1021/acs.jpcb.4c04719
+DATA_DOI: 10.18710/ETWNCU
 TEMPERATURE: 298.0
+MEMBRANE_COMPOSITION:
+  POPC: 1
+SOLUTION_COMPOSITION:
+# empty
+PH: UNKNOWN
+REAGENT_SOURCES:
+  POPC: Avanti Polar Lipids (Cat. No. 850457C)
+  water: Type I Milli-Q, degassed by N2 bubbling
+T_RF_HEATING: UNKNOWN
+TOTAL_HYDRATION: 22.9
+HYDRATION_METHOD: lyophilized power is hydrated
+NMR_INSTRUMENT: Bruker Avance III HD 500 MHz, Triple Resonance CP-MAS Probe (4mm)
+NMR_EXPERIMENT: 1H-13C R-PDLF with R18_1^7 recoupling and INEPT readout at 5 kHz MAS
+
+# outdated fields - to be removed
 MOLAR_FRACTIONS:
   POPC: 1
 ION_CONCENTRATIONS:
