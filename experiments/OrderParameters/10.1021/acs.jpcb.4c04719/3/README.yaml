@@ -13,7 +13,9 @@ T_RF_HEATING: UNKNOWN
 TOTAL_HYDRATION: 22.9
 HYDRATION_METHOD: lyophilized power is hydrated
 NMR_INSTRUMENT: Bruker Avance III HD 500 MHz, Triple Resonance CP-MAS Probe (4mm)
-NMR_EXPERIMENT: 1H-13C R-PDLF with R18_1^7 recoupling and INEPT readout at 5 kHz MAS
+NMR_METHOD: PDLF:R18_1^7
+NMR_COMMENTS: 1H-13C R-PDLF with R18_1^7 recoupling and INEPT readout at 5 kHz MAS
+SIGN_MEASURED: NONE
 
 # outdated fields - to be removed
 MOLAR_FRACTIONS:
