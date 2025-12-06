@@ -1,0 +1,29 @@
+DOI: 10.5281/zenodo.17730863
+TRJ: 100ns_c.xtc
+TPR: md50ns_chunk01.tpr
+SOFTWARE: gromacs
+PREEQTIME: 100000
+TIMELEFTOUT: 300000
+TEMPERATURE: 295
+SYSTEM: POPC/SM16/CHOL (35:35:30)
+AUTHORS_CONTACT: fernando.fr@zacatecasocc.tecnm.mx
+SOFTWARE_VERSION: 5.1.4
+FF: Slipids
+FF_SOURCE: http://www.fos.su.se/~sasha/SLipids/Downloads.html
+FF_DATE: '2013'
+TOP: 1k_pop35prc+psm35prc+chl30prc+wat.top
+GRO: 1k_pop35prc+psm35prc+chl30prc+wat.gro
+EDR: 100ns.edr
+COMPOSITION:
+  CHOL:
+    NAME: CHL1
+    MAPPING: mappingCHOLESTEROLslipid.yaml
+  POPC:
+    NAME: POPC
+    MAPPING: mappingPOPCslipids.yaml
+  SM16:
+    NAME: SM16
+    MAPPING: mappingSM16slipids.yaml
+  SOL:
+    NAME: SOL
+    MAPPING: mappingTIP3PwaterSlipids.yaml
