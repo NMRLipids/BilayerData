@@ -26,4 +26,4 @@ COMPOSITION:
     MAPPING: mappingSM16slipids.yaml
   SOL:
     NAME: SOL
-    MAPPING: mappingTIP3PwaterSlipids.yaml
+    MAPPING: mappingTIP3Pwater.yaml
