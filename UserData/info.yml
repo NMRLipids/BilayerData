@@ -3,11 +3,10 @@ TRJ: DPPE_342K_100-200ns.xtc
 TPR: DPPE_342K.tpr
 SOFTWARE: gromacs
 PREEQTIME: 100
-TIMELEFTOUT: 100
+TIMELEFTOUT: 0
 TEMPERATURE: 342
 SYSTEM: DPPE in TIP3(Water) at 342K
-AUTHORS_CONTACT: Avneesh Singh - ms23249@iisermohali.ac.in        Anubhav Ganguly - ms23237@iisermohali.ac.in   Prof Markus
-  - Markus.Miettinen@uib.no
+AUTHORS_CONTACT: Avneesh Singh - ms23249@iisermohali.ac.in, Anubhav Ganguly - ms23237@iisermohali.ac.in, Prof. M. Miettinen Markus.Miettinen@uib.no
 SOFTWARE_VERSION: '2023.3'
 FF: CHARMM36
 FF_SOURCE: Charmm-GUI
@@ -17,7 +16,7 @@ GRO: DPPE_342K_200ns.gro
 EDR: DPPE_342K.edr
 COMPOSITION:
   DPPE:
-    NAME: 1,2-dipalmitoyl-sn-glycero-3-phosphoethanolamine
+    NAME: DPPE
     MAPPING: mappingDPPEslipids.yaml
   SOL:
     NAME: TIP3
