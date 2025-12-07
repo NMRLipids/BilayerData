@@ -39,7 +39,7 @@ jobs:
       - name: Compute new data
         env:
           TQDM_DISABLE: True
-          NML_STRICT_MODE: True
+          fmdl_STRICT_MODE: True
         working-directory: Databank
         run: |
           pip install .
