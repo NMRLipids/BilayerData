@@ -1,29 +1,50 @@
 DOI: 10.5281/zenodo.17730864
-TRJ: 100ns_c.xtc
-TPR: md50ns_chunk01.tpr
+TRJ:
+- - 100ns_c.xtc
+TPR:
+- - md50ns_chunk01.tpr
 SOFTWARE: gromacs
 PREEQTIME: 300000
 TIMELEFTOUT: 0
-TEMPERATURE: 295
+TEMPERATURE: 295.0
 SYSTEM: POPC/SM16/CHOL (35:35:30)
 AUTHORS_CONTACT: fernando.fr@zacatecasocc.tecnm.mx
 SOFTWARE_VERSION: 5.1.4
 FF: Slipids
 FF_SOURCE: http://www.fos.su.se/~sasha/SLipids/Downloads.html
 FF_DATE: '2013'
-TOP: 1k_pop35prc+psm35prc+chl30prc+wat.top
-GRO: 1k_pop35prc+psm35prc+chl30prc+wat.gro
-EDR: 100ns.edr
+TOP:
+- - 1k_pop35prc+psm35prc+chl30prc+wat.top
+GRO:
+- - 1k_pop35prc+psm35prc+chl30prc+wat.gro
+EDR:
+- - 100ns.edr
 COMPOSITION:
   CHOL:
     NAME: CHL1
     MAPPING: mappingCHOLESTEROLslipid.yaml
+    COUNT:
+    - 148
+    - 156
   POPC:
     NAME: POPC
     MAPPING: mappingPOPCslipids.yaml
+    COUNT:
+    - 180
+    - 180
   SM16:
     NAME: SM16
     MAPPING: mappingSM16slipids.yaml
+    COUNT:
+    - 172
+    - 180
   SOL:
     NAME: SOL
     MAPPING: mappingTIP3Pwater.yaml
+    COUNT: 35840
+TRAJECTORY_SIZE: 4169084860
+TRJLENGTH: 100020.0
+NUMBER_OF_ATOMS: 222960
+DATEOFRUNNING: 07/12/2025
+TYPEOFSYSTEM: lipid bilayer
+ID: -1
