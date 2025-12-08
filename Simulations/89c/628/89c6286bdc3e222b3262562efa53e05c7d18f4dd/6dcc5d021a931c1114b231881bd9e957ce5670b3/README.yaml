@@ -1,0 +1,50 @@
+DOI: 10.5281/zenodo.17730115
+TRJ:
+- - 100ns_c.xtc
+TPR:
+- - md50ns_chunk01.tpr
+SOFTWARE: gromacs
+PREEQTIME: 6400000
+TIMELEFTOUT: 0
+TEMPERATURE: 295.0
+SYSTEM: POPC/SM16/ERG(2:2:1)
+AUTHORS_CONTACT: fernando.fr@zacatecasocc.tecnm.mx
+SOFTWARE_VERSION: '2019.6'
+FF: Slipids
+FF_SOURCE: http://www.fos.su.se/~sasha/SLipids/Downloads.html
+FF_DATE: '2013'
+TOP:
+- - 1k_pop40prc+psm40prc+erg20prc+wat.top
+GRO:
+- - 1k_pop40prc+psm40prc+erg20prc+wat.gro
+EDR:
+- - 100ns.edr
+COMPOSITION:
+  ERG:
+    NAME: ERG
+    MAPPING: mappingERGOSTEROLslipid.yaml
+    COUNT:
+    - 96
+    - 112
+  POPC:
+    NAME: POPC
+    MAPPING: mappingPOPCslipids.yaml
+    COUNT:
+    - 204
+    - 204
+  SM16:
+    NAME: SM16
+    MAPPING: mappingSM16slipids.yaml
+    COUNT:
+    - 204
+    - 204
+  SOL:
+    NAME: SOL
+    MAPPING: mappingTIP3Pwater.yaml
+    COUNT: 35840
+TRAJECTORY_SIZE: 4287058824
+TRJLENGTH: 100020.0
+NUMBER_OF_ATOMS: 229192
+DATEOFRUNNING: 07/12/2025
+TYPEOFSYSTEM: lipid bilayer
+ID: -1
