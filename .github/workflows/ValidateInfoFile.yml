@@ -4,7 +4,7 @@ permissions:
 
 on:
   pull_request_target:
-    types: [opened]
+    types: [opened, synchronize]
     paths:
       - 'UserData/**'
 jobs:
@@ -24,8 +24,22 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
           path: BilayerData
           persist-credentials: false
+  
+      - name: Check if info.yml exists
+        id: check_info
+        working-directory: BilayerData
+        shell: bash
+        run: |
+          if [ -f "UserData/info.yml" ]; then
+            echo "found=true" >> $GITHUB_OUTPUT
+            echo "info.yml found"
+          else
+            echo "found=false" >> $GITHUB_OUTPUT
+            echo "info.yml not found, skipping further steps"
+          fi
 
       - name: Checkout Databank
+        if: steps.check_info.outputs.found == 'true'
         uses: actions/checkout@v5
         with:
           repository: NMRLipids/Databank
@@ -33,6 +47,7 @@ jobs:
           path: Databank
 
       - name: Run dry run of AddData 
+        if: steps.check_info.outputs.found == 'true'
         env:
           TQDM_DISABLE: True
         working-directory: Databank
