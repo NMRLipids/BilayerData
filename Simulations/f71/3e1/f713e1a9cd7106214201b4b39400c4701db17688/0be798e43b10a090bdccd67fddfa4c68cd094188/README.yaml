@@ -62,7 +62,7 @@ TYPEOFSYSTEM: lipid bilayer
 ID: 781
 EXPERIMENT:
   ORDERPARAMETER:
-    POPC: {}
-    CHOL: {}
-    SAPI25: {}
-  FORMFACTOR: {}
+    POPC: []
+    CHOL: []
+    SAPI25: []
+  FORMFACTOR: []

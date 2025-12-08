@@ -42,5 +42,5 @@ ID: 806
 EXPERIMENT:
   ORDERPARAMETER:
     POPC:
-      10.1021/acs.jpcb.4c04719: 10.1021/acs.jpcb.4c04719/2
-  FORMFACTOR: {}
+    - 10.1021/acs.jpcb.4c04719/2
+  FORMFACTOR: []

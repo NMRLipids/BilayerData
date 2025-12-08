@@ -50,7 +50,7 @@ WARNINGS:
 ID: 720
 EXPERIMENT:
   ORDERPARAMETER:
-    SDPE: {}
-    SDG: {}
-    CHOL: {}
-  FORMFACTOR: {}
+    SDPE: []
+    SDG: []
+    CHOL: []
+  FORMFACTOR: []

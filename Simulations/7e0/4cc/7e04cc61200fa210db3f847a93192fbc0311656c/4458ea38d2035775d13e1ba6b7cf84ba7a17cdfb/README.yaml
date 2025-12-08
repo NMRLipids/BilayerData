@@ -45,6 +45,6 @@ TYPEOFSYSTEM: lipid bilayer
 ID: 772
 EXPERIMENT:
   ORDERPARAMETER:
-    TOCL: {}
-    POPE: {}
-  FORMFACTOR: {}
+    TOCL: []
+    POPE: []
+  FORMFACTOR: []

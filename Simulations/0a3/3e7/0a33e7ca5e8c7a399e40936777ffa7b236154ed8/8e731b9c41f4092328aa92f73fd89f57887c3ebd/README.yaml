@@ -43,7 +43,7 @@ WARNINGS:
   - POPE
 EXPERIMENT:
   ORDERPARAMETER:
-    POPE: {}
-    DOG: {}
-  FORMFACTOR: {}
+    POPE: []
+    DOG: []
+  FORMFACTOR: []
 ID: 246

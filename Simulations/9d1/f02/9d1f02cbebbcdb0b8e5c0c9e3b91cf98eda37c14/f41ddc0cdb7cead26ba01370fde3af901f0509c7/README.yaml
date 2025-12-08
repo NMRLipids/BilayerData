@@ -54,6 +54,6 @@ TYPEOFSYSTEM: lipid bilayer
 ID: 779
 EXPERIMENT:
   ORDERPARAMETER:
-    POPC: {}
-    TLCL_0H: {}
-  FORMFACTOR: {}
+    POPC: []
+    TLCL_0H: []
+  FORMFACTOR: []

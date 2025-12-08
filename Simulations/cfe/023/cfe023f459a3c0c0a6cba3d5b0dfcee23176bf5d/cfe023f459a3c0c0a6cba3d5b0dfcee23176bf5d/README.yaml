@@ -54,7 +54,7 @@ TYPEOFSYSTEM: lipid bilayer
 ID: 782
 EXPERIMENT:
   ORDERPARAMETER:
-    POPG: {}
-    DPPGK: {}
-    TOCL: {}
-  FORMFACTOR: {}
+    POPG: []
+    DPPGK: []
+    TOCL: []
+  FORMFACTOR: []

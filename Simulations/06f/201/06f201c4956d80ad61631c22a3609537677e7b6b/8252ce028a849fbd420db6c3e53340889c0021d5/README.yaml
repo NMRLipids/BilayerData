@@ -45,6 +45,6 @@ TYPEOFSYSTEM: lipid bilayer
 ID: 771
 EXPERIMENT:
   ORDERPARAMETER:
-    TOCL: {}
-    POPC: {}
-  FORMFACTOR: {}
+    TOCL: []
+    POPC: []
+  FORMFACTOR: []

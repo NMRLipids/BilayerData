@@ -72,10 +72,10 @@ WARNINGS:
 ID: 769
 EXPERIMENT:
   ORDERPARAMETER:
-    POPE: {}
-    POPC: {}
-    POPS: {}
-    CHOL: {}
-    SM16: {}
-    GM1: {}
-  FORMFACTOR: {}
+    POPE: []
+    POPC: []
+    POPS: []
+    CHOL: []
+    SM16: []
+    GM1: []
+  FORMFACTOR: []

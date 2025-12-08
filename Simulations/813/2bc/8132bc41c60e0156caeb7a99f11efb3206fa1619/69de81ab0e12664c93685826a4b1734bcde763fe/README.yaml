@@ -41,5 +41,5 @@ TYPEOFSYSTEM: lipid bilayer
 ID: 627
 EXPERIMENT:
   ORDERPARAMETER:
-    PYPC: {}
-  FORMFACTOR: {}
+    PYPC: []
+  FORMFACTOR: []

@@ -58,7 +58,7 @@ TYPEOFSYSTEM: lipid bilayer
 ID: 839
 EXPERIMENT:
   ORDERPARAMETER:
-    TLCL_0H: {}
-    SAPC: {}
-    POPE: {}
-  FORMFACTOR: {}
+    TLCL_0H: []
+    SAPC: []
+    POPE: []
+  FORMFACTOR: []

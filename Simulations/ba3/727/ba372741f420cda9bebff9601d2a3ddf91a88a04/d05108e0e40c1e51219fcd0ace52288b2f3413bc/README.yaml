@@ -35,5 +35,5 @@ TYPEOFSYSTEM: lipid bilayer
 ID: 791
 EXPERIMENT:
   ORDERPARAMETER:
-    POPE: {}
-  FORMFACTOR: {}
+    POPE: []
+  FORMFACTOR: []
