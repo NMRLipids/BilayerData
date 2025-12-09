@@ -1,0 +1,46 @@
+DOI: 10.5281/zenodo.8335207
+TRJ:
+- - reduced_1ns_center.xtc
+TPR:
+- - run3.tpr
+SOFTWARE: gromacs
+PREEQTIME: 0
+TIMELEFTOUT: 1000
+TEMPERATURE: 310.0
+SYSTEM: POPC:Gb3_run3(95:5 mol:mol)
+AUTHORS_CONTACT: Alexander Vogel (alexander.vogel@medizin.uni-leipzig.de), Daniel
+  B. Werz (daniel.werz@chemie.uni-freiburg.de)
+SOFTWARE_VERSION: 2019.4/2020
+FF: CHARMM36m
+FF_SOURCE: CHARMM-GUI
+COMPOSITION:
+  POPC:
+    NAME: POPC
+    MAPPING: mappingPOPCcharmm.yaml
+    COUNT:
+    - 95
+    - 95
+  GB3:
+    NAME: CER240
+    MAPPING: mappingGb3charmm.yaml
+    COUNT:
+    - 5
+    - 5
+  SOL:
+    NAME: TIP3
+    MAPPING: mappingTIP3PCHARMMgui.yaml
+    COUNT: 15649
+  SOD:
+    NAME: SOD
+    MAPPING: mappingSOD.yaml
+    COUNT: 27
+  CLA:
+    NAME: CLA
+    MAPPING: mappingCLA.yaml
+    COUNT: 27
+TRAJECTORY_SIZE: 1987696612
+TRJLENGTH: 7245000.0
+NUMBER_OF_ATOMS: 74381
+DATEOFRUNNING: 09/12/2025
+TYPEOFSYSTEM: lipid bilayer
+ID: -1
