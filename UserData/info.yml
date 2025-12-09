@@ -15,7 +15,7 @@ COMPOSITION:
     NAME: POPC
     MAPPING: mappingPOPCcharmm.yaml
   GB3:
-    NAME: CER240, BGLC, BGAL, AGAL
+    NAME: CER240
     MAPPING: mappingGb3charmm.yaml
   SOL:
     NAME: TIP3
