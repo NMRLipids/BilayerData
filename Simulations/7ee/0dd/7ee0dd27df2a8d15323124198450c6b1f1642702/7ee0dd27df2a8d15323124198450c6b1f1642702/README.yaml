@@ -68,10 +68,10 @@ TYPEOFSYSTEM: lipid bilayer
 ID: 776
 EXPERIMENT:
   ORDERPARAMETER:
-    POPC: {}
-    POPE: {}
-    POPS: {}
-    POPI: {}
-    CER180: {}
-    CHOL: {}
-  FORMFACTOR: {}
+    POPC: []
+    POPE: []
+    POPS: []
+    POPI: []
+    CER180: []
+    CHOL: []
+  FORMFACTOR: []

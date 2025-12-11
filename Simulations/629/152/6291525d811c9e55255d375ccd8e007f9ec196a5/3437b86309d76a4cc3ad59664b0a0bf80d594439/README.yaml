@@ -50,7 +50,7 @@ WARNINGS:
 ID: 719
 EXPERIMENT:
   ORDERPARAMETER:
-    POPE: {}
-    SDG: {}
-    CHOL: {}
-  FORMFACTOR: {}
+    POPE: []
+    SDG: []
+    CHOL: []
+  FORMFACTOR: []

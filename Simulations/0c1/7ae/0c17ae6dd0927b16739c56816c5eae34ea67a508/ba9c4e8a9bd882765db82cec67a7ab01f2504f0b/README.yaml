@@ -41,5 +41,5 @@ TYPEOFSYSTEM: lipid bilayer
 ID: 626
 EXPERIMENT:
   ORDERPARAMETER:
-    DYPC: {}
-  FORMFACTOR: {}
+    DYPC: []
+  FORMFACTOR: []

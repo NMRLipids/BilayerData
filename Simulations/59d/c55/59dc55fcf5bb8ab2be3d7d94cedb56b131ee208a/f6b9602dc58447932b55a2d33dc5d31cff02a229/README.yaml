@@ -43,7 +43,7 @@ WARNINGS:
   - SDPE
 EXPERIMENT:
   ORDERPARAMETER:
-    SDPE: {}
-    DOG: {}
-  FORMFACTOR: {}
+    SDPE: []
+    DOG: []
+  FORMFACTOR: []
 ID: 183

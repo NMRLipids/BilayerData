@@ -65,8 +65,8 @@ TYPEOFSYSTEM: lipid bilayer
 ID: 840
 EXPERIMENT:
   ORDERPARAMETER:
-    DLIPG: {}
-    DLIPA: {}
-    SAPC: {}
-    POPE: {}
-  FORMFACTOR: {}
+    DLIPG: []
+    DLIPA: []
+    SAPC: []
+    POPE: []
+  FORMFACTOR: []

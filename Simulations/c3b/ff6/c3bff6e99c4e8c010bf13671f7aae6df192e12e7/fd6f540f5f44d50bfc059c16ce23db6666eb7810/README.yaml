@@ -53,7 +53,7 @@ DATEOFRUNNING: 11/11/2021
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
-    POPC: {}
-    CER: {}
-  FORMFACTOR: {}
+    POPC: []
+    CER: []
+  FORMFACTOR: []
 ID: 165

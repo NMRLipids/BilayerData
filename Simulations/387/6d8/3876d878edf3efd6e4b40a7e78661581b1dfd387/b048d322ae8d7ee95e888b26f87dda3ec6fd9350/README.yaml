@@ -47,7 +47,7 @@ TYPEOFSYSTEM: lipid bilayer
 ID: 718
 EXPERIMENT:
   ORDERPARAMETER:
-    POPE: {}
-    DOG: {}
-    CHOL: {}
-  FORMFACTOR: {}
+    POPE: []
+    DOG: []
+    CHOL: []
+  FORMFACTOR: []
