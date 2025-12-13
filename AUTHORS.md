@@ -10,7 +10,7 @@ Alphabetical list of contributors:
 
 - Alexander Vogel (@MelbourneFL)
 - Alexey M. Nesterenko (@comcon1)
-- Avneesh Singh
+- Avneesh Singh (@AvNeEsH71-iam)
 - Anika Wurl (@awurl)
 - Anne Kiirikki (@akiirik)
 - Batuhan Kav (@batukav)
