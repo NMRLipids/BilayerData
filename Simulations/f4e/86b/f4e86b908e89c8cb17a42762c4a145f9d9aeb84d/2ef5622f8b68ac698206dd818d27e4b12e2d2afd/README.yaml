@@ -44,7 +44,8 @@ DATEOFRUNNING: 17/10/2022
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
-    POPC: {}
-    CHOL: {}
-  FORMFACTOR: unpublished/NMRlipidsIII/3
+    POPC: []
+    CHOL: []
+  FORMFACTOR:
+  - unpublished/NMRlipidsIII/3
 ID: 689

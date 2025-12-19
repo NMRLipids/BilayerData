@@ -36,5 +36,6 @@ ID: 765
 EXPERIMENT:
   ORDERPARAMETER:
     SM16:
-      10.1021/acs.jpcb.0c03389: 10.1021/acs.jpcb.0c03389/3
-  FORMFACTOR: 10.1021/acs.jpcb.0c03389/2
+    - 10.1021/acs.jpcb.0c03389/3
+  FORMFACTOR:
+  - 10.1021/acs.jpcb.0c03389/2

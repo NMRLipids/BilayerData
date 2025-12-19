@@ -68,10 +68,10 @@ TYPEOFSYSTEM: lipid bilayer
 ID: 774
 EXPERIMENT:
   ORDERPARAMETER:
-    POPC: {}
-    POPE: {}
-    POPS: {}
-    SAPI24: {}
-    SM16: {}
-    CHOL: {}
-  FORMFACTOR: {}
+    POPC: []
+    POPE: []
+    POPS: []
+    SAPI24: []
+    SM16: []
+    CHOL: []
+  FORMFACTOR: []

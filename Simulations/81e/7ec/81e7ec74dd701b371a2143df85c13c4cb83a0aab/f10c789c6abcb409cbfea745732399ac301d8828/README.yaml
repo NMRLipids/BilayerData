@@ -44,7 +44,7 @@ WARNINGS:
   - SDG
 EXPERIMENT:
   ORDERPARAMETER:
-    POPE: {}
-    SDG: {}
-  FORMFACTOR: {}
+    POPE: []
+    SDG: []
+  FORMFACTOR: []
 ID: 453
