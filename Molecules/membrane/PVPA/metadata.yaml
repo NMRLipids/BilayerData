@@ -1,0 +1,17 @@
+NMRlipids:
+  id: PVPA
+  name: "1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycero-3-phosphate"
+  charge: -1
+sameAs:
+  ChEBI: CHEBI:89530
+  pubchem.compound: 9547158
+  lipidmaps: LMGP10010007
+  slm: SLM:000026217
+bioschema_properties:
+  iupacName: "[(2R)-1-hexadecanoyloxy-3-phosphonooxypropan-2-yl](Z)-octadec-11-enoate"
+  name: "palmitoyl-cis-vaccenoylphosphatidic acid"
+  smiles: CCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)(O)O)OC(=O)CCCCCCCCC/C=C\CCCCCC
+  inChI: InChI=1S/C37H71O8P/c1-3-5-7-9-11-13-15-17-18-20-22-24-26-28-30-32-37(39)45-35(34-44-46(40,41)42)33-43-36(38)31-29-27-25-23-21-19-16-14-12-10-8-6-4-2/h13,15,35H,3-12,14,16-34H2,1-2H3,(H2,40,41,42)/b15-13-/t35-/m1/s1
+  inChIKey: YDFKTEAAIYLUQP-JUOLSMOWSA-N
+  molecularFormula: C37H71O8P
+  molecularWeight: 674.9

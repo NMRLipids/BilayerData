@@ -1,0 +1,18 @@
+NMRlipids:
+  id: PVPG
+  name: "1-hexadecanoyl-2-(11Z-octadecenoyl)-sn-glycero-3-phospho-(1'-sn-glycerol)"
+  charge: -1
+sameAs:
+  ChEBI: CHEBI:44946
+  pubchem.compound: 5289145
+  lipidmaps: LMGP04010008
+  slm: SLM:000042037
+  pdb.ligand: PGV
+bioschema_properties:
+  iupacName: "[(2R)-1-[[(2S)-2,3-dihydroxypropoxy]-hydroxyphosphoryl]oxy-3-hexadecanoyloxypropan-2-yl] (Z)-octadec-11-enoate"
+  name: "palmitoyl-cis-vaccenoylphosphatidylglycerol"
+  smiles: CCCCCCCCCCCCCCCC(=O)OC[C@H](CO[P@](=O)(O)OC[C@H](CO)O)OC(=O)CCCCCCCCC\C=C/CCCCCC
+  inChI: InChI=1S/C40H77O10P/c1-3-5-7-9-11-13-15-17-18-20-22-24-26-28-30-32-40(44)50-38(36-49-51(45,46)48-34-37(42)33-41)35-47-39(43)31-29-27-25-23-21-19-16-14-12-10-8-6-4-2/h13,15,37-38,41-42H,3-12,14,16-36H2,1-2H3,(H,45,46)/b15-13-/t37-,38+/m0/s1
+  inChIKey: ADYWCMPUNIVOEA-GPJPVTGXSA-N
+  molecularFormula: C40H77O10P
+  molecularWeight: 749.0
