@@ -1,0 +1,27 @@
+DOI: 10.5281/zenodo.10259846
+TRJ: production.xtc
+TPR: production.tpr
+SOFTWARE: gromacs
+PREEQTIME: 3
+TIMELEFTOUT: 200
+TEMPERATURE: 310
+SYSTEM: POPI-POPE (80:20), full hydration, 310 K, NH4+ counter ions
+AUTHORS_CONTACT: Kurki, Milla
+SOFTWARE_VERSION: '2022.4'
+FF: CHARMM36
+FF_SOURCE: CHARMM-GUI
+FF_DATE: 02.11.2023
+CPT: production.cpt
+TOP: topol.top
+GRO: production.gro
+EDR: production.edr
+COMPOSITION:
+  POPI:
+    NAME: POPI
+    MAPPING: mappingPOPIcharmm.yaml
+  POPE:
+    NAME: POPE
+    MAPPING: mappingPOPEcharmm.yaml
+  SOL:
+    NAME: TIP3
+    MAPPING: mappingTIP3PCHARMMgui.yaml
