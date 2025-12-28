@@ -25,3 +25,6 @@ COMPOSITION:
   SOL:
     NAME: TIP3
     MAPPING: mappingTIP3PCHARMMgui.yaml
+  NH4:
+    NAME: NH4
+    MAPPING: mappingCHARMM36_NH4.yaml
