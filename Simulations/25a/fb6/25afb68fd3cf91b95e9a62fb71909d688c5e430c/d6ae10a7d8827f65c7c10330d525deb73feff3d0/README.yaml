@@ -41,6 +41,6 @@ TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     DOPC:
-      unpublished/ferreiraDOPC: unpublished/ferreiraDOPC/1
-  FORMFACTOR: {}
+    - unpublished/ferreiraDOPC/1
+  FORMFACTOR: []
 ID: 316

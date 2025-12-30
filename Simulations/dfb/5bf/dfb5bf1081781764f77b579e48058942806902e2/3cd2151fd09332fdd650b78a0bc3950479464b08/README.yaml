@@ -49,7 +49,7 @@ DATEOFRUNNING: 09/04/2022
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
-    POPC: {}
-    PAzePCprot: {}
-  FORMFACTOR: {}
+    POPC: []
+    PAzePCprot: []
+  FORMFACTOR: []
 ID: 288

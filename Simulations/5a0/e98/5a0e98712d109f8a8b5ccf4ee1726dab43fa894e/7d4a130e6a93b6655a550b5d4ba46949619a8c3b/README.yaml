@@ -47,6 +47,6 @@ TYPEOFSYSTEM: lipid bilayer
 ID: 652
 EXPERIMENT:
   ORDERPARAMETER:
-    DOPC: {}
-    CHOL: {}
-  FORMFACTOR: {}
+    DOPC: []
+    CHOL: []
+  FORMFACTOR: []
