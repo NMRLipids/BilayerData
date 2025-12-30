@@ -20,8 +20,8 @@ COMPOSITION:
     NAME: POPI
     MAPPING: mappingPOPIcharmm.yaml
   POPE:
-    NAME: POPE
-    MAPPING: mappingPOPEcharmm.yaml
+    NAME: POPC
+    MAPPING: mappingPOPCcharmm.yaml
   SOL:
     NAME: TIP3
     MAPPING: mappingTIP3PCHARMMgui.yaml
