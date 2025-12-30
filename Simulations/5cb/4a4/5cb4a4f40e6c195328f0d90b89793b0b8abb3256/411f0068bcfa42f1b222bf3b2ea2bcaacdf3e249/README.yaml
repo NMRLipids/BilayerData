@@ -53,7 +53,7 @@ TYPEOFSYSTEM: lipid bilayer
 ID: 762
 EXPERIMENT:
   ORDERPARAMETER:
-    POPC: {}
-    CHOL: {}
-    SM16: {}
-  FORMFACTOR: {}
+    POPC: []
+    CHOL: []
+    SM16: []
+  FORMFACTOR: []

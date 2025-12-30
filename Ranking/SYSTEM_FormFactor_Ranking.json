@@ -41,9 +41,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "ID": 154,
             "path": "eb4/ab4/eb4ab41fb73a8dfefe1cda75ecc5b036a169f04b/2e9d5a4f3e0a953aa3855e2470ebc83fb0a54dd7/"
@@ -95,9 +95,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/11"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/11"]
             },
             "ID": 93,
             "path": "a36/8ed/a368ed3ac3d818a13d7b7e41ef6d228c39e65aaa/998d6107b6c03db9ee7bea52fc2a4fe47e36814f/"
@@ -149,9 +149,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/11"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/11"]
             },
             "ID": 360,
             "path": "da7/fe5/da7fe52f886cf0ff412adc8afca5f18f2b16943b/5137616341fdd3b0fc2441858749032aa1c90dc4/"
@@ -206,10 +206,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/5"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/5"]
             },
             "ID": 662,
             "path": "b97/be6/b97be660f8dbcc6b78c46a6494eb79efffdbffd7/0d4ae597205b534d766edb805ebf3047218b3432/"
@@ -227,9 +227,9 @@
             "NUMBER_OF_ATOMS": 30988,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "FF_SOURCE": "http://www.fos.su.se/~sasha/SLipids/",
             "COMPOSITION": {
@@ -309,9 +309,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DPPC": {}
+                    "DPPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/4"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/4"]
             },
             "ID": 365,
             "path": "db2/939/db2939198ddcea670cd6d6e5b5966951166e21df/cd84678e155b178c67f08373ad8533dae296fafd/"
@@ -363,9 +363,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DPPC": {}
+                    "DPPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/4"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/4"]
             },
             "ID": 593,
             "path": "ab4/a4c/ab4a4cd981f07a5634e982ee57e3534e413a8946/704f4f55c4c4ca03a355d1a640101442f088d0b7/"
@@ -417,9 +417,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPE": { "10.1021/jacs.1c05549": "10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE": "unpublished/ferreiraPOPE/1" }
+                    "POPE": ["10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE/1"]
                 },
-                "FORMFACTOR": "10.1021/jp511159q/1"
+                "FORMFACTOR": ["10.1021/jp511159q/1"]
             },
             "ID": 414,
             "path": "415/930/41593025f50adfceb2c888fed44afe0b1b7fe8da/34bafde4722aae82cc5972f9e30a54065d67159a/"
@@ -470,9 +470,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 715,
             "path": "565/778/5657789464985793910172f7b59e29a74d19c77c/272f4bf2e18e4341e93ca1434079bb49cf6245cd/"
@@ -526,9 +526,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/11"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/11"]
             },
             "ID": 127,
             "path": "c3e/a0b/c3ea0bd34198ac22edbce9ea2d1631b495965dfa/5522ba0e97d92d0ad6ca074e7e441efb3d0a6481/"
@@ -582,9 +582,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "WARNINGS": { "TIMESTEP": "incorrect" },
             "ID": 805,
@@ -637,9 +637,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 814,
             "path": "2f2/fd1/2f2fd1090599f0d917f14a70eb4ce89c84aa6723/52286e8550f901dd9ecae96198f9e3aa18566755/"
@@ -694,10 +694,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/5"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/5"]
             },
             "ID": 666,
             "path": "699/c14/699c14edee844ced21aedbcec30649979bf8121c/ab8576d84d0ea717a66d042aeac5195b4d8750cc/"
@@ -752,10 +752,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/5"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/5"]
             },
             "ID": 667,
             "path": "6d1/ad4/6d1ad42a2c68788a504632f58d3ab1c982e16742/0b6b528de24dc38b312801853e639b91fbf40b21/"
@@ -803,9 +803,9 @@
             "ID": 750,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPE": { "10.1021/jacs.1c05549": "10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE": "unpublished/ferreiraPOPE/1" }
+                    "POPE": ["10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE/1"]
                 },
-                "FORMFACTOR": "10.1021/jp511159q/1"
+                "FORMFACTOR": ["10.1021/jp511159q/1"]
             },
             "path": "6a1/bbc/6a1bbc478e03fca6d1567f3d9451cfe5c8aadc72/6a1bbc478e03fca6d1567f3d9451cfe5c8aadc72/"
         }
@@ -822,9 +822,9 @@
             "NUMBER_OF_ATOMS": 32512,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "FF_SOURCE": "http://www.fos.su.se/~sasha/SLipids/Downloads.html",
             "COMPOSITION": {
@@ -909,10 +909,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/5"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/5"]
             },
             "ID": 706,
             "path": "8b0/f90/8b0f9005d3e4fe16553e48aebae19950d5e35cae/02e7f972c04717b2e92abd4094778b96b77a7055/"
@@ -967,10 +967,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/5"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/5"]
             },
             "ID": 677,
             "path": "227/3c2/2273c29e99c9127312973631bf7650a9b6b7f445/9109e7863d6a11a7efd594b86ce12e2c2935e4f9/"
@@ -1021,9 +1021,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 657,
             "path": "7d1/181/7d1181a267a9a015e74f3f24594c0dc0ba0fce6a/09813ab2ccb777e53961f11f35c5f8398981bc98/"
@@ -1074,9 +1074,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 684,
             "path": "a13/ae4/a13ae44c257c084ed57bf4dce443e7d6a4c941b3/e0538e4c3d56769b5fd2aff4c08555bb83111b2d/"
@@ -1125,9 +1125,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 38,
             "path": "b5b/c04/b5bc04ce111a8a469884eeaead2ce48c5dab9ff7/a53e18fd1c83685c8842c0cb715492e08c3e765d/"
@@ -1182,10 +1182,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/3"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/3"]
             },
             "ID": 680,
             "path": "918/0f6/9180f62aba7690499dbbfdc58115559fdda30cca/5e0b5826edcd12873b603e59a42795c3d0cb6272/"
@@ -1243,10 +1243,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1039/c2cp42738a": "10.1039/c2cp42738a/3" },
-                    "CHOL": {}
+                    "POPC": ["10.1039/c2cp42738a/3"],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/4"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/4"]
             },
             "ID": 589,
             "path": "c8d/54f/c8d54fda73085e3f9685615b4cccc6a3dffc7442/62808d96749eaff3b5572316cb0fbaa4d0863267/"
@@ -1265,9 +1265,9 @@
             "NUMBER_OF_ATOMS": 29824,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPS": { "10.1021/acs.jctc.9b00824": "10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091": "10.1021/acs.jpcb.9b06091/1" }
+                    "POPS": ["10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091/1"]
                 },
-                "FORMFACTOR": "10.1039/C4SM00066H/1"
+                "FORMFACTOR": ["10.1039/C4SM00066H/1"]
             },
             "FF_SOURCE": "starting structure from CHARMM-GUI",
             "COMPOSITION": {
@@ -1347,9 +1347,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPE": { "10.1021/jacs.1c05549": "10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE": "unpublished/ferreiraPOPE/1" }
+                    "POPE": ["10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE/1"]
                 },
-                "FORMFACTOR": "10.1021/jp511159q/1"
+                "FORMFACTOR": ["10.1021/jp511159q/1"]
             },
             "ID": 233,
             "path": "2a9/7d1/2a97d1e94052e72834612f60a547347514d3dfbf/c94855d55d49e55b22857b00de9012c190fe5f2e/"
@@ -1400,9 +1400,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPE": { "10.1021/jacs.1c05549": "10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE": "unpublished/ferreiraPOPE/1" }
+                    "POPE": ["10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE/1"]
                 },
-                "FORMFACTOR": "10.1021/jp511159q/1"
+                "FORMFACTOR": ["10.1021/jp511159q/1"]
             },
             "ID": 352,
             "path": "07d/cf3/07dcf38cf72985a9535571aaa39d7ae76921838b/9633603ac288bf90cb41aeac480bd1b222658439/"
@@ -1450,9 +1450,9 @@
             "ID": 747,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPE": { "10.1021/jacs.1c05549": "10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE": "unpublished/ferreiraPOPE/1" }
+                    "POPE": ["10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE/1"]
                 },
-                "FORMFACTOR": "10.1021/jp511159q/1"
+                "FORMFACTOR": ["10.1021/jp511159q/1"]
             },
             "path": "ef4/520/ef45203f9f3dec57f2dcffb6fee9b51fe9447f08/ef45203f9f3dec57f2dcffb6fee9b51fe9447f08/"
         }
@@ -1509,10 +1509,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1039/c2cp42738a": "10.1039/c2cp42738a/4" },
-                    "CHOL": {}
+                    "POPC": ["10.1039/c2cp42738a/4"],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/7"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/7"]
             },
             "ID": 206,
             "path": "b04/7ff/b047ffe7ca543800f5d13bc850bbb66924b7231b/76a77f734fea9fcca1189a8c5b4533a68d73ead5/"
@@ -1566,9 +1566,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/11"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/11"]
             },
             "ID": 103,
             "path": "cf1/3f5/cf13f50e4136d05074843ec1e2d92311a6caec5f/e6988d53abcfd89b5bfff6b523d43ea4ff9791a1/"
@@ -1623,10 +1623,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/3"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/3"]
             },
             "ID": 665,
             "path": "687/d70/687d70e3855bd3ed984fda6baeef96d42ba9126d/78ba0e56b430751678b07c2665a17c17b64203e6/"
@@ -1645,9 +1645,9 @@
             "NUMBER_OF_ATOMS": 29824,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPS": { "10.1021/acs.jctc.9b00824": "10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091": "10.1021/acs.jpcb.9b06091/1" }
+                    "POPS": ["10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091/1"]
                 },
-                "FORMFACTOR": "10.1039/C4SM00066H/1"
+                "FORMFACTOR": ["10.1039/C4SM00066H/1"]
             },
             "FF_SOURCE": "starting structure from CHARMM-GUI",
             "COMPOSITION": {
@@ -1730,9 +1730,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPE": { "10.1021/jacs.1c05549": "10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE": "unpublished/ferreiraPOPE/1" }
+                    "POPE": ["10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE/1"]
                 },
-                "FORMFACTOR": "10.1021/jp511159q/1"
+                "FORMFACTOR": ["10.1021/jp511159q/1"]
             },
             "ID": 400,
             "path": "a83/e44/a83e446866beb4a5e1e267bb24e5544f97b7219c/af8a05f5ae6178825d417dfef0197fcb823796ff/"
@@ -1787,9 +1787,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPS": { "10.1021/acs.jctc.9b00824": "10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091": "10.1021/acs.jpcb.9b06091/1" }
+                    "POPS": ["10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091/1"]
                 },
-                "FORMFACTOR": "10.1039/C4SM00066H/1"
+                "FORMFACTOR": ["10.1039/C4SM00066H/1"]
             },
             "ID": 443,
             "path": "a33/b16/a33b16c62911e46c6cfeffc5c1cbf9eeb548da67/c8e02bee0bb725a95396e3d471060434dba329e6/"
@@ -1842,9 +1842,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DOPC": {}
+                    "DOPC": []
                 },
-                "FORMFACTOR": {}
+                "FORMFACTOR": []
             },
             "ID": 76,
             "path": "8f8/df8/8f8df8010c88fe45e6515d41a85d7555b9f01f1b/d5b534249aea5e638754373da5650eb8309e46b7/"
@@ -1891,9 +1891,9 @@
             "ID": 748,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "path": "244/97f/24497f8f740c4466d91660c34cb1c2295265ede5/24497f8f740c4466d91660c34cb1c2295265ede5/"
         }
@@ -1947,10 +1947,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/3"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/3"]
             },
             "ID": 681,
             "path": "92e/b2d/92eb2d09d236241f97d6102bf3c32868d2fd9cdf/47cd801878d9871123ce54de5f03cd0dc0c4d17f/"
@@ -2005,10 +2005,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/3"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/3"]
             },
             "ID": 697,
             "path": "a92/c4f/a92c4f19b6fbeb659e51814d66c94e0b0d09b3af/b0e5132128bf4152704a2575833b1a05650527d6/"
@@ -2059,9 +2059,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 696,
             "path": "a7f/b85/a7fb85d6b732ed89d397a399a6e48394643c615e/58cb99b06261921c135b2cdc21b7da242943819b/"
@@ -2102,9 +2102,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 617,
             "path": "5a4/277/5a427728e5bcc18a6f162a8d325df4a9e4115250/f0fe9b9284aa683f9a419d9173d320cfa31d34cb/"
@@ -2159,10 +2159,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/3"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/3"]
             },
             "ID": 663,
             "path": "c6a/82c/c6a82c8fe511a96186297ea337b3cea003752a62/5e952b8e3ed5724a96ce3b3c3a6515a926e2b124/"
@@ -2217,10 +2217,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/3"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/3"]
             },
             "ID": 689,
             "path": "f4e/86b/f4e86b908e89c8cb17a42762c4a145f9d9aeb84d/2ef5622f8b68ac698206dd818d27e4b12e2d2afd/"
@@ -2272,9 +2272,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/11"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/11"]
             },
             "ID": 595,
             "path": "3ef/72b/3ef72bbbb9a3071dd6dcf9daf45375dd0561e4d4/1fe82655b1eb044705ade4ac9bfe85699ebbc904/"
@@ -2329,10 +2329,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/3"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/3"]
             },
             "ID": 695,
             "path": "75b/d62/75bd625d0c29f45c4b3a1bc107df9122abc270be/a6ac2c52a4fe03bc145c34c7d9c759840702e6b1/"
@@ -2387,10 +2387,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/5"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/5"]
             },
             "ID": 702,
             "path": "2f6/ef0/2f6ef0068ae0319e0f4b6f860e8d843421b286bd/685f534cf530904ae20f49c0d371b30ea71ff383/"
@@ -2442,9 +2442,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DPPC": {}
+                    "DPPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/4"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/4"]
             },
             "ID": 267,
             "path": "32c/024/32c024dc50b77087ae85be6a2c51ed2fa6e5b652/a075886a44f6708716f997ce30055cf4ee8261a0/"
@@ -2497,9 +2497,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DOPC": {}
+                    "DOPC": []
                 },
-                "FORMFACTOR": {}
+                "FORMFACTOR": []
             },
             "ID": 520,
             "path": "b1f/987/b1f9878b432b8834ab7089bb250e2608913c636e/205acffa603d25a3d5d72a6a5a33ef2952bf1643/"
@@ -2552,9 +2552,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DOPC": {}
+                    "DOPC": []
                 },
-                "FORMFACTOR": {}
+                "FORMFACTOR": []
             },
             "ID": 532,
             "path": "eec/b7f/eecb7fdab1021ea357d3bdab891fe0db9ada1fd0/b6b0eac9c0091180ea5bc15ca0322ac0c3055bc2/"
@@ -2609,10 +2609,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/3"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/3"]
             },
             "ID": 672,
             "path": "ddb/994/ddb9947ea9ad6231f77e936da109f41d523be508/2a56a18a2fc8faaf0c1150c597c2288b7b0c989f/"
@@ -2659,9 +2659,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 63,
             "path": "6a7/ee8/6a7ee8ec651f41dbaa4460d095ad2e30b27de20b/9b33210b33f94f175df15b16f5064d9464900b05/"
@@ -2712,9 +2712,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 675,
             "path": "1e8/02f/1e802f341a0d4237aaf224d5c5d85530026be0bf/24e5ed8a70975452504d9092b4f8c51bf5dc6186/"
@@ -2763,9 +2763,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 457,
             "path": "63a/479/63a47940524010d5a2ff46f0d4c89b4b69e0ad4f/9d9ca60b644e801ec759177e4b1cbe5bf413fe25/"
@@ -2816,9 +2816,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 674,
             "path": "e2a/a72/e2aa72be7b07054a9344c68e56a4f45396189c4e/3401edf711d1be25d7e0f8d85ba5b2297b1e6a29/"
@@ -2873,9 +2873,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 573,
             "path": "995/877/9958771b8fb92ac07be7d4285d09f8df65cc758e/5ad07cc3a737f917dc0e69d6f00b44091322ff68/"
@@ -2926,9 +2926,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 708,
             "path": "8e7/445/8e74451d42d164085406e42824c21afda1a3f433/1005584fb9c9b92a58c3818603e351aceabb53d4/"
@@ -2982,9 +2982,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/11"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/11"]
             },
             "ID": 405,
             "path": "4e4/d45/4e4d45f15fc334edfa725ef670c7ec1f86589d3e/247e995fe4c17b8643ee8c9fb6760a383f65f024/"
@@ -3038,9 +3038,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/11"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/11"]
             },
             "ID": 204,
             "path": "d82/264/d8226460aca0364206b6167d9785260d71e1c98c/69a1d139b81c429400906f515200e4940d811721/"
@@ -3092,9 +3092,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/11"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/11"]
             },
             "ID": 584,
             "path": "6c3/ca7/6c3ca7e1ad7705f7acf41f8d4165af31327259f9/77d781e4e8b5f51c484e44cd7b6022f7794bf02d/"
@@ -3149,10 +3149,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/3"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/3"]
             },
             "ID": 660,
             "path": "7f6/73c/7f673c119523044d7e2d5986e8db7ab5c5a18e64/545850139a3d54a3d727c323db0355e40bb6d032/"
@@ -3204,9 +3204,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPS": { "10.1021/acs.jctc.9b00824": "10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091": "10.1021/acs.jpcb.9b06091/1" }
+                    "POPS": ["10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091/1"]
                 },
-                "FORMFACTOR": "10.1039/C4SM00066H/1"
+                "FORMFACTOR": ["10.1039/C4SM00066H/1"]
             },
             "ID": 473,
             "path": "351/942/3519421ff6c7df40e1da7ac6b6e9ea4d06c911ca/1419f364222a22aadc90d4ec0963e18173e1df2a/"
@@ -3257,9 +3257,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 658,
             "path": "7d7/c42/7d7c42a7ef3419560ab1dabb52161728d62f2a7f/a5bb1d1fd6165db5e9784b8e3f1b0a25381ba680/"
@@ -3311,9 +3311,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPS": { "10.1021/acs.jctc.9b00824": "10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091": "10.1021/acs.jpcb.9b06091/1" }
+                    "POPS": ["10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091/1"]
                 },
-                "FORMFACTOR": "10.1039/C4SM00066H/1"
+                "FORMFACTOR": ["10.1039/C4SM00066H/1"]
             },
             "ID": 535,
             "path": "287/d83/287d83b5b1cc07c2f7dc5f54a8d74227fc6fc3e2/8cad21af3da1756eeb92edb2ab27873891de645d/"
@@ -3365,9 +3365,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DPPC": {}
+                    "DPPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/4"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/4"]
             },
             "ID": 545,
             "path": "939/034/939034209c124cb6cb99baf9f942adb2d65d44de/ca780a3c0bbfe18d17e0dc480a4f71520f70eca9/"
@@ -3422,10 +3422,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/5"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/5"]
             },
             "ID": 687,
             "path": "f22/76d/f2276d44a27ada33b2326df41b2efb2c11eb8858/0b38528bf0ba9219523d4b17babddb3f28129873/"
@@ -3480,10 +3480,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/5"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/5"]
             },
             "ID": 691,
             "path": "492/100/492100cdfee39e4b427f1f4563c635839b40c2a4/b14f6e506122f9754896c3edb69f0fa9075272fb/"
@@ -3541,10 +3541,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1039/c2cp42738a": "10.1039/c2cp42738a/2" },
-                    "CHOL": {}
+                    "POPC": ["10.1039/c2cp42738a/2"],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/2"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/2"]
             },
             "ID": 305,
             "path": "b16/7e2/b167e26f39a390c69bc605c2217f732d854c6395/f5de1720a24e1896cf96afc94fc4ef028adc47d0/"
@@ -3599,9 +3599,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 43,
             "path": "821/08d/82108df2eeae8ee1ff2a9dfb390b730edd3e9a26/0476e26b6c2c5d789d51c0c7e5cf646a1608a433/"
@@ -3654,9 +3654,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 830,
             "path": "509/c36/509c361e11083ae342e56bf9ab505fff8baca832/dddadda65a74e26313a75581d2e2c5326ca4f428/"
@@ -3707,9 +3707,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 664,
             "path": "3ae/2ad/3ae2ad254c7748843eebd62365d21cdc7712b519/0a3d4c6d2fceb62705ed272b2f4aa607477b4337/"
@@ -3762,9 +3762,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 422,
             "path": "ac4/242/ac4242b5de6414ba1746a497c552dd92472a1ce3/5e793f635d83d27ec6aff19ad4eb688a872a9d76/"
@@ -3813,9 +3813,9 @@
             "ID": 728,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DPPC": {}
+                    "DPPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/4"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/4"]
             },
             "path": "c67/a60/c67a6003fec136c382187dddcd9782fd9dfe17e5/c67a6003fec136c382187dddcd9782fd9dfe17e5/"
         }
@@ -3862,9 +3862,9 @@
             "ID": 731,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPE": { "10.1021/jacs.1c05549": "10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE": "unpublished/ferreiraPOPE/1" }
+                    "POPE": ["10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE/1"]
                 },
-                "FORMFACTOR": "10.1021/jp511159q/1"
+                "FORMFACTOR": ["10.1021/jp511159q/1"]
             },
             "path": "208/241/208241f86895519f5cc67cbea2131b7b265b6ec3/208241f86895519f5cc67cbea2131b7b265b6ec3/"
         }
@@ -3915,9 +3915,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPS": { "10.1021/acs.jctc.9b00824": "10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091": "10.1021/acs.jpcb.9b06091/1" }
+                    "POPS": ["10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091/1"]
                 },
-                "FORMFACTOR": "10.1039/C4SM00066H/1"
+                "FORMFACTOR": ["10.1039/C4SM00066H/1"]
             },
             "ID": 263,
             "path": "3f8/a6e/3f8a6eeb44aaeaff5c00d157ed0938d2e0d94048/48f5c2a60215696e2234f1a33488b1215e32e2cc/"
@@ -3972,9 +3972,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPS": { "10.1021/acs.jctc.9b00824": "10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091": "10.1021/acs.jpcb.9b06091/1" }
+                    "POPS": ["10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091/1"]
                 },
-                "FORMFACTOR": "10.1039/C4SM00066H/1"
+                "FORMFACTOR": ["10.1039/C4SM00066H/1"]
             },
             "ID": 521,
             "path": "12a/1ec/12a1ecac877f46809c4377d1e8fb72977396ad94/6149c1c887124543c661efab6619943bf59e7de5/"
@@ -4026,9 +4026,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPS": { "10.1021/acs.jctc.9b00824": "10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091": "10.1021/acs.jpcb.9b06091/1" }
+                    "POPS": ["10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091/1"]
                 },
-                "FORMFACTOR": "10.1039/C4SM00066H/1"
+                "FORMFACTOR": ["10.1039/C4SM00066H/1"]
             },
             "ID": 597,
             "path": "154/32a/15432a86e2fe83bbb98801da6790567ae983fe58/de431264bc7ef1a732d76af339ef2bbf06bda33c/"
@@ -4080,9 +4080,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPS": { "10.1021/acs.jctc.9b00824": "10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091": "10.1021/acs.jpcb.9b06091/1" }
+                    "POPS": ["10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091/1"]
                 },
-                "FORMFACTOR": "10.1039/C4SM00066H/1"
+                "FORMFACTOR": ["10.1039/C4SM00066H/1"]
             },
             "ID": 425,
             "path": "d0a/acf/d0aacf2392a074c84c540c30058708ec75394c32/64c2fa23c30e1f8471d6686ac85846875094a9d4/"
@@ -4134,9 +4134,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DMPC": {}
+                    "DMPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/19"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/19"]
             },
             "ID": 147,
             "path": "c4e/397/c4e3979e2f256025713e625bac872e39b9333735/dee62d31f49ab18da7c2966ddb8d439d3fa77072/"
@@ -4183,9 +4183,9 @@
             "ID": 752,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "path": "780/d37/780d3763c456a6837a6d65f48cc7e7b14e4a3a6e/780d3763c456a6837a6d65f48cc7e7b14e4a3a6e/"
         }
@@ -4231,9 +4231,9 @@
             "ID": 749,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "path": "fb8/2e4/fb82e4f256fd9c13a9a29a32fbd1f9a8d2191ef6/fb82e4f256fd9c13a9a29a32fbd1f9a8d2191ef6/"
         }
@@ -4281,9 +4281,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 30,
             "path": "eba/d7b/ebad7bde0e3d5e5fcc3a64387f569e10162fe7c0/9caac3eaf3998263deea32cbee2b2f947d38dcea/"
@@ -4303,9 +4303,9 @@
             "FFSOL": "SPC",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "FF_SOURCE": "https://zenodo.org/record/1402417/",
             "COMPOSITION": {
@@ -4378,9 +4378,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "ID": 734,
             "path": "e97/2fb/e972fb7afc0ab78c7004c0971d5055b2a0cdc51f/e972fb7afc0ab78c7004c0971d5055b2a0cdc51f/"
@@ -4428,9 +4428,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "ID": 602,
             "path": "752/7ec/7527ecdcca76b1db5593639e4e84069b65570f68/5fe5e17ca65737161140a6149290095af1f7056f/"
@@ -4484,9 +4484,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DOPC": { "unpublished/ferreiraDOPC": "unpublished/ferreiraDOPC/1" }
+                    "DOPC": ["unpublished/ferreiraDOPC/1"]
                 },
-                "FORMFACTOR": {}
+                "FORMFACTOR": []
             },
             "ID": 551,
             "path": "1ef/206/1ef20600128744e801bca89047de22964acd3e9d/edbe8c7309de6bdb695c6fc59615b8c5488ab91b/"
@@ -4540,9 +4540,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DOPC": { "unpublished/ferreiraDOPC": "unpublished/ferreiraDOPC/1" }
+                    "DOPC": ["unpublished/ferreiraDOPC/1"]
                 },
-                "FORMFACTOR": {}
+                "FORMFACTOR": []
             },
             "ID": 47,
             "path": "cca/1ef/cca1ef6b9eaa5c0d57028bd6f71119808fb34945/27ec2ac2b2c4d2791751d2139ea5f84871a295e2/"
@@ -4597,10 +4597,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/5"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/5"]
             },
             "ID": 692,
             "path": "4b3/86c/4b386cc498c5e540aa44e2123fa4720afc544428/a0c82b1035ff5fdbf8d443b90404ddeb3365d924/"
@@ -4651,9 +4651,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 115,
             "path": "b26/a77/b26a77bb464996d420103059fbfc792f35f000d8/508b09dc91e254f859051b74040b1dc8e1342919/"
@@ -4706,9 +4706,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 831,
             "path": "541/330/5413300b630cb69d17ee32f37bd904621cc091ec/3ef4a4a56814d7c1d1ed6dedb78cfb21d63e98f1/"
@@ -4726,9 +4726,9 @@
             "NUMBER_OF_ATOMS": 32512,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "FF_SOURCE": null,
             "COMPOSITION": {
@@ -4810,9 +4810,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DOPC": { "unpublished/ferreiraDOPC": "unpublished/ferreiraDOPC/1" }
+                    "DOPC": ["unpublished/ferreiraDOPC/1"]
                 },
-                "FORMFACTOR": {}
+                "FORMFACTOR": []
             },
             "ID": 316,
             "path": "25a/fb6/25afb68fd3cf91b95e9a62fb71909d688c5e430c/d6ae10a7d8827f65c7c10330d525deb73feff3d0/"
@@ -4830,9 +4830,9 @@
             "NUMBER_OF_ATOMS": 32512,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "FF_SOURCE": null,
             "COMPOSITION": {
@@ -4878,9 +4878,9 @@
             "NUMBER_OF_ATOMS": 29272,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "FF_SOURCE": "http://mackerell.umaryland.edu/charmm_ff.shtml#gromacs",
             "COMPOSITION": {
@@ -4926,9 +4926,9 @@
             "NUMBER_OF_ATOMS": 32512,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "FF_SOURCE": null,
             "COMPOSITION": {
@@ -4974,9 +4974,9 @@
             "NUMBER_OF_ATOMS": 29272,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "FF_SOURCE": "http://mackerell.umaryland.edu/charmm_ff.shtml#gromacs",
             "COMPOSITION": {
@@ -5022,9 +5022,9 @@
             "NUMBER_OF_ATOMS": 32512,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "FF_SOURCE": null,
             "COMPOSITION": {
@@ -5070,9 +5070,9 @@
             "NUMBER_OF_ATOMS": 32512,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "FF_SOURCE": null,
             "COMPOSITION": {
@@ -5118,9 +5118,9 @@
             "NUMBER_OF_ATOMS": 29272,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "FF_SOURCE": "http://mackerell.umaryland.edu/charmm_ff.shtml#gromacs",
             "COMPOSITION": {
@@ -5169,9 +5169,9 @@
             "NUMBER_OF_ATOMS": 28526,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "FF_SOURCE": "http://wcm.ucalgary.ca/tieleman/downloads",
             "COMPOSITION": {
@@ -5241,9 +5241,9 @@
             "FF": "OpenFF",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 797,
             "path": "4f5/fb4/4f5fb4c911390b50b56d06364c85910c10191c57/ea16a8b51b9d71838d911eb3cebbc69ad05600d8/"
@@ -5261,9 +5261,9 @@
             "NUMBER_OF_ATOMS": 32512,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "FF_SOURCE": null,
             "COMPOSITION": {
@@ -5309,9 +5309,9 @@
             "NUMBER_OF_ATOMS": 32512,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "FF_SOURCE": "??",
             "COMPOSITION": {
@@ -5359,9 +5359,9 @@
             "NUMBER_OF_ATOMS": 29272,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "FF_SOURCE": "http://mackerell.umaryland.edu/charmm_ff.shtml#gromacs",
             "COMPOSITION": {
@@ -5407,9 +5407,9 @@
             "NUMBER_OF_ATOMS": 32512,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "FF_SOURCE": null,
             "COMPOSITION": {
@@ -5455,9 +5455,9 @@
             "NUMBER_OF_ATOMS": 32512,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "FF_SOURCE": null,
             "COMPOSITION": {
@@ -5537,9 +5537,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "ID": 90,
             "path": "f31/0bd/f310bd1589844f2402c3096357d1ba41b57d8829/07ade0eade753c9826df16a5e5707e5db67f44d8/"
@@ -5557,9 +5557,9 @@
             "NUMBER_OF_ATOMS": 30988,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "FF_SOURCE": "CHARMM-GUI",
             "COMPOSITION": {
@@ -5645,10 +5645,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/3"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/3"]
             },
             "ID": 119,
             "path": "954/9cc/9549cc0d99530a33f0198dc6478b25fd33e67353/2f29dd26de3bf65ccb9a8785141dd44e5eb7c660/"
@@ -5706,10 +5706,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/3"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/3"]
             },
             "ID": 426,
             "path": "c17/59d/c1759dd2351b303be2f9acde5b8e9dcd7eaf22b1/9e4948f45157c1c4efd364b200f56b244d29e012/"
@@ -5762,9 +5762,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DOPC": {}
+                    "DOPC": []
                 },
-                "FORMFACTOR": {}
+                "FORMFACTOR": []
             },
             "ID": 504,
             "path": "bda/dad/bdadad9052cdba579a5d20ad8ca47e47438e3ea0/87fcf2dac21c99fc7af3a31e9fa111d0890b3d61/"
@@ -5817,9 +5817,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DOPC": {}
+                    "DOPC": []
                 },
-                "FORMFACTOR": {}
+                "FORMFACTOR": []
             },
             "ID": 598,
             "path": "5f5/a7d/5f5a7de2397ac23ec9394001c118a71837f2fe57/d65f3b39967303df2c9df3f45cd3b591d9140b48/"
@@ -5867,9 +5867,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DPPC": {}
+                    "DPPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/4"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/4"]
             },
             "ID": 463,
             "path": "483/c12/483c128ed18bf2038ea06f46aa4087d174bd7ec5/b974806c63403e6b666cfc8b0fbc2fc71bc1291f/"
@@ -5921,9 +5921,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPS": { "10.1021/acs.jctc.9b00824": "10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091": "10.1021/acs.jpcb.9b06091/1" }
+                    "POPS": ["10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091/1"]
                 },
-                "FORMFACTOR": "10.1039/C4SM00066H/1"
+                "FORMFACTOR": ["10.1039/C4SM00066H/1"]
             },
             "ID": 367,
             "path": "1e2/cdc/1e2cdc704d134725e6123404faccf98a7019ff0a/48fd79496a57492cc2d7b7346e3160cae424e7b4/"
@@ -5941,9 +5941,9 @@
             "NUMBER_OF_ATOMS": 32512,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "FF_SOURCE": "CHARMM-GUI v1.7",
             "COMPOSITION": {
@@ -5995,9 +5995,9 @@
             "NUMBER_OF_ATOMS": 16365,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "FF_SOURCE": "CHARMM-GUI v1.6",
             "COMPOSITION": {
@@ -6087,10 +6087,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/3"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/3"]
             },
             "ID": 109,
             "path": "184/43f/18443f90b28f87979d175f3da976d22153bfa22d/2e1eb3e3eca27e99b3de593698a31676c467e38d/"
@@ -6109,9 +6109,9 @@
             "NUMBER_OF_ATOMS": 63605,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "FF_SOURCE": "??",
             "COMPOSITION": {
@@ -6192,9 +6192,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 701,
             "path": "289/db0/289db0867ffc0e8e7a58ffc7c617f69eb7c60e82/1e1325dc1168c632b9978eaab70e8df6e34afbf3/"
@@ -6244,9 +6244,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 164,
             "path": "ddb/cf1/ddbcf15f3eb1a20b40db561c09e0947e8fbb0569/e20b9624c784350d8ed0942f4e9422f754583ab7/"
@@ -6297,9 +6297,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 710,
             "path": "fbe/d55/fbed55ebb58b32963a3e1c4a94aee9c12304ce9e/af523346e81b780e2e01b1253219c1f03d5dd731/"
@@ -6352,9 +6352,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DOPC": {}
+                    "DOPC": []
                 },
-                "FORMFACTOR": {}
+                "FORMFACTOR": []
             },
             "ID": 396,
             "path": "89b/b82/89bb82ff4c5bcbb37f09acfdc4eb3f5d42e1b5da/4079b7a4deb02e8f7571a6769aa2c23296e0f117/"
@@ -6372,9 +6372,9 @@
             "NUMBER_OF_ATOMS": 53800,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/11"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/11"]
             },
             "FF_SOURCE": null,
             "COMPOSITION": {
@@ -6464,10 +6464,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1039/c2cp42738a": "10.1039/c2cp42738a/5" },
-                    "CHOL": { "10.1039/c2cp42738a": "10.1039/c2cp42738a/5" }
+                    "POPC": ["10.1039/c2cp42738a/5"],
+                    "CHOL": ["10.1039/c2cp42738a/5"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/10"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/10"]
             },
             "ID": 299,
             "path": "f62/739/f627391cd6cddf82078a7a12c4cd22767535b6fe/d9c93bb0ae93ede37c230593a348691012519efc/"
@@ -6484,9 +6484,9 @@
             "NUMBER_OF_ATOMS": 35280,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPE": { "10.1021/jacs.1c05549": "10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE": "unpublished/ferreiraPOPE/1" }
+                    "POPE": ["10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE/1"]
                 },
-                "FORMFACTOR": "10.1021/jp511159q/1"
+                "FORMFACTOR": ["10.1021/jp511159q/1"]
             },
             "FF_SOURCE": "CHARMM-GUI",
             "COMPOSITION": {
@@ -6528,9 +6528,9 @@
             "NUMBER_OF_ATOMS": 32512,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "FF_SOURCE": "??",
             "COMPOSITION": {
@@ -6613,9 +6613,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DOPC": {}
+                    "DOPC": []
                 },
-                "FORMFACTOR": {}
+                "FORMFACTOR": []
             },
             "ID": 104,
             "path": "c3a/32e/c3a32e93b4713c8064ab4c5a998e56194927e0b1/30503ef30485f19bc2465c1245a1cf26de892fe5/"
@@ -6668,9 +6668,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DOPC": {}
+                    "DOPC": []
                 },
-                "FORMFACTOR": {}
+                "FORMFACTOR": []
             },
             "ID": 325,
             "path": "bde/036/bde036f1f732e8a257ce442f950948d34dd9497a/60ca3ae5ec8ac67a49f3bcba6cc37d12409489a0/"
@@ -6725,9 +6725,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 202,
             "path": "e7b/a4b/e7ba4b167ed159f63ce55d7a6e6e7536d9fe93cd/48cb3719c54af93939a92567b276f9042a9abaf6/"
@@ -6772,9 +6772,9 @@
             "ID": 837,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "path": "bec/c80/becc80bf8adc6b6d08f7723d2b4653e347a77331/0eb9856aad2baa87438410ae693d18eebe3e8da1/"
         }
@@ -6831,10 +6831,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/5"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/5"]
             },
             "ID": 88,
             "path": "c49/f73/c49f7373e5f014e7249177961c883f238e0ff95e/76053cce890ea85324bb74b299f63432f91f531b/"
@@ -6883,9 +6883,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "SOPC": {}
+                    "SOPC": []
                 },
-                "FORMFACTOR": "10.1103.008/PhysRevE.80.021931/2"
+                "FORMFACTOR": ["10.1103.008/PhysRevE.80.021931/1", "10.1103.008/PhysRevE.80.021931/2"]
             },
             "ID": 820,
             "path": "bff/03d/bff03d4634b72a5467fa6dc5b67767a764db0931/00efd2d1108a76498201aecd69f82d12efc0368a/"
@@ -6938,9 +6938,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DOPC": {}
+                    "DOPC": []
                 },
-                "FORMFACTOR": {}
+                "FORMFACTOR": []
             },
             "ID": 547,
             "path": "a71/1f1/a711f1339b988a9e4268e6f598879fa581a51302/88f921d19a94ca3af98fe79d5079af15161350fc/"
@@ -6991,9 +6991,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 678,
             "path": "229/866/2298665351fa0bcf1b3399e4df47eb8832b77eab/85cfc2d0ff1f805b6d989f3f68977b0290fa7399/"
@@ -7011,9 +7011,9 @@
             "NUMBER_OF_ATOMS": 128000,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DPPC": {}
+                    "DPPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/4"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/4"]
             },
             "FF_SOURCE": "CHARMM-GUI v1.6",
             "COMPOSITION": {
@@ -7097,9 +7097,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DPPC": {}
+                    "DPPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/4"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/4"]
             },
             "ID": 41,
             "path": "9ea/934/9ea93440f105cf86e2d9ce7c85339087d7080c7a/ad13ec526b21e9ce764d38d6279b1e535a61e55f/"
@@ -7151,9 +7151,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DMPC": {}
+                    "DMPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/19"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/19"]
             },
             "ID": 501,
             "path": "88c/02d/88c02d2e58d6c59918f230e060130570e398071e/32ba461564dfbf8212488be80ddf109e3de23c1f/"
@@ -7211,10 +7211,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/5"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/5"]
             },
             "ID": 525,
             "path": "618/168/6181681b59d71d00209c1e86fbb17a78ec0888dc/4864b319f81a2778a8068d475ad2dbf9687c2d27/"
@@ -7272,10 +7272,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/5"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/5"]
             },
             "ID": 72,
             "path": "c70/966/c70966a89d7579487035167bda3096a9ec0ba25f/a792ffbee10c8683ef44830a943d35139d1add6d/"
@@ -7330,10 +7330,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/8"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/8"]
             },
             "ID": 694,
             "path": "510/12c/51012c474bca21c273cf9f98a616e17fdd5d6a70/a782edd245a4182888ec0357eac37570fd7f1a4a/"
@@ -7388,10 +7388,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/8"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/8"]
             },
             "ID": 673,
             "path": "de2/a6c/de2a6c0a44b6ea3f66d48cd2c3a2078bef40e522/ba62d9fd00947450d5f4d4ff18e126f1c5f004d2/"
@@ -7432,9 +7432,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 829,
             "path": "c04/cdb/c04cdb61143bb72ba2ddee11599e6bbfaf6cb211/a31f42800216d84d2242eae2af8ac2cbd6b033ee/"
@@ -7488,9 +7488,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 546,
             "path": "229/866/2298665351fa0bcf1b3399e4df47eb8832b77eab/e74101bfc21ebb8c489d18e1e0b729e2c034fea5/"
@@ -7538,9 +7538,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPS": { "10.1021/acs.jctc.9b00824": "10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091": "10.1021/acs.jpcb.9b06091/1" }
+                    "POPS": ["10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091/1"]
                 },
-                "FORMFACTOR": "10.1039/C4SM00066H/1"
+                "FORMFACTOR": ["10.1039/C4SM00066H/1"]
             },
             "ID": 26,
             "path": "371/d53/371d534a1bb41fd81e137717e473e6916c9bbf70/7c24007a3d9cbe605a31999850e929ebfaf530f7/"
@@ -7589,9 +7589,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPE": { "10.1021/jacs.1c05549": "10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE": "unpublished/ferreiraPOPE/1" }
+                    "POPE": ["10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE/1"]
                 },
-                "FORMFACTOR": "10.1021/jp511159q/1"
+                "FORMFACTOR": ["10.1021/jp511159q/1"]
             },
             "ID": 195,
             "path": "b58/0d1/b580d13983ed1b38cf975bc3f129c58bf05efd5a/244f4bc5e15f39de659fa2b13e30cd833084af44/"
@@ -7609,9 +7609,9 @@
             "NUMBER_OF_ATOMS": 16374,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {}
+                    "POPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/2"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/2"]
             },
             "FF_SOURCE": null,
             "COMPOSITION": {
@@ -7697,10 +7697,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/8"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/8"]
             },
             "ID": 670,
             "path": "dae/6ba/dae6bab0cffae15f50bb7f464260f27aeba72062/01781911d39fc463302c15129a24334c57676936/"
@@ -7755,10 +7755,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/8"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/8"]
             },
             "ID": 668,
             "path": "6d5/0e1/6d50e1333843d35d30bc8201a934539cae595d72/e5f6be84c833130b90c70d7fc612d0f85fcd8243/"
@@ -7802,9 +7802,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 833,
             "path": "aec/8cf/aec8cf3207aa4ab9efa02f7c3dce44997050f5ab/71a7aceda6cae85e8b582d6abbd78bfe5c999d91/"
@@ -7859,9 +7859,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPS": { "10.1021/acs.jctc.9b00824": "10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091": "10.1021/acs.jpcb.9b06091/1" }
+                    "POPS": ["10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091/1"]
                 },
-                "FORMFACTOR": "10.1039/C4SM00066H/1"
+                "FORMFACTOR": ["10.1039/C4SM00066H/1"]
             },
             "ID": 842,
             "path": "de8/0d8/de80d83c570966d6151ebe37b1e9400ce857af91/ff5c240330218b299881d6ddcc87f4bb9131bfb3/"
@@ -7879,9 +7879,9 @@
             "NUMBER_OF_ATOMS": 15927,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DPPC": {}
+                    "DPPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/4"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/4"]
             },
             "FF_SOURCE": null,
             "COMPOSITION": {
@@ -7929,9 +7929,9 @@
             "NUMBER_OF_ATOMS": 15924,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DPPC": {}
+                    "DPPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/4"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/4"]
             },
             "FF_SOURCE": "CHARMM-GUI v1.6",
             "COMPOSITION": {
@@ -8011,9 +8011,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DPPC": {}
+                    "DPPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/4"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/4"]
             },
             "ID": 390,
             "path": "a3a/0de/a3a0ded0add42922c7cc7053c0ce04a1393babf8/29b917ed78df2dd6b117b3036c2c481e952185c9/"
@@ -8031,9 +8031,9 @@
             "NUMBER_OF_ATOMS": 18000,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DPPC": {}
+                    "DPPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/4"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/4"]
             },
             "FF_SOURCE": "CHARMM-GUI v1.6",
             "COMPOSITION": {
@@ -8084,9 +8084,9 @@
             "NUMBER_OF_ATOMS": 137500,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPE": { "10.1021/jacs.1c05549": "10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE": "unpublished/ferreiraPOPE/1" }
+                    "POPE": ["10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE/1"]
                 },
-                "FORMFACTOR": "10.1021/jp511159q/1"
+                "FORMFACTOR": ["10.1021/jp511159q/1"]
             },
             "FF_SOURCE": "CHARMM-GUI v1.7",
             "COMPOSITION": {
@@ -8133,9 +8133,9 @@
             "NUMBER_OF_ATOMS": 29824,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPS": { "10.1021/acs.jctc.9b00824": "10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091": "10.1021/acs.jpcb.9b06091/1" }
+                    "POPS": ["10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091/1"]
                 },
-                "FORMFACTOR": "10.1039/C4SM00066H/1"
+                "FORMFACTOR": ["10.1039/C4SM00066H/1"]
             },
             "FF_SOURCE": "CHARMM-GUI",
             "COMPOSITION": {
@@ -8215,10 +8215,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/8"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/8"]
             },
             "ID": 688,
             "path": "f32/81d/f3281d1071b0644075df0156d7233bd1109e99dd/8788d2e0768fe7e7e9784d3990494716071c627c/"
@@ -8273,10 +8273,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/8"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/8"]
             },
             "ID": 661,
             "path": "856/6fe/8566fe9ecc32415f1f3fe1b3ce8b4ef4f9b19a67/e022e9e0356a441dfd862555f70f576fdf640c8b/"
@@ -8331,10 +8331,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/9"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/9"]
             },
             "ID": 712,
             "path": "43e/a38/43ea38445266fcf9cca6cacb2331a09efcd123e0/0c14671bb338f2f09e32ccd0d375e0583d6db73f/"
@@ -8389,10 +8389,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/9"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/9"]
             },
             "ID": 682,
             "path": "9f8/6db/9f86db3af0f6d4f1bf7a96bb0d47f13d2ba24fe4/e64562e0bc9611297bfabf7aef34df897d72e5c9/"
@@ -8447,10 +8447,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/9"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/9"]
             },
             "ID": 703,
             "path": "16c/24c/16c24c4c4afed59906a86d25720a8ca356278d2b/9def6374b2138ea6bf9165f9366ceea12cc98569/"
@@ -8497,9 +8497,9 @@
             "ID": 761,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "path": "946/cf2/946cf2f5d93a308dea838474fb3ec0492cdbf284/55289dc7b77f58d97beb5d6e3506a9e6f2d9256e/"
         }
@@ -8516,9 +8516,9 @@
             "NUMBER_OF_ATOMS": 18000,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DPPC": {}
+                    "DPPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/4"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/4"]
             },
             "FF_SOURCE": "CHARMM-GUI v1.6",
             "COMPOSITION": {
@@ -8598,9 +8598,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPS": { "10.1021/acs.jctc.9b00824": "10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091": "10.1021/acs.jpcb.9b06091/1" }
+                    "POPS": ["10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091/1"]
                 },
-                "FORMFACTOR": "10.1039/C4SM00066H/1"
+                "FORMFACTOR": ["10.1039/C4SM00066H/1"]
             },
             "ID": 292,
             "path": "310/972/310972e588b9d3b8bb3049c5a4ee1977889c6559/a4d8e0ad017d67cfb566b576d573778c671c4cba/"
@@ -8644,9 +8644,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 832,
             "path": "589/27c/58927c60d9fa51b9edd458502c6858dd25cba6af/852e7682947b9bb47cb8e216540acaaa267b3b57/"
@@ -8699,9 +8699,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DMPC": {}
+                    "DMPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/20"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/20"]
             },
             "ID": 356,
             "path": "0d3/e47/0d3e47b449cd5550a51cf78f0f0c784c9d37ae58/471a61f2450461390a127a73f120f39b0b88b567/"
@@ -8747,9 +8747,9 @@
             "ID": 765,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "SM16": { "10.1021/acs.jpcb.0c03389": "10.1021/acs.jpcb.0c03389/3" }
+                    "SM16": ["10.1021/acs.jpcb.0c03389/3"]
                 },
-                "FORMFACTOR": "10.1021/acs.jpcb.0c03389/2"
+                "FORMFACTOR": ["10.1021/acs.jpcb.0c03389/2"]
             },
             "path": "68d/39e/68d39e96aca23aeaa4ea2567e0e0cb8b8903a694/68d39e96aca23aeaa4ea2567e0e0cb8b8903a694/"
         }
@@ -8800,9 +8800,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPE": { "10.1021/jacs.1c05549": "10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE": "unpublished/ferreiraPOPE/1" }
+                    "POPE": ["10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE/1"]
                 },
-                "FORMFACTOR": "10.1021/jp511159q/1"
+                "FORMFACTOR": ["10.1021/jp511159q/1"]
             },
             "ID": 790,
             "path": "aef/442/aef4429d5c23dd3d6aea0683a552c7d8cbc787df/03c4667949377aca6116c541ee3a7a26c367d8eb/"
@@ -8857,10 +8857,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/8"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/8"]
             },
             "ID": 679,
             "path": "235/4e2/2354e21ebaf1a3c1a91bbc39a81bb855a65156a2/5cf395674b97e6840d5f82366b39c1c2910a3e98/"
@@ -8915,10 +8915,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/9"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/9"]
             },
             "ID": 704,
             "path": "8a3/b23/8a3b239ccdf049fa51ffef3b436541da170b0b29/9ddacfe8666c6c43d77985ec2dcf5fd6d49dd452/"
@@ -8965,9 +8965,9 @@
             "ID": 792,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "path": "d17/7fd/d177fd5fedadcdcdef9e0250f72a0ef6a7136373/b727eb1330fc16c256ca4b528be9cad809322259/"
         }
@@ -9019,9 +9019,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DMPC": {}
+                    "DMPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/20"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/20"]
             },
             "ID": 42,
             "path": "bc2/420/bc242096f452160a6e7f744e3892142c984dabd9/a66cb1920a2e35920730dcf1418628186140b583/"
@@ -9074,9 +9074,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DMPC": {}
+                    "DMPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/20"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/20"]
             },
             "ID": 510,
             "path": "c43/6f4/c436f42cfbf0bb88f186b19e35d4e8d19e1812f1/b8719385a1f6d3e6b60785ac2548f154b55ba296/"
@@ -9129,9 +9129,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPS": { "10.1021/acs.jctc.9b00824": "10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091": "10.1021/acs.jpcb.9b06091/1" }
+                    "POPS": ["10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091/1"]
                 },
-                "FORMFACTOR": "10.1039/C4SM00066H/1"
+                "FORMFACTOR": ["10.1039/C4SM00066H/1"]
             },
             "ID": 483,
             "path": "611/eb1/611eb1451b3406f9a07395e74c89a779da77dd0e/7dacf9299757643c2ab76db9536d80031346829f/"
@@ -9186,10 +9186,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/8"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/8"]
             },
             "ID": 716,
             "path": "568/efe/568efe83b7ac0fa45bd7b3cd683f43b571d13115/b766113b1bec2f3668be2c82812c23164c42eeea/"
@@ -9247,10 +9247,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/8"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/8"]
             },
             "ID": 550,
             "path": "12e/fee/12efeef315c1170e422ed54450183e1b66b85485/3e707ddef01e5b1056299393f72cb65e3436fc15/"
@@ -9295,9 +9295,9 @@
             "ID": 836,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "path": "618/da6/618da67594715bf1d8f167ee207e672022bf1ef3/141e154e24515d5de05c75384088437896b19079/"
         }
@@ -9349,9 +9349,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DPPC": {}
+                    "DPPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/10"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/10"]
             },
             "ID": 254,
             "path": "1d0/c13/1d0c13e8ed39cf959867c137b7f20aa08060885c/c639c6a4ea07e111c9c21446c45fb0282798550f/"
@@ -9404,9 +9404,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DPPC": {}
+                    "DPPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/10"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/10"]
             },
             "ID": 309,
             "path": "2f2/953/2f2953d129ebe9b5086b7ea4bf1a42b2cff273e0/dada612a7104f7a56155224ec5c5f95662feea6b/"
@@ -9423,9 +9423,9 @@
             "NUMBER_OF_ATOMS": 29824,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPS": { "10.1021/acs.jctc.9b00824": "10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091": "10.1021/acs.jpcb.9b06091/1" }
+                    "POPS": ["10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091/1"]
                 },
-                "FORMFACTOR": "10.1039/C4SM00066H/1"
+                "FORMFACTOR": ["10.1039/C4SM00066H/1"]
             },
             "FF_SOURCE": "CHARMM-GUI",
             "COMPOSITION": {
@@ -9506,9 +9506,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DPPC": {}
+                    "DPPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/4"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/4"]
             },
             "ID": 472,
             "path": "6eb/dbf/6ebdbfc108ce1205a1f50039ea1b7129cad1534a/45c63a6b3ce74d4d0e5c03656cae0fc68faeceb4/"
@@ -9563,10 +9563,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/8"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/8"]
             },
             "ID": 698,
             "path": "af2/1da/af21da6438fb2e1305dec6ef0a69e6148f11edfd/fdcab103936e99ce9736c2edca9650d783f466bc/"
@@ -9624,10 +9624,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/8"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/8"]
             },
             "ID": 620,
             "path": "e95/22c/e9522c15b02896745581a44703fd2211e0680422/acee48b47743b28e0dfd31437aca72f364c2edd7/"
@@ -9685,10 +9685,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/8"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/8"]
             },
             "ID": 275,
             "path": "3c4/732/3c473214491fd52562860b55efb5ef4f1f97bf16/e4dcad684cadd45b6c398eabbe39329dbb6b12bb/"
@@ -9746,10 +9746,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/9"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/9"]
             },
             "ID": 543,
             "path": "8b0/60c/8b060ca3d6f6518f9ddddfabf34ce5bed4ddd81c/f8c45a12987ef6c1ad4dfe1d4b5ea865b8afe0b0/"
@@ -9807,10 +9807,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/9"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/9"]
             },
             "ID": 166,
             "path": "1f7/166/1f7166e33d5c171678fb15f378425a760bbb612d/da1488d8469d58f547603ed75e699e798458aa83/"
@@ -9868,10 +9868,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/9"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/9"]
             },
             "ID": 91,
             "path": "fd8/18f/fd818f1fa1b32dcd80ac3a124e76bd2d73705abe/fd9cef87eca7bfbaac8581358f2d8f13d8d43cd1/"
@@ -9926,10 +9926,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/9"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/9"]
             },
             "ID": 717,
             "path": "e9e/979/e9e979c6542306cf52a071c3a7efc2f78818e6d8/694b39c9ad5c9eb43485ea0a2148f0aae3eea22c/"
@@ -9982,9 +9982,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "DPPC": {}
+                    "DPPC": []
                 },
-                "FORMFACTOR": "10.1016/j.bbamem.2011.07.022/10"
+                "FORMFACTOR": ["10.1016/j.bbamem.2011.07.022/10"]
             },
             "ID": 27,
             "path": "49b/2a9/49b2a928e2ac964a8b1ccf3051ce1138aaf0f09a/afa6ce0d88b97ba152eb31af522ca061adb31876/"
@@ -10030,9 +10030,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPS": { "10.1021/acs.jctc.9b00824": "10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091": "10.1021/acs.jpcb.9b06091/1" }
+                    "POPS": ["10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091/1"]
                 },
-                "FORMFACTOR": "10.1039/C4SM00066H/1"
+                "FORMFACTOR": ["10.1039/C4SM00066H/1"]
             },
             "ID": 480,
             "path": "7e2/66a/7e266a6989c04c46a79a2f444b521c595053c4e1/7de7367161b8ffa3b3388f6b5f61825aacf8a360/"
@@ -10087,10 +10087,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/9"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/9"]
             },
             "ID": 699,
             "path": "b23/d28/b23d28fa4a500716f0af641a7b274ed74c0ed4af/e04e3b99e8e7fbce0a119c88df424c02eb6f2874/"
@@ -10145,10 +10145,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/9"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/9"]
             },
             "ID": 671,
             "path": "ddb/6f6/ddb6f616802ccd84f18b979b61503f8361c1fb4b/8af44af412b5e63f797a8a9039eed3cea5a5936d/"
@@ -10203,10 +10203,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/9"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/9"]
             },
             "ID": 714,
             "path": "558/c0a/558c0a75d0bc353ecff2826dccac563abf5ac695/bd9ca461ab75b6821c83b5337dc6c8d3a6de37b4/"
@@ -10261,10 +10261,10 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": {},
-                    "CHOL": {}
+                    "POPC": [],
+                    "CHOL": []
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/9"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/9"]
             },
             "ID": 707,
             "path": "8e6/368/8e63681c396736ae1c0cba23100edfe9ae506bbb/92f8bf2f1cdcc3b9c791a2b78cbef9a6b1916c15/"
@@ -10305,9 +10305,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 828,
             "path": "a7f/9f3/a7f9f36feaa77791483dadb0157f86a6a519f2c3/a30f01e8771c44dc59b78753d1dd27ca67920e38/"
@@ -10353,9 +10353,9 @@
             "TYPEOFSYSTEM": "lipid bilayer",
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPS": { "10.1021/acs.jctc.9b00824": "10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091": "10.1021/acs.jpcb.9b06091/1" }
+                    "POPS": ["10.1021/acs.jctc.9b00824/1", "10.1021/acs.jpcb.9b06091/1"]
                 },
-                "FORMFACTOR": "10.1039/C4SM00066H/1"
+                "FORMFACTOR": ["10.1039/C4SM00066H/1"]
             },
             "ID": 502,
             "path": "2b1/62c/2b162c80ec2f03952098021beb74ba2cdd3d16c2/d499d1361ef77c3d931995eefdc3d2dbec565ef0/"
@@ -10400,9 +10400,9 @@
             "ID": 834,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "path": "3f8/237/3f82371d941cd4b7ef1f55268be8b31049048659/4c3d0df86a66ff5aeeca33bab80039851a5ad1bf/"
         }
@@ -10420,10 +10420,10 @@
             "NUMBER_OF_ATOMS": 114250,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "CHOL": { "10.1039/c2cp42738a": "10.1039/c2cp42738a/5" },
-                    "POPC": { "10.1039/c2cp42738a": "10.1039/c2cp42738a/5" }
+                    "CHOL": ["10.1039/c2cp42738a/5"],
+                    "POPC": ["10.1039/c2cp42738a/5"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/10"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/10"]
             },
             "COMPOSITION": {
                 "CHOL": {
@@ -10499,9 +10499,9 @@
             "ID": 730,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPE": { "10.1021/jacs.1c05549": "10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE": "unpublished/ferreiraPOPE/1" }
+                    "POPE": ["10.1021/jacs.1c05549/2", "unpublished/ferreiraPOPE/1"]
                 },
-                "FORMFACTOR": "10.1021/jp511159q/1"
+                "FORMFACTOR": ["10.1021/jp511159q/1"]
             },
             "path": "b58/f0c/b58f0ce7128b1e97e4d1a90fbffe808ee2cbcc75/b58f0ce7128b1e97e4d1a90fbffe808ee2cbcc75/"
         }
@@ -10545,9 +10545,9 @@
             "ID": 838,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "path": "e2b/09a/e2b09acaead3655073b4ed768e4a08d879b0042d/bb294604ef4b17df4b59195e2ac600630d33c644/"
         }
@@ -10591,9 +10591,9 @@
             "ID": 835,
             "EXPERIMENT": {
                 "ORDERPARAMETER": {
-                    "POPC": { "10.1021/acs.jpcb.4c04719": "10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a": "10.1039/c2cp42738a/1" }
+                    "POPC": ["10.1021/acs.jpcb.4c04719/4", "10.1039/c2cp42738a/1"]
                 },
-                "FORMFACTOR": "unpublished/NMRlipidsIII/1"
+                "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "path": "58d/654/58d654af9894439448a86b0c7a9f13020d41d54d/afaaae028c976185c3ce34198181af80a226d37f/"
         }

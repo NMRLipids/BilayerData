@@ -52,7 +52,7 @@ DATEOFRUNNING: 11/11/2021
 TYPEOFSYSTEM: miscellaneous
 EXPERIMENT:
   ORDERPARAMETER:
-    POPC: {}
-    CER: {}
-  FORMFACTOR: {}
+    POPC: []
+    CER: []
+  FORMFACTOR: []
 ID: 259

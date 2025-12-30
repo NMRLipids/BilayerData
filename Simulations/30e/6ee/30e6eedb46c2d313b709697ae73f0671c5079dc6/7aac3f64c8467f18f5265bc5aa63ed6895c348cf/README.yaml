@@ -39,6 +39,6 @@ TYPEOFSYSTEM: lipid bilayer
 ID: 756
 EXPERIMENT:
   ORDERPARAMETER:
-    DPPC: {}
-    C30: {}
-  FORMFACTOR: {}
+    DPPC: []
+    C30: []
+  FORMFACTOR: []

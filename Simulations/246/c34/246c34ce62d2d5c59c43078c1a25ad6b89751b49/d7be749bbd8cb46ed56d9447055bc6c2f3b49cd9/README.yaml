@@ -44,7 +44,7 @@ WARNINGS:
   - SDG
 EXPERIMENT:
   ORDERPARAMETER:
-    SDPE: {}
-    SDG: {}
-  FORMFACTOR: {}
+    SDPE: []
+    SDG: []
+  FORMFACTOR: []
 ID: 423

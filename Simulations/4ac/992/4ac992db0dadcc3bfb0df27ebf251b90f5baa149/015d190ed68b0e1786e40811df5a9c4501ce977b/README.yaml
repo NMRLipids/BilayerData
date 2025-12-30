@@ -56,8 +56,8 @@ DATEOFRUNNING: 11/11/2025
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
-    DOPG: {}
-    PYPE: {}
-    PVCL: {}
-  FORMFACTOR: {}
+    DOPG: []
+    PYPE: []
+    PVCL: []
+  FORMFACTOR: []
 ID: 844

@@ -39,5 +39,5 @@ TYPEOFSYSTEM: lipid bilayer
 ID: 763
 EXPERIMENT:
   ORDERPARAMETER:
-    SM18: {}
-  FORMFACTOR: {}
+    SM18: []
+  FORMFACTOR: []

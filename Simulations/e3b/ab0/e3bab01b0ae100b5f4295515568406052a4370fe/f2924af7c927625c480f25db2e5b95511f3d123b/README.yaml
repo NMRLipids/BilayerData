@@ -52,7 +52,7 @@ DATEOFRUNNING: 29/11/2021
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
-    DPPC: {}
-    CHOL: {}
-  FORMFACTOR: {}
+    DPPC: []
+    CHOL: []
+  FORMFACTOR: []
 ID: 7

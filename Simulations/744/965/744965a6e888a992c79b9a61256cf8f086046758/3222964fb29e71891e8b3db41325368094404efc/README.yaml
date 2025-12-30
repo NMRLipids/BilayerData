@@ -50,6 +50,6 @@ TYPEOFSYSTEM: lipid bilayer
 ID: 823
 EXPERIMENT:
   ORDERPARAMETER:
-    DMPC: {}
-    BOG: {}
-  FORMFACTOR: {}
+    DMPC: []
+    BOG: []
+  FORMFACTOR: []

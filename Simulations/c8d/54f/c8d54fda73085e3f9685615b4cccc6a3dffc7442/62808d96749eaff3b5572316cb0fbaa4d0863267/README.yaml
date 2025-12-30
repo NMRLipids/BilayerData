@@ -50,7 +50,8 @@ TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPC:
-      10.1039/c2cp42738a: 10.1039/c2cp42738a/3
-    CHOL: {}
-  FORMFACTOR: unpublished/NMRlipidsIII/4
+    - 10.1039/c2cp42738a/3
+    CHOL: []
+  FORMFACTOR:
+  - unpublished/NMRlipidsIII/4
 ID: 589
