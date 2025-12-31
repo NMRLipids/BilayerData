@@ -1,5 +1,5 @@
 DOI: 10.5281/zenodo.10202795
-TRJ: nacl200mM_0-1000ns_step10ps.xtc
+TRJ: nacl200mM_0-1000_step10ps.xtc
 TPR: analyze.tpr
 SOFTWARE: gromacs
 PREEQTIME: 0
