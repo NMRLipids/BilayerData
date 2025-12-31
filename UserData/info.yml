@@ -1,0 +1,30 @@
+DOI: 10.5281/zenodo.6337813
+TRJ: Cacl200mM-900-1000.xtc
+TPR: production.tpr
+SOFTWARE: gromacs
+PREEQTIME: 900
+TIMELEFTOUT: 0
+TEMPERATURE: 300
+SYSTEM: POPC, 44 w/l, 300 K, 0.2 M CaCl2
+PUBLICATION: 10.1021/acs.jcim.2c00395
+AUTHORS_CONTACT: Kurki, Milla
+SOFTWARE_VERSION: '2019.5'
+FF: CHARMM36
+FF_SOURCE: CHARMM-GUI
+FF_DATE: end of 2022
+TOP: topol.top
+GRO: production.gro
+EDR: production.edr
+COMPOSITION:
+  POPC:
+    NAME: POPC
+    MAPPING: mappingPOPCcharmm.yaml
+  SOL:
+    NAME: TIP3
+    MAPPING: mappingTIP3PCHARMMgui.yaml
+  CAL:
+    NAME: CAL
+    MAPPING: mappingCAL.yaml
+  CLA:
+    NAME: CLA
+    MAPPING: mappingCLA.yaml
