@@ -18,7 +18,7 @@ jobs:
       FMDL_DATA_PATH: ${{ github.workspace }}/BilayerData
     steps:
       - name: Checkout BilayerData
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.ref }}
@@ -40,7 +40,7 @@ jobs:
 
       - name: Checkout Databank
         if: steps.check_info.outputs.found == 'true'
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           repository: NMRLipids/Databank
           ref: main
