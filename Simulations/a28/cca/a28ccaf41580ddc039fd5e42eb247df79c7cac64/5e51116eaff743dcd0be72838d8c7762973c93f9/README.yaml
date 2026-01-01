@@ -1,0 +1,45 @@
+DOI: 10.5281/zenodo.6619202
+TRJ:
+- - cacl1000mM_900-1000.xtc
+TPR:
+- - analyze.tpr
+SOFTWARE: gromacs
+PREEQTIME: 900
+TIMELEFTOUT: 0
+TEMPERATURE: 300.0
+SYSTEM: POPC, 44 w/l, 300 K, 1 M CaCl2
+PUBLICATION: 10.1021/acs.jcim.2c00395
+AUTHORS_CONTACT: Kurki, Milla
+SOFTWARE_VERSION: Desmond of Schrödinger 2019-4
+FF: OPLS3e
+FF_SOURCE: Schrödinger Maestro, release 2019-4
+FF_DATE: 21.11.2019
+TOP:
+- - desmond_md_cacl1000-1-in_converted.top
+GRO:
+- - desmond_md_cacl1000vmd.gro
+COMPOSITION:
+  POPC:
+    NAME: POPC
+    MAPPING: mappingPOPC-OPLS3e.yaml
+    COUNT:
+    - 100
+    - 100
+  SOL:
+    NAME: SPC
+    MAPPING: mappingwaterlipid14.yaml
+    COUNT: 8880
+  CAL:
+    NAME: CA
+    MAPPING: mappingCA.yaml
+    COUNT: 160
+  CLA:
+    NAME: CL
+    MAPPING: mappingCL.yaml
+    COUNT: 320
+TRAJECTORY_SIZE: 2016489248
+TRJLENGTH: 998.974609375
+NUMBER_OF_ATOMS: 53920
+DATEOFRUNNING: 01/01/2026
+TYPEOFSYSTEM: lipid bilayer
+ID: -1
