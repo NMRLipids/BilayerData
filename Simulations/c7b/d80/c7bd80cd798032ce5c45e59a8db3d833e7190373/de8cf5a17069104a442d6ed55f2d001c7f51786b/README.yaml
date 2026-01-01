@@ -1,10 +1,12 @@
 DOI: 10.5281/zenodo.6341899
-TRJ: Cacl50mM-900-1000.xtc
-TPR: production.tpr
+TRJ:
+- - Cacl50mM-900-1000.xtc
+TPR:
+- - production.tpr
 SOFTWARE: gromacs
 PREEQTIME: 900
 TIMELEFTOUT: 0
-TEMPERATURE: 300
+TEMPERATURE: 300.0
 SYSTEM: POPC, 44 w/l, 300 K, 0.05 M CaCl2
 PUBLICATION: 10.1021/acs.jcim.2c00395
 AUTHORS_CONTACT: Kurki, Milla
@@ -12,19 +14,34 @@ SOFTWARE_VERSION: '2019.5'
 FF: CHARMM36
 FF_SOURCE: CHARMM-GUI
 FF_DATE: end of 2022
-TOP: topol.top
-GRO: production.gro
-EDR: production.edr
+TOP:
+- - topol.top
+GRO:
+- - production.gro
+EDR:
+- - production.edr
 COMPOSITION:
   POPC:
     NAME: POPC
     MAPPING: mappingPOPCcharmm.yaml
+    COUNT:
+    - 100
+    - 100
   SOL:
     NAME: TIP3
     MAPPING: mappingTIP3PCHARMMgui.yaml
+    COUNT: 8880
   CAL:
     NAME: CAL
     MAPPING: mappingCAL.yaml
+    COUNT: 8
   CLA:
     NAME: CLA
     MAPPING: mappingCLA.yaml
+    COUNT: 16
+TRAJECTORY_SIZE: 1967176084
+TRJLENGTH: 100010.0
+NUMBER_OF_ATOMS: 53464
+DATEOFRUNNING: 01/01/2026
+TYPEOFSYSTEM: lipid bilayer
+ID: -1
