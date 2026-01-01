@@ -8,9 +8,9 @@ TEMPERATURE: 300
 SYSTEM: POPC, 44 w/l, 300 K, 0.2 M NaCl
 PUBLICATION: 10.1021/acs.jcim.2c00395
 AUTHORS_CONTACT: Kurki, Milla
-SOFTWARE_VERSION: "Desmond of Schr\xF6dinger 2019-4"
+SOFTWARE_VERSION: "Desmond of Schrodinger 2019-4"
 FF: OPLS3e
-FF_SOURCE: "Schr\xF6dinger Maestro, release 2019-4"
+FF_SOURCE: "Schrodinger Maestro, release 2019-4"
 FF_DATE: 21.11.2019
 TOP: desmond_md_nacl200-1-in_converted.top
 GRO: final.gro
