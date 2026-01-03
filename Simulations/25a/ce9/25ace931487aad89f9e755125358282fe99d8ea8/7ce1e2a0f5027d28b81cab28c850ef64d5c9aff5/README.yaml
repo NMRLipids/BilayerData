@@ -24,7 +24,7 @@ COMPOSITION:
     COUNT:
     - 175
     - 175
-    MAPPING: mappingPOPClipid17.yaml
+    MAPPING: mappingPOPC_AmberLipid.yaml
   SOL:
     NAME: SOL
     COUNT: 26265
