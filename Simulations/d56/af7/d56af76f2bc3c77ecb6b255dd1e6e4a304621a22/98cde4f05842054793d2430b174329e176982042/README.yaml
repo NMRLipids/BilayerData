@@ -9,7 +9,7 @@ TIMELEFTOUT: 0
 COMPOSITION:
   POPC:
     NAME: PC
-    MAPPING: mappingPOPClipid14.yaml
+    MAPPING: mappingPOPC_AmberLipid.yaml
     COUNT:
     - 49
     - 35

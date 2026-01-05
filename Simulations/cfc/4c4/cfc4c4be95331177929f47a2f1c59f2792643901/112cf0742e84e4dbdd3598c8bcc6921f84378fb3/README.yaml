@@ -15,7 +15,7 @@ COMPOSITION:
   POPC:
     NAME: PC
     MOLTYPE: system1
-    MAPPING: mappingPOPClipid17ecc.yaml
+    MAPPING: mappingPOPC_AmberLipid.yaml
     COUNT:
     - 175
     - 175
