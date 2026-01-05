@@ -9,7 +9,7 @@ TIMELEFTOUT: 0
 COMPOSITION:
   POPE:
     NAME: PE
-    MAPPING: mappingPOPElipid17.yaml
+    MAPPING: mappingPOPE_AmberLipid.yaml
     COUNT:
     - 250
     - 250
