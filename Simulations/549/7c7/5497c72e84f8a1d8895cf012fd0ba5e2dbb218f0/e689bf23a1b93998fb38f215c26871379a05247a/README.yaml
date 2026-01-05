@@ -10,7 +10,7 @@ COMPOSITION:
   POPE:
     NAME: PE
     MOLTYPE: system1
-    MAPPING: mappingPOPElipid17.yaml
+    MAPPING: mappingPOPE_AmberLipid.yaml
     COUNT:
     - 187
     - 187
