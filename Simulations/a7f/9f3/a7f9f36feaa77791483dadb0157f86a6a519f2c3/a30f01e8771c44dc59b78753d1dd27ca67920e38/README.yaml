@@ -1,4 +1,6 @@
 DOI: 10.5281/zenodo.14713771
+AUTHORS_CONTACT: Hoelfich, Jullianne
+FF: Sage 2.2.1
 TRJ:
 - - md_every_100_ps.xtc
 TPR:
@@ -11,8 +13,8 @@ COMPOSITION:
     NAME: POPC
     MAPPING: mappingPOPCsage_smiles.yaml
     COUNT:
-    - 128
-    - 0
+    - 64
+    - 64
   SOL:
     NAME: TIP3P
     MAPPING: mappingTIP3Psage_smiles.yaml

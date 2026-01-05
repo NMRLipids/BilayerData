@@ -40,10 +40,10 @@ FF: lipid17
 SOFTWARE: gromacs
 PREEQTIME: 50
 DOI: 10.5281/zenodo.3693681
+AUTHORS_CONTACT: Virtanen, Salla; Ollila, O.H.Samuli
 TRAJECTORY_SIZE: 4438480544
 TPR:
 - - topol.tpr
 TRJ:
 - - trajSKIP.xtc
-DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 317

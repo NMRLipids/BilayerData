@@ -1,4 +1,5 @@
 DOI: 10.5281/zenodo.15002801
+AUTHORS_CONTACT: Hoelfich, Jullianne
 TRJ:
 - - md_every_100_ps.xtc
 TPR:
@@ -23,7 +24,6 @@ COMPOSITION:
 SYSTEM: POPCandTIP3P
 TOP:
 - - bilayer5.top
-DIR_WRK: /media/julianne/DATA/Lipids/NMRLipids/temp/
 TRAJECTORY_SIZE: 414960964
 TRJLENGTH: 338800.0
 TEMPERATURE: 300.0

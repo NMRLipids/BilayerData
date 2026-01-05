@@ -39,10 +39,10 @@ FF: CHARMM36
 SOFTWARE: gromacs
 PREEQTIME: 100
 DOI: 10.5281/zenodo.3997116
+AUTHORS_CONTACT: Kiirikki, M. Anne; Ollila, O. H. Samuli
 TRAJECTORY_SIZE: 7413293748
 TPR:
 - - run_400ns.tpr
 TRJ:
 - - 100-400ns.xtc
-DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 592

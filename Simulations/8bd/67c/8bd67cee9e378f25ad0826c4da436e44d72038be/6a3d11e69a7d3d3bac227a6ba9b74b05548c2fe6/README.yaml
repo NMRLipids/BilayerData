@@ -34,11 +34,11 @@ FF: MacRog
 SOFTWARE: gromacs
 PREEQTIME: 0
 DOI: 10.5281/zenodo.3725637
+AUTHORS_CONTACT: Milan Rodriguez, Paula; Fuchs, Patrick F.J.
 TRAJECTORY_SIZE: 583257372
 TPR:
 - - md.tpr
 TRJ:
 - - md_OK_100.xtc
 TEMPERATURE: 300.0
-DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 149

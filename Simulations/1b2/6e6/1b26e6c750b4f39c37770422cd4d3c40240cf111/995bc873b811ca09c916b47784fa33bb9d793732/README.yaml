@@ -33,10 +33,10 @@ FF: CHARMM36
 SOFTWARE: gromacs
 PREEQTIME: 400
 DOI: 10.5281/zenodo.1129415
+AUTHORS_CONTACT: Piggot, Thomas
 TRAJECTORY_SIZE: 221970700
 TPR:
 - - for-md-CHARMM36_POPS_298K_v2.tpr
 TRJ:
 - - md-CHARMM36_10A-switch_POPS_v2_400-500ns_skip10.xtc
-DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 5
