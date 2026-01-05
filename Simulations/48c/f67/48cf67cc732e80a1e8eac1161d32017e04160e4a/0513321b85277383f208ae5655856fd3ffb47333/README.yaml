@@ -1,0 +1,50 @@
+DOI: 10.5281/zenodo.10254558
+TRJ:
+- - production.xtc
+TPR:
+- - production.tpr
+SOFTWARE: gromacs
+PREEQTIME: 2.8
+TIMELEFTOUT: 100
+TEMPERATURE: 310.0
+SYSTEM: POPI-POPC (60:40), full hydration, 310 K, NH4+ counter ions
+AUTHORS_CONTACT: Kurki, Milla
+SOFTWARE_VERSION: '2022.4'
+FF: CHARMM36
+FF_SOURCE: CHARMM-GUI
+FF_DATE: 02.11.2023
+CPT:
+- - production.cpt
+TOP:
+- - topol.top
+GRO:
+- - production.gro
+EDR:
+- - production.edr
+COMPOSITION:
+  POPI:
+    NAME: POPI
+    MAPPING: mappingPOPIcharmm.yaml
+    COUNT:
+    - 60
+    - 60
+  POPC:
+    NAME: POPC
+    MAPPING: mappingPOPCcharmm.yaml
+    COUNT:
+    - 40
+    - 40
+  SOL:
+    NAME: TIP3
+    MAPPING: mappingTIP3PCHARMMgui.yaml
+    COUNT: 10000
+  NH4:
+    NAME: NH4
+    MAPPING: mappingCHARMM36_NH4.yaml
+    COUNT: 120
+TRAJECTORY_SIZE: 10757952720
+TRJLENGTH: 500010.0
+NUMBER_OF_ATOMS: 57760
+DATEOFRUNNING: 01/01/2026
+TYPEOFSYSTEM: lipid bilayer
+ID: -1
