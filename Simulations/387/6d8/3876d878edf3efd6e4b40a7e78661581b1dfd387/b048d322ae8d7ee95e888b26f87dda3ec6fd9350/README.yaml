@@ -10,7 +10,7 @@ UNITEDATOM_DICT: null
 COMPOSITION:
   POPE:
     NAME: PE
-    MAPPING: mappingPOPElipid17.yaml
+    MAPPING: mappingPOPE_AmberLipid.yaml
     COUNT:
     - 37
     - 37
