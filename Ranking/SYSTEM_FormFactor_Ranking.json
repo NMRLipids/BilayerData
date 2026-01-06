@@ -173,7 +173,7 @@
             "COMPOSITION": {
                 "POPC": {
                     "NAME": "PC",
-                    "MAPPING": "mappingPOPClipid17.yaml",
+                    "MAPPING": "mappingPOPC_AmberLipid.yaml",
                     "COUNT": [32, 32]
                 },
                 "SOL": { "NAME": "TP3", "MAPPING": "mappingTIP3Plipid17.yaml", "COUNT": 4000 },
@@ -442,7 +442,7 @@
             "COMPOSITION": {
                 "POPC": {
                     "NAME": "PC",
-                    "MAPPING": "mappingPOPClipid17.yaml",
+                    "MAPPING": "mappingPOPC_AmberLipid.yaml",
                     "COUNT": [32, 32]
                 },
                 "SOL": { "NAME": "TP3", "MAPPING": "mappingTIP3Plipid17.yaml", "COUNT": 3200 }
@@ -661,7 +661,7 @@
             "COMPOSITION": {
                 "POPC": {
                     "NAME": "PC",
-                    "MAPPING": "mappingPOPClipid17.yaml",
+                    "MAPPING": "mappingPOPC_AmberLipid.yaml",
                     "COUNT": [128, 128]
                 },
                 "SOL": { "NAME": "TP3", "MAPPING": "mappingTIP3Plipid17.yaml", "COUNT": 16000 },
@@ -719,7 +719,7 @@
             "COMPOSITION": {
                 "POPC": {
                     "NAME": "PC",
-                    "MAPPING": "mappingPOPClipid17.yaml",
+                    "MAPPING": "mappingPOPC_AmberLipid.yaml",
                     "COUNT": [512, 512]
                 },
                 "SOL": { "NAME": "TP3", "MAPPING": "mappingTIP3Plipid17.yaml", "COUNT": 64000 },
@@ -993,7 +993,7 @@
             "COMPOSITION": {
                 "POPC": {
                     "NAME": "PC",
-                    "MAPPING": "mappingPOPClipid17.yaml",
+                    "MAPPING": "mappingPOPC_AmberLipid.yaml",
                     "COUNT": [128, 128]
                 },
                 "SOL": { "NAME": "TP3", "MAPPING": "mappingTIP3Plipid17.yaml", "COUNT": 12800 }
@@ -1046,7 +1046,7 @@
             "COMPOSITION": {
                 "POPC": {
                     "NAME": "PC",
-                    "MAPPING": "mappingPOPClipid17.yaml",
+                    "MAPPING": "mappingPOPC_AmberLipid.yaml",
                     "COUNT": [512, 512]
                 },
                 "SOL": { "NAME": "TP3", "MAPPING": "mappingTIP3Plipid17.yaml", "COUNT": 51200 }
@@ -1149,7 +1149,7 @@
             "COMPOSITION": {
                 "POPC": {
                     "NAME": "PC",
-                    "MAPPING": "mappingPOPClipid17.yaml",
+                    "MAPPING": "mappingPOPC_AmberLipid.yaml",
                     "COUNT": [32, 32]
                 },
                 "SOL": { "NAME": "TP3", "MAPPING": "mappingTIP3Plipid17.yaml", "COUNT": 3600 },
@@ -2072,6 +2072,7 @@
         "TotalQuality": { "headgroup": 0.620293, "tails": 0.728064, "total": 0.69214, "FFQuality": 0.455 },
         "system": {
             "DOI": "10.5281/zenodo.166034",
+            "AUTHORS_CONTACT": "Favela-Rosales, Fernando",
             "SYSTEM": "POPC_T298K",
             "SOFTWARE": "gromacs",
             "FF": "Slipids",
@@ -2126,7 +2127,7 @@
             "COMPOSITION": {
                 "POPC": {
                     "NAME": "PC",
-                    "MAPPING": "mappingPOPClipid17.yaml",
+                    "MAPPING": "mappingPOPC_AmberLipid.yaml",
                     "COUNT": [512, 512]
                 },
                 "SOL": { "NAME": "TP3", "MAPPING": "mappingTIP3Plipid17.yaml", "COUNT": 57600 },
@@ -2184,7 +2185,7 @@
             "COMPOSITION": {
                 "POPC": {
                     "NAME": "PC",
-                    "MAPPING": "mappingPOPClipid17.yaml",
+                    "MAPPING": "mappingPOPC_AmberLipid.yaml",
                     "COUNT": [128, 128]
                 },
                 "SOL": { "NAME": "TP3", "MAPPING": "mappingTIP3Plipid17.yaml", "COUNT": 14400 },
@@ -5246,6 +5247,7 @@
                 "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
             "ID": 797,
+            "AUTHORS_CONTACT": "Hoeflich, Julianne",
             "path": "4f5/fb4/4f5fb4c911390b50b56d06364c85910c10191c57/ea16a8b51b9d71838d911eb3cebbc69ad05600d8/"
         }
     },
@@ -5344,6 +5346,7 @@
             "TRJLENGTH": 500010,
             "DIR_WRK": "/media/osollila/Data/tmp/DATABANK/",
             "ID": 428,
+            "AUTHORS_CONTACT": "Buslaev Pavel",
             "path": "b4f/866/b4f866c0dabffa6cd891e91841591d46590f34aa/a231c358dd8c0b7bb4cf558ccdbf022373354a9a/"
         }
     },
@@ -6144,6 +6147,7 @@
             "TRJLENGTH": 300100,
             "DIR_WRK": "/media/osollila/Data/tmp/DATABANK/",
             "ID": 558,
+            "AUTHORS_CONTACT": "Papadopoulos, Chris; Fuchs, Patrick F.J.",
             "path": "a63/ca7/a63ca7001cbd5cfc328da122668d1aebc00f2c91/220540156a6ac7813942fd01d998a491b6ff9b8b/"
         }
     },
@@ -6513,6 +6517,7 @@
             ],
             "DIR_WRK": "/media/osollila/Data/tmp/DATABANK/",
             "ID": 430,
+            "AUTHORS_CONTACT": "Javanainen, Matti",
             "path": "2d4/61b/2d461bc9d828af155146162ef42438974e4cbeaf/c8ce4cc36ef6ec7a085cf011176a92d9d746a792/"
         }
     },
@@ -6552,6 +6557,7 @@
             "SOFTWARE": "gromacs",
             "PREEQTIME": 0,
             "DOI": "10.5281/zenodo.14066",
+            "AUTHORS_CONTACT": "Santuz, Hubert",
             "TRAJECTORY_SIZE": 902127456,
             "TPR": [
                 ["POPC_0CHL.tpr"]
@@ -6561,7 +6567,6 @@
             "CAL": "CA",
             "SOD": "NA",
             "TRJLENGTH": 150700,
-            "DIR_WRK": "/media/osollila/Data/tmp/DATABANK/",
             "ID": 612,
             "path": "edf/8a8/edf8a82ed02a87f84c14b740c90dfa718d3f7f8b/1048c4444299bb5adb360e7e17df2b616ab7a4fc/"
         }
@@ -6738,6 +6743,7 @@
         "TotalQuality": { "headgroup": 0.556067, "tails": 0.567598, "total": 0.563754, "FFQuality": 1.355 },
         "system": {
             "DOI": "10.5281/zenodo.15021844",
+            "AUTHORS_CONTACT": "Hoeflich, Julianne",
             "TRJ": [
                 ["md_every_100_ps.xtc"]
             ],
@@ -7297,7 +7303,7 @@
             "COMPOSITION": {
                 "POPC": {
                     "NAME": "PC",
-                    "MAPPING": "mappingPOPClipid17.yaml",
+                    "MAPPING": "mappingPOPC_AmberLipid.yaml",
                     "COUNT": [128, 128]
                 },
                 "SOL": { "NAME": "TP3", "MAPPING": "mappingTIP3Plipid17.yaml", "COUNT": 20800 },
@@ -7355,7 +7361,7 @@
             "COMPOSITION": {
                 "POPC": {
                     "NAME": "PC",
-                    "MAPPING": "mappingPOPClipid17.yaml",
+                    "MAPPING": "mappingPOPC_AmberLipid.yaml",
                     "COUNT": [512, 512]
                 },
                 "SOL": { "NAME": "TP3", "MAPPING": "mappingTIP3Plipid17.yaml", "COUNT": 83200 },
@@ -7402,6 +7408,8 @@
         "TotalQuality": { "headgroup": 0.11395, "tails": 0.709066, "total": 0.510694, "FFQuality": 1.555 },
         "system": {
             "DOI": "10.5281/zenodo.14713793",
+            "AUTHORS_CONTACT": "Hoelfich, Jullianne",
+            "FF": "Sage 2.2.1",
             "TRJ": [
                 ["md_every_100_ps.xtc"]
             ],
@@ -7415,7 +7423,7 @@
                 "POPC": {
                     "NAME": "POPC",
                     "MAPPING": "mappingPOPCsage_smiles.yaml",
-                    "COUNT": [128, 0]
+                    "COUNT": [64, 64]
                 },
                 "SOL": { "NAME": "TIP3P", "MAPPING": "mappingTIP3Psage_smiles.yaml", "COUNT": 5120 }
             },
@@ -7423,7 +7431,6 @@
             "TOP": [
                 ["bilayer.top"]
             ],
-            "DIR_WRK": "/media/julianne/DATA/Lipids/NMRLipids/temp/",
             "TRAJECTORY_SIZE": 612503984,
             "TRJLENGTH": 500100,
             "TEMPERATURE": 300,
@@ -7563,7 +7570,7 @@
             "COMPOSITION": {
                 "POPE": {
                     "NAME": "PE",
-                    "MAPPING": "mappingPOPElipid17.yaml",
+                    "MAPPING": "mappingPOPE_AmberLipid.yaml",
                     "COUNT": [250, 250]
                 },
                 "SOL": { "NAME": "WAT", "MAPPING": "mappingTIP3Plipid17.yaml", "COUNT": 25000 }
@@ -7769,6 +7776,7 @@
         "TotalQuality": { "headgroup": 0.529893, "tails": 0.177282, "total": 0.294819, "FFQuality": 1.645 },
         "system": {
             "DOI": "10.5281/zenodo.15002801",
+            "AUTHORS_CONTACT": "Hoelfich, Jullianne",
             "TRJ": [
                 ["md_every_100_ps.xtc"]
             ],
@@ -7793,7 +7801,6 @@
             "TOP": [
                 ["bilayer5.top"]
             ],
-            "DIR_WRK": "/media/julianne/DATA/Lipids/NMRLipids/temp/",
             "TRAJECTORY_SIZE": 414960964,
             "TRJLENGTH": 338800,
             "TEMPERATURE": 300,
@@ -7815,6 +7822,7 @@
         "TotalQuality": { "headgroup": 0.249069, "tails": 0.0209952, "total": 0.0970196, "FFQuality": 1.677 },
         "system": {
             "DOI": "10.5281/zenodo.10467181",
+            "AUTHORS_CONTACT": "Nencini, Ricky",
             "TRJ": [
                 ["POPS_144_144_Na_contraions_prosECCo75.xtc"]
             ],
@@ -8154,6 +8162,7 @@
             "SOFTWARE": "gromacs",
             "PREEQTIME": 400,
             "DOI": "10.5281/zenodo.1129415",
+            "AUTHORS_CONTACT": "Piggot, Thomas",
             "TRAJECTORY_SIZE": 221970700,
             "TPR": [
                 ["for-md-CHARMM36_POPS_298K_v2.tpr"]
@@ -8161,7 +8170,6 @@
             "TRJ": [
                 ["md-CHARMM36_10A-switch_POPS_v2_400-500ns_skip10.xtc"]
             ],
-            "DIR_WRK": "/media/osollila/Data/tmp/DATABANK/",
             "ID": 5,
             "path": "1b2/6e6/1b26e6c750b4f39c37770422cd4d3c40240cf111/995bc873b811ca09c916b47784fa33bb9d793732/"
         }
@@ -8182,7 +8190,7 @@
             "COMPOSITION": {
                 "POPC": {
                     "NAME": "PC",
-                    "MAPPING": "mappingPOPClipid17.yaml",
+                    "MAPPING": "mappingPOPC_AmberLipid.yaml",
                     "COUNT": [32, 32]
                 },
                 "SOL": { "NAME": "TP3", "MAPPING": "mappingTIP3Plipid17.yaml", "COUNT": 5200 },
@@ -8611,6 +8619,7 @@
         "TotalQuality": { "headgroup": 0.476603, "tails": 0.176768, "total": 0.276713, "FFQuality": 1.845 },
         "system": {
             "DOI": "10.5281/zenodo.15002712",
+            "AUTHORS_CONTACT": "Hoelfich, Jullianne",
             "TRJ": [
                 ["md_every_100_ps.xtc"]
             ],
@@ -8635,7 +8644,6 @@
             "TOP": [
                 ["bilayer2.top"]
             ],
-            "DIR_WRK": "/media/julianne/DATA/Lipids/NMRLipids/temp/",
             "TRAJECTORY_SIZE": 350763692,
             "TRJLENGTH": 286400,
             "TEMPERATURE": 300,
@@ -9261,6 +9269,7 @@
         "TotalQuality": { "headgroup": 0.117569, "tails": 0.44331, "total": 0.334729, "FFQuality": 2.155 },
         "system": {
             "DOI": "10.5281/zenodo.15065748",
+            "AUTHORS_CONTACT": "Hoelfich, Jullianne",
             "TRJ": [
                 ["md_every_100_ps.xtc"]
             ],
@@ -9453,6 +9462,7 @@
             ],
             "DIR_WRK": "/media/osollila/Data/tmp/DATABANK/",
             "ID": 106,
+            "AUTHORS_CONTACT": "Thomas Piggot",
             "path": "f40/bb6/f40bb6ab5d44402be07059e8df74b5a8200f031e/6774168dfec0a5a7377c8a46341eba603f320cf7/"
         }
     },
@@ -9893,7 +9903,7 @@
             "COMPOSITION": {
                 "POPC": {
                     "NAME": "PC",
-                    "MAPPING": "mappingPOPClipid17.yaml",
+                    "MAPPING": "mappingPOPC_AmberLipid.yaml",
                     "COUNT": [512, 512]
                 },
                 "SOL": { "NAME": "TP3", "MAPPING": "mappingTIP3Plipid17.yaml", "COUNT": 96000 },
@@ -10170,7 +10180,7 @@
             "COMPOSITION": {
                 "POPC": {
                     "NAME": "PC",
-                    "MAPPING": "mappingPOPClipid17.yaml",
+                    "MAPPING": "mappingPOPC_AmberLipid.yaml",
                     "COUNT": [128, 128]
                 },
                 "SOL": { "NAME": "TP3", "MAPPING": "mappingTIP3Plipid17.yaml", "COUNT": 24000 },
@@ -10228,7 +10238,7 @@
             "COMPOSITION": {
                 "POPC": {
                     "NAME": "PC",
-                    "MAPPING": "mappingPOPClipid17.yaml",
+                    "MAPPING": "mappingPOPC_AmberLipid.yaml",
                     "COUNT": [32, 32]
                 },
                 "SOL": { "NAME": "TP3", "MAPPING": "mappingTIP3Plipid17.yaml", "COUNT": 6000 },
@@ -10275,6 +10285,8 @@
         "TotalQuality": { "headgroup": 0.549462, "tails": 0.310135, "total": 0.389911, "FFQuality": 2.355 },
         "system": {
             "DOI": "10.5281/zenodo.14713771",
+            "AUTHORS_CONTACT": "Hoelfich, Jullianne",
+            "FF": "Sage 2.2.1",
             "TRJ": [
                 ["md_every_100_ps.xtc"]
             ],
@@ -10288,7 +10300,7 @@
                 "POPC": {
                     "NAME": "POPC",
                     "MAPPING": "mappingPOPCsage_smiles.yaml",
-                    "COUNT": [128, 0]
+                    "COUNT": [64, 64]
                 },
                 "SOL": { "NAME": "TIP3P", "MAPPING": "mappingTIP3Psage_smiles.yaml", "COUNT": 5120 }
             },
@@ -10366,6 +10378,7 @@
         "TotalQuality": { "headgroup": 0.536115, "tails": 0.199196, "total": 0.311503, "FFQuality": 3.045 },
         "system": {
             "DOI": "10.5281/zenodo.15065566",
+            "AUTHORS_CONTACT": "Hoelfich, Jullianne",
             "TRJ": [
                 ["md_every_100_ps.xtc"]
             ],
@@ -10549,6 +10562,7 @@
                 },
                 "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
+            "AUTHORS_CONTACT": "Hoelfich, Jullianne",
             "path": "e2b/09a/e2b09acaead3655073b4ed768e4a08d879b0042d/bb294604ef4b17df4b59195e2ac600630d33c644/"
         }
     },
@@ -10595,6 +10609,7 @@
                 },
                 "FORMFACTOR": ["unpublished/NMRlipidsIII/1"]
             },
+            "AUTHORS_CONTACT": "Hoelfich, Jullianne",
             "path": "58d/654/58d654af9894439448a86b0c7a9f13020d41d54d/afaaae028c976185c3ce34198181af80a226d37f/"
         }
     }
