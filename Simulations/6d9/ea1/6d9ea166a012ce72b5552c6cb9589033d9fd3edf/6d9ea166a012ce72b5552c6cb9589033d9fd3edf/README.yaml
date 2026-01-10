@@ -4,6 +4,8 @@ TRJ:
 - - traj_center.dcd
 PDB:
 - - struct.pdb
+PDB:
+- - struct.psf
 PREEQTIME: 0
 TIMELEFTOUT: 0
 TEMPERATURE: 303
