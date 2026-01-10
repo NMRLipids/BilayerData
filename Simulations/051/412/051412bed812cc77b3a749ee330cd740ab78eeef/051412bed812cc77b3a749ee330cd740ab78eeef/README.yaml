@@ -24,7 +24,6 @@ COMPOSITION:
     NAME: TIP3
     MAPPING: mappingTIP3PCHARMMgui.yaml
     COUNT: 7200
-DIR_WRK: /media/osollila/Data1/tmp/DATABANK/
 PUBLICATION: null
 AUTHORS_CONTACT: Melcr, Josef
 SYSTEM: 80POPC_80CHOL_7200SOL_303K
@@ -34,7 +33,7 @@ FF_SOURCE: starting structure from CHARMM-GUI Membrane Builder v1.7 (http://www.
 FF_DATE: null
 CHK:
 - - step8_1.chk
-TOP:
+PSF:
 - - step5_charmm2omm.psf
 CRD:
 - - step5_charmm2omm.crd

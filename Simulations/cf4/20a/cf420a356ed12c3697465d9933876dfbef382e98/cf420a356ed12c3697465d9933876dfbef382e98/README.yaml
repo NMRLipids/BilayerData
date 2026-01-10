@@ -14,12 +14,11 @@ COMPOSITION:
     COUNT:
     - 34
     - 38
-DIR_WRK: /home/lara/Databank
 PUBLICATION: null
 AUTHORS_CONTACT: Kav, Batuhan
-SYSTEM: 72POPC_303K
+SYSTEM: 72POPC_303K (equilibriated using Charmm36)
 SOFTWARE_VERSION: 7.4.1
-FF: Charmm-Drude polarizable; system has been equilibriated using Charmm36
+FF: Charmm-Drude polarizable
 FF_SOURCE: null
 FF_DATE: null
 CHK: null
@@ -34,6 +33,6 @@ WARNINGS:
   NOWATER: true
 EXPERIMENT:
   ORDERPARAMETER:
-    POPC: {}
-  FORMFACTOR: {}
+    POPC: []
+  FORMFACTOR: []
 ID: 562
