@@ -5,8 +5,10 @@ MEMBRANE_COMPOSITION:
 SOLUTION_COMPOSITION:
   SOD: 0.035
 ADDITIONAL_MOLECULES:
+  HEPES: 4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid, 5mM
 TOTAL_HYDRATION: 99	
-PH: UNKNOWN	
+PH: 7.4
+PH_METHOD: buffer
 REAGENT_SOURCES:
   POPS: Avanti Polar Lipids DOPS sodium salt	
 SAMPLE_PROTOCOL: >
