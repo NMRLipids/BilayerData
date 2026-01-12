@@ -1,17 +1,54 @@
+# backbone
+M_G2_M:
+  ATOMNAME: C2S
+  FRAGMENT: backbone
+  SMILEIDX: 18
+M_G2H1_M:
+  ATOMNAME: H2S
+  FRAGMENT: backbone
+M_G2C1_M:
+  ATOMNAME: C3S
+  FRAGMENT: backbone
+  SMILEIDX: 31
+M_G2C1H1_M:
+  ATOMNAME: H3S
+  FRAGMENT: backbone
+M_G2C1O1_M:
+  ATOMNAME: O3
+  FRAGMENT: backbone
+  SMILEIDX: 47
+M_G2C1O1H1_M:
+  ATOMNAME: HO3
+  FRAGMENT: backbone
+M_G3_M:
+  ATOMNAME: C1S
+  FRAGMENT: backbone
+  SMILEIDX: 19
+M_G3H1_M:
+  ATOMNAME: H1S
+  FRAGMENT: backbone
+M_G3H2_M:
+  ATOMNAME: H1T
+  FRAGMENT: backbone
+M_G3O1_M:
+  ATOMNAME: O11
+  FRAGMENT: backbone
+  SMILEIDX: 20
 M_N1_M:
   ATOMNAME: NF
-  FRAGMENT: glycerol backbone
+  FRAGMENT: backbone
   SMILEIDX: 17
 M_N1H1_M:
   ATOMNAME: HNF
-  FRAGMENT: glycerol backbone
+  FRAGMENT: backbone
+# sn-1
 M_N1C1_M:
   ATOMNAME: C1F
-  FRAGMENT: glycerol backbone
+  FRAGMENT: sn-1
   SMILEIDX: 15
 M_N1C1O1_M:
   ATOMNAME: OF
-  FRAGMENT: glycerol backbone
+  FRAGMENT: sn-1
   SMILEIDX: 16
 M_N1C2_M:
   ATOMNAME: C2F
@@ -166,27 +203,7 @@ M_N1C16H2_M:
 M_N1C16H3_M:
   ATOMNAME: H16H
   FRAGMENT: sn-1
-M_G2_M:
-  ATOMNAME: C2S
-  FRAGMENT: glycerol backbone
-  SMILEIDX: 18
-M_G2H1_M:
-  ATOMNAME: H2S
-  FRAGMENT: glycerol backbone
-M_G2C1_M:
-  ATOMNAME: C3S
-  FRAGMENT: glycerol backbone
-  SMILEIDX: 31
-M_G2C1H1_M:
-  ATOMNAME: H3S
-  FRAGMENT: glycerol backbone
-M_G2C1O1_M:
-  ATOMNAME: O3
-  FRAGMENT: glycerol backbone
-  SMILEIDX: 47
-M_G2C1O1H1_M:
-  ATOMNAME: HO3
-  FRAGMENT: glycerol backbone
+# sn-2
 M_G2C2_M:
   ATOMNAME: C4S
   FRAGMENT: sn-2
@@ -334,20 +351,7 @@ M_G2C16H2_M:
 M_G2C16H3_M:
   ATOMNAME: H18U
   FRAGMENT: sn-2
-M_G3_M:
-  ATOMNAME: C1S
-  FRAGMENT: glycerol backbone
-  SMILEIDX: 19
-M_G3H1_M:
-  ATOMNAME: H1S
-  FRAGMENT: glycerol backbone
-M_G3H2_M:
-  ATOMNAME: H1T
-  FRAGMENT: glycerol backbone
-M_G3O1_M:
-  ATOMNAME: O11
-  FRAGMENT: glycerol backbone
-  SMILEIDX: 20
+# head
 M_G3P2_M:
   ATOMNAME: P
   FRAGMENT: headgroup
