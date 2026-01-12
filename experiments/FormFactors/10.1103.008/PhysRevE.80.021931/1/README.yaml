@@ -1,5 +1,23 @@
-DOI: 10.1103/PhysRevE.80.021931
+ARTICLE_DOI: 10.1103/PhysRevE.80.021931
 TEMPERATURE: 303
+MEMBRANE_COMPOSITION:
+  SOPC: 1
+TOTAL_HYDRATION: 98
+PH: UNKNOWN
+REAGENT_SOURCES:
+  SOPC: Avanti Polar Lipids
+SAMPLE_PROTOCOL: >
+  10 mg of lipid was mixed with 0.5 ml MilliQ water, and freeze-thaw cycled between 253 - 323 K.
+  MLVs were then extruded through 500-Å polycarbonate filters.
+XRAY:
+  SOURCE: Rigaku RUH3R microfocus
+  LAMBDA: 1.5418 Å (Cu Kα)
+  DETECTOR: Rikagu Mercury CCD
+  DISTANCE: 0.66
+  DATATYPE: batch
+  SAMPLE_TYPE: SUV
+
+## Outdated fields - to be removed
 MOLAR_FRACTIONS:
   SOPC: 1
 ION_CONCENTRATIONS:

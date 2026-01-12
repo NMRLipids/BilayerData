@@ -1,5 +1,27 @@
-DOI: 10.1103/PhysRevE.80.021931
+ARTICLE_DOI: 10.1103/PhysRevE.80.021931
 TEMPERATURE: 303
+MEMBRANE_COMPOSITION:
+  SOPC: 1
+TOTAL_HYDRATION: 98
+PH: UNKNOWN
+REAGENT_SOURCES:
+  SOPC: Avanti Polar Lipids
+SAMPLE_PROTOCOL: >
+  4 mg of chloroform/methanol (2:1) dissolved SOPC was dried on a silicon wafer, and
+  a stack of membranes was prepared using an established protocol (S. Tristram-Nagle,
+  in Methods in Molecular Biology, edited by A. M. Dopico (Humana Press, Totowa, NJ, 2007),
+  Vol. 400, p. 63.). The stack composed of ~2000 membranes.
+XRAY:
+  SOURCE: G1 station, CHESS 
+  LAMBDA: 1.2742 or 1.1803 Å
+  DETECTOR: Flicam CCD, pixel size 69.8 μm
+  DISTANCE: 0.399 or 0.370
+  DATATYPE: batch
+  EXPOSURE: 20-60 sec
+  FRAMES: 2
+  SAMPLE_TYPE: OS
+
+## Outdated fields - to be removed
 MOLAR_FRACTIONS:
   SOPC: 1
 ION_CONCENTRATIONS:
