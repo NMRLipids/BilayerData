@@ -1,5 +1,21 @@
 DOI: 10.1529/biophysj.108.132662
 TEMPERATURE: 303
+MEMBRANE_COMPOSITION:
+  DOPC: 1
+TOTAL_HYDRATION: 98
+PH: UNKNOWN
+REAGENT_SOURCES:
+  DOPC: Avanti Polar Lipids
+SAMPLE_PROTOCOL: "600-Å-diameter SUVs were prepared at 20 mg/ml lipid concentration according to Kucerka et al. (2007) Langmuir, 23: 1292-1299."
+XRAY: 
+  SOURCE: D-1 station, CHESS
+  LAMBDA: 1.18
+  DETECTOR: Medoptics CCD camera, 1024 x 1024 pixels, 47.19 x 47.19 µm pixel size
+  DATATYPE: batch
+  SAMPLE_TYPE: SUV
+
+# Outdated field names kept for backward compatibility
+# TODO: remove
 MOLAR_FRACTIONS:
   DOPC: 1
 ION_CONCENTRATIONS:
