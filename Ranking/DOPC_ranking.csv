@@ -1,0 +1,5 @@
+ID,FF,composition,T,Hydration,Q_FF,Q_OP,Q_OP_tails,Q_OP_heads
+47,CHARMM36,DOPC (1),303.15,<function _get_hydration_nan at 0x7fe70b1afec0>,0.922,0.6185,0.607,0.6416
+551,CHARMM36,DOPC (1),303.15,<function _get_hydration_nan at 0x7fe70b1afec0>,0.922,0.5898,0.5656,0.6381
+742,AMOEBA,DOPC (1),303.0,<function _get_hydration_nan at 0x7fe70b1afec0>,,0.5814,0.5726,0.5988
+316,CHARMM36,DOPC (1),303.15,<function _get_hydration_nan at 0x7fe70b1afec0>,1.022,0.5558,0.5112,0.6449

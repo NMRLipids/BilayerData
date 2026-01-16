@@ -1,0 +1,9 @@
+ID,FF,composition,T,Hydration,Q_FF,Q_OP,Q_OP_tails,Q_OP_heads
+800,CHARMM36,DMPC (1),314.0,<function _get_hydration_nan at 0x7fe70b1afec0>,,0.66,0.645,0.6901
+809,CHARMM36,DMPC (1),314.0,<function _get_hydration_nan at 0x7fe70b1afec0>,,0.6488,0.6504,0.6456
+810,OPLS4,DMPC (1),314.0,<function _get_hydration_nan at 0x7fe70b1afec0>,,0.6279,0.5503,0.7831
+811,OPLS4,DMPC (1),314.0,<function _get_hydration_nan at 0x7fe70b1afec0>,,0.6233,0.589,0.6917
+813,OPLS4,DMPC (1),314.0,<function _get_hydration_nan at 0x7fe70b1afec0>,,0.617,0.5963,0.6583
+808,CHARMM36,DMPC (1),314.0,<function _get_hydration_nan at 0x7fe70b1afec0>,,0.2985,0.1196,0.6561
+789,Charmm36,DMPC (1),313.15,<function _get_hydration_nan at 0x7fe70b1afec0>,,0.2969,0.1295,0.6318
+788,Charmm36,DMPC (1),313.15,<function _get_hydration_nan at 0x7fe70b1afec0>,,0.2901,0.1364,0.5974

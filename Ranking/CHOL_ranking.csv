@@ -1,0 +1,3 @@
+ID,FF,composition,T,Hydration,Q_FF,Q_OP,Q_OP_tails,Q_OP_heads
+82,slipids,CHOL:POPC (1:1),298.0,<function _get_hydration_nan at 0x7fe70b1afec0>,3.3858,0.2355,,
+299,Berger and Modified Höltje model for cholesterol,CHOL:POPC (1:1),298.0,<function _get_hydration_nan at 0x7fe70b1afec0>,1.2858,0.1705,,
