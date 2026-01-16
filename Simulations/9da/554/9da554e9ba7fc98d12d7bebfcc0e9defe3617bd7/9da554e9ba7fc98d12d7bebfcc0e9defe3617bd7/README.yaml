@@ -3,6 +3,8 @@ SOFTWARE: NAMD
 TRJ:
 - - traj_center_245ns.dcd
 PDB:
+- - struct.pdb
+PSF:
 - - struct.psf
 PREEQTIME: 0
 TIMELEFTOUT: 0
