@@ -38,4 +38,4 @@ jobs:
           - name: Validate
             working-directory: "Databank"
             run: |
-              python developer/ValidateData.py
+              python developer/validate_data.py

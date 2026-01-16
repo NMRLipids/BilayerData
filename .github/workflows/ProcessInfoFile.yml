@@ -43,7 +43,7 @@ jobs:
         working-directory: Databank
         run: |
           pip install .
-          python developer/ProcessInfoFile.py \
+          python developer/process_info_file.py \
             --info_file_path ../BilayerData/UserData/info.yml 
     
       - uses: actions/create-github-app-token@v2

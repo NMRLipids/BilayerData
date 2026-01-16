@@ -45,7 +45,7 @@ jobs:
         working-directory: "Databank"
         run: |
           pip install .
-          python developer/RunAnalysis.py 
+          python developer/run_global_analysis.py 
            
       - name: Create Pull Request with simulation updates
         uses: peter-evans/create-pull-request@v8
@@ -59,8 +59,8 @@ jobs:
           base: main
           body: |
             This PR automatically runs the global analysis scripts:
-                - searchDATABANK  
-                - QualityEvaluation  
-                - makeRanking 
+                - match simulations to experiments  
+                - evaluate qualitites
+                - make ranking tables
             Related to the merge of PR #${{ github.event.pull_request.number }}. 
           path: BilayerData
