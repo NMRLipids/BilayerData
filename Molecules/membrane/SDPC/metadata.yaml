@@ -1,0 +1,17 @@
+NMRlipids:
+  id: SDPC
+  name: 1-stearyl-2-docosahexaenoyl-sn-glycero-3-phosphocholine
+  charge: 0
+sameAs:
+  ChEBI: CHEBI:84830
+  pubchem.compound: 24778878
+  lipidmaps: LMGP01010823
+  metabolights: MTBLC84830
+bioschema_properties:
+  iupacName: "[(2R)-2-[(9Z,11Z,13Z,15Z,17Z,19E)-docosa-9,11,13,15,17,19-hexaenoyl]oxy-3-octadecanoyloxypropyl] 2-(trimethylazaniumyl)ethyl phosphate"
+  smiles: '[C@](COP(=O)([O-])OCC[N+](C)(C)C)([H])(OC(CCCCCCC/C=C\C=C/C=C\C=C/C=C\C=C\CC)=O)COC(CCCCCCCCCCCCCCCCC)=O'
+  inChI: InChI=1S/C48H84NO8P/c1-6-8-10-12-14-16-18-20-22-23-24-25-27-29-31-33-35-37-39-41-48(51)57-46(45-56-58(52,53)55-43-42-49(3,4)5)44-54-47(50)40-38-36-34-32-30-28-26-21-19-17-15-13-11-9-7-2/h8,10,12,14,16,18,20,22-25,27,46H,6-7,9,11,13,15,17,19,21,26,28-45H2,1-5H3/b10-8+,14-12-,18-16-,22-20-,24-23-,27-25-/t46-/m1/s1
+  inChIKey: YZEGHVUBSYVNCN-CVCSLSNUSA-N
+  molecularFormula: C48H84NO8P
+  molecularWeight: 834.2
+  name: 1-stearyl-2-docosahexaenoyl-sn-glycero-3-phosphocholine
