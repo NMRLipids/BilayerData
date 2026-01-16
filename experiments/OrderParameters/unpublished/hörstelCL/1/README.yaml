@@ -1,14 +1,37 @@
-DOI: unpublished/hoerstelCL
+DATA_DOI: NMRXIV:P157
 TEMPERATURE: 300.5
-MOLAR_FRACTIONS:
+MEMBRANE_COMPOSITION:
   TOCL: 1
-ION_CONCENTRATIONS:
-  POT: 0
-  SOD: 0
-  CLA: 0
-  CAL: 0
-TOTAL_LIPID_CONCENTRATION: 'full hydration'
-COUNTER_IONS:
-  SOD: TOCL
-# TOCL/Na+ extracted from liposomes in sodium-boric buffer with Folch method
-# resulting ammount is 24 water per phosphate which we consider a good hydration.
+SOLUTION_COMPOSITION:
+  SOD: 1
+ADDITIONAL_MOLECULES:
+  borax: CAS: 1303-96-4
+  boric_acid: CAS: 10043-35-3
+TOTAL_HYDRATION: 46
+PH: UNKNOWN
+PH_METHOD: boric buffer
+REAGENT_SOURCES:
+  TOCL: Avanti Polar Lipids
+  water: Type I Milli-Q, degassed by argon bubbling
+  borax: Sigma-Aldrich
+  boric_acid: Sigma-Aldrich
+SAMPLE_PROTOCOL:
+  TOCL/Na+ (30.0mg, 1.0 eq.) was dissolved with 10ml chloroform:methanol (2:1, v/v) in a 50ml pear
+  shaped flask and the solvent was slowly evaporated under reduced pressure (250mbar, 40°C) to
+  yield liposomes. A solution of Na2B4O17H20 (7.6mg, 1.0eq.) and BOH3 (4.9mg, 4.0eq.) in 5ml de-
+  gassed water was prepared and added to the flask. Formed white flakes disapeared after rotating the
+  flask at 800mbar for one minute. The Folch method was performed and 20ml chloroform:methanol
+  (2:1, v/v) were added to the aqueous phase. An emulsion formed after shaking the mixture, a ho-
+  mogeneous and clear solution formed after adding 3.3ml methanol. A phase separation occurred
+  and the lower phase was dried under a constant stream of argon at 40°C over night. The predried
+  sample was freeze-dried over night, 20.0µl degassed water was added and the Eppendorf was stored
+  at 50°C for one day. Lost water was added and the sample was mixed thoroughly with a steel rod.
+  After another day of equilibration the sample was again mixed before packing the insert.
+  Hydration by 1H MAS NMR: 24 per lipid, 
+  Na+ concentration guessed
+NMR:
+  INSTRUMENT: Bruker Avance III HD 500 MHz, Triple Resonance CP-MAS Probe (4mm)
+  METHOD: PDLF:R18_1^7
+  SIGN_MEASURED: NONE
+  T_RF_HEATING: measured
+  DETAILS: 10.1016/j.jmr.2004.03.001, 5 kHz MAS

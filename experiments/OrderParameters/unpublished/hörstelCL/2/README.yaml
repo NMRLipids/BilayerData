@@ -1,14 +1,35 @@
-DOI: unpublished/hoerstelCL
+DATA_DOI: NMRXIV:P157
 TEMPERATURE: 300.5
-MOLAR_FRACTIONS:
+MEMBRANE_COMPOSITION:
   TOCL: 1
-ION_CONCENTRATIONS:
-  POT: 0
-  SOD: 0
-  CLA: 0
-  CAL: 0
-TOTAL_LIPID_CONCENTRATION: 'full hydration'
-COUNTER_IONS:
-  TMA: TOCL
-# TOCL/TMA+ dilute with <CHECK_IT> buffer and re-extracted with Folch method
-# resulting ammount is 31 water per phosphate which we consider a good hydration.
+SOLUTION_COMPOSITION:
+  SOD: 1
+  TMA: 4
+ADDITIONAL_MOLECULES:
+  boric_acid: CAS: 10043-35-3, 3.0%
+TOTAL_HYDRATION: 40
+PH: UNKNOWN
+PH_METHOD: boric buffer
+REAGENT_SOURCES:
+  TOCL: Avanti Polar Lipids for TOCL
+  water: Type I Milli-Q, degassed by argon bubbling
+  TMACl: Sigma-Aldrich
+  boricacid: Sigma-Aldrich
+SAMPLE_PROTOCOL:
+  TOCL/Na+(30.0mg,1.0 eq.) and TMACl(6.6mg,3.0eq.) were dissolved with2mlchloroform:methanol
+  (2:1, v/v) in an eppendorf vial. A solution of TMA OHx5H2O (3.6mg, 1.0eq.) and BOH3 (1.2mg,
+  1.0eq.) in 100µl methanol was prepared and added to the Eppendorf vial. The Folch method was
+  performed and 0.4ml degassed water was added to the mixture. After an immediate phase separa-
+  tion, the upper phase was discarded, the solvent of the lower phase was evaporated at 40°C under
+  a constant stream of argon and the predried sample was freeze-dried over night. 32.4µl degassed
+  water was added and the Eppendorf was stored at 50°C for one day. Lost water was added and
+  the sample was mixed thoroughly with a steel rod. After another three days of equilibration the
+  sample was again mixed before packing the insert.
+  Hydration by 1H MAS NMR: 31 per lipid, 
+  Na+ concentration guessed, TMA+ concentration estimated from NMR
+NMR:
+  INSTRUMENT: Bruker Avance III HD 500 MHz, Triple Resonance CP-MAS Probe (4mm)
+  METHOD: PDLF:R18_1^7
+  SIGN_MEASURED: NONE
+  T_RF_HEATING: measured
+  DETAILS: 10.1016/j.jmr.2004.03.001, 5 kHz MAS
