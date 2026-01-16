@@ -4,7 +4,7 @@ TRJ:
 - - traj_center.dcd
 PDB:
 - - struct.pdb
-PDB:
+PSF:
 - - struct.psf
 PREEQTIME: 0
 TIMELEFTOUT: 0
