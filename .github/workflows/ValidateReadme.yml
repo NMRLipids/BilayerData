@@ -1,0 +1,57 @@
+name: Validate Readme Files 
+
+on:
+  pull_request_target:
+    paths: 'Simulations/**/README.yaml'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  Check-Readme:
+    if: github.repository == 'NMRLipids/BilayerData' 
+    runs-on: ubuntu-latest
+    env:
+      FMDL_DATA_PATH: ${{ github.workspace }}/BilayerData
+
+    steps:
+      - name: Checkout BilayerData
+        uses: actions/checkout@v6
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          path: BilayerData
+          persist-credentials: false
+
+      - name: Install the gh cli
+        uses: ksivamuthu/actions-setup-gh-cli@v3
+        with:
+          version: 2.83.0
+
+      - name: Install FAIRMD_lipids dependencies
+        run: |
+          pip install git+https://github.com/NMRLipids/FAIRMD_lipids.git
+
+      - name: Validate all README.yaml files 
+        working-directory: BilayerData
+        shell: bash --noprofile --norc {0}
+        run: |
+          out="$(find Simulations -name README.yaml -print0 \
+            | xargs -0 python -m fairmd.lipids.schema_validation.validate_yaml --schema readme 2>&1)"
+          status=$?
+      
+          errors="$(printf '%s\n' "$out" | grep '^ERROR:' || true)"
+          [ -n "$errors" ] || errors="None"
+      
+          {
+            echo "## README.yaml validation"
+            echo
+            echo "**Errors:**"
+            echo
+            echo '```text'
+            printf '%s\n' "$errors"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+            exit $status
