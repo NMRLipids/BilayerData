@@ -4,6 +4,7 @@
 import json
 import sys
 
+
 def _round_value(x: str | float | int) -> float:
     """
     Converts the value to float and round it to 4 decimal places.
@@ -13,9 +14,9 @@ def _round_value(x: str | float | int) -> float:
 
 data_file = sys.argv[1]
 print(data_file)
-if '.dat' in data_file:
+if ".dat" in data_file:
     outfile = data_file.replace(".dat", "_FormFactor.json")
-if '.xff' in data_file:
+if ".xff" in data_file:
     outfile = data_file.replace(".xff", "_FormFactor.json")
 print(outfile)
 
@@ -28,17 +29,21 @@ with open(data_file) as OPfile:
             continue
         print(line.split())
         if len(line.split()) == 3:
-            values = [_round_value(line.split()[0]),
-                      _round_value(line.split()[1]),
-                      _round_value(line.split()[2])]  # , float(line.split()[3])]
+            values = [
+                _round_value(line.split()[0]),
+                _round_value(line.split()[1]),
+                _round_value(line.split()[2]),
+            ]  # , float(line.split()[3])]
         # SAMULI: If error is not given in the original file, error of 0.02 is assumed.
         if len(line.split()) == 2:
             # , float(line.split()[3])]
-            values = [_round_value(line.split()[0]),
-                      _round_value(line.split()[1]),
-                      0.02]
+            values = [
+                _round_value(line.split()[0]),
+                _round_value(line.split()[1]),
+                0.02,
+            ]
 
         data.append(values)
 
-with open(outfile, 'w') as f:
+with open(outfile, "w") as f:
     json.dump(data, f)
