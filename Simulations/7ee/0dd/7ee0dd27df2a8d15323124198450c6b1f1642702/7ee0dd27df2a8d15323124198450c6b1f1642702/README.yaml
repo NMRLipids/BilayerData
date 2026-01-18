@@ -4,10 +4,11 @@ TRJ:
 - - ER-like.dcd
 PDB:
 - - ER-like.pdb
+PSF:
+- - ER-like.psf
 PREEQTIME: 0
 TIMELEFTOUT: 0
 TEMPERATURE: 310
-DIR_WRK: /home/sosamuli/temp/DataBank/
 PUBLICATION: null
 AUTHORS_CONTACT: Reza Talandashti and Nathalie Reuter
 SYSTEM: 12CHOL,134POPC,60POPE,14POPS,26POPI,10CER180,10551SOL,40SOD

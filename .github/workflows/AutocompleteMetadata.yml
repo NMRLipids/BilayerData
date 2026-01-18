@@ -65,7 +65,7 @@ jobs:
         if: steps.files.outputs.changed_files != ''
         working-directory: BilayerData
         run: |
-          echo "${{ steps.files.outputs.changed_files }}" | xargs -n1 -I{} python ../Databank/developer/AutocompleteMetadata.py "{}"
+          echo "${{ steps.files.outputs.changed_files }}" | xargs -n1 -I{} python ../Databank/developer/autocomplete_metadata.py "{}"
 
       - name: Suggest changes on PR
         if: steps.files.outputs.changed_files != ''

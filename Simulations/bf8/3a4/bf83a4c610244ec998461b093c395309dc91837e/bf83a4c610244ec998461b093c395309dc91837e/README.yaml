@@ -4,6 +4,8 @@ TRJ:
 - - PM-like.dcd
 PDB:
 - - PM-like.pdb
+PSF:
+- - PM-like.psf
 PREEQTIME: 0
 TIMELEFTOUT: 0
 TEMPERATURE: 310

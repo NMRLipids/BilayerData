@@ -2,7 +2,7 @@ DOI: 10.5281/zenodo.7992137
 SOFTWARE: openMM
 TRJ:
 - - traj.dcd
-PDB:
+PSF:
 - - step2_drude.psf
 PREEQTIME: 200
 TIMELEFTOUT: 0

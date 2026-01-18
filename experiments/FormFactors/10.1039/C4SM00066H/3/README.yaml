@@ -1,0 +1,37 @@
+ARTICLE_DOI: 10.1039/C4SM00066H
+TEMPERATURE: 298
+MEMBRANE_COMPOSITION:
+  POPS: 1
+SOLUTION_COMPOSITION:
+  SOD: 0.265
+  CLA: 0.35
+ADDITIONAL_MOLECULES:
+  HEPES: 4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid, 5mM
+TOTAL_HYDRATION: 99
+PH: 7.4
+PH_METHOD: buffer
+REAGENT_SOURCES:
+  POPS: Avanti Polar Lipids DOPS sodium salt
+SAMPLE_PROTOCOL: >
+  40 mg of lipid was mixed with 1 ml MilliQ water, and freeze-thaw cycled between 193 - 318 K.
+  MLVs were then extruded through 500-Å polycarbonate filters. SUV final lipid concentration
+  was ~12 mg/ml.
+XRAY:
+  SOURCE: G1 station, CHESS
+  LAMBDA: 1.17
+  DETECTOR: FLICAM CCD camera, 1024 x 1024 pixels
+  DISTANCE: 0.4267
+  DATATYPE: batch
+  SAMPLE_TYPE: SUV
+# Outdated fields kept for backward compatibility
+# TODO: remove in future
+MOLAR_FRACTIONS:
+  POPS: 1
+ION_CONCENTRATIONS:
+  POT: 0
+  SOD: 0
+  CLA: 0
+  CAL: 0
+TOTAL_LIPID_CONCENTRATION: "full hydration"
+COUNTER_IONS:
+  SOD: POPS

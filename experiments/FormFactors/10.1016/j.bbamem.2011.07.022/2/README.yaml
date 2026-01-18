@@ -1,5 +1,27 @@
-DOI: 10.1016/j.bbamem.2011.07.022
+ARTICLE_DOI: 10.1016/j.bbamem.2011.07.022
 TEMPERATURE: 303.0
+MEMBRANE_COMPOSITION:
+  POPC: 1
+TOTAL_HYDRATION: 98
+PH: UNKNOWN
+REAGENT_SOURCES:
+  POPC: Avanti Polar Lipids
+SAMPLE_PROTOCOL: >
+  Up to 60 mg of lipid was mixed with 1.5 ml MilliQ water and temperature cycled through
+  the main phase transition until a uniform MLV dispersion was obtained. MLVs were then
+  extruded through 500-Å polycarbonate filters. SUVs were diluted to a final lipid concentration
+  of ~20 mg/ml.
+XRAY:
+  SOURCE: G1 station, CHESS
+  LAMBDA: 1.18
+  BEAMSIZE: 0.24 x 0.24 mm
+  DETECTOR: FLICAM CCD camera, 1024 x 1024 pixels, 69.78 x 69.78 µm pixel size
+  DISTANCE: 0.4236
+  DATATYPE: batch
+  SAMPLE_TYPE: SUV
+
+# Outdated fields kept for backward compatibility
+# TODO: remove in future
 MOLAR_FRACTIONS:
   POPC: 1
 ION_CONCENTRATIONS:
