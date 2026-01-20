@@ -15,3 +15,7 @@ bioschema_properties:
   molecularFormula: C48H84NO8P
   molecularWeight: 834.2
   name: 1-stearyl-2-docosahexaenoyl-sn-glycero-3-phosphocholine
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=24778878&t=l
+  alternateName:
+  - PC(18:0/22:6(9Z,11Z,13Z,15Z,17Z,19))
+  - PC(18:0/22:6)
