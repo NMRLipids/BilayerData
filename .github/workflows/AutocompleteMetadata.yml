@@ -13,44 +13,28 @@ permissions:
 jobs:
   add-metadata:
     runs-on: ubuntu-latest
-
-    container:
-      image: nmrlipids/core
-      options: --user 1001:118
-      env:
-        FMDL_DATA_PATH: ${{ github.workspace }}/BilayerData
-
     steps:
       - name: Checkout BilayerData
         uses: actions/checkout@v6
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.ref }}
-          path: BilayerData
           persist-credentials: false
       
-      - name: Checkout Databank
-        uses: actions/checkout@v6
-        with:
-          repository: NMRlipids/FAIRMD_lipids
-          ref: main
-          path: Databank
-          persist-credentials: false
-    
+      - name: Clone Databank and install
+        run: |
+          git clone --depth 1 https://github.com/NMRlipids/FAIRMD_lipids.git "$RUNNER_TEMP/Databank"
+          pip install "$RUNNER_TEMP/Databank"
 
       - name: Install the gh cli
         uses: ksivamuthu/actions-setup-gh-cli@v3
         with:
           version: 2.83.0
 
-      - name: Install Databank dependencies
-        working-directory: Databank
-        run: |
-          pip install .
-
       - name: Find changed metadata.yaml files
         id: files
-        working-directory: BilayerData
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           changed_files=$(gh pr diff ${{ github.event.pull_request.number }} --repo ${{ github.repository }} \
             | grep -E 'diff --git a/Molecules/(membrane|solution)/[^/]+/metadata\.yaml' \
@@ -63,9 +47,8 @@ jobs:
 
       - name: Run AddMetadata.py and create suggestions
         if: steps.files.outputs.changed_files != ''
-        working-directory: BilayerData
         run: |
-          echo "${{ steps.files.outputs.changed_files }}" | xargs -n1 -I{} python ../Databank/developer/autocomplete_metadata.py "{}"
+          echo "${{ steps.files.outputs.changed_files }}" | xargs -n1 -I{} python "$RUNNER_TEMP/Databank/developer/autocomplete_metadata.py" "{}"
 
       - name: Suggest changes on PR
         if: steps.files.outputs.changed_files != ''
@@ -73,3 +56,4 @@ jobs:
         with:
           tool_name: addmetadata
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          path: .

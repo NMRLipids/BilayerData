@@ -9,13 +9,8 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    
-    # Fix container configuration
-    container:
-      image: nmrlipids/core
-      options: --user 1001:118 # run container as uid=1001,gid=118 to match the GitHub runner user
-      env:
-        FMDL_DATA_PATH: ${{ github.workspace }}/BilayerData
+    env:
+      FMDL_DATA_PATH: ${{ github.workspace }}/BilayerData
 
     steps:
       - name: Checkout BilayerData
@@ -45,6 +40,6 @@ jobs:
         run: |
           for file in Molecules/membrane/*/metadata.yaml Molecules/solution/*/metadata.yaml; do
             if [ -f "$file" ]; then
-              check-jsonschema --schemafile ../Databank/src/fairmd/lipids/schema_validation/schema/metadata_schema.json 
+              check-jsonschema --schemafile ../Databank/src/fairmd/lipids/schema_validation/schema/metadata_schema.json "$file"
             fi
           done
