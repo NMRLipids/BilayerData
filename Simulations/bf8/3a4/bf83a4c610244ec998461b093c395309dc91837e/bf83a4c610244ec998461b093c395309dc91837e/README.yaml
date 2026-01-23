@@ -37,7 +37,7 @@ COMPOSITION:
     - 2
     - 26
   SAPI24:
-    NAME: SAPI
+    NAME: SAPI24
     MAPPING: mappingSAPI24charmm.yaml
     COUNT:
     - 0
