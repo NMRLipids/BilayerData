@@ -3,19 +3,19 @@ TEMPERATURE: 300.5
 MEMBRANE_COMPOSITION:
   TOCL: 1
 SOLUTION_COMPOSITION:
-  SOD: 1
+  SOD: 2
 ADDITIONAL_MOLECULES:
   borax: CAS: 1303-96-4
   boric_acid: CAS: 10043-35-3
 TOTAL_HYDRATION: 46
-PH: UNKNOWN
-PH_METHOD: boric buffer
+PH: 8-10
+PH_METHOD: buffer
 REAGENT_SOURCES:
   TOCL: Avanti Polar Lipids
   water: Type I Milli-Q, degassed by argon bubbling
   borax: Sigma-Aldrich
   boric_acid: Sigma-Aldrich
-SAMPLE_PROTOCOL:
+SAMPLE_PROTOCOL: >
   TOCL/Na+ (30.0mg, 1.0 eq.) was dissolved with 10ml chloroform:methanol (2:1, v/v) in a 50ml pear
   shaped flask and the solvent was slowly evaporated under reduced pressure (250mbar, 40°C) to
   yield liposomes. A solution of Na2B4O17H20 (7.6mg, 1.0eq.) and BOH3 (4.9mg, 4.0eq.) in 5ml de-
@@ -35,3 +35,16 @@ NMR:
   SIGN_MEASURED: NONE
   T_RF_HEATING: measured
   DETAILS: 10.1016/j.jmr.2004.03.001, 5 kHz MAS
+
+# Outdated fields kept for backward compatibility
+# TODO: remove in future
+MOLAR_FRACTIONS:
+  TOCL: 1
+ION_CONCENTRATIONS:
+  POT: 0
+  SOD: 0
+  CLA: 0
+  CAL: 0
+TOTAL_LIPID_CONCENTRATION: 'full hydration'
+COUNTER_IONS:
+  SOD: TOCL

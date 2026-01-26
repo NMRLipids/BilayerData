@@ -3,19 +3,19 @@ TEMPERATURE: 300.5
 MEMBRANE_COMPOSITION:
   TOCL: 1
 SOLUTION_COMPOSITION:
-  SOD: 1
-  TMA: 4
+  SOD: 2
+  TMA: 10
 ADDITIONAL_MOLECULES:
   boric_acid: CAS: 10043-35-3, 3.0%
 TOTAL_HYDRATION: 40
-PH: UNKNOWN
-PH_METHOD: boric buffer
+PH: 8-10
+PH_METHOD: buffer
 REAGENT_SOURCES:
-  TOCL: Avanti Polar Lipids for TOCL
+  TOCL: Avanti Polar Lipids
   water: Type I Milli-Q, degassed by argon bubbling
   TMACl: Sigma-Aldrich
   boricacid: Sigma-Aldrich
-SAMPLE_PROTOCOL:
+SAMPLE_PROTOCOL: >
   TOCL/Na+(30.0mg,1.0 eq.) and TMACl(6.6mg,3.0eq.) were dissolved with2mlchloroform:methanol
   (2:1, v/v) in an eppendorf vial. A solution of TMA OHx5H2O (3.6mg, 1.0eq.) and BOH3 (1.2mg,
   1.0eq.) in 100µl methanol was prepared and added to the Eppendorf vial. The Folch method was
@@ -26,10 +26,23 @@ SAMPLE_PROTOCOL:
   the sample was mixed thoroughly with a steel rod. After another three days of equilibration the
   sample was again mixed before packing the insert.
   Hydration by 1H MAS NMR: 31 per lipid, 
-  Na+ concentration guessed, TMA+ concentration estimated from NMR
+  Na+ concentration guessed, TMA+ concentration estimated from 1H MAS NMR
 NMR:
   INSTRUMENT: Bruker Avance III HD 500 MHz, Triple Resonance CP-MAS Probe (4mm)
   METHOD: PDLF:R18_1^7
   SIGN_MEASURED: NONE
   T_RF_HEATING: measured
   DETAILS: 10.1016/j.jmr.2004.03.001, 5 kHz MAS
+
+# Outdated fields kept for backward compatibility
+# TODO: remove in future
+MOLAR_FRACTIONS:
+  TOCL: 1
+ION_CONCENTRATIONS:
+  POT: 0
+  SOD: 0
+  CLA: 0
+  CAL: 0
+TOTAL_LIPID_CONCENTRATION: 'full hydration'
+COUNTER_IONS:
+  TMA: TOCL

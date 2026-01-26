@@ -3,16 +3,16 @@ TEMPERATURE: 300.5
 MEMBRANE_COMPOSITION:
   TLCL_0H: 1
 SOLUTION_COMPOSITION:
-  SOD: 1
+  SOD: 2
 ADDITIONAL_MOLECULES:
   DSS: sodium trimethylsilylpropanesulfonate, 0.9%
 TOTAL_HYDRATION: 40
 PH: UNKNOWN
 REAGENT_SOURCES:
-  TLCL: from Bovine heart, Avanti Polar Lipids
+  TLCL_0H: from Bovine heart, Avanti Polar Lipids
   water: Type I Milli-Q, degassed by argon bubbling
   DSS: Sigma-Aldrich
-SAMPLE_PROTOCOL:
+SAMPLE_PROTOCOL: >
   TLCL_0H/Na+ (27.3mg, 1.0 eq.) and DSS (0.25mg, 0.06eq.) were dissolved with 1ml chloroform:methanol
   (7:3, v/v) in an Eppendorf vial. The solvent was evaporated at 40°C under a constant stream of
   argon and freeze-dried over night. 18.0µl degassed water was added and the Eppendorf was stored
@@ -26,4 +26,16 @@ NMR:
   SIGN_MEASURED: NONE
   T_RF_HEATING: measured
   DETAILS: 10.1016/j.jmr.2004.03.001, 5 kHz MAS
-  
+
+# Outdated fields kept for backward compatibility
+# TODO: remove in future
+MOLAR_FRACTIONS:
+  TLCL_0H: 1
+ION_CONCENTRATIONS:
+  POT: 0
+  SOD: 0
+  CLA: 0
+  CAL: 0
+TOTAL_LIPID_CONCENTRATION: "full hydration"
+COUNTER_IONS:
+  SOD: TLCL_0H
