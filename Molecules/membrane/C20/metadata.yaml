@@ -9,6 +9,7 @@ sameAs:
   lipidmaps: LMFA11000571
   pdb.ligand: LFA
   cas: 112-95-8
+  metabolights: MTBLC43619
 bioschema_properties:
   name: n-Eicosane
   iupacName: icosane
