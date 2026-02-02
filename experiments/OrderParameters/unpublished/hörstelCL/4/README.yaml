@@ -1,14 +1,13 @@
-DATA_DOI: 10.57992/nmrxiv.p157
+DATA_DOI: 10.57992/nmrxiv.p157.s1608
 TEMPERATURE: 300.5
 MEMBRANE_COMPOSITION:
   TMCL: 0.5
   BOG: 0.5
 SOLUTION_COMPOSITION:
-  SOD: 2
-  TMA: 13
+  TMA: 11
 ADDITIONAL_MOLECULES:
-  DSS: sodium trimethylsilylpropanesulfonate, 0.9%
-TOTAL_HYDRATION: 36
+  DSS: sodium trimethylsilylpropanesulfonate, 1.8%
+TOTAL_HYDRATION: 18
 PH: UNKNOWN
 REAGENT_SOURCES:
   TMCL: Avanti Polar Lipids
@@ -23,8 +22,8 @@ SAMPLE_PROTOCOL: >
   water was added and the Eppendorf was stored at 40°C for two days. Lost water was added and the
   sample was mixed thoroughly with a steel rod. After another two days of equilibration the sample
   was again mixed before packing the insert.
-  Hydration by 1H MAS NMR: 15 per headgroup,
-  Na+ concentration guessed, TMA+ concentration estimated from 1H MAS NMR
+  Hydration by 1H MAS NMR: 13 per tail,
+  TMA+ concentration guessed.
 NMR:
   INSTRUMENT: Bruker Avance III HD 500 MHz, Triple Resonance CP-MAS Probe (4mm)
   METHOD: PDLF:R18_1^7
@@ -42,6 +41,6 @@ ION_CONCENTRATIONS:
   SOD: 0
   CLA: 0
   CAL: 0
-TOTAL_LIPID_CONCENTRATION: 2.64
+TOTAL_LIPID_CONCENTRATION: 1.7
 COUNTER_IONS:
   TMA: TMCL
