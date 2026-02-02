@@ -1,13 +1,13 @@
-DATA_DOI: 10.57992/nmrxiv.p157
+DATA_DOI: 10.57992/nmrxiv.p157.s1599
 TEMPERATURE: 300.5
 MEMBRANE_COMPOSITION:
   TOCL: 1
 SOLUTION_COMPOSITION:
-  SOD: 2
+  SOD: 4.5
 ADDITIONAL_MOLECULES:
   borax: CAS: 1303-96-4
   boric_acid: CAS: 10043-35-3
-TOTAL_HYDRATION: 46
+TOTAL_HYDRATION: 40
 PH: 8-10
 PH_METHOD: buffer
 REAGENT_SOURCES:
@@ -27,7 +27,7 @@ SAMPLE_PROTOCOL: >
   sample was freeze-dried over night, 20.0µl degassed water was added and the Eppendorf was stored
   at 50°C for one day. Lost water was added and the sample was mixed thoroughly with a steel rod.
   After another day of equilibration the sample was again mixed before packing the insert.
-  Hydration by 1H MAS NMR: 24 per lipid, 
+  Hydration by 1H MAS NMR: 28 per phosphate, 
   Na+ concentration guessed
 NMR:
   INSTRUMENT: Bruker Avance III HD 500 MHz, Triple Resonance CP-MAS Probe (4mm)
