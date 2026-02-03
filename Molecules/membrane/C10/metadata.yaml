@@ -15,5 +15,12 @@ bioschema_properties:
   molecularFormula: C10H22
   molecularWeight: 142.28
   inChI: InChI=1S/C10H22/c1-3-5-7-9-10-8-6-4-2/h3-10H2,1-2H3
-  inChIKey: DIOQZVSQGTUSAI-UHFFFAOYSA-N 
+  inChIKey: DIOQZVSQGTUSAI-UHFFFAOYSA-N
   smiles: CCCCCCCCCC
+  image: https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL134537?dimensions=200
+  alternateName:
+  - CH<small><sub>3</sub></small>‒[CH<small><sub>2</sub></small>]<small><sub>8</sub></small>‒CH<small><sub>3</sub></small>
+  - DECANE
+  - Dekan
+  - <em>n</em>-decane
+  - <em>n</em>-Dekan
