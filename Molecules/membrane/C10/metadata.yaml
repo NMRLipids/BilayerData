@@ -13,7 +13,7 @@ bioschema_properties:
   name: n-Decane
   iupacName: decane
   molecularFormula: C10H22
-  molecularWeight: 142.28 
+  molecularWeight: 142.28
   inChI: InChI=1S/C10H22/c1-3-5-7-9-10-8-6-4-2/h3-10H2,1-2H3
   inChIKey: DIOQZVSQGTUSAI-UHFFFAOYSA-N 
   smiles: CCCCCCCCCC
