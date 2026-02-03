@@ -4,6 +4,8 @@ TRJ:
 - - traj1-2.xtc
 PDB:
 - - step3_charmm2omm.pdb
+PSF:
+- - step3_charmm2omm.psf
 PREEQTIME: 0
 TIMELEFTOUT: 10
 TEMPERATURE: 310
