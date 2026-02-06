@@ -10,7 +10,6 @@ chains:
 
 headgroup: PC
 lipid_class: phosphatidylcholine
-
 reference:
   authors: Marquardt et al.
   journal: Chemistry and Physics of Lipids
