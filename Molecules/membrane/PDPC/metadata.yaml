@@ -1,6 +1,5 @@
 name: PDPC
 full_name: 1-palmitoyl-2-docosahexaenoyl-sn-glycero-3-phosphocholine
-
 chains:
   sn1:
     length: 16
