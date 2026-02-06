@@ -1,0 +1,19 @@
+name: PDPC
+full_name: 1-palmitoyl-2-docosahexaenoyl-sn-glycero-3-phosphocholine
+
+chains:
+  sn1:
+    length: 16
+    unsaturation: 0
+  sn2:
+    length: 22
+    unsaturation: 6
+
+headgroup: PC
+lipid_class: phosphatidylcholine
+
+reference:
+  authors: Marquardt et al.
+  journal: Chemistry and Physics of Lipids
+  year: 2020
+  doi: 10.1016/j.chemphyslip.2020.104892
