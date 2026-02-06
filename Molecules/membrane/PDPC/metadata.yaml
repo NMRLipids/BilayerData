@@ -7,7 +7,6 @@ chains:
   sn2:
     length: 22
     unsaturation: 6
-
 headgroup: PC
 lipid_class: phosphatidylcholine
 reference:
