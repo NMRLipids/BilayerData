@@ -1,0 +1,21 @@
+ARTICLE_DOI: 10.1016/j.chemphyslip.2020.104892
+
+TEMPERATURE: 303
+
+MEMBRANE_COMPOSITION:
+  PDPC: 1.0
+
+SAMPLE_PROTOCOL: >
+  Unilamellar vesicles prepared as described in
+  Marquardt et al., Chem. Phys. Lipids 229 (2020) 104892.
+
+XRAY:
+  SOURCE: CHESS synchrotron
+  LAMBDA: 1.0 Å
+  QRANGE: 0.01-0.5 Å^-1
+  DETECTOR: UNKNOWN
+  DISTANCE: UNKNOWN
+  DATATYPE: batch
+  EXPOSURE: UNKNOWN
+  FRAMES: UNKNOWN
+  SAMPLE_TYPE: ULV
