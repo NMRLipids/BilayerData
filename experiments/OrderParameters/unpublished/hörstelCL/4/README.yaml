@@ -4,7 +4,8 @@ MEMBRANE_COMPOSITION:
   TMCL: 0.5
   BOG: 0.5
 SOLUTION_COMPOSITION:
-  TMA: 11
+  TMA: 8
+  SOD: 1
 ADDITIONAL_MOLECULES:
   DSS: sodium trimethylsilylpropanesulfonate, 1.8%
 TOTAL_HYDRATION: 40
@@ -23,7 +24,7 @@ SAMPLE_PROTOCOL: >
   sample was mixed thoroughly with a steel rod. After another two days of equilibration the sample
   was again mixed before packing the insert.
   Hydration by 1H MAS NMR: 13 per tail,
-  TMA+ concentration guessed.
+  TMA+ concentration determined by 1H NMR. Na+ concentration guessed.
 NMR:
   INSTRUMENT: Bruker Avance III HD 500 MHz, Triple Resonance CP-MAS Probe (4mm)
   METHOD: PDLF:R18_1^7
@@ -37,7 +38,7 @@ MOLAR_FRACTIONS:
   TMCL: 0.5
   BOG: 0.5
 ION_CONCENTRATIONS:
-  POT: 0
+  POT: 0.5
   SOD: 0
   CLA: 0
   CAL: 0
