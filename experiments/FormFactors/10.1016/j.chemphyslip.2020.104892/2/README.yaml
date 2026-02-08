@@ -1,7 +1,23 @@
 ARTICLE_DOI: 10.1016/j.chemphyslip.2020.104892
-TEMPERATURE: 303  # K (30 °C)
+TEMPERATURE: 303  # K 
 MEMBRANE_COMPOSITION:
   SDPC: 1
 SOLUTION_COMPOSITION:
-  H2O: 1.0
+  H2O: 1.0  # SAXS
 TOTAL_HYDRATION: 99
+SAMPLE_PROTOCOL: >
+  SDPC lipid films were prepared from chloroform stock solutions and dried
+  under Ar gas with gentle heating, followed by vacuum drying for at least 4 h.
+  Samples were hydrated with ultrapure H2O or D2O using repeated freeze–thaw cycles.
+  Vesicles were extruded through 50 nm polycarbonate membranes to form ULVs.
+  Final lipid concentration was approximately 12 mg/ml.
+  All handling was performed under an Ar atmosphere to limit lipid oxidation.
+XRAY:
+  SOURCE: CHESS G-1 station
+  LAMBDA: 1.18       # Å
+  BEAMSIZE: 0.24 x 0.24 mm
+  DETECTOR: FLICAM CCD camera
+  PIXEL_SIZE: 71 x 71 µm
+  DISTANCE: 0.4236  # m
+  DATATYPE: ULV
+  SAMPLE_TYPE: ULV

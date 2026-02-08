@@ -3,5 +3,21 @@ TEMPERATURE: 303  # K (30 °C)
 MEMBRANE_COMPOSITION:
   PDPC: 1
 SOLUTION_COMPOSITION:
-  H2O: 1.0
+  H2O: 1.0  # SAXS
 TOTAL_HYDRATION: 99
+SAMPLE_PROTOCOL: >
+  PDPC films were prepared from chloroform stock solutions, dried under Ar gas
+  with gentle heating and further dried in vacuo for at least 4 h.
+  Samples were hydrated using freeze–thaw–vortex cycles with ultrapure H2O.
+  Vesicles were extruded through 50 nm polycarbonate filters to produce ULVs.
+  Lipid concentration was approximately 12 mg/ml.
+  All preparations were performed under an Ar atmosphere (O2 < 2%) to minimize oxidation.
+XRAY:
+  SOURCE: CHESS G-1 station
+  LAMBDA: 1.18        # Å
+  BEAMSIZE: 0.24 x 0.24 mm
+  DETECTOR: FLICAM CCD camera
+  PIXEL_SIZE: 71 x 71 µm
+  DISTANCE: 0.4236   # m
+  DATATYPE: ULV
+  SAMPLE_TYPE: ULV
