@@ -16,5 +16,5 @@ bioschema_properties:
   name: 1-palmitoyl-2-docosahexaenoyl-sn-glycero-3-phosphocholine
   image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=10134146&t=l
   alternateName:
-    - PC(16:0/22:6)
-    - PDPC
+  - PC(16:0/22:6)
+  - PDPC
