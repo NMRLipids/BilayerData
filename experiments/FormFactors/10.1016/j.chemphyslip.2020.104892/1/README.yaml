@@ -22,5 +22,6 @@ XRAY:
   DETECTOR: FLICAM CCD camera
   PIXEL_SIZE: 71 x 71 µm
   DISTANCE: 0.4236   # m
+  SAMPLE_CONTAINER: 1 mm quartz capillary
   DATATYPE: ULV
   SAMPLE_TYPE: ULV
