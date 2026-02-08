@@ -1,30 +1,7 @@
-DOI: 10.1016/j.chemphyslip.2020.104892
-TEMPERATURE: 303 K  # K (30 °C)
+ARTICLE_DOI: 10.1016/j.chemphyslip.2020.104892
+TEMPERATURE: 303  # K (30 °C)
 MEMBRANE_COMPOSITION:
   PDPC: 1
 SOLUTION_COMPOSITION:
-  H2O: 1.0        # SAXS measurements
-  D2O: VARIABLE   # 100%, 75%, 50% for SANS contrasts
-TOTAL_HYDRATION: "full hydration"
-REAGENT_SOURCES:
-  PDPC: Avanti Polar Lipids
-  H2O: High-Q purification system
-  D2O: Cambridge Isotopes
-SAMPLE_PROTOCOL: >
-  PDPC films were prepared from chloroform stock solutions, dried under Ar gas
-  with gentle heating and further dried in vacuo for at least 4 h.
-  Samples were hydrated using 7 freeze–thaw–vortex cycles with ultrapure H2O
-  (for SAXS) or 100% D2O (for SANS).
-  Vesicles were extruded through 50 nm polycarbonate filters to produce ULVs.
-  Lipid concentration was approximately 12 mg/ml.
-  All preparations were performed under an Ar atmosphere (O2 < 2%) to minimize oxidation.
-XRAY:
-  SOURCE: CHESS G-1 station
-  LAMBDA: 1.18        # Å
-  BEAMSIZE: 0.24 x 0.24 mm
-  DETECTOR: FLICAM CCD camera
-  PIXEL_SIZE: 71 x 71 µm
-  DISTANCE: 0.4236   # m
-  SAMPLE_CONTAINER: 1 mm quartz capillary
-  DATATYPE: ULV
-  SAMPLE_TYPE: ULV
+  H2O: 1.0
+TOTAL_HYDRATION: 99
