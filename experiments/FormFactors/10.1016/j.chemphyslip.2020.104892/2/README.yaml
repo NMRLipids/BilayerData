@@ -5,6 +5,9 @@ MEMBRANE_COMPOSITION:
 SOLUTION_COMPOSITION:
   H2O: 1.0  # SAXS
 TOTAL_HYDRATION: 99
+REAGENT_SOURCES:
+  SDPC: Avanti Polar Lipids
+  H2O: High-Q purification system
 SAMPLE_PROTOCOL: >
   SDPC lipid films were prepared from chloroform stock solutions and dried
   under Ar gas with gentle heating, followed by vacuum drying for at least 4 h.

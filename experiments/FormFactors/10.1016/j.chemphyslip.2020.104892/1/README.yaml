@@ -5,6 +5,9 @@ MEMBRANE_COMPOSITION:
 SOLUTION_COMPOSITION:
   H2O: 1.0  # SAXS
 TOTAL_HYDRATION: 99
+REAGENT_SOURCES:
+  PDPC: Avanti Polar Lipids
+  H2O: High-Q purification system
 SAMPLE_PROTOCOL: >
   PDPC films were prepared from chloroform stock solutions, dried under Ar gas
   with gentle heating and further dried in vacuo for at least 4 h.
