@@ -17,7 +17,7 @@ XRAY:
   LAMBDA: 1.17            # Å
   DETECTOR: FLICAM CCD camera
   DISTANCE: 0.4267        # m
-  DATATYPE: FORM_FACTOR
+  DATATYPE: BATCH
   SAMPLE_TYPE: SUV
 # Outdated fields
 MOLAR_FRACTIONS:
