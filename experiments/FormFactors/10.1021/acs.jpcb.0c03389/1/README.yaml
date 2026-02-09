@@ -1,5 +1,25 @@
-DOI: 10.1021/acs.jpcb.0c03389
-TEMPERATURE: 318
+ARTICLE_DOI: 10.1021/acs.jpcb.0c03389
+TEMPERATURE: 318  # K
+MEMBRANE_COMPOSITION:
+  SM16: 1
+SOLUTION_COMPOSITION:
+TOTAL_HYDRATION: 99
+REAGENT_SOURCES:
+  SM18: Avanti Polar Lipids
+  H2O: High-Q purification system
+SAMPLE_PROTOCOL: >
+  SM18 lipid films were prepared from chloroform stock solutions and dried
+  under inert atmosphere. Samples were hydrated with ultrapure water using
+  repeated freeze–thaw cycles to achieve full hydration. Vesicles were prepared
+  by extrusion prior to SAXS measurements.
+XRAY:
+  SOURCE: CHESS G-1 station
+  LAMBDA: 1.17            # Å
+  DETECTOR: FLICAM CCD camera
+  DISTANCE: 0.4267        # m
+  DATATYPE: BATCH
+  SAMPLE_TYPE: SUV
+# Outdated fields
 MOLAR_FRACTIONS:
   SM16: 1
 ION_CONCENTRATIONS:
@@ -9,4 +29,3 @@ ION_CONCENTRATIONS:
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
-
