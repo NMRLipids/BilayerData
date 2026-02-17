@@ -1,0 +1,40 @@
+DOI: 10.5281/zenodo.1434990
+TRJ:
+- - POPS_k.xtc
+SOFTWARE: gromacs
+PREEQTIME: 0
+TIMELEFTOUT: 0
+TEMPERATURE: 298.0
+SYSTEM: Bilayer
+AUTHORS_CONTACT: Matti Javanainen
+SOFTWARE_VERSION: '2016.3'
+FF: Macrog
+FF_SOURCE: 'Rog et al., Data in Brief 7, 2016, pp. 1171–1174, DOI: 10.1016/j.dib.2016.03.067'
+FF_DATE: '2016'
+EDR:
+- - POPS_k.edr
+TPR:
+- - POPS_k.tpr
+GRO:
+- - POPS_k.gro
+COMPOSITION:
+  POPS:
+    NAME: POPS
+    MAPPING: mappingPOPSmacrog.yaml
+    COUNT:
+    - 64
+    - 64
+  SOL:
+    NAME: SOL
+    MAPPING: mappingTIP3Pwater.yaml
+    COUNT: 4480
+  POT:
+    NAME: K
+    MAPPING: mappingK.yaml
+    COUNT: 128
+TRAJECTORY_SIZE: 219633324
+TRJLENGTH: 200100.0
+NUMBER_OF_ATOMS: 29824
+DATEOFRUNNING: 17/02/2026
+TYPEOFSYSTEM: lipid bilayer
+ID: -2
