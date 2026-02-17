@@ -1,0 +1,40 @@
+DOI: 10.5281/zenodo.3571071
+TRJ:
+- - pope.xtc
+SOFTWARE: gromacs
+PREEQTIME: 0
+TIMELEFTOUT: 0
+TEMPERATURE: 310.0
+SYSTEM: Bilayer
+AUTHORS_CONTACT: Matti Javanainen
+FF: OPLS-aa
+FF_SOURCE: POPE.itp
+CPT:
+- - pope.cpt
+LOG:
+- - pope.log
+TOP:
+- - topol.top
+EDR:
+- - pope.edr
+TPR:
+- - pope.tpr
+GRO:
+- - pope.gro
+COMPOSITION:
+  POPE:
+    NAME: POPE
+    MAPPING: mappingPOPEmacrogFUCHS.yaml
+    COUNT:
+    - 72
+    - 72
+  SOL:
+    NAME: SOL
+    MAPPING: mappingTIP3Pwater.yaml
+    COUNT: 5760
+TRAJECTORY_SIZE: 654610352
+TRJLENGTH: 500000.0
+NUMBER_OF_ATOMS: 35280
+DATEOFRUNNING: 17/02/2026
+TYPEOFSYSTEM: lipid bilayer
+ID: -2
