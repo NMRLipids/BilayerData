@@ -1,0 +1,48 @@
+DOI: 10.5281/zenodo.2579675
+TRJ:
+- - dm_popg_pope_3_1_slipid.xtc
+SOFTWARE: gromacs
+PREEQTIME: 400
+TIMELEFTOUT: 0
+TEMPERATURE: 310.0
+SYSTEM: POPG-POPE 3:1 Bilayer Simulation
+AUTHORS_CONTACT: Antonio Peon
+SOFTWARE_VERSION: 5.1.2
+FF: Slipids
+TOP:
+- - topol.top
+EDR:
+- - md_400_500.edr
+TPR:
+- - md_08.tpr
+COMPOSITION:
+  POPG:
+    NAME: POG
+    MAPPING: mappingPOPGslipids.yaml
+    COUNT:
+    - 187
+    - 187
+  POPE:
+    NAME: POPE
+    MAPPING: mappingPOPEslipids.yaml
+    COUNT:
+    - 63
+    - 63
+  SOD:
+    NAME: NA
+    MAPPING: mappingNA.yaml
+    COUNT: 423
+  CLA:
+    NAME: CL
+    MAPPING: mappingCL.yaml
+    COUNT: 49
+  SOL:
+    NAME: SOL
+    MAPPING: mappingTIP3PwaterSlipids.yaml
+    COUNT: 25000
+TRAJECTORY_SIZE: 5195065276
+TRJLENGTH: 100010.0
+NUMBER_OF_ATOMS: 138720
+DATEOFRUNNING: 17/02/2026
+TYPEOFSYSTEM: lipid bilayer
+ID: -1
