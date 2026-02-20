@@ -3,7 +3,8 @@ FF_DATE: ?/?/????
 SYSTEM: Berger_POPC_T303K
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 303.0
-UNITEDATOM_DICT: null
+UNITEDATOM_DICT:
+  POPC: Berger_POPC
 PUBLICATION: ??
 NUMBER_OF_ATOMS: 65330
 FFSOL: SPC
@@ -37,5 +38,4 @@ TPR:
 - - protonated.tpr
 TRJ:
 - - prottraj.xtc
-DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 151

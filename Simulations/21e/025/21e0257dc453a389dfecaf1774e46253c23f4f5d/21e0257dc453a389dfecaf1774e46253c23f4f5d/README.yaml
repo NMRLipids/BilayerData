@@ -10,7 +10,7 @@ TEMPERATURE: 303
 COMPOSITION:
   POPC:
     NAME: POPC
-    MAPPING: mappingPOPCcharmmPolarizable2023.yaml
+    MAPPING: mappingPOPCcharmmPolarizable.yaml
     COUNT:
     - 64
     - 64

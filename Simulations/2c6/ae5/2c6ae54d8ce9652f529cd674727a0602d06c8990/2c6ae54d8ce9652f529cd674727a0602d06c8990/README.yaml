@@ -4,6 +4,8 @@ TRJ:
 - - wrapped_full_fixed_dt.xtc
 PDB:
 - - step2_charmm2omm.pdb
+PSF:
+- - step2_charmm2omm.psf
 PREEQTIME: 100
 TIMELEFTOUT: 100
 TEMPERATURE: 303

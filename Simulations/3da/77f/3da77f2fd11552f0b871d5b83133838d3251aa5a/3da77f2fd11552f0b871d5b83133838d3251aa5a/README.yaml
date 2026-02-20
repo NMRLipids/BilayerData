@@ -4,6 +4,8 @@ TRJ:
 - - unwrapped_all_fixed_dt.xtc
 PDB:
 - - step2_drude.pdb
+PSF:
+- - step2_drude.psf
 PREEQTIME: 0
 TIMELEFTOUT: 50
 TEMPERATURE: 303
@@ -18,7 +20,6 @@ COMPOSITION:
     NAME: SWM4
     MAPPING: mappingSWM4water.yaml
     COUNT: 5040
-DIR_WRK: /media/osollila/Data1/tmp/DATABANK/
 PUBLICATION: null
 AUTHORS_CONTACT: Kav, Batuhan
 SYSTEM: 72POPE_5040SOL_303K
@@ -26,9 +27,6 @@ SOFTWARE_VERSION: 7.5.0
 FF: Charmm-Drude
 FF_SOURCE: initial structures from CHARMM-GUI v3.2.2
 FF_DATE: 3/22/21
-CHK: null
-TOP: null
-CRD: null
 TRAJECTORY_SIZE: 682780340
 TRJLENGTH: 300000.0
 NUMBER_OF_ATOMS: 51408
