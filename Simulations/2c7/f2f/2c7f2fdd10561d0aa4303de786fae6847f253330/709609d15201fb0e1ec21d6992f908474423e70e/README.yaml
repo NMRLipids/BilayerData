@@ -1,0 +1,36 @@
+DOI: 10.5281/zenodo.7572990
+TRJ:
+- - SL_12C20_72DPPC_60C_18w_traj_run3.xtc
+SOFTWARE: gromacs
+PREEQTIME: 200
+TIMELEFTOUT: 0
+TEMPERATURE: 333.0
+SYSTEM: DPPC/C20
+PUBLICATION: https://doi.org/10.1002/mats.202200078
+AUTHORS_CONTACT: tiago.mendes.ferreira@usc.es
+FF: SLIPIDS
+TPR:
+- - SL_12C20_72DPPC_60C_18w_run3.tpr
+COMPOSITION:
+  DPPC:
+    NAME: DPPC
+    MAPPING: mappingDPPCslipid.yaml
+    COUNT:
+    - 36
+    - 36
+  C20:
+    NAME: ALK
+    MAPPING: mappingC20H42.yaml
+    COUNT:
+    - 4
+    - 8
+  SOL:
+    NAME: SOL
+    MAPPING: mappingTIP3Pwater.yaml
+    COUNT: 1291
+TRAJECTORY_SIZE: 541416240
+TRJLENGTH: 100010.0
+NUMBER_OF_ATOMS: 13977
+DATEOFRUNNING: 19/02/2026
+TYPEOFSYSTEM: lipid bilayer
+ID: -1
