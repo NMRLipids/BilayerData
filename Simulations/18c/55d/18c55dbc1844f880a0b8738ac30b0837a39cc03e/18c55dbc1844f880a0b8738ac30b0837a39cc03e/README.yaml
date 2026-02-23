@@ -4,6 +4,8 @@ TRJ:
 - - wrapped.dcd
 PDB:
 - - step3_charmm2omm.pdb
+PSF:
+- - step3_charmm2omm.psf
 PREEQTIME: 100
 TIMELEFTOUT: 0
 TEMPERATURE: 303

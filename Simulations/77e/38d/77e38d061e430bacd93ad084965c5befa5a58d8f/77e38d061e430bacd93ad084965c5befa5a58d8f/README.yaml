@@ -4,6 +4,8 @@ TRJ:
 - - wrapped_full_fixed_dt.xtc
 PDB:
 - - step2_charmm2omm.pdb
+PSF:
+- - step2_charmm2omm.psf
 PREEQTIME: 100
 TIMELEFTOUT: 100
 TEMPERATURE: 303
@@ -26,7 +28,6 @@ COMPOSITION:
     NAME: CLA
     MAPPING: mappingCLAcharmmPolarizable.yaml
     COUNT: 152
-DIR_WRK: /media/osollila/Data1/tmp/DATABANK/
 PUBLICATION: null
 AUTHORS_CONTACT: Kav, Batuhan
 SYSTEM: 128POPC_6400SOL_76CaCl2_303K
@@ -34,9 +35,6 @@ SOFTWARE_VERSION: 7.4.1
 FF: Charmm-Drude polarizable; system has been equilibriated using Charmm36
 FF_SOURCE: null
 FF_DATE: null
-CHK: null
-TOP: null
-CRD: null
 TRAJECTORY_SIZE: 22542673244
 TRJLENGTH: 517170.0
 NUMBER_OF_ATOMS: 57288

@@ -4,6 +4,8 @@ TRJ:
 - - wrapped_full_fixed_dt.xtc
 PDB:
 - - step2_charmm2omm.pdb
+PSF:
+- - step2_charmm2omm.psf
 PREEQTIME: 100
 TIMELEFTOUT: 100
 TEMPERATURE: 303
@@ -26,7 +28,6 @@ COMPOSITION:
     NAME: CLA
     MAPPING: mappingCLAcharmmPolarizable.yaml
     COUNT: 115
-DIR_WRK: /media/osollila/Data1/tmp/DATABANK/
 PUBLICATION: null
 AUTHORS_CONTACT: Kav, Batuhan
 SYSTEM: 128POPC_6400SOL_115NaCl_303K
