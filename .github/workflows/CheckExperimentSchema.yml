@@ -32,10 +32,11 @@ jobs:
 
       - name: Validate metadata.yaml files
         working-directory: BilayerData
-        continue-on-error: true
         run: |
+          exit_code=0
           find experiments -name README.yaml | while read -r file; do
             if [ -f "$file" ]; then
-              check-jsonschema --schemafile ../Databank/src/fairmd/lipids/schema_validation/schema/experiment_schema.json "$file"
+              check-jsonschema --schemafile ../Databank/src/fairmd/lipids/schema_validation/schema/experiment_schema.json "$file" || exit_code=1
             fi
           done
+          exit $exit_code
