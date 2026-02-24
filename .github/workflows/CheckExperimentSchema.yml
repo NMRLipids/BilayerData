@@ -26,11 +26,6 @@ jobs:
           ref: main
           path: Databank        
           
-      - name: Install Databank dependencies
-        working-directory: Databank
-        run: |
-          pip install .
-          
       - name: Install check-jsonschema
         run: pip install check-jsonschema==0.34.1
 
