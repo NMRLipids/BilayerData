@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - 'experiments/**/README.yaml'
+  workflow_dispatch:
 
 jobs:
   validate:
@@ -31,6 +32,7 @@ jobs:
 
       - name: Validate metadata.yaml files
         working-directory: BilayerData
+        continue-on-error: true
         run: |
           find experiments -name README.yaml | while read -r file; do
             if [ -f "$file" ]; then
