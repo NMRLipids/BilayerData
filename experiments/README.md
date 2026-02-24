@@ -1,3 +1,6 @@
+Note that this file may contain outdated description. It's better to see the official up-to-date documentation:
+https://nmrlipids.github.io/FAIRMD_lipids/stable/schemas/experiment_metadata.html
+
 Experimental C-H bond order parameters from NMR (OrderParameters) and x-ray scattering form factors (FormFactors) 
 are collected to folder named according to the DOI of the original publication. Experimental conditions are described in dictionary
 format in README.yaml files within these folders. The keys of the dictionaries are defined as:
