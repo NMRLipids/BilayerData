@@ -13,7 +13,7 @@ PSF: step5_input.psf
 PDB: step5_input.pdb
 COMPOSITION:
   PDPC:
-    NAME: PDOP
+    NAME: PDOPC
     MAPPING: mappingPDPCcharmm.yaml
   SOL:
     NAME: TIP3
