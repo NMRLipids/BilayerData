@@ -3,9 +3,6 @@
 # T = 30 C
 # SSM:CHOL SSM mole fraction 0.5
 
-# 1' - 18' -> sphingosine chain = M_G3_M, M_N1_M, MG1_M, M_G1C1_M - M_G1C15_M
-# 2  - 18  -> fatty acid chain = M_N1C2_M - M_N1C18_M
-
 #sphingosine chain
 M_C3_M M_C3H1_M 0.3167
 M_C5_M M_C5H1_M 0.2770
