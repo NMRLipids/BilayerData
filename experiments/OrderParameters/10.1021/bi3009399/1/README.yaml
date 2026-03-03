@@ -1,13 +1,21 @@
-DOI: 10.1021/bi3009399
-TEMPERATURE: 303.2
-MOLAR_FRACTIONS:
+ARTICLE_DOI: 10.1021/bi3009399
+TEMPERATURE: 303.15
+MEMBRANE_COMPOSITION:
   SM18: 0.5
   CHOL: 0.5
-ION_CONCENTRATIONS:
-  POT: 0
-  SOD: 0
-  CLA: 0
-  CAL: 0
-TOTAL_LIPID_CONCENTRATION: 'full hydration'
-# 50 wt%
-COUNTER_IONS:
+SOLUTION_COMPOSITION:
+# empty
+PH: UNKNOWN
+REAGENT_SOURCES:
+  SM18: SSM purified from bovine brain SM, site specific labeling  
+  water: deuterium depleted water (Isotec Inc.)
+TOTAL_HYDRATION: 41
+SAMPLE_PROTOCOL: lyophilized power is hydrated
+
+NMR:
+  T_RF_HEATING: UNKNOWN
+  INSTRUMENT: CMX300 300 MHz (Chemagnetics, Varian), 5 mm  2H static probe
+  METHOD: 2H Quadrupole Echo 
+  SIGN_MEASURED: NONE
+  DETAILS: 90 pulse 2 us, interpulse 30 us, recycle 0.5 s, SW 200 kHz, NS 100000
+
