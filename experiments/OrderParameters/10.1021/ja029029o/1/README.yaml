@@ -10,7 +10,7 @@ REAGENT_SOURCES:
   water: Carefully degassed, deuterium-depleted water or D2O (Cambridge Isotope Laboratories, Woburn, MA)
 ADDITIONAL_MOLECULES:
   DTPA: diethylenetriaminepentaacetic acid, 1 mM
-  BHT: 2,6-di-tert-butyl-4-methylphenol, 1:150 (bht:lipid)
+  BHT: '2,6-di-tert-butyl-4-methylphenol, 1:150 (bht:lipid)'
 TOTAL_HYDRATION: 50
 SAMPLE_PROTOCOL:  lipid/water dispersions were homogenized by stirring and centrifugation and then packed
 
@@ -19,17 +19,17 @@ NMR:
   INSTRUMENT: Bruker DMX500 and DMX300, 4mm MAS probe
   METHOD: 2H:QE, 13C:INVREC/CP
   SIGN_MEASURED: NONE
-  DETAILS: >
-  Deuterium NMR spectra were observed at 46.1 MHz using a quadrupolar echo pulse sequence (d1-90°x-τ-90°y-acquire)
-  with a repetition time d1 = 0.5 s, a 2.7-μs 90° pulse, a delay time τ = 50 μs, and a spectral width of 200 kHz.
-  T1 were measured at a MAS spinning frequency of 10 kHz by the inversion−recovery pulse sequence (d1-180°-τ-90°-acquire),
-  a delay time d1= 11.5 s, a 5.5-μs 90° pulse, and a spectral width of 27.7 kHz. The experiments were conducted with 50 kHz
-  of proton noise decoupling during data acquisition.
-  The 13C NMR cross-polarization experiments were conducted at a MAS spinning frequency of 5 kHz using a shaped spin-lock pulse
-  that increments the carbon spin-lock field strength from 20 kHz to 25 kHz in 10 steps. 24 The spin-lock field strength for
-  1H resonances was adjusted to achieve maximum signal intensity using an adamantane sample. Signal intensity of lipid samples
-  was recorded as a function of contact time over the range from 100 μs to 300 ms.
-  Order parameter for 13C-1H was estimated form CP magnetization transfer as described in the manuscript.
+  DETAILS: |
+    Deuterium NMR spectra were observed at 46.1 MHz using a quadrupolar echo pulse sequence (d1-90°x-τ-90°y-acquire)
+    with a repetition time d1=0.5s, a 2.7-μs 90° pulse, a delay time τ=50μs, and a spectral width of 200kHz.
+    T1 were measured at a MAS spinning frequency of 10 kHz by the inversion−recovery pulse sequence (d1-180°-τ-90°-acquire),
+    a delay time d1=11.5s, a 5.5-μs 90° pulse, and a spectral width of 27.7kHz. The experiments were conducted with 50 kHz
+    of proton noise decoupling during data acquisition.
+    The 13C NMR cross-polarization experiments were conducted at a MAS spinning frequency of 5kHz using a shaped spin-lock pulse
+    that increments the carbon spin-lock field strength from 20kHz to 25kHz in 10 steps. 24 The spin-lock field strength for
+    1H resonances was adjusted to achieve maximum signal intensity using an adamantane sample. Signal intensity of lipid samples
+    was recorded as a function of contact time over the range from 100 μs to 300 ms.
+    Order parameter for 13C-1H was estimated form CP magnetization transfer as described in the manuscript.
 
 #OUTDATED FIELDS
 MOLAR_FRACTIONS:
