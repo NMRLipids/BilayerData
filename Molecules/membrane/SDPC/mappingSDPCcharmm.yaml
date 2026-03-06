@@ -1,3 +1,74 @@
+# headgroup
+M_G3P2_M:
+  ATOMNAME: P
+  FRAGMENT: headgroup
+M_G3P2O1_M:
+  ATOMNAME: O14
+  FRAGMENT: headgroup
+M_G3P2O2_M:
+  ATOMNAME: O13
+  FRAGMENT: headgroup
+M_G3O3_M:
+  ATOMNAME: O12
+  FRAGMENT: headgroup
+M_G3C4_M:
+  ATOMNAME: C11
+  FRAGMENT: headgroup
+M_G3C4H1_M:
+  ATOMNAME: H11A
+  FRAGMENT: headgroup
+M_G3C4H2_M:
+  ATOMNAME: H11B
+  FRAGMENT: headgroup
+M_G3C5_M:
+  ATOMNAME: C12
+  FRAGMENT: headgroup
+M_G3C5H1_M:
+  ATOMNAME: H12A
+  FRAGMENT: headgroup
+M_G3C5H2_M:
+  ATOMNAME: H12B
+  FRAGMENT: headgroup
+M_G3N6_M:
+  ATOMNAME: N
+  FRAGMENT: headgroup
+M_G3N6C1_M:
+  ATOMNAME: C13
+  FRAGMENT: headgroup
+M_G3N6C1H1_M:
+  ATOMNAME: H13A
+  FRAGMENT: headgroup
+M_G3N6C1H2_M:
+  ATOMNAME: H13B
+  FRAGMENT: headgroup
+M_G3N6C1H3_M:
+  ATOMNAME: H13C
+  FRAGMENT: headgroup
+M_G3N6C2_M:
+  ATOMNAME: C14
+  FRAGMENT: headgroup
+M_G3N6C2H1_M:
+  ATOMNAME: H14A
+  FRAGMENT: headgroup
+M_G3N6C2H2_M:
+  ATOMNAME: H14B
+  FRAGMENT: headgroup
+M_G3N6C2H3_M:
+  ATOMNAME: H14C
+  FRAGMENT: headgroup
+M_G3N6C3_M:
+  ATOMNAME: C15
+  FRAGMENT: headgroup
+M_G3N6C3H1_M:
+  ATOMNAME: H15A
+  FRAGMENT: headgroup
+M_G3N6C3H2_M:
+  ATOMNAME: H15B
+  FRAGMENT: headgroup
+M_G3N6C3H3_M:
+  ATOMNAME: H15C
+  FRAGMENT: headgroup
+# bb
 M_G1_M:
   ATOMNAME: C3
   FRAGMENT: glycerol backbone
@@ -9,6 +80,27 @@ M_G1H2_M:
   FRAGMENT: glycerol backbone
 M_G1O1_M:
   ATOMNAME: O31
+  FRAGMENT: glycerol backbone
+M_G2_M:
+  ATOMNAME: C2
+  FRAGMENT: glycerol backbone
+M_G2H1_M:
+  ATOMNAME: HS
+  FRAGMENT: glycerol backbone
+M_G2O1_M:
+  ATOMNAME: O21
+  FRAGMENT: glycerol backbone
+M_G3_M:
+  ATOMNAME: C1
+  FRAGMENT: glycerol backbone
+M_G3H1_M:
+  ATOMNAME: HA
+  FRAGMENT: glycerol backbone
+M_G3H2_M:
+  ATOMNAME: HB
+  FRAGMENT: glycerol backbone
+M_G3O1_M:
+  ATOMNAME: O11
   FRAGMENT: glycerol backbone
 # sn-1
 M_G1C2_M:
@@ -193,15 +285,6 @@ M_G1C19H3_M:
   ATOMNAME: H18Z
   FRAGMENT: sn-1
 # sn-2
-M_G2_M:
-  ATOMNAME: C2
-  FRAGMENT: glycerol backbone
-M_G2H1_M:
-  ATOMNAME: HS
-  FRAGMENT: glycerol backbone
-M_G2O1_M:
-  ATOMNAME: O21
-  FRAGMENT: glycerol backbone
 M_G2C2_M:
   ATOMNAME: C21
   FRAGMENT: sn-2
@@ -364,84 +447,4 @@ M_G2C23H2_M:
 M_G2C23H3_M:
   ATOMNAME: H22T
   FRAGMENT: sn-2
-M_G3_M:
-  ATOMNAME: C1
-  FRAGMENT: glycerol backbone
-M_G3H1_M:
-  ATOMNAME: HA
-  FRAGMENT: glycerol backbone
-M_G3H2_M:
-  ATOMNAME: HB
-  FRAGMENT: glycerol backbone
-M_G3O1_M:
-  ATOMNAME: O11
-  FRAGMENT: glycerol backbone
-M_G3P2_M:
-  ATOMNAME: P
-  FRAGMENT: headgroup
-M_G3P2O1_M:
-  ATOMNAME: O14
-  FRAGMENT: headgroup
-M_G3P2O2_M:
-  ATOMNAME: O13
-  FRAGMENT: headgroup
-M_G3O3_M:
-  ATOMNAME: O12
-  FRAGMENT: headgroup
-M_G3C4_M:
-  ATOMNAME: C11
-  FRAGMENT: headgroup
-M_G3C4H1_M:
-  ATOMNAME: H11A
-  FRAGMENT: headgroup
-M_G3C4H2_M:
-  ATOMNAME: H11B
-  FRAGMENT: headgroup
-M_G3C5_M:
-  ATOMNAME: C12
-  FRAGMENT: headgroup
-M_G3C5H1_M:
-  ATOMNAME: H12A
-  FRAGMENT: headgroup
-M_G3C5H2_M:
-  ATOMNAME: H12B
-  FRAGMENT: headgroup
-M_G3N6_M:
-  ATOMNAME: N
-  FRAGMENT: headgroup
-M_G3N6C1_M:
-  ATOMNAME: C13
-  FRAGMENT: headgroup
-M_G3N6C1H1_M:
-  ATOMNAME: H13A
-  FRAGMENT: headgroup
-M_G3N6C1H2_M:
-  ATOMNAME: H13B
-  FRAGMENT: headgroup
-M_G3N6C1H3_M:
-  ATOMNAME: H13C
-  FRAGMENT: headgroup
-M_G3N6C2_M:
-  ATOMNAME: C14
-  FRAGMENT: headgroup
-M_G3N6C2H1_M:
-  ATOMNAME: H14A
-  FRAGMENT: headgroup
-M_G3N6C2H2_M:
-  ATOMNAME: H14B
-  FRAGMENT: headgroup
-M_G3N6C2H3_M:
-  ATOMNAME: H14C
-  FRAGMENT: headgroup
-M_G3N6C3_M:
-  ATOMNAME: C15
-  FRAGMENT: headgroup
-M_G3N6C3H1_M:
-  ATOMNAME: H15A
-  FRAGMENT: headgroup
-M_G3N6C3H2_M:
-  ATOMNAME: H15B
-  FRAGMENT: headgroup
-M_G3N6C3H3_M:
-  ATOMNAME: H15C
-  FRAGMENT: headgroup
+
