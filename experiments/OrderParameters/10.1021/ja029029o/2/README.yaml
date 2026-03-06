@@ -1,12 +1,12 @@
 ARTICLE_DOI: 10.1021/ja029029o
 TEMPERATURE: 303.15
 MEMBRANE_COMPOSITION:
-  SDPC: 1
+  SD5PC: 1
 SOLUTION_COMPOSITION:
 # empty
 PH: UNKNOWN
 REAGENT_SOURCES:
-  SDPC: (d3518:0)-SDPC was synthesized by Avanti Polar lipids.
+  SDPC: (d3518:0)-Docosopentanoeyl-PC was synthesized by Avanti Polar lipids. The docosopentanoeic acid (98%, by HPLC and GC) was provided by the Nutrasweet Kelco Company (Deerfield, IL).
   water: Carefully degassed, deuterium-depleted water or D2O (Cambridge Isotope Laboratories, Woburn, MA)
 ADDITIONAL_MOLECULES:
   DTPA: diethylenetriaminepentaacetic acid, 1 mM
@@ -33,7 +33,7 @@ NMR:
 
 #OUTDATED FIELDS
 MOLAR_FRACTIONS:
-  SDPC: 1
+  SD5PC: 1
 ION_CONCENTRATIONS:
   POT: 0
   SOD: 0
