@@ -33,6 +33,7 @@ TYPEOFSYSTEM: lipid bilayer
 ID: 900
 EXPERIMENT:
   ORDERPARAMETER:
-    SDPC: []
+    SDPC:
+    - 10.1021/ja029029o/1
   FORMFACTOR:
   - 10.1016/j.chemphyslip.2020.104892/2
