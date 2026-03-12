@@ -1,0 +1,173 @@
+cff-version: 1.2.1
+title: FAIRMD BilayerData
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - name: larabort
+    family-names: Dautzenberg
+    given-names: Lara
+  - name: comcon1
+    family-names: Nesterenko
+    given-names: Alexey
+  - name: ohsOllila
+    family-names: Ollila
+    given-names: O. H. Samuli
+  - name: korbinib
+    family-names: Bösl
+    given-names: Korbinian
+    orcid: https://orcid.org/0000-0003-0498-4273  
+  - name: MagnusSletten
+    family-names: Sletten
+    given-names: Magnus-Elias
+  - name: batukav
+    family-names: Kav
+    given-names: Batuhan
+  - name: markussmiettinen
+    family-names: Miettinen
+    given-names: Markus
+  - names: tfmFerreira 
+    family-names: Ferreira
+    given-names: Tiago Mendes
+  - name: akiirik
+    family-names: Kiirikki
+    given-names: Anne  
+  - name: ferdi385
+    family-names: Hörstel
+    given-names: Ferdinand
+  - name: PEFrankel
+    family-names: Frankel
+    given-names: Patrick
+  - name: Avneesh.Singh 
+    family-names: Singh
+    given-names: Avneesh
+  - name: frgr2254
+    family-names: Grote
+    given-names: Frederik
+  - name: thraindk
+    family-names: Mingham
+    given-names: Cedric
+  - name: fsuarezleston
+    family-names: Suárez-Lestón
+    given-names: Fabián   
+  - name: mdondrup
+    family-names: Dondrup
+    given-names: Michael  
+  - name: jagdep-singh
+    family-names: Singh
+    given-names: Jagdeep  
+  - name: ffavelar 
+    family-names: Favela-Rosales
+    given-names: Fernando
+  - name: MelbourneFL
+    family-names: Vogel
+    given-names: Alexander
+  - name: awurl
+    family-names: Wurl
+    given-names: Anika
+  - name: JHoeflich1
+    family-names: Hoeflich
+    given-names: Julianne
+  - name: hseara
+    family-names: Monne
+    given-names: Hector Martinez-Seara
+  - name: pbuslaev
+    family-names: Buslaev
+    given-names: Pavel
+  - name: suviheinonen
+    family-names: Heinonen
+    given-names: Suvi
+identifiers:
+  - type: url
+    value: >-
+      https://github.com/NMRLipids/BilayerData/releases/tag/v1.3.3
+    description: The URL of version 1.3.3 of the dataset
+repository-code: 'https://github.com/NMRLipids/BilayerData'
+repository: 'https://databank.nmrlipids.fi/'
+abstract: >-
+  FAIRMD BilayerData is an on-github database of quality-evaluated lipid bilayer structures operated by the FAIRMD Lipids Project. The database contains information
+  about:
+  experiments, namely form factor data from Small-Angle X-ray Scattering (SAXS) experiments and order parameter data from 1H-13C dipolar splitting or from 2H quadrupolar splitting NMR experiments
+  MD simulations, run by different engines using various force fields the molecules included in the experimental and simulation compositions, along with atom namings in different force fields and detailed metadata for each
+
+  The database doesn't store raw simulation or experiment data; it uses an overlay databank approach, i.e., stores only links to public archives like Zenodo, where complete MD trajectories must be stored. The database structure is described in detail in the FAIRMD Lipids documentation.
+  All the simulations from this database are mirrored at the NMRlipids webUI.
+
+license: CC-BY-4.0
+commit: 3e26622538bfb3f0da7b51f5e9641a870441aa35
+version: 1.3.3
+date-released: '2020-01-08'
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Kiirikki
+      given-names: Anne M.
+    - family-names: Antila
+      given-names: Hanne S.
+    - family-names: Bort
+      given-names: Lara S.
+    - family-names: Buslaev
+      given-names: Pavel
+    - family-names: Favela-Rosales
+      given-names: Fernando
+    - family-names: Ferreira
+      given-names: Tiago Mendes
+    - family-names: Fuchs
+      given-names: Patrick F. J.
+    - family-names: Garcia-Fandino
+      given-names: Rebeca
+    - family-names: Gushchin
+      given-names: Ivan
+    - family-names: Kav
+      given-names: Batuhan
+    - family-names: Kučerka
+      given-names: Norbert
+    - family-names: Kula
+      given-names: Patrik
+    - family-names: Kurki
+      given-names: Milla
+    - family-names: Kuzmin
+      given-names: Alexander
+    - family-names: Lalitha
+      given-names: Anusha
+    - family-names: Lolicato
+      given-names: Fabio
+    - family-names: Madsen
+      given-names: Jesper J.
+    - family-names: Miettinen
+      given-names: Markus S.
+    - family-names: Mingham
+      given-names: Cedric
+    - family-names: Monticelli
+      given-names: Luca
+    - family-names: Nencini
+      given-names: Ricky
+    - family-names: Nesterenko
+      given-names: Alexey M.
+    - family-names: Piggot
+      given-names: Thomas J.
+    - family-names: Piñeiro
+      given-names: Ángel
+    - family-names: Reuter
+      given-names: Nathalie
+    - family-names: Samantray
+      given-names: Suman
+    - family-names: Suárez-Lestón
+      given-names: Fabián
+    - family-names: Talandashti
+      given-names: Reza
+    - family-names: Ollila
+      given-names: O. H. Samuli
+  title: Overlay Databank Unlocks Data-Driven Analyses of Biomolecules for All
+  journal: Nature Communications
+  volume: 15
+  issue: 1
+  pages: 1136
+  year: 2024
+  month: 2
+  issn: 2041-1723
+  doi: 10.1038/s41467-024-45189-z
+  abstract: >-
+    Tools based on artificial intelligence (AI) are currently revolutionising many fields, yet their applications are often limited by the lack of suitable training data in programmatically accessible format. Here we propose an effective solution to make data scattered in various locations and formats accessible for data-driven and machine learning applications using the overlay databank format. To demonstrate the practical relevance of such approach, we present the NMRlipids Databank—a community-driven, open-for-all database featuring programmatic access to quality-evaluated atom-resolution molecular dynamics simulations of cellular membranes. Cellular membrane lipid composition is implicated in diseases and controls major biological functions, but membranes are difficult to study experimentally due to their intrinsic disorder and complex phase behaviour. While MD simulations have been useful in understanding membrane systems, they require significant computational resources and often suffer from inaccuracies in model parameters. Here, we demonstrate how programmable interface for flexible implementation of data-driven and machine learning applications, and rapid access to simulation data through a graphical user interface, unlock possibilities beyond current MD simulation and experimental studies to understand cellular membranes. The proposed overlay databank concept can be further applied to other biomolecules, as well as in other fields where similar barriers hinder the AI revolution.
+

@@ -20,6 +20,6 @@ Mapping especially to LIPID MAPS and SwissLipids might be incomplete in some cas
 2. Once you address an issue, please refer it in commit message by using phrases like 'Partially fixes #000'.
 3. We recommend contributors to squash commits if the changes are just adding new data.
 4. We require at least one review from organisation member to accept a pull-request.
-5. Check representation of yourself in `AUTHORS.md` file.
+5. Check representation of yourself in `AUTHORS.md` and `CITATION.cff` files.
 6. You are always welcome to participate in repository discussions and NMRlipids community events to develop data and code together.
 
