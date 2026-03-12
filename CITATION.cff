@@ -6,6 +6,8 @@ message: >-
 type: dataset
 authors:
   - name: larabort
+    family-names: Dautzenberg
+    given-names: Lara
   - name: comcon1
     family-names: Nesterenko
     given-names: Alexey
@@ -17,6 +19,8 @@ authors:
     given-names: Korbinian
     orcid: https://orcid.org/0000-0003-0498-4273  
   - name: MagnusSletten
+    family-names: Sletten
+    given-names: Magnus-Elias
   - name: batukav
     family-names: Kav
     given-names: Batuhan
@@ -25,17 +29,24 @@ authors:
     given-names: Markus
   - names: tfmFerreira 
     family-names: Ferreira
-    given-names: Tiago M.
+    given-names: Tiago Mendes
   - name: akiirik
+    family-names: Kiirikki
+    given-names: Anne  
   - name: ferdi385
     family-names: Hörstel
     given-names: Ferdinand
   - name: PEFrankel
+    family-names: Frankel
+    given-names: Patrick
   - name: Avneesh.Singh 
     family-names: Singh
     given-names: Avneesh
   - name: frgr2254
+    family-names: Grote
+    given-names: Frederik
   - name: thraindk
+    family-names: Mingham
     given-names: Cedric
   - name: fsuarezleston
     family-names: Suárez-Lestón
@@ -47,7 +58,26 @@ authors:
     family-names: Singh
     given-names: Jagdeep  
   - name: ffavelar 
-    given-names: Fercho
+    family-names: Favela-Rosales
+    given-names: Fernando
+  - name: MelbourneFL
+    family-names: Vogel
+    given-names: Alexander
+  - name: awurl
+    family-names: Wurl
+    given-names: Anika
+  - name: JHoeflich1
+    family-names: Hoeflich
+    given-names: Julianne
+  - name: hseara
+    family-names: Monne
+    given-names: Hector Martinez-Seara
+  - name: pbuslaev
+    family-names: Buslaev
+    given-names: Pavel
+  - name: suviheinonen
+    family-names: Heinonen
+    given-names: Suvi
 identifiers:
   - type: url
     value: >-
