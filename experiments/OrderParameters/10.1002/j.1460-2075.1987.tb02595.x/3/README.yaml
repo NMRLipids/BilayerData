@@ -17,11 +17,28 @@ SAMPLE_PROTOCOL: >
   measurements were performed to determine segmental order parameters of lipid
   acyl chains.
 NMR:
-  INSTRUMENT: UNKNOWN
+  INSTRUMENT: Bruker-Spektrospin CXP 300, 46.1 MHz for 2H
   METHOD: 2H:QE
   SIGN_MEASURED: NONE
   T_RF_HEATING: UNKNOWN
   DETAILS: >
-    Deuterium NMR order parameters of POPC headgroup in POPC/POPE mixture.
+    2H NMR spectra measured using quadrupole echo technique (Davis et al., 1976).
+    90 degree pulses of 3.5-4.0 us with echo separation of 30 us.
+    4K data points, quadrature phase detection.
+    Recycle delay of at least 7 T1.
     Alpha order parameter taken from Fig. 5 in Scherer and Seelig,
     EMBO Journal vol.6 no.10 pp.2915-2922, 1987.
+
+#outdated
+DOI: 10.1002/j.1460-2075.1987.tb02595.x
+TEMPERATURE: 298
+MOLAR_FRACTIONS:
+  POPC: 0.789743589744
+  POPE: 0.210256410256
+ION_CONCENTRATIONS:
+  POT: 0
+  SOD: 0
+  CLA: 0
+  CAL: 0
+TOTAL_LIPID_CONCENTRATION: "full hydration"
+COUNTER_IONS:
