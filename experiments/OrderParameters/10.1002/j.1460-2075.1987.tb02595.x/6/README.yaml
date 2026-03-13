@@ -1,13 +1,27 @@
-DOI: 10.1002/j.1460-2075.1987.tb02595.x
-TEMPERATURE: 298
-MOLAR_FRACTIONS:
-  POPC: 0.506779661
+ARTICLE_DOI: 10.1002/j.1460-2075.1987.tb02595.x
+TEMPERATURE: 298  # K
+MEMBRANE_COMPOSITION:
+  POPC: 0.506779661017
   POPG: 0.493220338983
-ION_CONCENTRATIONS:
-  POT: 0
-  SOD: 0
-  CLA: 0
-  CAL: 0
-TOTAL_LIPID_CONCENTRATION: full hydration
-COUNTER_IONS:
-  SOD: POPG
+SOLUTION_COMPOSITION:
+TOTAL_HYDRATION: 99  # mass %
+PH: UNKNOWN
+PH_METHOD: UNKNOWN
+REAGENT_SOURCES:
+  POPC: Avanti Polar Lipids
+  POPG: Avanti Polar Lipids
+  H2O: Ultrapure water
+SAMPLE_PROTOCOL: >
+  Mixed POPC/POPG lipid samples were prepared and hydrated under excess water
+  conditions to form fully hydrated multilamellar vesicles. Deuterium NMR
+  measurements were performed to determine segmental order parameters of lipid
+  acyl chains.
+NMR:
+  INSTRUMENT: UNKNOWN
+  METHOD: 2H:QE
+  SIGN_MEASURED: NONE
+  T_RF_HEATING: UNKNOWN
+  DETAILS: >
+    Deuterium NMR order parameters of POPC headgroup in POPC/POPG mixture.
+    Beta order parameter taken from POPC:POPG data,
+    POPG molar fraction 0.493220338983.
