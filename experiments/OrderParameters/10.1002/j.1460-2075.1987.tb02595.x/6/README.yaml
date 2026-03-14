@@ -1,32 +1,41 @@
 ARTICLE_DOI: 10.1002/j.1460-2075.1987.tb02595.x
-TEMPERATURE: 298  # K
+TEMPERATURE: 298  # K, 25 degrees C as stated for Fig. 5
 MEMBRANE_COMPOSITION:
   POPC: 0.506779661017
   POPG: 0.493220338983
 SOLUTION_COMPOSITION:
-TOTAL_HYDRATION: 99  # mass %
-PH: UNKNOWN
-PH_METHOD: UNKNOWN
+  SOD: 0.150  # 150 mM NaCl
+  CLA: 0.150  # 150 mM NaCl
+TOTAL_HYDRATION: 33  # lipid/buffer ratio 1:2 (%w/%v), approx 33 mass % lipid
+PH: 7.4
+PH_METHOD: buffer  # 20 mM Hepes buffer pH 7.4
 REAGENT_SOURCES:
-  POPC: Avanti Polar Lipids
-  POPG: Avanti Polar Lipids
-  H2O: Ultrapure water
+  POPC: >
+    alpha- and beta-deuterated POPC synthesized in-house from PA (Avanti Polar
+    Lipids, Birmingham, AL, USA) following the method of Harbison and Griffin (1984).
+    Deuterated choline synthesized as described in Gally et al. (1975) and
+    Seelig and Gally (1976).
+  POPG: Avanti Polar Lipids, Birmingham, AL, USA
+  H2O: Deuterium-depleted water
 SAMPLE_PROTOCOL: >
-  Mixed POPC/POPG lipid samples were prepared and hydrated under excess water
-  conditions to form fully hydrated multilamellar vesicles. Deuterium NMR
-  measurements were performed to determine segmental order parameters of lipid
-  acyl chains.
+  Mixtures of head group deuterated POPC and POPG were prepared by pipetting
+  corresponding volumes of concentrated stock solutions (10 mg/ml in
+  dichloromethane/methanol) into NMR measuring tubes. The solvent was evaporated
+  and lipids were dried under high vacuum (under P2O5) for several hours.
+  Phospholipids were dispersed at room temperature in 20 mM Hepes (pH 7.4)
+  buffer containing 150 mM NaCl. Buffer was prepared with deuterium-depleted
+  water to minimize isotropic 2H-NMR signals. Lipid/buffer ratio was 1:2 (%w/%v).
 NMR:
-  INSTRUMENT: Bruker-Spektrospin CXP 300, 46.1 MHz for 2H
+  INSTRUMENT: Bruker-Spektrospin CXP 300, 46.1 MHz for 2H, 121.48 MHz for 31P
   METHOD: 2H:QE
   SIGN_MEASURED: NONE
   T_RF_HEATING: UNKNOWN
   DETAILS: >
     2H NMR spectra measured using quadrupole echo technique (Davis et al., 1976).
     90 degree pulses of 3.5-4.0 us with echo separation of 30 us.
-    4K data points, quadrature phase detection.
+    4K data points, quadrature phase detection, spectral width of 50 kHz.
     Recycle delay of at least 7 T1.
-    Beta order parameter taken from POPC:POPG data,
+    Beta order parameter of POPC taken from Fig. 5B (beta-deuterated POPC),
     POPG molar fraction 0.493220338983.
 
 #outdated
@@ -37,8 +46,8 @@ MOLAR_FRACTIONS:
   POPG: 0.493220338983
 ION_CONCENTRATIONS:
   POT: 0
-  SOD: 0
-  CLA: 0
+  SOD: 0.150
+  CLA: 0.150
   CAL: 0
-TOTAL_LIPID_CONCENTRATION: "full hydration"
+TOTAL_LIPID_CONCENTRATION: "1:2 lipid/buffer ratio (%w/%v)"
 COUNTER_IONS:
