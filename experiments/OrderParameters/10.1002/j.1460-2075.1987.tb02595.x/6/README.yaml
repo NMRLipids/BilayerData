@@ -1,30 +1,33 @@
 ARTICLE_DOI: 10.1002/j.1460-2075.1987.tb02595.x
 TEMPERATURE: 298  # K, 25 degrees C as stated for Fig. 5
 MEMBRANE_COMPOSITION:
-  POPC: 0.506779661017
-  POPG: 0.493220338983
+  POPC: 0.507
+  POPG: 0.493
 SOLUTION_COMPOSITION:
   SOD: 0.150  # 150 mM NaCl
   CLA: 0.150  # 150 mM NaCl
-TOTAL_HYDRATION: 33  # lipid/buffer ratio 1:2 (%w/%v), approx 33 mass % lipid
+ADDITIONAL_MOLECULES:
+  HEPES: 20 mM Hepes buffer, pH 7.4
+TOTAL_HYDRATION: 66.7  # lipid/buffer = 1:2 (%w/%v), water mass% = 2/(1+2)*100
 PH: 7.4
-PH_METHOD: buffer  # 20 mM Hepes buffer pH 7.4
+PH_METHOD: buffer  # 20 mM Hepes buffer
 REAGENT_SOURCES:
   POPC: >
-    alpha- and beta-deuterated POPC synthesized in-house from PA (Avanti Polar
-    Lipids, Birmingham, AL, USA) following the method of Harbison and Griffin (1984).
-    Deuterated choline synthesized as described in Gally et al. (1975) and
+    Choline headgroup is alpha- and beta-deuterated. POPC synthesized from
+    corresponding PA (Avanti Polar Lipids, Birmingham, AL, USA) following
+    the method of Harbison and Griffin (1984). Alpha- and beta-deuterated
+    choline synthesized as described in Gally et al. (1975) and
     Seelig and Gally (1976).
   POPG: Avanti Polar Lipids, Birmingham, AL, USA
   H2O: Deuterium-depleted water
 SAMPLE_PROTOCOL: >
-  Mixtures of head group deuterated POPC and POPG were prepared by pipetting
+  Mixtures of headgroup deuterated POPC and POPG were prepared by pipetting
   corresponding volumes of concentrated stock solutions (10 mg/ml in
-  dichloromethane/methanol) into NMR measuring tubes. The solvent was evaporated
-  and lipids were dried under high vacuum (under P2O5) for several hours.
-  Phospholipids were dispersed at room temperature in 20 mM Hepes (pH 7.4)
-  buffer containing 150 mM NaCl. Buffer was prepared with deuterium-depleted
-  water to minimize isotropic 2H-NMR signals. Lipid/buffer ratio was 1:2 (%w/%v).
+  dichloromethane/methanol) into NMR measuring tubes. The solvent was
+  evaporated and lipids were dried under high vacuum (under P2O5) for
+  several hours. Phospholipids were dispersed at room temperature in
+  20 mM Hepes (pH 7.4) buffer containing 150 mM NaCl, prepared with
+  deuterium-depleted water. Lipid/buffer ratio was 1:2 (%w/%v).
 NMR:
   INSTRUMENT: Bruker-Spektrospin CXP 300, 46.1 MHz for 2H, 121.48 MHz for 31P
   METHOD: 2H:QE
@@ -34,16 +37,16 @@ NMR:
     2H NMR spectra measured using quadrupole echo technique (Davis et al., 1976).
     90 degree pulses of 3.5-4.0 us with echo separation of 30 us.
     4K data points, quadrature phase detection, spectral width of 50 kHz.
-    Recycle delay of at least 7 T1.
-    Beta order parameter of POPC taken from Fig. 5B (beta-deuterated POPC),
-    POPG molar fraction 0.493220338983.
+    Recycle delay of at least 7 T1. Alpha and beta read directly from
+    Fig. 5A and 5B at Xb=0.494 using WebPlotDigitizer.
+    SCD = 0.00784 * delta_vQ(kHz).
 
 #outdated
 DOI: 10.1002/j.1460-2075.1987.tb02595.x
 TEMPERATURE: 298
 MOLAR_FRACTIONS:
-  POPC: 0.506779661017
-  POPG: 0.493220338983
+  POPC: 0.507
+  POPG: 0.493
 ION_CONCENTRATIONS:
   POT: 0
   SOD: 0.150
