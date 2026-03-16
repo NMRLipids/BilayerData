@@ -9,7 +9,7 @@ REAGENT_SOURCES:
   H2O: High-Q purification system
 SAMPLE_PROTOCOL: >
   SM18 lipid films were prepared from chloroform stock solutions and dried
-  under inert atmosphere. Samples were hydrated with ultrapure water using
+  under an inert atmosphere. Samples were hydrated with ultrapure water using
   repeated freeze–thaw cycles to achieve full hydration. Vesicles were prepared
   by extrusion prior to SAXS measurements.
 XRAY:
@@ -17,5 +17,16 @@ XRAY:
   LAMBDA: 1.17            # Å
   DETECTOR: FLICAM CCD camera
   DISTANCE: 0.4267        # m
-  DATATYPE: FORM_FACTOR
+  DATATYPE: batch
   SAMPLE_TYPE: SUV
+
+# outdated fields
+MOLAR_FRACTIONS:
+  SM18: 1
+ION_CONCENTRATIONS:
+  POT: 0
+  SOD: 0
+  CLA: 0
+  CAL: 0
+TOTAL_LIPID_CONCENTRATION: "full hydration"
+COUNTER_IONS:
