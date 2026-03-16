@@ -4,13 +4,13 @@ MEMBRANE_COMPOSITION:
   POPC: 0.800
   POPG: 0.200
 SOLUTION_COMPOSITION:
-  SOD: 0.150  # 150 mM NaCl
-  CLA: 0.150  # 150 mM NaCl
+  SOD: 1.65  # 150 mM NaCl + Na+(PG)
+  CLA: 0.533  # 150 mM NaCl
 ADDITIONAL_MOLECULES:
-  HEPES: 20 mM Hepes buffer, pH 7.4
+  HEPES: 4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid, 20 mM
 TOTAL_HYDRATION: 66.7  # lipid/buffer = 1:2 (%w/%v), water mass% = 2/(1+2)*100
 PH: 7.4
-PH_METHOD: buffer  # 20 mM Hepes buffer
+PH_METHOD: buffer
 REAGENT_SOURCES:
   POPC: >
     Choline headgroup is alpha- and beta-deuterated. POPC synthesized from
@@ -29,21 +29,19 @@ SAMPLE_PROTOCOL: >
   20 mM Hepes (pH 7.4) buffer containing 150 mM NaCl, prepared with
   deuterium-depleted water. Lipid/buffer ratio was 1:2 (%w/%v).
 NMR:
-  INSTRUMENT: Bruker-Spektrospin CXP 300, 46.1 MHz for 2H, 121.48 MHz for 31P
+  INSTRUMENT: Bruker-Spektrospin CXP 300
   METHOD: 2H:QE
   SIGN_MEASURED: NONE
   T_RF_HEATING: UNKNOWN
   DETAILS: >
-    2H NMR spectra measured using quadrupole echo technique (Davis et al., 1976).
+    2H NMR spectra measured using quadrupole echo technique (Davis et al., 1976), 46.1 MHz.
     90 degree pulses of 3.5-4.0 us with echo separation of 30 us.
     4K data points, quadrature phase detection, spectral width of 50 kHz.
     Recycle delay of at least 7 T1. Alpha read from Fig. 5A at Xb=0.208,
     beta interpolated from Fig. 5B at Xb=0.200 using WebPlotDigitizer.
     SCD = 0.00784 * delta_vQ(kHz).
 
-#outdated
-DOI: 10.1002/j.1460-2075.1987.tb02595.x
-TEMPERATURE: 298
+# outdated fields
 MOLAR_FRACTIONS:
   POPC: 0.800
   POPG: 0.200
@@ -52,5 +50,6 @@ ION_CONCENTRATIONS:
   SOD: 0.150
   CLA: 0.150
   CAL: 0
-TOTAL_LIPID_CONCENTRATION: "1:2 lipid/buffer ratio (%w/%v)"
+TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
+  SOD: POPG
