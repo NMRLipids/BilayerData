@@ -34,9 +34,9 @@ jobs:
         working-directory: BilayerData
         run: |
           exit_code=0
-          find experiments -name README.yaml | while read -r file; do
+          while IFS= read -r file; do
             if [ -f "$file" ]; then
               check-jsonschema --schemafile ../Databank/src/fairmd/lipids/schema_validation/schema/experiment_schema.json "$file" || exit_code=1
             fi
-          done
+          done < <(find experiments -name README.yaml)
           exit $exit_code
