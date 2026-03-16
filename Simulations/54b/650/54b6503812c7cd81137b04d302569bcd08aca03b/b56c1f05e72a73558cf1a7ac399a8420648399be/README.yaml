@@ -32,6 +32,7 @@ TOP:
 - - popc.top
 PREEQTIME: 10
 DOI: 10.5281/zenodo.13944
+DATE: 2015-01-14
 DATEOFRUNNING: 01/10/2021
 TPR:
 - - popcRUN2.tpr

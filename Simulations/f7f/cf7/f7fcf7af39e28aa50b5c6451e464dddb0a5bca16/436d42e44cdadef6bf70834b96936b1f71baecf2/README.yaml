@@ -39,6 +39,7 @@ TOP:
 - - topol.top
 PREEQTIME: 500
 DOI: 10.5281/zenodo.45007
+DATE: 2016-01-19
 DATEOFRUNNING: 12/10/2021
 TPR:
 - - md.tpr
