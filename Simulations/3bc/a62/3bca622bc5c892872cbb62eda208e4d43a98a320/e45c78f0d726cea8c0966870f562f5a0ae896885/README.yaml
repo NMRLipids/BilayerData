@@ -1,4 +1,5 @@
 DOI: 10.5281/zenodo.1402411
+DATE: 2018-08-23
 SOFTWARE: gromacs
 TRJ:
 - - md_dt100_OK_centered.xtc

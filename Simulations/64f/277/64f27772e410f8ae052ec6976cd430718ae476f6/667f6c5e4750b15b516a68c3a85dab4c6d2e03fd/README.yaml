@@ -41,6 +41,7 @@ TOP:
 - - DPPC_512_NaCl_150mM_320K_v-rescale_md.top
 PREEQTIME: 0
 DOI: 10.5281/zenodo.16276
+DATE: 2015-03-23
 DATEOFRUNNING: 05/10/2021
 TPR:
 - - DPPC_512_NaCl_150mM_320K_v-rescale_md.tpr

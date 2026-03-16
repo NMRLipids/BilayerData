@@ -32,6 +32,7 @@ TOP:
 - - original_CHARMM_tip4p2005water_no_ions.top
 PREEQTIME: 0
 DOI: 10.5281/zenodo.3431948
+DATE: 2019-09-17
 DATEOFRUNNING: 04/10/2021
 TPR:
 - - original_CHARMM_tip4p2005water_no_ions.tpr

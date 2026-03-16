@@ -33,6 +33,7 @@ TOP:
 - - topol.top
 PREEQTIME: 150
 DOI: 10.5281/zenodo.153944
+DATE: 2016-09-13
 DATEOFRUNNING: 01/10/2021
 TPR:
 - - step7_11.tpr

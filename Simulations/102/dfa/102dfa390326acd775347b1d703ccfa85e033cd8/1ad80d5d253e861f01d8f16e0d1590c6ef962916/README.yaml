@@ -33,6 +33,7 @@ FF: Berger
 SOFTWARE: gromacs
 PREEQTIME: 0
 DOI: 10.5281/zenodo.4537207
+DATE: 2021-02-12
 DATEOFRUNNING: 01/10/2021
 TPR:
 - - protonated.tpr
