@@ -1,12 +1,11 @@
 #POPC alpha and beta taken from Fig. 5 in Scherer and Seelig EMBO Journal vol.6 no.10 pp.2915-2922, 1987
 #POPC:POPE POPE mole fraction 0.051
 #
-# CHANGES MADE (compared to original file):
 # 1. Alpha (M_G3C4H): Previously had two different values from two different papers.
 #    Now corrected to a single value from Fig. 5A only, as both H1 and H2 protons
 #    are experimentally equivalent and only one paper should be used per folder.
 #    Value interpolated from Fig. 5A PE trend line at Xb=0.051 using WebPlotDigitizer.
-# 2. Beta (M_G3C5H): Was NaN in original file. Now filled with value interpolated
+# 2. Beta (M_G3C5H): Was NaN in the original file. Now filled with value interpolated
 #    from Fig. 5B PE trend line at Xb=0.051 using WebPlotDigitizer.
 # 3. Error set to 0.03 to reflect interpolation uncertainty.
 # 4. SCD = 0.00784 * delta_vQ(kHz) as per
