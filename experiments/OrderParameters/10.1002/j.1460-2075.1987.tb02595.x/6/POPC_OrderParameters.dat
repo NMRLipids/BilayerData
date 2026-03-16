@@ -1,7 +1,6 @@
 #POPC alpha and beta taken from Fig. 5 in Scherer and Seelig EMBO Journal vol.6 no.10 pp.2915-2922, 1987
 #POPC:POPG POPG mole fraction 0.493
 #
-# CHANGES MADE (compared to original file):
 # 1. Alpha (M_G3C4H): Original file had two DIFFERENT alpha values assigned to H1
 #    and H2 from two different papers. This is incorrect — H1 and H2 at the alpha
 #    position are experimentally equivalent and data from only one paper should
