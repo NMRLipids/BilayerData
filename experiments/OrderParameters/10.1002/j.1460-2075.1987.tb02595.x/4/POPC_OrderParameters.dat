@@ -1,7 +1,6 @@
 #POPC alpha and beta taken from Fig. 5 in Scherer and Seelig EMBO Journal vol.6 no.10 pp.2915-2922, 1987
 #POPC:POPG POPG mole fraction 0.200
 #
-# CHANGES MADE (compared to original file):
 # 1. Alpha (M_G3C4H): Previously had two different values from two different papers
 #    (Scherer & Seelig 1987 and Macdonald & Seelig 1987). Now corrected to a single
 #    value from Fig. 5A only, read directly at Xb=0.208 using WebPlotDigitizer.
