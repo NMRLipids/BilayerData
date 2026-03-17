@@ -1,12 +1,54 @@
-DOI: 10.1002/j.1460-2075.1987.tb02595.x
-TEMPERATURE: 298
+ARTICLE_DOI: 10.1002/j.1460-2075.1987.tb02595.x
+TEMPERATURE: 298  # K, 25 degrees C as stated for Fig. 5
+MEMBRANE_COMPOSITION:
+  POPC: 0.800
+  POPG: 0.200
+SOLUTION_COMPOSITION:
+  SOD: 0.54  # 150 mM NaCl + Na+(PG)
+  CLA: 0.533  # 150 mM NaCl
+ADDITIONAL_MOLECULES:
+  HEPES: 4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid, 20 mM
+TOTAL_HYDRATION: 66.7  # lipid/buffer = 1:2 (%w/%v), water mass% = 2/(1+2)*100
+PH: 7.4
+PH_METHOD: buffer
+REAGENT_SOURCES:
+  POPC: >
+    Choline headgroup is alpha- and beta-deuterated. POPC synthesized from
+    corresponding PA (Avanti Polar Lipids, Birmingham, AL, USA) following
+    the method of Harbison and Griffin (1984). Alpha- and beta-deuterated
+    choline synthesized as described in Gally et al. (1975) and
+    Seelig and Gally (1976).
+  POPG: Avanti Polar Lipids, Birmingham, AL, USA
+  H2O: Deuterium-depleted water
+SAMPLE_PROTOCOL: >
+  Mixtures of headgroup deuterated POPC and POPG were prepared by pipetting
+  corresponding volumes of concentrated stock solutions (10 mg/ml in
+  dichloromethane/methanol) into NMR measuring tubes. The solvent was
+  evaporated and lipids were dried under high vacuum (under P2O5) for
+  several hours. Phospholipids were dispersed at room temperature in
+  20 mM Hepes (pH 7.4) buffer containing 150 mM NaCl, prepared with
+  deuterium-depleted water. Lipid/buffer ratio was 1:2 (%w/%v).
+NMR:
+  INSTRUMENT: Bruker-Spektrospin CXP 300
+  METHOD: 2H:QE
+  SIGN_MEASURED: NONE
+  T_RF_HEATING: UNKNOWN
+  DETAILS: >
+    2H NMR spectra measured using quadrupole echo technique (Davis et al., 1976), 46.1 MHz.
+    90 degree pulses of 3.5-4.0 us with echo separation of 30 us.
+    4K data points, quadrature phase detection, spectral width of 50 kHz.
+    Recycle delay of at least 7 T1. Alpha read from Fig. 5A at Xb=0.208,
+    beta interpolated from Fig. 5B at Xb=0.200 using WebPlotDigitizer.
+    SCD = 0.00784 * delta_vQ(kHz).
+
+# outdated fields
 MOLAR_FRACTIONS:
-  POPC: 0.80
-  POPG: 0.20
+  POPC: 0.800
+  POPG: 0.200
 ION_CONCENTRATIONS:
   POT: 0
-  SOD: 0
-  CLA: 0
+  SOD: 0.150
+  CLA: 0.150
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
