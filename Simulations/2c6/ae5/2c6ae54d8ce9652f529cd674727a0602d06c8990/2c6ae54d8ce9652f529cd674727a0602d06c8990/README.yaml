@@ -1,9 +1,12 @@
 DOI: 10.5281/zenodo.7586915
+DATE: 2020-08-19
 SOFTWARE: openMM
 TRJ:
 - - wrapped_full_fixed_dt.xtc
 PDB:
 - - step2_charmm2omm.pdb
+PSF:
+- - step2_charmm2omm.psf
 PREEQTIME: 100
 TIMELEFTOUT: 100
 TEMPERATURE: 303

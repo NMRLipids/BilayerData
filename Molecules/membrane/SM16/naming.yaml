@@ -1,0 +1,304 @@
+M_N1C1_M:
+  FRAGMENT: fa
+  SMILEIDX: 15
+M_N1C1O1_M:
+  FRAGMENT: fa
+  SMILEIDX: 16
+M_N1C2_M:
+  FRAGMENT: fa
+  SMILEIDX: 14
+M_N1C2H1_M:
+  FRAGMENT: fa
+M_N1C2H2_M:
+  FRAGMENT: fa
+M_N1C3_M:
+  FRAGMENT: fa
+  SMILEIDX: 13
+M_N1C3H1_M:
+  FRAGMENT: fa
+M_N1C3H2_M:
+  FRAGMENT: fa
+M_N1C4_M:
+  FRAGMENT: fa
+  SMILEIDX: 12
+M_N1C4H1_M:
+  FRAGMENT: fa
+M_N1C4H2_M:
+  FRAGMENT: fa
+M_N1C5_M:
+  FRAGMENT: fa
+  SMILEIDX: 11
+M_N1C5H1_M:
+  FRAGMENT: fa
+M_N1C5H2_M:
+  FRAGMENT: fa
+M_N1C6_M:
+  FRAGMENT: fa
+  SMILEIDX: 10
+M_N1C6H1_M:
+  FRAGMENT: fa
+M_N1C6H2_M:
+  FRAGMENT: fa
+M_N1C7_M:
+  FRAGMENT: fa
+  SMILEIDX: 9
+M_N1C7H1_M:
+  FRAGMENT: fa
+M_N1C7H2_M:
+  FRAGMENT: fa
+M_N1C8_M:
+  FRAGMENT: fa
+  SMILEIDX: 8
+M_N1C8H1_M:
+  FRAGMENT: fa
+M_N1C8H2_M:
+  FRAGMENT: fa
+M_N1C9_M:
+  FRAGMENT: fa
+  SMILEIDX: 7
+M_N1C9H1_M:
+  FRAGMENT: fa
+M_N1C9H2_M:
+  FRAGMENT: fa
+M_N1C10_M:
+  FRAGMENT: fa
+  SMILEIDX: 6
+M_N1C10H1_M:
+  FRAGMENT: fa
+M_N1C10H2_M:
+  FRAGMENT: fa
+M_N1C11_M:
+  FRAGMENT: fa
+  SMILEIDX: 5
+M_N1C11H1_M:
+  FRAGMENT: fa
+M_N1C11H2_M:
+  FRAGMENT: fa
+M_N1C12_M:
+  FRAGMENT: fa
+  SMILEIDX: 4
+M_N1C12H1_M:
+  FRAGMENT: fa
+M_N1C12H2_M:
+  FRAGMENT: fa
+M_N1C13_M:
+  FRAGMENT: fa
+  SMILEIDX: 3
+M_N1C13H1_M:
+  FRAGMENT: fa
+M_N1C13H2_M:
+  FRAGMENT: fa
+M_N1C14_M:
+  FRAGMENT: fa
+  SMILEIDX: 2
+M_N1C14H1_M:
+  FRAGMENT: fa
+M_N1C14H2_M:
+  FRAGMENT: fa
+M_N1C15_M:
+  FRAGMENT: fa
+  SMILEIDX: 1
+M_N1C15H1_M:
+  FRAGMENT: fa
+M_N1C15H2_M:
+  FRAGMENT: fa
+M_N1C16_M:
+  FRAGMENT: fa
+  SMILEIDX: 0
+M_N1C16H1_M:
+  FRAGMENT: fa
+M_N1C16H2_M:
+  FRAGMENT: fa
+M_N1C16H3_M:
+  FRAGMENT: fa
+# end fa
+M_C1_M:
+  FRAGMENT: sphingosine
+  SMILEIDX: 19
+M_C1H1_M:
+  FRAGMENT: sphingosine
+M_C1H2_M:
+  FRAGMENT: sphingosine
+M_C2_M:
+  FRAGMENT: sphingosine
+  SMILEIDX: 18
+M_C2H1_M:
+  FRAGMENT: sphingosine
+M_N1_M:
+  FRAGMENT: sphingosine
+  SMILEIDX: 17
+M_N1H1_M:
+  FRAGMENT: sphingosine
+M_C3_M:
+  FRAGMENT: sphingosine
+  SMILEIDX: 31
+M_C3H1_M:
+  FRAGMENT: sphingosine
+M_C3O1_M:
+  FRAGMENT: sphingosine
+  SMILEIDX: 47
+M_C3O1H1_M:
+  FRAGMENT: sphingosine
+M_C4_M:
+  FRAGMENT: sphingosine
+  SMILEIDX: 32
+M_C4H1_M:
+  FRAGMENT: sphingosine
+M_C5_M:
+  FRAGMENT: sphingosine
+  SMILEIDX: 33
+M_C5H1_M:
+  FRAGMENT: sphingosine
+M_C6_M:
+  FRAGMENT: sphingosine
+  SMILEIDX: 34
+M_C6H1_M:
+  FRAGMENT: sphingosine
+M_C6H2_M:
+  FRAGMENT: sphingosine
+M_C7_M:
+  FRAGMENT: sphingosine
+  SMILEIDX: 35
+M_C7H1_M:
+  FRAGMENT: sphingosine
+M_C7H2_M:
+  FRAGMENT: sphingosine
+M_C8_M:
+  FRAGMENT: sphingosine
+  SMILEIDX: 36
+M_C8H1_M:
+  FRAGMENT: sphingosine
+M_C8H2_M:
+  FRAGMENT: sphingosine
+M_C9_M:
+  FRAGMENT: sphingosine
+  SMILEIDX: 37
+M_C9H1_M:
+  FRAGMENT: sphingosine
+M_C9H2_M:
+  FRAGMENT: sphingosine
+M_C10_M:
+  FRAGMENT: sphingosine
+  SMILEIDX: 38
+M_C10H1_M:
+  FRAGMENT: sphingosine
+M_C10H2_M:
+  FRAGMENT: sphingosine
+M_C11_M:
+  FRAGMENT: sphingosine
+  SMILEIDX: 39
+M_C11H1_M:
+  FRAGMENT: sphingosine
+M_C11H2_M:
+  FRAGMENT: sphingosine
+M_C12_M:
+  FRAGMENT: sphingosine
+  SMILEIDX: 40
+M_C12H1_M:
+  FRAGMENT: sphingosine
+M_C12H2_M:
+  FRAGMENT: sphingosine
+M_C13_M:
+  FRAGMENT: sphingosine
+  SMILEIDX: 41
+M_C13H1_M:
+  FRAGMENT: sphingosine
+M_C13H2_M:
+  FRAGMENT: sphingosine
+M_C14_M:
+  FRAGMENT: sphingosine
+  SMILEIDX: 42
+M_C14H1_M:
+  FRAGMENT: sphingosine
+M_C14H2_M:
+  FRAGMENT: sphingosine
+M_C15_M:
+  FRAGMENT: sphingosine
+  SMILEIDX: 43
+M_C15H1_M:
+  FRAGMENT: sphingosine
+M_C15H2_M:
+  FRAGMENT: sphingosine
+M_C16_M:
+  FRAGMENT: sphingosine
+  SMILEIDX: 44
+M_C16H1_M:
+  FRAGMENT: sphingosine
+M_C16H2_M:
+  FRAGMENT: sphingosine
+M_C17_M:
+  FRAGMENT: sphingosine
+  SMILEIDX: 45
+M_C17H1_M:
+  FRAGMENT: sphingosine
+M_C17H2_M:
+  FRAGMENT: sphingosine
+M_C18_M:
+  FRAGMENT: sphingosine
+  SMILEIDX: 46
+M_C18H1_M:
+  FRAGMENT: sphingosine
+M_C18H2_M:
+  FRAGMENT: sphingosine
+M_C18H3_M:
+  FRAGMENT: sphingosine
+# P-choline
+M_G3O1_M:
+  FRAGMENT: headgroup
+  SMILEIDX: 20
+M_G3P2_M:
+  FRAGMENT: headgroup
+  SMILEIDX: 21
+M_G3P2O1_M:
+  FRAGMENT: headgroup
+  SMILEIDX: 22
+M_G3P2O2_M:
+  FRAGMENT: headgroup
+  SMILEIDX: 23
+M_G3O3_M:
+  FRAGMENT: headgroup
+  SMILEIDX: 24
+M_G3C4_M:
+  FRAGMENT: headgroup
+  SMILEIDX: 25
+M_G3C4H1_M:
+  FRAGMENT: headgroup
+M_G3C4H2_M:
+  FRAGMENT: headgroup
+M_G3C5_M:
+  FRAGMENT: headgroup
+  SMILEIDX: 26
+M_G3C5H1_M:
+  FRAGMENT: headgroup
+M_G3C5H2_M:
+  FRAGMENT: headgroup
+M_G3N6_M:
+  FRAGMENT: headgroup
+  SMILEIDX: 27
+M_G3N6C1_M:
+  FRAGMENT: headgroup
+  SMILEIDX: 28
+M_G3N6C1H1_M:
+  FRAGMENT: headgroup
+M_G3N6C1H2_M:
+  FRAGMENT: headgroup
+M_G3N6C1H3_M:
+  FRAGMENT: headgroup
+M_G3N6C2_M:
+  FRAGMENT: headgroup
+  SMILEIDX: 29
+M_G3N6C2H1_M:
+  FRAGMENT: headgroup
+M_G3N6C2H2_M:
+  FRAGMENT: headgroup
+M_G3N6C2H3_M:
+  FRAGMENT: headgroup
+M_G3N6C3_M:
+  FRAGMENT: headgroup
+  SMILEIDX: 30
+M_G3N6C3H1_M:
+  FRAGMENT: headgroup
+M_G3N6C3H2_M:
+  FRAGMENT: headgroup
+M_G3N6C3H3_M:
+  FRAGMENT: headgroup

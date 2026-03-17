@@ -43,6 +43,7 @@ TOP:
 - - popc_pops_250_50_contra_sodium_nbfix_han.top
 PREEQTIME: 0
 DOI: 10.5281/zenodo.3371327
+DATE: 2019-08-19
 DATEOFRUNNING: 01/10/2021
 TPR:
 - - popc_pops_250_50_contra_sodium_nbfix_han.tpr

@@ -32,6 +32,7 @@ TOP:
 - - topol4.top
 PREEQTIME: 0
 DOI: 10.5281/zenodo.545941
+DATE: 2017-04-13
 DATEOFRUNNING: 01/10/2021
 TPR:
 - - md4.tpr

@@ -1,4 +1,5 @@
 DOI: 10.5281/zenodo.6992065
+DATE: 2022-08-15
 SOFTWARE: gromacs
 TRJ:
 - - CHOL20_large.xtc
@@ -47,5 +48,6 @@ EXPERIMENT:
     POPC: []
     CHOL: []
   FORMFACTOR:
+  - 10.1021/acs.jctc.3c00648/7
   - 10.1021/acs.jctc.3c00648/8
 ID: 673
