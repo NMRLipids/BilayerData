@@ -1,14 +1,13 @@
 #POPC alpha and beta taken from Fig. 5 in Scherer and Seelig EMBO Journal vol.6 no.10 pp.2915-2922, 1987
-#POPC:POPG POPG mole fraction 0.493
+#POPC:POPG POPG mole fraction 0.200
 #
-# CHANGES MADE (compared to original file):
-# 1. Alpha (M_G3C4H): Original file had two DIFFERENT alpha values assigned to H1
-#    and H2 from two different papers. This is incorrect — H1 and H2 at the alpha
-#    position are experimentally equivalent and data from only one paper should
-#    appear per folder. Both now replaced with a single value read directly from
-#    Fig. 5A PG trend line at Xb=0.494 using WebPlotDigitizer. Error = 0.02.
-# 2. Beta (M_G3C5H): Was NaN in original file. Now filled with value read directly
-#    from Fig. 5B PG trend line at Xb=0.494 using WebPlotDigitizer. Error = 0.02.
+# 1. Alpha (M_G3C4H): Previously had two different values from two different papers
+#    (Scherer & Seelig 1987 and Macdonald & Seelig 1987). Now corrected to a single
+#    value from Fig. 5A only, read directly at Xb=0.208 using WebPlotDigitizer.
+#    Error kept at 0.02 (direct reading).
+# 2. Beta (M_G3C5H): Was NaN in original file. Now filled with value interpolated
+#    from Fig. 5B PG trend line at Xb=0.200 using WebPlotDigitizer.
+#    Error set to 0.03 to reflect interpolation uncertainty.
 # 3. SCD = 0.00784 * delta_vQ(kHz) as per
 #    nmrlipids.blogspot.com/2014/02/accuracy-of-order-parameter-measurements.html
 #
@@ -28,10 +27,10 @@ M_G3N6C2_M M_G3N6C2H3_M NaN NaN
 M_G3N6C1_M M_G3N6C1H1_M NaN NaN
 M_G3N6C1_M M_G3N6C1H2_M NaN NaN
 M_G3N6C1_M M_G3N6C1H3_M NaN NaN
-M_G3C5_M M_G3C5H1_M 0.0171 0.02
-M_G3C5_M M_G3C5H2_M 0.0171 0.02
-M_G3C4_M M_G3C4H1_M 0.0743 0.02
-M_G3C4_M M_G3C4H2_M 0.0743 0.02
+M_G3C5_M M_G3C5H1_M 0.0329 0.03
+M_G3C5_M M_G3C5H2_M 0.0329 0.03
+M_G3C4_M M_G3C4H1_M 0.0648 0.02
+M_G3C4_M M_G3C4H2_M 0.0648 0.02
 M_G3_M M_G3H1_M NaN NaN
 M_G3_M M_G3H2_M NaN NaN
 M_G2_M M_G2H1_M NaN NaN
