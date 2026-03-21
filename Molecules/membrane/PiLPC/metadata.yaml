@@ -13,7 +13,7 @@ bioschema_properties:
   inChIKey: NVWYLRLKCCCUBZ-PNKFPDHGSA-N
   molecularFormula: C42H80NO8P
   molecularWeight: 758.1
-  name: 1-Palmitoyl-2-isolinoleoyl phosphatidylcholine
+  name: 1-hexadecanoyl-2-(6Z,9Z-octadecadienoyl)-sn-glycero-3-phosphocholine
   image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=6439299&t=l
   alternateName:
   - 1-hexadecanoyl-2-(6Z,9Z-octadecadienoyl)-sn-glycero-3-phosphocholine
