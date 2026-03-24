@@ -1,5 +1,5 @@
 NMRlipids:
-  id: PiLPC
+  id: PILPC
   name: 1-Palmitoyl-2-isolinoleoyl phosphatidylcholine
   charge: 0
 sameAs:
@@ -7,14 +7,13 @@ sameAs:
   pubchem.compound: 6439299
   lipidmaps: LMGP01010589
 bioschema_properties:
-  iupacName: '[(2R)-3-hexadecanoyloxy-2-[(6Z,9Z)-octadeca-6,9-dienoyl]oxypropyl] 2-(trimethylazaniumyl)ethyl
-    phosphate'
+  iupacName: '[(2R)-3-hexadecanoyloxy-2-[(6Z,9Z)-octadeca-6,9-dienoyl]oxypropyl] 2-(trimethylazaniumyl)ethyl phosphate'
   smiles: CCCCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)([O-])OCC[N+](C)(C)C)OC(=O)CCCC/C=C\C/C=C\CCCCCCCC
   inChI: InChI=1S/C42H80NO8P/c1-6-8-10-12-14-16-18-20-21-23-25-27-29-31-33-35-42(45)51-40(39-50-52(46,47)49-37-36-43(3,4)5)38-48-41(44)34-32-30-28-26-24-22-19-17-15-13-11-9-7-2/h20-21,25,27,40H,6-19,22-24,26,28-39H2,1-5H3/b21-20-,27-25-/t40-/m1/s1
   inChIKey: NVWYLRLKCCCUBZ-PNKFPDHGSA-N
   molecularFormula: C42H80NO8P
   molecularWeight: 758.1
-  name: 1-Palmitoyl-2-isolinoleoyl phosphatidylcholine
+  name: '1-Palmitoyl-2-isolinoleoyl phosphatidylcholine'
   image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=10747814&t=l
   alternateName:
   - 1-hexadecanoyl-2-(6Z,9Z-octadecadienoyl)-sn-glycero-3-phosphocholine
