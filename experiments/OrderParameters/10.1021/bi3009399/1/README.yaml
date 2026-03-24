@@ -1,27 +1,40 @@
 ARTICLE_DOI: 10.1021/bi3009399
-DATA_DOI: UNKNOWN
-DATA_REF: UNKNOWN
 TEMPERATURE: 313
 MEMBRANE_COMPOSITION:
   PiLPC: 1.0
-SOLUTION_COMPOSITION:
-  # empty
-ADDITIONAL_MOLECULES:
-  # empty
+SOLUTION_COMPOSITION: {}
+ADDITIONAL_MOLECULES: {}
 TOTAL_HYDRATION: UNKNOWN
 PH: UNKNOWN
 PH_METHOD: UNKNOWN
-REAGENT_SOURCES: |
-  Deuterated isolinoleoyl fatty acids synthesized as described in the original publication.
-  Lipids purified by TLC and column chromatography.
-SAMPLE_PROTOCOL: |
-  Lipids were dissolved in chloroform, dried under argon, and lyophilized.
-  Samples were hydrated with deuterium-depleted water (~200 µL for ~35 mg lipid),
-  followed by freeze–thaw–vortex cycles to form multilamellar vesicles.
+REAGENT_SOURCES:
+  PiLPC:
+    Deuterated isolinoleoyl phosphatidylcholine lipids synthesized as
+    described in the original publication. Lipids were purified using
+    thin-layer chromatography and column chromatography.
+  H2O: Deuterium-depleted water
+SAMPLE_PROTOCOL:
+  Lipids were dissolved in chloroform, dried under argon, and subsequently
+  lyophilized. Samples were hydrated with deuterium-depleted water
+  (~200 µL for ~35 mg lipid), followed by freeze–thaw–vortex cycles
+  to form multilamellar vesicles.
 NMR:
-  INSTRUMENT: "Bruker MSL-300 (46.06 MHz) and custom-built spectrometer (30.7 MHz)"
-  METHOD: "2H:QE"
+  INSTRUMENT:
+    Bruker MSL-300 (46.06 MHz) and custom-built spectrometer (30.7 MHz)
+  METHOD: 2H:QE
   SIGN_MEASURED: NONE
   T_RF_HEATING: UNKNOWN
-  DETAILS: |
-    2H NMR quadrupolar echo experiment with depaking to obtain order parameters.
+  DETAILS:
+    2H NMR quadrupolar echo experiments were performed to obtain spectra.
+    Spectra were depaked to extract segmental order parameters.
+
+# outdated fields
+MOLAR_FRACTIONS:
+  PiLPC: 1.0
+ION_CONCENTRATIONS:
+  POT: 0
+  SOD: 0
+  CLA: 0
+  CAL: 0
+TOTAL_LIPID_CONCENTRATION: "UNKNOWN"
+COUNTER_IONS: {}
