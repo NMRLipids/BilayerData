@@ -1,11 +1,24 @@
-DOI: 10.1039/c2cp42738a
-TEMPERATURE: 300.0
-MOLAR_FRACTIONS:
-  POPC: 1
-ION_CONCENTRATIONS:
-  POT: 0
-  SOD: 0
-  CLA: 0
-  CAL: 0
-TOTAL_LIPID_CONCENTRATION: 'full hydration'
-COUNTER_IONS:
+ARTICLE_DOI: 10.1039/c2cp42738a
+DATA_DOI: UNKNOWN
+DATA_REF: UNKNOWN
+TEMPERATURE: 313
+MEMBRANE_COMPOSITION:
+  PAPC: 1.0
+SOLUTION_COMPOSITION:
+  TRIS: 20
+ADDITIONAL_MOLECULES: {}
+TOTAL_HYDRATION: 50
+PH: 7.5
+PH_METHOD: buffer
+REAGENT_SOURCES: |
+  Phosphatidylcholine lipids with arachidonoyl chains were synthesized and selectively deuterated.
+SAMPLE_PROTOCOL: |
+  Lipids were hydrated in buffer containing 20 mM Tris (pH 7.5)
+  to approximately 50 wt% hydration, forming bilayer dispersions.
+NMR:
+  INSTRUMENT: "2H NMR spectrometer"
+  METHOD: "2H:QE"
+  SIGN_MEASURED: NONE
+  T_RF_HEATING: UNKNOWN
+  DETAILS: |
+    Deuterium NMR spectra recorded for labeled chains and analyzed via depaking.
