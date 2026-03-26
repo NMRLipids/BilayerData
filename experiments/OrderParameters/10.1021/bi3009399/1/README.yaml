@@ -1,14 +1,14 @@
 ARTICLE_DOI: 10.1021/bi3009399
 TEMPERATURE: 313
 MEMBRANE_COMPOSITION:
-  PiLPC: 1.0
+  PILPC: 1.0
 SOLUTION_COMPOSITION: {}
 ADDITIONAL_MOLECULES: {}
 TOTAL_HYDRATION: UNKNOWN
 PH: UNKNOWN
 PH_METHOD: UNKNOWN
 REAGENT_SOURCES:
-  PiLPC:
+  PILPC:
     Deuterated isolinoleoyl phosphatidylcholine lipids synthesized as
     described in the original publication. Lipids were purified using
     thin-layer chromatography and column chromatography.
@@ -30,7 +30,7 @@ NMR:
 
 # outdated fields
 MOLAR_FRACTIONS:
-  PiLPC: 1.0
+  PILPC: 1.0
 ION_CONCENTRATIONS:
   POT: 0
   SOD: 0

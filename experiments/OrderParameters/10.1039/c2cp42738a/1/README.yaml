@@ -34,7 +34,7 @@ NMR:
   DETAILS:
     2H NMR order parameters obtained using quadrupolar echo experiments.
 
-# outdated fields
+#outdated fields
 MOLAR_FRACTIONS:
   POPC: 1.0
 ION_CONCENTRATIONS:
