@@ -46,7 +46,7 @@ jobs:
           python developer/process_info_file.py \
             --info_file_path ../BilayerData/UserData/info.yml 
     
-      - uses: actions/create-github-app-token@v2
+      - uses: actions/create-github-app-token@v3
         id: app-token
         with:
           app-id:      ${{ vars.APP_ID }}
