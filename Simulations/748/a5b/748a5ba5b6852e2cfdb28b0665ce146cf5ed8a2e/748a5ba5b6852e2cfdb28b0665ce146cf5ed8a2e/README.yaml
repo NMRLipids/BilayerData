@@ -1,0 +1,41 @@
+DOI: 10.5281/zenodo.18471806
+TRJ:
+- - production-rep2.dcd
+SOFTWARE: NAMD
+PREEQTIME: 150
+TIMELEFTOUT: 0
+TEMPERATURE: 303.15
+SYSTEM: PAPC 16:0 Deu
+AUTHORS_CONTACT: Mahmoud Moqadam / mahmoud.moqadam@uib.no
+SOFTWARE_VERSION: '3.0'
+FF: CHARMM36m
+FF_SOURCE: Charmm-GUI
+PSF:
+- - step5_input.psf
+PDB:
+- - step5_input.pdb
+COMPOSITION:
+  PAPC:
+    NAME: PAPC
+    MAPPING: mappingPAPCcharmm.yaml
+    COUNT:
+    - 100
+    - 100
+  SOL:
+    NAME: TIP3
+    MAPPING: mappingTIP3PCHARMMgui.yaml
+    COUNT: 9000
+  POT:
+    NAME: POT
+    MAPPING: mappingPOT.yaml
+    COUNT: 9
+  CLA:
+    NAME: CLA
+    MAPPING: mappingCLA.yaml
+    COUNT: 9
+TRAJECTORY_SIZE: 16147400276
+TRJLENGTH: 500000.00149070285
+NUMBER_OF_ATOMS: 53818
+DATEOFRUNNING: 23/03/2026
+TYPEOFSYSTEM: lipid bilayer
+ID: -1
