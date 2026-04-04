@@ -1,0 +1,41 @@
+ARTICLE_DOI: 10.1021/bi991573v
+TEMPERATURE: 310
+MEMBRANE_COMPOSITION:
+  PAPC: 1.0
+SOLUTION_COMPOSITION:
+ADDITIONAL_MOLECULES:
+  TRIS: tris(hydroxymethyl)aminomethane, 20 mM
+  EDTA: Ethylenediaminetetraacetic acid, 0.5 mM
+TOTAL_HYDRATION: 95
+PH: 7.4
+PH_METHOD: buffer
+REAGENT_SOURCES:
+  PAPC: Avanti (Birmingam, AL)
+  H2O: Deuterium-depleted water
+SAMPLE_PROTOCOL: |
+  NMR samples consisted of 22 mg of 31d-PAPC. Lipids were mixed as CHCl3
+  solutions and then dried under N2 and vacuum. MLV suspensions (28−60 mM)
+  were prepared by vigorous vortexing of lipids in 0.6 mL of bufer solution.
+NMR:
+  INSTRUMENT: |
+    Custom-built spectrometer (Davis, 1979) operating at 46.2 MHz
+  METHOD: 2H:QE
+  SIGN_MEASURED: NONE
+  T_RF_HEATING: UNKNOWN
+  DETAILS: |
+    The typical spectrum resulted from 24−48k scans of the two-pulse sequence
+    with a 90° pulse of 3.75−3.95 μs, an interpulse spacing of 40 μs, and 
+    a dwell time of 2 μs. The delay between acquisitions was 300 ms, and 4K 
+    data points per acquisition were collected in quadrature with 8-cyclops 
+    phase cycling. Spectra were de-Paked.
+
+# outdated fields
+MOLAR_FRACTIONS:
+  PAPC: 1.0
+ION_CONCENTRATIONS:
+  POT: 0
+  SOD: 0
+  CLA: 0
+  CAL: 0
+TOTAL_LIPID_CONCENTRATION: 'full hydration'
+COUNTER_IONS:
