@@ -1,7 +1,41 @@
-DOI: 10.1039/c2cp42738a
-TEMPERATURE: 300.0
+ARTICLE_DOI: 10.1039/c2cp42738a
+TEMPERATURE: 298
+MEMBRANE_COMPOSITION:
+  PAPC: 1.0
+SOLUTION_COMPOSITION:
+ADDITIONAL_MOLECULES:
+  TRIS: "20 mM"
+TOTAL_HYDRATION: 50
+PH: 7.5
+PH_METHOD: buffer
+REAGENT_SOURCES: |
+  Phosphatidylcholine lipids with arachidonoyl chains were synthesized and selectively deuterated.
+SAMPLE_PROTOCOL: |
+  Lipids were hydrated in buffer containing 20 mM Tris (pH 7.5)
+  to approximately 50 wt% hydration, forming bilayer dispersions.
+  POPC: 1.0
+ADDITIONAL_MOLECULES:
+TOTAL_HYDRATION: UNKNOWN
+PH: UNKNOWN
+PH_METHOD: UNKNOWN
+REAGENT_SOURCES:
+  POPC: Avanti Polar Lipids, Birmingham, AL, USA
+  H2O: UNKNOWN
+SAMPLE_PROTOCOL: |
+  Lipid samples were prepared by dissolving in organic solvent followed by
+  solvent evaporation and vacuum drying. Samples were hydrated to form
+  multilamellar vesicles under controlled conditions.
+NMR:
+  INSTRUMENT: UNKNOWN
+  METHOD: 2H:QE
+  SIGN_MEASURED: NONE
+  T_RF_HEATING: UNKNOWN
+  DETAILS: |
+    2H NMR order parameters obtained using quadrupolar echo experiments.
+
+#outdated fields
 MOLAR_FRACTIONS:
-  POPC: 1
+  POPC: 1.0
 ION_CONCENTRATIONS:
   POT: 0
   SOD: 0

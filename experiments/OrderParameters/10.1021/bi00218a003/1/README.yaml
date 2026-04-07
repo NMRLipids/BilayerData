@@ -1,0 +1,40 @@
+ARTICLE_DOI: 10.1021/bi00218a003
+TEMPERATURE: 313
+MEMBRANE_COMPOSITION:
+  PILPC: 1.0
+SOLUTION_COMPOSITION: {}
+ADDITIONAL_MOLECULES: {}
+TOTAL_HYDRATION: 85
+PH: UNKNOWN
+PH_METHOD: UNKNOWN
+REAGENT_SOURCES:
+  PILPC: |
+    Deuterated isolinoleoyl phosphatidylcholine lipids synthesized as
+    described in the original publication. Lipids were purified using
+    thin-layer chromatography and column chromatography.
+  H2O: Deuterium-depleted water
+SAMPLE_PROTOCOL: |
+  Lipids were dissolved in chloroform, dried under argon, and subsequently
+  lyophilized. Samples were hydrated with deuterium-depleted water
+  (~200 µL for ~35 mg lipid), followed by freeze–thaw–vortex cycles
+  to form multilamellar vesicles.
+NMR:
+  INSTRUMENT: |
+    Bruker MSL-300 (46.06 MHz) and custom-built spectrometer (30.7 MHz)
+  METHOD: 2H:QE
+  SIGN_MEASURED: NONE
+  T_RF_HEATING: UNKNOWN
+  DETAILS: |
+    2H NMR quadrupolar echo experiments were performed to obtain spectra.
+    Spectra were dePaked to extract segmental order parameters.
+
+# outdated fields
+MOLAR_FRACTIONS:
+  PILPC: 1.0
+ION_CONCENTRATIONS:
+  POT: 0
+  SOD: 0
+  CLA: 0
+  CAL: 0
+TOTAL_LIPID_CONCENTRATION: 'full hydration'
+COUNTER_IONS:

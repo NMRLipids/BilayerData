@@ -1,0 +1,45 @@
+ARTICLE_DOI: 10.1021/bi00231a015
+TEMPERATURE: 303
+MEMBRANE_COMPOSITION:
+  PAPC: 1.0
+SOLUTION_COMPOSITION:
+ADDITIONAL_MOLECULES:
+  TRIS: tris(hydroxymethyl)aminomethane, 20 mM
+  EDTA: Ethylenediaminetetraacetic acid, 0.1 mM
+TOTAL_HYDRATION: 50
+PH: 7.4
+PH_METHOD: buffer
+REAGENT_SOURCES:
+  PAPC: (16:0)(20:4-d8)PC was synthesized in the study
+  H2O: Deuterium-depleted water
+SAMPLE_PROTOCOL: |
+  The sample was subjected to freeze-thaw-vortex cycles under
+  Ar(g) to ensure complete dispersion of the lipid; it was vortexed
+  less than a minute each time to minimize the formation of small 
+  liposomes or vesicles.
+NMR:
+  INSTRUMENT: |
+    GN-300 (GE, Vermont) at 46.13 MHz  equipped with a
+    home-built high-power transverse solenoid probe.
+  METHOD: 2H:QE
+  SIGN_MEASURED: NONE
+  T_RF_HEATING: UNKNOWN
+  DETAILS: |
+    The 90° pulse length was typically 6 µs. A phase-cycled
+    quadrupolar echo pulse sequence (Davis et al., 1976) was employed
+    with a pulse spacing of 40 µs. Data were acquired beginning at
+    30 µs after the second pulse and were Fourier transformed carefully
+    beginning at the top of the echo. The pulse sequence was repeated
+    every 500 ms, and the spectra were acquired with a digitization rate
+    (spectral width) of 500 kHz. 
+
+# outdated fields
+MOLAR_FRACTIONS:
+  PAPC: 1.0
+ION_CONCENTRATIONS:
+  POT: 0
+  SOD: 0
+  CLA: 0
+  CAL: 0
+TOTAL_LIPID_CONCENTRATION: 'full hydration'
+COUNTER_IONS:

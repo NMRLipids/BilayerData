@@ -1,0 +1,26 @@
+# The splittings recorded were just 4 for 8 =CD- groups:
+#
+# 0.092
+# 0.044
+# 0.017
+# 0.003
+#
+# Assignments of these splittings is according to (Ollila et al., 2007).
+# However, there is still quite a strong uncertainty.
+# --------------
+
+# -5'=6'-
+M_G2C6_M   M_G1C6H1_M   -0.092
+M_G2C7_M   M_G1C7H1_M   -0.044
+
+# -8'=9'-
+M_G2C9_M   M_G1C9H1_M   -0.044
+M_G2C10_M  M_G1C10H1_M  -0.017
+
+# -11'=12'-
+M_G2C12_M  M_G1C12H1_M  -0.017
+M_G2C13_M  M_G1C13H1_M  -0.017
+
+# -14'=15'-
+M_G2C15_M  M_G1C15H1_M  -0.017
+M_G2C16_M  M_G1C16H1_M  -0.003
