@@ -25,7 +25,7 @@ GRO:
 COMPOSITION:
   POPE:
     NAME: POPE
-    MAPPING: mappingPOPEmacrogFUCHS.yaml
+    MAPPING: mappingPOPE_Rog.yaml
     COUNT:
     - 72
     - 72
