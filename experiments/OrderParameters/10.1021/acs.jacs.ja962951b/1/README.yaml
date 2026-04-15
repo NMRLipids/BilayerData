@@ -7,7 +7,11 @@ REAGENT_SOURCES:
   DMPC: Avanti Polar Lipids
   water: D2O
 NMR:
-  DETAILS: 
+  DETAILS:
+    At the C2 position, the sn-1 chain has a single value (degenerate), while the sn-2 chain exhibits two distinct values due to motional 
+    inequivalence (forking). The identification of which value belonged to the sn-1 chain was determined using Seelig, A. and 
+    Seelig, J. (Biochemistry 1974, 13, 4839). The stereospecific assignment of the two sn-2 values to specific hydrogens was 
+    estimated based on experimental values for POPC at 300K (DOI: 10.1039/c2cp42738a). 
 ION_CONCENTRATIONS:
   POT: 0
   SOD: 0
