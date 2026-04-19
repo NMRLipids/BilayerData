@@ -1,23 +1,33 @@
-DOI: 10.1021/ja962951b
+ARTICLE_DOI: 10.1021/ja962951b
+DATE: 1997
 TEMPERATURE: 303
-MOLAR_FRACTIONS:
+MEMBRANE_COMPOSITION:
   DMPC: 1
+SOLUTION_COMPOSITION: 
+# empty
 PH: UNKNOWN
 REAGENT_SOURCES:
-  DMPC: Avanti Polar Lipids
+  DMPC: Avanti Polar Lipids (purchased in chloroform, solvent removed under N2 and vacuum)
   water: D2O
+TOTAL_HYDRATION: 50.0
+
 NMR:
-  DETAILS:
+  T_RF_HEATING: UNKNOWN
+  INSTRUMENT: Custom designed spectrometer (397.9 MHz for 1H), 5 mm Doty high-speed spinning assembly
+  METHOD: 2D DROSS and S-DROSS
+  SIGN_MEASURED: Magnitude and signs were measured using buildup of antiphase magnetization
+  DETAILS: >
     At the C2 position, the sn-1 chain has a single value (degenerate), while the sn-2 chain exhibits two distinct values due to motional 
     inequivalence (forking). The identification of which value belonged to the sn-1 chain was determined using Seelig, A. and 
     Seelig, J. (Biochemistry 1974, 13, 4839). The stereospecific assignment of the two sn-2 values to specific hydrogens was 
     estimated based on experimental values for POPC at 300K (DOI: 10.1039/c2cp42738a). 
+
 ION_CONCENTRATIONS:
   POT: 0
   SOD: 0
   CLA: 0
   CAL: 0
-TOTAL_LIPID_CONCENTRATION: 50
+TOTAL_LIPID_CONCENTRATION: 1.64
 COUNTER_IONS:
 
 
