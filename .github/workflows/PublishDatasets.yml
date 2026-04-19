@@ -1,0 +1,63 @@
+name: Generate and publish Kaggle Datasets
+
+permissions:
+   contents: read
+
+on:
+  # TODO: add on-release
+  workflow_dispatch:
+
+jobs:
+  gen_op_exp_dataset:
+    # TODO: activate in the production pipeline
+    # if: github.repository == 'NMRLipids/BilayerData'
+    runs-on: ubuntu-latest
+    container:
+      image: nmrlipids/core
+      options: --user 1001:118
+    env:
+      FMDL_DATA_PATH: ${{ github.workspace }}/BilayerData
+    steps:
+      - name: Checkout BilayerData
+        uses: actions/checkout@v6
+        with:
+          path: BilayerData
+
+      - name: Checkout Databank API
+        uses: actions/checkout@v6
+        with:
+          repository: NMRLipids/FAIRMD_lipids
+          ref: datasets-generator
+          path: Databank
+
+      - name: Compute OP dataset
+        env:
+          TQDM_DISABLE: "True"
+        working-directory: "Databank"
+        run: |
+          pip install .
+          python developer/gen-op-dataset.py --exps
+      
+      # TODO: debug it
+      - name: Upload Result Dataset to Kaggle
+      env:
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USER }}
+          KAGGLE_KEY: ${{ secrets.KAGGLE_TOKEN }}
+      working-directory: "Databank"
+      run: |
+          pip install kaggle --quiet
+  
+          # Create the metadata file for the dataset
+          cat > dataset-metadata.json << EOF
+          {
+          "title": "NMRLipids FAIRMD Lipids Databank",
+          "id": "${{ secrets.KAGGLE_USER }}/fairmd-lipids-databank",
+          "licenses": [{ "name": "CC0-1.0" }]
+          }
+          EOF
+  
+          # Create new dataset or push a new version if it already exists
+          kaggle datasets create -p . --dir-mode zip || \
+          kaggle datasets version -p . -m "Automated update from CI - ${{ github.sha }}" --dir-mode zip
+
+
