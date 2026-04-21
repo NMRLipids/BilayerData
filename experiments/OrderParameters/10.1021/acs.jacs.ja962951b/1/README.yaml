@@ -21,7 +21,9 @@ NMR:
     inequivalence (forking). The identification of which value belonged to the sn-1 chain was determined using Seelig, A. and 
     Seelig, J. (Biochemistry 1974, 13, 4839). The stereospecific assignment of the two sn-2 values to specific hydrogens was 
     estimated based on experimental values for POPC at 300K (DOI: 10.1039/c2cp42738a). 
-
+# outdated fields
+MOLAR_FRACTIONS:
+   DMPC: 1
 ION_CONCENTRATIONS:
   POT: 0
   SOD: 0
