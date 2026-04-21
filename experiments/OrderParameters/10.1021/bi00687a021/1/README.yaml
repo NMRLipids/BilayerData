@@ -1,0 +1,44 @@
+ARTICLE_DOI: 10.1021/bi00687a021
+DATE: 1975
+TEMPERATURE: 322
+MEMBRANE_COMPOSITION:
+  DPPC: 1
+PH: UNKNOWN
+REAGENT_SOURCES:
+  DPPC: Synthesized locally (dipalmitoyl-3-sn-phosphatidylcholine), specifically deuterated at the choline (alpha, beta, gamma) and glycerol (C-3) positions.
+  water: H2O and D2O
+TOTAL_HYDRATION: 50
+SAMPLE_PROTOCOL: >
+  DPPC bilayers were prepared by thoroughly mixing lipid (50 wt %) and water (50 wt %). 
+  Approximately 200-500 mg of liquid crystalline phase was used for measuring powder type spectra. 
+  Samples were sealed in ampoules and equilibrated above the phase transition temperature.
+
+NMR:
+  T_RF_HEATING: UNKNOWN
+  INSTUMENT: Bruker-Spectrospin HX-90-FT and WH-270-FT
+  METHOD: 2H:SP
+  SIGN_MEASURED: NONE
+  DETAILS: >
+     The experiment studied the headgroup and glycerol backbone (g3) conformation.   
+     Absolute values of order parameters (|S_CD| = 0.00784 x Δν) were given in the publication as a function of temperature. The numbers given here were calculated (by @markussmiettinen) by fitting 
+     a line to the data points nearest to 322K and reading the value of the fit at 322K.
+
+     For g3 the deuterium magnetic resonance spectra reveal two quadrupole splittings with 
+     separations of about 27 and 29 kHz" = 0.21168 and 0.22736 in terms of order parameters.The values below are extracted from Fig 6 of the publication, which showed the average 
+     value of two couplings with a difference of about 2 kHz" = 0.016, hence the values below are the fitted value of 0.220136724393763 +/- 0.008. It is not specified in the publication
+     which hydrogen corresponds to which splitting value, so HA has been assigned the largest magnitude and HB the smallest. 
+
+     Signs determined as described in http://arxiv.org/abs/1309.2131v2
+
+# outdated fields
+MOLAR_FRACTION:
+  DPPC: 1            
+ION_CONCENTRATIONS:
+  POT: 0
+  SOD: 0
+  CLA: 0
+  CAL: 0
+TOTAL_LIPID_CONCENTRATION: 1.362
+COUNTER_IONS:
+  NONE
+
