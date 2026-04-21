@@ -1,0 +1,31 @@
+ARTICLE_DOI: 10.1016/S0006-3495(94)80934-8
+DATE: 1994
+TEMPERATURE: 303
+MEMBRANE_COMPOSITION:
+  DOPC: 1
+PH: UNKNOWN
+REAGENT_SOURCES:
+  DOPC: Synthetic dioleoylphosphatidylcholine (DOPC), specifically deuterated at the alpha, beta, and gamma segments of the choline headgroup (DOPC-d4 and DOPC-d9)
+  water: Deuterium-depleted water (Aldrich)
+TOTAL_HYDRATION: 33.5
+SAMPLE_PROTOCOL: > 
+  Lipid dissolved in chloroform was dried under a stream of nitrogen and high vacuum overnight. Multilamellar liposomes were prepared by adding a well-defined amount 
+  of deuterium-depleted water using a microsyringe. Samples were homogenized and equilibrated at 30°C
+
+NMR:
+  T_RF_HEATING: UNKNOWN
+  INSTRUMENT: Homebuilt spectrometer operating at a deuterium frequency of 55.3 MHz
+  METHOD: 2H:SP
+  SIGN_MEASURED: NONE
+  DETAILS: >
+    Quadrupole splittings were recorded over a range of water/lipid mole ratios from 4 to 100. The values 
+    reported for the databank are the limiting plateau values (f_s from Table 1) representing the fully hydrated state at 303 K.
+    Signs determined as described in http://arxiv.org/abs/1309.2131v2.
+
+ION_CONCENTRATIONS:
+  POT: 0
+  SOD: 0
+  CLA: 0
+  CAL: 0  
+TOTAL_LIPID_CONCENTRATION: 2.523 
+COUNTER_IONS: 
