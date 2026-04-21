@@ -14,8 +14,8 @@ TOTAL_HYDRATION: 50.0
 NMR:
   T_RF_HEATING: UNKNOWN
   INSTRUMENT: Custom designed spectrometer (397.9 MHz for 1H), 5 mm Doty high-speed spinning assembly
-  METHOD: 2D DROSS and S-DROSS
-  SIGN_MEASURED: Magnitude and signs were measured using buildup of antiphase magnetization
+  METHOD: PDLF:DROSS
+  SIGN_MEASURED: S-DROSS
   DETAILS: >
     At the C2 position, the sn-1 chain has a single value (degenerate), while the sn-2 chain exhibits two distinct values due to motional 
     inequivalence (forking). The identification of which value belonged to the sn-1 chain was determined using Seelig, A. and 
