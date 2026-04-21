@@ -22,6 +22,9 @@ NMR:
     reported for the databank are the limiting plateau values (f_s from Table 1) representing the fully hydrated state at 303 K.
     Signs determined as described in http://arxiv.org/abs/1309.2131v2.
 
+# outdated fields
+MOLAR_FRACTIONS:
+  DOPC: 1
 ION_CONCENTRATIONS:
   POT: 0
   SOD: 0
