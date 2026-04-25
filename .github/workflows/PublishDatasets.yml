@@ -22,8 +22,8 @@ jobs:
       - name: Checkout Databank API
         uses: actions/checkout@v6
         with:
-          repository: NMRLipids/FAIRMD_lipids
-          ref: datasets-generator
+          repository: comcon1/Databank
+          ref: datasets-geenerator
           path: Databank
 
       - name: Pin python version
