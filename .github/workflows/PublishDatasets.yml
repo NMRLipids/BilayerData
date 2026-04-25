@@ -41,7 +41,7 @@ jobs:
       - name: Prepare dataset metadata
         env:
           TQDM_DISABLE: "True"
-          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_TOKEN }}
+          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_KEY }}
         working-directory: "BilayerData"
         run: |
           set -e
@@ -63,7 +63,7 @@ jobs:
       - name: Prepare new data
         env:
           TQDM_DISABLE: "True"
-          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_TOKEN }}
+          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_KEY }}
           FMDL_DATA_PATH: ${{ github.workspace }}/BilayerData
         working-directory: "BilayerData"
         run: |
