@@ -1,4 +1,4 @@
-name: Generate and publish Kaggle Datasets
+name: Generate and publish Kaggle Dataset
 
 permissions:
    contents: read
@@ -12,11 +12,6 @@ jobs:
     # TODO: activate in the production pipeline
     # if: github.repository == 'NMRLipids/BilayerData'
     runs-on: ubuntu-latest
-    container:
-      image: nmrlipids/core
-      options: --user 1001:118
-    env:
-      FMDL_DATA_PATH: ${{ github.workspace }}/BilayerData
     steps:
       - name: Checkout BilayerData
         uses: actions/checkout@v6
@@ -30,34 +25,50 @@ jobs:
           ref: datasets-generator
           path: Databank
 
-      - name: Compute OP dataset
-        env:
-          TQDM_DISABLE: "True"
+      - name: Pin python version
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Set up Databank API, Kaggle API
         working-directory: "Databank"
         run: |
+          set -e
           pip install .
-          python developer/gen-op-dataset.py --exps
-      
-      # TODO: debug it
-      - name: Upload Result Dataset to Kaggle
-      env:
-          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USER }}
-          KAGGLE_KEY: ${{ secrets.KAGGLE_TOKEN }}
-      working-directory: "Databank"
-      run: |
-          pip install kaggle --quiet
-  
-          # Create the metadata file for the dataset
-          cat > dataset-metadata.json << EOF
-          {
-          "title": "NMRLipids FAIRMD Lipids Databank",
-          "id": "${{ secrets.KAGGLE_USER }}/fairmd-lipids-databank",
-          "licenses": [{ "name": "CC0-1.0" }]
-          }
-          EOF
-  
-          # Create new dataset or push a new version if it already exists
-          kaggle datasets create -p . --dir-mode zip || \
-          kaggle datasets version -p . -m "Automated update from CI - ${{ github.sha }}" --dir-mode zip
+          pip install kaggle unidecode tables
 
+      - name: Prepare dataset metadata
+        env:
+          TQDM_DISABLE: "True"
+          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_TOKEN }}
+        working-directory: "BilayerData"
+        run: |
+          set -e
+          mkdir dataset
+          cd dataset
+          kaggle datasets metadata fairmd/lipid-ch-order-parameters-from-md-simulations
+          jq '{
+            id: .info.datasetSlug,
+            id_no: .info.datasetId,
+            title: .info.datasetSlug,
+            subtitle: (.info.subtitle // ""),
+            description: (.info.description // "")
+          }' dataset-metadata.json > tmp.json
+          mv tmp.json dataset-metadata.json
+
+      - name: Set short SHA
+        run: echo "SHORT_SHA=${GITHUB_SHA::7}" >> $GITHUB_ENV
+
+      - name: Prepare new data
+        env:
+          TQDM_DISABLE: "True"
+          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_TOKEN }}
+          FMDL_DATA_PATH: ${{ github.workspace }}/BilayerData
+        working-directory: "BilayerData"
+        run: |
+          set -e
+          cd dataset
+          python developer/gen-op-dataset.py --sims
+          cd ..
+          kaggle datasets version -p ./dataset -m "Dataset auto-release from ${SHORT_SHA}"
 
