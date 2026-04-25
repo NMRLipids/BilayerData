@@ -36,6 +36,7 @@ jobs:
         run: |
           set -e
           pip install .
+          echo "DATABANK_ROOT=${PWD}" >> $GITHUB_ENV
           pip install kaggle unidecode tables
 
       - name: Prepare dataset metadata
@@ -69,7 +70,7 @@ jobs:
         run: |
           set -e
           cd dataset
-          python developer/gen-op-dataset.py --sims
+          python ${DATABANK_ROOT}/developer/gen-op-dataset.py --sims
           cd ..
           kaggle datasets version -p ./dataset -m "Dataset auto-release from ${SHORT_SHA}"
 
