@@ -7,10 +7,12 @@ ADDITIONAL_MOLECULES:
   Pipes: 1,4-piperazinediethanesulfonic acid, 10 mM
   EDTA: Ethylenediaminetetraacetic acid, 1 mM
 PH: 7
+PH_METHOD: Buffer
 REAGENT_SOURCES: 
   DPPC: Selectively deuterated at the choline alpha and beta segments as described by Gally et al. (1975). Nondeuterated DPPC was obtained from Fluka, Switzerland
-  water: 10 mM Pipes buffer with 1 mM EDTA, pH 7.0
-TOTAL_HYDRATION: excess
+  Pipes: AR grade
+  EDTA: AR grade
+TOTAL_HYDRATION: 95
 SAMPLE_PROTOCOL: >
   Lipid (~30 mg) was dispersed in ~30 mL of buffer at 50 °C and centrifuged to form a pellet. The pellet was transferred to a NMR sample tube and measured in the presence of 
   excess buffer. A second series of experiments used a constant lipid concentration of 70 mM. No differences in quadrupole splittings were detected between the two sample types.
