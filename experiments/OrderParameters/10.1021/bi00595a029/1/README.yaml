@@ -3,14 +3,20 @@ DATE: 1978
 TEMPERATURE: 331
 MEMBRANE_COMPOSITION:
   DPPC: 1
+SOLUTION_COMPOSITION:
+  SOD: 0.23
+  Acetat-ion: 0.59
 PH: 5.7
+PH_METHOD: buffer
 ADDITIONAL_MOLECULES:
   EDTA: Ethylenediaminetetraacetic acid, 0.0001 M
   Acetic_acid: sodium acetate-acetic acid, 0.2 M
 REAGENT_SOURCES:
   DPPC: Synthesized locally, specifically deuterated at the choline alpha (+NCD2CH2-DPPC), beta (+NCH2CD2-DPPC), and gamma ((CD3)3N+-DPPC) segments
-  cholesterol: Purchased from Fluka, Switzerland
-  water: 0.2 M sodium acetate-acetic acid buffer (pH 5.7) with 10^-4 M EDTA
+  water: Unknown
+  EDTA: Unknown
+  acetic_acid: Unknown
+  sodium_acetate: Unknown
 TOTAL_HYDRATION: 50
 SAMPLE_PROTOCOL: >
   Appropriate amounts of lipid were dissolved in chloroform/methanol. Solvent was removed under nitrogen followed by at least 24 h under high vacuum. Buffer was added to yield 
@@ -31,7 +37,7 @@ NMR:
 MOLAR_FRACTIONS:
   DPPC: 1
 ION_CONCENTRATIONS:
-  SOD: 0.23
+  SOD: 0
   POT: 0
   CLA: 0
   CAL: 0
