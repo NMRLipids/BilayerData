@@ -1,0 +1,94 @@
+name: Generate and publish Kaggle Dataset
+
+permissions:
+   contents: read
+
+on:
+  workflow_dispatch:
+    inputs:
+      dataset:
+        description: 'Dataset to generate and publish'
+        required: true
+        type: choice
+        options:
+          - op-sim
+          - op-exp
+
+jobs:
+  gen_op_dataseta:
+    if: github.repository == 'NMRLipids/BilayerData'
+    runs-on: ubuntu-latest
+    env:
+      SCRIPT_ARGS: >-
+        ${{
+          inputs.dataset == 'op-sim' && '--sims' ||
+          inputs.dataset == 'op-exp' && '--exps' ||
+          '--other'
+        }}
+      SLUG_NAME: >-
+        ${{
+          inputs.dataset == 'op-sim' && 'lipid-ch-order-parameters-from-md-simulations' ||
+          inputs.dataset == 'op-exp' && 'lipid-ch-order-parameters-from-experiments' ||
+          '--other'
+        }}
+    steps:
+      - name: Checkout BilayerData
+        uses: actions/checkout@v6
+        with:
+          path: BilayerData
+
+      - name: Checkout Databank API
+        uses: actions/checkout@v6
+        with:
+          repository: NMRlipids/FAIRMD_lipids
+          ref: datasets-geenerator # TODO: turn off when merged to main
+          path: Databank
+
+      - name: Pin python version
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Set up Databank API, Kaggle API
+        working-directory: "Databank"
+        run: |
+          set -e
+          pip install .
+          echo "DATABANK_ROOT=${PWD}" >> $GITHUB_ENV
+          pip install kaggle unidecode tables
+
+      - name: Prepare dataset metadata
+        env:
+          TQDM_DISABLE: "True"
+          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_KEY }}
+        working-directory: "BilayerData"
+        run: |
+          set -e
+          mkdir dataset
+          cd dataset
+          kaggle datasets metadata fairmd/${SLUG_NAME}
+          jq '{
+            id: .info.datasetSlug,
+            id_no: .info.datasetId,
+            title: .info.datasetSlug,
+            subtitle: (.info.subtitle // ""),
+            description: (.info.description // "")
+          }' dataset-metadata.json > tmp.json
+          mv tmp.json dataset-metadata.json
+
+      - name: Set short SHA
+        run: echo "SHORT_SHA=${GITHUB_SHA::7}" >> $GITHUB_ENV
+
+      - name: Prepare new data
+        env:
+          TQDM_DISABLE: "True"
+          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_KEY }}
+          FMDL_DATA_PATH: ${{ github.workspace }}/BilayerData
+        working-directory: "BilayerData"
+        run: |
+          set -e
+          cd dataset
+          python ${DATABANK_ROOT}/developer/gen-op-dataset.py --sims
+          cd ..
+          kaggle datasets version -p ./dataset -m "Dataset auto-release from ${SHORT_SHA}"
+
