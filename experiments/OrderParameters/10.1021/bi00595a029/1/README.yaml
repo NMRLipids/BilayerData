@@ -1,0 +1,44 @@
+DOI: 10.1021/bi00595a029
+DATE: 1978 
+TEMPERATURE: 331
+MEMBRANE_COMPOSITION:
+  DPPC: 1
+SOLUTION_COMPOSITION:
+  SOD: 0.23
+  Acetat-ion: 0.59
+PH: 5.7
+PH_METHOD: buffer
+ADDITIONAL_MOLECULES:
+  EDTA: Ethylenediaminetetraacetic acid, 0.0001 M
+  Acetic_acid: sodium acetate-acetic acid, 0.2 M
+REAGENT_SOURCES:
+  DPPC: Synthesized locally, specifically deuterated at the choline alpha (+NCD2CH2-DPPC), beta (+NCH2CD2-DPPC), and gamma ((CD3)3N+-DPPC) segments
+  water: Unknown
+  EDTA: Unknown
+  acetic_acid: Unknown
+  sodium_acetate: Unknown
+TOTAL_HYDRATION: 50
+SAMPLE_PROTOCOL: >
+  Appropriate amounts of lipid were dissolved in chloroform/methanol. Solvent was removed under nitrogen followed by at least 24 h under high vacuum. Buffer was added to yield 
+  a final lipid:buffer ratio of 50:50 wt %. Ampoules were sealed and mixed above the phase transition temperature of pure phospholipids.
+
+NMR:
+  T_RF_HEATING: UNKNOWN
+  INSTRUMENT: Bruker-Spectrospin HX-90-FT spectrometer (13.8 MHz for 2H, 36.4 MHz for 31P)
+  METHOD: 2H:SP
+  SIGN_MEASURED: NONE
+  DETAILS: >
+    The experiment investigated the influence of cholesterol on the orientation and flexibility of DPPC headgroups. Deuterium quadrupole splittings and Phosphorus-31 
+    chemical shielding anisotropies were evaluated directly from powder-type spectra. 
+    The values reported here for pure DPPC are extracted from the 0.0 cholesterol/lipid molar ratio point in Figure 2, which corresponds to measurements at 58 °C. 
+    Direct 1H-13C NMR measurements have established that the order parameters for the alpha segment are positive, while the beta segment is negative
+
+# outdated fields
+#MOLAR_FRACTIONS:
+#  DPPC: 1
+#ION_CONCENTRATIONS:
+#  SOD: 0
+#  POT: 0
+#  CLA: 0
+#  CAL: 0
+#TOTAL_LIPID_CONCENTRATION: 1.362
