@@ -34,11 +34,11 @@ NMR:
     Direct 1H-13C NMR measurements have established that the order parameters for the alpha segment are positive, while the beta segment is negative
 
 # outdated fields
-MOLAR_FRACTIONS:
-  DPPC: 1
-ION_CONCENTRATIONS:
-  SOD: 0
-  POT: 0
-  CLA: 0
-  CAL: 0
-TOTAL_LIPID_CONCENTRATION: 1.362
+#MOLAR_FRACTIONS:
+#  DPPC: 1
+#ION_CONCENTRATIONS:
+#  SOD: 0
+#  POT: 0
+#  CLA: 0
+#  CAL: 0
+#TOTAL_LIPID_CONCENTRATION: 1.362
