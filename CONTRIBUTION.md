@@ -1,6 +1,6 @@
 # Adding simulations and experiments
 
-Adding new data is described in detail in [the FAIRMD Lipids documentation](https://nmrlipids.github.io/FAIRMD_lipids/latest). Please follow the instructions carefully for both simulations and experiments, filling metadata fields with meaningful and complete information.
+Adding new data is described in detail in [the FAIRMD Lipids documentation](https://databank.readthedocs.io/stable/dbcontribute.html). Please follow the instructions carefully for both simulations and experiments, filling metadata fields with meaningful and complete information.
 
 # Adding molecules
 If data addition requires a molecule that is currently absent, you are very welcome to add new molecules. Please be careful with modifying molecule information, especially mapping files of molecules, as it could affect the recomputation of other contributors' data.
