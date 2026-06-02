@@ -5,7 +5,7 @@ MEMBRANE_COMPOSITION:
   DPPC: 1
 SOLUTION_COMPOSITION:
   SOD: 0.23
-  Acetat-ion: 0.59
+  ACE: 0.59
 PH: 5.7
 PH_METHOD: buffer
 ADDITIONAL_MOLECULES:
@@ -33,12 +33,13 @@ NMR:
     The values reported here for pure DPPC are extracted from the 0.0 cholesterol/lipid molar ratio point in Figure 2, which corresponds to measurements at 58 °C. 
     Direct 1H-13C NMR measurements have established that the order parameters for the alpha segment are positive, while the beta segment is negative
 
-# outdated fields
-#MOLAR_FRACTIONS:
-#  DPPC: 1
-#ION_CONCENTRATIONS:
-#  SOD: 0
-#  POT: 0
-#  CLA: 0
-#  CAL: 0
-#TOTAL_LIPID_CONCENTRATION: 1.362
+#outdated fields
+MOLAR_FRACTIONS:
+  DPPC: 1
+ION_CONCENTRATIONS:
+  SOD: 0.2
+  ACE: 0.2
+  POT: 0
+  CLA: 0
+  CAL: 0
+TOTAL_LIPID_CONCENTRATION: 1.362
