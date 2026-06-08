@@ -1,0 +1,41 @@
+DOI: 10.5281/zenodo.20524112
+TRJ:
+- - production.xtc
+SOFTWARE: gromacs
+PREEQTIME: 1.875
+TIMELEFTOUT: 20
+TEMPERATURE: 322.0
+SYSTEM: DPPC
+AUTHORS_CONTACT: Stine Floen / stflo9270@uib.no / Markus Miettinen / Markus.Miettinen@uib.no
+FF: CHARMM36
+CPT:
+- - production.cpt
+TOP:
+- - topol.top
+TPR:
+- - productionC_2025.tpr
+GRO:
+- - production.gro
+COMPOSITION:
+  DPPC:
+    NAME: DPPC
+    MAPPING: mappingDPPCcharmm.yaml
+    COUNT:
+    - 20
+    - 20
+  SOL:
+    NAME: TIP3
+    MAPPING: mappingTIP3PCHARMMgui.yaml
+    COUNT: 1645
+TRAJECTORY_SIZE: 365529048
+TRJLENGTH: 100010.0
+NUMBER_OF_ATOMS: 10135
+DATEOFRUNNING: 05/06/2026
+TYPEOFSYSTEM: lipid bilayer
+EXPERIMENT:
+  ORDERPARAMETER:
+    DPPC:
+    - 10.1021/bi00687a021/1
+  FORMFACTOR:
+  - 10.1016/j.bbamem.2011.07.022/4
+ID: 911
