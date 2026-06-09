@@ -61,13 +61,63 @@ jobs:
         if: steps.files.outputs.changed_files != ''
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
         run: |
-          diff=$(git diff)
-          if [ -n "$diff" ]; then
-            gh pr comment ${{ github.event.pull_request.number }} \
-              --repo ${{ github.repository }} \
-              --body "**Metadata autocomplete suggestions:**
-          \`\`\`diff
-          $diff
-          \`\`\`"
-    fi
+          python3 << 'PYEOF'
+          import subprocess, json, re, os, sys
+
+          repo = os.environ['GITHUB_REPOSITORY']
+          pr_number = os.environ['PR_NUMBER']
+          head_sha = os.environ['HEAD_SHA']
+
+          diff_output = subprocess.check_output(['git', 'diff', 'HEAD', '--unified=0'], text=True)
+
+          comments = []
+          current_file = None
+          current_old_start = 0
+          minus_lines = []
+          plus_lines = []
+
+          def flush_hunk():
+              if current_file is None or not minus_lines:
+                  return
+              start_line = current_old_start
+              end_line = current_old_start + len(minus_lines) - 1
+              body = '```suggestion\n' + ''.join(plus_lines) + '```'
+              comment = {'path': current_file, 'body': body, 'side': 'RIGHT', 'line': end_line}
+              if start_line != end_line:
+                  comment['start_line'] = start_line
+                  comment['start_side'] = 'RIGHT'
+              comments.append(comment)
+
+          for line in diff_output.splitlines(keepends=True):
+              if line.startswith('diff --git'):
+                  flush_hunk(); minus_lines = []; plus_lines = []
+              elif line.startswith('+++ '):
+                  current_file = line[6:].rstrip('\n')
+              elif line.startswith('@@ '):
+                  flush_hunk(); minus_lines = []; plus_lines = []
+                  m = re.match(r'@@ -(\d+)(?:,\d+)? ', line)
+                  if m:
+                      current_old_start = int(m.group(1))
+              elif line.startswith('-') and not line.startswith('---'):
+                  minus_lines.append(line[1:])
+              elif line.startswith('+') and not line.startswith('+++'):
+                  plus_lines.append(line[1:])
+
+          flush_hunk()
+
+          if not comments:
+              print('No changes to suggest'); sys.exit(0)
+
+          review = {'commit_id': head_sha, 'body': '', 'event': 'COMMENT', 'comments': comments}
+          result = subprocess.run(
+              ['gh', 'api', f'repos/{repo}/pulls/{pr_number}/reviews',
+               '--method', 'POST', '--input', '-'],
+              input=json.dumps(review), text=True, capture_output=True
+          )
+          if result.returncode != 0:
+              print(result.stderr, file=sys.stderr); sys.exit(1)
+          print(f'Posted {len(comments)} inline suggestion(s)')
+          PYEOF
