@@ -5,6 +5,9 @@ on:
     paths:
       - 'Molecules/membrane/**/metadata.yaml'
       - 'Molecules/solution/**/metadata.yaml'
+  push:
+    branches:
+      - fix-Autocomplete-Metadata
 
 permissions:
   contents: read
