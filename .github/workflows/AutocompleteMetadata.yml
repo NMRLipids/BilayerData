@@ -59,8 +59,15 @@ jobs:
 
       - name: Suggest changes on PR
         if: steps.files.outputs.changed_files != ''
-        uses: reviewdog/action-suggester@v1
-        with:
-          tool_name: addmetadata
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          path: .
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          diff=$(git diff)
+          if [ -n "$diff" ]; then
+            gh pr comment ${{ github.event.pull_request.number }} \
+              --repo ${{ github.repository }} \
+              --body "**Metadata autocomplete suggestions:**
+          \`\`\`diff
+          $diff
+          \`\`\`"
+    fi
