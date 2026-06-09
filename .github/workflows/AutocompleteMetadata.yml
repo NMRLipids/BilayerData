@@ -63,4 +63,5 @@ jobs:
         with:
           tool_name: addmetadata
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          path: .
+          fail_level: any          # surface errors instead of exiting 0
+          reviewdog_flags: -tee    # echo reviewdog's stdout/stderr to the log
