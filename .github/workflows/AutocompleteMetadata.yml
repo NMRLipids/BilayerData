@@ -41,7 +41,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           if [ "${{ github.event_name }}" = "push" ]; then
-            changed_files=$(git diff --name-only --diff-filter=d HEAD~1 HEAD \
+            changed_files=$(git diff --name-only --no-renames --diff-filter=d HEAD~1 HEAD \
               | grep -E '^Molecules/(membrane|solution)/[^/]+/metadata\.yaml$' || true)
           else
             changed_files=$(gh api --paginate \
