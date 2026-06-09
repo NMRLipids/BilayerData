@@ -5,9 +5,6 @@ on:
     paths:
       - 'Molecules/membrane/**/metadata.yaml'
       - 'Molecules/solution/**/metadata.yaml'
-  push:
-    branches:
-      - fix-Autocomplete-Metadata
 
 permissions:
   contents: read
@@ -22,7 +19,6 @@ jobs:
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.ref }}
-          fetch-depth: 0
           persist-credentials: false
       
       - name: Clone Databank and install
@@ -40,15 +36,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if [ "${{ github.event_name }}" = "push" ]; then
-            changed_files=$(git diff --name-only --no-renames --diff-filter=d HEAD~1 HEAD \
-              | grep -E '^Molecules/(membrane|solution)/[^/]+/metadata\.yaml$' || true)
-          else
-            changed_files=$(gh api --paginate \
-              "repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files" \
-              --jq '.[] | select(.status != "removed") | .filename' \
-              | grep -E '^Molecules/(membrane|solution)/[^/]+/metadata\.yaml$' || true)
-          fi
+          changed_files=$(gh api --paginate \
+            "repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files" \
+            --jq '.[] | select(.status != "removed") | .filename' \
+            | grep -E '^Molecules/(membrane|solution)/[^/]+/metadata\.yaml$' || true)
           {
             echo "changed_files<<EOF"
             echo "$changed_files"
@@ -67,7 +58,7 @@ jobs:
           done
 
       - name: Suggest changes on PR
-        if: steps.files.outputs.changed_files != '' && github.event_name != 'push'
+        if: steps.files.outputs.changed_files != ''
         uses: reviewdog/action-suggester@v1
         with:
           tool_name: addmetadata
