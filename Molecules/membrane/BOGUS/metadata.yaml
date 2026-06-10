@@ -1,5 +1,6 @@
 NMRlipids:
   id: BOGUS
+  name: (2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-octoxyoxane-3,4,5-triol
 bioschema_properties:
   inChIKey: HEGSGKPQLMEBJL-RKQHYHRCSA-N
   

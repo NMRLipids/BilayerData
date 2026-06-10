@@ -52,6 +52,7 @@ jobs:
         if: steps.files.outputs.changed_files != ''
         env:
           CHANGED_FILES: ${{ steps.files.outputs.changed_files }}
+          CAS_API_KEY: ${{ secrets.CAS_API_KEY }}
         run: |
           printf '%s\n' "$CHANGED_FILES" | while IFS= read -r f; do
             [ -n "$f" ] && python "$RUNNER_TEMP/Databank/developer/autocomplete_metadata.py" "$f"
