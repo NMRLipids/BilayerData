@@ -7,10 +7,10 @@ If data addition requires a molecule that is currently absent, you are very welc
 
 To add a new molecule please add the folder to `Molecules` and mapping file as described in [the documentation about molecules addition](https://databank.readthedocs.io/latest/contrib/addingMolecule.html).
 
-Please provide metadata about the molecule in a `metadata.yaml` in the same subfolder of `Molecules/membrane/YOURMOLECULE`. You can find the template in `Molecules/metadata-example.yaml`
+Please provide metadata about the molecule in a `metadata.yaml` in the same subfolder of `Molecules/membrane/YOURMOLECULE.yaml`. You can find the template in `Molecules/metadata-example.yaml`
 The recommended workflow is to start from the [InChI](https://en.wikipedia.org/wiki/International_Chemical_Identifier). You can obtain the InChI and InChIKey for your molecule via different methods. One possiblity is to use a PDB snapshot of your trajectory (from gromacs, VMD, MDAnalysis ...) and to add connectivty using [RDkit](https://www.rdkit.org/) or [gromologist](https://gitlab.com/KomBioMol/gromologist) and convert a single molecule to InChI via [RDkit](https://www.rdkit.org/) or [OpenBabel](https://openbabel.org/index.html). We use the neutral form of the molecule. Please indicate the charge of the molecule in your `metadata.yaml` under `charge:`.
 Please ensure that the InChI represents your molecule. The named tools might deliver imperfect results.
-Provided your molecule is not fully synthetic or novel, you can obtain most of the other metadata from the [PubChem API](https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest) and the [UniChem API](https://www.ebi.ac.uk/unichem/api/docs) using the InChIKey.
+Provided your molecule is not fully synthetic or novel, you can obtain most of the other metadata from the [PubChem API](https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest) and the [UniChem API](https://www.ebi.ac.uk/unichem/api/docs) using the InChIKey. This is automated by the `.github/workflows/AutocompleteMetadata.yml`workflow if you make a pull request with `Molecules/membrane/YOURMOLECULE/metadata.yaml`with only an ID and the InChIKey.
 Mapping especially to LIPID MAPS and SwissLipids might be incomplete in some cases and can be completed manually. 
 
 # Repository rules
