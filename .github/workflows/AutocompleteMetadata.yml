@@ -72,6 +72,13 @@ jobs:
           head_sha = os.environ['HEAD_SHA']
 
           diff_output = subprocess.check_output(['git', 'diff', 'HEAD', '--unified=0'], text=True)
+          print('=== git diff HEAD ===')
+          print(diff_output or '(empty — autocomplete made no changes)')
+
+          def head_line(filepath, line_num):
+              out = subprocess.check_output(['git', 'show', f'HEAD:{filepath}'], text=True)
+              lines = out.splitlines(keepends=True)
+              return lines[line_num - 1] if 0 < line_num <= len(lines) else ''
 
           comments = []
           current_file = None
@@ -80,15 +87,23 @@ jobs:
           plus_lines = []
 
           def flush_hunk():
-              if current_file is None or not minus_lines:
+              if current_file is None or (not minus_lines and not plus_lines):
                   return
-              start_line = current_old_start
-              end_line = current_old_start + len(minus_lines) - 1
-              body = '```suggestion\n' + ''.join(plus_lines) + '```'
-              comment = {'path': current_file, 'body': body, 'side': 'RIGHT', 'line': end_line}
-              if start_line != end_line:
-                  comment['start_line'] = start_line
-                  comment['start_side'] = 'RIGHT'
+              if not minus_lines:
+                  # Pure addition after line current_old_start — anchor to that line
+                  anchor_num = max(current_old_start, 1)
+                  anchor = head_line(current_file, anchor_num)
+                  body = '```suggestion\n' + anchor + ''.join(plus_lines) + '```'
+                  comment = {'path': current_file, 'body': body, 'side': 'RIGHT', 'line': anchor_num}
+              else:
+                  start_line = current_old_start
+                  end_line = current_old_start + len(minus_lines) - 1
+                  body = '```suggestion\n' + ''.join(plus_lines) + '```'
+                  comment = {'path': current_file, 'body': body, 'side': 'RIGHT', 'line': end_line}
+                  if start_line != end_line:
+                      comment['start_line'] = start_line
+                      comment['start_side'] = 'RIGHT'
+              print(f'  hunk -> {current_file}:{comment["line"]} ({len(minus_lines)} removed, {len(plus_lines)} added)')
               comments.append(comment)
 
           for line in diff_output.splitlines(keepends=True):
@@ -108,6 +123,7 @@ jobs:
 
           flush_hunk()
 
+          print(f'Built {len(comments)} suggestion(s)')
           if not comments:
               print('No changes to suggest'); sys.exit(0)
 
@@ -117,7 +133,10 @@ jobs:
                '--method', 'POST', '--input', '-'],
               input=json.dumps(review), text=True, capture_output=True
           )
+          print('API response:', result.stdout[:300])
+          if result.stderr:
+              print('API error:', result.stderr[:300], file=sys.stderr)
           if result.returncode != 0:
-              print(result.stderr, file=sys.stderr); sys.exit(1)
+              sys.exit(1)
           print(f'Posted {len(comments)} inline suggestion(s)')
           PYEOF
