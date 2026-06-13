@@ -1,0 +1,40 @@
+DOI: 10.5281/zenodo.20558593
+TRJ:
+- - productionA.xtc
+SOFTWARE: gromacs
+PREEQTIME: 1.875
+TIMELEFTOUT: 7
+TEMPERATURE: 303.15
+SYSTEM: DMPC
+PUBLICATION: 10.1021/ja962951b
+AUTHORS_CONTACT: Anna Kristine Sandtorv-Leroen/anna.kristine.sandtorv.leroen@gmail.com
+  / Markus S. Miettinen/Markus.Miettinen@uib.no
+SOFTWARE_VERSION: '2026.1'
+FF: Lipid21(AMBER)
+FF_SOURCE: CHARMM-GUI
+FF_DATE: 13.05.2026
+CPT:
+- - productionA.cpt
+TOP:
+- - topol.top
+TPR:
+- - productionA_2025.tpr
+GRO:
+- - productionA.gro
+COMPOSITION:
+  DMPC:
+    NAME: MMPC
+    MAPPING: mappingDMPC_Amber.yaml
+    COUNT:
+    - 20
+    - 20
+  SOL:
+    NAME: TP3
+    MAPPING: mappingTIP3P_amber.yaml
+    COUNT: 1360
+TRAJECTORY_SIZE: 319030664
+TRJLENGTH: 100010.0
+NUMBER_OF_ATOMS: 8800
+DATEOFRUNNING: 12/06/2026
+TYPEOFSYSTEM: lipid bilayer
+ID: -1
