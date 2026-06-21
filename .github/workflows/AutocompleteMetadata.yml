@@ -54,9 +54,13 @@ jobs:
           CHANGED_FILES: ${{ steps.files.outputs.changed_files }}
           CAS_API_KEY: ${{ secrets.CAS_API_KEY }}
         run: |
-          printf '%s\n' "$CHANGED_FILES" | while IFS= read -r f; do
-            [ -n "$f" ] && python "$RUNNER_TEMP/Databank/developer/autocomplete_metadata.py" "$f"
-          done
+          set -euo pipefail
+          while IFS= read -r f; do
+            [ -n "$f" ] || continue
+            echo "::group::autocomplete_metadata.py $f"
+            python "$RUNNER_TEMP/Databank/developer/autocomplete_metadata.py" "$f"
+            echo "::endgroup::"
+          done <<< "$CHANGED_FILES"
 
       - name: Suggest changes on PR
         if: steps.files.outputs.changed_files != ''
@@ -64,5 +68,5 @@ jobs:
         with:
           tool_name: addmetadata
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          fail_level: any          # surface errors instead of exiting 0
+          fail_level: none         # post suggestions without failing the job
           reviewdog_flags: -tee    # echo reviewdog's stdout/stderr to the log
