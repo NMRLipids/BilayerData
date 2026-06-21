@@ -4,6 +4,7 @@ NMRlipids:
   charge: -4
 sameAs:
   pubchem.compound: 24742074
+  ChEBI: CHEBI:232300
 bioschema_properties:
   name: '[(1R,2S,3R,4R,5S,6R)-2,3,5-trihydroxy-4-[[2-[(5Z,8Z,11Z,14Z)-icosa-5,8,11,14-tetraenoyl]oxy-3-octadecanoyloxypropoxy]-oxidophosphoryl]oxy-6-phosphonatooxycyclohexyl]
     phosphate'
