@@ -33,12 +33,12 @@ jobs:
         }}
     steps:
       - name: Checkout BilayerData
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           path: BilayerData
 
       - name: Checkout Databank API
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           repository: NMRlipids/FAIRMD_lipids
           ref: datasets-geenerator # TODO: turn off when merged to main
