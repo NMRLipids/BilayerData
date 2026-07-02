@@ -1,0 +1,41 @@
+ARTICLE_DOI: 10.1021/bi00529a007
+DATE: 1981
+TEMPERATURE: 332
+MEMBRANE_COMPOSITION: 
+  DPPC: 1
+ADDITIONAL_MOLECULES:
+  Pipes: 1,4-piperazinediethanesulfonic acid, 10 mM
+  EDTA: Ethylenediaminetetraacetic acid, 1 mM
+PH: 7
+PH_METHOD: Buffer
+REAGENT_SOURCES: 
+  DPPC: Selectively deuterated at the choline alpha and beta segments as described by Gally et al. (1975). Nondeuterated DPPC was obtained from Fluka, Switzerland
+  Pipes: AR grade
+  EDTA: AR grade
+TOTAL_HYDRATION: 95
+SAMPLE_PROTOCOL: >
+  Lipid (~30 mg) was dispersed in ~30 mL of buffer at 50 °C and centrifuged to form a pellet. The pellet was transferred to a NMR sample tube and measured in the presence of 
+  excess buffer. A second series of experiments used a constant lipid concentration of 70 mM. No differences in quadrupole splittings were detected between the two sample types.
+
+NMR:
+  T_RF_HEATING: UNKNOWN
+  INSTRUMENT: Spectrometers operating at 13.8 and 61.4 MHz (single-pulse mode) and at 46 MHz (quadrupole echo technique)
+  METHOD: 2H:QE
+  SIGN_MEASURED: NONE
+  DETAILS: >
+    The interaction of mono-, di-, and trivalent metal ions (Na+, Ca2+, La3+) with DPPC bilayers was investigated. Quadrupole splittings were evaluated from 
+    powder-type spectra. The alpha segment was found to be almost insensitive to temperature, while the beta segment showed a pronounced decrease in splitting 
+    with increasing temperature
+    The study states that only relative signs could be determined. However, based on established databank conventions for PC headgroups, alpha is positive and beta is negative.
+
+# outdated fields
+MOLAR_FRACTIONS:
+  DPPC: 1
+ION_CONCENTRATIONS:
+  POT: 0
+  SOD: 0
+  CLA: 0
+  CAL: 0
+TOTAL_LIPID_CONCENTRATION: 0.07
+COUNTER_IONS:
+

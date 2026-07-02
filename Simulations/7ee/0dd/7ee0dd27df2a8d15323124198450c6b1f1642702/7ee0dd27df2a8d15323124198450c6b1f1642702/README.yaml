@@ -43,7 +43,7 @@ COMPOSITION:
     - 13
     - 13
   CER180:
-    NAME: CER1
+    NAME: CER180
     MAPPING: mappingCER180charmm.yaml
     COUNT:
     - 5

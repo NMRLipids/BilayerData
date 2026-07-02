@@ -31,7 +31,7 @@ NMR:
      Signs determined as described in http://arxiv.org/abs/1309.2131v2
 
 # outdated fields
-MOLAR_FRACTION:
+MOLAR_FRACTIONS:
   DPPC: 1            
 ION_CONCENTRATIONS:
   POT: 0

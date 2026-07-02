@@ -36,19 +36,31 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          changed_files=$(gh pr diff ${{ github.event.pull_request.number }} --repo ${{ github.repository }} \
-            | grep -E 'diff --git a/Molecules/(membrane|solution)/[^/]+/metadata\.yaml' \
-            | awk '{print $3}' \
-            | sed 's|^a/||' \
+          changed_files=$(gh api --paginate \
+            "repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files" \
+            --jq '.[] | select(.status != "removed") | .filename' \
             | grep -E '^Molecules/(membrane|solution)/[^/]+/metadata\.yaml$' || true)
-          changed_files_list=$(echo "$changed_files" | tr '\n' ' ' | xargs)
-          echo "changed_files=${changed_files_list}" >> $GITHUB_OUTPUT
-          echo "Changed files: $changed_files_list"
+          {
+            echo "changed_files<<EOF"
+            echo "$changed_files"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+          echo "Changed files:"
+          echo "$changed_files"
 
       - name: Run AddMetadata.py and create suggestions
         if: steps.files.outputs.changed_files != ''
+        env:
+          CHANGED_FILES: ${{ steps.files.outputs.changed_files }}
+          CAS_API_KEY: ${{ secrets.CAS_API_KEY }}
         run: |
-          echo "${{ steps.files.outputs.changed_files }}" | xargs -n1 -I{} python "$RUNNER_TEMP/Databank/developer/autocomplete_metadata.py" "{}"
+          set -euo pipefail
+          while IFS= read -r f; do
+            [ -n "$f" ] || continue
+            echo "::group::autocomplete_metadata.py $f"
+            python "$RUNNER_TEMP/Databank/developer/autocomplete_metadata.py" "$f"
+            echo "::endgroup::"
+          done <<< "$CHANGED_FILES"
 
       - name: Suggest changes on PR
         if: steps.files.outputs.changed_files != ''
@@ -56,4 +68,5 @@ jobs:
         with:
           tool_name: addmetadata
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          path: .
+          fail_level: none         # post suggestions without failing the job
+          reviewdog_flags: -tee    # echo reviewdog's stdout/stderr to the log

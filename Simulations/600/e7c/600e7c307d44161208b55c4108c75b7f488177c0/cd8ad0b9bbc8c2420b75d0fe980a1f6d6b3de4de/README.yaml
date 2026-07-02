@@ -1,4 +1,4 @@
-AUTHORS_CONTACT: Matti Javanainen (), Hector Martinez-Seara ()
+AUTHORS_CONTACT: Matti Javanainen, Hector Martinez-Seara
 FF_DATE: null
 SYSTEM: DMPC/liverPI bilayer
 TYPEOFSYSTEM: lipid bilayer
@@ -11,7 +11,7 @@ EXPERIMENT:
     DMPC: []
     SAPI: []
     POPI: []
-    SLPI: []
+    SLIPI: []
   FORMFACTOR: []
 FF_SOURCE: CHARMM-GUI
 COMPOSITION:
@@ -45,12 +45,12 @@ COMPOSITION:
     NAME: TIP3
     COUNT: 12800
     MAPPING: mappingTIP3PCHARMMgui.yaml
-  SLPI:
+  SLIPI:
     NAME: SLPI
     COUNT:
     - 7
     - 7
-    MAPPING: mappingSLPIcharmm.yaml
+    MAPPING: mappingSLIPIcharmm.yaml
 TIMELEFTOUT: 500
 CPT:
 - - DMPC_PI.cpt
@@ -68,7 +68,5 @@ DATEOFRUNNING: 01/10/2021
 TRJLENGTH: 2000100.0
 TRJ:
 - - DMPC_PI.xtc
-LOG: null
 SOFTWARE: gromacs
-DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 3

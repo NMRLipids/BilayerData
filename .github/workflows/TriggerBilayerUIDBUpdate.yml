@@ -1,0 +1,130 @@
+# Trigger the `DB Update` workflow in NMRLipids/BilayerUI_laravel after a
+# successful push to `main`. The actual deployment / DB update logic lives in
+# the BilayerUI repository (to avoid duplicating production secrets here);
+# this workflow only invokes it via the GitHub API.
+#
+# Target workflow:
+#   https://github.com/NMRLipids/BilayerUI_laravel/blob/main/.github/workflows/update_db.yml
+#
+# Required repository secret:
+#   BILAYERUI_DISPATCH_TOKEN -- a fine-grained PAT (or GitHub App token) with
+#     `actions: write` permission on NMRLipids/BilayerUI_laravel, used to
+#     dispatch the `update_db.yml` workflow on its `main` branch.
+#
+# This workflow is intentionally written to be as fail-safe as possible:
+#   * it only runs on the canonical repository (NMRLipids/BilayerData);
+#   * it has a short timeout so it cannot hang a runner;
+#   * it concurrency-collapses queued runs so only the latest commit triggers
+#     a deploy;
+#   * the dispatch call is retried on transient failures;
+#   * if the secret is not configured the job exits gracefully with a warning
+#     instead of failing the CI.
+
+name: Trigger BilayerUI DB Update
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force update (passed through to BilayerUI update_db)'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: trigger-bilayerui-db-update
+  cancel-in-progress: true
+
+jobs:
+  trigger-db-update:
+    name: Dispatch update_db.yml in BilayerUI_laravel
+    runs-on: ubuntu-latest
+    if: github.repository == 'NMRLipids/BilayerData'
+    timeout-minutes: 5
+    env:
+      TARGET_OWNER: NMRLipids
+      TARGET_REPO: BilayerUI_laravel
+      TARGET_WORKFLOW: update_db.yml
+      TARGET_REF: main
+      FORCE_INPUT: ${{ github.event.inputs.force || 'false' }}
+
+    steps:
+      - name: Check that dispatch token is configured
+        id: check-token
+        env:
+          BILAYERUI_DISPATCH_TOKEN: ${{ secrets.BILAYERUI_DISPATCH_TOKEN }}
+        run: |
+          if [ -z "${BILAYERUI_DISPATCH_TOKEN:-}" ]; then
+            echo "::warning::Secret BILAYERUI_DISPATCH_TOKEN is not configured; skipping dispatch."
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Dispatch BilayerUI update_db workflow
+        if: steps.check-token.outputs.configured == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.BILAYERUI_DISPATCH_TOKEN }}
+        run: |
+          # `set -e` is intentionally omitted: the retry loop below must be
+          # able to observe non-zero exits from curl and decide whether to
+          # retry, so we use `-uo pipefail` and explicit error handling.
+          set -uo pipefail
+
+          payload=$(printf '{"ref":"%s","inputs":{"force":"%s"}}' \
+            "${TARGET_REF}" "${FORCE_INPUT}")
+
+          url="https://api.github.com/repos/${TARGET_OWNER}/${TARGET_REPO}/actions/workflows/${TARGET_WORKFLOW}/dispatches"
+
+          attempt=1
+          max_attempts=5
+          backoff=10
+          while : ; do
+            echo "Attempt ${attempt}/${max_attempts}: POST ${url}"
+            http_code=$(curl --silent --show-error \
+              --output /tmp/dispatch_response.txt \
+              --write-out '%{http_code}' \
+              --request POST \
+              --header "Accept: application/vnd.github+json" \
+              --header "Authorization: Bearer ${GH_TOKEN}" \
+              --header "X-GitHub-Api-Version: 2022-11-28" \
+              --data "${payload}" \
+              "${url}" || echo "000")
+
+            echo "HTTP status: ${http_code}"
+            if [ -s /tmp/dispatch_response.txt ]; then
+              echo "Response body:"
+              cat /tmp/dispatch_response.txt
+              echo
+            fi
+
+            # 204 No Content == success for workflow dispatches.
+            if [ "${http_code}" = "204" ]; then
+              echo "Successfully dispatched ${TARGET_WORKFLOW} on ${TARGET_OWNER}/${TARGET_REPO}@${TARGET_REF}."
+              exit 0
+            fi
+
+            # Authentication / permission / not-found errors are not transient;
+            # retrying will not help, so fail fast with a clear message.
+            case "${http_code}" in
+              401|403|404|422)
+                echo "::error::Non-retryable HTTP ${http_code} from GitHub API; aborting."
+                exit 1
+                ;;
+            esac
+
+            if [ "${attempt}" -ge "${max_attempts}" ]; then
+              echo "::error::Failed to dispatch ${TARGET_WORKFLOW} after ${max_attempts} attempts (last HTTP ${http_code})."
+              exit 1
+            fi
+
+            echo "Transient failure (HTTP ${http_code}); retrying in ${backoff}s..."
+            sleep "${backoff}"
+            attempt=$((attempt + 1))
+            backoff=$((backoff * 2))
+          done
