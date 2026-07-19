@@ -3,7 +3,7 @@ permissions:
   contents: read
 
 on:
-  pull_request_target:
+  pull_request:
     types: [opened, synchronize]
     paths:
       - 'UserData/**'
@@ -24,7 +24,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
           path: BilayerData
           persist-credentials: false
-  
+
       - name: Check if info.yml exists
         id: check_info
         working-directory: BilayerData

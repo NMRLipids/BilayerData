@@ -1,7 +1,7 @@
 name: Validate Readme Files 
 
 on:
-  pull_request_target:
+  pull_request:
     paths: 'Simulations/**/README.yaml'
 
 permissions:
@@ -40,10 +40,10 @@ jobs:
           out="$(find Simulations -name README.yaml -print0 \
             | xargs -0 python -m fairmd.lipids.schema_validation.validate_yaml --schema readme 2>&1)"
           status=$?
-      
+
           errors="$(printf '%s\n' "$out" | grep '^ERROR:' || true)"
           [ -n "$errors" ] || errors="None"
-      
+
           {
             echo "## README.yaml validation"
             echo

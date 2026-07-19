@@ -2,11 +2,12 @@ name: Validate Molecules
 permissions:
   contents: read
 
-on: 
-  pull_request_target: 
+on:
+  pull_request:
       branches: main
       paths: Molecules/**
-jobs: 
+
+jobs:
     Validate_Databank:
         if: github.repository == 'NMRLipids/BilayerData' 
         runs-on: ubuntu-latest
@@ -29,11 +30,11 @@ jobs:
                 repository: NMRlipids/FAIRMD_lipids
                 ref: main
                 path: Databank
-            
+
           - name: Install Databank dependencies
             working-directory: "Databank"
             run: |
-               pip install . 
+               pip install .
 
           - name: Validate
             working-directory: "Databank"
