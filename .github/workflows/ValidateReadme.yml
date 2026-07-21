@@ -50,7 +50,7 @@ jobs:
           echo $out
           echo "== DEBUG =="
 
-          errors="$(printf '%s\n' "$out" | grep '^ERROR:' || true)"
+          errors="$(printf '%s\n' "$out" | grep 'ERROR:' || true)"
           [ -n "$errors" ] || errors="None"
 
           {
