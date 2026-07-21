@@ -3,13 +3,10 @@
 # This workflow generates a pull request with the modification of the
 # README files of conflictive systems.
 #
-# Contact:
-#  Fabián Suárez-Lestón
-#  fabian.suarez.leston@usc.es
+# // initially written by Fabián Suárez-Lestón
 
 name: UpdateIDs
 
-# Controls when the workflow will run
 on:
   # Triggers the workflow on closed pull request events, but only for the "main" branch 
   pull_request_target:
@@ -17,7 +14,6 @@ on:
       - closed
     branches: [ "main" ]
     paths: ['Simulations/**']
-    
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -25,13 +21,13 @@ on:
 jobs:
   # This workflow contains a single job called "UpdateIDs"
   UpdateIDs:
-    # This job will run if either: workflow_dispatch OR:   
+    # This job will run if either: workflow_dispatch OR:
     # Pull request is merged AND
     # The repository is NMRLipids/BilayerData AND
     # The pull request is not labeled with "UpdateID" 
     if: ${{ 
        (github.event_name == 'workflow_dispatch' ||
-      
+
        (github.event.pull_request.merged == true &&
         github.repository == 'NMRLipids/BilayerData' &&
         ! contains(github.event.pull_request.labels.*.name, 'UpdateID')
@@ -73,4 +69,4 @@ jobs:
             UpdateID
             AutoPR
           draft: false
-          
+
