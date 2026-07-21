@@ -37,8 +37,13 @@ jobs:
         working-directory: BilayerData
         shell: bash --noprofile --norc {0}
         run: |
-          out="$(find Simulations -name README.yaml -print0 \
-            | xargs -0 python -m fairmd.lipids.schema_validation.validate_yaml --schema readme 2>&1)"
+          sed +e
+          mapfile -d '' -t files < <(find Simulations -name README.yaml -print0)
+          out="$(
+            python -m fairmd.lipids.schema_validation.validate_yaml \
+              --schema readme \
+              "${files[@]}" 2>&1
+          )"
           status=$?
 
           echo "== DEBUG =="
