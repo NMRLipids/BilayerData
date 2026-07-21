@@ -41,6 +41,10 @@ jobs:
             | xargs -0 python -m fairmd.lipids.schema_validation.validate_yaml --schema readme 2>&1)"
           status=$?
 
+          echo "== DEBUG =="
+          echo $out
+          echo "== DEBUG =="
+
           errors="$(printf '%s\n' "$out" | grep '^ERROR:' || true)"
           [ -n "$errors" ] || errors="None"
 
@@ -53,5 +57,4 @@ jobs:
             printf '%s\n' "$errors"
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
-
-            exit $status
+          exit $status
