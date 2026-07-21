@@ -27,6 +27,7 @@ jobs:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.ref }}
           path: BilayerData
+          allow-unsafe-pr-checkout: true
           persist-credentials: false
 
       - name: Checkout Databank
@@ -45,7 +46,7 @@ jobs:
           pip install .
           python developer/process_info_file.py \
             --info_file_path ../BilayerData/UserData/info.yml 
-    
+
       - uses: actions/create-github-app-token@v3
         id: app-token
         with:
@@ -53,7 +54,7 @@ jobs:
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
           owner:       ${{ github.event.pull_request.head.repo.owner.login }}
           repositories: ${{ github.event.pull_request.head.repo.name }}
-      
+
       - name: Add, commit and push changes 
         working-directory: BilayerData
         run: |
