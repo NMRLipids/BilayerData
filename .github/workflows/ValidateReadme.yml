@@ -46,11 +46,17 @@ jobs:
           )"
           status=$?
 
-          echo "== DEBUG =="
-          echo $out
-          echo "== DEBUG =="
+          errors=""
 
-          errors="$(printf '%s\n' "$out" | grep 'ERROR:' || true)"
+          while IFS= read -r line; do
+            case "$line" in
+              ERROR:*)
+                echo "::error::$line"
+                errors+="$line"$'\n'
+                ;;
+            esac
+          done <<< "$out"
+
           [ -n "$errors" ] || errors="None"
 
           {
@@ -59,7 +65,9 @@ jobs:
             echo "**Errors:**"
             echo
             echo '```text'
-            printf '%s\n' "$errors"
+            printf '%s' "$errors"
+            echo
             echo '```'
           } >> "$GITHUB_STEP_SUMMARY"
+
           exit $status
