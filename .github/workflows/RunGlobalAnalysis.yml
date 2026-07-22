@@ -5,33 +5,31 @@ permissions:
    pull-requests: write
 
 on:
-  pull_request_target:
+  pull_request:
     types: [closed]
     branches:
       - main
     paths:
       - 'Simulations/**'
+      - 'experiments/**'
   workflow_dispatch:
 
 jobs:
   Run_Analysis: 
     if: github.event_name == 'workflow_dispatch' ||
       (github.event.pull_request.merged &&
-      github.event.pull_request.head.repo.full_name == 'NMRLipids/UserData'  &&
-      github.repository == 'NMRLipids/BilayerData')
+       github.repository == 'NMRLipids/BilayerData')
     runs-on: ubuntu-latest
     container:
       image: nmrlipids/core
       options: --user 1001:118
     env:
       FMDL_DATA_PATH: ${{ github.workspace }}/BilayerData
-      NMLDB_SIMU_PATH: ${{ github.workspace }}/BilayerData/Simulations
     steps:
       - name: Checkout BilayerData
         uses: actions/checkout@v7
         with:
           path: BilayerData
-          allow-unsafe-pr-checkout: true
 
       - name: Checkout Databank
         uses: actions/checkout@v7
