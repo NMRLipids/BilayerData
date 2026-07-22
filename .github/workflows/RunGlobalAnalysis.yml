@@ -15,10 +15,14 @@ on:
   workflow_dispatch:
 
 jobs:
-  Run_Analysis: 
-    if: github.event_name == 'workflow_dispatch' ||
-      (github.event.pull_request.merged &&
-       github.repository == 'NMRLipids/BilayerData')
+  Run_Analysis:
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      (
+        github.event.pull_request.merged &&
+        github.repository == 'NMRLipids/BilayerData' &&
+        !contains(github.event.pull_request.labels.*.name, 'GlobAnalysis')
+      )
     runs-on: ubuntu-latest
     container:
       image: nmrlipids/core
@@ -62,4 +66,8 @@ jobs:
                 - evaluate qualitites
                 - make ranking tables
             Related to the merge of PR #${{ github.event.pull_request.number }}. 
+          labels: |
+            AutoPR
+            GlobAnalysis
           path: BilayerData
+
