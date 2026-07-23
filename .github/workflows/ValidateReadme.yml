@@ -57,6 +57,10 @@ jobs:
             esac
           done <<< "$out"
 
+          echo "::group::Full output"
+          echo $out
+          echo "::endgroup::"
+
           [ -n "$errors" ] || errors="None"
 
           {

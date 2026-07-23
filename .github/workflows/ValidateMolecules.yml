@@ -39,4 +39,35 @@ jobs:
           - name: Validate
             working-directory: "Databank"
             run: |
-              python developer/validate_data.py
+              out="$(
+                  python developer/validate_data.py
+              )"
+              status=$?
+
+              warnings=""
+              while IFS= read -r line; do
+                if [[ "$line" =~ [Ee][Rr][Rr][Oo][Rr] ]]; then
+                  echo "::warning::Detected error line: $line"
+                  warnings+="$line"$'\n'
+                fi
+              done <<< "$out"
+
+              echo "::group::Full output"
+              echo $out
+              echo "::endgroup::"
+
+              [ -n "$warnings" ] || warnings="None"
+
+              {
+                echo "## README.yaml validation"
+                echo
+                echo "**Warnings:**"
+                echo
+                echo '```text'
+                printf '%s' "$warnings"
+                echo
+                echo '```'
+              } >> "$GITHUB_STEP_SUMMARY"
+
+              exit $status
+
