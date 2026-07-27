@@ -37,7 +37,7 @@ jobs:
         working-directory: BilayerData
         shell: bash --noprofile --norc {0}
         run: |
-          sed +e
+          set +e
           mapfile -d '' -t files < <(find Simulations -name README.yaml -print0)
           out="$(
             python -m fairmd.lipids.schema_validation.validate_yaml \
