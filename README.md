@@ -1,4 +1,4 @@
-# FAIRMD BilayerData
+# FAIRMD BilayerData 2
 FAIRMD BilayerData is an on-github database of quality-evaluated lipid bilayer structures operated by the [FAIRMD Lipids](https://github.com/NMRlipids/FAIRMD_lipids) Project. The database contains information about:
 - experiments, namely form factor data from Small-Angle X-ray Scattering (SAXS) experiments and order parameter data from <sup>1</sup>H-<sup>13</sup>C dipolar splitting or from <sup>2</sup>H quadrupolar splitting NMR experiments
 - MD simulations, run by different engines using various force fields
