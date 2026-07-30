@@ -16,9 +16,6 @@ on:
 jobs:
   GlobalAnalysis:
     runs-on: ubuntu-latest
-    container:
-      image: nmrlipids/core
-      options: --user 1001:118
     env:
       FMDL_DATA_PATH: ${{ github.workspace }}/BilayerData
     steps:
