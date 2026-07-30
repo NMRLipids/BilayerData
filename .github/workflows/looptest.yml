@@ -1,0 +1,92 @@
+name: Test PR label guard
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+    inputs:
+      commit_sha:
+        description: Commit SHA to inspect; defaults to the current commit
+        required: false
+        type: string
+      label:
+        description: PR label that should cause the workflow to skip
+        required: true
+        default: UpdateID
+        type: string
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  test-label-guard:
+    runs-on: ubuntu-latest
+
+    outputs:
+      skip: ${{ steps.guard.outputs.skip }}
+
+    steps:
+      - name: Find pull request associated with commit
+        id: guard
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TARGET_SHA: ${{ inputs.commit_sha || github.sha }}
+          TARGET_LABEL: ${{ inputs.label || 'UpdateID' }}
+        run: |
+          set -euo pipefail
+
+          pull_requests="$(
+            gh api \
+              --header "Accept: application/vnd.github+json" \
+              --header "X-GitHub-Api-Version: 2022-11-28" \
+              "repos/${GITHUB_REPOSITORY}/commits/${TARGET_SHA}/pulls"
+          )"
+
+          skip="$(
+            jq \
+              --arg label "$TARGET_LABEL" \
+              'any(.[]; any(.labels[]?; .name == $label))' \
+              <<< "$pull_requests"
+          )"
+
+          echo "skip=$skip" >> "$GITHUB_OUTPUT"
+
+          {
+            echo "## PR label guard test"
+            echo
+            echo "- Repository: \`$GITHUB_REPOSITORY\`"
+            echo "- Commit: \`$TARGET_SHA\`"
+            echo "- Guard label: \`$TARGET_LABEL\`"
+            echo "- Would skip workflow: **$skip**"
+            echo
+            echo "### Associated pull requests"
+
+            if [[ "$(jq 'length' <<< "$pull_requests")" -eq 0 ]]; then
+              echo
+              echo "No associated pull request was found."
+            else
+              echo
+              jq -r '
+                .[] |
+                "- #\(.number): \(.title) — labels: " +
+                (if (.labels | length) == 0
+                 then "none"
+                 else ([.labels[].name] | join(", "))
+                 end)
+              ' <<< "$pull_requests"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Show simulated decision
+        env:
+          SKIP: ${{ steps.guard.outputs.skip }}
+        run: |
+          if [[ "$SKIP" == "true" ]]; then
+            echo "The real automation would stop here."
+          else
+            echo "The real automation would continue."
+          fi
+
