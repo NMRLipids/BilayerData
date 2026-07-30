@@ -5,8 +5,7 @@ permissions:
    pull-requests: write
 
 on:
-  pull_request:
-    types: [closed]
+  push:
     branches:
       - main
     paths:
@@ -15,14 +14,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Run_Analysis:
-    if: >
-      github.event_name == 'workflow_dispatch' ||
-      (
-        github.event.pull_request.merged &&
-        github.repository == 'NMRLipids/BilayerData' &&
-        !contains(github.event.pull_request.labels.*.name, 'GlobAnalysis')
-      )
+  GlobalAnalysis:
     runs-on: ubuntu-latest
     container:
       image: nmrlipids/core
@@ -35,7 +27,20 @@ jobs:
         with:
           path: BilayerData
 
-      - name: Checkout Databank
+      - name: Check source pull request
+        id: source-pr
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          skip="$(
+            gh api \
+              "repos/${{ github.repository }}/commits/${{ github.sha }}/pulls" \
+              --jq 'any(.[]; any(.labels[]?; .name == "GlobAnalysis"))'
+          )"
+          echo "skip=$skip" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout Databank API
+        if: steps.source-pr.outputs.skip != 'true'
         uses: actions/checkout@v7
         with:
           repository: NMRLipids/FAIRMD_lipids
@@ -43,6 +48,7 @@ jobs:
           path: Databank
 
       - name: Compute new data
+        if: steps.source-pr.outputs.skip != 'true'
         env:
           TQDM_DISABLE: "True"
         working-directory: "Databank"
@@ -51,6 +57,7 @@ jobs:
           python developer/run_global_analysis.py 
 
       - name: Create Pull Request with simulation updates
+        if: steps.source-pr.outputs.skip != 'true'
         uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -58,14 +65,15 @@ jobs:
           committer: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
           author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
           title: Global simulation analysis after simulation addition
-          branch: analysis/update-sims-${{ github.run_number }}-${{ github.event.pull_request.number }}
+          branch: analysis/update-sims-${{ github.run_number }}-${{ github.sha }}
           base: main
           body: |
             This PR automatically runs the global analysis scripts:
                 - match simulations to experiments  
                 - evaluate qualitites
                 - make ranking tables
-            Related to the merge of PR #${{ github.event.pull_request.number }}. 
+            Triggered by: ${{ github.event_name }}
+            ${{ github.event.pull_request.number && format('Related to PR #{0}.', github.event.pull_request.number) || '' }}
           labels: |
             AutoPR
             GlobAnalysis
