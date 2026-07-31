@@ -1,5 +1,42 @@
-DOI: 10.1039/c2cp42738a
-TEMPERATURE: 300.0
+ARTICLE_DOI: 10.1039/c2cp42738a
+TEMPERATURE: 300
+MEMBRANE_COMPOSITION:
+  POPC: 0.85
+  CHOL: 0.15
+SOLUTION_COMPOSITION:
+TOTAL_HYDRATION: 50
+ADDITIONAL_MOLECULES:
+PH: UNKNOWN
+PH_METHOD: UNKNOWN
+REAGENT_SOURCES:
+  POPC: d31-POPC and POPC, Avanti Polar Lipids, Alabaster, AL, USA
+  H2O: UNKNOWN
+SAMPLE_PROTOCOL: |
+  Lipid samples were prepared by dissolving in organic solvent followed by
+  solvent evaporation and vacuum drying. Samples were hydrated to form
+  multilamellar vesicles under controlled conditions. Then samples were centrifuged
+  and supernatants were discarded. Precise total hydration is unknown.
+  Paper cites for the closest protocol: 10.1529/biophysj.107.112847
+NMR:
+  INSTRUMENT: Bruker Avance AVII-500 NMR with 4 mm CP-MAS HX probe
+  METHOD: PDLF:R18_1^7
+  SIGN_MEASURED: NONE
+  T_RF_HEATING: heating was checked using methanol-filled rotor
+  DETAILS: |
+    The following setup was used: spectral width of 149.5 ppm;
+    refocused INEPT with t1 and t2 of 1.79 ms and 1.19 ms respectively;
+    CP contact time equal to 700 ms; radiofrequency pulses set to give the nutation
+    frequencies: 45.00 kHz (R1871 pulses), 63.45 kHz (13C 90-
+    and 180-pulses), 63.45 kHz (1H INEPT pulses), 50 kHz
+    (1H decoupling pulses), 50.76–63.45 kHz (1H CP ramp pulse
+    during contact time), 53.66 kHz (13C CP pulse during contact
+    time); t1 with increments equal to 399.6 ms (0% colesterol, 7%
+    and 15% cholesterol) and 132.2 ms (34% colesterol, 50% and
+    60% cholesterol); for each t1 value, 256 scans were recorded
+    during an acquisition time of 100 ms using 5 s recycle
+    delay. MAS frequency 5kHz was used.
+
+# outdated fields
 MOLAR_FRACTIONS:
   POPC: 0.85
   CHOL: 0.15
