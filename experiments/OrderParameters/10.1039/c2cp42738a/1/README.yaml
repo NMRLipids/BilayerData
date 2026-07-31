@@ -13,8 +13,9 @@ REAGENT_SOURCES:
 SAMPLE_PROTOCOL: |
   Lipid samples were prepared by dissolving in organic solvent followed by
   solvent evaporation and vacuum drying. Samples were hydrated to form
-  multilamellar vesicles under controlled conditions. Paper cites for the
-  closest protocol: 10.1529/biophysj.107.112847
+  multilamellar vesicles under controlled conditions. Then samples were centrifuged
+  and supernatants were discarded. Precise total hydration is unknown.
+  Paper cites for the closest protocol: 10.1529/biophysj.107.112847
 NMR:
   INSTRUMENT: Bruker Avance AVII-500 NMR with 4 mm CP-MAS HX probe
   METHOD: PDLF:R18_1^7
