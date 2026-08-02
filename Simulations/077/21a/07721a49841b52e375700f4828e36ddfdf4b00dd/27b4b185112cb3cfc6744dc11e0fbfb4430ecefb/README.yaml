@@ -1,20 +1,34 @@
 DOI: 10.5281/zenodo.20579050
-TRJ: MD2.5.xtc
+TRJ:
+- - MD2.5.xtc
 SOFTWARE: gromacs
 PREEQTIME: 0
 TIMELEFTOUT: 20
-TEMPERATURE: 333
+TEMPERATURE: 333.0
 SYSTEM: Fully hydrated DLPC bilayer in SPC/E water (LJ_cutoff=1.2 nm)
 AUTHORS_CONTACT: Matej Kanduc
 SOFTWARE_VERSION: Gromacs 2022
 FF: CHARMM36/LJ-PME
-EDR: MD2.5.edr
-TPR: MD2.5.tpr
-GRO: init.gro
+EDR:
+- - MD2.5.edr
+TPR:
+- - MD2.5.tpr
+GRO:
+- - init.gro
 COMPOSITION:
   DLPC:
     NAME: DLPC
     MAPPING: mappingDLPCcharmm.yaml
+    COUNT:
+    - 50
+    - 50
   SOL:
     NAME: SOL
     MAPPING: mappingSPCwater.yaml
+    COUNT: 4314
+TRAJECTORY_SIZE: 855610304
+TRJLENGTH: 100010.0
+NUMBER_OF_ATOMS: 23542
+DATEOFRUNNING: 02/08/2026
+TYPEOFSYSTEM: lipid bilayer
+ID: -1
