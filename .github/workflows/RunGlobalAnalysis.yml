@@ -55,7 +55,7 @@ jobs:
         working-directory: "Databank"
         run: |
           pip install .
-          python developer/run_global_analysis.py 
+          python developer/run_global_analysis.py
 
       - name: Create Pull Request with simulation updates
         if: steps.source-pr.outputs.skip != 'true'
@@ -70,11 +70,11 @@ jobs:
           base: main
           body: |
             This PR automatically runs the global analysis scripts:
-                - match simulations to experiments  
+                - match simulations to experiments
                 - evaluate qualitites
                 - make ranking tables
-            Triggered by: ${{ github.event_name }}
-            ${{ github.event.pull_request.number && format('Related to PR #{0}.', github.event.pull_request.number) || '' }}
+            Triggered by: ${{ github.event_name }}.
+            Related to: commit ${{ github.sha }}.
           labels: |
             AutoPR
             GlobAnalysis
