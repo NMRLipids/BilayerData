@@ -1,0 +1,51 @@
+name: Error in Data
+description: Report an error, inconsistency, or problem found in a dataset or file in this repository.
+title: "[Data Error]: "
+labels: ["bug:data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a data error!
+
+  - type: dropdown
+    attributes:
+      label: Data type
+      options:
+        - molecule
+        - simulation
+        - experiment
+        - quality
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location of the error
+      description: |
+        Path to the file, dataset, molecule, or entry where the error was found
+        OR URL on the website https://lipids.fairmd.org
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of the error
+      description: Describe what is wrong in your opinion.
+      placeholder: |
+        What did you observe?
+        What did you expect instead?
+        Do you have a reference or source for the correct value?
+        Why do you think it's wrong?
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context (optional)
+      description: Anything else that might help us understand or reproduce the issue.
+    validations:
+      required: false
