@@ -1,6 +1,6 @@
 # Contribution guidelines
 
-Please read the document before you start contributing.
+Please read the corresponding parts of the document before you start contributing.
 
 ## Contributing the database: simulations, experiments, and molecules
 
@@ -30,16 +30,23 @@ Please use one of our dedicated labels for opening issues or marking your PR:
 
 ## Repository rules
 
-1. You can add new data without referring to any issues.
-1. Please keep main branch in your fork updated so that it can be rebased (we
-   prefer rebasing over merging).
-2. Once you address an issue, please refer it in commit message by using
-   phrases like 'Partially fixes #000'.
-3. We recommend contributors to squash commits if the changes are just adding
-   new data.
-4. We require at least one review from organisation member to accept a
+1. Anyone can contribute. For contribution, we don't force one to create an
+   issue first.
+
+2. We require at least one review from organisation member to accept a
    pull-request.
+
+3. Please keep main branch in your fork updated so that it can be rebased (we
+   prefer rebasing over merging).
+
+4. Once you address an issue, please refer it in commit message by using
+   phrases like 'Partially fixes #000'.
+
+5. We recommend contributors to squash commits if there is no use in storing history.
+
 5. Check representation of yourself in `AUTHORS.md` and `CITATION.cff` files.
-6. You are always welcome to participate in repository discussions and
+
+6. Everyone is always welcome to participate in repository discussions and
    NMRlipids community events to develop data and code together.
+
 
