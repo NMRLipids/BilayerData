@@ -1,28 +1,47 @@
 DOI: 10.5281/zenodo.22030946
-TRJ: POPC_60_POPS_12_Na_contraions_600mM_CaCl_prosECCo75.xtc
+TRJ:
+- - POPC_60_POPS_12_Na_contraions_600mM_CaCl_prosECCo75.xtc
 SOFTWARE: gromacs
 PREEQTIME: 0
 TIMELEFTOUT: 10
 SYSTEM: POPC_60_POPS_12_Na_contraions_600mM_CaCl_prosECCo75
 AUTHORS_CONTACT: Samuli Ollila
 FF: prosECCo75
-TPR: POPC_60_POPS_12_Na_contraions_600mM_CaCl_prosECCo75.tpr
+TPR:
+- - POPC_60_POPS_12_Na_contraions_600mM_CaCl_prosECCo75.tpr
 COMPOSITION:
   POPC:
     NAME: POPC
     MAPPING: mappingPOPCcharmm.yaml
+    COUNT:
+    - 30
+    - 30
   POPS:
     NAME: POPS
     MAPPING: mappingPOPScharmm.yaml
+    COUNT:
+    - 6
+    - 6
   SOL:
     NAME: SOL
     MAPPING: mappingSPCwater.yaml
+    COUNT: 3483
   SOD:
     NAME: NA
     MAPPING: mappingNA.yaml
+    COUNT: 12
   CLA:
     NAME: CL
     MAPPING: mappingCL.yaml
+    COUNT: 78
   CAL:
     NAME: CA
     MAPPING: mappingCA.yaml
+    COUNT: 39
+TRAJECTORY_SIZE: 366208256
+TRJLENGTH: 500100.0
+TEMPERATURE: 298.0
+NUMBER_OF_ATOMS: 20142
+DATEOFRUNNING: 21/08/2026
+TYPEOFSYSTEM: lipid bilayer
+ID: -1
