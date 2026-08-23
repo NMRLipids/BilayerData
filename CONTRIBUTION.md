@@ -7,7 +7,10 @@ Please read the corresponding parts of the document before you start contributin
 _Adding_ new data is described in detail in [the FAIRMD Lipids
 documentation](https://databank.readthedocs.io/stable/dbcontribute.html).
 Please follow the instructions carefully for both simulations and experiments,
-filling metadata fields with meaningful and complete information.
+filling metadata fields with meaningful and complete information. Simulation
+addition is available via [automatic addition
+portal](https://upload-portal.nmrlipids.fi) *iff* the molecule and its naming
+convention is already in the databank.
 
 When you find mistakes in the data, please inform the community by opening [an
 issue](https://github.com/NMRLipids/BilayerData/issues/new?template=bug_data.yml)
@@ -82,7 +85,27 @@ a major version, `Y` is called minor version, and `Z` is a patch. We increase:
 - minor version `Y` when some schemas were changed
 - major version `X` when the project reaches the next large milestone
 
+Changes in workflow and documentation doesn't increase the version. 
+
+_NOTE_ that version of BilayerData is independent from version of python
+package [FAIRMD_lipids](httsp://github.com/NMRlipids/FAIRMD_lipids). However,
+if some algorithm is changed in the package, for example, quality evaluation,
+it will automatically mean that the quality over whole databank is recomputed
+and we should increase the minor version here.
+
 Versions are released so we can cite the release of the database from external documents that is
 simpler than cite commit hashes.
 
+Automatically formed release notes are acceptable if there is no additional
+context, we should add. If version increase happens because of the package's
+algorithm change, we must write it explicitly.
+
+# Integration with the website
+
+The web portal [lipids.fairmd.org](https://lipids.fairmd.org) is continuously
+deployed from both [its own source
+repository](https://github.com/NMRlipids/BilayerGUI_laravel) to update
+backend/frontend codes and from this repository to update records. System
+should appear at the website a few minutes after it is accepted to `main`
+branch.
 
