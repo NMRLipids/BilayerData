@@ -52,5 +52,6 @@ jobs:
           labels: |
             UpdateID
             AutoPR
+            contribute:sim
           draft: false
 

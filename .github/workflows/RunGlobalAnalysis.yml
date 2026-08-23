@@ -78,5 +78,6 @@ jobs:
           labels: |
             AutoPR
             GlobAnalysis
+            contribute:sim
           path: BilayerData
 
