@@ -1,0 +1,31 @@
+DOI: 10.5281/zenodo.21937938
+TRJ: cnt-mmb_111.dcd
+SOFTWARE: NAMD
+PREEQTIME: 100
+TIMELEFTOUT: 0
+TEMPERATURE: 303.15
+SYSTEM: POPC:SSM(sphingomyelin):CHOL(1:1:1)
+PUBLICATION: 10.1038/s41467-025-58334-z
+AUTHORS_CONTACT: franci.merzel@ki.si
+SOFTWARE_VERSION: NAMD 2.13
+FF: Charmm36
+FF_SOURCE: charmm-gui
+FF_DATE: December 2023
+PSF: input_111.psf
+PDB: input_111.pdb
+COMPOSITION:
+  POPC:
+    NAME: POPC
+    MAPPING: mappingPOPCcharmm.yaml
+  SM18:
+    NAME: SSM
+    MAPPING: mappingSM18charmm.yaml
+  CHOL:
+    NAME: CHL1
+    MAPPING: mappingCHOLESTEROLcharmm.yaml
+  SOD:
+    NAME: SOD
+    MAPPING: mappingSOD.yaml
+  CLA:
+    NAME: CLA
+    MAPPING: mappingCLA.yaml
