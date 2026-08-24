@@ -29,3 +29,6 @@ COMPOSITION:
   CLA:
     NAME: CLA
     MAPPING: mappingCLA.yaml
+  SOL:
+    NAME: TIP3
+    MAPPING: mappingTIP3PCHARMMgui.yaml
