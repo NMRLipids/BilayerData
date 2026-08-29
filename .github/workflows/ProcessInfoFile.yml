@@ -43,9 +43,11 @@ jobs:
           fmdl_STRICT_MODE: True
         working-directory: Databank
         run: |
+          # Use runner temp storage instead of container /tmp.
+          export TMPDIR="$RUNNER_TEMP"
           pip install .
           python developer/process_info_file.py \
-            --info_file_path ../BilayerData/UserData/info.yml 
+            --info_file_path ../BilayerData/UserData/info.yml
 
       - uses: actions/create-github-app-token@v3
         id: app-token
