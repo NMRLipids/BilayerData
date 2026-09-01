@@ -42,8 +42,8 @@ Please use one of our dedicated labels for opening issues or marking your PR:
 3. Please keep main branch in your fork updated so that it can be rebased (we
    prefer rebasing over merging).
 
-4. Once you address an issue, please refer it in commit message by using
-   phrases like 'Partially fixes #000'.
+4. Once you address an issue, please refer to it in the PR description (and in the commit message)
+   by using phrases like 'Partially fixes #000'.
 
 5. We recommend contributors to squash commits if there is no use in storing history.
 
