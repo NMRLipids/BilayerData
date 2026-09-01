@@ -1,25 +1,112 @@
-# Adding simulations and experiments
 
-Adding new data is described in detail in [the FAIRMD Lipids documentation](https://databank.readthedocs.io/stable/dbcontribute.html). Please follow the instructions carefully for both simulations and experiments, filling metadata fields with meaningful and complete information.
+# Contribution guidelines
 
-# Adding molecules
-If data addition requires a molecule that is currently absent, you are very welcome to add new molecules. Please be careful with modifying molecule information, especially mapping files of molecules, as it could affect the recomputation of other contributors' data.
+Please read the corresponding parts of the document before you start contributing.
 
-To add a new molecule please add the folder to `Molecules` and mapping file as described in [the documentation about molecules addition](https://databank.readthedocs.io/latest/contrib/addingMolecule.html).
+## Contributing to the database: simulations, experiments, and molecules
 
-Please provide metadata about the molecule in a `metadata.yaml` in the same subfolder of `Molecules/membrane/YOURMOLECULE.yaml`. You can find the template in `Molecules/metadata-example.yaml`
-The recommended workflow is to start from the [InChI](https://en.wikipedia.org/wiki/International_Chemical_Identifier). You can obtain the InChI and InChIKey for your molecule via different methods. One possiblity is to use a PDB snapshot of your trajectory (from gromacs, VMD, MDAnalysis ...) and to add connectivty using [RDkit](https://www.rdkit.org/) or [gromologist](https://gitlab.com/KomBioMol/gromologist) and convert a single molecule to InChI via [RDkit](https://www.rdkit.org/) or [OpenBabel](https://openbabel.org/index.html). We use the neutral form of the molecule. Please indicate the charge of the molecule in your `metadata.yaml` under `charge:`.
-Please ensure that the InChI represents your molecule. The named tools might deliver imperfect results.
-Provided your molecule is not fully synthetic or novel, you can obtain most of the other metadata from the [PubChem API](https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest) and the [UniChem API](https://www.ebi.ac.uk/unichem/api/docs) using the InChIKey. This is automated by the `.github/workflows/AutocompleteMetadata.yml`workflow if you make a pull request with `Molecules/membrane/YOURMOLECULE/metadata.yaml`with only an ID and the InChIKey.
-Mapping especially to LIPID MAPS and SwissLipids might be incomplete in some cases and can be completed manually. 
+_Adding_ new data is described in detail in [the FAIRMD Lipids
+documentation](https://databank.readthedocs.io/stable/dbcontribute.html).
+Please follow the instructions carefully for both simulations and experiments,
+filling metadata fields with meaningful and complete information. Simulation
+addition is available via [automatic addition
+portal](https://upload-portal.nmrlipids.fi) *iff* the molecule and its naming
+convention is already in the databank.
 
-# Repository rules
+When you find mistakes in the data, please inform the community by opening [an
+issue](https://github.com/NMRLipids/BilayerData/issues/new?template=bug_data.yml)
+or open a pull-request if you want to fix it by yourself.
 
-1. You can add new data without referring to any issues.
-1. Please keep main branch in your fork updated so that it can be rebased (we prefer rebasing over merging).
-2. Once you address an issue, please refer it in commit message by using phrases like 'Partially fixes #000'.
-3. We recommend contributors to squash commits if the changes are just adding new data.
-4. We require at least one review from organisation member to accept a pull-request.
+_Deleting_ data is possible and very welcome _iff_ you can prove that the
+data is problematic. It is applicable first of all for the experiments because
+incorrect experiments affect the quality. Incorrect simulations will just get
+very bad quality; however, if there is a mistaken simulation, duplicated
+trajectory, or fraud, it can also be deleted.
+
+**Labels** 
+
+Please use one of our dedicated labels for opening issues or marking your PR:
+
+- `contribution:mol`
+- `contribution:exp`
+- `contribution:sim`
+- `bug:data` if a mistake was found
+
+## Repository rules
+
+1. Anyone can contribute. For a contribution, we don't force one to create an
+   issue first.
+
+2. We require at least one review from an organization member to accept a
+   pull-request.
+
+3. Please keep the main branch in your fork updated so that it can be rebased (we
+   prefer rebasing over merging).
+
+4. Once you address an issue, please refer to it in the PR description (and in the commit message)
+   by using phrases like 'Partially fixes #000'.
+
+5. We recommend contributors squash commits if there is no use in storing history.
+
 5. Check representation of yourself in `AUTHORS.md` and `CITATION.cff` files.
-6. You are always welcome to participate in repository discussions and NMRlipids community events to develop data and code together.
+
+6. Everyone is always welcome to participate in repository discussions and
+   NMRlipids community events to develop data and code together.
+
+## Database self-maintenance
+
+BilayerData is an on-GitHub database, and it has a set of workflows to perform
+its own maintenance.
+
+**Self-checks** are run every time a contributor adds a commit to a pull request.
+Please do not ignore them. Their output can guide you on how to improve your
+metadata or point to errors.
+
+**Simulation ID uniqueness** is maintained by auto-PRs. Each simulation is
+added with a negative ID, and then it adds a PR to fix it. It ensures uniqueness of
+IDs.
+
+**Quality recomputations** are also performed with auto-PRs. If one is
+contributing to experiments or simulations, it's not required to run matching
+or quality evaluation - it will be run by our self-maintenance system automatically.
+However, if your changes break further analysis, it's good to know about it, so we
+recommend running a quality evaluation to check that it works.
+
+_Security notes:_ AutoPRs cannot be triggered by external contributors because they
+are triggered by merging. Merging a PR, in turn, requires the approval of an organization member,
+so auto-PRs cannot be triggered silently.
+
+## Versioning policy and releases
+
+BilayerData is a developing database. It has a lot of various manifest files that can
+change their schemas at some point. We have a semantic version system `vX.Y.Z` where `X` is
+a major version, `Y` is called a minor version, and `Z` is a patch. We increase:
+
+- the patch `Z` when we decide that the contribution to the database is significant since the previous patch
+- minor version `Y` when some schemas were changed
+- major version `X` when the project reaches the next large milestone
+
+Changes in workflow and documentation don't increase the version. 
+
+_NOTE_ that the version of BilayerData is independent of the version of the Python
+package [FAIRMD_lipids](https://github.com/NMRlipids/FAIRMD_lipids). However,
+if some algorithm is changed in the package, for example, quality evaluation,
+it will automatically mean that the quality over the whole databank is recomputed
+and we should increase the minor version here.
+
+Versions are released so we can cite the release of the database from external documents, which is
+simpler than citing commit hashes.
+
+Automatically formed release notes are acceptable if there is no additional
+context we should add. If the version increase happens because of the package's
+algorithm change, we must write it explicitly.
+
+# Integration with the website
+
+The web portal [lipids.fairmd.org](https://lipids.fairmd.org) is continuously
+deployed from both [its own source
+repository](https://github.com/NMRlipids/BilayerGUI_laravel) to update
+backend/frontend code and from this repository to update records. System
+should appear on the website a few minutes after it is accepted to the `main`
+branch.
 
