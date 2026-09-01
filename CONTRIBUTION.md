@@ -2,7 +2,7 @@
 
 Please read the corresponding parts of the document before you start contributing.
 
-## Contributing the database: simulations, experiments, and molecules
+## Contributing to the database: simulations, experiments, and molecules
 
 _Adding_ new data is described in detail in [the FAIRMD Lipids
 documentation](https://databank.readthedocs.io/stable/dbcontribute.html).
@@ -52,10 +52,10 @@ Please use one of our dedicated labels for opening issues or marking your PR:
 6. Everyone is always welcome to participate in repository discussions and
    NMRlipids community events to develop data and code together.
 
-## Database self-maintainance
+## Database self-maintenance
 
-BilayerData is an on-GitHub database and it has a set of workflows to perfom
-its own maintanance.
+BilayerData is an on-GitHub database, and it has a set of workflows to perform
+its own maintenance.
 
 **Self-checks** are run every time a contributor adds a commit to pull request.
 Please do not ignore them. Their output can guide you how to improve your
@@ -72,7 +72,7 @@ However, if your changes breaks further analysis, it's good to know about it, so
 recommend to run quality evaluation to check that it works.
 
 _Security notes:_ AutoPRs cannot be triggered by an external contributors because they
-are triggered by merging. Merging a PR, in turn, requires the approve of organisation member,
+are triggered by merging. Merging a PR, in turn, requires the approval of an organization member,
 so auto-PRs cannot be triggered silently.
 
 ## Versioning policy and releases
@@ -81,20 +81,20 @@ BilayerData is a developing database. It has a lot of various manifest files tha
 change their schemas at some point. We have semantic version `vX.Y.Z` system where `X` is
 a major version, `Y` is called minor version, and `Z` is a patch. We increase:
 
-- the patch `Z` when we decide that contirbution to the database is significant since previous patch
+- the patch `Z` when we decide that the contribution to the database is significant since the previous patch
 - minor version `Y` when some schemas were changed
 - major version `X` when the project reaches the next large milestone
 
-Changes in workflow and documentation doesn't increase the version. 
+Changes in workflow and documentation don't increase the version. 
 
 _NOTE_ that version of BilayerData is independent from version of python
-package [FAIRMD_lipids](httsp://github.com/NMRlipids/FAIRMD_lipids). However,
+package [FAIRMD_lipids](https://github.com/NMRlipids/FAIRMD_lipids). However,
 if some algorithm is changed in the package, for example, quality evaluation,
 it will automatically mean that the quality over whole databank is recomputed
 and we should increase the minor version here.
 
 Versions are released so we can cite the release of the database from external documents that is
-simpler than cite commit hashes.
+simpler than citing commit hashes.
 
 Automatically formed release notes are acceptable if there is no additional
 context, we should add. If version increase happens because of the package's
@@ -105,7 +105,7 @@ algorithm change, we must write it explicitly.
 The web portal [lipids.fairmd.org](https://lipids.fairmd.org) is continuously
 deployed from both [its own source
 repository](https://github.com/NMRlipids/BilayerGUI_laravel) to update
-backend/frontend codes and from this repository to update records. System
-should appear at the website a few minutes after it is accepted to `main`
+backend/frontend code and from this repository to update records. System
+should appear on the website a few minutes after it is accepted to `main`
 branch.
 
