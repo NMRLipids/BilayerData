@@ -23,12 +23,14 @@ jobs:
         ${{
           inputs.dataset == 'op-sim' && '--sims' ||
           inputs.dataset == 'op-exp' && '--exps' ||
+          inputs.dataset == 'op-qual' && '--qual' ||
           '--other'
         }}
       SLUG_NAME: >-
         ${{
           inputs.dataset == 'op-sim' && 'lipid-ch-order-parameters-from-md-simulations' ||
           inputs.dataset == 'op-exp' && 'lipid-ch-order-parameters-from-experiments' ||
+          inputs.dataset == 'op-qual' && 'per-carbon-quality-of-ch-lipid-order-parameters' ||
           '--other'
         }}
     steps:
@@ -89,7 +91,7 @@ jobs:
         run: |
           set -e
           cd dataset
-          python ${DATABANK_ROOT}/developer/gen-op-dataset.py ${SCRIPT_ARGS}
+          python ${DATABANK_ROOT}/developer/gen_op_dataset.py ${SCRIPT_ARGS}
           cd ..
           kaggle datasets version -p ./dataset -m "Dataset auto-release from ${SHORT_SHA}"
 
