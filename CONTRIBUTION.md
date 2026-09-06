@@ -8,10 +8,10 @@ Please read the corresponding parts of the document before you start contributin
 _Adding_ new data is described in detail in [the FAIRMD Lipids
 documentation](https://databank.readthedocs.io/stable/dbcontribute.html).
 Please follow the instructions carefully for both simulations and experiments,
-filling metadata fields with meaningful and complete information. Simulation
-addition is available via [automatic addition
-portal](https://upload-portal.nmrlipids.fi) *iff* the molecule and its naming
-convention is already in the databank.
+filling metadata fields with meaningful and complete information. You can add
+simulations through the [automatic addition
+portal](https://upload-portal.nmrlipids.fi) only if all molecules and their naming
+conventions are already in the databank.
 
 When you find mistakes in the data, please inform the community by opening [an
 issue](https://github.com/NMRLipids/BilayerData/issues/new?template=bug_data.yml)
@@ -25,17 +25,18 @@ trajectory, or fraud, it can also be deleted.
 
 **Labels** 
 
-Please use one of our dedicated labels for opening issues or marking your PR:
+*For project members:* please apply one of our dedicated labels for opening issues or marking your PR:
 
 - `contribution:mol`
 - `contribution:exp`
 - `contribution:sim`
 - `bug:data` if a mistake was found
 
+If you see an unlabeled issue or a PR created by an external contributor, please suggest applying a right label if it fits the scope.
+
 ## Repository rules
 
-1. Anyone can contribute. For a contribution, we don't force one to create an
-   issue first.
+1. Anyone can contribute. You do not need to open an issue before submitting a pull request.
 
 2. We require at least one review from an organization member to accept a
    pull-request.
@@ -70,7 +71,7 @@ IDs.
 contributing to experiments or simulations, it's not required to run matching
 or quality evaluation - it will be run by our self-maintenance system automatically.
 However, if your changes break further analysis, it's good to know about it, so we
-recommend running a quality evaluation to check that it works.
+recommend running a quality evaluation locally to check that it works.
 
 _Security notes:_ AutoPRs cannot be triggered by external contributors because they
 are triggered by merging. Merging a PR, in turn, requires the approval of an organization member,
