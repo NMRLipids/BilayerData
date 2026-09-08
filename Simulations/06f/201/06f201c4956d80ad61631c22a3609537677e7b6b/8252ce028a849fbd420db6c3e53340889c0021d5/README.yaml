@@ -30,7 +30,6 @@ COMPOSITION:
     MAPPING: mappingSOD.yaml
     COUNT: 120
 DIR_WRK: /home/sosamuli/temp/DataBank/
-PUBLICATION: Castillo et al, 2022, Mol. Pharmaceutics. 19:1839-1852 (https://doi.org/10.1021/acs.molpharmaceut.1c00926)
 AUTHORS_CONTACT: Milka Doktorova
 SYSTEM: POPC/TOCL mixture
 SOFTWARE_VERSION: null
@@ -41,7 +40,7 @@ TOP: null
 TRAJECTORY_SIZE: 5930712032
 TRJLENGTH: 540020.0
 NUMBER_OF_ATOMS: 59040
-DATEOFRUNNING: 22/09/2023
+DATEOFRUNNING: '2023-09-22'
 TYPEOFSYSTEM: lipid bilayer
 ID: 771
 EXPERIMENT:
@@ -49,3 +48,78 @@ EXPERIMENT:
     TOCL: []
     POPC: []
   FORMFACTOR: []
+bioschema_properties:
+  name: All-atom Gromacs Trajectory of POPC/TOCL bilayer mixture
+  alternateName: POPC/TOCL mixture
+  description: All-atom bilayer mixture of POPC/TOCL 1:1 simulated in an NPT ensemble with Gromacs and the CHARMM36 force field from Castillo et al, 2022, Mol. Pharmaceutics. 19:1839-1852 (https://doi.org/10.1021/acs.molpharmaceut.1c00926). The trajectory represents 540 ns with frames output every 20 ps. The bilayer has 120 lipids total (60 lipids per leaflet) and is hydrated with 100 waters/lipid and sodium ions to neutralize the system. The simulation was done at 37C (310.15K). POPC is 16:0,18:1 PC; TOCL is tetraoleoyl cardiolipin
+  sameAs: https://doi.org/10.5281/zenodo.13984206
+  datePublished: '2023-09-19'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Doktorova, Milka
+    identifier: https://orcid.org/0000-0003-4366-2242
+  citation:
+  - 10.1021/acs.molpharmaceut.1c00926
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - TOCL
+  - 1’,3’-Bis[1,2-dioleoyl-sn-glycero-3-phospho]-glycerol
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SOD
+  - TOCL mixture
+  - cardiolipin
+  - membrane simulation
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - Charmm36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.13984206
+    name: POPC/TOCL mixture
+    contentSize: 5930712032
+    encodingFormat: application/x-xtc
+    hasPart:
+    - PC_CL_540Run.xtc
+    - PC_CL_540Run.tpr
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.13984206
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

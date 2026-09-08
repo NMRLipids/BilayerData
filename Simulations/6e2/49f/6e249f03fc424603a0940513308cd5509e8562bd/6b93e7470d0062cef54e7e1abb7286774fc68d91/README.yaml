@@ -36,7 +36,7 @@ COMPOSITION:
 TRAJECTORY_SIZE: 654610352
 TRJLENGTH: 500000.0
 NUMBER_OF_ATOMS: 35280
-DATEOFRUNNING: 17/02/2026
+DATEOFRUNNING: '2026-02-17'
 TYPEOFSYSTEM: lipid bilayer
 ID: 882
 EXPERIMENT:
@@ -46,3 +46,77 @@ EXPERIMENT:
     - unpublished/ferreiraPOPE/1
   FORMFACTOR:
   - 10.1021/jp511159q/1
+bioschema_properties:
+  name: Simulation of a POPE bilayer, lipid model based on OPLS-aa by Rog et al.
+  alternateName: Bilayer
+  description: A 500 ns-long simulation of a bilayer consisting of 144 POPE lipids and 40 water molecules per lipid. All GROMACS-compatible input and output files are required. Topologies are provided by their original authors. If you use the topologies, please cite the papers indicated in the POPE.itp file.
+  sameAs: https://doi.org/10.5281/zenodo.3571071
+  datePublished: '2019-12-11'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+    identifier: https://orcid.org/0000-0003-4858-364X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPE
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - OPLS-aa force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3571071
+    name: Bilayer
+    contentSize: 654610352
+    encodingFormat: application/x-xtc
+    hasPart:
+    - pope.xtc
+    - pope.tpr
+    - topol.top
+    - pope.gro
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/jacs.1c05549/2
+  - experiments/OrderParameters/unpublished/ferreiraPOPE/1
+  - experiments/FormFactors/10.1021/jp511159q/1
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3571071
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

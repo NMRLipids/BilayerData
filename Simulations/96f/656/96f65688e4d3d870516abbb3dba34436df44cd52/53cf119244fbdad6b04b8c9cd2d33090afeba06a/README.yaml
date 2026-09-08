@@ -22,7 +22,6 @@ COMPOSITION:
     MAPPING: mappingwaterlipid14.yaml
     COUNT: 25000
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Peón, Antonio
 SYSTEM: 500POPG_500SOD_25000SOL_310K
 SOFTWARE_VERSION: 2018.3
@@ -37,10 +36,83 @@ TRAJECTORY_SIZE: 5162978208
 TRJLENGTH: 100010.0
 TEMPERATURE: 310.0
 NUMBER_OF_ATOMS: 139000
-DATEOFRUNNING: 03/01/2022
+DATEOFRUNNING: '2022-01-03'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPG: []
   FORMFACTOR: []
 ID: 605
+bioschema_properties:
+  name: LIPID17 POPG Bilayer Simulation (Last 100 ns, 310 K ) using dihedral type 9
+  alternateName: 500POPG_500SOD_25000SOL_310K
+  description: 'Simulation of a POPG bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs v2018.3 in water solution with Na+ counterions. The LIPID17 model (1), AMBER ff15ipq and TIP3P water model are employed. It was used dihedral type 9 instead 1. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top), simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided. ------- (1) Gould, I.R., Skjevik A.A., Dickson, C.J., Madej, B.D., Walker, R.C., "Lipid17: A Comprehensive AMBER Force Field for the Simulation of Zwitterionic and Anionic Lipids", 2018, in prep.'
+  sameAs: https://doi.org/10.5281/zenodo.3832274
+  datePublished: '2019-06-17'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Peón, Antonio
+    identifier: https://orcid.org/0000-0003-4803-988X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - SOD
+  - LIPID17
+  - Bilayer
+  - Lipid
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2018.3)
+  - Lipid17 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3832274
+    name: 500POPG_500SOD_25000SOL_310K
+    contentSize: 5162978208
+    encodingFormat: application/x-xtc
+    hasPart:
+    - total_4_500_last.xtc
+    - md.tpr
+    - popg_fix.top
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3832274
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

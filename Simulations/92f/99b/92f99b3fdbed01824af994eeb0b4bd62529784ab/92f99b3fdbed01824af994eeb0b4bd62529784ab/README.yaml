@@ -19,7 +19,6 @@ COMPOSITION:
     MAPPING: mappingTIP3PCHARMMgui.yaml
     COUNT: 2880
 DIR_WRK: /media/osollila/Data1/tmp/DATABANK/
-PUBLICATION: null
 AUTHORS_CONTACT: Kav, Batuhan
 SYSTEM: POPE_nosalt_at_303K_with_AMOEBA
 SOFTWARE_VERSION: v7.5.1
@@ -30,10 +29,78 @@ FF_DATE: null
 TRAJECTORY_SIZE: 1976959348
 TRJLENGTH: 305940.0
 NUMBER_OF_ATOMS: 17640
-DATEOFRUNNING: 09/02/2023
+DATEOFRUNNING: '2023-02-09'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPE: []
   FORMFACTOR: []
 ID: 746
+bioschema_properties:
+  name: MD Simulation data for a pure POPE bilayer with AMOEBA force field + OpenMM
+  alternateName: POPE_nosalt_at_303K_with_AMOEBA
+  description: 'MD simulation data for the POPE bilayer with the AMOEBA-based force field developed by Li (https://doi.org/10.1080/00268976.2018.1436201). The simulation contains 72 POPE lipids and 2880 water molecules. The trajectory is 305,94 ns long (30594 frames with 10 ps saving frequency). It has been discovered that (https://github.com/NMRLipids/Databank/issues/2#issuecomment-1357871243) the openmm_combined.dcd trajectory did not have the correct timestamp: the timestep between two consecutive simulation frames was not correctly embedded into the trajectory information. Therefore, with the latest version we are uploading the "wrapped_full.xtc" which has the correct timestamp. The frame saving frequency in this trajectory is 10 ps. The correction to the timestamp was done via MDAnalysis. This new update should not invalidate any previous calculations that did not explicitly read the timestamp information from the trajectory.'
+  sameAs: https://doi.org/10.5281/zenodo.7622838
+  datePublished: '2023-02-08'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kav, Batuhan
+    identifier: https://orcid.org/0000-0003-4990-373X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPE
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  measurementTechnique:
+  - Molecular dynamics simulation (openMM v7.5.1)
+  - AMOEBA force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.7622838
+    name: POPE_nosalt_at_303K_with_AMOEBA
+    contentSize: 1976959348
+    encodingFormat: application/x-xtc
+    hasPart:
+    - wrapped_full.xtc
+    - pope_charmm_last_frame.pdb
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.7622838
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

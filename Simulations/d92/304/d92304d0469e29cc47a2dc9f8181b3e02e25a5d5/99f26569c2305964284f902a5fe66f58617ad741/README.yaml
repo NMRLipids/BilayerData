@@ -9,7 +9,6 @@ PREEQTIME: 1000
 TIMELEFTOUT: 0
 TEMPERATURE: 310.0
 SYSTEM: IMMmodel_CHARMM_310K
-PUBLICATION: https://doi.org/10.5281/zenodo.15600823
 AUTHORS_CONTACT: A.M.Nesterenko
 FF: CHARMM36
 FF_SOURCE: CHARMM-GUI
@@ -54,7 +53,7 @@ COMPOSITION:
 TRAJECTORY_SIZE: 13665707252
 TRJLENGTH: 1000020.0
 NUMBER_OF_ATOMS: 73551
-DATEOFRUNNING: 08/08/2025
+DATEOFRUNNING: '2025-08-08'
 TYPEOFSYSTEM: lipid bilayer
 ID: 839
 EXPERIMENT:
@@ -63,3 +62,86 @@ EXPERIMENT:
     SAPC: []
     POPE: []
   FORMFACTOR: []
+bioschema_properties:
+  name: Simulation of model mitochondrial membrane (CHARMM36)
+  alternateName: IMMmodel_CHARMM_310K
+  description: MD simulation trajectories of model internal mitochondrial membrane (IMM) consisted of 45% PC (18:0, 20:4),SAPC, 35% PE (16:0, 18:1), POPE, and 20% CL (18:2), TLCL conducted in NPT ensemble at 310K in CHARMM36 force field using GROMACS v.2023+. Pre-equilibration trajectory of 1000 ns was taken as initial states (from timesteps 300, 700, 1000 ns) for three deposited 1-us replicas. Writting frequency is 20 ps. Part of the bachelor project "Kardiolipin sin effekt på membranfluiditet" (in Norwegian) of Olivia Lykke Nygaard uploaded and referenced below.
+  sameAs: https://doi.org/10.5281/zenodo.16001915
+  datePublished: '2025-07-17'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Nygaard, Olivia Lykke
+  - name: Nesterenko, Alexey
+    identifier: https://orcid.org/0000-0003-1592-257X
+  citation:
+  - 10.5281/zenodo.15600823
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - TLCL_0H
+  - tetralinoleoyl cardiolipin(2−)
+  - SAPC
+  - 1-stearoyl-2-arachidonoyl-sn-glycero-3-phosphocholine
+  - POPE
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  - POT
+  - CLA
+  - Cardiolipins
+  - Cardiolipins/ultrastructure
+  - Molecular Dynamics Simulation
+  - NMRlipids
+  - GROMACS
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.16001915
+    name: IMMmodel_CHARMM_310K
+    contentSize: 13665707252
+    encodingFormat: application/x-xtc
+    hasPart:
+    - dump1000.xtc
+    - dump1000.tpr
+    - topol.top
+    - dump1000.gro
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.16001915
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

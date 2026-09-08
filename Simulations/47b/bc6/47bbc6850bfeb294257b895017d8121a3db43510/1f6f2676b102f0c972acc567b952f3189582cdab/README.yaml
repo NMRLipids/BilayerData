@@ -28,7 +28,6 @@ COMPOSITION:
     MAPPING: mappingSPCwater.yaml
     COUNT: 20480
 DIR_WRK: /media/osollila/Data1/tmp/DATABANK/
-PUBLICATION: null
 AUTHORS_CONTACT: Antila, Hanne
 SYSTEM: 256POPC_256CHOL_20480SOL_303K_Berger
 SOFTWARE_VERSION: Gpu-version 2020.1
@@ -43,7 +42,7 @@ TRAJECTORY_SIZE: 36993890772
 TRJLENGTH: 1200010.0
 TEMPERATURE: 303.0
 NUMBER_OF_ATOMS: 82176
-DATEOFRUNNING: 17/03/2022
+DATEOFRUNNING: '2022-03-17'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -51,3 +50,73 @@ EXPERIMENT:
     CHOL: []
   FORMFACTOR: []
 ID: 59
+bioschema_properties:
+  name: MD simulation of 50% POPC+50% cholesterol bilayer using Berger force field at T=303K
+  alternateName: 256POPC_256CHOL_20480SOL_303K_Berger
+  description: Unprotonated trajectory (1.2 microseconds) from a Berger simulation of 256 POPCs and 265 cholesterols hydrated with 20408 waters simulated with Gpu-version of Gromacs2020.1. The force field and inputs were downloaded from 10.5281/zenodo.13285. Prod.tpr was used to run the simulation. Simulation used Nose-Hoover thermostat and Parrinello-Rahman barostat.
+  sameAs: https://doi.org/10.5281/zenodo.4537794
+  datePublished: '2021-02-12'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Antila, Hanne
+    identifier: https://orcid.org/0000-0002-2474-5053
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CHOL
+  - cholesterol
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs Gpu-version 2020.1)
+  - Berger force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.4537794
+    name: 256POPC_256CHOL_20480SOL_303K_Berger
+    contentSize: 36993890772
+    encodingFormat: application/x-xtc
+    hasPart:
+    - prod.xtc
+    - prod.tpr
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.4537794
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

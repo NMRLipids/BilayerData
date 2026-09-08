@@ -19,7 +19,6 @@ COMPOSITION:
     MAPPING: mappingwaterlipid14.yaml
     COUNT: 4000
 DIR_WRK: /set-in-console
-PUBLICATION: null
 AUTHORS_CONTACT: Milla Kurki (Lindström)
 SYSTEM: 200POPC_4000SOL_300K
 SOFTWARE_VERSION: Desmond 2022-2
@@ -37,7 +36,7 @@ TRAJECTORY_SIZE: 7043393424
 TRJLENGTH: 479930.0
 TEMPERATURE: 300.0
 NUMBER_OF_ATOMS: 38800
-DATEOFRUNNING: 18/04/2024
+DATEOFRUNNING: '2024-04-18'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -45,3 +44,73 @@ EXPERIMENT:
     - 10.1021/acs.jpcb.4c04719/5
   FORMFACTOR: []
 ID: 803
+bioschema_properties:
+  name: MD simulation of POPC bilayer with OPLS4 force field. 20 w/l
+  alternateName: 200POPC_4000SOL_300K
+  description: 'MD simulation of POPC (1-palmitoyl-2-oleoyl-phosphatidylcholine) bilayer with OPLS4 force field. 20 w/l Dataset contains original desmond trajectories (_trj), topologies (-out.cms), input files (.cfg, .msj, .cms), and other files For the ease of the upload, trajectory files (_trj) are divided to 250ns pieces and tarred (named desmond_md_popc20_opls4_x-xns_.tar.gz) Dataset also contains Gromacs converted files (.xtc, .gro and .top) System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 4000 Simulation time: 500 ns Simulation engine: Desmond 2022-2 Temperature: 300 K'
+  sameAs: https://doi.org/10.5281/zenodo.10929839
+  datePublished: '2024-04-05'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kurki, Milla
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs Desmond 2022-2)
+  - OPLS4 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.10929839
+    name: 200POPC_4000SOL_300K
+    contentSize: 7043393424
+    encodingFormat: application/x-xtc
+    hasPart:
+    - popc_20wl_opls4_step10ps_20-500ns.xtc
+    - analyze.tpr
+    - structure.top
+    - popc_20wl_opls4.gro
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/5
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.10929839
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

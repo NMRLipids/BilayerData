@@ -20,7 +20,6 @@ COMPOSITION:
     MAPPING: mappingTIP3PwaterSage.yaml
     COUNT: 5000
 DIR_WRK: /Users/patrickfrankel/Desktop/lipid_database/Databank/
-PUBLICATION: null
 AUTHORS_CONTACT: Patrick Frankel
 SYSTEM: POPC_128_OPENFF_300K
 FF: OpenFF
@@ -31,7 +30,7 @@ TOP:
 TRAJECTORY_SIZE: 2354061808
 TRJLENGTH: 200010.0
 NUMBER_OF_ATOMS: 32152
-DATEOFRUNNING: 16/10/2023
+DATEOFRUNNING: '2023-10-16'
 TYPEOFSYSTEM: lipid bilayer
 ID: 792
 EXPERIMENT:
@@ -41,3 +40,75 @@ EXPERIMENT:
     - 10.1039/c2cp42738a/1
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/1
+bioschema_properties:
+  name: OpenFF Pure POPC
+  alternateName: POPC_128_OPENFF_300K
+  description: 200 ns MD production of a pure POPC bilayer using OpenFF parameters.
+  sameAs: https://doi.org/10.5281/zenodo.8411425
+  datePublished: '2023-10-05'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Frankel, Patrick
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - OpenFF force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.8411425
+    name: POPC_128_OPENFF_300K
+    contentSize: 2354061808
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md.xtc
+    - md.tpr
+    - topol.top
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
+  - experiments/OrderParameters/10.1039/c2cp42738a/1
+  - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8411425
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

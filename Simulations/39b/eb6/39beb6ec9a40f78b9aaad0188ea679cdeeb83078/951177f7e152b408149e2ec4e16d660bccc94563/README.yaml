@@ -3,7 +3,6 @@ FF_DATE: pre-2020
 SYSTEM: 122POPC_4880SOL_303K
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 303.0
-PUBLICATION: null
 NUMBER_OF_ATOMS: 30988
 EXPERIMENT:
   ORDERPARAMETER:
@@ -32,7 +31,7 @@ TOP: null
 PREEQTIME: 0
 DOI: 10.5281/zenodo.4352287
 DATE: 2020-12-18
-DATEOFRUNNING: 12/10/2021
+DATEOFRUNNING: '2021-10-12'
 TPR:
 - - purepopc.tpr
 TRJ:
@@ -41,3 +40,73 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /usr/home/bort/Databank
 ID: 376
+bioschema_properties:
+  name: Slipids simulation of pure POPC bilayer at T=303K
+  alternateName: 122POPC_4880SOL_303K
+  description: Simulation of pure bilayer (122 lipids per leaflet) in full hydration (40 water/lipid) at T=303K in NPT ensemble. Simulations where done on GPU Gromacs 2020.1. The initial configurations were obtained from CHARMM36 simulations and then equilibrated with Slipids force field. The force field was downloaded from the Slipids website (http://www.fos.su.se/~sasha/SLipids/). The .itps used are the same as in entry 10.5281/zenodo.4349753. Note that this is the pre-2020 version of the force field. Simulation uses Parrinello-Rahman barostat and Nose-Hoover thermostat.
+  sameAs: https://doi.org/10.5281/zenodo.4352287
+  datePublished: '2020-12-18'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Antila, Hanne
+    identifier: https://orcid.org/0000-0002-2474-5053
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2020.1)
+  - Slipids force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.4352287
+    name: 122POPC_4880SOL_303K
+    contentSize: 13623499200
+    encodingFormat: application/x-xtc
+    hasPart:
+    - purepopccent.xtc
+    - purepopc.tpr
+  isBasedOn:
+  - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/2
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.4352287
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

@@ -36,7 +36,6 @@ COMPOSITION:
     MAPPING: mappingXCL.yaml
     COUNT: 16
 DIR_WRK: /home/lara/Databank
-PUBLICATION: 10.1038/srep38035
 AUTHORS_CONTACT: Cwiklik, Lukasz
 SYSTEM: 104POPC_24OPS_4306SOL_24CAL_16CLA_310K
 SOFTWARE_VERSION: 4.5.5
@@ -55,7 +54,7 @@ TRAJECTORY_SIZE: 722336140
 TRJLENGTH: 100010.0
 TEMPERATURE: 310.0
 NUMBER_OF_ATOMS: 19686
-DATEOFRUNNING: 27/03/2022
+DATEOFRUNNING: '2022-03-27'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -63,3 +62,78 @@ EXPERIMENT:
     POPS: []
   FORMFACTOR: []
 ID: 241
+bioschema_properties:
+  name: Md Simulation Trajectory Of A Popc/Pops (4:1) Bilayer With 102Mm Cacl2, Berger Force Field For Lipids, Scaled Charges For Ca2+ And Cl-
+  alternateName: 104POPC_24OPS_4306SOL_24CAL_16CLA_310K
+  description: 'MD simulation trajectory of a POPC/POPS (4:1) bilayer with 102 mM CaCl2 (104 POPC, 24 POPS, 26 POPS, 4306 WAT, 24 Ca2+, 16 Cl-). Additional Ca2+ cations added to neutralize the negative charge of POPS (leading to total Ca2+ concentration of 306 mM). Berger force field for lipids, scaled charges employed for calcium and chloride ions. Gromacs 4.5.5, T=310K, 300 ns trajectories were calculated with the last 100 ns stored here. Used in (see therein also a detailed description of ion scaling): A. Melcrova, S. Pokorna, S. Pullanchery, M. Kohagen, P. Jurkiewicz, M. Hof, P. Jungwirth, P. S. Cremer, L. Cwiklik, The complex nature of calcium cation interactions with phospholipid bilayers Scientific Reports 2016, 6, 38035. DOI: 10.1038/srep38035'
+  sameAs: https://doi.org/10.5281/zenodo.887398
+  datePublished: '2017-09-07'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Cwiklik Lukasz
+  citation:
+  - 10.1038/srep38035
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  - CAL
+  - CLA
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 4.5.5)
+  - Berger force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.887398
+    name: 104POPC_24OPS_4306SOL_24CAL_16CLA_310K
+    contentSize: 722336140
+    encodingFormat: application/x-xtc
+    hasPart:
+    - traj.xtc
+    - topol.tpr
+    - topol.top
+    - conf.gro
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.887398
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

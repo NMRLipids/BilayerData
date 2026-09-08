@@ -19,7 +19,6 @@ COMPOSITION:
     COUNT: 5120
 UNITEDATOM_DICT: null
 DIR_WRK: /home/sosamuli/temp/DataBank/
-PUBLICATION: null
 AUTHORS_CONTACT: Kai Stroh, Jelger Risselada, Luca Monticelli
 SYSTEM: SSM bilayer in water, 328K
 SOFTWARE_VERSION: 2020.4 and 2021.4
@@ -34,10 +33,85 @@ TRAJECTORY_SIZE: 180171180
 TRJLENGTH: 150100.0
 TEMPERATURE: 328.15
 NUMBER_OF_ATOMS: 32384
-DATEOFRUNNING: 12/09/2023
+DATEOFRUNNING: '2023-09-12'
 TYPEOFSYSTEM: lipid bilayer
 ID: 763
 EXPERIMENT:
   ORDERPARAMETER:
     SM18: []
   FORMFACTOR: []
+bioschema_properties:
+  name: MD simulation of sphingomyelin (d18:1/18:0) bilayer in water
+  alternateName: SSM bilayer in water, 328K
+  description: MD simulations of sphingomyelin (d18:1/18:0) bilayer in water, NPT, 328 K. 128 SM + 5120 TIP3P water molecules, CHARMM36 force field.
+  sameAs: https://doi.org/10.5281/zenodo.8333993
+  datePublished: '2023-09-11'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Stroh, Kai
+    identifier: https://orcid.org/0000-0001-5239-7124
+  - name: Risselada, Jelger
+    identifier: https://orcid.org/0000-0003-1410-6570
+  - name: Monticelli, Luca
+    identifier: https://orcid.org/0000-0002-6352-4595
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - SM18
+  - N-stearoyl-D-erythro-sphingosylphosphorylcholine
+  - MD
+  - sphingomyelin
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2020.4 and 2021.4)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.8333993
+    name: SSM bilayer in water, 328K
+    contentSize: 180171180
+    encodingFormat: application/x-xtc
+    hasPart:
+    - NPT.xtc
+    - NPT.tpr
+    - topol.top
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8333993
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

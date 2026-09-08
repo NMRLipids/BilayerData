@@ -28,7 +28,6 @@ COMPOSITION:
     MAPPING: mappingSPCwater.yaml
     COUNT: 11096
 DIR_WRK: /home/lara/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Bacle Amélie; Fuchs Patrick F.J.
 SYSTEM: 128DOPC_128DOPE_11096SOL_300K
 SOFTWARE_VERSION: null
@@ -44,7 +43,7 @@ TRAJECTORY_SIZE: 522017636
 TRJLENGTH: 300100.0
 TEMPERATURE: 300.0
 NUMBER_OF_ATOMS: 47112
-DATEOFRUNNING: 12/04/2022
+DATEOFRUNNING: '2022-04-12'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -52,3 +51,74 @@ EXPERIMENT:
     DOPE: []
   FORMFACTOR: []
 ID: 131
+bioschema_properties:
+  name: Berger Dopc/Dope (50:50 Ratio) Md Simulation (300 K - 300Ns - 1 Bar)
+  alternateName: 128DOPC_128DOPE_11096SOL_300K
+  description: Berger DOPC/DOPE (50:50 ratio) bilayer simulation (300 K, with 128 DOPC and 128 DOPE lipids fully hydrated with 43 water molecules per lipid). The trajectory contains the whole simulation from 0 to 300 ns skipped every 100 ps and centered on the P atoms. No ions were added as there is no global net charge in the system. This bilayer was used to calculate the order parameter and the area per lipid for the NMRlipids IV project (on the time window 100-300 ns). It should be noted that for this specific simulation, using PE lipids, the Berger forcefield was modified to add a repulsive potential onto the ethanolamine hydrogens.
+  sameAs: https://doi.org/10.5281/zenodo.1402437
+  datePublished: '2018-08-23'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Bacle Amélie
+  - name: Fuchs Patrick, F.J.
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DOPC
+  - 1,2-dioleoyl-sn-glycero-3-phosphocholine
+  - DOPE
+  - 1,2-dioleoyl-sn-glycero-3-phosphoethanolamine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - Berger (modified to add a repulsive potential onto the ethanolamine hydrogens) force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1402437
+    name: 128DOPC_128DOPE_11096SOL_300K
+    contentSize: 522017636
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md_dt100_OK_centered.xtc
+    - md.tpr
+    - start.gro
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1402437
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

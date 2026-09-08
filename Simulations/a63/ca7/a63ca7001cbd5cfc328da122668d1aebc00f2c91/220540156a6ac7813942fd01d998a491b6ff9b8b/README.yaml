@@ -29,7 +29,7 @@ TRJ:
 TIMELEFTOUT: 50
 POPE: POPE
 CLA: CL
-DATEOFRUNNING: 01/10/2021
+DATEOFRUNNING: '2021-10-01'
 FF: CHARMM36
 SOFTWARE: gromacs
 PREEQTIME: 0
@@ -45,3 +45,75 @@ TRJLENGTH: 300100.0
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 558
 AUTHORS_CONTACT: Papadopoulos, Chris; Fuchs, Patrick F.J.
+bioschema_properties:
+  name: Charmm36 Pure Popc Md Simulation (300 K - 300Ns - 1 Bar)
+  alternateName: POPC_T300K
+  description: CHARMM36 POPC pure bilayer simulation (300 K, starting structure from CHARMM-GUI with 256 POPC lipids fully hydrated with 34 water molecules per lipid). The trajectory contains the whole simulation from 0 to 300 ns skipped every 100 ps and centered on the P atoms. No ions were added as there is no charge in the system. This bilayer was used to calculate the order parameter and the area per lipid for the NMRlipids project (on the time window 50-300 ns).
+  sameAs: https://doi.org/10.5281/zenodo.1306800
+  datePublished: '2018-07-06'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Papadopoulos, Chris
+  - name: Fuchs, Patrick F.J.
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1306800
+    name: POPC_T300K
+    contentSize: 702797300
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md_dt100_OK_centered.xtc
+    - md.tpr
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
+  - experiments/OrderParameters/10.1039/c2cp42738a/1
+  - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1306800
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

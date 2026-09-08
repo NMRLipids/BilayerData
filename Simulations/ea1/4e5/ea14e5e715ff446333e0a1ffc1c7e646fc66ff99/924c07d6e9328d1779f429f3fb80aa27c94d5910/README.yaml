@@ -26,16 +26,85 @@ SOFTWARE_VERSION: 2019.5
 FF: Charmm36
 FF_SOURCE: CHARMM-GUI
 FF_DATE: 01/10/2020
-PUBLICATION: 10.5281/zenodo.6335769
 GRO:
 - - production.gro
 TRAJECTORY_SIZE: 5739211468
 TRJLENGTH: 400010.0
 NUMBER_OF_ATOMS: 38800
-DATEOFRUNNING: 08/07/2024
+DATEOFRUNNING: '2024-07-08'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPC: []
   FORMFACTOR: []
 ID: 819
+bioschema_properties:
+  name: MD simulation of POPC bilayer with CHARMM36 force field. 20 w/l.
+  alternateName: POPС(300K, 20w/l, CHARMM36)
+  description: 'MD simulation of POPC (1-palmitoyl-2-oleoyl-phosphatidylcholine) bilayer with CHARMM36 force field. 20 w/l. Dataset contains simulation files including trajectories (.xtc) (original production.xtc, and equilibrated and centered centered-pbcmol-100-500ns.xtc). System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 4000 Simulation time: 500 ns Sampling rate: every 10 ps Simulation engine: GROMACS 2019.5 Temperature: 300 K'
+  sameAs: https://doi.org/10.5281/zenodo.6335769
+  datePublished: '2022-03-07'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Lindström, Milla
+  citation:
+  - 10.5281/zenodo.6335769
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2019.5)
+  - Charmm36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.6335769
+    name: POPС(300K, 20w/l, CHARMM36)
+    contentSize: 5739211468
+    encodingFormat: application/x-xtc
+    hasPart:
+    - centered_pbcmol-100-500.xtc
+    - production.tpr
+    - production.gro
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.6335769
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

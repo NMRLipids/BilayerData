@@ -3,7 +3,6 @@ FF_DATE: null
 SYSTEM: 200POPC_9000SOL_310K
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 310.15
-PUBLICATION: null
 NUMBER_OF_ATOMS: 53800
 EXPERIMENT:
   ORDERPARAMETER:
@@ -33,7 +32,7 @@ TOP:
 PREEQTIME: 0
 DOI: 10.5281/zenodo.3237420
 DATE: 2016-10-09
-DATEOFRUNNING: 05/10/2021
+DATEOFRUNNING: '2021-10-05'
 TPR:
 - - chol0.tpr
 TRJ:
@@ -42,3 +41,72 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 623
+bioschema_properties:
+  name: POPC with 0, 10, 20, and 30 mol-% of cholesterol at 310 K. Charmm36 force field.
+  alternateName: 200POPC_9000SOL_310K
+  description: 'A POPC bilayer consisting of 200 lipids (100 per leaflet) is simulated in the presence of 0% (0 molecules), 10 % (22 molecules), 20 % (50 molecules), or 30 % (86 molecules) of cholesterol. The Charmm36 model [1] is employed for lipids and the Charmm-compatible variant of the tip3p model for water. The Charmm36 force field parameters were obtained from CHARMM-GUI [2] at http://www.charmm-gui.org *** IMPORTANT *** This is a correction to an earlier dataset simulated with some missing dihedrals, see: DOI: 10.5281/zenodo.61649 –––––––––––––––––––––––––––––––––––––––––––––––––––––– The files are in GROMACS format. Trajectory (.xtc) is 100 ns long with data saved every 100 ps. Additionally, the initial structure (.gro), topology (.top), index file (.ndx), simulation paremeter file (.mdp), binary run input file for GROMACS v. 5.0–> (.tpr) and the energy output file (.edr) are provided. UPDATE: Longer 500 ns trajectories are updated together with the checkpoint files. –––––––––––––––––––––––––––––––––––––––––––––––––––––– [1] Update of the CHARMM All-Atom Additive Force Field for Lipids: Validation on Six Lipid Types Jeffery B. Klauda, Richard M. Venable, J. Alfredo Freites, Joseph W. O’Connor, Douglas J. Tobias, Carlos Mondragon-Ramirez, Igor Vorobyov, Alexander D. MacKerell, Jr., and Richard W. Pastor The Journal of Physical Chemistry B 2010 114 (23), 7830-7843 DOI: 10.1021/jp101759q [2] CHARMM-GUI Input Generator for NAMD, GROMACS, AMBER, OpenMM, and CHARMM/OpenMM Simulations Using the CHARMM36 Additive Force Field Jumin Lee, Xi Cheng, Jason M. Swails, Min Sun Yeom, Peter K. Eastman, Justin A. Lemkul, Shuai Wei, Joshua Buckner, Jong Cheol Jeong, Yifei Qi, Sunhwan Jo, Vijay S. Pande, David A. Case, Charles L. Brooks, III, Alexander D. MacKerell, Jr., Jeffery B. Klauda, and Wonpil Im Journal of Chemical Theory and Computation 2016 12 (1), 405-413 DOI: 10.1021/acs.jctc.5b00935'
+  sameAs: https://doi.org/10.5281/zenodo.3237420
+  datePublished: '2016-10-09'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+    identifier: https://orcid.org/0000-0003-4858-364X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.0)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3237420
+    name: 200POPC_9000SOL_310K
+    contentSize: 995117612
+    encodingFormat: application/x-xtc
+    hasPart:
+    - chol0_500ns.xtc
+    - chol0.tpr
+    - chol0.top
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3237420
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

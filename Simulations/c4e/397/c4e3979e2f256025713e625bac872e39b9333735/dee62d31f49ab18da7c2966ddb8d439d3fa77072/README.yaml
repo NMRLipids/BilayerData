@@ -21,7 +21,6 @@ COMPOSITION:
     MAPPING: mappingSPCwater.yaml
     COUNT: 3655
 DIR_WRK: /home/lara/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Karttunen, Mikko
 SYSTEM: 128DMPC_3655SOL_323K
 SOFTWARE_VERSION: null
@@ -38,7 +37,7 @@ TRAJECTORY_SIZE: 809588592
 TRJLENGTH: 200100.0
 TEMPERATURE: 323.0
 NUMBER_OF_ATOMS: 16853
-DATEOFRUNNING: 24/05/2022
+DATEOFRUNNING: '2022-05-24'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -46,3 +45,74 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1016/j.bbamem.2011.07.022/19
 ID: 147
+bioschema_properties:
+  name: 200 ns simulation of a DMPC bilayer using Gromos 53A6 + Berger lipids
+  alternateName: 128DMPC_3655SOL_323K
+  description: 'MD simulation of a DMPC bilayer: 200 ns Gromos 53A6 force field and Berger lipids (lipid.itp) 128 DMPC lipids and 3655 SPC waters. Total number of atoms: 16853. This simulation: 200 ns. The systems was equilibrated for 52 ns before this run. Simulation details: Temperature: 323 K Times step: 2 fs V-rescale thermostat, Parrinello-Rahman barostat, P-LINCS for constraints The run was done using a laptop with GTX980M. Performance: ~105ns/day Area per lipid and thickness (P-P distance) are provided.'
+  sameAs: https://doi.org/10.5281/zenodo.2605546
+  datePublished: '2019-03-25'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Karttunen, Mikko
+    identifier: https://orcid.org/0000-0002-8626-3033
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DMPC
+  - 1,2-dimyristoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - Berger lipids + Gromos 53A6 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.2605546
+    name: 128DMPC_3655SOL_323K
+    contentSize: 809588592
+    encodingFormat: application/x-trr
+    hasPart:
+    - dmpc128-200ns.trr
+    - dmpc128-200ns.tpr
+    - dmpc128-200ns.gro
+  isBasedOn:
+  - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/19
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.2605546
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

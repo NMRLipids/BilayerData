@@ -19,13 +19,12 @@ COMPOSITION:
     NAME: SWM
     MAPPING: mappingSWM4water.yaml
     COUNT: 6400
-PUBLICATION: null
 AUTHORS_CONTACT: Kav, Batuhan
 SYSTEM: 64POPC_6400SOL_303K
 SOFTWARE_VERSION: 7.5.0
 FF: Charmm-Drude
 FF_SOURCE: null
-FF_DATE: 2021-02-23
+FF_DATE: '2021-02-23'
 CHK:
 - - step5.chk
 TOP: null
@@ -33,7 +32,7 @@ CRD: null
 TRAJECTORY_SIZE: 12748843028
 TRJLENGTH: 500000.0
 NUMBER_OF_ATOMS: 56832
-DATEOFRUNNING: 08/02/2023
+DATEOFRUNNING: '2023-02-08'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -41,3 +40,73 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1016/j.bbamem.2011.07.022/2
 ID: 734
+bioschema_properties:
+  name: Pure POPC membrane simulations with the CHARMM-Drude force field (OpenMM 7.5.0)
+  alternateName: 64POPC_6400SOL_303K
+  description: 'MD simulation data of a pure POPC membrane with the CHARMM-Drude force field. All the input parameters are available in the *inp file. Total simulation duration is 500 ns. First 100 ns is discarded as equilibration. This data set contains 400 ns data with 40000 frames (saving frequency is 10 ps). In total, 64 POPC lipids in each leaflet, 6400 SWM4-NPD water molecules. It has been discovered that (https://github.com/NMRLipids/Databank/issues/2#issuecomment-1357871243) the wrapped_full.dcd trajectory did not have the correct timestamp: the timestep between two consecutive simulation frames was not correctly embedded into the trajectory information. Therefore, with the latest version we are uploading the "wrapped_full.xtc" which has the correct timestamp. The frame saving frequency in this trajectory is 10 ps. The correction to the timestamp was done via MDAnalysis. This new update should not invalidate any previous calculations that did not explicitly read the timestamp information from the trajectory.'
+  sameAs: https://doi.org/10.5281/zenodo.7607436
+  datePublished: '2021-03-15'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kav, Batuhan
+    identifier: https://orcid.org/0000-0003-4990-373X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (openMM 7.5.0)
+  - Charmm-Drude force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.7607436
+    name: 64POPC_6400SOL_303K
+    contentSize: 12748843028
+    encodingFormat: application/x-xtc
+    hasPart:
+    - wrapped_full.xtc
+    - step5.pdb
+  isBasedOn:
+  - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/2
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.7607436
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

@@ -7,7 +7,6 @@ TPR:
 PREEQTIME: 200
 TIMELEFTOUT: 0
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Favela-Rosales, Fernando
 SYSTEM: 288POPG_10664SOL_288SOD_298K
 SOFTWARE_VERSION: 5.0.4
@@ -36,7 +35,7 @@ TRAJECTORY_SIZE: 642454772
 TRJLENGTH: 50020.0
 TEMPERATURE: 298.0
 NUMBER_OF_ATOMS: 68856
-DATEOFRUNNING: 01/11/2021
+DATEOFRUNNING: '2021-11-01'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -45,3 +44,76 @@ EXPERIMENT:
     - unpublished/ferreiraPOPG/1
   FORMFACTOR: []
 ID: 207
+bioschema_properties:
+  name: 'Md Simulation Trajectory Of A Fully Hydrated Popg Bilayer: Slipids, Gromacs 5.0.4. 2017.'
+  alternateName: 288POPG_10664SOL_288SOD_298K
+  description: 'MD simulation trajectory files, for fully hydrated POPG bilayer [288 POPG, 10664 WAT and 288 NA ions]. The SLIPIDS force field was used with Gromacs 5.0.4. Conditions: T=298K. 250 ns trajectory, last 100 ns uploaded for analysis.'
+  sameAs: https://doi.org/10.5281/zenodo.546133
+  datePublished: '2017-04-13'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Favela-Rosales, Fernando
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - SOD
+  - slipids
+  - gromacs
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.0.4)
+  - Slipids force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.546133
+    name: 288POPG_10664SOL_288SOD_298K
+    contentSize: 642454772
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md50ns_chunk03.xtc
+    - md50ns_chunk02.tpr
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/jacs.1c05549/1
+  - experiments/OrderParameters/unpublished/ferreiraPOPG/1
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.546133
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

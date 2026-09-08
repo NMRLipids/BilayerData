@@ -19,7 +19,6 @@ COMPOSITION:
     MAPPING: mappingTIP3Pwater.yaml
     COUNT: 5120
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Girych Mykhailo; Ollila O. H. Samuli
 SYSTEM: 128POPC_5120SOL_298K
 SOFTWARE_VERSION: 5.0.3
@@ -34,7 +33,7 @@ TRAJECTORY_SIZE: 1205630200
 TRJLENGTH: 100010.0
 TEMPERATURE: 298.15
 NUMBER_OF_ATOMS: 32512
-DATEOFRUNNING: 03/01/2022
+DATEOFRUNNING: '2022-01-03'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -44,3 +43,78 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/1
 ID: 30
+bioschema_properties:
+  name: Popc_Amber_Lipid14_Verlet
+  alternateName: 128POPC_5120SOL_298K
+  description: 'MD simulation trajectory and related files for fully hydrated POPC bilayer with runned with Verlet scheme. The LIPID14 force field was used with Gromacs 5.0.3. Conditions: T=298.15, 128 POPC molecules, 5120 tip3p waters. 200ns trajectory (preceded by 5ns NPT equillibration) (2 files of 100ns). This data is ran for the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi'
+  sameAs: https://doi.org/10.5281/zenodo.30898
+  datePublished: '2015-09-11'
+  license:
+    spdx: GPL-3.0-only
+    name: GNU General Public License v3.0 only
+    url: https://spdx.org/licenses/GPL-3.0-only.html
+    sameAs: http://www.opensource.org/licenses/GPL-3.0
+  publisher: Zenodo
+  creator:
+  - name: Girych Mykhailo
+  - name: Ollila O. H. Samuli
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - LIPID14
+  - Gromacs
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.0.3)
+  - Lipid14 with Verlet scheme force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.30898
+    name: 128POPC_5120SOL_298K
+    contentSize: 1205630200
+    encodingFormat: application/x-xtc
+    hasPart:
+    - 0m_popc_amb_100_200ns.xtc
+    - run_200ns_gpu.tpr
+    - topol.top
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
+  - experiments/OrderParameters/10.1039/c2cp42738a/1
+  - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.30898
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

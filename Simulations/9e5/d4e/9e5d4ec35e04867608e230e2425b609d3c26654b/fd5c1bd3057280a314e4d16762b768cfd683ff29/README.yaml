@@ -31,7 +31,6 @@ COMPOSITION:
     MAPPING: mappingK.yaml
     COUNT: 38
 DIR_WRK: /home/lara/Databank
-PUBLICATION: 10.1021/acs.langmuir.6b00788
 AUTHORS_CONTACT: Ollila, Samuli; Khandelia, Himanshu
 SYSTEM: 90POPC_38PAzePCdeprot_7250SOL_38POT_298K
 SOFTWARE_VERSION: 4.5
@@ -49,7 +48,7 @@ TRAJECTORY_SIZE: 2029852392
 TRJLENGTH: 60020.0
 TEMPERATURE: 298.0
 NUMBER_OF_ATOMS: 28178
-DATEOFRUNNING: 12/04/2022
+DATEOFRUNNING: '2022-04-12'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -57,3 +56,78 @@ EXPERIMENT:
     PAzePCdeprot: []
   FORMFACTOR: []
 ID: 354
+bioschema_properties:
+  name: MD simulation trajectory and related files for POPC bilayer with 30 mol% of deprotonated pazePC (Berger, Gromacs 4.5.)
+  alternateName: 90POPC_38PAzePCdeprot_7250SOL_38POT_298K
+  description: Simulation trajectory and related files for POPC bilayer with 30mol% of pazePC in deprotonated form used in "Acyl chain disorder and azelaoyl orientation in lipid membranes containing oxidised lipids" by T. M. Ferreira, et al., https://doi.org/10.1021/acs.langmuir.6b00788. 90 POPC, 38 pazePC, 7250 water and 38 potassium molecules. Simulation time 120ns. Force field for POPC is based on Berger model and force field for pazePC is from H. Khandelia and O. G. Mouritsen, Biophysical Journal, 2009, 96(7), 2734 – 2743, http://dx.doi.org/10.1016/j.bpj.2009.01.007. If used, please cite approriate publications.
+  sameAs: https://doi.org/10.5281/zenodo.44622
+  datePublished: '2016-01-12'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Ollila, Samuli
+  - name: Khandelia, Himanshu
+  citation:
+  - 10.1021/acs.langmuir.6b00788
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - PAzePCdeprot
+  - 1-palmitoyl-2-azelaoyl-sn-glycero-3-phosphocholine deprotonated
+  - POT
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 4.5)
+  - Berger force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.44622
+    name: 90POPC_38PAzePCdeprot_7250SOL_38POT_298K
+    contentSize: 2029852392
+    encodingFormat: application/x-trr
+    hasPart:
+    - pzpcRUN2.trr
+    - pzpcRUN2.tpr
+    - pzpc.top
+    - pzpcRUN2.gro
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.44622
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

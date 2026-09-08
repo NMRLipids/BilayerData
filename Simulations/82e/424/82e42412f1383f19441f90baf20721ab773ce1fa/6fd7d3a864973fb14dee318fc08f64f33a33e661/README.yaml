@@ -33,7 +33,6 @@ COMPOSITION:
     - 5
 UNITEDATOM_DICT: null
 DIR_WRK: /media/osollila/Data2/tmp/DATABANK/
-PUBLICATION: null
 AUTHORS_CONTACT: Alexander Vogel and Daniel Werz
 SYSTEM: Gb3inPOPC_run1
 SOFTWARE_VERSION: null
@@ -48,7 +47,7 @@ TRAJECTORY_SIZE: 1990411656
 TRJLENGTH: 7255000.0
 TEMPERATURE: 310.0
 NUMBER_OF_ATOMS: 74381
-DATEOFRUNNING: 26/02/2024
+DATEOFRUNNING: '2024-02-26'
 TYPEOFSYSTEM: lipid bilayer
 WARNINGS:
   SKIP_EQTIMES: null
@@ -58,3 +57,75 @@ EXPERIMENT:
     GB3: []
   FORMFACTOR: []
 ID: 801
+bioschema_properties:
+  name: MD Simulation of Gb3 in POPC Membrane (run1)
+  alternateName: Gb3inPOPC_run1
+  description: Molecular dynamics simulation of a lipid bilayer containing CLA, GB3, POPC, SOD at 310.0 K, CHARMM36m force field, gromacs, 7255 ns trajectory.
+  sameAs: https://doi.org/10.5281/zenodo.10635871
+  datePublished: '2024-02-08'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Vogel, Alexander
+    identifier: https://orcid.org/0000-0001-8882-6410
+  - name: Werz, Daniel B.
+    identifier: https://orcid.org/0000-0002-3973-2212
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SOD
+  - CLA
+  - GB3
+  - Gb3(d18:1/24:0)
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - CHARMM36m force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.10635871
+    name: Gb3inPOPC_run1
+    contentSize: 1990411656
+    encodingFormat: application/x-xtc
+    hasPart:
+    - reduced_1ns_center.xtc
+    - run1.tpr
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.10635871
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

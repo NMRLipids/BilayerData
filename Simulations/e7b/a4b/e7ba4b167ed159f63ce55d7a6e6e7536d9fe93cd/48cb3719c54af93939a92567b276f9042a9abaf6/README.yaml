@@ -21,7 +21,6 @@ COMPOSITION:
     MAPPING: mappingSPCwater.yaml
     COUNT: 25000
 DIR_WRK: /media/osollila/Data1/tmp/DATABANK/
-PUBLICATION: null
 AUTHORS_CONTACT: Samuli Ollila (samuli.ollila@helsinki.fi)
 SYSTEM: POPC_298
 SOFTWARE_VERSION: null
@@ -39,7 +38,7 @@ TRAJECTORY_SIZE: 13249485536
 TRJLENGTH: 350010.0
 TEMPERATURE: 298.0
 NUMBER_OF_ATOMS: 101000
-DATEOFRUNNING: 08/02/2022
+DATEOFRUNNING: '2022-02-08'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -49,3 +48,76 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/1
 ID: 202
+bioschema_properties:
+  name: GROMOS-CKP POPC bilayer simulation at 298K (rvdw = 1.0 nm)
+  alternateName: POPC_298
+  description: 'Simulation of a POPC bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs at 298 K. The GROMOS-CKP model is employed for lipids and SPC for water. Simulation is identical to https://doi.org/10.5281/zenodo.3247434 with the exception of the temperature. Force field files are from https://lipidbook.org/. NOTE: This is run with 1.0 nm cut-off even though 1.4 nm should be used with GROMOS-CKP Trajectory (.xtc) is for the last 350 ns of a simulation of 500 ns with data saved every 10 ps.'
+  sameAs: https://doi.org/10.5281/zenodo.5997385
+  datePublished: '2022-02-07'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Ollila, O. H. Samuli
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - GROMOS-CKP force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.5997385
+    name: POPC_298
+    contentSize: 13249485536
+    encodingFormat: application/x-xtc
+    hasPart:
+    - run_150-500ns.xtc
+    - run.tpr
+    - topol.top
+    - run.gro
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
+  - experiments/OrderParameters/10.1039/c2cp42738a/1
+  - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.5997385
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

@@ -9,3 +9,39 @@ ION_CONCENTRATIONS:
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: 'full hydration'
 COUNTER_IONS:
+bioschema_properties:
+  name: Experimental C-H bond order parameters for a lipid bilayer at 303.0 K, measured by NMR.
+  description: Experimental C-H bond order parameters for a lipid bilayer at 303.0 K, measured by NMR.
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  keywords:
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  measurementTechnique:
+  - NMR
+  variableMeasured:
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    name: DOPC_OrderParameters.json
+    encodingFormat: application/json
+  _source:
+    api: null
+    doi: null
+    retrieved: '2026-09-08'

@@ -3,7 +3,6 @@ FF_DATE: June 2015
 SYSTEM: 256DPPC_42642SOL_358K
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 358.0
-PUBLICATION: 10.1002/jcc.26508
 NUMBER_OF_ATOMS: 161206
 EXPERIMENT:
   ORDERPARAMETER:
@@ -31,7 +30,7 @@ TOP: null
 PREEQTIME: 0
 DOI: 10.5281/zenodo.4300706
 DATE: 2020-12-01
-DATEOFRUNNING: 05/10/2021
+DATEOFRUNNING: '2021-10-05'
 TPR:
 - - dppc_fluid.tpr
 TRJ:
@@ -40,3 +39,78 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 255
+bioschema_properties:
+  name: 256 DPPC Molecules bilayer in pure Water, simulated at 288K (gel) or 358K (fluid)
+  alternateName: 256DPPC_42642SOL_358K
+  description: 'Publication: MLLPA: A Machine Learning-assisted Python module to study phase-specific events in lipid membranes Published on: 08 April 2021 Journal : J Comp Chem, 2021, DOI: 10.1002/jcc.26508 Description : Simulation files used to train our Python module to identify the thermodynamic phase of individual lipid molecules in a bilayer, as well as the simulation files analysed by the machine learning models. More information on the module can be found on its website. The training files are named dppc_gel.gro and dppc_fluid.gro. They respectively correspond to the final frame of the systems simulated at 288K and 358K. All other files are the files analysed by the module. System composition: DPPC molecules: 256 with 130 atoms each Water molecules: 42,492 with 3 atoms each Simulation box dimensions (approx.): 9 x 9 x 20 nm Simulation details: Software: Gromacs (v. 2020) Forcefield: Charmm36 (v. June 2015) - Water: TIP3P Thermostat: Nose-hoover (0.4ps, 2 groups) Barostat: Parrinello-Rahman semi-isotropic (2.0ps, 1.0 bar on each axis, 4.5e-5 bar-1) Duration: 25 ns (after stabilisation)'
+  sameAs: https://doi.org/10.5281/zenodo.4300706
+  datePublished: '2020-12-01'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Walter, Vivien
+    identifier: https://orcid.org/0000-0003-3203-9543
+  - name: Ruscher, Celine
+    identifier: https://orcid.org/0000-0003-1095-9103
+  - name: Benzerara, Olivier
+  - name: Thalmann, Fabrice
+    identifier: https://orcid.org/0000-0002-9630-1128
+  citation:
+  - 10.1002/jcc.26508
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2020)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.4300706
+    name: 256DPPC_42642SOL_358K
+    contentSize: 2995251216
+    encodingFormat: application/x-xtc
+    hasPart:
+    - dppc_fluid.xtc
+    - dppc_fluid.tpr
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.4300706
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

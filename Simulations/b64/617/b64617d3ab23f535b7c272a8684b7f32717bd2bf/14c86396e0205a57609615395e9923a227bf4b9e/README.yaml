@@ -47,7 +47,6 @@ COMPOSITION:
     COUNT:
     - 8
     - 8
-PUBLICATION: doi.org/10.1073/pnas.2106210118
 AUTHORS_CONTACT: Suman Samantray
 SYSTEM: POPC_POPE_POPS_SM_CHOL_GM1_NoIons
 SOFTWARE_VERSION: 2020.4
@@ -65,7 +64,7 @@ TEMPERATURE: 300.0
 DIR_WRK: /home/sosamuli/temp/DataBank/
 TRAJECTORY_SIZE: 11658957024
 NUMBER_OF_ATOMS: 107914
-DATEOFRUNNING: 19/09/2023
+DATEOFRUNNING: '2023-09-19'
 TYPEOFSYSTEM: lipid bilayer
 WARNINGS:
   SKIP_EQTIMES: null
@@ -79,3 +78,83 @@ EXPERIMENT:
     SM16: []
     GM1: []
   FORMFACTOR: []
+bioschema_properties:
+  name: MD simulation trajectory for Heterogenous lipid bilayer with no counter-ions
+  alternateName: POPC_POPE_POPS_SM_CHOL_GM1_NoIons
+  description: Equilibrated symmetric heterogenous lipid bilayer simulation ran with Gromacs 2020.4, Force field= Charmm36m, 300ns, T=300K, composed of 152 POPC, 96 POPE, 20 POPS, 80 CHOL, 36 PSM, and 16 GM1 molecules, no ions, 19606 water (TIP3P) molecules.
+  sameAs: https://doi.org/10.5281/zenodo.8331718
+  datePublished: '2023-09-10'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Samantray, Suman
+    identifier: https://orcid.org/0000-0003-3361-9582
+  citation:
+  - 10.1073/pnas.2106210118
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPE
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  - CHOL
+  - cholesterol
+  - SM16
+  - N-palmitoyl-D-erythro-sphingosylphosphorylcholine
+  - GM1
+  - GM1(d18:1/16:0)
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2020.4)
+  - Charmm36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.8331718
+    name: POPC_POPE_POPS_SM_CHOL_GM1_NoIons
+    contentSize: 11658957024
+    encodingFormat: application/x-trr
+    hasPart:
+    - step7_1.trr
+    - step7_1.tpr
+    - topol.top
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8331718
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

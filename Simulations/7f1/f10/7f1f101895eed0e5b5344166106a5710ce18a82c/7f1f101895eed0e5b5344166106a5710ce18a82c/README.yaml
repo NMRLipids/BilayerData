@@ -20,7 +20,6 @@ COMPOSITION:
     MAPPING: mappingSWM4water.yaml
     COUNT: 2304
 DIR_WRK: /home/sosamuli/temp/DataBank/
-PUBLICATION: null
 AUTHORS_CONTACT: Kav, Batuhan
 SYSTEM: POPE_CHARMMdrude2023_308K
 SOFTWARE_VERSION: null
@@ -33,7 +32,7 @@ CRD: null
 TRAJECTORY_SIZE: 2165751444
 TRJLENGTH: 200000.0
 NUMBER_OF_ATOMS: 24624
-DATEOFRUNNING: 11/05/2023
+DATEOFRUNNING: '2023-05-11'
 TYPEOFSYSTEM: lipid bilayer
 ID: 751
 EXPERIMENT:
@@ -43,3 +42,75 @@ EXPERIMENT:
     - unpublished/ferreiraPOPE/1
   FORMFACTOR:
   - 10.1021/jp511159q/1
+bioschema_properties:
+  name: OpenMM simulations of POPE using the CHARMM Drude2023 force field in xtc format
+  alternateName: POPE_CHARMMdrude2023_308K
+  description: 'The dataset contains a PSF, a formatted coordinate file (CRD), and XTC files with the final 200 ns from each of 3 replicate simulations from the paper Drude Polarizable Lipid Force Field with Explicit Treatment of LongRange Dispersion: Parametrization and Validation for Saturated and Monounsaturated Zwitterionic Lipids Yalun Yu, Richard M. Venable, Jonathan Thirman, Payal Chatterjee, Anmol Kumar, Richard W. Pastor,* Benoît Roux,* Alexander D. MacKerell, Jr.,* and Jeffery B. Klauda* https://doi.org/10.1021/acs.jctc.3c00203 XTC file names indicate the lipid and the replica number; each file has frames spaced at 10 ps over a 200 ns interval. The DCD sub-files in 10.5281/zenodo.7872447 have been concatenated into a single 200 ns long trajectory in xtc format by Batuhan Kav using MDAnalysis.'
+  sameAs: https://doi.org/10.5281/zenodo.7916494
+  datePublished: '2023-05-09'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kav, Batuhan
+    identifier: https://orcid.org/0000-0003-4990-373X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPE
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  measurementTechnique:
+  - Molecular dynamics simulation (openMM)
+  - Charmm-Drude polarizable2023 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.7916494
+    name: POPE_CHARMMdrude2023_308K
+    contentSize: 2165751444
+    encodingFormat: application/x-xtc
+    hasPart:
+    - pope1ns.xtc
+    - pope72_drude.psf
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/jacs.1c05549/2
+  - experiments/OrderParameters/unpublished/ferreiraPOPE/1
+  - experiments/FormFactors/10.1021/jp511159q/1
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.7916494
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

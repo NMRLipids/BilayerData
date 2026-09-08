@@ -1,5 +1,5 @@
 ARTICLE_DOI: 10.1016/j.bbamem.2011.07.022
-DATE: 2011-07-26T00:03:04Z
+DATE: '2011-07-26'
 TEMPERATURE: 323
 MEMBRANE_COMPOSITION:
   DSPC: 1
@@ -32,3 +32,63 @@ ION_CONCENTRATIONS:
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
+bioschema_properties:
+  name: Fluid phase lipid areas and bilayer thicknesses of commonly used phosphatidylcholines as a function of temperature
+  description: Experimental X-ray scattering form factor for a lipid bilayer containing DSPC at 323 K, measured by X-ray scattering (SUV).
+  sameAs: https://doi.org/10.1016/j.bbamem.2011.07.022
+  datePublished: 2011-11
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  articleLicense:
+    url: http://www.elsevier.com/open-access/userlicense/1.0/
+    spdx: null
+  publisher: Elsevier BV
+  creator:
+  - name: Norbert Kučerka
+  - name: Mu-Ping Nieh
+  - name: John Katsaras
+  citation:
+  - 10.1016/j.bbamem.2011.07.022
+  keywords:
+  - '@type': DefinedTerm
+    name: X-ray diffraction
+    termCode: topic_2828
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_2828
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - DSPC
+  - 1,2-distearoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - X-ray scattering (SUV)
+  - G1 station, CHESS
+  variableMeasured:
+  - X-ray scattering form factor
+  distribution:
+  - '@type': DataDownload
+    name: DSPC_ULV_50Cin0D_FormFactor.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1016/j.bbamem.2011.07.022
+    identifier: 10.1016/j.bbamem.2011.07.022
+    url: https://doi.org/10.1016/j.bbamem.2011.07.022
+    name: Fluid phase lipid areas and bilayer thicknesses of commonly used phosphatidylcholines as a function of temperature
+    isPartOf:
+      '@type': Periodical
+      name: Biochimica et Biophysica Acta (BBA) - Biomembranes
+  _source:
+    api: crossref
+    doi: 10.1016/j.bbamem.2011.07.022
+    retrieved: '2026-09-08'

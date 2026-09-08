@@ -10,7 +10,6 @@ PREEQTIME: 0
 TIMELEFTOUT: 0
 TEMPERATURE: 310
 DIR_WRK: /home/sosamuli/temp/DataBank/
-PUBLICATION: null
 AUTHORS_CONTACT: Reza Talandashti and Nathalie Reuter
 SYSTEM: (innerleaflet,76CHOL,30POPC,52POPE,26POPS,6SAPI24)(outerleaflet,76CHOL,52POPC,6POPE,2POPS,57PSM),13495SOL,52SOD
 SOFTWARE_VERSION: 2.14
@@ -65,7 +64,7 @@ COMPOSITION:
 TRAJECTORY_SIZE: 1967488276
 TRJLENGTH: 200000.00059628114
 NUMBER_OF_ATOMS: 81972
-DATEOFRUNNING: 27/09/2023
+DATEOFRUNNING: '2023-09-27'
 TYPEOFSYSTEM: lipid bilayer
 ID: 774
 EXPERIMENT:
@@ -77,3 +76,83 @@ EXPERIMENT:
     SM16: []
     CHOL: []
   FORMFACTOR: []
+bioschema_properties:
+  name: Trajectory file of asymmetric PM-like lipid bilayer
+  alternateName: (innerleaflet,76CHOL,30POPC,52POPE,26POPS,6SAPI24)(outerleaflet,76CHOL,52POPC,6POPE,2POPS,57PSM),13495SOL,52SOD
+  description: Simulation of asymmetric PM-like lipid bilayer. Including DCD, PSF, and PDB files.
+  sameAs: https://doi.org/10.5281/zenodo.8369348
+  datePublished: '2023-09-18'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Talandashti, Reza
+  - name: Reuter, Nathalie
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - POPE
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  - SAPI24
+  - 1-stearoyl-2-arachidonoyl-sn-glycero-3-phospho-(1’-myo-inositol-4’,5’-bisphosphate)
+  - SM16
+  - N-palmitoyl-D-erythro-sphingosylphosphorylcholine
+  - CHOL
+  - cholesterol
+  - SOD
+  measurementTechnique:
+  - Molecular dynamics simulation (NAMD 2.14)
+  - CHARMM36m force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.8369348
+    name: (innerleaflet,76CHOL,30POPC,52POPE,26POPS,6SAPI24)(outerleaflet,76CHOL,52POPC,6POPE,2POPS,57PSM),13495SOL,52SOD
+    contentSize: 1967488276
+    encodingFormat: application/x-dcd
+    hasPart:
+    - PM-like.dcd
+    - PM-like.psf
+    - PM-like.pdb
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8369348
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

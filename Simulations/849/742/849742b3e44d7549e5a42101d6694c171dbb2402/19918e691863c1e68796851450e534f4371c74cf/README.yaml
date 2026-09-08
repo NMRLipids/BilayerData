@@ -28,7 +28,6 @@ COMPOSITION:
     MAPPING: mappingCL.yaml
     COUNT: 8
 DIR_WRK: /home/lara/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Määttä, Jukka
 SYSTEM: 72DPPC_2864SOL_8SOD_8CLA_323K
 SOFTWARE_VERSION: 4.6.7
@@ -47,10 +46,81 @@ TRAJECTORY_SIZE: 265809168
 TRJLENGTH: 120020.0
 TEMPERATURE: 323.0
 NUMBER_OF_ATOMS: 12208
-DATEOFRUNNING: 20/04/2022
+DATEOFRUNNING: '2022-04-20'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     DPPC: []
   FORMFACTOR: []
 ID: 19
+bioschema_properties:
+  name: Dppc_Berger_Opls06_Nacl_Scaled
+  alternateName: 72DPPC_2864SOL_8SOD_8CLA_323K
+  description: 'MD simulation trajectory and related files for fully hydrated DPPC bilayer with 150 mM NaCl. The OPLS-AA-compatible Berger-DPPC-06 force field (DOI:10.1088/0953--8984/18/28/S07) was used with Gromacs 4.6.7. Ions were described by the Åqvist parameters. The ion charges were scaled by a factor 0.7. Conditions: T=323K, 72 lipids, 2880 SPC waters, 8 Na, 8 Cl. 120 ns trajectory, last 60 ns analyzed.'
+  sameAs: https://doi.org/10.5281/zenodo.16485
+  datePublished: '2015-03-30'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0
+  publisher: Zenodo
+  creator:
+  - name: Määttä, Jukka
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  - SOD
+  - CLA
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 4.6.7)
+  - OPLSAA-compatible Berger-DPPC-06 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.16485
+    name: 72DPPC_2864SOL_8SOD_8CLA_323K
+    contentSize: 265809168
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md.xtc
+    - md.tpr
+    - topol.top
+    - md.gro
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.16485
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

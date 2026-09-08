@@ -34,10 +34,90 @@ COMPOSITION:
 TRAJECTORY_SIZE: 196285320
 TRJLENGTH: 100005.0
 NUMBER_OF_ATOMS: 8119
-DATEOFRUNNING: 07/12/2025
+DATEOFRUNNING: '2025-12-07'
 TYPEOFSYSTEM: lipid bilayer
 ID: 846
 EXPERIMENT:
   ORDERPARAMETER:
     DPPE: []
   FORMFACTOR: []
+bioschema_properties:
+  name: CHARMM36 DPPE bilayer freezes at 342 K
+  alternateName: DPPE in TIP3(Water) at 342K
+  description: This dataset contains MD simulation data of a system of a total of 34 DPPE (1,2-dipalmitoyl-sn-glycero-3-phosphoethanolamine) lipids in a bilayer (17 lipids per leaflet) using the CHARMM36 force field at 342 K. In addition to the lipid molecules, the system contains 1335 molecules of Charmm TIP3P water (39.3 waters / lipid). GROMACS version 2023.3 was used. Although the temperature is 7 degrees above the main transition temperature of DPPE (Tm = 335 K), the lipids are observed to enter the gel phase after roughly 30 ns of simulation. This is illustrated by the drop in area per lipid (see APL_vs_time.png), as well as the snapshots saved every 10 ns from the beginning (DPPE_342K_0ns.gro) to 100 ns (DPPE_342K_100ns.gro). The equilibrated trajectory file (DPPE_342K_100-200ns.xtc) covers the last 100 ns of the 200-ns trajectory, with coordinates saved every 15 ps.
+  sameAs: https://doi.org/10.5281/zenodo.15662847
+  datePublished: '2025-11-01'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Singh, Avneesh
+    identifier: https://orcid.org/0009-0003-8482-7207
+  - name: Ganguly, Anubhav
+    identifier: https://orcid.org/0009-0009-3011-1792
+  - name: Miettinen, Markus S.
+    identifier: https://orcid.org/0000-0002-3999-4722
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPE
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphoethanolamine
+  - GROMACS
+  - Lipid
+  - Molecular Dynamics Simulation
+  - Lipid Bilayer
+  - Phase Transition
+  - Gel Phase
+  - Model Artefact
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2023.3)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.15662847
+    name: DPPE in TIP3(Water) at 342K
+    contentSize: 196285320
+    encodingFormat: application/x-xtc
+    hasPart:
+    - DPPE_342K_100-200ns.xtc
+    - DPPE_342K.tpr
+    - topol.top
+    - DPPE_342K_200ns.gro
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.15662847
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

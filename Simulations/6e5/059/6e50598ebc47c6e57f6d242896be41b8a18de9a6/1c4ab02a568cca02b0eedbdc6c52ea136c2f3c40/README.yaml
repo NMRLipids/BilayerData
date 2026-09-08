@@ -3,7 +3,6 @@ FF_DATE: null
 SYSTEM: 250POPC_250POPG_250POT_298K_119974Atoms
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 298.0
-PUBLICATION: null
 NUMBER_OF_ATOMS: 119974
 EXPERIMENT:
   ORDERPARAMETER:
@@ -43,7 +42,7 @@ TOP:
 PREEQTIME: 0
 DOI: 10.5281/zenodo.3483787
 DATE: 2019-10-12
-DATEOFRUNNING: 01/10/2021
+DATEOFRUNNING: '2021-10-01'
 TPR:
 - - step7_1.tpr
 TRJ:
@@ -52,3 +51,75 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 226
+bioschema_properties:
+  name: 'MD simulations of bilayers containing PC/PG mixtures and CaCl_2: 250POPC_250POPG_neutral'
+  alternateName: 250POPC_250POPG_250POT_298K_119974Atoms
+  description: NMRLipids IVb project (nmrlipids.blogspot.fi) Gromacs, CHARMM36 FF, 1 atm, 298K, 200ns (no pre-equilibration) 250 POPC lipids, 250 POPG lipids, 119974 Atoms
+  sameAs: https://doi.org/10.5281/zenodo.3483787
+  datePublished: '2019-10-12'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Madsen, Jesper J.
+    identifier: https://orcid.org/0000-0003-1411-9080
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - POT
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3483787
+    name: 250POPC_250POPG_250POT_298K_119974Atoms
+    contentSize: 901173616
+    encodingFormat: application/x-xtc
+    hasPart:
+    - run.wrapped.xtc
+    - step7_1.tpr
+    - topol.top
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3483787
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

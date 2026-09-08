@@ -20,7 +20,6 @@ COMPOSITION:
     MAPPING: mappingSPCwater.yaml
     COUNT: 576
 DIR_WRK: /home/lara/Databank
-PUBLICATION: 10.1021/acs.jpcb.5b04878
 AUTHORS_CONTACT: Matej Kanduc
 SYSTEM: 72DLPC_576SOL_300K
 SOFTWARE_VERSION: 4.5.4
@@ -37,10 +36,81 @@ TRAJECTORY_SIZE: 702048024
 TRJLENGTH: 80002.0
 TEMPERATURE: 300.0
 NUMBER_OF_ATOMS: 4752
-DATEOFRUNNING: 14/04/2022
+DATEOFRUNNING: '2022-04-14'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     DLPC: []
   FORMFACTOR: []
 ID: 94
+bioschema_properties:
+  name: Md Trajectory For Dlpc Bilayer (Berger, Gromacs 4.5.4), Nw=8 W/L
+  alternateName: 72DLPC_576SOL_300K
+  description: 'Equilibrated DLPC lipid bilayer ran with Gromacs 4.5.4 with Berger force field, 80ns, T=300K, 72 DLPC molecules, hydration level nw=8 water/lipid. This data is used in the project "Matching lipid force fields with NMR data". More information at : http://nmrlipids.blogspot.fi/'
+  sameAs: https://doi.org/10.5281/zenodo.16294
+  datePublished: '2015-03-24'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0
+  publisher: Zenodo
+  creator:
+  - name: Kanduc, Matej
+  citation:
+  - 10.1021/acs.jpcb.5b04878
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DLPC
+  - 1,2-dilauroyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 4.5.4)
+  - Berger-DLPC-13 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.16294
+    name: 72DLPC_576SOL_300K
+    contentSize: 702048024
+    encodingFormat: application/x-xtc
+    hasPart:
+    - traj_dil.xtc
+    - topol.tpr
+    - system.top
+    - init2_TI5.gro
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.16294
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

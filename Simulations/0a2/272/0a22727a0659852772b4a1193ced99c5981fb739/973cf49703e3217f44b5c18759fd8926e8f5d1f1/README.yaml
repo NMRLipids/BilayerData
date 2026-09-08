@@ -21,7 +21,6 @@ COMPOSITION:
     MAPPING: mappingSPCwater.yaml
     COUNT: 3655
 DIR_WRK: /home/lara/Databank
-PUBLICATION: 10.1021/jp065424f
 AUTHORS_CONTACT: Ollila O. H. Samuli
 SYSTEM: POPClipidbilayer_310K_Berger
 SOFTWARE_VERSION: 3.1.4
@@ -40,10 +39,81 @@ TRAJECTORY_SIZE: 2517393276
 TRJLENGTH: 40010.0
 TEMPERATURE: 310.0
 NUMBER_OF_ATOMS: 17621
-DATEOFRUNNING: 21/06/2022
+DATEOFRUNNING: '2022-06-21'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPC: []
   FORMFACTOR: []
 ID: 344
+bioschema_properties:
+  name: MD simulation of POPC lipids bilayer at 310K (Berger, Gromacs 3.1.4)
+  alternateName: POPClipidbilayer_310K_Berger
+  description: Simulation data and files for POPC Berger simulation at 310K used in publication J. Phys. Chem. B 2007, 111, 3139-3150.
+  sameAs: https://doi.org/10.5281/zenodo.1230170
+  datePublished: '2018-04-26'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Ollila, O. H. Samuli
+  citation:
+  - 10.1021/jp065424f
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 3.1.4)
+  - Berger force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1230170
+    name: POPClipidbilayer_310K_Berger
+    contentSize: 2517393276
+    encodingFormat: application/x-trr
+    hasPart:
+    - traj10-50ns.trr
+    - topol_10-11.tpr
+    - popc.top
+    - confout_49-50.gro
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1230170
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

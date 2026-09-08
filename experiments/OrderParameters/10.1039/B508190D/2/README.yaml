@@ -9,3 +9,57 @@ ION_CONCENTRATIONS:
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: 5.55
 COUNTER_IONS:
+bioschema_properties:
+  name: Probing segmental order in lipid bilayers at variable hydration levels by amplitude- and phase-modulated cross-polarization NMR
+  description: Experimental C-H bond order parameters for a lipid bilayer at 314 K, measured by NMR.
+  sameAs: https://doi.org/10.1039/B508190D
+  datePublished: '2005'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  publisher: Royal Society of Chemistry (RSC)
+  creator:
+  - name: Sergey V. Dvinskikh
+  - name: Vasco Castro
+  - name: Dick Sandström
+  citation:
+  - 10.1039/B508190D
+  keywords:
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  measurementTechnique:
+  - NMR
+  variableMeasured:
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    name: DMPC_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1039/B508190D
+    identifier: 10.1039/B508190D
+    url: https://doi.org/10.1039/B508190D
+    name: Probing segmental order in lipid bilayers at variable hydration levels by amplitude- and phase-modulated cross-polarization NMR
+    isPartOf:
+      '@type': Periodical
+      name: Physical Chemistry Chemical Physics
+  _source:
+    api: crossref
+    doi: 10.1039/B508190D
+    retrieved: '2026-09-08'

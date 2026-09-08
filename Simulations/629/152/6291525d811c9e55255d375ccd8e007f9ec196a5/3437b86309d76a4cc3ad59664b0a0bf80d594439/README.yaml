@@ -32,7 +32,6 @@ COMPOSITION:
     MAPPING: mappingTIP3Pwater.yaml
     COUNT: 6400
 DIR_WRK: /media/osollila/Data1/tmp/DATABANK/
-PUBLICATION: doi.org/10.1016/j.bbamem.2022.183961
 AUTHORS_CONTACT: Saara Lautala and Suvi Heinonen
 SYSTEM: DOGandCHOLinSDPEwithLipid17
 SOFTWARE_VERSION: 18.7
@@ -43,7 +42,7 @@ TRAJECTORY_SIZE: 6105065604
 TRJLENGTH: 1000020.0
 TEMPERATURE: 310.0
 NUMBER_OF_ATOMS: 32998
-DATEOFRUNNING: 15/11/2022
+DATEOFRUNNING: '2022-11-15'
 TYPEOFSYSTEM: lipid bilayer
 WARNINGS:
   AMBIGUOUS_ATOMNAMES:
@@ -55,3 +54,78 @@ EXPERIMENT:
     SDG: []
     CHOL: []
   FORMFACTOR: []
+bioschema_properties:
+  name: MD simulation trajectory of POPE/SDG/CHOL bilayer and related files
+  alternateName: DOGandCHOLinSDPEwithLipid17
+  description: 'Simulation trajectory pre-equiblirated POPE/SDG/CHOL bilayer and related files from all-atom molecular dynamics simulations. Simulations have been performed with GROMACS-2018.7 with Lipid17 forcefield and TIP3P water model. The trajectory is 0-1000 ns, and we have disregarded the first 100 ns in our analysis. The system in the trajectory consists of 74 POPE, 12 SDG, 42 CHOL and 6400 water molecules. Temperature 310 K, pressure 1 bar. Publication: https://doi.org/10.1016/j.bbamem.2022.183961'
+  sameAs: https://doi.org/10.5281/zenodo.6823087
+  datePublished: '2022-07-12'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Lautala, Saara
+    identifier: https://orcid.org/0000-0001-5528-8839
+  - name: Heinonen, Suvi
+    identifier: https://orcid.org/0000-0002-2495-1017
+  citation:
+  - 10.1016/j.bbamem.2022.183961
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPE
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  - SDG
+  - 1-stearoyl-2-docosahexaenoyl-sn-glycerol
+  - CHOL
+  - cholesterol
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 18.7)
+  - Lipid17 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.6823087
+    name: DOGandCHOLinSDPEwithLipid17
+    contentSize: 6105065604
+    encodingFormat: application/x-xtc
+    hasPart:
+    - run_pope_sdg_chol_lipid17_0-1us.xtc
+    - run_pope_sdg_chol_lipid17.tpr
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.6823087
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

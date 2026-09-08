@@ -1,5 +1,5 @@
 ARTICLE_DOI: 10.1039/C4SM00066H
-DATE: 2014-02-19T09:35:28Z
+DATE: '2014-02-19'
 TEMPERATURE: 298
 MEMBRANE_COMPOSITION:
   POPS: 1
@@ -36,3 +36,66 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
   SOD: POPS
+bioschema_properties:
+  name: The molecular structure of a phosphatidylserine bilayer determined by scattering and molecular dynamics simulations
+  description: Experimental X-ray scattering form factor for a lipid bilayer containing POPS at 298 K, measured by X-ray scattering (SUV).
+  sameAs: https://doi.org/10.1039/C4SM00066H
+  datePublished: '2014'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  publisher: Royal Society of Chemistry (RSC)
+  creator:
+  - name: Jianjun Pan
+  - name: Xiaolin Cheng
+  - name: Luca Monticelli
+  - name: Frederick A. Heberle
+  - name: Norbert Kučerka
+  - name: D. Peter Tieleman
+  - name: John Katsaras
+  citation:
+  - 10.1039/C4SM00066H
+  keywords:
+  - '@type': DefinedTerm
+    name: X-ray diffraction
+    termCode: topic_2828
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_2828
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  - SOD
+  - CLA
+  measurementTechnique:
+  - X-ray scattering (SUV)
+  - G1 station, CHESS
+  variableMeasured:
+  - X-ray scattering form factor
+  distribution:
+  - '@type': DataDownload
+    name: POPS_ULV_25Cin0D_SHE_FormFactor.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1039/C4SM00066H
+    identifier: 10.1039/C4SM00066H
+    url: https://doi.org/10.1039/C4SM00066H
+    name: The molecular structure of a phosphatidylserine bilayer determined by scattering and molecular dynamics simulations
+    isPartOf:
+      '@type': Periodical
+      name: Soft Matter
+  _source:
+    api: crossref
+    doi: 10.1039/C4SM00066H
+    retrieved: '2026-09-08'

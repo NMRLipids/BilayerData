@@ -3,7 +3,6 @@ FF_DATE: null
 SYSTEM: 84POPC_4800SOL_36CHOL_303K
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 303.15
-PUBLICATION: null
 NUMBER_OF_ATOMS: 28320
 EXPERIMENT:
   ORDERPARAMETER:
@@ -40,7 +39,7 @@ TOP:
 PREEQTIME: 0
 DOI: 10.5281/zenodo.163336
 DATE: 2016-10-26
-DATEOFRUNNING: 01/10/2021
+DATEOFRUNNING: '2021-10-01'
 TPR:
 - - step7_10.tpr
 TRJ:
@@ -50,3 +49,73 @@ LOG:
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 403
+bioschema_properties:
+  name: Popc/Cholesterol (70:30) Lipid Membrane, 303K, Charmm36 Force Field, Simulation Files And 200 Ns Trajectory For Gromacs Md Simulation Engine V5.1.2
+  alternateName: 84POPC_4800SOL_36CHOL_303K
+  description: 'The starting structure was obtained from CHARMM-GUI Membrane Builder v1.7 (http://www.charmm-gui.org/) online tool. [1] All runs were performed with Gromacs 5.1.2 software package and CHARMM36 additive force field parameters obtained from CHARMM-GUI input files [1]. Conditions: T=303, 128 POPC molecules, 5120 tip3p waters, 200ns trajectory (preceded with equilibration) These data were originally obtained for the nmrlipids.blospot.fi project. Find more details at nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi [1] CHARMM-GUI Input Generator for NAMD, GROMACS, AMBER, OpenMM, and CHARMM/OpenMM Simulations Using the CHARMM36 Additive Force Field, J. Lee et al. , JCTC, DOI: 10.1021/acs.jctc.5b00935'
+  sameAs: https://doi.org/10.5281/zenodo.163336
+  datePublished: '2016-10-26'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Melcr, Josef
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - CHOL
+  - cholesterol
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.1.2)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.163336
+    name: 84POPC_4800SOL_36CHOL_303K
+    contentSize: 2068200172
+    encodingFormat: application/x-xtc
+    hasPart:
+    - step7_10.xtc
+    - step7_10.tpr
+    - topol.top
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.163336
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

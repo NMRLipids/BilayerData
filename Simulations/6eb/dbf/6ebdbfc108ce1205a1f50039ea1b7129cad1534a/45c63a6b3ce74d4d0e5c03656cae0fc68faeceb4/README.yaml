@@ -21,7 +21,6 @@ COMPOSITION:
     MAPPING: mappingSPCwater.yaml
     COUNT: 2880
 DIR_WRK: /home/lara/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Määttä, Jukka
 SYSTEM: 72DPPC_2880SOL_323K_Berger
 SOFTWARE_VERSION: 5.1-beta
@@ -40,7 +39,7 @@ TRAJECTORY_SIZE: 266359552
 TRJLENGTH: 120020.0
 TEMPERATURE: 323.0
 NUMBER_OF_ATOMS: 12240
-DATEOFRUNNING: 20/04/2022
+DATEOFRUNNING: '2022-04-20'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -49,3 +48,75 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1016/j.bbamem.2011.07.022/4
 ID: 472
+bioschema_properties:
+  name: Dppc_Berger_Opls06
+  alternateName: 72DPPC_2880SOL_323K_Berger
+  description: 'MD simulation trajectory and related files for fully hydrated DPPC bilayer. The OPLSAA-compatible Berger-DPPC-06 force field (DOI:10.1088/0953--8984/18/28/S07) was used with Gromacs 5.1-beta. Conditions: T=323K, 72 lipids, 2880 SPC waters. 120 ns trajectory, last 60 ns analyzed.'
+  sameAs: https://doi.org/10.5281/zenodo.17237
+  datePublished: '2015-04-29'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0
+  publisher: Zenodo
+  creator:
+  - name: Määttä, Jukka
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.1-beta)
+  - OPLSAA-compatible Berger-DPPC-06 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.17237
+    name: 72DPPC_2880SOL_323K_Berger
+    contentSize: 266359552
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md.xtc
+    - md.tpr
+    - topol.top
+    - md.gro
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/bi00687a021/1
+  - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/4
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.17237
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

@@ -32,7 +32,7 @@ COMPOSITION:
     MAPPING: mappingSOD.yaml
 TIMELEFTOUT: 0
 TRJLENGTH: 300020.0
-DATEOFRUNNING: 01/10/2021
+DATEOFRUNNING: '2021-10-01'
 FF: CHARMM36
 SOFTWARE: gromacs
 PREEQTIME: 100
@@ -45,3 +45,73 @@ TPR:
 TRJ:
 - - 100-400ns.xtc
 ID: 592
+bioschema_properties:
+  name: POPC:POPG 1:1 MD simulation with CHARMM36 in water and Na+ counter ions
+  alternateName: POPC:POPG(1:1)_T298K
+  description: CHARMM36 POPC:POPG 1:1 bilayer simulation in water. The initial structure was taken from CHARMM-GUI. Temperature is 298 K. The system contains 150 POPC, 150 POPG, 150 sodium ions and 31500 TIP3 water molecules. Total length of simulation is 400 ns. First 100 ns were discarded. Saving frequency of 100-300ns.xtc is 20 ps.
+  sameAs: https://doi.org/10.5281/zenodo.3997116
+  datePublished: '2020-08-24'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kiirikki, M. Anne; Ollila O. H. Samuli
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SOD
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3997116
+    name: POPC:POPG(1:1)_T298K
+    contentSize: 7413293748
+    encodingFormat: application/x-xtc
+    hasPart:
+    - 100-400ns.xtc
+    - run_400ns.tpr
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3997116
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

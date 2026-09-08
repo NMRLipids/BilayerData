@@ -5,7 +5,6 @@ TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 298.0
 UNITEDATOM_DICT:
   POPC: Berger_PLA
-PUBLICATION: Ferreira et al. Phys. Chem. Chem. Phys., 2013,15, 1976-1989
 FFSOL: SPC
 NUMBER_OF_ATOMS: 28526
 EXPERIMENT:
@@ -35,7 +34,7 @@ FF: Berger
 SOFTWARE: gromacs
 PREEQTIME: 270
 DOI: 10.5281/zenodo.4643875
-DATEOFRUNNING: 01/10/2021
+DATEOFRUNNING: '2021-10-01'
 TPR:
 - - popc407.tpr
 TRJ:
@@ -44,3 +43,80 @@ TOP:
 - - topol.top
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 497
+bioschema_properties:
+  name: MD simulation trajectory and related files for POPC bilayer (Berger model delivered by Tieleman, Gromacs 4.5)
+  alternateName: POPC_T298K
+  description: Equilibrated POPC lipid bilayer simulation ran with Gromacs 4.5, Berger force field delivered by Peter Tieleman (http://wcm.ucalgary.ca/tieleman/downloads), this trajectory contains the last 50 ns of a 270 ns simulation, T=298K, 128 POPC molecules, 7290 water molecules. This data is used in http://dx.doi.org/10.1039/C2CP42738A and in the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi. If data is used, please cite [Ferreira et al. Phys. Chem. Chem. Phys. , 2013,15, 1976-1989], the nmrlipids.blogspot.fi project and the original publication related to the force field.
+  sameAs: https://doi.org/10.5281/zenodo.4643875
+  datePublished: '2014-12-17'
+  license:
+    spdx: GPL-3.0-only
+    name: GNU General Public License v3.0 only
+    url: https://spdx.org/licenses/GPL-3.0-only.html
+    sameAs: https://www.gnu.org/licenses/gpl-3.0-standalone.html
+  publisher: Zenodo
+  creator:
+  - name: Ollila O. H. Samuli
+  - name: Ferreira Tiago
+  - name: Topgaard Daniel
+  citation:
+  - Ferreira et al. Phys. Chem. Chem. Phys., 2013,15, 1976-1989
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - molecular dynamics simulation trajectory POPC lipid bilayer
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 4.5)
+  - Berger force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.4643875
+    name: POPC_T298K
+    contentSize: 3424404744
+    encodingFormat: application/x-trr
+    hasPart:
+    - traj.trr
+    - popc407.tpr
+    - topol.top
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
+  - experiments/OrderParameters/10.1039/c2cp42738a/1
+  - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.4643875
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

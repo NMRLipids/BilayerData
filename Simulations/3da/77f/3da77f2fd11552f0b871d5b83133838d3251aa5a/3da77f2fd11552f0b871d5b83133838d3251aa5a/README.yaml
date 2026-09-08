@@ -21,7 +21,6 @@ COMPOSITION:
     NAME: SWM4
     MAPPING: mappingSWM4water.yaml
     COUNT: 5040
-PUBLICATION: null
 AUTHORS_CONTACT: Kav, Batuhan
 SYSTEM: 72POPE_5040SOL_303K
 SOFTWARE_VERSION: 7.5.0
@@ -31,10 +30,81 @@ FF_DATE: 3/22/21
 TRAJECTORY_SIZE: 682780340
 TRJLENGTH: 300000.0
 NUMBER_OF_ATOMS: 51408
-DATEOFRUNNING: 08/02/2023
+DATEOFRUNNING: '2023-02-08'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPE: []
   FORMFACTOR: []
 ID: 743
+bioschema_properties:
+  name: Pure POPE membrane simulations with the CHARMM-Drude force field (OpenMM 7.5.0)
+  alternateName: 72POPE_5040SOL_303K
+  description: 'MD simulation data of a pure POPE membrane with the CHARMM-Drude force field generated with the OpenMM 7.5.0 simulation engine. All the input parameters are available in the *inp file. The initial structures have been obtained from CHARMM-GUI. Total simulation duration is 300 ns (100 ns x 3, continuing from the last frame, combined with the mdconvert). First 50 ns is discarded as equilibration. This data set contains 300 ns data with 3000 frames (saving frequency is 100 ps). In total, 72 POPC lipids in each leaflet (144 in total), 5040 SWM4-NPD water molecules. It has been discovered that (https://github.com/NMRLipids/Databank/issues/2#issuecomment-1357871243) the previously uploaded trajectory did not have the correct timestamp: the timestep between two consecutive simulation frames was not correctly embedded into the trajectory information. Therefore, with the latest version we are uploading the "unwrapped_all_fixed_dt.xtc" which has the correct timestamp. The frame saving frequency in this trajectory is 100 ps. This new update should not invalidate any previous calculations that did not explicitly read the timestamp information from the trajectory. This simulation consists of 3 sub-trajectories, each of which starts from the last frame of the previous one. These trajectories (originally in dcd format) were concatenated and saved in xtc format with MDAnalysis.'
+  sameAs: https://doi.org/10.5281/zenodo.7604627
+  datePublished: '2021-04-06'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kav, Batuhan
+    identifier: https://orcid.org/0000-0003-4990-373X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPE
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  - phosphatidylethanolamine
+  - lipid bilayer
+  measurementTechnique:
+  - Molecular dynamics simulation (openMM 7.5.0)
+  - Charmm-Drude force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.7604627
+    name: 72POPE_5040SOL_303K
+    contentSize: 682780340
+    encodingFormat: application/x-xtc
+    hasPart:
+    - unwrapped_all_fixed_dt.xtc
+    - step2_drude.psf
+    - step2_drude.pdb
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.7604627
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

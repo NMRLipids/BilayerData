@@ -21,7 +21,6 @@ COMPOSITION:
     MAPPING: mappingSPCwater.yaml
     COUNT: 4789
 DIR_WRK: /home/lara/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Thomas Piggot
 SYSTEM: 128DOPE_4789SOL_271K_v1
 SOFTWARE_VERSION: 4.0.7
@@ -38,10 +37,78 @@ TRAJECTORY_SIZE: 1554663580
 TRJLENGTH: 200010.0
 TEMPERATURE: 271.0
 NUMBER_OF_ATOMS: 21279
-DATEOFRUNNING: 14/04/2022
+DATEOFRUNNING: '2022-04-14'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     DOPE: []
   FORMFACTOR: []
 ID: 264
+bioschema_properties:
+  name: Berger Dope Simulations (Versions 1 And 2) 271 K - Larger Repulsive H
+  alternateName: 128DOPE_4789SOL_271K_v1
+  description: Two Berger-based DOPE bilayer simulations performed using GROMACS 4.0.7 for 300 ns with different starting velocities. Simulations were performed with a 1.0 nm cut-off with PME for the Coulombic and a 1.0 nm cut-off for the van der Waals interactions with a dispersion correction. These simulations were performed at 303 K with a 128 lipid bilayer. The full trajectories are provided bar the initial 100 ns. The starting structure was converted from an equilibrated DOPC membrane simulated with the GROMOS-CKP force field. The DOPE parameters were constructed following the approach used by de Vries et al (https://pubs.acs.org/doi/abs/10.1021/jp0366926), but with a slightly larger repulsive potential included for the explicit hydrogen atoms (designed to increase the area per lipid).
+  sameAs: https://doi.org/10.5281/zenodo.1293905
+  datePublished: '2018-06-20'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Piggot, Thomas
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DOPE
+  - 1,2-dioleoyl-sn-glycero-3-phosphoethanolamine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 4.0.7)
+  - Berger-DOPE-2018 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1293905
+    name: 128DOPE_4789SOL_271K_v1
+    contentSize: 1554663580
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md-DOPE_berger_271K_repH2_v1_100-300ns.xtc
+    - for-md-DOPE_berger_271K_repH2_v1.tpr
+    - md-DOPE_berger_271K_repH2_v1.gro
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1293905
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

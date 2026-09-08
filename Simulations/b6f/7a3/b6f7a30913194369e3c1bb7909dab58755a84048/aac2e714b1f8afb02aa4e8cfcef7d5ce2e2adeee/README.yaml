@@ -3,7 +3,6 @@ FF_DATE: null
 SYSTEM: 128POPS_128POT_4480SOL_298K_v1
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 298.0
-PUBLICATION: null
 NUMBER_OF_ATOMS: 29824
 EXPERIMENT:
   ORDERPARAMETER:
@@ -34,7 +33,7 @@ FF: CHARMM36
 TOP: null
 PREEQTIME: 400
 DOI: 10.5281/zenodo.1182654
-DATEOFRUNNING: 04/10/2021
+DATEOFRUNNING: '2021-10-04'
 TPR:
 - - for-md-CHARMM36_POPS_K_298K_10A-switch_v1.tpr
 TRJ:
@@ -43,3 +42,71 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 73
+bioschema_properties:
+  name: Charmm36 Pops Simulations (Versions 1 And 2) 298 K 1.0 Nm Lj Switching With K Ions
+  alternateName: 128POPS_128POT_4480SOL_298K_v1
+  description: CHARMM36 POPS simulations (298 K, starting structure from the CHARMM-GUI) performed with a 1.0 nm point at which to switch off the van der Waals interactions. Two different simulations generated with different starting velocities are provided (the files are named v1 and v2 for these different simulations). The trajectories contain only the data from 400-500 ns of the simulations (as per the analysis provided on the nmrlipids blog) and additionally they have been processed with trjconv -skip 10 to keep the upload small. These simulations were performed with K ions used to neutralise the system.
+  sameAs: https://doi.org/10.5281/zenodo.1182654
+  datePublished: '2018-02-21'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Piggot, Thomas
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  - POT
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1182654
+    name: 128POPS_128POT_4480SOL_298K_v1
+    contentSize: 221954192
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md-CHARMM36_POPS_K_298K_10A-switch_v1_400-500ns_skip10.xtc
+    - for-md-CHARMM36_POPS_K_298K_10A-switch_v1.tpr
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1182654
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

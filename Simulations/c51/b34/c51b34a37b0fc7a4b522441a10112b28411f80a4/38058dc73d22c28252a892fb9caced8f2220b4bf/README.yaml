@@ -8,7 +8,6 @@ TPR:
 PREEQTIME: 0
 TIMELEFTOUT: 0
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Javanainen, Matti
 SYSTEM: 86CHOL_200POPC_9000SOL_21SOD_21CLA_310K
 SOFTWARE_VERSION: 4.6
@@ -49,7 +48,7 @@ TRAJECTORY_SIZE: 446833904
 TRJLENGTH: 200100.0
 TEMPERATURE: 310.0
 NUMBER_OF_ATOMS: 60206
-DATEOFRUNNING: 29/11/2021
+DATEOFRUNNING: '2021-11-29'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -57,3 +56,75 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 ID: 132
+bioschema_properties:
+  name: Popc With Varying Amounts Of Cholesterol, 130 Mm Of Nacl. Slipids With Ecc-Scaled Ions
+  alternateName: 86CHOL_200POPC_9000SOL_21SOD_21CLA_310K
+  description: 'Simulations of a POPC bilayer with varying amounts (0, 10, 20, and 30 mol-%) of cholesterol and 130 mM of NaCl performed at 310 K. The POPC bilayer consists of 200 lipids (100 per leaflet) and on top of that there is 0 (0%), 22 (10%), 50 (20%), or 86 (30%) of cholesterol. The Slipids model [1–3] is employed for lipids, tip3p model for water, and the and the recent ion parameters by Kohagen et al. [4] for NaCl. The Slipids force field parameters are available at http://www.fos.su.se/~sasha/SLipids/ and the ion parameters are available at https://bitbucket.org/hseara/ions/ –––––––––––––––––––––––––––––––––––––––––––––––––––––– The files are in GROMACS format and named based on the amount of cholesterol present (in %) in the corresponding simulation. Trajectories (.xtc) are 200 ns long with data saved every 100 ps. Additionally, the final structure (.gro), topology (.top), index file (.ndx), energy output file (.edr), and binary run input files (for Gromacs 4.6->) (.tpr) are provided for each system. The common simulation parameter file (.mdp) is also provided. –––––––––––––––––––––––––––––––––––––––––––––––––––––– [1] Derivation and Systematic Validation of a Refined All-Atom Force Field for Phosphatidylcholine Lipids. Joakim P. M. Jämbeck and Alexander P. Lyubartsev, The Journal of Physical Chemistry B 2012 116 (10), 3164-3179, DOI: 10.1021/jp212503e [2] An Extension and Further Validation of an All-Atomistic Force Field for Biological Membranes. Joakim P. M. Jämbeck and Alexander P. Lyubartsev, Journal of Chemical Theory and Computation 2012 8 (8), 2938-2948, DOI: 10.1021/ct300342n [3] Another Piece of the Membrane Puzzle: Extending Slipids Further. Joakim P. M. Jämbeck and Alexander P. Lyubartsev, Journal of Chemical Theory and Computation 2013 9 (1), 774-784, DOI: 10.1021/ct300777p [4] Accounting for Electronic Polarization Effects in Aqueous Sodium Chloride via Molecular Dynamics Aided by Neutron Scattering. Miriam Kohagen, Philip E. Mason, and Pavel Jungwirth, The Journal of Physical Chemistry B 2016 120 (8), 1454–1460, DOI: 10.1021/acs.jpcb.5b05221'
+  sameAs: https://doi.org/10.5281/zenodo.259343
+  datePublished: '2017-01-24'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - CHOL
+  - cholesterol
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SOD
+  - CLA
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 4.6)
+  - Slipids with ECC-scaled ions (Kohagen) force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.259343
+    name: 86CHOL_200POPC_9000SOL_21SOD_21CLA_310K
+    contentSize: 446833904
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md30.xtc
+    - md30.tpr
+    - md30.top
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.259343
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

@@ -21,7 +21,6 @@ COMPOSITION:
     NAME: TIP3
     MAPPING: mappingTIP3PCHARMMgui.yaml
     COUNT: 9000
-PUBLICATION: Doktorova et al. 2020 J. Phys. Chem. B. article (DOI 10.1021/acs.jpcb.0c03389)
 AUTHORS_CONTACT: Milka Doktorova
 SYSTEM: PSM NAMD
 SOFTWARE_VERSION: null
@@ -32,7 +31,7 @@ TOP: null
 TRAJECTORY_SIZE: 3694041396
 TRJLENGTH: 287.16934554
 NUMBER_OF_ATOMS: 52400
-DATEOFRUNNING: 13/09/2023
+DATEOFRUNNING: '2023-09-13'
 TYPEOFSYSTEM: lipid bilayer
 ID: 765
 EXPERIMENT:
@@ -41,3 +40,79 @@ EXPERIMENT:
     - 10.1021/acs.jpcb.0c03389/3
   FORMFACTOR:
   - 10.1021/acs.jpcb.0c03389/2
+bioschema_properties:
+  name: NAMD Trajectory of a Palmitoyl Sphingomyelin Bilayer
+  alternateName: PSM NAMD
+  description: All-atom PSM bilayer simulated in NPT ensemble with NAMD and the CHARMM36 force field from Doktorova et al. 2020 J. Phys. Chem. B. article (DOI 10.1021/acs.jpcb.0c03389). The trajectory represents the last 117 ns used for analysis where the area per lipid is equilibrated (the file has 5874 frames output every 20 ps). The bilayer has 200 lipids total (100 lipids per leaflet) and is hydrated with 45 waters/lipid. The simulation was done at 55C (328.15K) and the trajectory is centered on the bilayer midplane.
+  sameAs: https://doi.org/10.5281/zenodo.8338253
+  datePublished: '2023-09-12'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Doktorova, Milka
+    identifier: https://orcid.org/0000-0003-4366-2242
+  citation:
+  - 10.1021/acs.jpcb.0c03389
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - SM16
+  - N-palmitoyl-D-erythro-sphingosylphosphorylcholine
+  - PSM bilayer
+  - membrane simulation
+  measurementTechnique:
+  - Molecular dynamics simulation (NAMD)
+  - Charmm36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.8338253
+    name: PSM NAMD
+    contentSize: 3694041396
+    encodingFormat: application/x-dcd
+    hasPart:
+    - traj_center.dcd
+    - struct.psf
+    - struct.pdb
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jpcb.0c03389/3
+  - experiments/FormFactors/10.1021/acs.jpcb.0c03389/2
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8338253
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

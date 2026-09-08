@@ -29,7 +29,6 @@ COMPOSITION:
     MAPPING: mappingCL.yaml
     COUNT: 49
 DIR_WRK: /home/lara/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: ANTONIO PEON
 SYSTEM: 500POPG_25000SOL_549SOD_49CLA_310K
 SOFTWARE_VERSION: 5.1.2
@@ -47,10 +46,85 @@ TRAJECTORY_SIZE: 3829653224
 TRJLENGTH: 100010.0
 TEMPERATURE: 310.0
 NUMBER_OF_ATOMS: 102098
-DATEOFRUNNING: 17/05/2022
+DATEOFRUNNING: '2022-05-17'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPG: []
   FORMFACTOR: []
 ID: 530
+bioschema_properties:
+  name: Gromos POPG Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+  alternateName: 500POPG_25000SOL_549SOD_49CLA_310K
+  description: Simulation of a POPG bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs v5.1.2 in water solution with Na+ counterions and 150 mM of NaCl. The GROMOS-CKP-POPG-Tom_Piggot-v1 model wiht GROMOS57a7 is employed for lipids and the SCP model for water. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top), simulation parameter file (.mdp), and the energy output file (.edr) are provided.
+  sameAs: https://doi.org/10.5281/zenodo.3378992
+  datePublished: '2019-02-19'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: PEÓN, Antonio
+    identifier: https://orcid.org/0000-0003-4803-988X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - SOD
+  - CLA
+  - POPG bilayer
+  - Gromos
+  - Gromacs
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.1.2)
+  - GROMOS-CKP-POPG-Tom_Piggot-v1 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3378992
+    name: 500POPG_25000SOL_549SOD_49CLA_310K
+    contentSize: 3829653224
+    encodingFormat: application/x-xtc
+    hasPart:
+    - m_400_500_system_POPG_GROMOS.xtc
+    - md_031.tpr
+    - topol.top
+    - conf.gro
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3378992
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

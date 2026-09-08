@@ -7,7 +7,6 @@ TPR:
 PREEQTIME: 0
 TIMELEFTOUT: 0
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Javanainen, Matti; Martinez-Seara, Hector; Vattulainen, Ilpo
 SYSTEM: 1032DPPC_120DCHOL_46440SOL_124SOD_124CLA_310K
 SOFTWARE_VERSION: null
@@ -47,7 +46,7 @@ TRAJECTORY_SIZE: 7370876156
 TRJLENGTH: 700100.0
 TEMPERATURE: 310.0
 NUMBER_OF_ATOMS: 281888
-DATEOFRUNNING: 18/12/2021
+DATEOFRUNNING: '2021-12-18'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -55,3 +54,79 @@ EXPERIMENT:
     DCHOL: []
   FORMFACTOR: []
 ID: 45
+bioschema_properties:
+  name: Simulations of mixed DPPC/cholesterol membranes Part 2/2
+  alternateName: 1032DPPC_120DCHOL_46440SOL_124SOD_124CLA_310K
+  description: 'Simulations of mixtures of DPPC and cholesterol performed with the Slipids force field. Files are named as DPPC_CC_TTT, where CC is the cholesterol concentration in mol-%, and TTT the temperature in K. This upload contains files related to systems with 15 or 20 mol-% of cholesterol, whereas systems with 10 mol-% are in a separate upload here: DOI: 10.5281/zenodo.3539263. The system containing DCHOL, as well as the simulations used for line tension calculations, are also included in this upload. Full details of simulations are available in the related manuscript, where they are also carefully analyzed: Nanoscale Membrane Domain Formation Driven by Cholesterol by Matti Javanainen, Hector Martinez-Seara, and Ilpo Vattulainen Scientific Reports 7: 1143 (2017)'
+  sameAs: https://doi.org/10.5281/zenodo.3540513
+  datePublished: '2019-11-13'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+    identifier: https://orcid.org/0000-0003-4858-364X
+  - name: Martinez-Seara, Monne
+    identifier: https://orcid.org/0000-0001-9716-1713
+  - name: Vattulainen, Ilpo
+    identifier: https://orcid.org/0000-0001-7408-3214
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  - DCHOL
+  - 18,19-di-nor-cholesterol
+  - SOD
+  - CLA
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - Slipids force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3540513
+    name: 1032DPPC_120DCHOL_46440SOL_124SOD_124CLA_310K
+    contentSize: 7370876156
+    encodingFormat: application/x-xtc
+    hasPart:
+    - DPPC_10_310_DCHOL.xtc
+    - DPPC_10_310_DCHOL.tpr
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3540513
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

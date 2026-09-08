@@ -8,7 +8,6 @@ TPR:
 PREEQTIME: 0
 TIMELEFTOUT: 0
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Javanainen, Matti
 SYSTEM: 200POPC_9000SOL_22CHOL_310K
 SOFTWARE_VERSION: 4.6
@@ -41,7 +40,7 @@ TRAJECTORY_SIZE: 1026409108
 TRJLENGTH: 500100.0
 TEMPERATURE: 310.0
 NUMBER_OF_ATOMS: 55428
-DATEOFRUNNING: 22/10/2021
+DATEOFRUNNING: '2021-10-22'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -49,3 +48,74 @@ EXPERIMENT:
     CHOL: []
   FORMFACTOR: []
 ID: 113
+bioschema_properties:
+  name: POPC with 0, 10, 20, and 30 mol-% of cholesterol at 310 K. Slipids force field.
+  alternateName: 200POPC_9000SOL_22CHOL_310K
+  description: 'Simulations of a POPC bilayer with varying amounts of cholesterol. This data is employed for the NMRlipids project, see http://nmrlipids.blogspot.fi for more information. A POPC bilayer consisting of 200 lipids (100 per leaflet) is simulated in the presence of 0% (0 molecules), 10 % (22 molecules), 20 % (50 molecules), or 30 % (86 molecules) of cholesterol. The Slipids model [1–3] is employed for lipids, and the tip3p model for water. The Slipids force field parameters were downloaded from http://mmkluster.fos.su.se/slipids/ –––––––––––––––––––––––––––––––––––––––––––––––––––––– The files are in GROMACS format. Trajectory (.xtc) is 100 ns long with data saved every 100 ps. Additionally, the initial structure (.gro), topology (.top), index file (.ndx), binary run input file for GROMACS v. 4.6–> (.tpr) and the energy output file (.edr) are provided together with the run parameter file (.mdp) employed to run all the simulations. UPDATE: Longer 500 ns trajectories are updated together with the checkpoint files. –––––––––––––––––––––––––––––––––––––––––––––––––––––– [1] Derivation and Systematic Validation of a Refined All-Atom Force Field for Phosphatidylcholine Lipids Joakim P. M. Jämbeck and Alexander P. Lyubartsev The Journal of Physical Chemistry B 2012 116 (10), 3164-3179 DOI: 10.1021/jp212503e [2] An Extension and Further Validation of an All-Atomistic Force Field for Biological Membranes Joakim P. M. Jämbeck and Alexander P. Lyubartsev Journal of Chemical Theory and Computation 2012 8 (8), 2938-2948 DOI: 10.1021/ct300342n [3] Another Piece of the Membrane Puzzle: Extending Slipids Further Joakim P. M. Jämbeck and Alexander P. Lyubartsev Journal of Chemical Theory and Computation 2013 9 (1), 774-784 DOI: 10.1021/ct300777p'
+  sameAs: https://doi.org/10.5281/zenodo.3243328
+  datePublished: '2016-08-22'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+    identifier: https://orcid.org/0000-0003-4858-364X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CHOL
+  - cholesterol
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 4.6)
+  - Slipids force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3243328
+    name: 200POPC_9000SOL_22CHOL_310K
+    contentSize: 1026409108
+    encodingFormat: application/x-xtc
+    hasPart:
+    - chol10_500ns.xtc
+    - chol10.tpr
+    - chol10.top
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3243328
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

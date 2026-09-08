@@ -34,7 +34,6 @@ COMPOSITION:
     COUNT: 38
 UNITEDATOM_DICT: null
 DIR_WRK: /big/comcon1/work/Databank-work
-PUBLICATION: 10.1016/j.bioelechem.2021.107828
 AUTHORS_CONTACT: Alexey Nesterenko and Daria Khomich
 SYSTEM: TLCL:POPC(20%)50mM-CHARMM
 SOFTWARE_VERSION: 5.0.6
@@ -49,7 +48,7 @@ TRAJECTORY_SIZE: 10183205904
 TRJLENGTH: 373300.0
 TEMPERATURE: 300.0
 NUMBER_OF_ATOMS: 56826
-DATEOFRUNNING: 04/10/2023
+DATEOFRUNNING: '2023-10-04'
 TYPEOFSYSTEM: lipid bilayer
 ID: 778
 EXPERIMENT:
@@ -57,3 +56,83 @@ EXPERIMENT:
     POPC: []
     TLCL_0H: []
   FORMFACTOR: []
+bioschema_properties:
+  name: All-atom MD trajectory TOCL:POPC (20%), 50mM KCl
+  alternateName: TLCL:POPC(20%)50mM-CHARMM
+  description: '~400-ns MD simulation of a lipid bilayer, which monolayer was composed of 44 POPC (1-Palmitoyl-2-oleoylphosphatidylcholine) molecules and 6 TLCL (tetra-linoeoyl-cardiolipin) molecules. The background electrolyte is KCl; these ions were added in that amount, which imitates 50-mM ionic force in the bulk. The water amount is large (more than 140 water molecules per lipid), allowing it to equilibrate the electric double layer at a relatively low ionic force. TIP3P water model and CHARMM36 force field were used; the double-deprotonated form of cardiolipin was used (TLCL2). Production simulation was performed with MD integrator (2-fs step, bonds to hydrogen atoms were constrained), Nose-Hoover thermostat (303K, 1-ps time constant) and Parinello-Rahman semi-isotropic barostat (5-ps time constant, water compressibility). PME was used for electrostatics; cut-off radii were set to 1.2 nm. VDW switch radius was set to 1.0 nm. Resulting trajectories deposited: COMBINED-50ps.trr [373 ns length, 50-ps step, with velocities] COMBINED-10ps-100ns.trr [last 100 ns, 10-ps step, with velocities] COMBINED.edr [373 ns length, 2-ps step] The additional ZIP archive contains intermediate TPR and MDP files and a force field folder.'
+  sameAs: https://doi.org/10.5281/zenodo.8383558
+  datePublished: '2023-09-27'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Alexey, Nesterenko
+    identifier: https://orcid.org/0000-0003-1592-257X
+  - name: Khomich Daria
+  citation:
+  - 10.1016/j.bioelechem.2021.107828
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - TLCL_0H
+  - tetralinoleoyl cardiolipin(2−)
+  - CLA
+  - POT
+  - NMRlipids
+  - GROMACS
+  - lipid bilayers
+  - cardiolipin
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.0.6)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.8383558
+    name: TLCL:POPC(20%)50mM-CHARMM
+    contentSize: 10183205904
+    encodingFormat: application/x-trr
+    hasPart:
+    - COMBINED-50ps.trr
+    - step7_6.tpr
+    - topol.top
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8383558
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

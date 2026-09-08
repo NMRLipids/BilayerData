@@ -25,7 +25,6 @@ COMPOSITION:
     MAPPING: mappingTIP3PCHARMMgui.yaml
     COUNT: 3600
 DIR_WRK: /home/lara/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Javanainen, Matti
 SYSTEM: 64POPC_8CHOL_3600SOL_298K
 SOFTWARE_VERSION: null
@@ -43,7 +42,7 @@ TRAJECTORY_SIZE: 72460932
 TRJLENGTH: 1001000.0
 TEMPERATURE: 298.15
 NUMBER_OF_ATOMS: 19968
-DATEOFRUNNING: 11/03/2022
+DATEOFRUNNING: '2022-03-11'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -52,3 +51,77 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/3
 ID: 109
+bioschema_properties:
+  name: Simulations of POPC/cholesterol mixtures at 298 K, three system sizes, CHARMM36
+  alternateName: 64POPC_8CHOL_3600SOL_298K
+  description: GROMACS input and output files. CHARMM36. Membranes with 64, 256, and 1024 lipids.
+  sameAs: https://doi.org/10.5281/zenodo.5767451
+  datePublished: '2021-12-08'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+    identifier: https://orcid.org/0000-0003-4858-364X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CHOL
+  - cholesterol
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.5767451
+    name: 64POPC_8CHOL_3600SOL_298K
+    contentSize: 72460932
+    encodingFormat: application/x-xtc
+    hasPart:
+    - CHOL4_small.xtc
+    - CHOL4_small.tpr
+    - CHOL4_small.top
+    - CHOL4_small.gro
+  isBasedOn:
+  - experiments/FormFactors/10.1021/acs.jctc.3c00648/3
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.5767451
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

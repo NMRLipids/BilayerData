@@ -46,7 +46,7 @@ COMPOSITION:
 TRAJECTORY_SIZE: 4169084860
 TRJLENGTH: 100020.0
 NUMBER_OF_ATOMS: 222960
-DATEOFRUNNING: 07/12/2025
+DATEOFRUNNING: '2025-12-07'
 TYPEOFSYSTEM: lipid bilayer
 ID: 849
 EXPERIMENT:
@@ -55,3 +55,80 @@ EXPERIMENT:
     POPC: []
     SM16: []
   FORMFACTOR: []
+bioschema_properties:
+  name: 'MD simulation trajectory of Ternary mixture of POPC/PSM/Chol (35:35:30) at 295 K: Slipids, GROMACS 5.1.4.'
+  alternateName: POPC/SM16/CHOL (35:35:30)
+  description: 'MD simulation trajectory files for Ternary mixture of POPC/PSM/Chol [360 POPC, 352 PSM, 304 Chol and 35840 SOL]. The Slipids (2013 version) force field was used with Gromacs 5.1.4. Conditions: T=295K. Data saved every 20 ps. 100 ns trajectory. PREEQTIME: 100 ns TIMELEFTOUT: 300 ns'
+  sameAs: https://doi.org/10.5281/zenodo.17730864
+  datePublished: '2025-11-27'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Favela-Rosales, Fernando
+    identifier: https://orcid.org/0000-0002-0687-6594
+  citation:
+  - 10.1016/j.bpc.2025.107408
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - CHOL
+  - cholesterol
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SM16
+  - N-palmitoyl-D-erythro-sphingosylphosphorylcholine
+  - PSM
+  - Gromacs
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.1.4)
+  - Slipids force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.17730864
+    name: POPC/SM16/CHOL (35:35:30)
+    contentSize: 4169084860
+    encodingFormat: application/x-xtc
+    hasPart:
+    - 100ns_c.xtc
+    - md50ns_chunk01.tpr
+    - 1k_pop35prc+psm35prc+chl30prc+wat.top
+    - 1k_pop35prc+psm35prc+chl30prc+wat.gro
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.17730864
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

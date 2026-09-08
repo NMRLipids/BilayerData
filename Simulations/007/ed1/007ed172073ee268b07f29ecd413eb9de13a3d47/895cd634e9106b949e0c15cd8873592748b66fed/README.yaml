@@ -3,7 +3,6 @@ FF_DATE: null
 SYSTEM: 200POPC_9000SOL_313K
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 313.0
-PUBLICATION: null
 NUMBER_OF_ATOMS: 53800
 EXPERIMENT:
   ORDERPARAMETER:
@@ -34,7 +33,7 @@ TOP:
 PREEQTIME: 0
 DOI: 10.5281/zenodo.4040423
 DATE: 2020-09-21
-DATEOFRUNNING: 01/10/2021
+DATEOFRUNNING: '2021-10-01'
 TPR:
 - - run.tpr
 TRJ:
@@ -44,3 +43,73 @@ LOG:
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 512
+bioschema_properties:
+  name: POPC CHARMM36 T313K
+  alternateName: 200POPC_9000SOL_313K
+  description: POPC CHARMM36 T313K. The simulations are ran for simulations with cationic surfactants for NMRlipids IV project at 313 K using Gromacs 5. itp files called in top files can be found from the root of repository https://doi.org/10.5281/zenodo.1288296.
+  sameAs: https://doi.org/10.5281/zenodo.4040423
+  datePublished: '2020-09-21'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Ollila
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.4040423
+    name: 200POPC_9000SOL_313K
+    contentSize: 3979765856
+    encodingFormat: application/x-xtc
+    hasPart:
+    - run.xtc
+    - run.tpr
+    - topol.top
+  isBasedOn:
+  - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/11
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.4040423
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

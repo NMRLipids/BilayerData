@@ -3,7 +3,6 @@ FF_DATE: null
 SYSTEM: 128POPC_5120SOL_10A-switch_v4
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 303.0
-PUBLICATION: null
 NUMBER_OF_ATOMS: 32512
 EXPERIMENT:
   ORDERPARAMETER:
@@ -31,7 +30,7 @@ FF: CHARMM36
 TOP: null
 PREEQTIME: 0
 DOI: 10.5281/zenodo.164206
-DATEOFRUNNING: 04/10/2021
+DATEOFRUNNING: '2021-10-04'
 TPR:
 - - for-md_CHARMM36_GMX506_POPC_10A-switch_from_JM_v4.tpr
 TRJ:
@@ -40,3 +39,72 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 123
+bioschema_properties:
+  name: Charmm36 Popc Gromacs 5.0.6 500 Ns (Started From Jm Files)
+  alternateName: 128POPC_5120SOL_10A-switch_v4
+  description: CHARMM36 force field POPC simulations performed using GROMACS version 5.0.6 started from files obtained from https://doi.org/10.5281/zenodo.153944. Results are included for simulations using both an 8 Å and 10 Å switching point for the van der Waals interactions, with 4 x 500 ns for each of these cut-off schemes (versions with different starting velocities are labelled as v1, v2, v3 and v4). The trajectories have been processed using trjconv -skip 10 to make the files smaller for uploading, although the initial analysis was performed on the complete simulations.
+  sameAs: https://doi.org/10.5281/zenodo.164206
+  datePublished: '2016-11-01'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Piggot, Thomas
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.0.6)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.164206
+    name: 128POPC_5120SOL_10A-switch_v4
+    contentSize: 1207239596
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md_CHARMM36_GMX506_POPC_10A-switch_from_JM_v4_skip10.xtc
+    - for-md_CHARMM36_GMX506_POPC_10A-switch_from_JM_v4.tpr
+  isBasedOn:
+  - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/2
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.164206
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

@@ -1,5 +1,5 @@
 ARTICLE_DOI: 10.1021/acs.jctc.3c00648
-DATE: 2023-08-24T13:38:29Z
+DATE: '2023-08-24'
 TEMPERATURE: 300
 MEMBRANE_COMPOSITION:
   POPC: 0.65
@@ -30,3 +30,76 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
 
+bioschema_properties:
+  name: Quantitative Comparison against Experiments Reveals Imperfections in Force Fields’ Descriptions of POPC–Cholesterol Interactions
+  description: Experimental X-ray scattering form factor for a lipid bilayer containing CHOL, POPC at 300 K, measured by X-ray scattering (MLV).
+  sameAs: https://doi.org/10.1021/acs.jctc.3c00648
+  datePublished: '2023-08-24'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  articleLicense:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  publisher: American Chemical Society (ACS)
+  creator:
+  - name: Matti Javanainen
+    identifier: https://orcid.org/0000-0003-4858-364X
+  - name: Peter Heftberger
+  - name: Jesper J. Madsen
+    identifier: https://orcid.org/0000-0003-1411-9080
+  - name: Markus S. Miettinen
+    identifier: https://orcid.org/0000-0002-3999-4722
+  - name: Georg Pabst
+    identifier: https://orcid.org/0000-0003-1967-1536
+  - name: O. H. Samuli Ollila
+    identifier: https://orcid.org/0000-0002-8728-1006
+  citation:
+  - 10.1021/acs.jctc.3c00648
+  keywords:
+  - '@type': DefinedTerm
+    name: X-ray diffraction
+    termCode: topic_2828
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_2828
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CHOL
+  - cholesterol
+  measurementTechnique:
+  - X-ray scattering (MLV)
+  - EMBL BioSAXS beamline, PETRA III
+  variableMeasured:
+  - X-ray scattering form factor
+  distribution:
+  - '@type': DataDownload
+    name: formfactor_chol35_FormFactor.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1021/acs.jctc.3c00648
+    identifier: 10.1021/acs.jctc.3c00648
+    url: https://doi.org/10.1021/acs.jctc.3c00648
+    name: Quantitative Comparison against Experiments Reveals Imperfections in Force Fields’ Descriptions of POPC–Cholesterol Interactions
+    isPartOf:
+      '@type': Periodical
+      name: Journal of Chemical Theory and Computation
+  _source:
+    api: crossref
+    doi: 10.1021/acs.jctc.3c00648
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

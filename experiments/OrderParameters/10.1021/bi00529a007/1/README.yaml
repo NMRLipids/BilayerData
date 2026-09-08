@@ -39,3 +39,59 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: 0.07
 COUNTER_IONS:
 
+bioschema_properties:
+  name: Interaction of metal ions with phosphatidylcholine bilayer membranes
+  description: 'Experimental C-H bond order parameters for a lipid bilayer containing DPPC at 332 K, measured by NMR: 2H:QE.'
+  sameAs: https://doi.org/10.1021/bi00529a007
+  datePublished: '1981-12-01'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  publisher: American Chemical Society (ACS)
+  creator:
+  - name: Hideo Akutsu
+  - name: Joachim Seelig
+  citation:
+  - 10.1021/bi00529a007
+  keywords:
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - 'NMR: 2H:QE'
+  - Spectrometers operating at 13.8 and 61.4 MHz (single-pulse mode) and at 46 MHz (quadrupole echo technique)
+  variableMeasured:
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    name: DPPC_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1021/bi00529a007
+    identifier: 10.1021/bi00529a007
+    url: https://doi.org/10.1021/bi00529a007
+    name: Interaction of metal ions with phosphatidylcholine bilayer membranes
+    isPartOf:
+      '@type': Periodical
+      name: Biochemistry
+  _source:
+    api: crossref
+    doi: 10.1021/bi00529a007
+    retrieved: '2026-09-08'

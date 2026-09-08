@@ -3,7 +3,6 @@ FF_DATE: null
 SYSTEM: 72DPPC_2189SOL_323K
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 323.0
-PUBLICATION: 10.1021/acs.jpcb.5b04878
 NUMBER_OF_ATOMS: 15927
 EXPERIMENT:
   ORDERPARAMETER:
@@ -33,7 +32,7 @@ TOP:
 - - dppc_c36.top
 PREEQTIME: 5
 DOI: 10.5281/zenodo.15549
-DATEOFRUNNING: 01/10/2021
+DATEOFRUNNING: '2021-10-01'
 TPR:
 - - dppcRUN2.tpr
 TRJ:
@@ -42,3 +41,77 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 319
+bioschema_properties:
+  name: Md Simulation Trajectory And Related Files For Dppc Bilayer (Charmm36, Gromacs 4.5)
+  alternateName: 72DPPC_2189SOL_323K
+  description: Equilibrated DPPC lipid bilayer simulation ran with Gromacs 4.5, CHARMM36 force field (dx.doi.org/10.1021/jp101759q), 25ns, T=323K, 72 POPC molecules, 2189 water molecules. This data is ran for the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi. If data is used, please cite nmrlipids.blogspot.fi project and the original publication of the parameters (dx.doi.org/10.1021/jp101759q).
+  sameAs: https://doi.org/10.5281/zenodo.15549
+  datePublished: '2015-02-20'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0
+  publisher: Zenodo
+  creator:
+  - name: Ollila Samuli
+  - name: Miettinen Markus
+  citation:
+  - 10.1021/acs.jpcb.5b04878
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 4.5)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.15549
+    name: 72DPPC_2189SOL_323K
+    contentSize: 1912222368
+    encodingFormat: application/x-trr
+    hasPart:
+    - dppcRUN5-30ns.trr
+    - dppcRUN2.tpr
+    - dppc_c36.top
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/bi00687a021/1
+  - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/4
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.15549
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

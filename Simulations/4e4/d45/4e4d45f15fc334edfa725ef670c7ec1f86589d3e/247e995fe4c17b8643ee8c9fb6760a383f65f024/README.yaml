@@ -19,7 +19,6 @@ COMPOSITION:
     MAPPING: mappingSPCwater.yaml
     COUNT: 6400
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: 10.1101/2020.11.09.374850
 AUTHORS_CONTACT: Melcr, Josef
 SYSTEM: 128POPC_6400SOL_313K
 SOFTWARE_VERSION: 5.1.4
@@ -38,7 +37,7 @@ TRAJECTORY_SIZE: 674250236
 TRJLENGTH: 100020.0
 TEMPERATURE: 313.0
 NUMBER_OF_ATOMS: 36352
-DATEOFRUNNING: 02/02/2022
+DATEOFRUNNING: '2022-02-02'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -46,3 +45,77 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1016/j.bbamem.2011.07.022/11
 ID: 405
+bioschema_properties:
+  name: Simulations of POPC lipid bilayer in water solution at various NaCl, KCl and CaCl2 concentrations using ECC-POPC force field
+  alternateName: 128POPC_6400SOL_313K
+  description: Classical molecular dynamics simulations of a POPC lipid bilayer in water solution at various NaCl, KCl and CaCl2 concentrations using ECC-POPC force field parameters, SPC/E water model and ECC-ions. file names report molar fraction of cations (i.e. not bulk concentrations) simulations performed with Gromacs 5.1.4 (*.xtc files) and openMM 7 (*.dcd files) simulation length 300 ns temperature 313 K (otherwise noted) Gromacs simulation setting is in the file npt_lipid_bilayer.mdp
+  sameAs: https://doi.org/10.5281/zenodo.3335503
+  datePublished: '2017-12-19'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Melcr, Josef
+    identifier: https://orcid.org/0000-0003-4729-3990
+  citation:
+  - 10.1101/2020.11.09.374850
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.1.4)
+  - ECC-lipids force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3335503
+    name: 128POPC_6400SOL_313K
+    contentSize: 674250236
+    encodingFormat: application/x-xtc
+    hasPart:
+    - sim_ECC-POPC_SPCE_noIons-ref.xtc
+    - sim_ECC-POPC_SPCE_noIons-ref.tpr
+    - sim_ECC-POPC_SPCE_noIons-ref.top
+    - sim_ECC-POPC_SPCE_noIons-ref.gro
+  isBasedOn:
+  - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/11
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3335503
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

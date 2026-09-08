@@ -19,7 +19,6 @@ COMPOSITION:
     MAPPING: mappingTIP3PCHARMMgui.yaml
     COUNT: 10000
 DIR_WRK: set-from-console
-PUBLICATION: null
 AUTHORS_CONTACT: Milla Kurki
 SYSTEM: 200DMPC_10kSOL_300K
 SOFTWARE_VERSION: 2022.2
@@ -37,7 +36,7 @@ TRAJECTORY_SIZE: 9904706876
 TRJLENGTH: 500010.0
 TEMPERATURE: 314.0
 NUMBER_OF_ATOMS: 53600
-DATEOFRUNNING: 10/04/2024
+DATEOFRUNNING: '2024-04-10'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -46,3 +45,74 @@ EXPERIMENT:
     - unpublished/nesterenkoDMPCbOG/1
   FORMFACTOR: []
 ID: 808
+bioschema_properties:
+  name: MD simulation of DMPC bilayer with CHARMM36 force field. Full hydration
+  alternateName: 200DMPC_10kSOL_300K
+  description: 'MD simulation of DMPC bilayer with CHARMM36 force field. Full hydration Dataset contains simulation files including trajectories (.xtc) (original production.xtc, and equilibrated and centered ). System: DMPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 10000 Simulation time: 500 ns Sampling rate: every 10 ps Simulation engine: GROMACS 2019.5 Temperature: 314 K'
+  sameAs: https://doi.org/10.5281/zenodo.10949663
+  datePublished: '2024-04-09'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kurki, Milla
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DMPC
+  - 1,2-dimyristoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2022.2)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.10949663
+    name: 200DMPC_10kSOL_300K
+    contentSize: 9904706876
+    encodingFormat: application/x-xtc
+    hasPart:
+    - production.xtc
+    - production.tpr
+    - topol.top
+    - production.gro
+  isBasedOn:
+  - experiments/OrderParameters/10.1039/B508190D/3
+  - experiments/OrderParameters/unpublished/nesterenkoDMPCbOG/1
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.10949663
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

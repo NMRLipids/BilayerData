@@ -3,7 +3,6 @@ FF_DATE: null
 SYSTEM: 200POPC_10456SOL_310K
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 310.15
-PUBLICATION: null
 NUMBER_OF_ATOMS: 68624
 EXPERIMENT:
   ORDERPARAMETER:
@@ -33,7 +32,7 @@ TOP:
 PREEQTIME: 0
 DOI: 10.5281/zenodo.3431948
 DATE: 2019-09-17
-DATEOFRUNNING: 04/10/2021
+DATEOFRUNNING: '2021-10-04'
 TPR:
 - - original_CHARMM_tip4p2005water_no_ions.tpr
 TRJ:
@@ -43,3 +42,71 @@ LOG:
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 320
+bioschema_properties:
+  name: POPC membrane, 310K, CHARMM36, tip4p2005 water, gromacs 5
+  alternateName: 200POPC_10456SOL_310K
+  description: POPC membrane simulated with CHARMM36 in tip4p2005 water
+  sameAs: https://doi.org/10.5281/zenodo.3431948
+  datePublished: '2019-09-17'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Nencini, Ricky
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3431948
+    name: 200POPC_10456SOL_310K
+    contentSize: 1815113248
+    encodingFormat: application/x-xtc
+    hasPart:
+    - original_CHARMM_tip4p2005water_no_ions.xtc
+    - original_CHARMM_tip4p2005water_no_ions.tpr
+    - original_CHARMM_tip4p2005water_no_ions.top
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3431948
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

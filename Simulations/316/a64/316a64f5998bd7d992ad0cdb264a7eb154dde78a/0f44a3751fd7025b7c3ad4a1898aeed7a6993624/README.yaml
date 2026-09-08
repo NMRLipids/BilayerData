@@ -3,7 +3,6 @@ FF_DATE: null
 SYSTEM: 128DOPS_128SOD_4480SOL_303K_v1
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 303.0
-PUBLICATION: null
 NUMBER_OF_ATOMS: 30336
 EXPERIMENT:
   ORDERPARAMETER:
@@ -35,7 +34,7 @@ TOP: null
 PREEQTIME: 400
 DOI: 10.5281/zenodo.1129411
 DATE: 2017-12-24
-DATEOFRUNNING: 04/10/2021
+DATEOFRUNNING: '2021-10-04'
 TPR:
 - - for-md-CHARMM36_DOPS_303K_v1.tpr
 TRJ:
@@ -44,3 +43,71 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 295
+bioschema_properties:
+  name: Charmm36 Dops Simulations (Versions 1 And 2) 303 K 1.0 Nm Lj Switching
+  alternateName: 128DOPS_128SOD_4480SOL_303K_v1
+  description: CHARMM36 DOPS simulations (303 K, starting structure from the CHARMM-GUI) performed with a 1.0 nm point at which to switch off the van der Waals interactions. Two different simulations generated with different starting velocities are provided (the files are named v1 and v2 for these different simulations). The trajectories contain only the data from 400-500 ns of the simulations (as per the analysis provided on the nmrlipids blog) and additionally they have been processed with trjconv -skip 10 to keep the upload small.
+  sameAs: https://doi.org/10.5281/zenodo.1129411
+  datePublished: '2017-12-24'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Piggot, Thomas
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DOPS
+  - 1,2-dioleoyl-sn-glycero-3-phospho-L-serine
+  - SOD
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1129411
+    name: 128DOPS_128SOD_4480SOL_303K_v1
+    contentSize: 226054228
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md-CHARMM36_10A-switch_DOPS_v1_400-500ns_skip10.xtc
+    - for-md-CHARMM36_DOPS_303K_v1.tpr
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1129411
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

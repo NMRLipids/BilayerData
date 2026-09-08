@@ -32,7 +32,6 @@ COMPOSITION:
     COUNT: 35840
 UNITEDATOM_DICT: null
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
-PUBLICATION: null
 AUTHORS_CONTACT: Fernando Favela
 SYSTEM: Ternary mixture of POPC/PSM/Chol (2:2:1) at 295 K Slipids
 SOFTWARE_VERSION: 5.1.4
@@ -49,7 +48,7 @@ TRAJECTORY_SIZE: 4297922952
 TRJLENGTH: 100020.0
 TEMPERATURE: 295.0
 NUMBER_OF_ATOMS: 229400
-DATEOFRUNNING: 06/09/2023
+DATEOFRUNNING: '2023-09-06'
 TYPEOFSYSTEM: lipid bilayer
 ID: 762
 EXPERIMENT:
@@ -58,3 +57,75 @@ EXPERIMENT:
     CHOL: []
     SM16: []
   FORMFACTOR: []
+bioschema_properties:
+  name: 'MD simulation trajectory of Ternary mixture of POPC/PSM/Chol (2:2:1) at 295 K: Slipids, GROMACS 5.1.4.'
+  alternateName: Ternary mixture of POPC/PSM/Chol (2:2:1) at 295 K Slipids
+  description: 'MD simulation trajectory files for Ternary mixture of POPC/PSM/Chol [408 POPC, 408 PSM, 208 Chol and 35840 SOL]. The Slipids (2013 version) force field was used with Gromacs 5.1.4. Conditions: T=295K. Data saved every 20 ps. 100 ns trajectory.'
+  sameAs: https://doi.org/10.5281/zenodo.8307369
+  datePublished: '2023-09-03'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Favela-Rosales, Fernando
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CHOL
+  - cholesterol
+  - SM16
+  - N-palmitoyl-D-erythro-sphingosylphosphorylcholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.1.4)
+  - Slipids force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.8307369
+    name: Ternary mixture of POPC/PSM/Chol (2:2:1) at 295 K Slipids
+    contentSize: 4297922952
+    encodingFormat: application/x-xtc
+    hasPart:
+    - 100ns.xtc
+    - md50ns_chunk01.tpr
+    - 1k_pop40prc+psm40prc+chl20prc+wat.top
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8307369
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

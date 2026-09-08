@@ -21,7 +21,6 @@ COMPOSITION:
     MAPPING: mappingSPCwater.yaml
     COUNT: 15254
 DIR_WRK: /home/lara/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Thomas Piggot
 SYSTEM: 336POPE_15254SOL_310K_v2
 SOFTWARE_VERSION: 5.0.6
@@ -38,7 +37,7 @@ TRAJECTORY_SIZE: 1016472968
 TRJLENGTH: 100025.0
 TEMPERATURE: 310.0
 NUMBER_OF_ATOMS: 67602
-DATEOFRUNNING: 10/06/2022
+DATEOFRUNNING: '2022-06-10'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -48,3 +47,75 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/jp511159q/1
 ID: 352
+bioschema_properties:
+  name: 'Charmm36-Ua Pope Simulations (Versions 1 And 2) 310 K (Note: Hexagonal Membrane And Pope Is Called Peua)'
+  alternateName: 336POPE_15254SOL_310K_v2
+  description: 'Two CHARMM36-UA POPE bilayer simulations performed using GROMACS 5.0.6 for 200 ns with different starting velocities. Simulations were performed with the standard CHARMM36 settings: a 1.2 nm cut-off with PME for the Coulombic interactions and a 1.2 nm cut-off for the van der Waals interactions with the forces switched off at 1.0 nm. These simulations were performed at 310 K with a 336 hexagonal lipid bilayer. The full trajectories are provided bar the initial 100 ns. The starting structure of the membrane was made by reverse mapping an equilibrated MARTINI POPE bilayer (constructed with the INSANE script).'
+  sameAs: https://doi.org/10.5281/zenodo.1293774
+  datePublished: '2018-06-20'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Piggot, Thomas
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPE
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.0.6)
+  - CHARMM36-UA force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1293774
+    name: 336POPE_15254SOL_310K_v2
+    contentSize: 1016472968
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md_POPE_hexagonal_membrane_CHARMM36_UA_200ns_v2_100-200ns.xtc
+    - for-md_POPE_hexagonal_membrane_CHARMM36_UA_200ns_v2.tpr
+    - md_POPE_hexagonal_membrane_CHARMM36_UA_200ns_v2.gro
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/jacs.1c05549/2
+  - experiments/OrderParameters/unpublished/ferreiraPOPE/1
+  - experiments/FormFactors/10.1021/jp511159q/1
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1293774
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

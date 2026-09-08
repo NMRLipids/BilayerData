@@ -30,7 +30,6 @@ COMPOSITION:
     MAPPING: mappingCLAcharmmPolarizable.yaml
     COUNT: 228
 DIR_WRK: /home/lara/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Kav, Batuhan
 SYSTEM: 128POPC_6400SOL_114CaCl2_303K
 SOFTWARE_VERSION: null
@@ -43,10 +42,85 @@ CRD: null
 TRAJECTORY_SIZE: 2761088356
 TRJLENGTH: 4000.0001313981625
 NUMBER_OF_ATOMS: 57516
-DATEOFRUNNING: 10/07/2022
+DATEOFRUNNING: '2022-07-10'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPC: []
   FORMFACTOR: []
 ID: 257
+bioschema_properties:
+  name: Pure POPC membrane simulations with 1000 mM CaCl2 with the CHARMM-Drude force field (OpenMM)
+  alternateName: 128POPC_6400SOL_114CaCl2_303K
+  description: 400 ns MD simulation of pure POPC membrane using Charmm-Drude polarizable force field. The system contains 128 POPC lipids, 114 CaCl2, and 6400 SWM4 water molecules. Before running the Drude simulation, the system has been equilibriated using Charmm36 force field for 200 ns. The last frame of that simulation was used to generate Drude polarizable model. The first 100 ns of the Drude simulation has been discarded from this dataset. Total simulation time is 500 ns, included data is 400 ns. wrapped.dcd has a frame saving frequency of 100 ps.
+  sameAs: https://doi.org/10.5281/zenodo.5507316
+  datePublished: '2021-05-05'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kav, Batuhan
+    identifier: https://orcid.org/0000-0003-4990-373X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CAL
+  - CLA
+  - openmm
+  - phospatidylcholine
+  - drude
+  - drude polarizable force field
+  measurementTechnique:
+  - Molecular dynamics simulation (openMM)
+  - Charmm-Drude polarizable; system has been equilibriated using Charmm36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.5507316
+    name: 128POPC_6400SOL_114CaCl2_303K
+    contentSize: 2761088356
+    encodingFormat: application/x-dcd
+    hasPart:
+    - wrapped.dcd
+    - step3_charmm2omm.psf
+    - step3_charmm2omm.pdb
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.5507316
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

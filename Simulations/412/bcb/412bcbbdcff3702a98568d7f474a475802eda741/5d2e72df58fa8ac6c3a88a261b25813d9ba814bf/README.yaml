@@ -3,7 +3,6 @@ FF_DATE: null
 SYSTEM: 50CHOL_200POPC_9000SOL_21SOD_21CLA_310K
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 310.15
-PUBLICATION: null
 NUMBER_OF_ATOMS: 57542
 EXPERIMENT:
   ORDERPARAMETER:
@@ -47,7 +46,7 @@ TOP:
 PREEQTIME: 0
 DOI: 10.5281/zenodo.259392
 DATE: 2017-01-24
-DATEOFRUNNING: 05/10/2021
+DATEOFRUNNING: '2021-10-05'
 TPR:
 - - md20.tpr
 TRJ:
@@ -56,3 +55,75 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 407
+bioschema_properties:
+  name: Popc With Varying Amounts Of Cholesterol, 130 Mm Of Nacl. Charmm36 With Default Charmm Ions
+  alternateName: 50CHOL_200POPC_9000SOL_21SOD_21CLA_310K
+  description: 'Simulations of a POPC bilayer with varying amounts (0, 10, 20, and 30 mol-%) of cholesterol and 130 mM of NaCl performed at 310 K. The POPC bilayer consists of 200 lipids (100 per leaflet) and on top of that there is 0 (0%), 22 (10%), 50 (20%), or 86 (30%) of cholesterol. The Charmm36 model [1,2] is employed for lipids, the Charmm compatible variant of the tip3p model for water, and the standard Charmm ion parameters for NaCl [3]. The Charmm36 force field parameters were obtained Charmm-GUI [4]. IMPORTANT: The simulations are performed with version 1.7 obtained from Charmm-GUI, and this version is known to have an issue with the multiplicity of dihedrals in Gromacs output files, see http://www.charmm-gui.org/?doc=log . –––––––––––––––––––––––––––––––––––––––––––––––––––––– The files are in GROMACS format and named based on the amount of cholesterol present (in %) in the corresponding simulation. Trajectories (.xtc) are 200 ns long with data saved every 100 ps. Additionally, the final structure (.gro), topology (.top), index file (.ndx), energy output file (.edr), and binary run input files (for Gromacs 5.0->) (.tpr) are provided for each system. The common simulation parameter file (.mdp) is also provided. –––––––––––––––––––––––––––––––––––––––––––––––––––––– [1] Update of the CHARMM All-Atom Additive Force Field for Lipids: Validation on Six Lipid Types. Jeffery B. Klauda, Richard M. Venable, J. Alfredo Freites, Joseph W. O’Connor, Douglas J. Tobias, Carlos Mondragon-Ramirez, Igor Vorobyov, Alexander D. MacKerell, Jr., and Richard W. Pastor, The Journal of Physical Chemistry B 2010 114 (23), 7830–7843, DOI: 10.1021/jp101759q [2] Update of the Cholesterol Force Field Parameters in CHARMM. Joseph B. Lim, Brent Rogaski, and Jeffery B. Klauda, The Journal of Physical Chemistry B 2012 116 (1), 203–210, DOI: 10.1021/jp207925m [3] Control of Ion Selectivity in LeuT: Two Na+ Binding Sites with Two Different Mechanisms. Sergei Y. Noskov and Benoit Roux, Journal of Molecular Biology 2008 377 (3), 804–818, DOI:10.1016/j.jmb.2008.01.015 [4] CHARMM-GUI Input Generator for NAMD, GROMACS, AMBER, OpenMM, and CHARMM/OpenMM Simulations Using the CHARMM36 Additive Force Field. Jumin Lee, Xi Cheng, Jason M. Swails, Min Sun Yeom, Peter K. Eastman, Justin A. Lemkul, Shuai Wei, Joshua Buckner, Jong Cheol Jeong, Yifei Qi, Sunhwan Jo, Vijay S. Pande, David A. Case, Charles L. Brooks, III, Alexander D. MacKerell, Jr., Jeffery B. Klauda, and Wonpil Im, Journal of Chemical Theory and Computation 2016 12 (1), 405-413, DOI: 10.1021/acs.jctc.5b00935'
+  sameAs: https://doi.org/10.5281/zenodo.259392
+  datePublished: '2017-01-24'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - CHOL
+  - cholesterol
+  - CLA
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SOD
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.0)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.259392
+    name: 50CHOL_200POPC_9000SOL_21SOD_21CLA_310K
+    contentSize: 428966936
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md20.xtc
+    - md20.tpr
+    - md20.top
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.259392
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

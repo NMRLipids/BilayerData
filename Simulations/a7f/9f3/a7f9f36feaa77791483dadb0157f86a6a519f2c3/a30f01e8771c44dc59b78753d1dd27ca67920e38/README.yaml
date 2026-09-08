@@ -27,7 +27,7 @@ TRAJECTORY_SIZE: 612650848
 TRJLENGTH: 500100.0
 TEMPERATURE: 300.0
 NUMBER_OF_ATOMS: 32512
-DATEOFRUNNING: 11/02/2025
+DATEOFRUNNING: '2025-02-11'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -37,3 +37,74 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/1
 ID: 828
+bioschema_properties:
+  name: POPC core replicate 1
+  alternateName: POPCandTIP3P
+  description: 'POPC simulation parameterized with Sage2.2.1.core.offxml Lipids: POPCLipid count: 128 (64 per leaflet)Solvent: TIP3PSolvent count: 5120 (40 w/l)Ions: noIon Count: n/aTemperature: 300KLength of equilibration: 100ns (40 NVT - 60 NPT)Length of production: 500ns HMR w/ 4fs timestep 0.9 rvdw/rcouloumb cutoff 0.8 rvdw-switch SMILES string: [C@](COP(=O)([O-])OCC[N+](C)(C)C)([H])(OC(CCCCCCC/C=C\CCCCCCCC)=O)COC(CCCCCCCCCCCCCCC)=O'
+  sameAs: https://doi.org/10.5281/zenodo.14713771
+  datePublished: '2025-01-21'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Julianne Hoeflich
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - Sage 2.2.1 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.14713771
+    name: POPCandTIP3P
+    contentSize: 612650848
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md_every_100_ps.xtc
+    - md.tpr
+    - bilayer.top
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
+  - experiments/OrderParameters/10.1039/c2cp42738a/1
+  - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.14713771
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

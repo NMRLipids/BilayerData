@@ -3,7 +3,6 @@ FF_DATE: null
 SYSTEM: DPPC_512_NaCl_150mM_325K
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 325.0
-PUBLICATION: null
 NUMBER_OF_ATOMS: 128110
 EXPERIMENT:
   ORDERPARAMETER:
@@ -41,7 +40,7 @@ TOP:
 PREEQTIME: 0
 DOI: 10.5281/zenodo.1009027
 DATE: 2017-10-11
-DATEOFRUNNING: 04/10/2021
+DATEOFRUNNING: '2021-10-04'
 TPR:
 - - DPPC_512_NaCl_150mM_325K_md.tpr
 TRJ:
@@ -50,3 +49,79 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 590
+bioschema_properties:
+  name: Simulations Dppc Bilayers (512 Lipids) Using Charmm36 Ff In Gromacs
+  alternateName: DPPC_512_NaCl_150mM_325K
+  description: 'Collection simulations of DPPC (512 lipids) bilayers in gromacs using the charmm36 force field. Several temperatures between 315 and 338 K are included. The list of systems can be found below where the several parameter are: 1) DPPC_512_NaCl_150mM_315K_v-rescale (500ns) 2) DPPC_512_NaCl_150mM_320K (700ns) 3) DPPC_512_NaCl_150mM_320K_v-rescale (500ns) 4) DPPC_512_NaCl_150mM_322K_v-rescale (700ns) 5) DPPC_512_NaCl_150mM_325K (500ns) 6) DPPC_512_NaCl_150mM_325K_v-rescale (500ns) 7) DPPC_512_NaCl_150mM_325K_cutoff09 (500ns) 8) DPPC_512_NaCl_150mM_325K_MEMB_338K (500ns) 9) DPPC_512_NaCl_150mM_338K (500ns) For further information read the Readme file provided for each simulation.'
+  sameAs: https://doi.org/10.5281/zenodo.1009027
+  datePublished: '2017-10-11'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Martinez-Seara, Hector
+    identifier: https://orcid.org/0000-0001-9716-1713
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  - SOD
+  - CLA
+  - Gromacs
+  - Bilayer
+  - Membranes
+  - Molecular mechanics
+  - charmm36
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.0.4)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1009027
+    name: DPPC_512_NaCl_150mM_325K
+    contentSize: 2396761152
+    encodingFormat: application/x-xtc
+    hasPart:
+    - DPPC_512_NaCl_150mM_325K_md.xtc
+    - DPPC_512_NaCl_150mM_325K_md.tpr
+    - DPPC_512_NaCl_150mM_325K_md.top
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1009027
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

@@ -1,5 +1,5 @@
 ARTICLE_DOI: 10.1021/acs.jpcb.4c04719
-DATE: 2024-12-09T08:02:44Z
+DATE: '2024-12-09'
 DATA_DOI: 10.18710/ETWNCU
 TEMPERATURE: 298.0
 MEMBRANE_COMPOSITION:
@@ -30,3 +30,79 @@ ION_CONCENTRATIONS:
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: 7.4
 COUNTER_IONS:
+bioschema_properties:
+  name: 'Solid-State NMR Validation of OPLS4: Structure of PC-Lipid Bilayers and Its Modulation by Dehydration'
+  description: 'Experimental C-H bond order parameters for a lipid bilayer containing POPC at 298.0 K, measured by NMR: PDLF:R18_1^7.'
+  sameAs: https://doi.org/10.1021/acs.jpcb.4c04719
+  datePublished: '2024-12-09'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  articleLicense:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  publisher: American Chemical Society (ACS)
+  creator:
+  - name: Milla Kurki
+    identifier: https://orcid.org/0000-0001-8311-6057
+  - name: Alexey M. Nesterenko
+    identifier: https://orcid.org/0000-0003-1592-257X
+  - name: Nicolai E. Alsaker
+    identifier: https://orcid.org/0009-0000-5544-4715
+  - name: Tiago M. Ferreira
+    identifier: https://orcid.org/0000-0002-0312-1479
+  - name: Sami Kyllönen
+    identifier: https://orcid.org/0009-0009-3136-6869
+  - name: Antti Poso
+    identifier: https://orcid.org/0000-0003-4196-4204
+  - name: Piia Bartos
+    identifier: https://orcid.org/0000-0001-6002-1856
+  - name: Markus S. Miettinen
+    identifier: https://orcid.org/0000-0002-3999-4722
+  citation:
+  - 10.1021/acs.jpcb.4c04719
+  keywords:
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - 'NMR: PDLF:R18_1^7'
+  - Bruker Avance III HD 500 MHz, Triple Resonance CP-MAS Probe (4mm)
+  variableMeasured:
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    name: POPC_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1021/acs.jpcb.4c04719
+    identifier: 10.1021/acs.jpcb.4c04719
+    url: https://doi.org/10.1021/acs.jpcb.4c04719
+    name: 'Solid-State NMR Validation of OPLS4: Structure of PC-Lipid Bilayers and Its Modulation by Dehydration'
+    isPartOf:
+      '@type': Periodical
+      name: The Journal of Physical Chemistry B
+  _source:
+    api: crossref
+    doi: 10.1021/acs.jpcb.4c04719
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

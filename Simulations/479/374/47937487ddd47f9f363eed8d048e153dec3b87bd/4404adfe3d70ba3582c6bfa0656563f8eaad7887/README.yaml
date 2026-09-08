@@ -42,7 +42,7 @@ TIMELEFTOUT: 0
 POPE: POPE
 TRJ:
 - - 100-400ns.xtc
-DATEOFRUNNING: 01/10/2021
+DATEOFRUNNING: '2021-10-01'
 FF: CHARMM36
 SOFTWARE: gromacs
 PREEQTIME: 100
@@ -57,3 +57,75 @@ POT: K
 TEMPERATURE: 298.0
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 178
+bioschema_properties:
+  name: POPC:POPG 1:1 MD simulation with CHARMM36 in 0.1 M CaCL solution and Na+ counter ions
+  alternateName: POPC:POPG(1:1)_100mMCaCl2_T298K
+  description: CHARMM36 POPC:POPG 1:1 bilayer simulation in 0.1 M CaCl2 solution. The initial structure was taken from CHARMM-GUI. Temperature is 298 K. The system contains 150 POPC, 150 POPG, 150 sodium ions, 31329 TIP3 water molecules, 57 Ca2+ ions and 114 Cl- ions. Total length of simulation is 400 ns. First 100 ns were discarded. Saving frequency of 100-400ns.xtc is 20 ps.
+  sameAs: https://doi.org/10.5281/zenodo.4005515
+  datePublished: '2020-09-16'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kiirikki, M. Anne; Ollila O. H. Samuli
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - CLA
+  - CAL
+  - SOD
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.4005515
+    name: POPC:POPG(1:1)_100mMCaCl2_T298K
+    contentSize: 7398652684
+    encodingFormat: application/x-xtc
+    hasPart:
+    - 100-400ns.xtc
+    - run_400ns.tpr
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.4005515
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

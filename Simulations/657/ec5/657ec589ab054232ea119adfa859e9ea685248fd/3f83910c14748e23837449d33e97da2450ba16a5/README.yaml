@@ -21,7 +21,6 @@ COMPOSITION:
     MAPPING: mappingSPCwater.yaml
     COUNT: 3552
 DIR_WRK: /home/lara/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Thomas Piggot
 SYSTEM: 128POPE_3552SOL_313K_v2
 SOFTWARE_VERSION: 4.0.7
@@ -37,10 +36,78 @@ TRAJECTORY_SIZE: 1272479824
 TRJLENGTH: 100005.0
 TEMPERATURE: 313.0
 NUMBER_OF_ATOMS: 17312
-DATEOFRUNNING: 24/05/2022
+DATEOFRUNNING: '2022-05-24'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPE: []
   FORMFACTOR: []
 ID: 349
+bioschema_properties:
+  name: 'Gromos 43A1-S3 Pope Simulations (Versions 1 And 2) 313 K (Note: Anisotropic Pressure Coupling)'
+  alternateName: 128POPE_3552SOL_313K_v2
+  description: 'Two GROMOS 43A1-S3 POPE bilayer simulations performed using GROMACS 4.0.7 for 200 ns with different starting velocities. Simulations were performed with the standard 43A1-S3 settings: a 1.0 nm cut-off with PME for the Coulombic interactions and a twin-range 1.0/1.6 nm cut-off for the van der Waals interactions. These simulations were performed at 313 K with a 128 lipid bilayer and used anisotropic pressure coupling. The full trajectories are provided bar the initial 100 ns. The starting structure was made through the conversion of an equilibrated GROMOS 43A1-S3 POPC membrane.'
+  sameAs: https://doi.org/10.5281/zenodo.1293762
+  datePublished: '2018-06-20'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Piggot, Thomas
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPE
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 4.0.7)
+  - GROMOS 43A1-S3 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1293762
+    name: 128POPE_3552SOL_313K_v2
+    contentSize: 1272479824
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md-pope_43A1-S3_313K_v2_100-200ns.xtc
+    - for-md-pope_43A1-S3_313K_v2.tpr
+    - md-pope_43A1-S3_313K_v2.gro
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1293762
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

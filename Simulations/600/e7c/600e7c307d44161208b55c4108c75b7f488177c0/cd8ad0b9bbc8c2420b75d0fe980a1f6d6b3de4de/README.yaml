@@ -3,7 +3,6 @@ FF_DATE: null
 SYSTEM: DMPC/liverPI bilayer
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 303.15
-PUBLICATION: null
 FFSOL: TIP3P
 NUMBER_OF_ATOMS: 70516
 EXPERIMENT:
@@ -64,9 +63,87 @@ TOP:
 PREEQTIME: 0
 DOI: 10.5281/zenodo.4651415
 DATE: 2021-03-31
-DATEOFRUNNING: 01/10/2021
+DATEOFRUNNING: '2021-10-01'
 TRJLENGTH: 2000100.0
 TRJ:
 - - DMPC_PI.xtc
 SOFTWARE: gromacs
 ID: 3
+bioschema_properties:
+  name: Simulation of a DMPC/PI bilayer
+  alternateName: DMPC/liverPI bilayer
+  description: Input and output files for a simulation of a bilayer containing 70% DMPC and 30% PI. The PI chains chains correspond to those found in the PI lipids in liver. Simulated at 303 K with GROMACS using the CHARMM36 force field for 2 µs.
+  sameAs: https://doi.org/10.5281/zenodo.4651415
+  datePublished: '2021-03-31'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+    identifier: https://orcid.org/0000-0003-4858-364X
+  - name: Martinez-Seara, Hector
+    identifier: https://orcid.org/0000-0001-9716-1713
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DMPC
+  - 1,2-dimyristoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - SAPI
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol
+  - SOD
+  - POPI
+  - SLIPI
+  - 1-stearoyl-2-linoleoyl-phosphatidylinositol(-1)
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.4651415
+    name: DMPC/liverPI bilayer
+    contentSize: 5194468496
+    encodingFormat: application/x-xtc
+    hasPart:
+    - DMPC_PI.xtc
+    - DMPC_PI.tpr
+    - topol.top
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.4651415
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

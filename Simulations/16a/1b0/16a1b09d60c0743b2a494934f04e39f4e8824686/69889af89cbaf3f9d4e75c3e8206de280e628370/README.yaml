@@ -34,7 +34,6 @@ COMPOSITION:
     COUNT: 33
 UNITEDATOM_DICT: null
 DIR_WRK: /Users/fabiolol/Dropbox/Fabs/Projects/NMRlipid/tmp
-PUBLICATION: doi.org/10.1083/jcb.202106123
 AUTHORS_CONTACT: Fabio Lolicato
 SYSTEM: POPC_270_SAPI25_30_KCl_150mM_298.15K
 SOFTWARE_VERSION: 2020.1
@@ -52,7 +51,7 @@ TRAJECTORY_SIZE: 3527486504
 TRJLENGTH: 1200300.0
 TEMPERATURE: 298.15
 NUMBER_OF_ATOMS: 79698
-DATEOFRUNNING: 05/10/2023
+DATEOFRUNNING: '2023-10-05'
 TYPEOFSYSTEM: lipid bilayer
 ID: 784
 EXPERIMENT:
@@ -60,3 +59,78 @@ EXPERIMENT:
     POPC: []
     SAPI25: []
   FORMFACTOR: []
+bioschema_properties:
+  name: POPC_270_SAPI25_30_KCl_150mM_298.15K
+  alternateName: POPC_270_SAPI25_30_KCl_150mM_298.15K
+  description: 'GROMACS MD simulation trajectory files for the PC10 system referred in: https://doi.org/10.1083/jcb.202106123 Software version: GROMACS-2020.1'
+  sameAs: https://doi.org/10.5281/zenodo.8370426
+  datePublished: '2023-09-22'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Lolicato, Fabio
+    identifier: https://orcid.org/0000-0001-7537-0549
+  citation:
+  - 10.1083/jcb.202106123
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SAPI25
+  - 1-stearoyl-2-arachidonoyl-sn-phosphatidylinositol 4,5-biphosphate
+  - POT
+  - CLA
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2020.1)
+  - CHARMM36m force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.8370426
+    name: POPC_270_SAPI25_30_KCl_150mM_298.15K
+    contentSize: 3527486504
+    encodingFormat: application/x-xtc
+    hasPart:
+    - PC10.xtc
+    - PC10.tpr
+    - PC10.top
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8370426
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

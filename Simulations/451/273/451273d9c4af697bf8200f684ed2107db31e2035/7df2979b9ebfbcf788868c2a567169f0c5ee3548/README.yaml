@@ -25,7 +25,6 @@ COMPOSITION:
     - 7
     - 7
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: 10.1101/2020.11.09.374850; 10.1039/C6CP04883H; 10.1021/acs.jpcb.5b04878
 AUTHORS_CONTACT: Javanainen, Matti; Kulig, Waldemar
 SYSTEM: 114POPC_14CHOL_6400SOL_310K
 SOFTWARE_VERSION: 4.6
@@ -40,7 +39,7 @@ TRAJECTORY_SIZE: 653498968
 TRJLENGTH: 500100.0
 TEMPERATURE: 310.0
 NUMBER_OF_ATOMS: 35512
-DATEOFRUNNING: 17/01/2022
+DATEOFRUNNING: '2022-01-17'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -48,3 +47,78 @@ EXPERIMENT:
     CHOL: []
   FORMFACTOR: []
 ID: 96
+bioschema_properties:
+  name: POPC/Cholesterol @ 310K. 0, 10, 40, 50 and 60 mol-% cholesterol. Model by Maciejewski and Rog
+  alternateName: 114POPC_14CHOL_6400SOL_310K
+  description: 'Input parameter files and parts of the resulting trajectories for a POPC bilayer simulation with varying amounts of cholesterol. The systems contain 0, 10, 40, 50 or 60 mol-% cholesterol and a total of 128 lipids (POPC+cholesterol). The force field is an extension to the OPLS-based force field by the same authors [1]. All simulations are conducted by Waldemar Kulig and the simulations with 0, 10 and 40 mol-% cholesterol have earlier been discussed in [2]. –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– Files: md_cholXX.tpr – XX mol-% cholesterol; run input file for Gromacs versions 4.6 and above. md_cholXX.xtc – The last 200 ns of a 400 ns long simulation (200 ns discarded from the beginning). XX mol-% cholesterol. Data saved every 100 ps. UPDATE: 500 ns long trajectories of 0, 10, 40, and 50 mol% simulatios and the respective cpt files were uploaded. –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– This data is used in the project "Matching lipid force fields with NMR data", see: http://nmrlipids.blogspot.fi and referred to in the blog as ''MacRog'' [1] Maciejewski, A., Pasenkiewicz-Gierula, M., Cramariuc, O., Vattulainen, I., and Rog, T. Refined OPLS All-Atom Force Field for Saturated Phosphatidylcholine Bilayers at Full Hydration. The Journal of Physical Chemistry B 118 , 4571–4581 (2014). DOI: 10.1021/jp5016627 [2] Kulig, W., Jurkiewicz, P., Olzynska, A., Tynkkynen, J., Javanainen, M., Manna, M., Rog, T., Hof, M., Vattulainen, I. and Jungwirth, P. Experimental determination and computational interpretation of biophysical properties of lipid bilayers enriched by cholesteryl hemisuccinate. Biochimica et Biophysica Acta (BBA) - Biomembranes 1848 , 422–432 (2015). DOI: 10.1016/j.bbamem.2014.10.032'
+  sameAs: https://doi.org/10.5281/zenodo.3252052
+  datePublished: '2015-01-11'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+    identifier: https://orcid.org/0000-0003-4858-364X
+  - name: Kulig, Waldemar
+  citation:
+  - 10.1101/2020.11.09.374850
+  - 10.1039/C6CP04883H
+  - 10.1021/acs.jpcb.5b04878
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CHOL
+  - cholesterol
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 4.6)
+  - MacRog force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3252052
+    name: 114POPC_14CHOL_6400SOL_310K
+    contentSize: 653498968
+    encodingFormat: application/x-xtc
+    hasPart:
+    - chol10_500ns.xtc
+    - md_chol10.tpr
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3252052
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

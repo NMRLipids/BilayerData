@@ -19,7 +19,6 @@ COMPOSITION:
     MAPPING: mappingTIP3PwaterSage.yaml
     COUNT: 5000
 DIR_WRK: /Users/patrickfrankel/Desktop/lipid_database/Databank/
-PUBLICATION: null
 AUTHORS_CONTACT: Patrick Frankel
 SYSTEM: POPE_128_OPENFF_300K
 FF: OpenFF
@@ -30,10 +29,78 @@ TOP:
 TRAJECTORY_SIZE: 4536931124
 TRJLENGTH: 200005.0
 NUMBER_OF_ATOMS: 31000
-DATEOFRUNNING: 16/10/2023
+DATEOFRUNNING: '2023-10-16'
 TYPEOFSYSTEM: lipid bilayer
 ID: 791
 EXPERIMENT:
   ORDERPARAMETER:
     POPE: []
   FORMFACTOR: []
+bioschema_properties:
+  name: OpenFF Pure POPE
+  alternateName: POPE_128_OPENFF_300K
+  description: 200 ns MD production of a pure POPE bilayer using OpenFF parameters.
+  sameAs: https://doi.org/10.5281/zenodo.8411733
+  datePublished: '2023-10-06'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Frankel, Patrick
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPE
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - OpenFF force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.8411733
+    name: POPE_128_OPENFF_300K
+    contentSize: 4536931124
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md.xtc
+    - md.tpr
+    - topol.top
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8411733
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

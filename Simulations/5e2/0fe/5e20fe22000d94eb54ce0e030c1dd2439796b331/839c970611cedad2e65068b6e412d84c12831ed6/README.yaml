@@ -32,7 +32,7 @@ COMPOSITION:
     MAPPING: mappingSODecc.yaml
 TIMELEFTOUT: 15
 TRJLENGTH: 347500.0
-DATEOFRUNNING: 05/10/2021
+DATEOFRUNNING: '2021-10-05'
 FF: lipid17ecc
 SOFTWARE: gromacs
 PREEQTIME: 0
@@ -45,3 +45,74 @@ TPR:
 TRJ:
 - - traj.xtc
 ID: 146
+bioschema_properties:
+  name: ECC-LIPID17 POPC-POPG 50:50 MD simulation, Na+ counterions, 298K
+  alternateName: POPC:POPG(1:1)_T298K
+  description: 'Simulation data and parameters of ECC-LIPID17 simulation of POPC:POPG 50:50 mixture with Na+ counterions at 298K, ran for NMRlipidsIVb: https://github.com/NMRLipids/NMRlipidsIVPEandPG/blob/master/Manuscript/manuscriptPGPE.pdf ECC-ion parameters are from bitbucket.org/hseara/ions/src/master/'
+  sameAs: https://doi.org/10.5281/zenodo.3859339
+  datePublished: '2020-05-27'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Ollila, O. H. Samuli
+  - name: Virtanen, I. Salla
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SOD
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - lipid17ecc force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3859339
+    name: POPC:POPG(1:1)_T298K
+    contentSize: 8278576984
+    encodingFormat: application/x-xtc
+    hasPart:
+    - traj.xtc
+    - topol.tpr
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3859339
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

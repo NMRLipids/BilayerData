@@ -42,14 +42,91 @@ SOFTWARE_VERSION: 2023.2
 FF: Charmm36
 FF_SOURCE: CHARMM-GUI
 FF_DATE: 01/01/2024
-PUBLICATION: null
 TRAJECTORY_SIZE: 3884816808
 TRJLENGTH: 500100.0
 NUMBER_OF_ATOMS: 32362
-DATEOFRUNNING: 16/10/2024
+DATEOFRUNNING: '2024-10-16'
 TYPEOFSYSTEM: lipid bilayer
 ID: 824
 EXPERIMENT:
   ORDERPARAMETER:
     TOCL: []
   FORMFACTOR: []
+bioschema_properties:
+  name: MD simulations of TOCL(TMA/Na) and TLCL(Na) in CHARMM36
+  alternateName: TOCL_66_Na_Cl_T303_40w/P
+  description: 'Simulation of TLCL and TOCL is done in GROMACS 2024.x in fully hydrated states using standrad CHARMM-GUI protocol over 500 ns after 100 ns of pre-equilibration (not deposited). Trajectory is saved every 100 ps with velocities. Temperature 303K (v-rescale), pressure semi-isotropic 1bar (parrinello-rahman). Three systems are deposited: TLCL (33/33), NaCl (66*2+15), H2O (~45 w/P) TOCL (33/33), TMACl (66*2+11), H2O (~32 w/P) TOCL (33/33), NaCl (66*2+11), H2O (~40 w/P)'
+  sameAs: https://doi.org/10.5281/zenodo.13933145
+  datePublished: '2024-10-15'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Hörstel, Ferdinand
+  - name: Miettinen, Markus S.
+    identifier: https://orcid.org/0000-0002-3999-4722
+  - name: Nesterenko, Alexey
+    identifier: https://orcid.org/0000-0003-1592-257X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - TOCL
+  - 1’,3’-Bis[1,2-dioleoyl-sn-glycero-3-phospho]-glycerol
+  - SOD
+  - CLA
+  - Lipids
+  - GROMACS
+  - cardiolipin
+  - NMRlipids
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2023.2)
+  - Charmm36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.13933145
+    name: TOCL_66_Na_Cl_T303_40w/P
+    contentSize: 3884816808
+    encodingFormat: application/x-trr
+    hasPart:
+    - TOCL_Na_prod500ns.trr
+    - TOCL_Na_prod500ns.tpr
+    - TOCL_Na.top
+    - TOCL_Na_prod500ns.gro
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.13933145
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

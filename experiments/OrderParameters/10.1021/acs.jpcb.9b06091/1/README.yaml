@@ -11,3 +11,79 @@ TOTAL_LIPID_CONCENTRATION: 'full hydration'
 COUNTER_IONS:
   SOD: POPS
 
+bioschema_properties:
+  name: Headgroup Structure and Cation Binding in Phosphatidylserine Lipid Bilayers
+  description: Experimental C-H bond order parameters for a lipid bilayer at 298.0 K, measured by NMR.
+  sameAs: https://doi.org/10.1021/acs.jpcb.9b06091
+  datePublished: '2019-10-01'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  articleLicense:
+    url: https://doi.org/10.15223/policy-029
+    spdx: null
+  publisher: American Chemical Society (ACS)
+  creator:
+  - name: Hanne Antila
+    identifier: https://orcid.org/0000-0002-2474-5053
+  - name: Pavel Buslaev
+  - name: Fernando Favela-Rosales
+  - name: Tiago M. Ferreira
+  - name: Ivan Gushchin
+    identifier: https://orcid.org/0000-0002-5348-6070
+  - name: Matti Javanainen
+    identifier: https://orcid.org/0000-0003-4858-364X
+  - name: Batuhan Kav
+  - name: Jesper J. Madsen
+    identifier: https://orcid.org/0000-0003-1411-9080
+  - name: Josef Melcr
+  - name: Markus S. Miettinen
+    identifier: https://orcid.org/0000-0002-3999-4722
+  - name: Jukka Määttä
+    identifier: https://orcid.org/0000-0001-6428-8718
+  - name: Ricky Nencini
+  - name: O. H. Samuli Ollila
+    identifier: https://orcid.org/0000-0002-8728-1006
+  - name: Thomas J. Piggot
+    identifier: https://orcid.org/0000-0001-5491-3890
+  citation:
+  - 10.1021/acs.jpcb.9b06091
+  keywords:
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  measurementTechnique:
+  - NMR
+  variableMeasured:
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    name: POPS_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1021/acs.jpcb.9b06091
+    identifier: 10.1021/acs.jpcb.9b06091
+    url: https://doi.org/10.1021/acs.jpcb.9b06091
+    name: Headgroup Structure and Cation Binding in Phosphatidylserine Lipid Bilayers
+    isPartOf:
+      '@type': Periodical
+      name: The Journal of Physical Chemistry B
+  _source:
+    api: crossref
+    doi: 10.1021/acs.jpcb.9b06091
+    retrieved: '2026-09-08'

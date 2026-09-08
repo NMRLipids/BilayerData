@@ -8,7 +8,6 @@ TPR:
 PREEQTIME: 50
 TIMELEFTOUT: 0
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: 10.1021/acs.jpcb.5b04878
 AUTHORS_CONTACT: Javanainen, Matti
 SYSTEM: 128POPC_5120SOL_310K
 SOFTWARE_VERSION: 4.6
@@ -33,10 +32,79 @@ TRAJECTORY_SIZE: 179655776
 TRJLENGTH: 150100.0
 TEMPERATURE: 310.0
 NUMBER_OF_ATOMS: 32512
-DATEOFRUNNING: 01/11/2021
+DATEOFRUNNING: '2021-11-01'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPC: []
   FORMFACTOR: []
 ID: 475
+bioschema_properties:
+  name: Popc @ 310K, Slipids Force Field.
+  alternateName: 128POPC_5120SOL_310K
+  description: 'Input parameter file and part of the resulting trajectory for a POPC bilayer simulation using the Slipids force field [1,2]. Initial structure, force field parameters and simulation parameters were taken from the Slipids web page (http://people.su.se/~jjm/Stockholm_Lipids/Downloads.html). The structure simulated at 303K was used (http://people.su.se/~jjm/Stockholm_Lipids/Downloads_files/POPC_303K.gro) This data is used in the project "Matching lipid force fields with NMR data", see: http://nmrlipids.blogspot.fi. –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– Files: md.tpr – run input file for Gromacs versions 4.6 and above md.xtc – The last 150 ns of a 200 ns long simulation. Data saved every 100 ps. –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– [1] Joakim P. M. Jämbeck, Alexander P. Lyubartsev. Derivation and Systematic Validation of a Refined All-Atom Force Field for Phosphatidylcholine Lipids , J. Phys. Chem. B, 2012, 116 (10), 3164-3179 [2] Joakim P. M. Jämbeck, Alexander P. Lyubartsev. An Extension and Further Validation of an All-Atomistic Force Field for Biological Membranes , J. Chem. Theory Comput., 2012, 8 (8), 2938-2948'
+  sameAs: https://doi.org/10.5281/zenodo.13887
+  datePublished: '2015-01-12'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+  citation:
+  - 10.1021/acs.jpcb.5b04878
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 4.6)
+  - Slipids force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.13887
+    name: 128POPC_5120SOL_310K
+    contentSize: 179655776
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md.xtc
+    - md.tpr
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.13887
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

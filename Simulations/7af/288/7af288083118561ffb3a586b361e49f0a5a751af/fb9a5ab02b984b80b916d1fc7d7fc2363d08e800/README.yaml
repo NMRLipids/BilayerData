@@ -19,7 +19,6 @@ COMPOSITION:
     MAPPING: mappingTIP3PwaterSlipids.yaml
     COUNT: 25000
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Peon, Antonio
 SYSTEM: 500POPC_25000SOL_310K
 SOFTWARE_VERSION: 2018.3
@@ -36,10 +35,80 @@ TRAJECTORY_SIZE: 5267898384
 TRJLENGTH: 100010.0
 TEMPERATURE: 310.0
 NUMBER_OF_ATOMS: 142000
-DATEOFRUNNING: 27/01/2022
+DATEOFRUNNING: '2022-01-27'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPC: []
   FORMFACTOR: []
 ID: 194
+bioschema_properties:
+  name: SLIPID POPC Bilayer Simulation (Last 100 ns, 310 K )
+  alternateName: 500POPC_25000SOL_310K
+  description: Simulation of a POPC bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs v2018.3 in water solution with Na+ counterions. The SLIPID model is employed for lipids and the TIP3P model for water. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top), and the energy output file (.edr) are provided.
+  sameAs: https://doi.org/10.5281/zenodo.3235552
+  datePublished: '2019-05-30'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: ANTONIO PEON
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SLIPID POPC Bilayer
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2018.3)
+  - Slipids force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3235552
+    name: 500POPC_25000SOL_310K
+    contentSize: 5267898384
+    encodingFormat: application/x-xtc
+    hasPart:
+    - total_4_500.xtc
+    - md_0.tpr
+    - topol.top
+    - conf.gro
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3235552
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

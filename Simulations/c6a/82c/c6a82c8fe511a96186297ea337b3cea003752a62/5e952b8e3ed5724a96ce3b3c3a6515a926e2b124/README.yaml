@@ -25,7 +25,6 @@ COMPOSITION:
     - 64
     - 64
 DIR_WRK: /media/osollila/Data1/tmp/DATABANK/
-PUBLICATION: null
 AUTHORS_CONTACT: Matti Javanainen
 SYSTEM: Lipid17_POPC_CHOL11_L
 SOFTWARE_VERSION: 2021
@@ -41,7 +40,7 @@ TRAJECTORY_SIZE: 1193608880
 TRJLENGTH: 1001000.0
 TEMPERATURE: 298.15
 NUMBER_OF_ATOMS: 319488
-DATEOFRUNNING: 17/10/2022
+DATEOFRUNNING: '2022-10-17'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -50,3 +49,76 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/3
 ID: 663
+bioschema_properties:
+  name: Simulations of POPC/cholesterol mixtures at 298 K, three system sizes, LIPID17
+  alternateName: Lipid17_POPC_CHOL11_L
+  description: GROMACS input and output files. LIPID17. Membranes with 64, 256, and 1024 lipids.
+  sameAs: https://doi.org/10.5281/zenodo.6992065
+  datePublished: '2022-08-15'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+    identifier: https://orcid.org/0000-0003-4858-364X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CHOL
+  - cholesterol
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2021)
+  - Lipid17 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.6992065
+    name: Lipid17_POPC_CHOL11_L
+    contentSize: 1193608880
+    encodingFormat: application/x-xtc
+    hasPart:
+    - CHOL4_large.xtc
+    - CHOL4_large.tpr
+    - CHOL4_large.top
+  isBasedOn:
+  - experiments/FormFactors/10.1021/acs.jctc.3c00648/3
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.6992065
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

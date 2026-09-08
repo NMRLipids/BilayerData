@@ -1,5 +1,5 @@
 ARTICLE_DOI: 10.1021/ja029029o
-DATE: 2003-05-21T05:48:00Z
+DATE: '2003-05-21'
 TEMPERATURE: 303.15
 MEMBRANE_COMPOSITION:
   SD5PC: 1
@@ -42,3 +42,62 @@ ION_CONCENTRATIONS:
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
+bioschema_properties:
+  name: Polyunsaturated Docosahexaenoic vs Docosapentaenoic AcidDifferences in Lipid Matrix Properties from the Loss of One Double Bond
+  description: 'Experimental C-H bond order parameters for a lipid bilayer containing SD5PC at 303.15 K, measured by NMR: 2H:QE, 13C:INVREC/CP.'
+  sameAs: https://doi.org/10.1021/ja029029o
+  datePublished: '2003-05-01'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  publisher: American Chemical Society (ACS)
+  creator:
+  - name: Nadukkudy V. Eldho
+  - name: Scott E. Feller
+  - name: Stephanie Tristram-Nagle
+  - name: Ivan V. Polozov
+  - name: Klaus Gawrisch
+  citation:
+  - 10.1021/ja029029o
+  keywords:
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - SD5PC
+  - 1-octadecanoyl-2-(4Z,7Z,10Z,13Z,16Z-docosapentaenoyl)-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - 'NMR: 2H:QE, 13C:INVREC/CP'
+  - Bruker DMX500 and DMX300, 4mm MAS probe
+  variableMeasured:
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    name: SD5PC_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1021/ja029029o
+    identifier: 10.1021/ja029029o
+    url: https://doi.org/10.1021/ja029029o
+    name: Polyunsaturated Docosahexaenoic vs Docosapentaenoic AcidDifferences in Lipid Matrix Properties from the Loss of One Double Bond
+    isPartOf:
+      '@type': Periodical
+      name: Journal of the American Chemical Society
+  _source:
+    api: crossref
+    doi: 10.1021/ja029029o
+    retrieved: '2026-09-08'

@@ -3,7 +3,6 @@ FF_DATE: null
 SYSTEM: 800POPC_36000SOL
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 310.15
-PUBLICATION: null
 NUMBER_OF_ATOMS: 215200
 EXPERIMENT:
   ORDERPARAMETER:
@@ -33,7 +32,7 @@ TOP:
 PREEQTIME: 0
 DOI: 10.5281/zenodo.545941
 DATE: 2017-04-13
-DATEOFRUNNING: 01/10/2021
+DATEOFRUNNING: '2021-10-01'
 TPR:
 - - md4.tpr
 TRJ:
@@ -42,3 +41,71 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 381
+bioschema_properties:
+  name: Simulations Of Large Popc Bilayers Using The Charmm36 Force Field.
+  alternateName: 800POPC_36000SOL
+  description: 'An earlier simulation (DOI:10.5281/zenodo.159759) of a POPC bilayer consisting of 200 lipids (100 per leaflet) is extended to 4 and 9 times larger (800 and 1800 lipids) and simulated for 100 ns using Gromacs v5.1.x [1]. The Charmm36 model [2] is employed for lipids and the Charmm-compatible variant of the tip3p model for water. The Charmm36 force field parameters were obtained from CHARMM-GUI [3] at http://www.charmm-gui.org –––––––––––––––––––––––––––––––––––––––––––––––––––––– The files are in GROMACS format. The number in the file name corresponds to how many times larger the system is compared to that in (DOI:10.5281/zenodo.159759), either 4 (2x2) or 9 (3x3). Trajectories (.xtc) is 100 ns long with data saved every 100 ps. Additionally, the topology (.top), binary run input file for GROMACS v. 5.0–> (.tpr), the continue point file (.cpt), and the energy output file (.edr) are provided. The provided simulation paremeter file (.mdp) is common for both simulations. –––––––––––––––––––––––––––––––––––––––––––––––––––––– [1] GROMACS: High performance molecular simulations through multi-level parallelism from laptops to supercomputers. Mark J. Abraham, Teemu Murtola, Roland Schulz, Szilárd Páll, Jeremy C. Smith, Berk Hess, and Erik Lindahl. SoftwareX 2015 1–2, 19–25, DOI: 10.1016/j.softx.2015.06.001 [2] Update of the CHARMM All-Atom Additive Force Field for Lipids: Validation on Six Lipid Types. Jeffery B. Klauda, Richard M. Venable, J. Alfredo Freites, Joseph W. O’Connor, Douglas J. Tobias, Carlos Mondragon-Ramirez, Igor Vorobyov, Alexander D. MacKerell, Jr., and Richard W. Pastor. The Journal of Physical Chemistry B 2010 114 (23), 7830-7843, DOI: 10.1021/jp101759q [3] CHARMM-GUI Input Generator for NAMD, GROMACS, AMBER, OpenMM, and CHARMM/OpenMM Simulations Using the CHARMM36 Additive Force Field. Jumin Lee, Xi Cheng, Jason M. Swails, Min Sun Yeom, Peter K. Eastman, Justin A. Lemkul, Shuai Wei, Joshua Buckner, Jong Cheol Jeong, Yifei Qi, Sunhwan Jo, Vijay S. Pande, David A. Case, Charles L. Brooks, III, Alexander D. MacKerell, Jr., Jeffery B. Klauda, and Wonpil Im. Journal of Chemical Theory and Computation 2016 12 (1), 405-413, DOI: 10.1021/acs.jctc.5b00935'
+  sameAs: https://doi.org/10.5281/zenodo.545941
+  datePublished: '2017-04-13'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.0)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.545941
+    name: 800POPC_36000SOL
+    contentSize: 806036472
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md4.xtc
+    - md4.tpr
+    - topol4.top
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.545941
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

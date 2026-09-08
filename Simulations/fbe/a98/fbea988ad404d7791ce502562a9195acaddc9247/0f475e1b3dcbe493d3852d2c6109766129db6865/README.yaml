@@ -3,7 +3,6 @@ FF_DATE: null
 SYSTEM: 512POPC_20480SOL_55SOD_55CLA_310K
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 310.0
-PUBLICATION: 10.1021/acscentsci.7b00582
 NUMBER_OF_ATOMS: 130158
 EXPERIMENT:
   ORDERPARAMETER:
@@ -39,7 +38,7 @@ TOP: null
 PREEQTIME: 0
 DOI: 10.5281/zenodo.3228177
 DATE: 2019-05-28
-DATEOFRUNNING: 12/10/2021
+DATEOFRUNNING: '2021-10-12'
 TPR:
 - - 01-POPC_512_NaCl_150mM_310K_md.tpr
 TRJ:
@@ -48,3 +47,77 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /usr/home/bort/Databank
 ID: 466
+bioschema_properties:
+  name: Simulation POPC_512_NaCl_150mM_310K membrane
+  alternateName: 512POPC_20480SOL_55SOD_55CLA_310K
+  description: 'Title publication: A Ceramide-Regulated Element in the Late Endosomal Protein LAPTM4B Controls Amino Acid Transporter Interaction Year publication: 2018 DOI publication: 10.1021/acscentsci.7b00582 Description: Simulation POPC membrane using charmm36 at 310K. MD engine: 2016.1 Force field : charmm36 Temperature : 310 K Pressure: 1 bar Simulation time : 4200 ns Saving frequency : 100 ps Molecular content : POPC 512 water 20480 Cl- 55 Na+ 55 Other information: * Center of mass motion removed independently for bilayer and water+ions * 01-* are the merged files. * 02-* are the original simulation files. So do not concatenate 02 and 01 files.'
+  sameAs: https://doi.org/10.5281/zenodo.3228177
+  datePublished: '2019-05-28'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Martinez-Seara, Hector
+    identifier: https://orcid.org/0000-0001-9716-1713
+  citation:
+  - 10.1021/acscentsci.7b00582
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - CLA
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SOD
+  - Charmm36
+  - membrane
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2016.1)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3228177
+    name: 512POPC_20480SOL_55SOD_55CLA_310K
+    contentSize: 20396525264
+    encodingFormat: application/x-xtc
+    hasPart:
+    - 01-POPC_512_NaCl_150mM_310K_md.xtc
+    - 01-POPC_512_NaCl_150mM_310K_md.tpr
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3228177
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

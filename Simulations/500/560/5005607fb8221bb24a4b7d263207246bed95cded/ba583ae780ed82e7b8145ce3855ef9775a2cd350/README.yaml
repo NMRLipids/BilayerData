@@ -36,10 +36,79 @@ COMPOSITION:
 TRAJECTORY_SIZE: 219633324
 TRJLENGTH: 200100.0
 NUMBER_OF_ATOMS: 29824
-DATEOFRUNNING: 17/02/2026
+DATEOFRUNNING: '2026-02-17'
 TYPEOFSYSTEM: lipid bilayer
 ID: 881
 EXPERIMENT:
   ORDERPARAMETER:
     POPS: []
   FORMFACTOR: []
+bioschema_properties:
+  name: Simulation Of A Pops Membrane With Potassium Counterions
+  alternateName: Bilayer
+  description: 'Simulations of a POPS membrane with potassium counterions. The systems contain 35 waters per lipid, and potassium counter ions for the anionic PS. The lipid model by Maciejewski and Rog [1,2,3] was used. Topologies (.itp) were obtained from [3] and the OPPS chains were reversed (the fixed itp is included in the upload) to create POPS, and the starting structure is taken from DOI: 10.5281/zenodo.1283335. TIP3P water was used, and the ions were modelled using default OPLS ion parameters. The simulation is 200 ns long. Simulation parameters are given in the md.mdp file. Simulations were performed with Gromacs 2016.3 [4]. The trajectory (.xtc), energy file (.edr), checkpoint file (.cpt), run input file (.tpr), index file (.ndx), topology file (.top), and the final structure (gro) are provided. [1] Maciejewski et al., J. Phys Chem. B 118, 2014, pp. 4571–4581, DOI: 10.1021/jp5016627 [2] Kulig et al., Data in Brief 5, 2015, pp. 333–336, DOI: 10.1016/j.dib.2015.09.013 [3] Rog et al., Data in Brief 7, 2016, pp. 1171–1174, DOI: 10.1016/j.dib.2016.03.067 [4] Abraham et al., SoftwareX 1–2, 2015, pp. 19–25, DOI: 10.1016/j.softx.2015.06.001'
+  sameAs: https://doi.org/10.5281/zenodo.1434990
+  datePublished: '2018-09-25'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  - POT
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2016.3)
+  - Macrog force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1434990
+    name: Bilayer
+    contentSize: 219633324
+    encodingFormat: application/x-xtc
+    hasPart:
+    - POPS_k.xtc
+    - POPS_k.tpr
+    - POPS_k.gro
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1434990
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

@@ -3,7 +3,6 @@ FF_DATE: null
 SYSTEM: 126POPG_374POPE_25000SOL_126SOD_310K
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 310.0
-PUBLICATION: null
 NUMBER_OF_ATOMS: 137878
 EXPERIMENT:
   ORDERPARAMETER:
@@ -43,7 +42,7 @@ TOP:
 PREEQTIME: 400
 DOI: 10.5281/zenodo.3249960
 DATE: 2019-06-19
-DATEOFRUNNING: 05/10/2021
+DATEOFRUNNING: '2021-10-05'
 TPR:
 - - md_0.tpr
 TRJ:
@@ -52,3 +51,76 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 596
+bioschema_properties:
+  name: CHARMM36 POPG-POPE 1:3 Bilayer Simulation (Last 100 ns, 310 K )
+  alternateName: 126POPG_374POPE_25000SOL_126SOD_310K
+  description: Simulation of a POPG-POPE 1:3 bilayer of 500 lipids (126 L-POPG lipids and 374 POPE lipids, 250 per leaflet) is simulated for 500 ns using Gromacs v2018.3 in water solution with Na+ counterions. The CHARMM36 model and CHARMM TIP3P water model are employed. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top), simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided.
+  sameAs: https://doi.org/10.5281/zenodo.3249960
+  datePublished: '2019-06-19'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: PEON, ANTONIO
+    identifier: https://orcid.org/0000-0003-4803-988X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - POPE
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  - SOD
+  - CHARMM36 POPG-POPE_1:3 Bilayer
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2018.3)
+  - CHARMM36 and CHARMM TIP3P force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3249960
+    name: 126POPG_374POPE_25000SOL_126SOD_310K
+    contentSize: 5103878276
+    encodingFormat: application/x-xtc
+    hasPart:
+    - total_4_500.xtc
+    - md_0.tpr
+    - topol.top
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3249960
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

@@ -3,7 +3,6 @@ FF_DATE: null
 SYSTEM: 512POPC_20480SOL_55SOD_55CLA_310K
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 310.0
-PUBLICATION: null
 NUMBER_OF_ATOMS: 130158
 EXPERIMENT:
   ORDERPARAMETER:
@@ -41,7 +40,7 @@ TOP:
 PREEQTIME: 0
 DOI: 10.5281/zenodo.1010083
 DATE: 2017-10-12
-DATEOFRUNNING: 01/10/2021
+DATEOFRUNNING: '2021-10-01'
 TPR:
 - - POPC_512_NaCl_150mM_310K_md.tpr
 TRJ:
@@ -50,3 +49,79 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 467
+bioschema_properties:
+  name: Simulations Popc Bilayers (512 Lipids) Using Charmm36 Ff In Gromacs
+  alternateName: 512POPC_20480SOL_55SOD_55CLA_310K
+  description: 'Collection simulations of POPC (512 lipids) bilayers in gromacs using the charmm36 force field. The list of systems can be found below where the several parameter are: POPC_512_310K (500ns) POPC_512_NaCl_150mM_310K (500ns) POPC_512_NaCl_150mM_310K_tip3p (500ns) POPC_512_NaCl_Dang_150mM_310K (500ns) For further information read the Readme file provided for each simulation.'
+  sameAs: https://doi.org/10.5281/zenodo.1010083
+  datePublished: '2017-10-12'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Martinez-Seara, Hector
+    identifier: https://orcid.org/0000-0001-9716-1713
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - CLA
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SOD
+  - Gromacs
+  - Bilayer
+  - Membranes
+  - Molecular mechanics
+  - charmm36
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.0.4)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1010083
+    name: 512POPC_20480SOL_55SOD_55CLA_310K
+    contentSize: 2441724412
+    encodingFormat: application/x-xtc
+    hasPart:
+    - POPC_512_NaCl_150mM_310K_md.xtc
+    - POPC_512_NaCl_150mM_310K_md.tpr
+    - POPC_512_NaCl_150mM_310K_md.top
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1010083
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

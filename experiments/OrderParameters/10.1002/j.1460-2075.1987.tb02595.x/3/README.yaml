@@ -52,3 +52,66 @@ ION_CONCENTRATIONS:
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
+bioschema_properties:
+  name: Structure and dynamics of the phosphatidylcholine and the phosphatidylethanolamine head group in L‐M fibroblasts as studied by deuterium nuclear magnetic resonance.
+  description: 'Experimental C-H bond order parameters for a lipid bilayer containing POPC, POPE at 298 K, measured by NMR: 2H:QE.'
+  sameAs: https://doi.org/10.1002/j.1460-2075.1987.tb02595.x
+  datePublished: '1987-10-01'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  articleLicense:
+    url: https://www.springer.com/tdm
+    spdx: null
+  publisher: Springer Science and Business Media LLC
+  creator:
+  - name: P. G. Scherer
+  - name: J. Seelig
+  citation:
+  - 10.1002/j.1460-2075.1987.tb02595.x
+  keywords:
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - POPE
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  - SOD
+  - CLA
+  measurementTechnique:
+  - 'NMR: 2H:QE'
+  - Bruker-Spektrospin CXP 300
+  variableMeasured:
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    name: POPC_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1002/j.1460-2075.1987.tb02595.x
+    identifier: 10.1002/j.1460-2075.1987.tb02595.x
+    url: https://doi.org/10.1002/j.1460-2075.1987.tb02595.x
+    name: Structure and dynamics of the phosphatidylcholine and the phosphatidylethanolamine head group in L‐M fibroblasts as studied by deuterium nuclear magnetic resonance.
+    isPartOf:
+      '@type': Periodical
+      name: The EMBO Journal
+  _source:
+    api: crossref
+    doi: 10.1002/j.1460-2075.1987.tb02595.x
+    retrieved: '2026-09-08'

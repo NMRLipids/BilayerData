@@ -25,7 +25,6 @@ COMPOSITION:
     MAPPING: mappingSOD.yaml
     COUNT: 128
 DIR_WRK: /home/lara/Databank
-PUBLICATION: 10.1021/acs.jpcb.9b06091
 AUTHORS_CONTACT: Thomas Piggot
 SYSTEM: 128POPS_4480SOL_128SOD_298K_v1
 SOFTWARE_VERSION: null
@@ -41,7 +40,7 @@ TRAJECTORY_SIZE: 164953508
 TRJLENGTH: 100050.0
 TEMPERATURE: 298.0
 NUMBER_OF_ATOMS: 22144
-DATEOFRUNNING: 10/06/2022
+DATEOFRUNNING: '2022-06-10'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -53,3 +52,80 @@ EXPERIMENT:
   - 10.1039/C4SM00066H/2
   - 10.1039/C4SM00066H/3
 ID: 367
+bioschema_properties:
+  name: Charmm36-Ua Pops Simulations (Versions 1 And 2) 298 K 1.0 Nm Lj Switching
+  alternateName: 128POPS_4480SOL_128SOD_298K_v1
+  description: CHARMM36-UA POPS simulations (298 K, starting structure from the CHARMM-GUI) performed with a 1.0 nm point at which to switch off the van der Waals interactions. Two different simulations generated with different starting velocities are provided (the files are named v1 and v2 for these different simulations). The trajectories contain only the data from 400-500 ns of the simulations (as per the analysis provided on the nmrlipids blog) and additionally they have been processed with trjconv -skip 10 to keep the upload small.
+  sameAs: https://doi.org/10.5281/zenodo.1129458
+  datePublished: '2017-12-24'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Piggot, Thomas
+  citation:
+  - 10.1021/acs.jpcb.9b06091
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  - SOD
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - CHARMM36-UA force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1129458
+    name: 128POPS_4480SOL_128SOD_298K_v1
+    contentSize: 164953508
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md-CHARMM36-UA_10A-switch_POPS_v1_400-500ns_skip10.xtc
+    - for-md-CHARMM36-UA_POPS_298K_v1.tpr
+    - md-CHARMM36-UA_POPS_298K_v1.gro
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jctc.9b00824/1
+  - experiments/OrderParameters/10.1021/acs.jpcb.9b06091/1
+  - experiments/FormFactors/10.1039/C4SM00066H/1
+  - experiments/FormFactors/10.1039/C4SM00066H/2
+  - experiments/FormFactors/10.1039/C4SM00066H/3
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1129458
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'
