@@ -1,5 +1,5 @@
 ARTICLE_DOI: 10.1039/C4SM00066H
-DATE: 2014-02-19T09:35:28Z
+DATE: '2014-02-19'
 TEMPERATURE: 298
 MEMBRANE_COMPOSITION:
   POPS: 1
@@ -36,3 +36,27 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
   SOD: POPS
+bioschema_properties:
+  name: The molecular structure of a phosphatidylserine bilayer determined by scattering and molecular dynamics simulations
+  datePublished: '2014'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  publisher: Royal Society of Chemistry (RSC)
+  creator:
+  - name: Jianjun Pan
+  - name: Xiaolin Cheng
+  - name: Luca Monticelli
+  - name: Frederick A. Heberle
+  - name: Norbert Kučerka
+  - name: D. Peter Tieleman
+  - name: John Katsaras
+  citation:
+  - 10.1039/C4SM00066H
+  isPartOf: Soft Matter
+  _source:
+    api: crossref
+    doi: 10.1039/C4SM00066H
+    retrieved: '2026-09-08'

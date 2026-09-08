@@ -9,3 +9,23 @@ ION_CONCENTRATIONS:
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: 4.23
 COUNTER_IONS:
+bioschema_properties:
+  name: Efficient solid-state NMR methods for measuring heteronuclear dipolar couplings in unoriented lipid membrane systems
+  datePublished: '2005'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  publisher: Royal Society of Chemistry (RSC)
+  creator:
+  - name: Sergey V. Dvinskikh
+  - name: Vasco Castro
+  - name: Dick Sandström
+  citation:
+  - 10.1039/B418131J
+  isPartOf: Phys. Chem. Chem. Phys.
+  _source:
+    api: crossref
+    doi: 10.1039/B418131J
+    retrieved: '2026-09-08'

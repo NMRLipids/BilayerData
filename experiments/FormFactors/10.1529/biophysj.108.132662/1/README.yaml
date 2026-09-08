@@ -26,3 +26,30 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
  
+bioschema_properties:
+  name: Lipid Bilayer Structure Determined by the Simultaneous Analysis of Neutron and X-Ray Scattering Data
+  datePublished: 2008-09
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  articleLicense:
+    url: http://www.elsevier.com/open-access/userlicense/1.0/
+    spdx: null
+  publisher: Elsevier BV
+  creator:
+  - name: Norbert Kučerka
+  - name: John F. Nagle
+  - name: Jonathan N. Sachs
+  - name: Scott E. Feller
+  - name: Jeremy Pencer
+  - name: Andrew Jackson
+  - name: John Katsaras
+  citation:
+  - 10.1529/biophysj.108.132662
+  isPartOf: Biophysical Journal
+  _source:
+    api: crossref
+    doi: 10.1529/biophysj.108.132662
+    retrieved: '2026-09-08'

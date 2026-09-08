@@ -1,5 +1,5 @@
 ARTICLE_DOI: 10.1103/PhysRevE.80.021931
-DATE: 2009-08-25T21:03:39Z
+DATE: '2009-08-25'
 TEMPERATURE: 303
 MEMBRANE_COMPOSITION:
   SOPC: 1
@@ -33,3 +33,26 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
 
+bioschema_properties:
+  name: Effect of cholesterol on structural and mechanical properties of membranes depends on lipid chain saturation
+  datePublished: '2009-08-25'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  articleLicense:
+    url: http://link.aps.org/licenses/aps-default-license
+    spdx: null
+  publisher: American Physical Society (APS)
+  creator:
+  - name: Jianjun Pan
+  - name: Stephanie Tristram-Nagle
+  - name: John F. Nagle
+  citation:
+  - 10.1103/PhysRevE.80.021931
+  isPartOf: Physical Review E
+  _source:
+    api: crossref
+    doi: 10.1103/PhysRevE.80.021931
+    retrieved: '2026-09-08'

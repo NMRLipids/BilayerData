@@ -38,3 +38,24 @@ ION_CONCENTRATIONS:
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: 'full hydration'
 COUNTER_IONS:
+bioschema_properties:
+  name: 'Average structural and motional properties of a diunsaturated acyl chain in a lipid bilayer: effects of two cis-unsaturated double bonds'
+  datePublished: 1991-01
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  publisher: American Chemical Society (ACS)
+  creator:
+  - name: John E. Baenziger
+  - name: Harold C. Jarrell
+  - name: Robin J. Hill
+  - name: Ian C. P. Smith
+  citation:
+  - 10.1021/bi00218a003
+  isPartOf: Biochemistry
+  _source:
+    api: crossref
+    doi: 10.1021/bi00218a003
+    retrieved: '2026-09-08'

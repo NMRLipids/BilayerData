@@ -9,3 +9,23 @@ ION_CONCENTRATIONS:
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: 11.1
 COUNTER_IONS:
+bioschema_properties:
+  name: Probing segmental order in lipid bilayers at variable hydration levels by amplitude- and phase-modulated cross-polarization NMR
+  datePublished: '2005'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  publisher: Royal Society of Chemistry (RSC)
+  creator:
+  - name: Sergey V. Dvinskikh
+  - name: Vasco Castro
+  - name: Dick Sandström
+  citation:
+  - 10.1039/B508190D
+  isPartOf: Physical Chemistry Chemical Physics
+  _source:
+    api: crossref
+    doi: 10.1039/B508190D
+    retrieved: '2026-09-08'

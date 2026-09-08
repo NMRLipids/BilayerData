@@ -39,3 +39,22 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: 0.07
 COUNTER_IONS:
 
+bioschema_properties:
+  name: Interaction of metal ions with phosphatidylcholine bilayer membranes
+  datePublished: '1981-12-01'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  publisher: American Chemical Society (ACS)
+  creator:
+  - name: Hideo Akutsu
+  - name: Joachim Seelig
+  citation:
+  - 10.1021/bi00529a007
+  isPartOf: Biochemistry
+  _source:
+    api: crossref
+    doi: 10.1021/bi00529a007
+    retrieved: '2026-09-08'
