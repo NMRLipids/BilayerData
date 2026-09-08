@@ -80,10 +80,23 @@ bioschema_properties:
   - SD5PC
   - 1-octadecanoyl-2-(4Z,7Z,10Z,13Z,16Z-docosapentaenoyl)-sn-glycero-3-phosphocholine
   measurementTechnique:
+  - '@type': DefinedTerm
+    name: solid-state nuclear magnetic resonance spectroscopy
+    termCode: CHMO_0000614
+    inDefinedTermSet: http://purl.obolibrary.org/obo/chmo.owl
+    url: http://purl.obolibrary.org/obo/CHMO_0000614
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
   - 'NMR: 2H:QE, 13C:INVREC/CP'
   - Bruker DMX500 and DMX300, 4mm MAS probe
   variableMeasured:
-  - C-H bond order parameter
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
   distribution:
   - '@type': DataDownload
     name: SD5PC_OrderParameters.json

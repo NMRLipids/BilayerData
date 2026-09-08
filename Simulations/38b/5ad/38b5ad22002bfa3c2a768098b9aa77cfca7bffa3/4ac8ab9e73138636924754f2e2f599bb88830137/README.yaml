@@ -101,15 +101,37 @@ bioschema_properties:
   - SOD
   - SLIPID POPG-POPE_1:3 BILAYER
   measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 2018.3)
   - Slipids force field
   variableMeasured:
-  - area per lipid
-  - membrane thickness
-  - total density profile
-  - X-ray scattering form factor
-  - equilibration time
-  - C-H bond order parameter
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
   distribution:
   - '@type': DataDownload
     contentUrl: https://doi.org/10.5281/zenodo.3238258

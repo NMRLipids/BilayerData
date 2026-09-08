@@ -69,10 +69,23 @@ bioschema_properties:
   - DMPC
   - 1,2-dimyristoyl-sn-glycero-3-phosphocholine
   measurementTechnique:
+  - '@type': DefinedTerm
+    name: proton detected separated local field spectroscopy
+    termCode: CHMO_0001067
+    inDefinedTermSet: http://purl.obolibrary.org/obo/chmo.owl
+    url: http://purl.obolibrary.org/obo/CHMO_0001067
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
   - 'NMR: PDLF:DROSS'
   - Custom designed spectrometer (397.9 MHz for 1H), 5 mm Doty high-speed spinning assembly
   variableMeasured:
-  - C-H bond order parameter
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
   distribution:
   - '@type': DataDownload
     name: DMPC_OrderParameters.json

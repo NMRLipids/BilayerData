@@ -84,10 +84,23 @@ bioschema_properties:
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   measurementTechnique:
+  - '@type': DefinedTerm
+    name: R-type recoupling proton detected separated local field spectroscopy
+    termCode: CHMO_0001068
+    inDefinedTermSet: http://purl.obolibrary.org/obo/chmo.owl
+    url: http://purl.obolibrary.org/obo/CHMO_0001068
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
   - 'NMR: PDLF:R18_1^7'
   - Bruker Avance III HD 500 MHz, Triple Resonance CP-MAS Probe (4mm)
   variableMeasured:
-  - C-H bond order parameter
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
   distribution:
   - '@type': DataDownload
     name: POPC_OrderParameters.json

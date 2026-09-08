@@ -13,7 +13,7 @@ COUNTER_IONS:
 
 bioschema_properties:
   name: Headgroup Structure and Cation Binding in Phosphatidylserine Lipid Bilayers
-  description: Experimental C-H bond order parameters for a lipid bilayer at 298.0 K, measured by NMR.
+  description: Experimental C-H bond order parameters for a lipid bilayer at 298.0 K.
   sameAs: https://doi.org/10.1021/acs.jpcb.9b06091
   datePublished: '2019-10-01'
   license:
@@ -67,9 +67,21 @@ bioschema_properties:
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/topic_3306
   measurementTechnique:
-  - NMR
+  - '@type': DefinedTerm
+    name: nuclear magnetic resonance spectroscopy
+    termCode: CHMO_0000591
+    inDefinedTermSet: http://purl.obolibrary.org/obo/chmo.owl
+    url: http://purl.obolibrary.org/obo/CHMO_0000591
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
   variableMeasured:
-  - C-H bond order parameter
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
   distribution:
   - '@type': DataDownload
     name: POPS_OrderParameters.json

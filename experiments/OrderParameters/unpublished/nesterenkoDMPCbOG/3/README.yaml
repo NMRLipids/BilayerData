@@ -13,8 +13,8 @@ TOTAL_LIPID_CONCENTRATION: 5.3
 # 26 mass % water
 COUNTER_IONS:
 bioschema_properties:
-  name: Experimental C-H bond order parameters for a lipid bilayer at 298 K, measured by NMR.
-  description: Experimental C-H bond order parameters for a lipid bilayer at 298 K, measured by NMR.
+  name: Experimental C-H bond order parameters for a lipid bilayer at 298 K.
+  description: Experimental C-H bond order parameters for a lipid bilayer at 298 K.
   license:
     spdx: CC-BY-4.0
     name: Creative Commons Attribution 4.0 International
@@ -37,9 +37,21 @@ bioschema_properties:
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/topic_3306
   measurementTechnique:
-  - NMR
+  - '@type': DefinedTerm
+    name: nuclear magnetic resonance spectroscopy
+    termCode: CHMO_0000591
+    inDefinedTermSet: http://purl.obolibrary.org/obo/chmo.owl
+    url: http://purl.obolibrary.org/obo/CHMO_0000591
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
   variableMeasured:
-  - C-H bond order parameter
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
   distribution:
   - '@type': DataDownload
     name: BOG_OrderParameters.json
