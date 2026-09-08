@@ -87,12 +87,26 @@ bioschema_properties:
   - POPE
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
   measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 5.0.6)
   - Slipids force field
   variableMeasured:
-  - area per lipid
-  - equilibration time
-  - C-H bond order parameter
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
   distribution:
   - '@type': DataDownload
     contentUrl: https://doi.org/10.5281/zenodo.1293813
