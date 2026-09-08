@@ -48,7 +48,10 @@ ID: 307
 AUTHORS_CONTACT: Javanainen, Matti
 bioschema_properties:
   name: Simulations of POPC:POPG 1:1 membranes with varying levels of CaCl_2 using the Slipids force field
+  alternateName: POPC_T298K
   description: Simulations of POPC/POPG lipid bilayers consisting of a total of 256 lipids (128 POPC + 128 POPG) spread equally between the two leaflets. The initial CaCl_2 concentration in the water phase was either 0, 100, 200, 500, or 1000 mM. Na+ was used as the counterion for the POPG charges. The simuatlions were performed using the Slipids model, available at http://www.fos.su.se/~sasha/SLipids/ . The Dang ion parameters were used, and they were obtained from https://bitbucket.org/hseara/ions/ . The common simulation parameters are given in the md.mdp file. The simulations are 1500 ns long (except CA0, which is 500 ns long), and the "extend" files contain the last 1000 ns of the outputs. The "extend" continue points should also be used to extend the simulations beyond 1500 ns. All relevant input and output files are provided to repeat or extend the simulations.
+  identifier: 10.5281/zenodo.3613573
+  sameAs: https://doi.org/10.5281/zenodo.3613573
   datePublished: '2020-01-13'
   license:
     spdx: CC-BY-4.0
@@ -59,9 +62,59 @@ bioschema_properties:
   creator:
   - name: Javanainen, Matti
     identifier: https://orcid.org/0000-0003-4858-364X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - SOD
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - Slipids force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3613573
+    name: POPC_T298K
+    contentSize: 1340011568
+    encodingFormat: application/x-xtc
+    hasPart:
+    - PCPG_CA0.xtc
+    - PCPG_CA0.tpr
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3613573
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

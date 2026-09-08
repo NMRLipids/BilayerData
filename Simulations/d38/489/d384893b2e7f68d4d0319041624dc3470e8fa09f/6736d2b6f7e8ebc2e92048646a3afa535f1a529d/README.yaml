@@ -35,7 +35,10 @@ EXPERIMENT:
   FORMFACTOR: []
 bioschema_properties:
   name: 'MD simulation input files and results for ,,Atomistic MD simulations of n-alkanes in a phospholipid bilayer: CHARMM36 versus Slipids"'
+  alternateName: DPPC
   description: 'Input files and trajectories of n-alkane/lipid systems used in the article: ,,Atomistic MD simulations of n-alkanes in a phospholipid bilayer: CHARMM36 versus Slipids". Equilibrated starting configurations were created using CHARMM36. Otherwise, filenames specifiy the force field used (C36 or SL), Temperature and system composition. .xtc trajectories were created using gmx trjconv with options -pbc nojump -dt 10. run2 equals simulations from 100-200ns, run3 equals 200-300ns. The first 100ns were excluded from the analysis and are not included in this dataset. Exemplary .mdp files have been included for both force-fields. Please refer to the manuscript for the force field sources and additional information.'
+  identifier: 10.5281/zenodo.7572990
+  sameAs: https://doi.org/10.5281/zenodo.7572990
   datePublished: '2023-01-26'
   license:
     spdx: CC-BY-4.0
@@ -50,9 +53,56 @@ bioschema_properties:
     identifier: https://orcid.org/0000-0002-0312-1479
   citation:
   - 10.1002/mats.202200078
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - SLIPIDS force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.7572990
+    name: DPPC
+    contentSize: 517143548
+    encodingFormat: application/x-xtc
+    hasPart:
+    - SL_72DPPC_60C_19w_traj_run2.xtc
+    - SL_72DPPC_60C_19w_run2.tpr
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.7572990
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

@@ -52,7 +52,10 @@ WARNINGS:
 ID: 85
 bioschema_properties:
   name: 'MD simulations of bilayers containing POPC and Cholesterol: 64POPC_64CHL_31Nwat_neutral (lipid14)'
+  alternateName: 64POPC_64CHOL_3968SOL_303K
   description: NMRLipids III CholXray project (nmrlipids.blogspot.fi) Gromacs 5.0.4, lipid14 FF (Madej et al. JPCB 2015, 119, 12424), 1 atm, 303K, 200ns 128 lipids (64 POPC, 64 CHL), N_wat/lipid = 31, 25216 Atoms
+  identifier: 10.5281/zenodo.3871006
+  sameAs: https://doi.org/10.5281/zenodo.3871006
   datePublished: '2020-06-01'
   license:
     spdx: CC-BY-4.0
@@ -63,9 +66,59 @@ bioschema_properties:
   creator:
   - name: Madsen, Jesper J
     identifier: https://orcid.org/0000-0003-1411-9080
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CHOL
+  - cholesterol
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.0.4)
+  - Lipid14 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3871006
+    name: 64POPC_64CHOL_3968SOL_303K
+    contentSize: 185886736
+    encodingFormat: application/x-xtc
+    hasPart:
+    - run.total.xtc
+    - step7_production.tpr
+    - md.top
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3871006
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

@@ -47,7 +47,10 @@ EXPERIMENT:
 ID: 128
 bioschema_properties:
   name: Md Simulation Trajectory And Related Files For Popc Bilayer In Low Hydration (Berger Model Delivered By Tieleman, Gromacs 4.5)
+  alternateName: 128POPC_896SOL_298K_Berger
   description: Equilibrated POPC lipid bilayer simulation in low hydration (7 water per lipid molecule) ran with Gromacs 4.5, Berger force field delivered by Peter Tieleman (http://wcm.ucalgary.ca/tieleman/downloads) with fixed double bond dihedrals, 60ns, T=298K, 128 POPC molecules, 896 water molecules. This data is used in the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi. If data is used, please cite the nmrlipids.blogspot.fi project and the original publications related to the force field.
+  identifier: 10.5281/zenodo.13814
+  sameAs: https://doi.org/10.5281/zenodo.13814
   datePublished: '2015-01-08'
   license:
     spdx: GPL-3.0-only
@@ -60,9 +63,59 @@ bioschema_properties:
   citation:
   - 10.1101/2020.11.09.374850
   - 10.1021/acs.jpcb.5b04878
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 4.5)
+  - Berger delivered by Peter Tieleman force field
+  variableMeasured:
+  - area per lipid
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.13814
+    name: 128POPC_896SOL_298K_Berger
+    contentSize: 2019360504
+    encodingFormat: application/x-trr
+    hasPart:
+    - popc7wPERpc.trr
+    - popc7wPERpc.tpr
+    - popc7wPERpc.top
+    - popc7wPERpc.gro
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/2
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.13814
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

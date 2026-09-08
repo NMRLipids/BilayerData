@@ -54,7 +54,10 @@ EXPERIMENT:
 ID: 842
 bioschema_properties:
   name: MD Simulation of POPS 144 144 Na contraions prosECCo75
+  alternateName: POPS_prosECCo
   description: prosECCo 75 paper related data
+  identifier: 10.5281/zenodo.10467181
+  sameAs: https://doi.org/10.5281/zenodo.10467181
   datePublished: '2024-01-07'
   license:
     spdx: CC-BY-4.0
@@ -66,8 +69,64 @@ bioschema_properties:
   - name: Nencini, Ricky
   citation:
   - 10.1021/acs.jctc.4c00743
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  - SOD
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - PROSECCO force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.10467181
+    name: POPS_prosECCo
+    contentSize: 653757492
+    encodingFormat: application/x-xtc
+    hasPart:
+    - POPS_144_144_Na_contraions_prosECCo75.xtc
+    - POPS_144_144_Na_contraions_prosECCo75.tpr
+    - POPS_144_144_Na_contraions_prosECCo75.top
+    - POPS_144_144_Na_contraions_prosECCo75.gro
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jctc.9b00824/1
+  - experiments/OrderParameters/10.1021/acs.jpcb.9b06091/1
+  - experiments/FormFactors/10.1039/C4SM00066H/1
+  - experiments/FormFactors/10.1039/C4SM00066H/2
+  - experiments/FormFactors/10.1039/C4SM00066H/3
   _source:
     api: datacite
     doi: 10.5281/zenodo.10467181
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

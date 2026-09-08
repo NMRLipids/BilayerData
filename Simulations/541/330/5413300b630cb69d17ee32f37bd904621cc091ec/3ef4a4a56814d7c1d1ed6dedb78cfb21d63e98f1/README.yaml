@@ -51,7 +51,10 @@ EXPERIMENT:
 ID: 831
 bioschema_properties:
   name: POPC membrane simulated with Slipids/CHARMM36 hybrid topology
+  alternateName: POPC_hybrid_slmdp
   description: Simulations with a hybrid POPC topology. Tails are from Slipids and glycerol and headgroup from CHARMM36. BSc thesis project.
+  identifier: 10.5281/zenodo.15172176
+  sameAs: https://doi.org/10.5281/zenodo.15172176
   datePublished: '2025-04-08'
   license:
     spdx: CC-BY-4.0
@@ -65,8 +68,60 @@ bioschema_properties:
     identifier: https://orcid.org/0000-0001-9652-8608
   - name: Javanainen, Matti
     identifier: https://orcid.org/0000-0003-4858-364X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2024.3)
+  - C36_Slipids_Hybrid force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.15172176
+    name: POPC_hybrid_slmdp
+    contentSize: 673355092
+    encodingFormat: application/x-xtc
+    hasPart:
+    - popc_hybrid_slmdp.xtc
+    - popc_hybrid_slmdp.tpr
+    - topol.top
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
+  - experiments/OrderParameters/10.1039/c2cp42738a/1
+  - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
   _source:
     api: datacite
     doi: 10.5281/zenodo.15172176
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

@@ -45,6 +45,10 @@ WARNINGS:
   PBC: z-jumps
 bioschema_properties:
   name: MD simulation of DMPC bilayer with OPLS4 force field. 20 w/l.
+  alternateName: 200DMPC_4000SOL_300K
+  description: Molecular dynamics simulation of a lipid bilayer containing DMPC at 314.0 K, OPLS4 force field, gromacs, 490 ns trajectory.
+  identifier: 10.5281/zenodo.11044799
+  sameAs: https://doi.org/10.5281/zenodo.11044799
   datePublished: '2024-04-23'
   license:
     spdx: CC-BY-4.0
@@ -54,8 +58,56 @@ bioschema_properties:
   publisher: Zenodo
   creator:
   - name: Kurki, Milla
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DMPC
+  - 1,2-dimyristoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs Desmond 2022-2)
+  - OPLS4 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.11044799
+    name: 200DMPC_4000SOL_300K
+    contentSize: 6493431056
+    encodingFormat: application/x-xtc
+    hasPart:
+    - DMPC_20wl_10-500ns.xtc
+    - analyze.tpr
+    - DMPC_20wl.gro
   _source:
     api: datacite
     doi: 10.5281/zenodo.11044799
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

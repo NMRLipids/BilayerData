@@ -44,7 +44,10 @@ DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 591
 bioschema_properties:
   name: Optimization of Slipids Force Field Parameters Describing Headgroups of Phospholipids
+  alternateName: POPC bilayer 303 K
   description: Trajectory, topology and parameter files for simulation of POPC bilayer using force field parameters derived in J. Phys. Chem. B 2020, 124, 40, 8784–8793.
+  identifier: 10.5281/zenodo.4683633
+  sameAs: https://doi.org/10.5281/zenodo.4683633
   datePublished: '2020-09-14'
   license:
     spdx: CC-BY-4.0
@@ -56,9 +59,59 @@ bioschema_properties:
   - name: Grote, Fredrik
   citation:
   - F. Grote and A. P. Lyubartsev, J. Phys. Chem. B 2020, 124, 8784-8793
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs GROMACS 2019)
+  - Slipids2020 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.4683633
+    name: POPC bilayer 303 K
+    contentSize: 3245715512
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md.xtc
+    - topol.tpr
+    - mix.top
+  isBasedOn:
+  - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/2
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.4683633
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

@@ -58,7 +58,10 @@ DIR_WRK: /usr/home/bort/Databank
 ID: 251
 bioschema_properties:
   name: Atomistic simulations of cholesterol in asymmetric lipid bilayers with varying degrees of lipid chain unsaturation
+  alternateName: 28CHOL_130DOPC_115DDOPC_10920SOL_310K
   description: 'Asymmetric membranes consisting of DOPC, cholesterol, and a lipid with a varying level of unsaturation were simulated at 310 K. The DOPC leaflet consisted of 130 molecules, whereas the other leaflet consisted of either 125 DLiPC with 2 double bonds in both chains, 120 DAPC with 4 double bonds in both chains, or 115 DDPC with 6 double bonds in both chains. These numbers were adjusted to prevent membrane bending. All systems contained 28 molecules (10 mol%) of cholesterol. The CHARMM36 force field [1] was used and the membranes were generated using CHARMM-GUI [2]. The simulations were run for 1 microsecond using the GROMACS simulation suite [3]. Simulation parameters are found in the common mdp file. The upload contains simulation inputs and outputs that allows the replication, extension, or analysis of the simulation data: Topology files (top) and molecular definitions (itp) Index files (ndx) A common run parameter file (mdp) A run input file (tpr) Trajectory file (xtc) written every 100 ps Energy file (edr) Log file (log) Final structure file (gro) Continue point file (cpt) The files are named DOPC_LLLL_AA_CHOLXX_TTT.FFF, where LLLL is the type of phospholipid paired with DOPC AA stands for all atom (Coarse-grained data in a separate upload) CHOLXX stands for the cholesterol concentration (CHOL10 for 10 mol%) TTT is the temperature FFF is the tile type (see above) [1] DOI: 10.1021/jp101759q [2] DOI: 10.1021/acs.jctc.5b00935 [3] DOI: 10.1016/j.softx.2015.06.001'
+  identifier: 10.5281/zenodo.2653723
+  sameAs: https://doi.org/10.5281/zenodo.2653723
   datePublished: '2019-04-29'
   license:
     spdx: CC-BY-4.0
@@ -69,9 +72,61 @@ bioschema_properties:
   creator:
   - name: Javanainen, Matti
     identifier: https://orcid.org/0000-0003-4858-364X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - CHOL
+  - cholesterol
+  - DDOPC
+  - 1,2-didocosahexaenoyl-sn-glycero-3-phosphocholine
+  - DOPC
+  - 1,2-dioleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.2653723
+    name: 28CHOL_130DOPC_115DDOPC_10920SOL_310K
+    contentSize: 2579033088
+    encodingFormat: application/x-xtc
+    hasPart:
+    - DOPC_DDPC_AA_CHOL10_310.xtc
+    - DOPC_DDPC_AA_CHOL10_310.tpr
+    - DOPC_DDPC_AA_CHOL10.top
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.2653723
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

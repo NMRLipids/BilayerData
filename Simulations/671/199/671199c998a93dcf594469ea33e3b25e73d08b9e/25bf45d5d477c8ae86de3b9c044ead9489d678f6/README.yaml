@@ -66,7 +66,10 @@ EXPERIMENT:
 ID: 601
 bioschema_properties:
   name: 'Molecular dynamics simulation trajectory of a cationic lipid bilayer: 50/50 mol% DMTAP/DMPC in 0.1 M NaCl'
+  alternateName: 64DMPC_64DMTAP_10SOD_74CLA_5316SOL_323K
   description: 'System: Symmetric bilayer of cationic DMTAP (dimyristoyltrimethylammoniumpropane, 50 mol-%) and zwitterionic DMPC (dimyristoylphosphatidylcholine, 50 mol-%) lipids in 0.1 M NaCl solution. Number of DMPC: 64. Number of DMTAP: 64. Number of Na + -ions: 10. Number of Cl - -ions: 74. Number of waters: 5316. Lipid model: ''Berger'' united-atom [ Biophys. J. 72 2002 (1997)] with DMTAP modification by Gurtovenko et al. [ Biophys. J. 86 3461 (2004)]. Water model: SPC [In Intermolecular Forces, ed. Pullman. 331 (1981)]. Simulation engine: Gromacs 3.x [www.gromacs.org] Trajectory length: 190 ns. Previously equilibrated for: 21 ns. Sampling rate: every 10 ps. Time integration step: 2 fs. Thermodynamic ensemble: NpT. Temperature coupling: ''Berendsen'' [ J. Chem. Phys. 81 3684 (1984)] with lipids and water coupled separately at T = 323 K. Pressure coupling: '' Berendsen'' [ J. Chem. Phys. 81 3684 (1984)] with xy and z coupled separately at p = 1.0 bar. Electrostatics: PME [ J. Chem. Phys. 98 10089 (1993); J. Chem. Phys. 103 8577 (1995)], real-space cutoff at 1.0 nm. Van der Waals: Truncated at 1.0 nm. Constraints: Covalent bond lengths in lipids using LINCS [ J. Comput. Chem. 18 1463 (1997)], in water using SETTLE [J. Comput. Chem. 13 952 (1992)]. Used in publications: [1] Markus S. Miettinen, Andrey A. Gurtovenko, Ilpo Vattulainen, and Mikko Karttunen: "Ion Dynamics in Cationic Lipid Bilayer Systems in Saline Solutions". J. Phys. Chem. B 113 9226 (2009). DOI: 10.1021/jp810233q. [2] Markus S. Miettinen: "Computational Modeling of Cationic Lipid Bilayers in Saline Solutions". PhD Thesis. Aalto University School of Science and Technology, Helsinki, Finland. (2010). ISBN 978-952-60-3194-1.'
+  identifier: 10.5281/zenodo.53212
+  sameAs: https://doi.org/10.5281/zenodo.53212
   datePublished: '2016-05-27'
   license:
     spdx: CC-BY-4.0
@@ -80,9 +83,66 @@ bioschema_properties:
   citation:
   - 10.1021/jp810233q
   - ISBN 978-952-60-3194-1
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DMPC
+  - 1,2-dimyristoyl-sn-glycero-3-phosphocholine
+  - DMTAP
+  - 1,2-dimyristoyl-3-trimethylammonium-propane
+  - SOD
+  - CLA
+  - cationic lipid bilayer
+  - NaCl
+  - Molecular Dynamics Simulation
+  - Gromacs
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 3.x)
+  - Berger with DMTAP modification by Gurtovenko et al. force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.53212
+    name: 64DMPC_64DMTAP_10SOD_74CLA_5316SOL_323K
+    contentSize: 1486723368
+    encodingFormat: application/x-xtc
+    hasPart:
+    - tap50s01_21-211ns.xtc
+    - tap50s01_1ns.tpr
+    - tap50s01.top
+    - tap50s01_100ns.gro
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.53212
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

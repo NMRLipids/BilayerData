@@ -65,7 +65,10 @@ EXPERIMENT:
 ID: 621
 bioschema_properties:
   name: Md Simulation Trajectory Of A Popc/Pops (4:1) Bilayer With 1M Nacl, Berger Force Field For Lipids And Ffgmx For Ions
+  alternateName: 102POPC_26POPS_4290SOL_106SOD_80CLA_310K_Berger
   description: 'MD simulation trajectory of a POPC/POPS (4:1) bilayer with 1M NaCl (102 POPC, 26 POPS, 4290 WAT, 106 Na+, 80 Cl-). Additional Na+ cations added to neutralize the negative charge of POPS. Berger force field for lipids and ffgmx for ions are employed. Gromacs 4.0.7, T=310K, 200 ns trajectories were calculated with the last 50 ns stored here. Used in: P. Jurkiewicz, L. Cwiklik, A. Vojtiskova, P. Jungwirth, M. Hof, Structure, Dynamics, and Hydration of POPC/POPS Bilayers Suspended in NaCl, KCl, and CsCl BBA Biomembranes 2012 , 1818, 609-616. DOI: 10.1016/j.bbamem.2011.11.033'
+  identifier: 10.5281/zenodo.838219
+  sameAs: https://doi.org/10.5281/zenodo.838219
   datePublished: '2017-08-02'
   license:
     spdx: CC-BY-4.0
@@ -77,9 +80,62 @@ bioschema_properties:
   - name: Cwiklik, Lukasz
   citation:
   - 10.1016/j.bbamem.2011.11.033
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  - SOD
+  - CLA
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 4.0.7)
+  - Berger force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.838219
+    name: 102POPC_26POPS_4290SOL_106SOD_80CLA_310K_Berger
+    contentSize: 182039148
+    encodingFormat: application/x-xtc
+    hasPart:
+    - traj.xtc
+    - topol.tpr
+    - topol.top
+    - conf.gro
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.838219
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

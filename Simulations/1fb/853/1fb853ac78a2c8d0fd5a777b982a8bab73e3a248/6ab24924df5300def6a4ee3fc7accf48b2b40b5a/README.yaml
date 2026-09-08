@@ -50,7 +50,10 @@ EXPERIMENT:
 ID: 133
 bioschema_properties:
   name: POPC_AMBER_LIPID14_CaCl2_035Mol
+  alternateName: 128POPC_6400SOL_35CAL_70CLA_298K
   description: 'THIS IS UNCORRUPTED TRAJECTORY RELATED TO THIS DATASET: http://dx.doi.org/10.5281/zenodo.34415 MD simulation trajectory and related files for fully hydrated POPC bilayer with 0.35M CaCl2. The LIPID14 force field was used with Gromacs 5.0.3. Ions were described by AMBER99SB-ILDN force field. Conditions: T=298.15, 128 POPC molecules, 6400 tip3p waters (lipid/water 1:50), 35 Ca, 70 Cl. 200ns trajectory (preceded by 5ns NPT equillibration) (2 files of 100ns). This data is ran for the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi'
+  identifier: 10.5281/zenodo.5592698
+  sameAs: https://doi.org/10.5281/zenodo.5592698
   datePublished: '2016-02-18'
   license:
     spdx: CC0-1.0
@@ -63,9 +66,58 @@ bioschema_properties:
   - name: Ollila, Samuli
   citation:
   - 10.5281/zenodo.34415
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CAL
+  - CLA
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.0.3)
+  - Lipid14 for lipids and AMBER99SB-ILDN for ions force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.5592698
+    name: 128POPC_6400SOL_35CAL_70CLA_298K
+    contentSize: 1350116696
+    encodingFormat: application/x-xtc
+    hasPart:
+    - 035M_CaCl2_POPC_AMB_100_200ns.xtc
+    - 035M_CaCl2_POPC_AMB.tpr
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.5592698
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

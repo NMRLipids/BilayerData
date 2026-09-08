@@ -43,7 +43,10 @@ EXPERIMENT:
 ID: 385
 bioschema_properties:
   name: MacRog pure POPE MD simulation (300 K - 500ns - 1 bar)
+  alternateName: 128POPE_5120SOL_300K
   description: 'MacRog POPE pure bilayer simulation. Starting structure from CHARMM-GUI: the initial PDB file was modified to match MacRog nomenclature and atom order. Temperature was set to 300 K and pressure to 1 bar with 128 POPE lipids fully hydrated: 40 water molecules per lipid. The trajectory contains the whole simulation from 0 to 500 ns skipped every 100 ps and centered on the P atoms. No ions were added as there is no charge in the system. This bilayer was used to calculate the order parameter and the area per lipid for the NMRLipids project (on the time window 200-500 ns). The pope.itp file was obtained from the paper doi : 10.1016/j.dib.2016.03.067. Several corrections have been made to the original file (for more information, go check https://www.dsimb.inserm.fr/~fuchs/project_Samuli/POPC_POPE/report_results_comparison.pdf). We provide here the corrected itp file.'
+  identifier: 10.5281/zenodo.3725670
+  sameAs: https://doi.org/10.5281/zenodo.3725670
   datePublished: '2020-03-26'
   license:
     spdx: CC-BY-4.0
@@ -56,9 +59,57 @@ bioschema_properties:
     identifier: https://orcid.org/0000-0002-2724-0747
   - name: Fuchs, Patrick F.J.
     identifier: https://orcid.org/0000-0001-7117-994X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPE
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - MacRog force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3725670
+    name: 128POPE_5120SOL_300K
+    contentSize: 572272276
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md_OK_100.xtc
+    - md.tpr
+    - topol.top
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3725670
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

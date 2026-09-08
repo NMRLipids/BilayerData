@@ -46,7 +46,10 @@ EXPERIMENT:
 ID: 790
 bioschema_properties:
   name: All-atomic simulation of POPE bilayer with RFZ
+  alternateName: POPE(313K,rfz)
   description: We have performed simulations of POPE to check if the reaction-field-zero mode of calculating electrostatics is a good substitute for PME if we want to avoid PME for some reasons (e.g. for stress calculations). We started this simulation from the configuration deposited by Matti Javanainen (10.5281/zenodo.2641987). We performed the simulation of about 500 ns with the reaction-field-zero protocol supplemented as well. DMPC simulated with the same RFZ protocol is deposited in a separate dataset (10.5281/zenodo.8431709).
+  identifier: 10.5281/zenodo.8435138
+  sameAs: https://doi.org/10.5281/zenodo.8435138
   datePublished: '2023-10-12'
   license:
     spdx: CC-BY-4.0
@@ -59,8 +62,66 @@ bioschema_properties:
     identifier: https://orcid.org/0000-0003-1592-257X
   - name: Miettinen, Markus S.
     identifier: https://orcid.org/0000-0002-3999-4722
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPE
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  - MD simulation
+  - lipid bilayer
+  - PME
+  - reaction field
+  - GROMACS
+  - NMRlipids
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2022.5)
+  - Charmm36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.8435138
+    name: POPE(313K,rfz)
+    contentSize: 21689266080
+    encodingFormat: application/x-trr
+    hasPart:
+    - SMALLG_pope-md313rfz-20ps.trr
+    - pope-md313rfz.tpr
+    - POPE.top
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/jacs.1c05549/2
+  - experiments/OrderParameters/unpublished/ferreiraPOPE/1
+  - experiments/FormFactors/10.1021/jp511159q/1
   _source:
     api: datacite
     doi: 10.5281/zenodo.8435138
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

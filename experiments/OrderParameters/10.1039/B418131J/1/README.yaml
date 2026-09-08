@@ -11,6 +11,9 @@ TOTAL_LIPID_CONCENTRATION: 4.23
 COUNTER_IONS:
 bioschema_properties:
   name: Efficient solid-state NMR methods for measuring heteronuclear dipolar couplings in unoriented lipid membrane systems
+  description: Experimental C-H bond order parameters for a lipid bilayer at 312 K, measured by NMR.
+  identifier: 10.1039/B418131J
+  sameAs: https://doi.org/10.1039/B418131J
   datePublished: '2005'
   license:
     spdx: CC-BY-4.0
@@ -24,7 +27,39 @@ bioschema_properties:
   - name: Dick Sandström
   citation:
   - 10.1039/B418131J
-  isPartOf: Phys. Chem. Chem. Phys.
+  keywords:
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  measurementTechnique:
+  - NMR
+  variableMeasured:
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    name: DMPC_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1039/B418131J
+    identifier: 10.1039/B418131J
+    url: https://doi.org/10.1039/B418131J
+    name: Efficient solid-state NMR methods for measuring heteronuclear dipolar couplings in unoriented lipid membrane systems
+    isPartOf:
+      '@type': Periodical
+      name: Phys. Chem. Chem. Phys.
   _source:
     api: crossref
     doi: 10.1039/B418131J

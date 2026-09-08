@@ -53,7 +53,10 @@ DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 61
 bioschema_properties:
   name: Dppc_512_Nacl_150Mm_320K_V-Rescale
+  alternateName: 512DPPC_20480SOL_55SOD_55CLA_320K
   description: 'System description ------------------- - Title: Simulation DPPC_512_NaCl_150mM_320K_v-rescale bilayer - MD engine: gromacs 5.0.4 - Force field: charmm36 - Temperature: 320K - Simulation time: 500ns - Saving frequency: 100ps - Molecular content: DPPC 512 water 20480 Cl- 55 Na+ 55 - Other information: * Use of v-rescale thermostat instead of the default nose-hoover * Center of mass motion removed independently for bilayer and water+ions'
+  identifier: 10.5281/zenodo.16276
+  sameAs: https://doi.org/10.5281/zenodo.16276
   datePublished: '2015-03-23'
   license:
     spdx: CC-BY-4.0
@@ -66,9 +69,63 @@ bioschema_properties:
   - name: Javanainen, Matti
   - name: Rissanen, Sami
   - name: Lolicato, Fabio
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  - SOD
+  - CLA
+  - Molecular Mechanics
+  - Membrane
+  - Bilayer
+  - Gromacs
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.0.4)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.16276
+    name: 512DPPC_20480SOL_55SOD_55CLA_320K
+    contentSize: 1916776844
+    encodingFormat: application/x-xtc
+    hasPart:
+    - DPPC_512_NaCl_150mM_320K_v-rescale_md_part0.xtc
+    - DPPC_512_NaCl_150mM_320K_v-rescale_md.tpr
+    - DPPC_512_NaCl_150mM_320K_v-rescale_md.top
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.16276
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

@@ -55,7 +55,10 @@ EXPERIMENT:
 ID: 521
 bioschema_properties:
   name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS with the lipid17 force field and ff99 ions
+  alternateName: 72POPS_3600SOL_72SOD_298K
   description: Classical molecular dynamics simulations of various mixtures of POPC:POPS lipid bilayers in water solution at various NaCl, KCl and CaCl2 concentrations, with Na+ counterions (and K+ counterions when noted with "_KCl" suffix). Lipid17 force field parameters used for lipids, TIP3p water model and ff99 ions. The file names report the number of additional cations. simulations performed with Gromacs 2018.0 (*.xtc files) simulation length 1000 ns = 1 microsecond temperature 298 K Gromacs simulation setting is in the file npt_lipid_bilayer.mdp
+  identifier: 10.5281/zenodo.1487906
+  sameAs: https://doi.org/10.5281/zenodo.1487906
   datePublished: '2018-11-14'
   license:
     spdx: CC-BY-4.0
@@ -66,9 +69,65 @@ bioschema_properties:
   creator:
   - name: Melcr, Josef
     identifier: https://orcid.org/0000-0003-4729-3990
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  - SOD
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2018.0)
+  - Lipid17 and ff99 ions force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1487906
+    name: 72POPS_3600SOL_72SOD_298K
+    contentSize: 3652448252
+    encodingFormat: application/x-xtc
+    hasPart:
+    - lipid17_ff99-ions_298K.xtc
+    - lipid17_ff99-ions_298K.tpr
+    - lipid17_ff99-ions_298K.top
+    - lipid17_ff99-ions_298K.gro
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jctc.9b00824/1
+  - experiments/OrderParameters/10.1021/acs.jpcb.9b06091/1
+  - experiments/FormFactors/10.1039/C4SM00066H/1
+  - experiments/FormFactors/10.1039/C4SM00066H/2
+  - experiments/FormFactors/10.1039/C4SM00066H/3
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1487906
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

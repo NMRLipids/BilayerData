@@ -49,7 +49,10 @@ EXPERIMENT:
 ID: 861
 bioschema_properties:
   name: MD simulation of POPC bilayer with OPLS3e force field, 50 mM CaCl2 part 1
+  alternateName: POPC, 44 w/l, 300 K, 0.05 M CaCl2
   description: 'MD simulation of POPC bilayer with OPLS3e force field, 50 mM CaCl2 part 1 (0-500ns) Dataset contains trajectories (_trj) for the first 500ns of the 1000ns trajectory, topology (-out.cms), input files (.cfg, .msj, .cms), and other files. For the ease of the upload, trajectory files (_trj) are divided to 100ns pieces and tarred (named desmond_md_cacl50_x-xns.tar.gz) Dataset also contains Gromacs converted files (.xtc, .gro and .top). Converted trajectory contains equilibrated piece of the trajectory (500-1000ns) System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 8880 Salt: CaCl2 Concentration: 50 mM Number of cations: 8 Simulation time: 1000 ns (in this dataset 0-500ns) Simulation engine: Desmond 2019-4 Temperature: 300 K Related dataset: MD simulation of POPC bilayer with OPLS3e force field, 50 mM CaCl2 part 2 In contrast to previous version, this version contains gromacs format trajectory file .xtc with corrected time steps.'
+  identifier: 10.5281/zenodo.10212566
+  sameAs: https://doi.org/10.5281/zenodo.10212566
   datePublished: '2022'
   license:
     spdx: CC-BY-4.0
@@ -61,8 +64,59 @@ bioschema_properties:
   - name: Milla Lindström
   citation:
   - 10.1021/acs.jcim.2c00395
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - CAL
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs Desmond of Schrödinger 2019-4)
+  - OPLS3e force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.10212566
+    name: POPC, 44 w/l, 300 K, 0.05 M CaCl2
+    contentSize: 9975771112
+    encodingFormat: application/x-xtc
+    hasPart:
+    - cacl50mM_500-1000ns_step10ps.xtc
+    - analyze.tpr
+    - desmond_md_cacl50-1-in_converted.top
+    - final.gro
   _source:
     api: datacite
     doi: 10.5281/zenodo.10212566
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

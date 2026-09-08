@@ -61,7 +61,10 @@ EXPERIMENT:
   FORMFACTOR: []
 bioschema_properties:
   name: MD simulation of a model Gram-positive bilayer membrane (60% PG, 35% lysyl-PG, 5% CL)
+  alternateName: Gram-positive bilayer membrane (60% PG, 35% lysyl-PG, 5% CL)
   description: 'Composition : Model bilayer composition aimed at replicating the behavior of the Staphylococcus aureus membrane (See also Mohanan et al. Chem Sci 2020, 11, 4669: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8159255/ ) Per leaflet we have 48 POPG (16:0 / 18:1; -1 net charge), 28 DPPGK (16:0 / 16:0; +1 net charge), 4 TOCL1 (18:1,18:1 / 18:1,18:1; -1 net charge), giving 60% PG, 35% lysyl-PG, 5% CL. Bilayer is symmetric. Technical details : OpenMM 7.5.1 CHARMM36m force field 6,712 TIP3P waters 150 mM KCl (64 K+, 16 Cl-) Temperature = 303.15 K Trajectory output every 100 ps Trajectory length = 500 ns ( = 5,000 frames) (Standard CHARMM-GUI relaxation protocol)'
+  identifier: 10.5281/zenodo.8415046
+  sameAs: https://doi.org/10.5281/zenodo.8415046
   datePublished: '2023-10-06'
   license:
     spdx: CC-BY-4.0
@@ -72,9 +75,62 @@ bioschema_properties:
   creator:
   - name: Madsen, Jesper J.
     identifier: https://orcid.org/0000-0003-1411-9080
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - DPPGK
+  - 1,2-dioleoyl-sn-glycero-3-[phospho-rac-(3-lysyl(1-glycerol))] (lysyl-PG)
+  - TOCL
+  - 1’,3’-Bis[1,2-dioleoyl-sn-glycero-3-phospho]-glycerol
+  - POT
+  - CLA
+  measurementTechnique:
+  - Molecular dynamics simulation (openMM 7.5.1)
+  - Charmm36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.8415046
+    name: Gram-positive bilayer membrane (60% PG, 35% lysyl-PG, 5% CL)
+    contentSize: 2554960276
+    encodingFormat: application/x-dcd
+    hasPart:
+    - step7_1.dcd
+    - step5_input.pdb
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.8415046
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

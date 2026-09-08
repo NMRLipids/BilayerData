@@ -53,7 +53,10 @@ WARNINGS:
 ID: 181
 bioschema_properties:
   name: Md Simulation Trajectory And Related Files For Popc Bilayer With 670Mm Cacl_2 (Charmm36, Gromacs 4.5)
+  alternateName: 72POPC_2164SOL_26CAL_52CLA_303K
   description: 'Equilibrated POPC lipid bilayer simulation ran with Gromacs 4.5, CHARMM36, 120ns, T=303K, 72 POPC molecules, 2165 water molecules, 26 Ca molecules, 52 Cl molecules. Note! This dataset is NOT used in the NMRLipids II project (nmrlipids.blospot.fi), but the dataset http://dx.doi.org/10.5281/zenodo.35160 See also discussion in: https://github.com/NMRLipids/lipid_ionINTERACTION/issues/16'
+  identifier: 10.5281/zenodo.32570
+  sameAs: https://doi.org/10.5281/zenodo.32570
   datePublished: '2015-10-23'
   license:
     spdx: CC0-1.0
@@ -63,9 +66,59 @@ bioschema_properties:
   publisher: Zenodo
   creator:
   - name: Ollila, Samuli
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CAL
+  - CLA
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 4.5)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.32570
+    name: 72POPC_2164SOL_26CAL_52CLA_303K
+    contentSize: 722320064
+    encodingFormat: application/x-xtc
+    hasPart:
+    - traj80-200ns.xtc
+    - popcRUN3.tpr
+    - popc.top
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.32570
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

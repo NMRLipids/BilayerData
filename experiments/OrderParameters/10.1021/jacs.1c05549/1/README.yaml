@@ -13,6 +13,8 @@ COUNTER_IONS:
 bioschema_properties:
   name: 'NMRLipids/NMRlipidsIVPEandPG: First submission'
   description: NMRlipids IV project, PE and PG lipids
+  identifier: 10.5281/zenodo.4748647
+  sameAs: https://doi.org/10.5281/zenodo.4748647
   datePublished: '2021-05-11'
   license:
     spdx: CC-BY-4.0
@@ -27,6 +29,36 @@ bioschema_properties:
   - name: Akiirik
   - name: Ivan-Gushchin-Mipt
   - name: Pbuslaev
+  keywords:
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  measurementTechnique:
+  - NMR
+  variableMeasured:
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    name: POPG_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.5281/zenodo.4748647
+    identifier: 10.5281/zenodo.4748647
+    url: https://doi.org/10.5281/zenodo.4748647
+    name: 'NMRLipids/NMRlipidsIVPEandPG: First submission'
   accessRights: openAccess
   _source:
     api: datacite

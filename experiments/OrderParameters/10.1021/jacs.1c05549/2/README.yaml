@@ -11,6 +11,9 @@ TOTAL_LIPID_CONCENTRATION: 'full hydration'
 COUNTER_IONS:
 bioschema_properties:
   name: Inverse Conformational Selection in Lipid–Protein Binding
+  description: Experimental C-H bond order parameters for a lipid bilayer at 310.0 K, measured by NMR.
+  identifier: 10.1021/jacs.1c05549
+  sameAs: https://doi.org/10.1021/jacs.1c05549
   datePublished: '2021-08-16'
   license:
     spdx: CC-BY-4.0
@@ -53,7 +56,39 @@ bioschema_properties:
     identifier: https://orcid.org/0000-0002-7965-6066
   citation:
   - 10.1021/jacs.1c05549
-  isPartOf: Journal of the American Chemical Society
+  keywords:
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  measurementTechnique:
+  - NMR
+  variableMeasured:
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    name: POPE_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1021/jacs.1c05549
+    identifier: 10.1021/jacs.1c05549
+    url: https://doi.org/10.1021/jacs.1c05549
+    name: Inverse Conformational Selection in Lipid–Protein Binding
+    isPartOf:
+      '@type': Periodical
+      name: Journal of the American Chemical Society
   _source:
     api: crossref
     doi: 10.1021/jacs.1c05549

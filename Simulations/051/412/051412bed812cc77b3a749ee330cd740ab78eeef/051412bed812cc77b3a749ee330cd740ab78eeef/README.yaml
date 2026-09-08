@@ -51,7 +51,10 @@ EXPERIMENT:
 ID: 451
 bioschema_properties:
   name: Popc/Cholesterol (50:50) Lipid Membrane, 303K, Charmm36 Force Field From Charmm-Gui, Simulation Files And 100 Ns Trajectory For Openmm Simulation Engine V7
+  alternateName: 80POPC_80CHOL_7200SOL_303K
   description: 'The starting structure was obtained from CHARMM-GUI Membrane Builder v1.7 (http://www.charmm-gui.org/) online tool. [1] All runs were performed with openMM simulation engine v7 and CHARMM36 additive force field parameters obtained from CHARMM-GUI input files [1]. Conditions: T=303, 80 POPC and 80 Cholesterol molecules, 7200 tip3p waters, 100ns trajectory (preceded with equilibration) These data were originally obtained for the nmrlipids.blospot.fi project. Find more details at nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi [1] CHARMM-GUI Input Generator for NAMD, GROMACS, AMBER, OpenMM, and CHARMM/OpenMM Simulations Using the CHARMM36 Additive Force Field, J. Lee et al. , JCTC, DOI: 10.1021/acs.jctc.5b00935'
+  identifier: 10.5281/zenodo.163345
+  sameAs: https://doi.org/10.5281/zenodo.163345
   datePublished: '2016-10-26'
   license:
     spdx: CC-BY-4.0
@@ -61,9 +64,59 @@ bioschema_properties:
   publisher: Zenodo
   creator:
   - name: Melcr, Josef
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CHOL
+  - cholesterol
+  measurementTechnique:
+  - Molecular dynamics simulation (openMM v7)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.163345
+    name: 80POPC_80CHOL_7200SOL_303K
+    contentSize: 4589600276
+    encodingFormat: application/x-dcd
+    hasPart:
+    - step8_1.dcd
+    - step5_charmm2omm.psf
+    - step5_charmm2omm.pdb
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.163345
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

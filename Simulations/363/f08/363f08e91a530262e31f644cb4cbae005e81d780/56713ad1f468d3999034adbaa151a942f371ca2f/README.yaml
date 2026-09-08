@@ -46,7 +46,10 @@ EXPERIMENT:
   FORMFACTOR: []
 bioschema_properties:
   name: All-atomic simulation of DMPC bilayer with PME and with RFZ
+  alternateName: DMPC(313K,pme)
   description: We have performed simulations of DMPC to check if the reaction-field-zero mode of calculating electrostatics is a good substitute for PME if we want to avoid PME for some reasons (e.g. for stress calculations). We started this simulation from the configuration deposited by Matti Javanainen (10.5281/zenodo.6943413). We performed two simulations of about 500 ns with the same protocol but at 313 K. Protocol for reaction-field-zero is supplemented as well. POPE simulated with the same RFZ protocol is deposited in a separate dataset (10.5281/zenodo.8435138).
+  identifier: 10.5281/zenodo.8431710
+  sameAs: https://doi.org/10.5281/zenodo.8431710
   datePublished: '2023-10-11'
   license:
     spdx: CC-BY-4.0
@@ -57,9 +60,66 @@ bioschema_properties:
   creator:
   - name: Alexey, Nesterenko
     identifier: https://orcid.org/0000-0003-1592-257X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DMPC
+  - 1,2-dimyristoyl-sn-glycero-3-phosphocholine
+  - MD simulations
+  - lipid bilayer
+  - PME
+  - reaction field
+  - GROMACS
+  - NMRlipids
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2022.5)
+  - Charmm36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.8431710
+    name: DMPC(313K,pme)
+    contentSize: 22175353872
+    encodingFormat: application/x-trr
+    hasPart:
+    - DMPC-md313-pme.trr
+    - dmpc-md313-pme.tpr
+    - DMPC_small.top
+  isBasedOn:
+  - experiments/OrderParameters/10.1039/B508190D/3
+  - experiments/OrderParameters/unpublished/nesterenkoDMPCbOG/1
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.8431710
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

@@ -38,7 +38,10 @@ EXPERIMENT:
   FORMFACTOR: []
 bioschema_properties:
   name: 1-stearoyl(d35)-2-docosapentaenoyl-sn-glycero-3-phosphocholine (18:0(d35)/22:5n6PC) | SDPC lipid bilayer, 303K, CHARMM36m-WYF forcefield, NAMD 3.0.2, 2* 500 ns
+  alternateName: SDPC18:0(d35)/22:5n6PC)
   description: '1-stearoyl(d35)-2-docosapentaenoyl-sn-glycero-3-phosphocholine (18:0(d35)/22:5n6PC) | SDPC lipid bilayer. Deutrated, 18:0 (DX1, DX2 atom type in psf) 200 lipid molecules (100 lipids per each leaflet) and no ions. Lipid for a total water conctent of 50 wt% >>> Hydration: 48 Temperature: 303.15 System was prepared using CHARMM-GUI. CHARMM36m-WYF forcefield was used. Simulation was performed with NAMD 3.0.2. timestep: 2.0 fs 500 ns production after 150 ns equilibration dcd saving freq: 10000'
+  identifier: 10.5281/zenodo.18470730
+  sameAs: https://doi.org/10.5281/zenodo.18470730
   datePublished: '2026-02-03'
   license:
     spdx: CC-BY-4.0
@@ -51,8 +54,58 @@ bioschema_properties:
     identifier: https://orcid.org/0000-0002-3456-5064
   - name: Reuter, Nathalie
     identifier: https://orcid.org/0000-0002-3649-7675
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - SD5PC
+  - 1-octadecanoyl-2-(4Z,7Z,10Z,13Z,16Z-docosapentaenoyl)-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (NAMD 3)
+  - CHARMM36m force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.18470730
+    name: SDPC18:0(d35)/22:5n6PC)
+    contentSize: 17282000276
+    encodingFormat: application/x-dcd
+    hasPart:
+    - production-rep2.dcd
+    - step5_input.psf
+    - step5_input.pdb
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/ja029029o/2
   _source:
     api: datacite
     doi: 10.5281/zenodo.18470730
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

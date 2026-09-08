@@ -56,7 +56,10 @@ EXPERIMENT:
   FORMFACTOR: []
 bioschema_properties:
   name: NAMD Trajectory of a POPC/PSM 70/30 bilayer
+  alternateName: POPC/PSM (70/30) NAMD
   description: All-atom bilayer mixture of POPC/PSM 70/30 simulated in an NPT ensemble with NAMD and the CHARMM36 force field from Doktorova et al. 2017 Phys. Chem. Chem. Phys. article (DOI 10.1039/c7cp01921a). The trajectory represents the last 126 ns used for analysis where the area per lipid is equilibrated (the file has 3145 frames output every 40 ps). The bilayer has 200 lipids total (100 lipids per leaflet) and is hydrated with 70 waters/lipid and 140mM NaCl. The simulation was done at 25C (298.15K) and the trajectory is centered on the bilayer midplane.
+  identifier: 10.5281/zenodo.8357123
+  sameAs: https://doi.org/10.5281/zenodo.8357123
   datePublished: '2023-09-18'
   license:
     spdx: CC-BY-4.0
@@ -69,9 +72,64 @@ bioschema_properties:
     identifier: https://orcid.org/0000-0003-4366-2242
   citation:
   - 10.1039/c7cp01921a
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - SM16
+  - N-palmitoyl-D-erythro-sphingosylphosphorylcholine
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SOD
+  - CLA
+  - PSM
+  - lipid mixture
+  - membrane simulation
+  measurementTechnique:
+  - Molecular dynamics simulation (NAMD)
+  - Charmm36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.8357123
+    name: POPC/PSM (70/30) NAMD
+    contentSize: 2583554876
+    encodingFormat: application/x-dcd
+    hasPart:
+    - traj_center.dcd
+    - struct.psf
+    - struct.pdb
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.8357123
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

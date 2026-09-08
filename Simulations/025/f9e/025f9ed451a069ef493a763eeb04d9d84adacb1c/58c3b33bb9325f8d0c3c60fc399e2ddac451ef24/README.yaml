@@ -57,7 +57,10 @@ EXPERIMENT:
 ID: 269
 bioschema_properties:
   name: Md Simulation Trajectory Of A Popc Bilayer With 716Mm Cacl2, Berger Force Field For Lipids, Scaled Charges For Ca2+ And Cl-
+  alternateName: 128POPC_4308SOL_56CAL_112CLA_310K_Berger
   description: 'MD simulation trajectory of a POPC bilayer with 716 mM CaCl2 (128 POPC, 26 POPS, 4308 WAT, 56 Ca2+, 112 Cl-). Berger force field for lipids, scaled charges employed for calcium and chloride ions. Gromacs 4.5.5, T=310K, 200 ns trajectories were calculated with the last 100 ns stored here. Used in (see therein also a detailed description of ion scaling): A. Melcrova, S. Pokorna, S. Pullanchery, M. Kohagen, P. Jurkiewicz, M. Hof, P. Jungwirth, P. S. Cremer, L. Cwiklik, The complex nature of calcium cation interactions with phospholipid bilayers Scientific Reports 2016, 6, 38035. DOI: 10.1038/srep38035'
+  identifier: 10.5281/zenodo.887396
+  sameAs: https://doi.org/10.5281/zenodo.887396
   datePublished: '2017-09-07'
   license:
     spdx: CC-BY-4.0
@@ -69,9 +72,60 @@ bioschema_properties:
   - name: Cwiklik Lukasz
   citation:
   - 10.1038/srep38035
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CAL
+  - CLA
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 4.5.5)
+  - Berger force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.887396
+    name: 128POPC_4308SOL_56CAL_112CLA_310K_Berger
+    contentSize: 363366364
+    encodingFormat: application/x-xtc
+    hasPart:
+    - traj.xtc
+    - topol.tpr
+    - topol.top
+    - conf.gro
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.887396
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

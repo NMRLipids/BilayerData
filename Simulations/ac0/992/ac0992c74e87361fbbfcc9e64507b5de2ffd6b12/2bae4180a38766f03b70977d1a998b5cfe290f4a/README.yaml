@@ -62,7 +62,10 @@ DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 618
 bioschema_properties:
   name: PC/PS 5:1 bilayer, Na contraions, additional CaCl_2, CHARMM36 FF, NBFIX-Han
+  alternateName: 250POPC_50POPS_11174SOL_50SOD_189CAL_378CLA_320K
   description: Systems of 250 POPC and 50 POPS lipids in water solutions with 50 sodium contra ions and 0, 140, 940 mM additional calcium chloride. Simulations were run with CHARMM36 force field with NBFIX for calcium ions (http://dx.doi.org/10.1021/acs.jpcb.7b10730). 320K, 1bar. Gromacs version 2018.6
+  identifier: 10.5281/zenodo.3371327
+  sameAs: https://doi.org/10.5281/zenodo.3371327
   datePublished: '2019-08-19'
   license:
     spdx: CC-BY-4.0
@@ -72,9 +75,62 @@ bioschema_properties:
   publisher: Zenodo
   creator:
   - name: Nencini, Ricky
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - CLA
+  - CAL
+  - SOD
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2018.6)
+  - CHARMM36 with NBFIX for calcium ions force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3371327
+    name: 250POPC_50POPS_11174SOL_50SOD_189CAL_378CLA_320K
+    contentSize: 1208113740
+    encodingFormat: application/x-xtc
+    hasPart:
+    - popc_pops_250_50_contra_sodium_940mM_CaCl_nbfix_han.xtc
+    - popc_pops_250_50_contra_sodium_940mM_CaCl_nbfix_han.tpr
+    - popc_pops_250_50_contra_sodium_940mM_CaCl_nbfix_han.top
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3371327
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

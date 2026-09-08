@@ -67,7 +67,10 @@ EXPERIMENT:
 ID: 827
 bioschema_properties:
   name: Simulation of TMCL (TMA salt) with betaOG
+  alternateName: TMCL_BOG_TMA_NaCl_T303_21w/P
   description: Simulation of TMCL were done in GROMACS 2024.x in fully hydrated state using standrad CHARMM-GUI protocol over 500 ns after 500 ns of pre-equilibration (not deposited). Trajectory is saved every 20 ps (only compressed coordinates) and every 100 ps (full-precision, with velocities). Temperature 303K (v-rescale), pressure semi-isotropic 1bar (parrinello-rahman). Note (!), that BOG (beta-octyl-D-glucopyranoside) has renamed atoms comparing to CHARMM-GUI version. See itp file inside.
+  identifier: 10.5281/zenodo.13981147
+  sameAs: https://doi.org/10.5281/zenodo.13981147
   datePublished: '2024-10-23'
   license:
     spdx: CC-BY-4.0
@@ -81,8 +84,66 @@ bioschema_properties:
     identifier: https://orcid.org/0000-0003-1592-257X
   - name: Miettinen, Markus S.
     identifier: https://orcid.org/0000-0002-3999-4722
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - TMCL
+  - Tetramyristoyl cardiolipin
+  - BOG
+  - beta-octyl D-glucopyranoside
+  - TMA
+  - CLA
+  - SOD
+  - Lipids
+  - GROMACS
+  - NMRlipids
+  - cardiolipin
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2023.2)
+  - Charmm36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.13981147
+    name: TMCL_BOG_TMA_NaCl_T303_21w/P
+    contentSize: 3591550616
+    encodingFormat: application/x-xtc
+    hasPart:
+    - TMCL_TMA_BOGprod.xtc
+    - tmclBOGprodZnd.tpr
+    - topol.top
+    - TMCL_TMA_BOGprod.gro
   _source:
     api: datacite
     doi: 10.5281/zenodo.13981147
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

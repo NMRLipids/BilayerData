@@ -42,7 +42,10 @@ EXPERIMENT:
   - 10.1016/j.bbamem.2011.07.022/2
 bioschema_properties:
   name: OpenMM simulations of POPC using the CHARMM Drude2023 force field in xtc format
+  alternateName: POPC_CHARMMdrude2023_303K
   description: 'PSF, single CRD file, and XTC format trajectories for the final 200 ns of triplicate POPC simulations, from the publication Drude Polarizable Lipid Force Field with Explicit Treatment of LongRange Dispersion: Parametrization and Validation for Saturated and Monounsaturated Zwitterionic Lipids Yalun Yu, Richard M. Venable, Jonathan Thirman, Payal Chatterjee, Anmol Kumar, Richard W. Pastor,* Benoît Roux,* Alexander D. MacKerell, Jr.,* and Jeffery B. Klauda* https://doi.org/10.1021/acs.jctc.3c00203 XTC file names indicate the lipid and the replica number; each file has frames spaced at 10 ps over a 200 ns interval. The DCD sub-files in 10.5281/zenodo.7871949 have been concatenated into a single 200 ns long trajectory in xtc format by Batuhan Kav using MDAnalysis.'
+  identifier: 10.5281/zenodo.7916287
+  sameAs: https://doi.org/10.5281/zenodo.7916287
   datePublished: '2023-05-09'
   license:
     spdx: CC-BY-4.0
@@ -53,9 +56,58 @@ bioschema_properties:
   creator:
   - name: Kav, Batuhan
     identifier: https://orcid.org/0000-0003-4990-373X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (openMM)
+  - Charmm-Drude polarizable force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.7916287
+    name: POPC_CHARMMdrude2023_303K
+    contentSize: 2217716996
+    encodingFormat: application/x-xtc
+    hasPart:
+    - popc2ns.xtc
+    - popc72_drude.psf
+  isBasedOn:
+  - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/2
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.7916287
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

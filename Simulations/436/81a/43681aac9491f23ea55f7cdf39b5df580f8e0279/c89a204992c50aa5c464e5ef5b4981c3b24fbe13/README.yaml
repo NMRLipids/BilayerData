@@ -49,7 +49,10 @@ DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 13
 bioschema_properties:
   name: CHARMM36 simulations of pure POPC bilayer and a bilayer containing 50% of cholesterol, T=303K
+  alternateName: 122CHOL_122POPC_9760SOL_303K
   description: Simulation of POPC and 50%POPC+50%cholesterol bilayer in full hydration (40 water/lipid) at T=303K in NPT ensemble. Simulations where done on GPU Gromacs 2020.1. The initial configurations and force field (CHARMM36) were dowloaded from CHARMM-GUI. Simulation uses Parrinello-Rahman barostat and Nose-Hoover thermostat.
+  identifier: 10.5281/zenodo.4071264
+  sameAs: https://doi.org/10.5281/zenodo.4071264
   datePublished: '2020-10-07'
   license:
     spdx: CC-BY-4.0
@@ -60,9 +63,60 @@ bioschema_properties:
   creator:
   - name: Antila, Hanne
     identifier: https://orcid.org/0000-0002-2474-5053
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - CHOL
+  - cholesterol
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - c36
+  - gromacs
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2020.1)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.4071264
+    name: 122CHOL_122POPC_9760SOL_303K
+    contentSize: 16879084688
+    encodingFormat: application/x-xtc
+    hasPart:
+    - popc50chol.xtc
+    - popc50chol.tpr
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.4071264
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

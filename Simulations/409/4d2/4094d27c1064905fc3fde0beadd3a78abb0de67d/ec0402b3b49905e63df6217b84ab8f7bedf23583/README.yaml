@@ -53,7 +53,10 @@ DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 56
 bioschema_properties:
   name: Simulations of DLPC, DOPC, and DEPC membranes
+  alternateName: 200DOPC_10000SOL_23SOD_23CLA
   description: Simulations of three different lipid bilayers using the CHARMM36 lipid model. The bilayers were built using CHARMM-GUI and simulated for 500 ns using Gromacs 2019. The systems contain 200 lipids (DLPC, DOPC, or DEPC), 50 lipids per water, and 130 mM NaCl. For each simulation, the run input file (tpr), topology (top), index (ndx), trajectory (xtc), log file (log), energy file (edr), continue point (cpt), and the final structure (gro) are given. The topology refers to the Gromacs-compatible CHARMM36 force field, available at http://mackerell.umaryland.edu/charmm_ff.shtml#gromacs and to other itp files provided in this upload. The simulation parameters are given in the md.mdp file.
+  identifier: 10.5281/zenodo.3592499
+  sameAs: https://doi.org/10.5281/zenodo.3592499
   datePublished: '2019-12-24'
   license:
     spdx: CC-BY-4.0
@@ -64,9 +67,59 @@ bioschema_properties:
   creator:
   - name: Javanainen, Matti
     identifier: https://orcid.org/0000-0003-4858-364X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - CLA
+  - DOPC
+  - 1,2-dioleoyl-sn-glycero-3-phosphocholine
+  - SOD
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2019)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3592499
+    name: 200DOPC_10000SOL_23SOD_23CLA
+    contentSize: 1062313368
+    encodingFormat: application/x-xtc
+    hasPart:
+    - dopc.xtc
+    - dopc.tpr
+    - dopc.top
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3592499
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

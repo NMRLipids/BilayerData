@@ -41,6 +41,9 @@ COUNTER_IONS:
 
 bioschema_properties:
   name: Interaction of metal ions with phosphatidylcholine bilayer membranes
+  description: 'Experimental C-H bond order parameters for a lipid bilayer containing DPPC at 332 K, measured by NMR: 2H:QE.'
+  identifier: 10.1021/bi00529a007
+  sameAs: https://doi.org/10.1021/bi00529a007
   datePublished: '1981-12-01'
   license:
     spdx: CC-BY-4.0
@@ -53,7 +56,42 @@ bioschema_properties:
   - name: Joachim Seelig
   citation:
   - 10.1021/bi00529a007
-  isPartOf: Biochemistry
+  keywords:
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - 'NMR: 2H:QE'
+  - Spectrometers operating at 13.8 and 61.4 MHz (single-pulse mode) and at 46 MHz (quadrupole echo technique)
+  variableMeasured:
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    name: DPPC_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1021/bi00529a007
+    identifier: 10.1021/bi00529a007
+    url: https://doi.org/10.1021/bi00529a007
+    name: Interaction of metal ions with phosphatidylcholine bilayer membranes
+    isPartOf:
+      '@type': Periodical
+      name: Biochemistry
   _source:
     api: crossref
     doi: 10.1021/bi00529a007

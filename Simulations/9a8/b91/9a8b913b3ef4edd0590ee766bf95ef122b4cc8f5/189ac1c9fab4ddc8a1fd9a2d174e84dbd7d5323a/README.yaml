@@ -45,7 +45,10 @@ EXPERIMENT:
 ID: 404
 bioschema_properties:
   name: 'Md Simulation Trajectory Of A Fully Hydrated Dppg Bilayer @314K: Slipids, Gromacs 5.0.4. 2017.'
+  alternateName: 288DPPG_11232SOL_288SOD_314K
   description: 'MD simulation trajectory files, for fully hydrated DPPG bilayer [288 DPPG, 11232 WAT and 288 NA ions]. The SLIPIDS force field was used with Gromacs 5.0.4. Conditions: T=314K. 200 ns trajectory, last 100 ns uploaded for analysis.'
+  identifier: 10.5281/zenodo.546136
+  sameAs: https://doi.org/10.5281/zenodo.546136
   datePublished: '2017-04-13'
   license:
     spdx: CC-BY-4.0
@@ -55,9 +58,59 @@ bioschema_properties:
   publisher: Zenodo
   creator:
   - name: Favela-Rosales, Fernando
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPG
+  - 1,2-dipalmitoyl-sn-glycero-3-phospho-(1’-rac-glycerol)
+  - SOD
+  - slipids
+  - gromacs
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.0.4)
+  - Slipids force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.546136
+    name: 288DPPG_11232SOL_288SOD_314K
+    contentSize: 646232904
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md50ns_chunk02.xtc
+    - md50ns_chunk01.tpr
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.546136
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

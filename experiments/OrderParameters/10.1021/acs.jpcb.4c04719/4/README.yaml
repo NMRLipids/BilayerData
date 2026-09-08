@@ -33,6 +33,9 @@ TOTAL_LIPID_CONCENTRATION: 'full hydration'
 COUNTER_IONS:
 bioschema_properties:
   name: 'Solid-State NMR Validation of OPLS4: Structure of PC-Lipid Bilayers and Its Modulation by Dehydration'
+  description: 'Experimental C-H bond order parameters for a lipid bilayer containing POPC at 298.0 K, measured by NMR: PDLF:R18_1^7.'
+  identifier: 10.1021/acs.jpcb.4c04719
+  sameAs: https://doi.org/10.1021/acs.jpcb.4c04719
   datePublished: '2024-12-09'
   license:
     spdx: CC-BY-4.0
@@ -64,7 +67,42 @@ bioschema_properties:
     identifier: https://orcid.org/0000-0002-3999-4722
   citation:
   - 10.1021/acs.jpcb.4c04719
-  isPartOf: The Journal of Physical Chemistry B
+  keywords:
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - 'NMR: PDLF:R18_1^7'
+  - Bruker Avance III HD 500 MHz, Triple Resonance CP-MAS Probe (4mm)
+  variableMeasured:
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    name: POPC_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1021/acs.jpcb.4c04719
+    identifier: 10.1021/acs.jpcb.4c04719
+    url: https://doi.org/10.1021/acs.jpcb.4c04719
+    name: 'Solid-State NMR Validation of OPLS4: Structure of PC-Lipid Bilayers and Its Modulation by Dehydration'
+    isPartOf:
+      '@type': Periodical
+      name: The Journal of Physical Chemistry B
   _source:
     api: crossref
     doi: 10.1021/acs.jpcb.4c04719

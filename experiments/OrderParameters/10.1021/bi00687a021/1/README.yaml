@@ -44,6 +44,9 @@ COUNTER_IONS:
 
 bioschema_properties:
   name: Conformation and motion of the choline head group in bilayers of dipalmitoyl-3-sn-phosphatidylcholine
+  description: 'Experimental C-H bond order parameters for a lipid bilayer containing DPPC at 322 K, measured by NMR: 2H:SP.'
+  identifier: 10.1021/bi00687a021
+  sameAs: https://doi.org/10.1021/bi00687a021
   datePublished: '1975-08-01'
   license:
     spdx: CC-BY-4.0
@@ -57,7 +60,41 @@ bioschema_properties:
   - name: Joachim Seelig
   citation:
   - 10.1021/bi00687a021
-  isPartOf: Biochemistry
+  keywords:
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - 'NMR: 2H:SP'
+  variableMeasured:
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    name: DPPC_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1021/bi00687a021
+    identifier: 10.1021/bi00687a021
+    url: https://doi.org/10.1021/bi00687a021
+    name: Conformation and motion of the choline head group in bilayers of dipalmitoyl-3-sn-phosphatidylcholine
+    isPartOf:
+      '@type': Periodical
+      name: Biochemistry
   _source:
     api: crossref
     doi: 10.1021/bi00687a021

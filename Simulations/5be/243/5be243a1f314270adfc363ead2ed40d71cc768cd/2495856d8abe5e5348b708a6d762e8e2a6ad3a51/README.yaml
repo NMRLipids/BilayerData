@@ -57,7 +57,10 @@ EXPERIMENT:
 ID: 187
 bioschema_properties:
   name: Md Simulation Trajectory And Related Files For Popc Bilayer With 340Mm Nacl (Berger Model Delivered By Tieleman, Ffgmx Ions, Gromacs 4.5)
+  alternateName: 128POPC_44SOD_44CLA_7202SOL_298K_Berger
   description: Equilibrated POPC lipid bilayer simulation ran with Gromacs 4.5, Berger force field delivered by Peter Tieleman (http://wcm.ucalgary.ca/tieleman/downloads), double bonds updated in http://dx.doi.org/10.1021/jp065424f, ffgmx parameters for ions, 50ns, T=298K, 128 POPC molecules, 7202 water molecules, 44 Na molecules, 44 Cl molecules. This data is used in the NMRLipids II project (nmrlipids.blospot.fi).
+  identifier: 10.5281/zenodo.32144
+  sameAs: https://doi.org/10.5281/zenodo.32144
   datePublished: '2015-10-15'
   license:
     spdx: CC0-1.0
@@ -67,9 +70,60 @@ bioschema_properties:
   publisher: Zenodo
   creator:
   - name: Ollila O. H. Samuli
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SOD
+  - CLA
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 4.5)
+  - Berger delivered by Peter Tieleman force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.32144
+    name: 128POPC_44SOD_44CLA_7202SOL_298K_Berger
+    contentSize: 525214684
+    encodingFormat: application/x-xtc
+    hasPart:
+    - run2.xtc
+    - run2.tpr
+    - popcNACL.top
+    - run.gro
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.32144
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

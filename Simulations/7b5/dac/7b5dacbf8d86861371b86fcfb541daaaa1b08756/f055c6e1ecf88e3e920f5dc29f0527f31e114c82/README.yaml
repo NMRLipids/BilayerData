@@ -47,7 +47,10 @@ DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 568
 bioschema_properties:
   name: CHARMM36 POPG Bilayer Simulation (Last 100 ns, 310 K )
+  alternateName: 500POPG_25000SOL_500SOD_310K
   description: Simulation of a POPG bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs v2018.3 in water solution with Na+ counterions. The CHARMM model is employed for lipids and the TIP3P model for water. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top), and the energy output file (.edr) are provided.
+  identifier: 10.5281/zenodo.3237463
+  sameAs: https://doi.org/10.5281/zenodo.3237463
   datePublished: '2019-06-03'
   license:
     spdx: CC-BY-4.0
@@ -58,9 +61,59 @@ bioschema_properties:
   creator:
   - name: ', ANTONIO'
     identifier: https://orcid.org/0000-0003-4803-988X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - SOD
+  - CHARMM BILAYER POPG
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2018.3)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3237463
+    name: 500POPG_25000SOL_500SOD_310K
+    contentSize: 5149404852
+    encodingFormat: application/x-xtc
+    hasPart:
+    - total_4_500.xtc
+    - md_0.tpr
+    - topol.top
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3237463
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

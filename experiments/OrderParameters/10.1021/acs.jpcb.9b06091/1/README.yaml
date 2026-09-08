@@ -13,6 +13,9 @@ COUNTER_IONS:
 
 bioschema_properties:
   name: Headgroup Structure and Cation Binding in Phosphatidylserine Lipid Bilayers
+  description: Experimental C-H bond order parameters for a lipid bilayer at 298.0 K, measured by NMR.
+  identifier: 10.1021/acs.jpcb.9b06091
+  sameAs: https://doi.org/10.1021/acs.jpcb.9b06091
   datePublished: '2019-10-01'
   license:
     spdx: CC-BY-4.0
@@ -48,7 +51,39 @@ bioschema_properties:
     identifier: https://orcid.org/0000-0001-5491-3890
   citation:
   - 10.1021/acs.jpcb.9b06091
-  isPartOf: The Journal of Physical Chemistry B
+  keywords:
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  measurementTechnique:
+  - NMR
+  variableMeasured:
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    name: POPS_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1021/acs.jpcb.9b06091
+    identifier: 10.1021/acs.jpcb.9b06091
+    url: https://doi.org/10.1021/acs.jpcb.9b06091
+    name: Headgroup Structure and Cation Binding in Phosphatidylserine Lipid Bilayers
+    isPartOf:
+      '@type': Periodical
+      name: The Journal of Physical Chemistry B
   _source:
     api: crossref
     doi: 10.1021/acs.jpcb.9b06091
