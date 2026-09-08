@@ -35,6 +35,9 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: "full hydration"
 bioschema_properties:
   name: The structures of polyunsaturated lipid bilayers by joint refinement of neutron and X-ray scattering data
+  description: Experimental X-ray scattering form factor for a lipid bilayer containing PDPC at 303 K, measured by X-ray scattering (SUV).
+  identifier: 10.1016/j.chemphyslip.2020.104892
+  sameAs: https://doi.org/10.1016/j.chemphyslip.2020.104892
   datePublished: 2020-07
   license:
     spdx: CC-BY-4.0
@@ -58,7 +61,42 @@ bioschema_properties:
   - name: John Katsaras
   citation:
   - 10.1016/j.chemphyslip.2020.104892
-  isPartOf: Chemistry and Physics of Lipids
+  keywords:
+  - '@type': DefinedTerm
+    name: X-ray diffraction
+    termCode: topic_2828
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_2828
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - PDPC
+  - 1-palmitoyl-2-docosahexaenoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - X-ray scattering (SUV)
+  - CHESS G-1 station
+  variableMeasured:
+  - X-ray scattering form factor
+  distribution:
+  - '@type': DataDownload
+    name: PDPC_ULV_30C_FormFactor.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1016/j.chemphyslip.2020.104892
+    identifier: 10.1016/j.chemphyslip.2020.104892
+    url: https://doi.org/10.1016/j.chemphyslip.2020.104892
+    name: The structures of polyunsaturated lipid bilayers by joint refinement of neutron and X-ray scattering data
+    isPartOf:
+      '@type': Periodical
+      name: Chemistry and Physics of Lipids
   _source:
     api: crossref
     doi: 10.1016/j.chemphyslip.2020.104892

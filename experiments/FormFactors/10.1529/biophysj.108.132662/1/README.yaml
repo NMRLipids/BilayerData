@@ -28,6 +28,9 @@ COUNTER_IONS:
  
 bioschema_properties:
   name: Lipid Bilayer Structure Determined by the Simultaneous Analysis of Neutron and X-Ray Scattering Data
+  description: Experimental X-ray scattering form factor for a lipid bilayer containing DOPC at 303 K, measured by X-ray scattering (SUV).
+  identifier: 10.1529/biophysj.108.132662
+  sameAs: https://doi.org/10.1529/biophysj.108.132662
   datePublished: 2008-09
   license:
     spdx: CC-BY-4.0
@@ -48,7 +51,42 @@ bioschema_properties:
   - name: John Katsaras
   citation:
   - 10.1529/biophysj.108.132662
-  isPartOf: Biophysical Journal
+  keywords:
+  - '@type': DefinedTerm
+    name: X-ray diffraction
+    termCode: topic_2828
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_2828
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - DOPC
+  - 1,2-dioleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - X-ray scattering (SUV)
+  - D-1 station, CHESS
+  variableMeasured:
+  - X-ray scattering form factor
+  distribution:
+  - '@type': DataDownload
+    name: DOPC_ULV_30Cin0D2006_FormFactor.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1529/biophysj.108.132662
+    identifier: 10.1529/biophysj.108.132662
+    url: https://doi.org/10.1529/biophysj.108.132662
+    name: Lipid Bilayer Structure Determined by the Simultaneous Analysis of Neutron and X-Ray Scattering Data
+    isPartOf:
+      '@type': Periodical
+      name: Biophysical Journal
   _source:
     api: crossref
     doi: 10.1529/biophysj.108.132662

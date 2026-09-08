@@ -41,6 +41,9 @@ COUNTER_IONS:
   SOD: TLCL_0H
 bioschema_properties:
   name: BHCL_Na_DSS
+  description: 'Experimental C-H bond order parameters for a lipid bilayer containing TLCL_0H at 300.5 K, measured by NMR: PDLF:R18_1^7.'
+  identifier: 10.57992/nmrxiv.p157.s1604
+  sameAs: https://doi.org/10.57992/nmrxiv.p157.s1604
   datePublished: '2026-01-16'
   license:
     spdx: CC-BY-4.0
@@ -60,6 +63,41 @@ bioschema_properties:
     identifier: https://orcid.org/0000-0003-1592-257X
   - name: Hörstel, Ferdinand
     identifier: https://orcid.org/0009-0004-1647-8209
+  keywords:
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - TLCL_0H
+  - tetralinoleoyl cardiolipin(2−)
+  - SOD
+  measurementTechnique:
+  - 'NMR: PDLF:R18_1^7'
+  - Bruker Avance III HD 500 MHz, Triple Resonance CP-MAS Probe (4mm)
+  variableMeasured:
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    name: TLCL_0H_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.57992/nmrxiv.p157.s1604
+    identifier: 10.57992/nmrxiv.p157.s1604
+    url: https://doi.org/10.57992/nmrxiv.p157.s1604
+    name: BHCL_Na_DSS
+    publisher: nmrXiv
   _source:
     api: datacite
     doi: 10.57992/nmrxiv.p157.s1604

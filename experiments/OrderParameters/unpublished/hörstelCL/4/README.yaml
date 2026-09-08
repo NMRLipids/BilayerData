@@ -47,6 +47,9 @@ COUNTER_IONS:
   TMA: TMCL
 bioschema_properties:
   name: TMCL_bOG_TMAOH_DSS
+  description: 'Experimental C-H bond order parameters for a lipid bilayer containing BOG, TMCL at 300.5 K, measured by NMR: PDLF:R18_1^7.'
+  identifier: 10.57992/nmrxiv.p157.s1608
+  sameAs: https://doi.org/10.57992/nmrxiv.p157.s1608
   datePublished: '2026-01-16'
   license:
     spdx: CC-BY-4.0
@@ -66,6 +69,47 @@ bioschema_properties:
     identifier: https://orcid.org/0000-0003-1592-257X
   - name: Hörstel, Ferdinand
     identifier: https://orcid.org/0009-0004-1647-8209
+  keywords:
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - TMCL
+  - Tetramyristoyl cardiolipin
+  - BOG
+  - beta-octyl D-glucopyranoside
+  - TMA
+  - SOD
+  measurementTechnique:
+  - 'NMR: PDLF:R18_1^7'
+  - Bruker Avance III HD 500 MHz, Triple Resonance CP-MAS Probe (4mm)
+  variableMeasured:
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    name: BOG_OrderParameters.json
+    encodingFormat: application/json
+  - '@type': DataDownload
+    name: TMCL_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.57992/nmrxiv.p157.s1608
+    identifier: 10.57992/nmrxiv.p157.s1608
+    url: https://doi.org/10.57992/nmrxiv.p157.s1608
+    name: TMCL_bOG_TMAOH_DSS
+    publisher: nmrXiv
   _source:
     api: datacite
     doi: 10.57992/nmrxiv.p157.s1608

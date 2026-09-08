@@ -44,6 +44,9 @@ TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
 bioschema_properties:
   name: Polyunsaturated Docosahexaenoic vs Docosapentaenoic AcidDifferences in Lipid Matrix Properties from the Loss of One Double Bond
+  description: 'Experimental C-H bond order parameters for a lipid bilayer containing SDPC at 303.15 K, measured by NMR: 2H:QE, 13C:INVREC/CP.'
+  identifier: 10.1021/ja029029o
+  sameAs: https://doi.org/10.1021/ja029029o
   datePublished: '2003-05-01'
   license:
     spdx: CC-BY-4.0
@@ -59,7 +62,42 @@ bioschema_properties:
   - name: Klaus Gawrisch
   citation:
   - 10.1021/ja029029o
-  isPartOf: Journal of the American Chemical Society
+  keywords:
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - SDPC
+  - 1-stearoyl-2-docosahexaenoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - 'NMR: 2H:QE, 13C:INVREC/CP'
+  - Bruker DMX500 and DMX300, 4mm MAS probe
+  variableMeasured:
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    name: SDPC_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1021/ja029029o
+    identifier: 10.1021/ja029029o
+    url: https://doi.org/10.1021/ja029029o
+    name: Polyunsaturated Docosahexaenoic vs Docosapentaenoic AcidDifferences in Lipid Matrix Properties from the Loss of One Double Bond
+    isPartOf:
+      '@type': Periodical
+      name: Journal of the American Chemical Society
   _source:
     api: crossref
     doi: 10.1021/ja029029o

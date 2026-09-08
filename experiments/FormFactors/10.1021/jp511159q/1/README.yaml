@@ -12,6 +12,9 @@ COUNTER_IONS:
 
 bioschema_properties:
   name: Molecular Structures of Fluid Phosphatidylethanolamine Bilayers Obtained from Simulation-to-Experiment Comparisons and Experimental Scattering Density Profiles
+  description: Experimental X-ray scattering form factor for a lipid bilayer at 308 K, measured by X-ray scattering.
+  identifier: 10.1021/jp511159q
+  sameAs: https://doi.org/10.1021/jp511159q
   datePublished: '2014-12-12'
   license:
     spdx: CC-BY-4.0
@@ -28,7 +31,39 @@ bioschema_properties:
   - name: John Katsaras
   citation:
   - 10.1021/jp511159q
-  isPartOf: The Journal of Physical Chemistry B
+  keywords:
+  - '@type': DefinedTerm
+    name: X-ray diffraction
+    termCode: topic_2828
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_2828
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  measurementTechnique:
+  - X-ray scattering
+  variableMeasured:
+  - X-ray scattering form factor
+  distribution:
+  - '@type': DataDownload
+    name: POPE_ULV_35Cin0D_FormFactor.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1021/jp511159q
+    identifier: 10.1021/jp511159q
+    url: https://doi.org/10.1021/jp511159q
+    name: Molecular Structures of Fluid Phosphatidylethanolamine Bilayers Obtained from Simulation-to-Experiment Comparisons and Experimental Scattering Density Profiles
+    isPartOf:
+      '@type': Periodical
+      name: The Journal of Physical Chemistry B
   _source:
     api: crossref
     doi: 10.1021/jp511159q

@@ -39,6 +39,9 @@ COUNTER_IONS:
   
 bioschema_properties:
   name: Molecular structures of fluid phase phosphatidylglycerol bilayers as determined by small angle neutron and X-ray scattering
+  description: Experimental X-ray scattering form factor for a lipid bilayer containing POPG at 293 K, measured by X-ray scattering (SUV).
+  identifier: 10.1016/j.bbamem.2012.05.007
+  sameAs: https://doi.org/10.1016/j.bbamem.2012.05.007
   datePublished: 2012-09
   license:
     spdx: CC-BY-4.0
@@ -59,7 +62,44 @@ bioschema_properties:
   - name: Norbert Kučerka
   citation:
   - 10.1016/j.bbamem.2012.05.007
-  isPartOf: Biochimica et Biophysica Acta (BBA) - Biomembranes
+  keywords:
+  - '@type': DefinedTerm
+    name: X-ray diffraction
+    termCode: topic_2828
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_2828
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - SOD
+  - CLA
+  measurementTechnique:
+  - X-ray scattering (SUV)
+  - G1 station, CHESS
+  variableMeasured:
+  - X-ray scattering form factor
+  distribution:
+  - '@type': DataDownload
+    name: POPG_ULV_20Cin0D_FormFactor.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1016/j.bbamem.2012.05.007
+    identifier: 10.1016/j.bbamem.2012.05.007
+    url: https://doi.org/10.1016/j.bbamem.2012.05.007
+    name: Molecular structures of fluid phase phosphatidylglycerol bilayers as determined by small angle neutron and X-ray scattering
+    isPartOf:
+      '@type': Periodical
+      name: Biochimica et Biophysica Acta (BBA) - Biomembranes
   _source:
     api: crossref
     doi: 10.1016/j.bbamem.2012.05.007
