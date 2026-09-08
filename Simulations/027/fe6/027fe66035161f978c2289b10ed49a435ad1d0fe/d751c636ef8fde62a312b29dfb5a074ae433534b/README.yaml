@@ -58,7 +58,10 @@ EXPERIMENT:
 ID: 221
 bioschema_properties:
   name: Simulations of mixed DPPC/cholesterol membranes Part 1/2
+  alternateName: 1032DPPC_120CHOL_46440SOL_124SOD_124CLA_315K
   description: 'Simulations of mixtures of DPPC and cholesterol performed with the Slipids force field. Files are named as DPPC_CC_TTT, where CC is the cholesterol concentration in mol-%, and TTT the temperature in K. This upload contains files related to systems with 10 mol-% of cholesterol, whereas systems with 15 and 20 mol-%, as well as systems with DCHOL and sytems used for line tension calculations are in a separate upload here: DOI: 10.5281/zenodo.3540513. Full details of simulations are available in the related manuscript, where they are also carefully analyzed: Nanoscale Membrane Domain Formation Driven by Cholesterol by Matti Javanainen, Hector Martinez-Seara, and Ilpo Vattulainen Scientific Reports 7: 1143 (2017)'
+  identifier: 10.5281/zenodo.3539263
+  sameAs: https://doi.org/10.5281/zenodo.3539263
   datePublished: '2019-11-12'
   license:
     spdx: CC-BY-4.0
@@ -75,9 +78,60 @@ bioschema_properties:
     identifier: https://orcid.org/0000-0001-7408-3214
   citation:
   - 10.1038/s41598-017-01247-9
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  - CHOL
+  - cholesterol
+  - SOD
+  - CLA
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - Slipids force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3539263
+    name: 1032DPPC_120CHOL_46440SOL_124SOD_124CLA_315K
+    contentSize: 5279430256
+    encodingFormat: application/x-xtc
+    hasPart:
+    - DPPC_10_315.xtc
+    - DPPC_10_315.tpr
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3539263
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

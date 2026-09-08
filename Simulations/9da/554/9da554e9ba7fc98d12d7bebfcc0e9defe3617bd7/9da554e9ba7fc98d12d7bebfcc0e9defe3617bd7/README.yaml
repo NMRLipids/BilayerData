@@ -41,7 +41,10 @@ EXPERIMENT:
   FORMFACTOR: []
 bioschema_properties:
   name: NAMD Trajectory of a DLiPC (di18:2PC) bilayer
+  alternateName: DLIPC simulation
   description: All-atom DLiPC (1,2-dilinoleoyl-sn-glycero-3-phosphocholine) bilayer simulated in NPT ensemble with NAMD and the CHARMM36 force field from Doktorova et al. 2017 Phys. Chem. Chem. Phys. article (DOI 10.1039/c7cp01921a). The trajectory represents the last 245 ns used for analysis where the area per lipid is equilibrated (the file has 12250 frames output every 20 ps). The bilayer has 200 lipids total (100 lipids per leaflet) and is hydrated with 45 waters/lipid. The simulation was done at 25C (298.15K) and the trajectory is centered on the bilayer midplane.
+  identifier: 10.5281/zenodo.8357170
+  sameAs: https://doi.org/10.5281/zenodo.8357170
   datePublished: '2023-09-18'
   license:
     spdx: CC-BY-4.0
@@ -54,9 +57,59 @@ bioschema_properties:
     identifier: https://orcid.org/0000-0003-4366-2242
   citation:
   - 10.1039/c7cp01921a
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DLIPC
+  - 1,2-dilinoleoyl-sn-glycero-3-phosphocholine
+  - DLiPC bilayer
+  - PUFA
+  - membrane simulation
+  measurementTechnique:
+  - Molecular dynamics simulation (NAMD)
+  - Charmm36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.8357170
+    name: DLIPC simulation
+    contentSize: 7909580276
+    encodingFormat: application/x-dcd
+    hasPart:
+    - traj_center_245ns.dcd
+    - struct.psf
+    - struct.pdb
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.8357170
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

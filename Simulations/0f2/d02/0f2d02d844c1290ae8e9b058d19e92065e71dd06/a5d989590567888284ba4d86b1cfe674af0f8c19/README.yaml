@@ -50,7 +50,10 @@ EXPERIMENT:
 ID: 507
 bioschema_properties:
   name: Popc @ 310K, Varying Amounts Of Nacl. Model By Maciejewski And Rog
+  alternateName: 288POPC_14446SOL_81SOD_81CLA_298K
   description: 'Input parameter files and parts of the resulting trajectories for a POPC bilayer simulation with varying amounts of NaCl. The systems contain 100, 200, 300 or 400mM NaCl. The force field is an extension to the OPLS-based force field by the same authors [1]. The data for the salt-free system is available at http://dx.doi.org/10.5281/zenodo.13498 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– Files: XXmM_50ns_100ps.xtc – XX mM NaCl; The last 50 ns of a 90 ns long simulation (40 ns discarded from the beginning). Data saved every 100 ps. XX.tpr – XX mM NaCl. The run input file for Gromacs versions 4.5 and above. –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– This data is used in the project "Matching lipid force fields with NMR data", see: http://nmrlipids.blogspot.fi and referred to in the blog as ''MacRog'' [1] Maciejewski, A., Pasenkiewicz-Gierula, M., Cramariuc, O., Vattulainen, I., and Rog, T. Refined OPLS All-Atom Force Field for Saturated Phosphatidylcholine Bilayers at Full Hydration. The Journal of Physical Chemistry B 118 , 4571–4581 (2014). DOI: 10.1021/jp5016627'
+  identifier: 10.5281/zenodo.14976
+  sameAs: https://doi.org/10.5281/zenodo.14976
   datePublished: '2015-02-10'
   license:
     spdx: CC0-1.0
@@ -61,9 +64,58 @@ bioschema_properties:
   creator:
   - name: Javanainen, Matti
   - name: Tynkkynen, Joona
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SOD
+  - CLA
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 4.5)
+  - MacRog force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.14976
+    name: 288POPC_14446SOL_81SOD_81CLA_298K
+    contentSize: 150347600
+    encodingFormat: application/x-xtc
+    hasPart:
+    - 300mM_50ns_100ps.xtc
+    - 300.tpr
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.14976
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

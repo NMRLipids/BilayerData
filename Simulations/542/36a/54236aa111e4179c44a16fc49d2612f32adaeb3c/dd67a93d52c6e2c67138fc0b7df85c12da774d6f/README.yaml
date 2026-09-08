@@ -44,7 +44,10 @@ EXPERIMENT:
 ID: 713
 bioschema_properties:
   name: Simulations of POPC, SOPC, DOPC, and OMPC bilayers at three different sizes
+  alternateName: SOPC_L
   description: 'Simulations of lipid bilayers with the CHARMM36 force field and TIP3P water. Three system sizes are used: small ("s", 64 lipids), medium ("m", 256 lipids), and large ("l", 1024 lipids). All simulations are 1 µs long. The simulations are performed using GROMACS, and for each system the following are provided: index file (ndx) topology file (top) run input file (tpr) energy file (edr) trajectory file (xtc) checkpoint file (cpt) final structure (gro) The simulation parameter file (mdp) is common for all simulations. The molecular topologies (top) are included in TOP.tar. The CHARMM36 force field is obtained from http://mackerell.umaryland.edu/charmm_ff.shtml'
+  identifier: 10.5281/zenodo.7103807
+  sameAs: https://doi.org/10.5281/zenodo.7103807
   datePublished: '2022-09-22'
   license:
     spdx: CC-BY-4.0
@@ -59,8 +62,56 @@ bioschema_properties:
     identifier: https://orcid.org/0000-0002-6881-716X
   - name: Tempra, Carmelo
     identifier: https://orcid.org/0000-0002-2890-6993
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - SOPC
+  - 1-stearoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2021)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.7103807
+    name: SOPC_L
+    contentSize: 1110475408
+    encodingFormat: application/x-xtc
+    hasPart:
+    - SOPC_l.xtc
+    - SOPC_l.tpr
+    - POPC_l.top
   _source:
     api: datacite
     doi: 10.5281/zenodo.7103807
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

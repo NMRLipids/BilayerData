@@ -43,7 +43,10 @@ DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 205
 bioschema_properties:
   name: 212 DPPC Molecules bilayer in pure Water, simulated at temperatures ranging from 288K to 358K
+  alternateName: 212DPPC_29826SOL_338K
   description: 'Publication: A machine learning study of the two states model for lipid bilayer phase transitions Published on: 12 August 2020 Journal : Phys. Chem. Chem. Phys. , 2020, DOI: 10.1039/D0CP02058C Description : Simulation files used to train our machine learning algorithm to identify the thermodynamic phase of individual lipid molecules in a bilayer, as well as the simulation files analysed by the machine learning models. Code source for the ML algorithm can be found on Github. The training files are named gel.gro and fluid.gro. They respectively correspond to the final frame of the systems simulated at 288K and 358K. All other files are the files analysed by the machine learning models. System composition: DPPC molecules: 212 with 130 atoms each Water molecules: 29,826 with 3 atoms each Simulation box dimensions (approx.): 8 x 8 x 20 nm Simulation details: Software: Gromacs (v. 2016.4) Forcefield: Charmm36 (v. June 2015) - Water: TIP3P Thermostat: Nose-hoover (0.4ps, 2 groups) Barostat: Parrinello-Rahman semi-isotropic (2.0ps, 1.0 bar on each axis, 4.5e-5 bar-1) Duration: 50 ns'
+  identifier: 10.5281/zenodo.3950029
+  sameAs: https://doi.org/10.5281/zenodo.3950029
   datePublished: '2020-07-20'
   license:
     spdx: CC-BY-4.0
@@ -63,9 +66,61 @@ bioschema_properties:
     identifier: https://orcid.org/0000-0002-9630-1128
   citation:
   - 10.1039/D0CP02058C
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  - lipid
+  - gromacs
+  - charmm36
+  - charmm
+  - all-atom
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2016.4)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3950029
+    name: 212DPPC_29826SOL_338K
+    contentSize: 4294967295
+    encodingFormat: application/x-xtc
+    hasPart:
+    - dppc_338k.xtc
+    - dppc_338k.tpr
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3950029
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

@@ -42,7 +42,10 @@ EXPERIMENT:
 ID: 409
 bioschema_properties:
   name: All-atom Phospholipid membranes of various sizes and compositions
+  alternateName: 256DPPC_42642SOL_288K
   description: 'Publication: Ripple-like instability in the simulated gel phase of finite size phosphocholine bilayers Published on: To be published Journal : To be submitted Description : Simulation files of different lipid bilayer made either of DPPC, DPPE or DSPC. Different number of lipids per bilayers are provided (given in the name of the file). The average number of water molecules per lipid is circa 160 water molecules per lipid. Complete simulations are provided for two of the systems Simulation details: Software: Gromacs (v. 2016.4) Forcefield: Charmm36 (v. June 2015) - Water: TIP3P Thermostat: Nose-hoover (0.4ps, 2 groups) Barostat: Parrinello-Rahman semi-isotropic (2.0ps, 1.0 bar on each axis, 4.5e-5 bar-1) Duration: 50 ns'
+  identifier: 10.5281/zenodo.4522359
+  sameAs: https://doi.org/10.5281/zenodo.4522359
   datePublished: '2021-02-09'
   license:
     spdx: CC-BY-4.0
@@ -64,9 +67,56 @@ bioschema_properties:
     identifier: https://orcid.org/0000-0002-9630-1128
   citation:
   - 10.1016/j.bbamem.2021.183714
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2016.4)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.4522359
+    name: 256DPPC_42642SOL_288K
+    contentSize: 5967921544
+    encodingFormat: application/x-xtc
+    hasPart:
+    - dppc_256_CharmmGUI.xtc
+    - dppc_256_CharmmGUI.tpr
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.4522359
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

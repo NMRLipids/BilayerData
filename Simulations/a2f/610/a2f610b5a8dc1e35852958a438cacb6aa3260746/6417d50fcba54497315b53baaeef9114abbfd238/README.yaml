@@ -65,7 +65,10 @@ EXPERIMENT:
   FORMFACTOR: []
 bioschema_properties:
   name: All-atom MD simulations of POPC/SSM/CHOL mixture
+  alternateName: POPC/SSM/CHOL bilayer in water (with ions), 321.15 K, NPT
   description: 'All-atom MD simulation of lipid bilayer in water, with composition POPC/SSM/CHOL, at 321.15 K, NPT conditions. Force field: CHARMM36. Water model: TIP3P. Number of molecules: 100 POPC + 100 SSM + 100 CHOL + 9000 SOL + 18 Na+ + 18 Cl-. SSM is (d18:1/18:0) sphingomyelin. Duration of the simulation: 300 ns.'
+  identifier: 10.5281/zenodo.8337239
+  sameAs: https://doi.org/10.5281/zenodo.8337239
   datePublished: '2023-09-12'
   license:
     spdx: CC-BY-4.0
@@ -80,9 +83,67 @@ bioschema_properties:
     identifier: https://orcid.org/0000-0003-1410-6570
   - name: Monticelli, Luca
     identifier: https://orcid.org/0000-0002-6352-4595
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - SM18
+  - N-stearoyl-D-erythro-sphingosylphosphorylcholine
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CHOL
+  - cholesterol
+  - SOD
+  - CLA
+  - MD
+  - all-atom
+  - CHARMM36
+  - sphingomyelin
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2020.4 and 2021.4)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.8337239
+    name: POPC/SSM/CHOL bilayer in water (with ions), 321.15 K, NPT
+    contentSize: 684888780
+    encodingFormat: application/x-xtc
+    hasPart:
+    - NPT.xtc
+    - NPT.tpr
+    - topol.top
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.8337239
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

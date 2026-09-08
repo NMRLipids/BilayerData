@@ -52,7 +52,10 @@ EXPERIMENT:
 ID: 687
 bioschema_properties:
   name: Simulations of POPC/cholesterol mixtures at 298 K, three system sizes, Slipids
+  alternateName: Slipids_POPC_CHOL20_M
   description: 'GROMACS input and output files. Slipids. Membranes with 64, 256, and 1024 lipids. New version, added missing file: CHOL4_medium.edr'
+  identifier: 10.5281/zenodo.7022749
+  sameAs: https://doi.org/10.5281/zenodo.7022749
   datePublished: '2022-08-23'
   license:
     spdx: CC-BY-4.0
@@ -63,9 +66,61 @@ bioschema_properties:
   creator:
   - name: Javanainen, Matti
     identifier: https://orcid.org/0000-0003-4858-364X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CHOL
+  - cholesterol
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2021)
+  - Slipids force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.7022749
+    name: Slipids_POPC_CHOL20_M
+    contentSize: 323708180
+    encodingFormat: application/x-xtc
+    hasPart:
+    - CHOL8_medium.xtc
+    - CHOL8_medium.tpr
+    - CHOL8_medium.top
+  isBasedOn:
+  - experiments/FormFactors/10.1021/acs.jctc.3c00648/5
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.7022749
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

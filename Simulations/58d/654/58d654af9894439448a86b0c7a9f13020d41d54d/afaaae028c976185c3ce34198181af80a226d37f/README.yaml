@@ -42,7 +42,10 @@ EXPERIMENT:
 AUTHORS_CONTACT: Hoelfich, Jullianne
 bioschema_properties:
   name: POPC 128 lipid Sage2.2.1-alkane-filtered (force field development)
+  alternateName: POPCandTIP3P
   description: POPC 128 lipid Sage2.2.1-alkane-filtered (note that this is not a released openFF force field, but instead a version used for force field development) 500 ns simulation, charges assigned with NAGL openff-gnn-am1bcc-0.1.0-rc.3.pt
+  identifier: 10.5281/zenodo.15328669
+  sameAs: https://doi.org/10.5281/zenodo.15328669
   datePublished: '2025-05-02'
   license:
     spdx: CC-BY-4.0
@@ -52,8 +55,60 @@ bioschema_properties:
   publisher: Zenodo
   creator:
   - name: JH
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - FF-development force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.15328669
+    name: POPCandTIP3P
+    contentSize: 613193432
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md_every_100_ps.xtc
+    - md.tpr
+    - bilayer.top
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
+  - experiments/OrderParameters/10.1039/c2cp42738a/1
+  - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
   _source:
     api: datacite
     doi: 10.5281/zenodo.15328669
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

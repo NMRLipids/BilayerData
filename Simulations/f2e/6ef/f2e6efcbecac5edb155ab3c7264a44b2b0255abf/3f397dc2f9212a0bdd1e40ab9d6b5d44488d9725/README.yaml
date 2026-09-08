@@ -46,7 +46,10 @@ EXPERIMENT:
 ID: 619
 bioschema_properties:
   name: Gromos-Ckp Dope Simulations (Versions 1 And 2) 271 K
+  alternateName: 128DOPE_4789SOL_271K_GROMOS-CKP_v1
   description: Two GROMOS-CKP DOPE bilayer simulations performed using GROMACS 5.0.6 for 500 ns with different starting velocities. Simulations were performed with a 1.4 nm cut-off with PME for the Coulombic and a 1.4 nm cut-off for the van der Waals interactions with a dispersion correction. These simulations were performed at 271 K with a 128 lipid bilayer. The full trajectories are provided bar the initial 100 ns. The starting structure was taken from an equilibrated DOPE membrane simulated with an older version of the force field which used the PC charges in the head group (see the SI of https://pubs.acs.org/doi/abs/10.1021/jp207013v). The newer PE parameters were constructed using the standard GROMOS lysine parameters.
+  identifier: 10.5281/zenodo.1293941
+  sameAs: https://doi.org/10.5281/zenodo.1293941
   datePublished: '2018-06-20'
   license:
     spdx: CC-BY-4.0
@@ -56,9 +59,57 @@ bioschema_properties:
   publisher: Zenodo
   creator:
   - name: Piggot, Thomas
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DOPE
+  - 1,2-dioleoyl-sn-glycero-3-phosphoethanolamine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.0.6)
+  - GROMOS-CKP force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1293941
+    name: 128DOPE_4789SOL_271K_GROMOS-CKP_v1
+    contentSize: 6322655412
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md_DOPE_CKP_new_NH3_PME_verlet_v1_100-500ns.xtc
+    - for-md_DOPE_CKP_new_NH3_PME_verlet_v1.tpr
+    - md_DOPE_CKP_new_NH3_PME_verlet_v1.gro
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1293941
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

@@ -55,7 +55,10 @@ EXPERIMENT:
 ID: 870
 bioschema_properties:
   name: MD simulation of POPI-POPC (80:20) bilayer with CHARMM36 force field
+  alternateName: POPI-POPC (80:20), full hydration, 310 K, NH4+ counter ions
   description: 'Dataset contains simulation files of MD simulation of POPI-POPC (80:20) bilayer in CHARMM36 force field with neutralizing NH4+ ions. System: POPI-POPC (80:20) bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 10000 Salt: Neutralizing NH4+ Number of cations: 160 Simulation time: 500 ns Sampling rate: every 10 ps Simulation engine: GROMACS 2022.4 Force field: CHARMM36 (parameters as charmm-gui input files 2.11.2023) Temperature: 310 K Equilibration: 50 ns (equilibration period in the uploaded trajectory, evaluated based on area per lipid) Pre-equilibration: 2.8 ns'
+  identifier: 10.5281/zenodo.10253820
+  sameAs: https://doi.org/10.5281/zenodo.10253820
   datePublished: '2023-12-18'
   license:
     spdx: CC-BY-4.0
@@ -65,8 +68,60 @@ bioschema_properties:
   publisher: Zenodo
   creator:
   - name: Kurki, Milla
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPI
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - NH4
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2022.4)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.10253820
+    name: POPI-POPC (80:20), full hydration, 310 K, NH4+ counter ions
+    contentSize: 10816314552
+    encodingFormat: application/x-xtc
+    hasPart:
+    - production.xtc
+    - production.tpr
+    - topol.top
+    - production.gro
   _source:
     api: datacite
     doi: 10.5281/zenodo.10253820
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

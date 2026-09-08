@@ -56,7 +56,10 @@ DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 368
 bioschema_properties:
   name: POPC:POPG 4:1 MD simulation with CHARMM36 in 1 M CaCL2 solution with Na+ counterions
+  alternateName: POPC:POPG(4:1)+1MCaCl_T298K
   description: CHARMM36 POPC:POPG 4:1 bilayer simulation in 1 M CaCl2 solution. The initial structure was taken from CHARMM-GUI. Temperature is 298 K. The system contains 350 POPC, 88 POPG, 88 sodium ions, 24927 TIP3 water molecules, 451 Ca2+ ions and 902 Cl- ions. Total length of simulation is 400 ns. First 100 ns were discarded as equilibration time. Saving frequency of 100-300ns.xtc is 20 ps.
+  identifier: 10.5281/zenodo.3997037
+  sameAs: https://doi.org/10.5281/zenodo.3997037
   datePublished: '2020-08-24'
   license:
     spdx: CC-BY-4.0
@@ -66,9 +69,61 @@ bioschema_properties:
   publisher: Zenodo
   creator:
   - name: Kiirikki, M. Anne; Ollila O. H. Samuli
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - CLA
+  - CAL
+  - SOD
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3997037
+    name: POPC:POPG(4:1)+1MCaCl_T298K
+    contentSize: 7226671760
+    encodingFormat: application/x-xtc
+    hasPart:
+    - 100-400ns.xtc
+    - run_400ns.tpr
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3997037
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

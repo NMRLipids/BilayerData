@@ -45,7 +45,10 @@ EXPERIMENT:
   FORMFACTOR: []
 bioschema_properties:
   name: 'PAPC lipid bilayer: 1-palmitoyl-2-arachidonoyl-sn-glycero-3-phosphocholine (16:0)(20:4) | Deutrated, 16:0 | 303K, CHARMM36m-WYF forcefield, NAMD 3.0.2, 2* 500 ns'
+  alternateName: PAPC 16:0 Deu
   description: 'PAPC lipid bilayer: 1-palmitoyl-2-arachidonoyl-sn-glycero-3-phosphocholine (16:0)(20:4) lipid bilayer | Deutrated, 16:0 200 lipid molecules (100 lipids per leaflet) and 80mM KCl. Lipid for a total water content of 50 wt% >>> Hydration: 45 Temperature: 303.15 System was prepared using CHARMM-GUI. CHARMM36m-WYF forcefield was used. Simulation was performed with NAMD 3.0.2. timestep: 2.0 fs 500 ns production after 150 ns equilibration dcd saving freq: 10000 2 replicates'
+  identifier: 10.5281/zenodo.18471806
+  sameAs: https://doi.org/10.5281/zenodo.18471806
   datePublished: '2026-02-03'
   license:
     spdx: CC-BY-4.0
@@ -58,8 +61,58 @@ bioschema_properties:
     identifier: https://orcid.org/0000-0002-3456-5064
   - name: Reuter, Nathalie
     identifier: https://orcid.org/0000-0002-3649-7675
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - PAPC
+  - 1-palmitoyl-2-arachidonoyl-sn-glycero-3-phosphocholine
+  - POT
+  - CLA
+  measurementTechnique:
+  - Molecular dynamics simulation (NAMD 3.0)
+  - CHARMM36m force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.18471806
+    name: PAPC 16:0 Deu
+    contentSize: 16147400276
+    encodingFormat: application/x-dcd
+    hasPart:
+    - production-rep2.dcd
+    - step5_input.psf
+    - step5_input.pdb
   _source:
     api: datacite
     doi: 10.5281/zenodo.18471806
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

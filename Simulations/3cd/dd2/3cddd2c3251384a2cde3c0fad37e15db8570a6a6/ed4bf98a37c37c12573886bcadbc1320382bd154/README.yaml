@@ -45,7 +45,10 @@ EXPERIMENT:
 ID: 817
 bioschema_properties:
   name: MD simulation of POPC bilayer with OPLS4 force field. 5 w/l
+  alternateName: 200POPC_1kSOL_300K
   description: 'MD simulation of POPC bilayer with OPLS4 force field. 5w/l Dataset contains trajectories (_trj), topologies (-out.cms), input files and converted gromacs format files For the ease of the upload, trajectory file (_trj) is divided into 4 pieces and tarred (named desmond_md_popc_5wl_opls4_x-xns.tar.gz) System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 1000 Simulation time: 1000 ns Simulation engine: Desmond 2022-2 Temperature: 300 K'
+  identifier: 10.5281/zenodo.10949612
+  sameAs: https://doi.org/10.5281/zenodo.10949612
   datePublished: '2024-04-09'
   license:
     spdx: CC-BY-4.0
@@ -55,8 +58,59 @@ bioschema_properties:
   publisher: Zenodo
   creator:
   - name: Kurki, Milla
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs Desmond 2022-2)
+  - OPLS4 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.10949612
+    name: 200POPC_1kSOL_300K
+    contentSize: 7417292152
+    encodingFormat: application/x-xtc
+    hasPart:
+    - popc_5wl_opls4_350-1000ns.xtc
+    - analyze.tpr
+    - popc_5wl_opls4.top
+    - popc_5wl_opls4.gro
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/1
   _source:
     api: datacite
     doi: 10.5281/zenodo.10949612
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

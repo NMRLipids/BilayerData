@@ -46,7 +46,10 @@ EXPERIMENT:
 ID: 802
 bioschema_properties:
   name: MD simulation of POPC bilayer with OPLS4 force field. 7.5 w/l.
+  alternateName: 200POPC_1500SOL_300K
   description: 'MD simulation of POPC (1-palmitoyl-2-oleoyl-phosphatidylcholine) bilayer with OPLS4 force field. 7.5 w/l Dataset contains original desmond trajectories (_trj), topologies (-out.cms), input files (.cfg, .msj, .cms), and other files For the ease of the upload, trajectory files (_trj) are divided to 250ns pieces and tarred (named desmond_md_popc7.5wl_opls4_x-xns_trj.tar.gz) Dataset also contains Gromacs converted files (.xtc, .gro and .top) System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 1500 Simulation time: 500 ns Simulation engine: Desmond 2022-2 Temperature: 300 K'
+  identifier: 10.5281/zenodo.10948670
+  sameAs: https://doi.org/10.5281/zenodo.10948670
   datePublished: '2024-04-09'
   license:
     spdx: CC-BY-4.0
@@ -56,8 +59,59 @@ bioschema_properties:
   publisher: Zenodo
   creator:
   - name: Kurki, Milla
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs Desmond XXXX-X)
+  - OPLS4 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.10948670
+    name: 200POPC_1500SOL_300K
+    contentSize: 4785770236
+    encodingFormat: application/x-xtc
+    hasPart:
+    - popc_75wl_opls4_step10ps_100-500ns.xtc
+    - analyze.tpr
+    - structure.top
+    - popc_75wl_opls4.gro
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/2
   _source:
     api: datacite
     doi: 10.5281/zenodo.10948670
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

@@ -51,7 +51,10 @@ EXPERIMENT:
 ID: 292
 bioschema_properties:
   name: Macrog Pops Simulations (Versions 1 And 2) 298 K With Corrected Po Not Op Tails
+  alternateName: 128POPS_4480SOL_128SOD_298K_v1
   description: MacRog POPS simulations (298 K, starting structure from the CHARMM-GUI) performed with 1.0 nm cut-offs, PME and a dispersion correction. Two simulations were performed with differently assigned random starting velocities. Note that unlike the original MacRog simulations, these have the correct PO and not OP tails.
+  identifier: 10.5281/zenodo.1283335
+  sameAs: https://doi.org/10.5281/zenodo.1283335
   datePublished: '2018-06-05'
   license:
     spdx: CC-BY-4.0
@@ -61,9 +64,63 @@ bioschema_properties:
   publisher: Zenodo
   creator:
   - name: Piggot, Thomas
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  - SOD
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - MacRog force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1283335
+    name: 128POPS_4480SOL_128SOD_298K_v1
+    contentSize: 221997532
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md-MacRog_POPS_fix_tails_298K_v1_400-500ns_skip10.xtc
+    - for-md-MacRog_POPS_fix_tails_298K_v1.tpr
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jctc.9b00824/1
+  - experiments/OrderParameters/10.1021/acs.jpcb.9b06091/1
+  - experiments/FormFactors/10.1039/C4SM00066H/1
+  - experiments/FormFactors/10.1039/C4SM00066H/2
+  - experiments/FormFactors/10.1039/C4SM00066H/3
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1283335
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

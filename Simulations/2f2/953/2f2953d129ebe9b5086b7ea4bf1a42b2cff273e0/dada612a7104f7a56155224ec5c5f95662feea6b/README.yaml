@@ -48,7 +48,10 @@ EXPERIMENT:
 ID: 309
 bioschema_properties:
   name: Simulations of different single-component bilayers, three different system sizes
+  alternateName: 256DPPC_12800SOL_333K
   description: For the calculation of shear viscosities based on Vögele et al., Phys. Rev. Lett. 120, 268104 (2018). All simulations at 333 K.
+  identifier: 10.5281/zenodo.6943413
+  sameAs: https://doi.org/10.5281/zenodo.6943413
   datePublished: '2022-07-30'
   license:
     spdx: CC-BY-4.0
@@ -59,9 +62,61 @@ bioschema_properties:
   creator:
   - name: Javanainen, Matti
     identifier: https://orcid.org/0000-0003-4858-364X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.6943413
+    name: 256DPPC_12800SOL_333K
+    contentSize: 263368988
+    encodingFormat: application/x-xtc
+    hasPart:
+    - DPPC_medium.xtc
+    - DPPC_medium.tpr
+    - DPPC_medium.top
+    - DPPC_medium.gro
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/bi00529a007/1
+  - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/10
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.6943413
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

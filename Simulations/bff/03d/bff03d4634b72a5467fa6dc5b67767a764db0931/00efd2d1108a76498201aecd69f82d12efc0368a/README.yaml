@@ -45,7 +45,10 @@ EXPERIMENT:
 ID: 820
 bioschema_properties:
   name: SOPC bilayer, CHARMM36
+  alternateName: SOPC
   description: Simulation of SOPC bilayer with 32 lipids per leavlet for 500ns after minimization and 200ns equilibration. The CHARRM36 forcefield was used.
+  identifier: 10.5281/zenodo.12698832
+  sameAs: https://doi.org/10.5281/zenodo.12698832
   datePublished: '2024-07-09'
   license:
     spdx: CC-BY-4.0
@@ -57,8 +60,59 @@ bioschema_properties:
   - name: Nesterenko, Alexey
     identifier: https://orcid.org/0000-0003-1592-257X
   - name: Hörstel, Ferdinand
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - SOPC
+  - 1-stearoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2022.5)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.12698832
+    name: SOPC
+    contentSize: 1694301792
+    encodingFormat: application/x-xtc
+    hasPart:
+    - prod_500ns.xtc
+    - prod_500ns.tpr
+    - topol.top
+  isBasedOn:
+  - experiments/FormFactors/10.1103.008/PhysRevE.80.021931/1
+  - experiments/FormFactors/10.1103.008/PhysRevE.80.021931/2
   _source:
     api: datacite
     doi: 10.5281/zenodo.12698832
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

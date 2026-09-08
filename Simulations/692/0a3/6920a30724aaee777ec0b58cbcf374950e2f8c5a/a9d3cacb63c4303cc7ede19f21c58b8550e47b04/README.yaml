@@ -51,7 +51,10 @@ WARNINGS:
 ID: 805
 bioschema_properties:
   name: MD simulation of POPC bilayer with OPLS3e force field. Full hydration 44 w/l
+  alternateName: 200POPC_8859SOL_300K_run_with_demond_convert_gromacs
   description: 'MD simulation of POPC (1-palmitoyl-2-oleoyl-phosphatidylcholine) bilayer with OPLS3e force field. Full hydration 44 w/l. Dataset contains trajectories (_trj), topologies (-out.cms) and input files (.cfg, .msj, .cms), and other files. For the ease of the upload, trajectory files (_trj) are divided to 100ns pieces and tarred (named popc44_x-xns_trj.tar.gz) Gromacs converted files are also included: popchydr44_0-500ns.xtc, desmond_md_popc200lip500ns-in_converted.gro desmond_md_popc200lip500ns-in_converted.top System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 8859 Simulation engine: Desmond 2019-4 (This version includes fixed time stamps in converted .xtc file)'
+  identifier: 10.5281/zenodo.10183982
+  sameAs: https://doi.org/10.5281/zenodo.10183982
   datePublished: '2022'
   license:
     spdx: CC-BY-4.0
@@ -61,8 +64,61 @@ bioschema_properties:
   publisher: Zenodo
   creator:
   - name: Milla Lindström
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs Desmond 2019-4)
+  - OPLS3e force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.10183982
+    name: 200POPC_8859SOL_300K_run_with_demond_convert_gromacs
+    contentSize: 9968773016
+    encodingFormat: application/x-xtc
+    hasPart:
+    - popchysr44_0-500ns_step10ps.xtc
+    - analyze.tpr
+    - desmond_md_popc200lip500ns-in_converted.top
+    - desmond_md_popc200lip500ns-in_converted.gro
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
+  - experiments/OrderParameters/10.1039/c2cp42738a/1
+  - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
   _source:
     api: datacite
     doi: 10.5281/zenodo.10183982
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

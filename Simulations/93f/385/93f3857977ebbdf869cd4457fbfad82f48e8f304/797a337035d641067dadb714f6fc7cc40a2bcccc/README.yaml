@@ -48,7 +48,10 @@ EXPERIMENT:
 ID: 118
 bioschema_properties:
   name: 'Md Simulation Trajectory Of A Lipid Bilayer: 70/30 Mol% Popc/Cholesterol . Slipids, Gromacs 4.6.3. 2016.'
+  alternateName: 154CHOL_358POPC_21183SOL_298K
   description: 'MD simulation trajectory files, for fully hydrated POPC + CHOLESTEROL bilayer (70/30 mol%) [358 POPC, 154 CHOL, 21183 WAT]. The SLIPIDS force field was used with Gromacs 4.6.3. Conditions: T=298K. 170 ns each trajectory, last 100 ns analyzed.'
+  identifier: 10.5281/zenodo.62026
+  sameAs: https://doi.org/10.5281/zenodo.62026
   datePublished: '2016-09-10'
   license:
     spdx: CC0-1.0
@@ -58,9 +61,60 @@ bioschema_properties:
   publisher: Zenodo
   creator:
   - name: Favela-Rosales, Fernando
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - CHOL
+  - cholesterol
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - slipids
+  - gromacs
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 4.6.3)
+  - Slipids force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.62026
+    name: 154CHOL_358POPC_21183SOL_298K
+    contentSize: 458213532
+    encodingFormat: application/x-xtc
+    hasPart:
+    - popc30_T298_every100ps.xtc
+    - popc30_T298_every100ps.tpr
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.62026
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

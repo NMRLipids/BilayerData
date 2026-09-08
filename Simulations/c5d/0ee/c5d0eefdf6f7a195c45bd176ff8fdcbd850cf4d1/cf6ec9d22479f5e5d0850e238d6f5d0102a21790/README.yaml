@@ -57,7 +57,10 @@ EXPERIMENT:
 ID: 198
 bioschema_properties:
   name: Simulations Of Popc Lipid Bilayer In Water Solution At Various Nacl And Cacl2 Concentrations Using Ecc-Popc Force Field And Various Water Models
+  alternateName: 128POPC_6400SOL_29CAL_58CLA_313K_OPC3model
   description: Classical molecular dynamics simulations of a POPC lipid bilayer in water solution at various NaCl and CaCl2 concentrations using ECC-POPC force field parameters, various water models and ECC-ions. Simulations with SPC/E water model are in a separate Zenodo deposit https://doi.org/10.5281/zenodo.1118266 file names report molar fraction of cations (i.e. not bulk concentrations) simulations performed with Gromacs 5.1.4 (*.xtc files) and openMM 7 (*.dcd files) simulation length 300 ns temperature 313 K (otherwise noted)
+  identifier: 10.5281/zenodo.1118980
+  sameAs: https://doi.org/10.5281/zenodo.1118980
   datePublished: '2017-12-19'
   license:
     spdx: CC-BY-4.0
@@ -68,9 +71,60 @@ bioschema_properties:
   creator:
   - name: Melcr, Josef
     identifier: https://orcid.org/0000-0003-4729-3990
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CAL
+  - CLA
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.1.4)
+  - ECC-lipids force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1118980
+    name: 128POPC_6400SOL_29CAL_58CLA_313K_OPC3model
+    contentSize: 2024457120
+    encodingFormat: application/x-xtc
+    hasPart:
+    - sim_ECC-POPC_251mM_CaCl-2s_OPC3.xtc
+    - sim_ECC-POPC_251mM_CaCl-2s_OPC3.tpr
+    - sim_ECC-POPC_251mM_CaCl-2s_OPC3.top
+    - sim_ECC-POPC_251mM_CaCl-2s_OPC3.gro
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1118980
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

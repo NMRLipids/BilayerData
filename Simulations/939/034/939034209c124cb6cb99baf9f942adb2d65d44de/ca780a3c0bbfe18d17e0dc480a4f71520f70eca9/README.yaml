@@ -48,7 +48,10 @@ EXPERIMENT:
 ID: 545
 bioschema_properties:
   name: Md Simulation Trajectory And Related Files For Dppc Bilayer In Full Hydration (Poger Gromos 53A6_L, Gromacs 4.0.7, Reaction Field, Traj 2)
+  alternateName: 128DPPC_5841SOL_323K
   description: Equilibrated DPPC lipid bilayer simulation ran with Gromacs 4.0.7 using Reaction Field for computing electrostatics, Poger GROMOS 53A6_L force field in full hydration (dx.doi.org/10.1002/jcc.21396), 100ns, T=323K, 128 DPPC molecules, 5841 water molecules. This data is ran for the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi. If data is used, please cite nmrlipids.blogspot.fi project and the original publication of the parameters (dx.doi.org/10.1002/jcc.21396).
+  identifier: 10.5281/zenodo.14591
+  sameAs: https://doi.org/10.5281/zenodo.14591
   datePublished: '2015-01-26'
   license:
     spdx: GPL-3.0-only
@@ -60,9 +63,61 @@ bioschema_properties:
   - name: Fuchs, Patrick F.J.
   citation:
   - 10.1002/jcc.21396
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 4.0.7)
+  - Poger GROMOS 53A6_L; Reaction Field for computing electrostatics force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.14591
+    name: 128DPPC_5841SOL_323K
+    contentSize: 174398092
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md.xtc
+    - md.tpr
+    - example_lipids.top
+    - em.gro
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/bi00687a021/1
+  - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/4
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.14591
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

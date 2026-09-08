@@ -55,7 +55,10 @@ TYPEOFSYSTEM: lipid bilayer
 ID: 922
 bioschema_properties:
   name: All-atom POPC-SSM (1:1) and POPC-SSM-CHOL (1:1:1) trajectories
+  alternateName: POPC:SSM(sphingomyelin):CHOL(1:1:1)
   description: All-atom MD simulation trajectories of a POPC and SSM (sphingomyelin) bilayer with and without Cholesterol; molar ratio POPC:SSM (1:1) and POPC:SSM:CHL (1:1:1). Simulations were performed with NAMD using the CHARMM36 force field.
+  identifier: 10.5281/zenodo.21937938
+  sameAs: https://doi.org/10.5281/zenodo.21937938
   datePublished: '2026-08-14'
   license:
     spdx: CC-BY-4.0
@@ -68,8 +71,64 @@ bioschema_properties:
     identifier: https://orcid.org/0000-0002-2748-4901
   citation:
   - 10.1038/s41467-025-58334-z
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SM18
+  - N-stearoyl-D-erythro-sphingosylphosphorylcholine
+  - CHOL
+  - cholesterol
+  - SOD
+  - CLA
+  - lipid bilayer
+  - MD simulation
+  measurementTechnique:
+  - Molecular dynamics simulation (NAMD NAMD 2.13)
+  - Charmm36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.21937938
+    name: POPC:SSM(sphingomyelin):CHOL(1:1:1)
+    contentSize: 10673709396
+    encodingFormat: application/x-dcd
+    hasPart:
+    - cnt-mmb_111.dcd
+    - input_111.psf
+    - input_111.pdb
   _source:
     api: datacite
     doi: 10.5281/zenodo.21937938
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

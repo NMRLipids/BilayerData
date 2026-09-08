@@ -59,7 +59,10 @@ EXPERIMENT:
 ID: 140
 bioschema_properties:
   name: Popc:Pops (4:1) Simulation With Berger Model At 310K
+  alternateName: 102POPC_26POPS_26SOD_4290SOL_310K_Berger
   description: POPC:POPS (4:1) simulation with Berger model at 310K
+  identifier: 10.5281/zenodo.1475285
+  sameAs: https://doi.org/10.5281/zenodo.1475285
   datePublished: '2018-10-30'
   license:
     spdx: CC-BY-4.0
@@ -69,9 +72,61 @@ bioschema_properties:
   publisher: Zenodo
   creator:
   - name: Ollila O. H. Samuli
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  - SOD
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - Berger force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1475285
+    name: 102POPC_26POPS_26SOD_4290SOL_310K_Berger
+    contentSize: 1463959460
+    encodingFormat: application/x-xtc
+    hasPart:
+    - trajectory.xtc
+    - topol.tpr
+    - topol.top
+    - run.gro
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1475285
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

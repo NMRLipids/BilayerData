@@ -39,7 +39,10 @@ EXPERIMENT:
   - 10.1016/j.bbamem.2011.07.022/7
 bioschema_properties:
   name: Fully hydrated DLPC bilayer at different temperatures simulated using CHARMM36 with LJ-PME and LJ-cutoff
+  alternateName: Fully hydrated DLPC bilayer in SPC/E water (LJ-PME)
   description: 'All-atom MD simulation trajectories of a DLPC lipid bilayer consisting of 50 DLPC molecules per leaflet. Simulations were performed with GROMACS 2022 using the CHARMM36/LJ-PME force field (10.1021/acs.jctc.0c01327) with LJ-PME treatment of LJ interactions (1.2 nm). For comparison, additional simulations employed the conventional LJ cutoff scheme. The bilayer was simulated at four temperatures: 293, 303, 323, and 333 K. The system was fully hydrated with 4314 SPC/E water molecules. The repository contains 100 ns trajectories saved every 10 ps. All simulations were initiated from the same starting configuration (init.gro); therefore, the trajectories include the initial relaxation and equilibration of the bilayer. Filenames: MD1.2: LJ-PME, 293 K MD1.3: LJ-PME, 303 K MD1.4: LJ-PME, 323 K MD1.5: LJ-PME, 333 K MD2.2: LJ-cutoff, 293 K MD2.3: LJ-cutoff, 303 K MD2.4: LJ-cutoff, 323 K MD2.5: LJ-cutoff, 333 K init.gro: common starting configuration used for all simulations'
+  identifier: 10.5281/zenodo.20579050
+  sameAs: https://doi.org/10.5281/zenodo.20579050
   datePublished: '2026-06-07'
   license:
     spdx: CC-BY-4.0
@@ -50,8 +53,60 @@ bioschema_properties:
   creator:
   - name: Kanduč, Matej
     identifier: https://orcid.org/0000-0002-5307-7488
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DLPC
+  - 1,2-dilauroyl-sn-glycero-3-phosphocholine
+  - Molecular Dynamics Simulation
+  - Lipid Bilayers
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs Gromacs 2022)
+  - CHARMM36/LJ-PME force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.20579050
+    name: Fully hydrated DLPC bilayer in SPC/E water (LJ-PME)
+    contentSize: 855709024
+    encodingFormat: application/x-xtc
+    hasPart:
+    - MD1.3.xtc
+    - MD1.3.tpr
+    - init.gro
+  isBasedOn:
+  - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/7
   _source:
     api: datacite
     doi: 10.5281/zenodo.20579050
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

@@ -57,7 +57,10 @@ EXPERIMENT:
 ID: 299
 bioschema_properties:
   name: MD simulation trajectory and related files for POPC/cholesterol (50 mol%) bilayer (Berger model delivered by Tieleman, modified Höltje, Gromacs 4.5)
+  alternateName: 64CHOL_64POPC_10314SOL_298K_Berger
   description: Equilibrated POPC lipid bilayer simulation ran with Gromacs 4.5, Berger force field delivered by Peter Tieleman (http://wcm.ucalgary.ca/tieleman/downloads), Modified Höltje model for cholesterol (http://dx.doi.org/10.1016/S0005-2736(01)00270-X), 50ns, T=298K, 64 POPC molecules, 10314 water molecules, 64 cholesterol molecules. This data is used in http://dx.doi.org/10.1039/C2CP42738A and in the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi. If data is used, please cite [Ferreira et al. Phys. Chem. Chem. Phys. , 2013,15, 1976-1989], the nmrlipids.blogspot.fi project and the original publication related to the force field.
+  identifier: 10.5281/zenodo.4643862
+  sameAs: https://doi.org/10.5281/zenodo.4643862
   datePublished: '2014-12-17'
   license:
     spdx: GPL-3.0-only
@@ -72,9 +75,62 @@ bioschema_properties:
   citation:
   - 10.1101/2020.11.09.374850
   - 10.1021/acs.jpcb.5b04878
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CHOL
+  - cholesterol
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 4.5)
+  - Berger and Modified Höltje model for cholesterol force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.4643862
+    name: 64CHOL_64POPC_10314SOL_298K_Berger
+    contentSize: 4336587144
+    encodingFormat: application/x-trr
+    hasPart:
+    - traj.trr
+    - POPCchol5.tpr
+    - CHOLpopc.top
+  isBasedOn:
+  - experiments/OrderParameters/10.1039/c2cp42738a/5
+  - experiments/FormFactors/10.1021/acs.jctc.3c00648/10
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.4643862
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

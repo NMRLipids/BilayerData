@@ -57,7 +57,10 @@ EXPERIMENT:
 ID: 355
 bioschema_properties:
   name: Popc_Ulmschneider_Opls_Nacl_1Mol
+  alternateName: 128POPC_5120SOL_77SOD_77CLA_298K
   description: 'MD simulation trajectory and related files for fully hydrated POPC bilayer with 1M NaCl. The Ulmschneider force field for POPC was used with Gromacs 5.0.3 [1,2]. Ions were described by OPLS-AA force field (Gromacs 5.0.3). Conditions: T=298.15, 128 POPC molecules, 5120 tip3p waters, 77 Na, 77 Cl. 200ns trajectory (preceded by 5ns NPT equillibration). This data is ran for the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi [1] J.P. Ulmschneider & M.B. Ulmschneider, United Atom Lipid Parameters for Combination with the Optimized Potentials for Liquid Simulations All-Atom Force Field, JCTC 2009, 5(7), 1803–1813 [2] http://lipidbook.bioch.ox.ac.uk/package/show/id/52.html'
+  identifier: 10.5281/zenodo.30894
+  sameAs: https://doi.org/10.5281/zenodo.30894
   datePublished: '2015-09-11'
   license:
     spdx: GPL-3.0-only
@@ -68,9 +71,62 @@ bioschema_properties:
   creator:
   - name: Girych Mykhailo
   - name: Ollila O. H. Samuli
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SOD
+  - CLA
+  - ULMSCHNEIDER
+  - Gromacs
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.0.3)
+  - Ulmschneider force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.30894
+    name: 128POPC_5120SOL_77SOD_77CLA_298K
+    contentSize: 1647033628
+    encodingFormat: application/x-xtc
+    hasPart:
+    - 1m_popc_ulm_200.xtc
+    - run_200ns_gpu.tpr
+    - topol.top
+    - confout.gro
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.30894
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

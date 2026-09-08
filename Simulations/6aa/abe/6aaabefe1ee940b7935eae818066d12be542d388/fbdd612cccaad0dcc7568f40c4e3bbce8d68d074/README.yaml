@@ -53,7 +53,10 @@ EXPERIMENT:
 ID: 157
 bioschema_properties:
   name: Md Simulation Trajectory For Popc Bilayer With 510Mm Cacl_2 (Orange, Gromacs 4.5.)
+  alternateName: 72POPC_2802SOL_52CLA_26CAL_298K
   description: Equilibrated POPC lipid bilayer simulation ran with Gromacs 4.5, Orange, 60ns, T=298K, 72 POPC molecules, 2802 water molecules, 26 Ca molecules, 52 Cl molecules. This data is used in the NMRLipids II project (nmrlipids.blospot.fi, https://github.com/NMRLipids/lipid_ionINTERACTION). The Orange model is unpublished lipid model developed by Luca Monticelli et al. http://perso.ibcp.fr/luca.monticelli/research/index.html. Beta version of the model is used here, thus only trajectory is shared.
+  identifier: 10.5281/zenodo.34498
+  sameAs: https://doi.org/10.5281/zenodo.34498
   datePublished: '2015-12-02'
   license:
     spdx: CC0-1.0
@@ -65,9 +68,58 @@ bioschema_properties:
   - name: Ollila, O. H. Samuli
   - name: Määttä, Jukka
   - name: Monticelli, Luca
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - CAL
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 4.5)
+  - Orange force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.34498
+    name: 72POPC_2802SOL_52CLA_26CAL_298K
+    contentSize: 266813980
+    encodingFormat: application/x-xtc
+    hasPart:
+    - popcRUN2.xtc
+    - popcRUN2.tpr
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.34498
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

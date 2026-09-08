@@ -47,7 +47,10 @@ EXPERIMENT:
   FORMFACTOR: []
 bioschema_properties:
   name: MD simulation of POPC bilayer with CHARMM36 force field. 12 w/l.
+  alternateName: 200POPC_2400SOL_300K
   description: 'MD simulation of POPC (1-palmitoyl-2-oleoyl-phosphatidylcholine) bilayer with CHARMM36 force field. 12 w/l. Dataset contains simulation files including trajectories (.xtc) (original production.xtc, and equilibrated and centered ). System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 2400 Simulation time: 500 ns Sampling rate: every 10 ps Simulation engine: GROMACS 2022.4 Temperature: 300 K'
+  identifier: 10.5281/zenodo.10908936
+  sameAs: https://doi.org/10.5281/zenodo.10908936
   datePublished: '2024-04-02'
   license:
     spdx: CC-BY-4.0
@@ -57,8 +60,59 @@ bioschema_properties:
   publisher: Zenodo
   creator:
   - name: Kurki, Milla
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2022.4)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.10908936
+    name: 200POPC_2400SOL_300K
+    contentSize: 5666540128
+    encodingFormat: application/x-xtc
+    hasPart:
+    - centered_pbcmol-50-500.xtc
+    - production.tpr
+    - topol.top
+    - production.gro
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/3
   _source:
     api: datacite
     doi: 10.5281/zenodo.10908936
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

@@ -56,7 +56,10 @@ EXPERIMENT:
 ID: 611
 bioschema_properties:
   name: Dppc_Berger_Nacl_Scaled
+  alternateName: 72DPPC_2864SOL_8SOD_8CLA_323K
   description: 'MD simulation trajectory and related files for fully hydrated DPPC bilayer with 150 mM NaCl. Berger-DPPC-98 force field delivered by Peter Tieleman (http://wcm.ucalgary.ca/tieleman/downloads) was used with Gromacs 5.0.4. Ions were described by the gromos force field. Ion charges were scaled by a factor 0.7. Conditions: T=323K, 72 lipids, 2880 SPC waters, 8 Na, 8 Cl. 120 ns trajectory, last 60 ns analyzed.'
+  identifier: 10.5281/zenodo.16320
+  sameAs: https://doi.org/10.5281/zenodo.16320
   datePublished: '2015-03-24'
   license:
     spdx: CC0-1.0
@@ -66,9 +69,59 @@ bioschema_properties:
   publisher: Zenodo
   creator:
   - name: Määttä, Jukka
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  - SOD
+  - CLA
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 5.0.4)
+  - Berger-DPPC-98 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.16320
+    name: 72DPPC_2864SOL_8SOD_8CLA_323K
+    contentSize: 265846564
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md.xtc
+    - md.tpr
+    - topol.top
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.16320
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

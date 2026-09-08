@@ -56,7 +56,10 @@ EXPERIMENT:
 ID: 117
 bioschema_properties:
   name: Popc Bilayer With 42% Of Dihexadecyldimethylammonium Simulated At T313K With The Lipid14 Model Using Gromacs
+  alternateName: 100POPC_70DHMDMAB_6214SOL_50CLA_313K
   description: POPC bilayer with 42% of dihexadecyldimethylammonium simulated at T313K with the Lipid14 model using Gromacs. Last 180ns of 200ns long simulation. See also http://nmrlipids.blogspot.cz/2017/07/quantifying-effect-of-bound-charge-on.html and https://github.com/NMRLipids/MATCH/tree/master/Data/Lipid_Bilayers/POPC%2B42%25DHMDMAB/T313K/MODEL_LIPID14
+  identifier: 10.5281/zenodo.1020671
+  sameAs: https://doi.org/10.5281/zenodo.1020671
   datePublished: '2017-10-18'
   license:
     spdx: CC-BY-4.0
@@ -66,9 +69,60 @@ bioschema_properties:
   publisher: Zenodo
   creator:
   - name: Ollila, O. H. Samuli
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - DHMDMAB
+  - dihexadecyldimethylammonium
+  - CLA
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - Lipid14 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1020671
+    name: 100POPC_70DHMDMAB_6214SOL_50CLA_313K
+    contentSize: 2641408236
+    encodingFormat: application/x-xtc
+    hasPart:
+    - trajectory.xtc
+    - run.tpr
+    - topol.top
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1020671
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

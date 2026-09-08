@@ -58,7 +58,10 @@ DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 116
 bioschema_properties:
   name: POPC:POPS (5:1) with 890 mM potassium simulation with CHARMM36 at 298K
+  alternateName: 110POPC_22POPS_4946SOL_101POT_79CLA_298K
   description: POPC:POPS (5:1) with 890 mM potassium simulation with CHARMM36 at 298K. Trajectory 50-200ns. 110 POPC molecules, 22 POPS molecules, 4946 water molecules and 79 Na + ions.
+  identifier: 10.5281/zenodo.1493246
+  sameAs: https://doi.org/10.5281/zenodo.1493246
   datePublished: '2018-11-21'
   license:
     spdx: CC-BY-4.0
@@ -68,9 +71,61 @@ bioschema_properties:
   publisher: Zenodo
   creator:
   - name: Ollila, O. H. S.
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  - POT
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1493246
+    name: 110POPC_22POPS_4946SOL_101POT_79CLA_298K
+    contentSize: 1817047620
+    encodingFormat: application/x-xtc
+    hasPart:
+    - traj.xtc
+    - topol.tpr
+    - topol.top
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1493246
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

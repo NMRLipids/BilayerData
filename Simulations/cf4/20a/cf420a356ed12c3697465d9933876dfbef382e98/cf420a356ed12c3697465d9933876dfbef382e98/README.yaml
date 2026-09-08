@@ -39,7 +39,10 @@ EXPERIMENT:
 ID: 562
 bioschema_properties:
   name: Pure POPC Membrane Simulation Using Charmm-Drude Force Field with OpenMM
+  alternateName: 72POPC_303K (equilibriated using Charmm36)
   description: 400 ns MD simulation of pure POPC membrane using Charmm-Drude polarizable force field. The system contains 72 POPC lipids and 2809 SWM4 water molecules. The simulation have been performed using OpenMM 7.4.1 Before running the Drude simulation, the system has been equilibriated using Charmm36 force field for 200 ns. The last frame of that simulation was used to generate Drude polarizable model. The first 100 ns of the Drude simulation has been discarded from this dataset. This dataset does not contain the water molecules. Please note that the trajectories might need to be realigned.
+  identifier: 10.5281/zenodo.3865283
+  sameAs: https://doi.org/10.5281/zenodo.3865283
   datePublished: '2020-05-29'
   license:
     spdx: CC-BY-4.0
@@ -50,9 +53,55 @@ bioschema_properties:
   creator:
   - name: Kav, Batuhan
     identifier: https://orcid.org/0000-0003-4990-373X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - Zwitterionic lipids
+  - Drude polarizable model
+  measurementTechnique:
+  - Molecular dynamics simulation (openMM 7.4.1)
+  - Charmm-Drude polarizable force field
+  variableMeasured:
+  - area per lipid
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3865283
+    name: 72POPC_303K (equilibriated using Charmm36)
+    contentSize: 6708175668
+    encodingFormat: application/x-dcd
+    hasPart:
+    - production_after_equilibration_400ns_nowater.dcd
+    - production_last_frame_nowater.pdb
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3865283
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'

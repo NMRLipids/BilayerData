@@ -56,7 +56,10 @@ ID: 382
 AUTHORS_CONTACT: Ollila, O. H. Samuli
 bioschema_properties:
   name: Charmm36 Simulations Of Popc Mixed With Cationic Surfactant
+  alternateName: POPC10%DHMDMAB_T313K
   description: CHARMM36 simulations of POPC mixed with cationic surfactants. The simulations are ran for NMRlipids IV project at 313 K using Gromacs 5. run10* for 10 mol% of surfactant run20* for 20 mol% of surfactant run30* for 30 mol% of surfactant run50* for 50 mol% of surfactant itp files called in top files from the folder ../47molF/CHARMMfiles/ are here in the root
+  identifier: 10.5281/zenodo.1288297
+  sameAs: https://doi.org/10.5281/zenodo.1288297
   datePublished: '2018-06-13'
   license:
     spdx: CC-BY-4.0
@@ -66,9 +69,59 @@ bioschema_properties:
   publisher: Zenodo
   creator:
   - name: Ollila, O. H. Samuli
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - CLA
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - DHMDMAB
+  - dihexadecyldimethylammonium
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs)
+  - CHARMM36 force field
+  variableMeasured:
+  - area per lipid
+  - membrane thickness
+  - total density profile
+  - X-ray scattering form factor
+  - equilibration time
+  - C-H bond order parameter
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1288297
+    name: POPC10%DHMDMAB_T313K
+    contentSize: 2850714160
+    encodingFormat: application/x-xtc
+    hasPart:
+    - run10.xtc
+    - run10.tpr
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1288297
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-07'
+    retrieved: '2026-09-08'
