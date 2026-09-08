@@ -53,7 +53,6 @@ bioschema_properties:
   name: SLIPID POPC Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
   alternateName: 500POPC_25000SOL_48SOD_48CLA_310K
   description: Simulation of a POPC bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs v5.1.2 in water solution with Na+ counterions and 150 mM of NaCl. The SLIPID model is employed for lipids and TIP3P Water Model . Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top, .itp), simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided.
-  identifier: 10.5281/zenodo.2574689
   sameAs: https://doi.org/10.5281/zenodo.2574689
   datePublished: '2019-02-21'
   license:

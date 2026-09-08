@@ -54,7 +54,6 @@ bioschema_properties:
   name: MD Simulation of Gb3 in POPC Membrane (run2)
   alternateName: POPC:Gb3_run2(95:5 mol:mol)
   description: Molecular dynamics simulation of a lipid bilayer containing CLA, GB3, POPC, SOD at 310.0 K, CHARMM36m force field, gromacs, 7250 ns trajectory.
-  identifier: 10.5281/zenodo.10635875
   sameAs: https://doi.org/10.5281/zenodo.10635875
   datePublished: '2024-02-08'
   license:

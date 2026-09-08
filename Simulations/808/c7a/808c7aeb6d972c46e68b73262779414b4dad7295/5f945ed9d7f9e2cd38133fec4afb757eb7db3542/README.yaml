@@ -54,7 +54,6 @@ bioschema_properties:
   name: Md Simulation Trajectory And Related Files For Popc Bilayer With 950Mm Nacl (Charmm36, Gromacs 4.5)
   alternateName: 72POPC_2168SOL_37CLA_37NA_303K
   description: Equilibrated POPC lipid bilayer simulation ran with Gromacs 4.5, CHARMM36, 60ns, T=303K, 72 POPC molecules, 2085 water molecules, 37 Na molecules, 37 Cl molecules. This data is used in the NMRLipids II project (nmrlipids.blospot.fi).
-  identifier: 10.5281/zenodo.32498
   sameAs: https://doi.org/10.5281/zenodo.32498
   datePublished: '2015-10-21'
   license:

@@ -61,7 +61,6 @@ bioschema_properties:
   name: GROMOS-CKP POPG-POPE 3:1 Bilayer Simulation (Last 100 ns, 310 K )
   alternateName: 374POPG_126POPE_25000SOL_374SOD_310K
   description: Simulation of a POPG-POPE 3:1 bilayer of 500 lipids (374 L-POPG lipids and 126 POPE lipids, 250 per leaflet) is simulated for 500 ns using Gromacs v2018.3 in water solution with Na+ counterions. The GROMOS-CKP model is employed for lipids with SCP TIP3P Water Model. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top) , simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided.
-  identifier: 10.5281/zenodo.3267234
   sameAs: https://doi.org/10.5281/zenodo.3267234
   datePublished: '2019-07-03'
   license:

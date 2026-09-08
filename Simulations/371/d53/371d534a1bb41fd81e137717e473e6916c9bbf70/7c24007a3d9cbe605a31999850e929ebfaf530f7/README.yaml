@@ -52,7 +52,6 @@ bioschema_properties:
   name: Macrog Pops Simulations (Versions 1 And 2) 298 K With Corrected Po Not Op Tails
   alternateName: 128POPS_4480SOL_128SOD_298K_v2
   description: MacRog POPS simulations (298 K, starting structure from the CHARMM-GUI) performed with 1.0 nm cut-offs, PME and a dispersion correction. Two simulations were performed with differently assigned random starting velocities. Note that unlike the original MacRog simulations, these have the correct PO and not OP tails.
-  identifier: 10.5281/zenodo.1283335
   sameAs: https://doi.org/10.5281/zenodo.1283335
   datePublished: '2018-06-05'
   license:

@@ -61,7 +61,6 @@ bioschema_properties:
   name: Simulation CER160_128_POPC_512_NaCl_150mM_310K_rep1 membrane
   alternateName: 512POPC_128CER_32000SOL_86SOD_86CLA_310K
   description: 'Title publication: A Ceramide-Regulated Element in the Late Endosomal Protein LAPTM4B Controls Amino Acid Transporter Interaction Year publication: 2018 DOI publication: 10.1021/acscentsci.7b00582 Description: Simulation 512 POPCs membrane containing 128 ceramides (CER160) using charmm36 at 310K. MD engine: gromacs 2016.1 Force field : charmm36 Temperature : 310 K Pressure: 1 bar Simulation time : 3000 ns Saving frequency : 100 ps Molecular content : POPC 512 CER160 128 SOL 32000 NA 86 CL 86 Additional information :'
-  identifier: 10.5281/zenodo.3248612
   sameAs: https://doi.org/10.5281/zenodo.3248612
   datePublished: '2019-06-18'
   license:

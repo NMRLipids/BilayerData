@@ -57,7 +57,6 @@ bioschema_properties:
   name: Dppc_Berger_Opls06_Nacl_Scaled
   alternateName: 72DPPC_2864SOL_8SOD_8CLA_323K
   description: 'MD simulation trajectory and related files for fully hydrated DPPC bilayer with 150 mM NaCl. The OPLS-AA-compatible Berger-DPPC-06 force field (DOI:10.1088/0953--8984/18/28/S07) was used with Gromacs 4.6.7. Ions were described by the Åqvist parameters. The ion charges were scaled by a factor 0.7. Conditions: T=323K, 72 lipids, 2880 SPC waters, 8 Na, 8 Cl. 120 ns trajectory, last 60 ns analyzed.'
-  identifier: 10.5281/zenodo.16485
   sameAs: https://doi.org/10.5281/zenodo.16485
   datePublished: '2015-03-30'
   license:

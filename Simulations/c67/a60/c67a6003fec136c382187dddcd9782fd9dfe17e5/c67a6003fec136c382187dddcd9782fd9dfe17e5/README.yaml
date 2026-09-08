@@ -46,7 +46,6 @@ bioschema_properties:
   name: DPPC lipid bilayer simulation with CHARMM36-LJPME force field using OpenMM
   alternateName: DPPC_SOL_323K
   description: DPPC lipid bilayer simulation (300 ns) with CHARMM36-LJPME force field using OpenMM at 323K. Used in https://doi.org/10.1021/acs.jctc.1c00951 The force field parameters were downloaded from https://terpconnect.umd.edu/%7Ejbklauda/ff.html. trajCORRECT1-2.dcd has incorrect timestamps. traj1-2.xtc has correct timestamps.
-  identifier: 10.5281/zenodo.7476579
   sameAs: https://doi.org/10.5281/zenodo.7476579
   datePublished: '2022-02-02'
   license:

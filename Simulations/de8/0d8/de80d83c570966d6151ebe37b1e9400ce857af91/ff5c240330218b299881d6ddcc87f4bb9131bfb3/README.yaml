@@ -55,7 +55,6 @@ bioschema_properties:
   name: MD Simulation of POPS 144 144 Na contraions prosECCo75
   alternateName: POPS_prosECCo
   description: prosECCo 75 paper related data
-  identifier: 10.5281/zenodo.10467181
   sameAs: https://doi.org/10.5281/zenodo.10467181
   datePublished: '2024-01-07'
   license:

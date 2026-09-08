@@ -54,7 +54,6 @@ bioschema_properties:
   name: ECC-POPC, 28mM, 2600mM
   alternateName: 200POPC_9264SOL_496CAL_992CLA_313K
   description: POPC mambrane with different concentrations of calcium ions simulated with ECC-POPC force-field
-  identifier: 10.5281/zenodo.3434100
   sameAs: https://doi.org/10.5281/zenodo.3434100
   datePublished: '2019-09-17'
   license:

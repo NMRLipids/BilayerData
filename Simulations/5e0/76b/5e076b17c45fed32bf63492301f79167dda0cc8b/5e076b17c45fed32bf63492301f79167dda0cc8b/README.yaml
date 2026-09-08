@@ -57,7 +57,6 @@ bioschema_properties:
   name: NAMD Trajectory of a POPC/PSM 70/30 bilayer
   alternateName: POPC/PSM (70/30) NAMD
   description: All-atom bilayer mixture of POPC/PSM 70/30 simulated in an NPT ensemble with NAMD and the CHARMM36 force field from Doktorova et al. 2017 Phys. Chem. Chem. Phys. article (DOI 10.1039/c7cp01921a). The trajectory represents the last 126 ns used for analysis where the area per lipid is equilibrated (the file has 3145 frames output every 40 ps). The bilayer has 200 lipids total (100 lipids per leaflet) and is hydrated with 70 waters/lipid and 140mM NaCl. The simulation was done at 25C (298.15K) and the trajectory is centered on the bilayer midplane.
-  identifier: 10.5281/zenodo.8357123
   sameAs: https://doi.org/10.5281/zenodo.8357123
   datePublished: '2023-09-18'
   license:

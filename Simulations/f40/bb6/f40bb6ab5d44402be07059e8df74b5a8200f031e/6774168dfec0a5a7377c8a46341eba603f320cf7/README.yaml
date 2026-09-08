@@ -48,7 +48,6 @@ bioschema_properties:
   name: Charmm36 Pops Simulations (Versions 1 And 2) 298 K 1.0 Nm Lj Switching
   alternateName: POPS_298K
   description: CHARMM36 POPS simulations (298 K, starting structure from the CHARMM-GUI) performed with a 1.0 nm point at which to switch off the van der Waals interactions. Two different simulations generated with different starting velocities are provided (the files are named v1 and v2 for these different simulations). The trajectories contain only the data from 400-500 ns of the simulations (as per the analysis provided on the nmrlipids blog) and additionally they have been processed with trjconv -skip 10 to keep the upload small.
-  identifier: 10.5281/zenodo.1129415
   sameAs: https://doi.org/10.5281/zenodo.1129415
   datePublished: '2017-12-24'
   license:

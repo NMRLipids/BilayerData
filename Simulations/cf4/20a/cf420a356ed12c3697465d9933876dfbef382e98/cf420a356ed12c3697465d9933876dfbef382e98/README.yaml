@@ -40,7 +40,6 @@ bioschema_properties:
   name: Pure POPC Membrane Simulation Using Charmm-Drude Force Field with OpenMM
   alternateName: 72POPC_303K (equilibriated using Charmm36)
   description: 400 ns MD simulation of pure POPC membrane using Charmm-Drude polarizable force field. The system contains 72 POPC lipids and 2809 SWM4 water molecules. The simulation have been performed using OpenMM 7.4.1 Before running the Drude simulation, the system has been equilibriated using Charmm36 force field for 200 ns. The last frame of that simulation was used to generate Drude polarizable model. The first 100 ns of the Drude simulation has been discarded from this dataset. This dataset does not contain the water molecules. Please note that the trajectories might need to be realigned.
-  identifier: 10.5281/zenodo.3865283
   sameAs: https://doi.org/10.5281/zenodo.3865283
   datePublished: '2020-05-29'
   license:

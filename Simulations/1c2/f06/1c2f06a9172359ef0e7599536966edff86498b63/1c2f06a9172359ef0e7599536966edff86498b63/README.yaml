@@ -52,7 +52,6 @@ bioschema_properties:
   name: Pure POPC membrane simulations with 350 mM CaCl2 with the CHARMM-Drude2023 force field (OpenMM)
   alternateName: POPC_350_CaCl2_CHARMMdrude2023_303K
   description: '219.59 ns MD simulation of pure POPC membrane using Charmm-Drude2023 polarizable force field ( Drude Polarizable Lipid Force Field with Explicit Treatment of LongRange Dispersion: Parametrization and Validation for Saturated and Monounsaturated Zwitterionic Lipids ) .The system contains 128 POPC lipids, 41 CaCl2, and 6400 SWM4 water molecules. Before running the Drude simulation, the system has been equilibriated using Charmm36 force field for 200 ns. The last frame of that simulation was used to generate Drude polarizable model. Frame saving frequency is 10ps. There are 21959 frames in this trajectory.'
-  identifier: 10.5281/zenodo.8000065
   sameAs: https://doi.org/10.5281/zenodo.8000065
   datePublished: '2023-06-02'
   license:

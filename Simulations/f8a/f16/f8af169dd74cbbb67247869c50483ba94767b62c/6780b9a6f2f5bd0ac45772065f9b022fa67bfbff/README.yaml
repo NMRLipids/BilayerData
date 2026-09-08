@@ -49,7 +49,6 @@ bioschema_properties:
   name: MD simulation of DMPC bilayer with CHARMM36 force field. Full hydration
   alternateName: 200DMPC_10kSOL_300K
   description: 'MD simulation of DMPC bilayer with CHARMM36 force field. Full hydration Dataset contains simulation files including trajectories (.xtc) (original production.xtc, and equilibrated and centered ). System: DMPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 10000 Simulation time: 500 ns Sampling rate: every 10 ps Simulation engine: GROMACS 2019.5 Temperature: 314 K'
-  identifier: 10.5281/zenodo.10949663
   sameAs: https://doi.org/10.5281/zenodo.10949663
   datePublished: '2024-04-09'
   license:

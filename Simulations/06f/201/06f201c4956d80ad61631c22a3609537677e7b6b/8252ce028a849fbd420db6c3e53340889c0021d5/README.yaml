@@ -52,7 +52,6 @@ bioschema_properties:
   name: All-atom Gromacs Trajectory of POPC/TOCL bilayer mixture
   alternateName: POPC/TOCL mixture
   description: All-atom bilayer mixture of POPC/TOCL 1:1 simulated in an NPT ensemble with Gromacs and the CHARMM36 force field from Castillo et al, 2022, Mol. Pharmaceutics. 19:1839-1852 (https://doi.org/10.1021/acs.molpharmaceut.1c00926). The trajectory represents 540 ns with frames output every 20 ps. The bilayer has 120 lipids total (60 lipids per leaflet) and is hydrated with 100 waters/lipid and sodium ions to neutralize the system. The simulation was done at 37C (310.15K). POPC is 16:0,18:1 PC; TOCL is tetraoleoyl cardiolipin
-  identifier: 10.5281/zenodo.13984206
   sameAs: https://doi.org/10.5281/zenodo.13984206
   datePublished: '2023-09-19'
   license:

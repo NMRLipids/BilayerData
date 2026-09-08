@@ -57,7 +57,6 @@ bioschema_properties:
   name: MD simulation trajectory and related files for POPC bilayer with 30 mol% of protonated pazePC (Berger, Gromacs 4.5.)
   alternateName: 90POPC_38PAzePCprot_7632SOL_298K
   description: Simulation trajectory and related files for POPC bilayer with 30mol% of pazePC in deprotonated form used in "Acyl chain disorder and azelaoyl orientation in lipid membranes containing oxidised lipids" by T. M. Ferreira, et al. https://doi.org/10.1021/acs.langmuir.6b00788 The simulation with deprotonated pazePC from the same publication available at http://dx.doi.org/10.5281/zenodo.44622 90 POPC, 38 pazePC, 7250 water and 38 potassium molecules. Simulation time 167ns. Force field for POPC is based on Berger model and force field for pazePC is modified from H. Khandelia and O. G. Mouritsen, Biophysical Journal, 2009, 96(7), 2734 – 2743, http://dx.doi.org/10.1016/j.bpj.2009.01.007.
-  identifier: 10.5281/zenodo.44660
   sameAs: https://doi.org/10.5281/zenodo.44660
   datePublished: '2016-01-12'
   license:

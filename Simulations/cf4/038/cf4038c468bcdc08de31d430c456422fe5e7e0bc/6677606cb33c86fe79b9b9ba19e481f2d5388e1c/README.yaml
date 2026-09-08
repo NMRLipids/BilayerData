@@ -47,7 +47,6 @@ bioschema_properties:
   name: Popc Lipid Membrane, 303K, Charmm36 Force Field, Simulation Files And 200 Ns Trajectory For Gromacs Md Simulation Engine V5.1.2
   alternateName: 128POPC_5120SOL_303K
   description: 'POPC lipid membrane, 303K, Charmm36 force field, simulation files and 200 ns trajectory for Gromacs MD simulation engine v5.1.2 The starting structure was obtained from CHARMM-GUI Membrane Builder v1.7 (http://www.charmm-gui.org/) online tool. [1] All runs were performed with Gromacs 5.1.2 software package and CHARMM36 additive force field parameters obtained from CHARMM-GUI input files [1]. Conditions: T=303, 128 POPC molecules, 5120 tip3p waters, 200ns trajectory (preceded with equilibration) These data were originally obtained for the nmrlipids.blospot.fi project. Find more details at nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi [1] CHARMM-GUI Input Generator for NAMD, GROMACS, AMBER, OpenMM, and CHARMM/OpenMM Simulations Using the CHARMM36 Additive Force Field, J. Lee et al. , JCTC, DOI: 10.1021/acs.jctc.5b00935'
-  identifier: 10.5281/zenodo.153944
   sameAs: https://doi.org/10.5281/zenodo.153944
   datePublished: '2016-09-13'
   license:

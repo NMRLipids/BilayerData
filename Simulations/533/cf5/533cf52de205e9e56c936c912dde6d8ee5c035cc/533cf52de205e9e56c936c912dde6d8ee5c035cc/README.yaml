@@ -40,7 +40,6 @@ bioschema_properties:
   name: 1-stearoyl(d35)-2-docosapentaenoyl-sn-glycero-3-phosphocholine (18:0(d35)/22:5n6PC) | SDPC lipid bilayer, 303K, CHARMM36m-WYF forcefield, NAMD 3.0.2, 2* 500 ns
   alternateName: SDPC18:0(d35)/22:5n6PC)
   description: '1-stearoyl(d35)-2-docosapentaenoyl-sn-glycero-3-phosphocholine (18:0(d35)/22:5n6PC) | SDPC lipid bilayer. Deutrated, 18:0 (DX1, DX2 atom type in psf) 200 lipid molecules (100 lipids per each leaflet) and no ions. Lipid for a total water conctent of 50 wt% >>> Hydration: 48 Temperature: 303.15 System was prepared using CHARMM-GUI. CHARMM36m-WYF forcefield was used. Simulation was performed with NAMD 3.0.2. timestep: 2.0 fs 500 ns production after 150 ns equilibration dcd saving freq: 10000'
-  identifier: 10.5281/zenodo.18470730
   sameAs: https://doi.org/10.5281/zenodo.18470730
   datePublished: '2026-02-03'
   license:

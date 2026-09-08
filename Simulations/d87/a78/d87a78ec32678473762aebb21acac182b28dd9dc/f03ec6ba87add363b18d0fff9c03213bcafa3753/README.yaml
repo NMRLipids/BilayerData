@@ -44,7 +44,6 @@ bioschema_properties:
   name: Charmm36 Popc Gromacs 5.0.6 500 Ns (Started From Jm Files)
   alternateName: 128POPC_5120SOL_10A-switch_v1
   description: CHARMM36 force field POPC simulations performed using GROMACS version 5.0.6 started from files obtained from https://doi.org/10.5281/zenodo.153944. Results are included for simulations using both an 8 Å and 10 Å switching point for the van der Waals interactions, with 4 x 500 ns for each of these cut-off schemes (versions with different starting velocities are labelled as v1, v2, v3 and v4). The trajectories have been processed using trjconv -skip 10 to make the files smaller for uploading, although the initial analysis was performed on the complete simulations.
-  identifier: 10.5281/zenodo.164206
   sameAs: https://doi.org/10.5281/zenodo.164206
   datePublished: '2016-11-01'
   license:

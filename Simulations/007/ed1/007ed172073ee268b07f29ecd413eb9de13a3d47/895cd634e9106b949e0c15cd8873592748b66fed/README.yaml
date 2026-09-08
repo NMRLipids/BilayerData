@@ -47,7 +47,6 @@ bioschema_properties:
   name: POPC CHARMM36 T313K
   alternateName: 200POPC_9000SOL_313K
   description: POPC CHARMM36 T313K. The simulations are ran for simulations with cationic surfactants for NMRlipids IV project at 313 K using Gromacs 5. itp files called in top files can be found from the root of repository https://doi.org/10.5281/zenodo.1288296.
-  identifier: 10.5281/zenodo.4040423
   sameAs: https://doi.org/10.5281/zenodo.4040423
   datePublished: '2020-09-21'
   license:

@@ -43,7 +43,6 @@ bioschema_properties:
   name: 200 ns Quality Analysis of OpenFF Parameterized Pure POPC Lipid Bilayer
   alternateName: POPC_128_OPENFF_300K
   description: 200 ns production MD of a pure POPC bilayer using OpenFF parameters generated using interchange method. File application in the NMR Lipid Database/GUI.
-  identifier: 10.5281/zenodo.8299506
   sameAs: https://doi.org/10.5281/zenodo.8299506
   datePublished: '2023-08-29'
   license:

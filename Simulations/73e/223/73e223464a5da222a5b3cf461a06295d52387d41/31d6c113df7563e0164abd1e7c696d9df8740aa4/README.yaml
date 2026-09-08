@@ -46,7 +46,6 @@ bioschema_properties:
   name: Simulation of POPC:POPE 1:1 membrane with the Slipids force field
   alternateName: POPCPOPE_(1:1)_T298K
   description: A POPC:POPE 1:1 bilayer with 100 lipids per leaflet is simulated for 300 ns using the Slipids model and Gromacs simulation engine version 2019.4. The trajectory (.xtc) is saved every 100ps. The simulation parameters (.mdp), the energy file (.edr), the continue point to extend the simulation (.cpt), the run input parameters (.tpr), and the final structure (.gro) are also given. The lipid topologies (.itp) are provided, and the Slipids force field is available at http://www.fos.su.se/~sasha/SLipids/
-  identifier: 10.5281/zenodo.3605386
   sameAs: https://doi.org/10.5281/zenodo.3605386
   datePublished: '2020-01-12'
   license:

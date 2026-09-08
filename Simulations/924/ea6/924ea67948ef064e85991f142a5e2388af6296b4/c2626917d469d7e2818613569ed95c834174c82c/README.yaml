@@ -47,7 +47,6 @@ bioschema_properties:
   name: Berger Dope Simulations (Versions 1 And 2) 271 K - De Vries Repulsive H
   alternateName: 128DOPE_4789SOL_271K_v1
   description: Two Berger-based DOPE bilayer simulations performed using GROMACS 4.0.7 for 200 ns with different starting velocities. Simulations were performed with a 1.0 nm cut-off with PME for the Coulombic and a 1.0 nm cut-off for the van der Waals interactions with a dispersion correction. These simulations were performed at 303 K with a 128 lipid bilayer. The full trajectories are provided bar the initial 100 ns. The starting structure was converted from an equilibrated DOPC membrane simulated with the GROMOS-CKP force field. The DOPE parameters were constructed following the approach used by de Vries et al (https://pubs.acs.org/doi/abs/10.1021/jp0366926), and so include a small repulsive potential on the explicit hydrogen atoms.
-  identifier: 10.5281/zenodo.1293928
   sameAs: https://doi.org/10.5281/zenodo.1293928
   datePublished: '2018-06-20'
   license:

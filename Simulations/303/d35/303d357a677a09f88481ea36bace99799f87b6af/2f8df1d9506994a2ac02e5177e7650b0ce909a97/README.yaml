@@ -53,7 +53,6 @@ bioschema_properties:
   name: Simulations Dppc Bilayers (512 Lipids) Using Charmm36 Ff In Gromacs
   alternateName: DPPC_512_NaCl_150mM_325K_v-rescale
   description: 'Collection simulations of DPPC (512 lipids) bilayers in gromacs using the charmm36 force field. Several temperatures between 315 and 338 K are included. The list of systems can be found below where the several parameter are: 1) DPPC_512_NaCl_150mM_315K_v-rescale (500ns) 2) DPPC_512_NaCl_150mM_320K (700ns) 3) DPPC_512_NaCl_150mM_320K_v-rescale (500ns) 4) DPPC_512_NaCl_150mM_322K_v-rescale (700ns) 5) DPPC_512_NaCl_150mM_325K (500ns) 6) DPPC_512_NaCl_150mM_325K_v-rescale (500ns) 7) DPPC_512_NaCl_150mM_325K_cutoff09 (500ns) 8) DPPC_512_NaCl_150mM_325K_MEMB_338K (500ns) 9) DPPC_512_NaCl_150mM_338K (500ns) For further information read the Readme file provided for each simulation.'
-  identifier: 10.5281/zenodo.1009027
   sameAs: https://doi.org/10.5281/zenodo.1009027
   datePublished: '2017-10-11'
   license:

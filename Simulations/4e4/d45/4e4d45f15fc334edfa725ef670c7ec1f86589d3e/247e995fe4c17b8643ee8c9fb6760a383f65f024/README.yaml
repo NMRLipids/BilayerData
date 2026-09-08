@@ -49,7 +49,6 @@ bioschema_properties:
   name: Simulations of POPC lipid bilayer in water solution at various NaCl, KCl and CaCl2 concentrations using ECC-POPC force field
   alternateName: 128POPC_6400SOL_313K
   description: Classical molecular dynamics simulations of a POPC lipid bilayer in water solution at various NaCl, KCl and CaCl2 concentrations using ECC-POPC force field parameters, SPC/E water model and ECC-ions. file names report molar fraction of cations (i.e. not bulk concentrations) simulations performed with Gromacs 5.1.4 (*.xtc files) and openMM 7 (*.dcd files) simulation length 300 ns temperature 313 K (otherwise noted) Gromacs simulation setting is in the file npt_lipid_bilayer.mdp
-  identifier: 10.5281/zenodo.3335503
   sameAs: https://doi.org/10.5281/zenodo.3335503
   datePublished: '2017-12-19'
   license:

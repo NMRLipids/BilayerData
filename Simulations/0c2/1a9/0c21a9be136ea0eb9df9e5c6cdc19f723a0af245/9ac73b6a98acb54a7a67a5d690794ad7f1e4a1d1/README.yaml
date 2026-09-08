@@ -49,7 +49,6 @@ bioschema_properties:
   name: POPC:POPG 1:1 MD simulation with CHARMM36 in water and Na+ counter ions
   alternateName: POPC:POPG(1:1)_T298K
   description: CHARMM36 POPC:POPG 1:1 bilayer simulation in water. The initial structure was taken from CHARMM-GUI. Temperature is 298 K. The system contains 150 POPC, 150 POPG, 150 sodium ions and 31500 TIP3 water molecules. Total length of simulation is 400 ns. First 100 ns were discarded. Saving frequency of 100-300ns.xtc is 20 ps.
-  identifier: 10.5281/zenodo.3997116
   sameAs: https://doi.org/10.5281/zenodo.3997116
   datePublished: '2020-08-24'
   license:

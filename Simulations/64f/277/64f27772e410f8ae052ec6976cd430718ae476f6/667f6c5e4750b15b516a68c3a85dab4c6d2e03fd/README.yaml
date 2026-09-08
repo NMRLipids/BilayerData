@@ -54,7 +54,6 @@ bioschema_properties:
   name: Dppc_512_Nacl_150Mm_320K_V-Rescale
   alternateName: 512DPPC_20480SOL_55SOD_55CLA_320K
   description: 'System description ------------------- - Title: Simulation DPPC_512_NaCl_150mM_320K_v-rescale bilayer - MD engine: gromacs 5.0.4 - Force field: charmm36 - Temperature: 320K - Simulation time: 500ns - Saving frequency: 100ps - Molecular content: DPPC 512 water 20480 Cl- 55 Na+ 55 - Other information: * Use of v-rescale thermostat instead of the default nose-hoover * Center of mass motion removed independently for bilayer and water+ions'
-  identifier: 10.5281/zenodo.16276
   sameAs: https://doi.org/10.5281/zenodo.16276
   datePublished: '2015-03-23'
   license:

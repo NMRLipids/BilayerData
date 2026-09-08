@@ -50,7 +50,6 @@ bioschema_properties:
   name: Lipid17ecc POPC:POPG 4:1 MD simulation in water with Na+ counter ions
   alternateName: POPC:POPG(4:1)_T298K
   description: Lipid17ecc POPC:POPG 4:1 bilayer simulation in water. The initial structure was taken from https://zenodo.org/record/3693681#.X0OY5RmEZGE . Temperature is 298 K. The system contains 350 POPC, 88 POPG, 88 sodium ions and 26265 SPCE water molecules. Total length of simulation is 400 ns. First 100 ns were discarded as equilibration time. Saving frequency of 100-300ns.xtc is 20 ps.
-  identifier: 10.5281/zenodo.3997154
   sameAs: https://doi.org/10.5281/zenodo.3997154
   datePublished: '2020-08-24'
   license:

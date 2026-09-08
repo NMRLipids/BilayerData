@@ -52,7 +52,6 @@ bioschema_properties:
   name: Dppc_Berger_Opls06
   alternateName: 72DPPC_2880SOL_323K_Berger
   description: 'MD simulation trajectory and related files for fully hydrated DPPC bilayer. The OPLSAA-compatible Berger-DPPC-06 force field (DOI:10.1088/0953--8984/18/28/S07) was used with Gromacs 5.1-beta. Conditions: T=323K, 72 lipids, 2880 SPC waters. 120 ns trajectory, last 60 ns analyzed.'
-  identifier: 10.5281/zenodo.17237
   sameAs: https://doi.org/10.5281/zenodo.17237
   datePublished: '2015-04-29'
   license:

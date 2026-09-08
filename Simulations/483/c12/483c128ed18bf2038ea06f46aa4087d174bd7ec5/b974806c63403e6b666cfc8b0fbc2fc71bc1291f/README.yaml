@@ -46,7 +46,6 @@ bioschema_properties:
   name: Dppc_Slipids
   alternateName: 128DPPC_3840SOL_323K
   description: 'MD simulation trajectory and related files for fully hydrated DPPC bilayer. Slipids force field (doi:10.1021/jp212503e) was used with Gromacs 4.6.6. Conditions: T=323K, 128 lipids, 3840 tip3p waters.'
-  identifier: 10.5281/zenodo.13287
   sameAs: https://doi.org/10.5281/zenodo.13287
   datePublished: '2014-12-17'
   license:

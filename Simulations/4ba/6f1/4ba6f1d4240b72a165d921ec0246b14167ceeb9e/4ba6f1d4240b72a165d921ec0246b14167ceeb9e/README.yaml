@@ -49,7 +49,6 @@ bioschema_properties:
   name: MD Simulation data for a pure DOPC bilayer (1000 mM NaCl) with AMOEBA force field + OpenMM
   alternateName: DOPC_1000mM_NaCl_at_303K_with_AMOEBA
   description: 'MD simulation data for the DOPC bilayer + 1000 mM NaCl with the AMOEBA-based force field developed by Li (https://doi.org/10.1080/00268976.2018.1436201). The simulation contains 72 DOPC lipids, 35 NaCl ions, and 2880 water molecules. The trajectory is 201,61 ns long (20161 frames with 10 ps saving frequency). It has been discovered that (https://github.com/NMRLipids/Databank/issues/2#issuecomment-1357871243) the previously uploaded trajectory did not have the correct timestamp: the timestep between two consecutive simulation frames was not correctly embedded into the trajectory information. Therefore, with the latest version we are uploading the "unwrapped_all_fixed_dt.xtc" which has the correct timestamp. The frame saving frequency in this trajectory is 10 ps. This new update should not invalidate any previous calculations that did not explicitly read the timestamp information from the trajectory. This simulation consists of 12 sub-trajectories, each of which starts from the last frame of the previous one. These trajectories (originally in dcd format) were concatenated and saved in xtc format with MDAnalysis.'
-  identifier: 10.5281/zenodo.7625844
   sameAs: https://doi.org/10.5281/zenodo.7625844
   datePublished: '2023-02-09'
   license:

@@ -61,7 +61,6 @@ bioschema_properties:
   name: GROMOS-CKP POPC-POPG 7:3 Bilayer Simulation (Last 100 ns, 310 K )
   alternateName: 350POPC_150POPG_25000SOL_150SOD_310K
   description: Simulation of a POPC-POPG 7:3 bilayer of 500 lipids (350 POPC lipids and 150 L-POPG lipids, 250 per leaflet) is simulated for 50/mnt/lustre/scratch/home/usc/fa/apl/membranes/popc_popg_7_3/charmm/mdy/mandar0 ns using Gromacs v2018.3 in water solution with Na+ counterions. The GROMOS-CKP model is employed for lipids and SCP Water Model Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top) , simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided.
-  identifier: 10.5281/zenodo.3266240
   sameAs: https://doi.org/10.5281/zenodo.3266240
   datePublished: '2019-07-02'
   license:

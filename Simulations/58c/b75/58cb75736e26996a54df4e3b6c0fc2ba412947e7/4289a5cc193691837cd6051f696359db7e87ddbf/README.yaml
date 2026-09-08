@@ -47,7 +47,6 @@ bioschema_properties:
   name: Simulations of different single-component bilayers, three different system sizes
   alternateName: 256DYPC_12800SOL_333K
   description: For the calculation of shear viscosities based on Vögele et al., Phys. Rev. Lett. 120, 268104 (2018). All simulations at 333 K.
-  identifier: 10.5281/zenodo.6943413
   sameAs: https://doi.org/10.5281/zenodo.6943413
   datePublished: '2022-07-30'
   license:

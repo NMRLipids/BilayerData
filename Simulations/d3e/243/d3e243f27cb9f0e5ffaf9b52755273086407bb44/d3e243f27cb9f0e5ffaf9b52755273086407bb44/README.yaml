@@ -56,7 +56,6 @@ bioschema_properties:
   name: All-atom POPC-SSM (1:1) and POPC-SSM-CHOL (1:1:1) trajectories
   alternateName: POPC:SSM(sphingomyelin):CHOL(1:1:1)
   description: All-atom MD simulation trajectories of a POPC and SSM (sphingomyelin) bilayer with and without Cholesterol; molar ratio POPC:SSM (1:1) and POPC:SSM:CHL (1:1:1). Simulations were performed with NAMD using the CHARMM36 force field.
-  identifier: 10.5281/zenodo.21937938
   sameAs: https://doi.org/10.5281/zenodo.21937938
   datePublished: '2026-08-14'
   license:

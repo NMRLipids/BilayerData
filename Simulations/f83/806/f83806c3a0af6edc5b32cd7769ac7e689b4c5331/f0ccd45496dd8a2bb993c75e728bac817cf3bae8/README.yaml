@@ -67,7 +67,6 @@ bioschema_properties:
   name: Simulations of mixed DPPC/cholesterol membranes Part 2/2
   alternateName: 204DPPC_52CHOL_166DOPC_16880SOL_46SOD_46CLA_293K
   description: 'Simulations of mixtures of DPPC and cholesterol performed with the Slipids force field. Files are named as DPPC_CC_TTT, where CC is the cholesterol concentration in mol-%, and TTT the temperature in K. This upload contains files related to systems with 15 or 20 mol-% of cholesterol, whereas systems with 10 mol-% are in a separate upload here: DOI: 10.5281/zenodo.3539263. The system containing DCHOL, as well as the simulations used for line tension calculations, are also included in this upload. Full details of simulations are available in the related manuscript, where they are also carefully analyzed: Nanoscale Membrane Domain Formation Driven by Cholesterol by Matti Javanainen, Hector Martinez-Seara, and Ilpo Vattulainen Scientific Reports 7: 1143 (2017)'
-  identifier: 10.5281/zenodo.3540513
   sameAs: https://doi.org/10.5281/zenodo.3540513
   datePublished: '2019-11-13'
   license:

@@ -59,7 +59,6 @@ bioschema_properties:
   name: 'MD simulations of bilayers containing PC/PG mixtures and CaCl_2: 400POPC_100POPG_1MCaCl_2'
   alternateName: 400POPC_100POPG_419CAL_738CLA_298K_123398Atoms
   description: NMRLipids IVb project (nmrlipids.blogspot.fi) Gromacs, CHARMM36 FF, 1 atm, 298K, 200ns (no pre-equilibration) 400 POPC lipids, 100 POPG lipids, 123398 Atoms
-  identifier: 10.5281/zenodo.3483785
   sameAs: https://doi.org/10.5281/zenodo.3483785
   datePublished: '2019-10-12'
   license:

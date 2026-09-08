@@ -44,7 +44,6 @@ bioschema_properties:
   name: POPC 128 lipid Sage2.2.1-alkane-filtered (force field development)
   alternateName: POPCandTIP3P
   description: POPC 128 lipid Sage2.2.1-alkane-filtered (note that this is not a released openFF force field, but instead a version used for force field development) 500 ns simulation, charges assigned with NAGL openff-gnn-am1bcc-0.1.0-rc.3.pt
-  identifier: 10.5281/zenodo.15328669
   sameAs: https://doi.org/10.5281/zenodo.15328669
   datePublished: '2025-05-02'
   license:

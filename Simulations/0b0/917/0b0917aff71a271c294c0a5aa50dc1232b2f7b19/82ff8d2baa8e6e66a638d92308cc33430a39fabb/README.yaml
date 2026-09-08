@@ -48,7 +48,6 @@ bioschema_properties:
   name: Md Trajectory For Dlpc Bilayer (Berger, Gromacs 4.5.4), Nw=12 W/L
   alternateName: 72DLPC_864SOL_300K
   description: 'Equilibrated DLPC lipid bilayer ran with Gromacs 4.5.4 with Berger force field, 80ns, T=300K, 72 DLPC molecules, hydration level nw=12 water/lipid. This data is used in the project "Matching lipid force fields with NMR data". More information at : http://nmrlipids.blogspot.fi/'
-  identifier: 10.5281/zenodo.16293
   sameAs: https://doi.org/10.5281/zenodo.16293
   datePublished: '2015-03-24'
   license:

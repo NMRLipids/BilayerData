@@ -45,7 +45,6 @@ bioschema_properties:
   name: GROMOS-CKP POPC Bilayer Simulation (Last 100 ns, 310 K )
   alternateName: POPC_T310K
   description: Simulation of a POPC bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs v2018.3 in water solution with Na+ counterions. The GROMOS-CKP model is employed for lipids and SCP Water Model . Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top, .itp), simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided.
-  identifier: 10.5281/zenodo.3247435
   sameAs: https://doi.org/10.5281/zenodo.3247435
   datePublished: '2019-06-17'
   license:

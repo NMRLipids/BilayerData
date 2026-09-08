@@ -51,7 +51,6 @@ bioschema_properties:
   name: 'Charmm36-Ua Pope Simulations (Versions 1 And 2) 310 K (Note: Hexagonal Membrane And Pope Is Called Peua)'
   alternateName: 336POPE_15254SOL_310K_v1
   description: 'Two CHARMM36-UA POPE bilayer simulations performed using GROMACS 5.0.6 for 200 ns with different starting velocities. Simulations were performed with the standard CHARMM36 settings: a 1.2 nm cut-off with PME for the Coulombic interactions and a 1.2 nm cut-off for the van der Waals interactions with the forces switched off at 1.0 nm. These simulations were performed at 310 K with a 336 hexagonal lipid bilayer. The full trajectories are provided bar the initial 100 ns. The starting structure of the membrane was made by reverse mapping an equilibrated MARTINI POPE bilayer (constructed with the INSANE script).'
-  identifier: 10.5281/zenodo.1293774
   sameAs: https://doi.org/10.5281/zenodo.1293774
   datePublished: '2018-06-20'
   license:

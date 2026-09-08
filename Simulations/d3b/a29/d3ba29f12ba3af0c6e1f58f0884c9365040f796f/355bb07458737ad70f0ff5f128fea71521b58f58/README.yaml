@@ -58,7 +58,6 @@ bioschema_properties:
   name: Dppc_Berger_Opls06_Nacl_1Mol
   alternateName: 72DPPC_2778SOL_51SOD_51CLA_323K
   description: 'MD simulation trajectory and related files for fully hydrated DPPC bilayer with 1 M NaCl. The OPLSAA-compatible Berger-DPPC-06 force field (DOI:10.1088/0953--8984/18/28/S07) was used with Gromacs 5.0.4. Ions were described by the Åqvist parameters. Conditions: T=323K, 72 lipids, 2778 SPC waters, 51 Na, 51 Cl. 120 ns trajectory, last 60 ns analyzed.'
-  identifier: 10.5281/zenodo.46152
   sameAs: https://doi.org/10.5281/zenodo.46152
   datePublished: '2016-02-17'
   license:

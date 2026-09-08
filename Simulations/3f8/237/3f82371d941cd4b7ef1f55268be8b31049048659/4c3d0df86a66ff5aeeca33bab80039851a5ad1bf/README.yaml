@@ -44,7 +44,6 @@ bioschema_properties:
   name: POPC Sage 2.2.0 with Espaloma charges
   alternateName: POPCandTIP3P
   description: Molecular dynamics simulation of a lipid bilayer containing POPC at 300.0 K, Sage2.2.0 Espaloma Charges force field, gromacs, 200 ns trajectory.
-  identifier: 10.5281/zenodo.15065566
   sameAs: https://doi.org/10.5281/zenodo.15065566
   datePublished: '2025-03-21'
   license:

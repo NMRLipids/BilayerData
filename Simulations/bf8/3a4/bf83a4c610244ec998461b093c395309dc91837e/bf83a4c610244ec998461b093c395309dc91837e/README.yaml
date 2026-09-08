@@ -80,7 +80,6 @@ bioschema_properties:
   name: Trajectory file of asymmetric PM-like lipid bilayer
   alternateName: (innerleaflet,76CHOL,30POPC,52POPE,26POPS,6SAPI24)(outerleaflet,76CHOL,52POPC,6POPE,2POPS,57PSM),13495SOL,52SOD
   description: Simulation of asymmetric PM-like lipid bilayer. Including DCD, PSF, and PDB files.
-  identifier: 10.5281/zenodo.8369348
   sameAs: https://doi.org/10.5281/zenodo.8369348
   datePublished: '2023-09-18'
   license:

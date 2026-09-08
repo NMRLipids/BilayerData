@@ -49,7 +49,6 @@ bioschema_properties:
   name: SLIPID POPG Bilayer Simulation (Last 100 ns, 310 K )
   alternateName: 500POPG_25000SOL_50SOD_310K
   description: Simulation of a POPG bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs v2018.3 in water solution with Na+ counterions. The SLIPID model is employed for lipids and the TIP3P model for water. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top), simulation parameter file (.mdp), and the energy output file (.edr) are provided.
-  identifier: 10.5281/zenodo.3364460
   sameAs: https://doi.org/10.5281/zenodo.3364460
   datePublished: '2019-08-09'
   license:

@@ -58,7 +58,6 @@ bioschema_properties:
   name: Md Simulation Trajectory And Related Files For Popc Bilayer With 340Mm Nacl (Berger Model Delivered By Tieleman, Ffgmx Ions, Gromacs 4.5)
   alternateName: 128POPC_44SOD_44CLA_7202SOL_298K_Berger
   description: Equilibrated POPC lipid bilayer simulation ran with Gromacs 4.5, Berger force field delivered by Peter Tieleman (http://wcm.ucalgary.ca/tieleman/downloads), double bonds updated in http://dx.doi.org/10.1021/jp065424f, ffgmx parameters for ions, 50ns, T=298K, 128 POPC molecules, 7202 water molecules, 44 Na molecules, 44 Cl molecules. This data is used in the NMRLipids II project (nmrlipids.blospot.fi).
-  identifier: 10.5281/zenodo.32144
   sameAs: https://doi.org/10.5281/zenodo.32144
   datePublished: '2015-10-15'
   license:

@@ -59,7 +59,6 @@ bioschema_properties:
   name: 'MD simulations of bilayers containing PC/PS mixtures and CaCl_2: 250POPC_50POPS_1MCaCl_2'
   alternateName: 250POPC_50POPS_214CAL_378CLA_298K_73964Atoms
   description: NMRLipids IV project (nmrlipids.blogspot.fi) Gromacs, CHARMM36 FF, 1 atm, 298K, 200ns (no pre-equilibration) 250 POPC lipids, 50 POPS lipids, 73964 Atoms
-  identifier: 10.5281/zenodo.2542135
   sameAs: https://doi.org/10.5281/zenodo.2542135
   datePublished: '2019-01-16'
   license:

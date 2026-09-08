@@ -51,7 +51,6 @@ bioschema_properties:
   name: MD simulation of POPC bilayer with OPLS3e force field, 200 mM NaCl part 1
   alternateName: POPC, 44 w/l, 300 K, 0.2 M NaCl
   description: 'MD simulation of POPC bilayer with OPLS3e force field, 200 mM NaCl part 1 Dataset contains trajectories (_trj) for the first 500ns of the 1000ns trajectory, topology (-out.cms) and input files (.cfg, .msj, .cms), and other files For the ease of the upload, trajectory files (_trj) are divided to 100ns pieces and tarred (named desmond_md_nacl200_x-xns.tar.gz) Dataset also contains Gromacs converted files (.xtc, .gro and .top). Converted trajectory is also for the first 500 ns of 1000 ns trajectory System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 8880 Concentration: 200 mM Number of cations: 32 Simulation time: 1000 ns (in this dataset 0-500ns) Simulation engine: Desmond 2019-4 Temperature: 300 K Related dataset: MD simulation of POPC bilayer with OPLS3e force field, 200 mM NaCl part 2 In contrast to previous version, this version contains gromacs format trajectory file .xtc with corrected time steps.'
-  identifier: 10.5281/zenodo.10202795
   sameAs: https://doi.org/10.5281/zenodo.10202795
   datePublished: '2022'
   license:

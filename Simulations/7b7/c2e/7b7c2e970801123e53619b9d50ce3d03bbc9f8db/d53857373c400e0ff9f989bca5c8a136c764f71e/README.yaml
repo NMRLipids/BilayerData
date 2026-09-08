@@ -53,7 +53,6 @@ bioschema_properties:
   name: MD simulation of POPC bilayer with CHARMM36 force field, 500 mM NaCl
   alternateName: POPC, 44 w/l, 300 K, 0.5 M NaCl
   description: 'MD simulation of POPC bilayer with CHARMM36 force field, 500 mM NaCl Dataset contains simulation files including centered and equilibrated trajectory Nacl500mM-60-500ns.xtc. System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 8880 Salt: NaCl Concentration: 500 mM Number of cations: 80 Simulation time: 500 ns Simulation engine: GROMACS 2019.5 Temperature: 300 K'
-  identifier: 10.5281/zenodo.6342522
   sameAs: https://doi.org/10.5281/zenodo.6342522
   datePublished: '2022-03-10'
   license:

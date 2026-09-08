@@ -44,7 +44,6 @@ bioschema_properties:
   name: Pure POPC membrane simulations with the CHARMM-Drude force field (OpenMM 7.5.0)
   alternateName: 64POPC_6400SOL_303K
   description: 'MD simulation data of a pure POPC membrane with the CHARMM-Drude force field. All the input parameters are available in the *inp file. Total simulation duration is 500 ns. First 100 ns is discarded as equilibration. This data set contains 400 ns data with 40000 frames (saving frequency is 10 ps). In total, 64 POPC lipids in each leaflet, 6400 SWM4-NPD water molecules. It has been discovered that (https://github.com/NMRLipids/Databank/issues/2#issuecomment-1357871243) the wrapped_full.dcd trajectory did not have the correct timestamp: the timestep between two consecutive simulation frames was not correctly embedded into the trajectory information. Therefore, with the latest version we are uploading the "wrapped_full.xtc" which has the correct timestamp. The frame saving frequency in this trajectory is 10 ps. The correction to the timestamp was done via MDAnalysis. This new update should not invalidate any previous calculations that did not explicitly read the timestamp information from the trajectory.'
-  identifier: 10.5281/zenodo.7607436
   sameAs: https://doi.org/10.5281/zenodo.7607436
   datePublished: '2021-03-15'
   license:

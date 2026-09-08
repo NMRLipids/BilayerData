@@ -51,7 +51,6 @@ bioschema_properties:
   name: POPC membrane simulated with Slipids/CHARMM36 hybrid topology
   alternateName: POPC_hybrid_c36mdp
   description: Simulations with a hybrid POPC topology. Tails are from Slipids and glycerol and headgroup from CHARMM36. BSc thesis project.
-  identifier: 10.5281/zenodo.15172176
   sameAs: https://doi.org/10.5281/zenodo.15172176
   datePublished: '2025-04-08'
   license:

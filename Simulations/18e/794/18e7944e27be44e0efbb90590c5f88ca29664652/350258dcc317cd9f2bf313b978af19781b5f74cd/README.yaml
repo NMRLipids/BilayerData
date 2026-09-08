@@ -55,7 +55,6 @@ bioschema_properties:
   name: 'MD simulations of bilayers containing PC/PS mixtures and CaCl_2: 150POPC_150POPS_neutral'
   alternateName: 150POPC_150POPS_150POT_298K_71655Atoms
   description: NMRLipids IV project (nmrlipids.blogspot.fi) Gromacs, CHARMM36 FF, 1 atm, 298K, 200ns (no pre-equilibration) 150 POPC lipids, 150 POPS lipids, 71655 Atoms
-  identifier: 10.5281/zenodo.2542164
   sameAs: https://doi.org/10.5281/zenodo.2542164
   datePublished: '2019-01-16'
   license:

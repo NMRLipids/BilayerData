@@ -47,7 +47,6 @@ bioschema_properties:
   name: Gromos-Ckp Dope Simulations (Versions 1 And 2) 271 K
   alternateName: 128DOPE_4789SOL_271K_GROMOS-CKP_v2
   description: Two GROMOS-CKP DOPE bilayer simulations performed using GROMACS 5.0.6 for 500 ns with different starting velocities. Simulations were performed with a 1.4 nm cut-off with PME for the Coulombic and a 1.4 nm cut-off for the van der Waals interactions with a dispersion correction. These simulations were performed at 271 K with a 128 lipid bilayer. The full trajectories are provided bar the initial 100 ns. The starting structure was taken from an equilibrated DOPE membrane simulated with an older version of the force field which used the PC charges in the head group (see the SI of https://pubs.acs.org/doi/abs/10.1021/jp207013v). The newer PE parameters were constructed using the standard GROMOS lysine parameters.
-  identifier: 10.5281/zenodo.1293941
   sameAs: https://doi.org/10.5281/zenodo.1293941
   datePublished: '2018-06-20'
   license:

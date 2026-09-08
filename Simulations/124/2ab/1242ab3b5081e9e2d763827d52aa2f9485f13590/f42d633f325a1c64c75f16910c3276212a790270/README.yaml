@@ -48,7 +48,6 @@ bioschema_properties:
   name: MD simulation of POPC bilayer with OPLS4 force field. 12 w/l.
   alternateName: 200POPC_2400SOL_300K
   description: Molecular dynamics simulation of a lipid bilayer containing POPC at 300.0 K, OPLS4 force field, gromacs, 450 ns trajectory.
-  identifier: 10.5281/zenodo.10931212
   sameAs: https://doi.org/10.5281/zenodo.10931212
   datePublished: '2024-04-05'
   license:

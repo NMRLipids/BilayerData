@@ -66,7 +66,6 @@ bioschema_properties:
   name: Md Simulation Trajectory Of A Popc/Pops (4:1) Bilayer With 715Mm Cacl2, Berger Force Field For Lipids, Scaled Charges For Ca2+ And Cl-
   alternateName: 104POPC_24POPS_4306SOL_72CAL_112CLA_310K
   description: 'MD simulation trajectory of a POPC/POPS (4:1) bilayer with 715 mM CaCl2 (104 POPC, 24 POPS, 26 POPS, 4306 WAT, 72 Ca2+, 112 Cl-). Additional Ca2+ cations added to neutralize the negative charge of POPS (leading to total Ca2+ concentration of 919 mM). Berger force field for lipids, scaled charges employed for calcium and chloride ions. Gromacs 4.5.5, T=310K, 300 ns trajectories were calculated with the last 100 ns stored here. Used in (see therein also a detailed description of ion scaling): A. Melcrova, S. Pokorna, S. Pullanchery, M. Kohagen, P. Jurkiewicz, M. Hof, P. Jungwirth, P. S. Cremer, L. Cwiklik, The complex nature of calcium cation interactions with phospholipid bilayers Scientific Reports 2016, 6, 38035. DOI: 10.1038/srep38035'
-  identifier: 10.5281/zenodo.887400
   sameAs: https://doi.org/10.5281/zenodo.887400
   datePublished: '2017-09-07'
   license:

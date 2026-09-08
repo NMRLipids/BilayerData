@@ -54,7 +54,6 @@ bioschema_properties:
   name: POPC bilayer at 310K with the CHARMM36-NBFIX force field, 111 mM NaCl
   alternateName: POPC_111mM_NaCl_CHARMM36
   description: prosECCo 75 paper related data
-  identifier: 10.5281/zenodo.10464958
   sameAs: https://doi.org/10.5281/zenodo.10464958
   datePublished: '2024-01-06'
   license:

@@ -60,7 +60,6 @@ bioschema_properties:
   name: POPC:POPG 4:1 MD simulation with CHARMM36 in 0.1 M CaCL2 solution with Na+ counter ions
   alternateName: POPC:POPG(4:1)+0.1MCaCl_T298K
   description: CHARMM36 POPC:POPG 4:1 bilayer simulation in 0.1 M CaCl2 solution. The initial structure was taken from CHARMM-GUI. Temperature is 298 K. The system contains 350 POPC, 88 POPG, 88 sodium ions, 26280 TIP3 water molecules, 47 Ca2+ ions and 94 Cl- ions. Total length of simulation is 400 ns. First 100 ns were discarded. Saving frequency of 100-300ns.xtc is 20 ps.
-  identifier: 10.5281/zenodo.3997019
   sameAs: https://doi.org/10.5281/zenodo.3997019
   datePublished: '2020-08-24'
   license:

@@ -42,7 +42,6 @@ bioschema_properties:
   name: Bilayer 5
   alternateName: POPCandTIP3P
   description: Modifications to the LJ parameters of P and O. Base FF is Sage 2.2.0
-  identifier: 10.5281/zenodo.15002801
   sameAs: https://doi.org/10.5281/zenodo.15002801
   datePublished: '2025-03-10'
   license:

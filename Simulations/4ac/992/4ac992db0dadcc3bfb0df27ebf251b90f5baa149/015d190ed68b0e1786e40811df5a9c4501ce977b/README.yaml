@@ -65,7 +65,6 @@ bioschema_properties:
   name: Simulation of model inner bacterial membrane (CHARMM36)
   alternateName: ECOLI_MODEL_MEMBRANE_UIB
   description: MD simulation trajectories of the model bacterial membrane (IMM) consisted of 75% (16:0/16:1)PE, PYPE, 20% (18:1)PG, DOPG,and 5% (16:0/18:1)CL, PVCL. The simulations are conducted in NPT ensemble at 310K in CHARMM36 force field using GROMACS v.2023+. High-temperature trajectory of 100 ns was taken as initial states (from timesteps 0, 50, 100 ns) for three deposited 1-us replicas. Writing frequency is 20 ps. Part of the bachelor project "Kardiolipin sin effekt på membranfluiditet" (in Norwegian) of Olivia Lykke Nygaard uploaded and referenced below.
-  identifier: 10.5281/zenodo.16842791
   sameAs: https://doi.org/10.5281/zenodo.16842791
   datePublished: '2025-08-13'
   license:

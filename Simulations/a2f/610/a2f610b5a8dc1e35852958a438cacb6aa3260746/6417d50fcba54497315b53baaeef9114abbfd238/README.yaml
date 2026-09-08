@@ -66,7 +66,6 @@ bioschema_properties:
   name: All-atom MD simulations of POPC/SSM/CHOL mixture
   alternateName: POPC/SSM/CHOL bilayer in water (with ions), 321.15 K, NPT
   description: 'All-atom MD simulation of lipid bilayer in water, with composition POPC/SSM/CHOL, at 321.15 K, NPT conditions. Force field: CHARMM36. Water model: TIP3P. Number of molecules: 100 POPC + 100 SSM + 100 CHOL + 9000 SOL + 18 Na+ + 18 Cl-. SSM is (d18:1/18:0) sphingomyelin. Duration of the simulation: 300 ns.'
-  identifier: 10.5281/zenodo.8337239
   sameAs: https://doi.org/10.5281/zenodo.8337239
   datePublished: '2023-09-12'
   license:

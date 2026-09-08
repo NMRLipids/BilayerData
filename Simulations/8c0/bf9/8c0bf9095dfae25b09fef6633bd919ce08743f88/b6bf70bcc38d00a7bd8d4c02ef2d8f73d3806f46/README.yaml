@@ -44,7 +44,6 @@ bioschema_properties:
   name: MD simulation of sphingomyelin (d18:1/18:0) bilayer in water
   alternateName: SSM bilayer in water, 328K
   description: MD simulations of sphingomyelin (d18:1/18:0) bilayer in water, NPT, 328 K. 128 SM + 5120 TIP3P water molecules, CHARMM36 force field.
-  identifier: 10.5281/zenodo.8333993
   sameAs: https://doi.org/10.5281/zenodo.8333993
   datePublished: '2023-09-11'
   license:

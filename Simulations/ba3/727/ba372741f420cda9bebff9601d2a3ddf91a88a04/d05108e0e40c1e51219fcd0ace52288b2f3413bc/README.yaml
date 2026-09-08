@@ -40,7 +40,6 @@ bioschema_properties:
   name: OpenFF Pure POPE
   alternateName: POPE_128_OPENFF_300K
   description: 200 ns MD production of a pure POPE bilayer using OpenFF parameters.
-  identifier: 10.5281/zenodo.8411733
   sameAs: https://doi.org/10.5281/zenodo.8411733
   datePublished: '2023-10-06'
   license:

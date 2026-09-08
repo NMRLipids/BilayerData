@@ -49,7 +49,6 @@ bioschema_properties:
   name: ECC-LIPID17 POPC-POPG 50:50 MD simulation, Na+ counterions, 298K
   alternateName: POPC:POPG(1:1)_T298K
   description: 'Simulation data and parameters of ECC-LIPID17 simulation of POPC:POPG 50:50 mixture with Na+ counterions at 298K, ran for NMRlipidsIVb: https://github.com/NMRLipids/NMRlipidsIVPEandPG/blob/master/Manuscript/manuscriptPGPE.pdf ECC-ion parameters are from bitbucket.org/hseara/ions/src/master/'
-  identifier: 10.5281/zenodo.3859339
   sameAs: https://doi.org/10.5281/zenodo.3859339
   datePublished: '2020-05-27'
   license:

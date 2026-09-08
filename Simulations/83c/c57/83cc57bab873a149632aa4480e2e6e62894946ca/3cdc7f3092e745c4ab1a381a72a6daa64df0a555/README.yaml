@@ -68,7 +68,6 @@ bioschema_properties:
   name: Simulation of TMCL (TMA salt) with betaOG
   alternateName: TMCL_BOG_TMA_NaCl_T303_21w/P
   description: Simulation of TMCL were done in GROMACS 2024.x in fully hydrated state using standrad CHARMM-GUI protocol over 500 ns after 500 ns of pre-equilibration (not deposited). Trajectory is saved every 20 ps (only compressed coordinates) and every 100 ps (full-precision, with velocities). Temperature 303K (v-rescale), pressure semi-isotropic 1bar (parrinello-rahman). Note (!), that BOG (beta-octyl-D-glucopyranoside) has renamed atoms comparing to CHARMM-GUI version. See itp file inside.
-  identifier: 10.5281/zenodo.13981147
   sameAs: https://doi.org/10.5281/zenodo.13981147
   datePublished: '2024-10-23'
   license:

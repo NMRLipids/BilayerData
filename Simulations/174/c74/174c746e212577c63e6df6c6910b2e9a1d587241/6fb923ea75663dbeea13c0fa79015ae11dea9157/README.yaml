@@ -47,7 +47,6 @@ bioschema_properties:
   name: Dppc_512_325K
   alternateName: 512DPPC_20480SOL_325K
   description: 'System description ------------------- - Title: Simulation DPPC_512_325K bilayer - MD engine: gromacs 5.0.4 - Force field: charmm36 - Temperature: 325K - Simulation time: 500ns - Saving frequency: 100ps - Molecular content: DPPC 512 water 20480 - Other information: * Center of mass motion removed independently for bilayer and water'
-  identifier: 10.5281/zenodo.16254
   sameAs: https://doi.org/10.5281/zenodo.16254
   datePublished: '2015-03-21'
   license:

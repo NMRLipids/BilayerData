@@ -73,7 +73,6 @@ bioschema_properties:
   name: Simulation of a DMPC/PI bilayer
   alternateName: DMPC/liverPI bilayer
   description: Input and output files for a simulation of a bilayer containing 70% DMPC and 30% PI. The PI chains chains correspond to those found in the PI lipids in liver. Simulated at 303 K with GROMACS using the CHARMM36 force field for 2 µs.
-  identifier: 10.5281/zenodo.4651415
   sameAs: https://doi.org/10.5281/zenodo.4651415
   datePublished: '2021-03-31'
   license:

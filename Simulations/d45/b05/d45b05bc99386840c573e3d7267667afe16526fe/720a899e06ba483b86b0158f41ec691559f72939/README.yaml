@@ -46,7 +46,6 @@ bioschema_properties:
   name: POPC membrane, 310K, CHARMM36, tip4p2005 water, gromacs 5
   alternateName: 200POPC_10456SOL_310K
   description: POPC membrane simulated with CHARMM36 in tip4p2005 water
-  identifier: 10.5281/zenodo.3431948
   sameAs: https://doi.org/10.5281/zenodo.3431948
   datePublished: '2019-09-17'
   license:

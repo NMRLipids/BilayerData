@@ -53,7 +53,6 @@ bioschema_properties:
   name: Md Simulation Trajectory For Popc Bilayer With 1000Mm Nacl (Orange, Gromacs 4.5.)
   alternateName: 72POPC_2780SOL_50CLA_50SOD_298K
   description: Equilibrated POPC lipid bilayer simulation ran with Gromacs 4.5, Orange, 120ns, T=298K, 72 POPC molecules, 2780 water molecules, 50 Na molecules, 50 Cl molecules. This data is used in the NMRLipids II project (nmrlipids.blospot.fi, https://github.com/NMRLipids/lipid_ionINTERACTION). The Orange model is unpublished lipid model developed by Luca Monticelli et al. http://perso.ibcp.fr/luca.monticelli/research/index.html. Beta version of the model is used here, thus only trajectory is shared.
-  identifier: 10.5281/zenodo.34497
   sameAs: https://doi.org/10.5281/zenodo.34497
   datePublished: '2015-12-02'
   license:

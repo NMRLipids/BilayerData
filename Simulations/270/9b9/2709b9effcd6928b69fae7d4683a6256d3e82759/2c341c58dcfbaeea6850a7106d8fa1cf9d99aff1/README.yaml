@@ -60,7 +60,6 @@ bioschema_properties:
   name: Simulations Of Popc Lipid Bilayer In Water Solution With Various Molar Fractions Of Cationic Surfactant Dihexadecylammonium Using Ecc-Popc Force Field
   alternateName: 100POPC_6214SOL_28DHMDMAB_CLA_313K_SPCEmodel
   description: Classical molecular dynamics simulations of a POPC lipid bilayer in water solution with various molar fractions of cationic surfactant dihexadecylammonium using ECC-POPC force field parameters, SPC/E water model and ECC-ions. Simulation at pure water is in a separate Zenodo deposit https://doi.org/10.5281/zenodo.1118266 file names report molar fraction of cations (i.e. not bulk concentrations) simulations performed with Gromacs 5.1.4 (*.xtc files) and openMM 7 (*.dcd files) simulation length 200 ns temperature 313 K (otherwise noted)
-  identifier: 10.5281/zenodo.1118682
   sameAs: https://doi.org/10.5281/zenodo.1118682
   datePublished: '2017-12-19'
   license:
