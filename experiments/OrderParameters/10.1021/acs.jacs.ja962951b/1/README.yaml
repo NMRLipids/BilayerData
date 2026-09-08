@@ -36,7 +36,6 @@ COUNTER_IONS:
 bioschema_properties:
   name: 'Dipolar Recoupling in MAS NMR: A Probe for Segmental Order in Lipid Bilayers'
   description: 'Experimental C-H bond order parameters for a lipid bilayer containing DMPC at 303 K, measured by NMR: PDLF:DROSS.'
-  identifier: 10.1021/ja962951b
   sameAs: https://doi.org/10.1021/ja962951b
   datePublished: '1997-01-01'
   license:

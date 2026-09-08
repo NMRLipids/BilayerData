@@ -29,7 +29,6 @@ COUNTER_IONS:
 bioschema_properties:
   name: Lipid Bilayer Structure Determined by the Simultaneous Analysis of Neutron and X-Ray Scattering Data
   description: Experimental X-ray scattering form factor for a lipid bilayer containing DOPC at 303 K, measured by X-ray scattering (SUV).
-  identifier: 10.1529/biophysj.108.132662
   sameAs: https://doi.org/10.1529/biophysj.108.132662
   datePublished: 2008-09
   license:

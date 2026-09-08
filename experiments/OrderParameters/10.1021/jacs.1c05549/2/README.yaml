@@ -12,7 +12,6 @@ COUNTER_IONS:
 bioschema_properties:
   name: Inverse Conformational Selection in Lipid–Protein Binding
   description: Experimental C-H bond order parameters for a lipid bilayer at 310.0 K, measured by NMR.
-  identifier: 10.1021/jacs.1c05549
   sameAs: https://doi.org/10.1021/jacs.1c05549
   datePublished: '2021-08-16'
   license:

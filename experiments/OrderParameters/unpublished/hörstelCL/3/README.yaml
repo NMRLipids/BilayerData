@@ -42,7 +42,6 @@ COUNTER_IONS:
 bioschema_properties:
   name: BHCL_Na_DSS
   description: 'Experimental C-H bond order parameters for a lipid bilayer containing TLCL_0H at 300.5 K, measured by NMR: PDLF:R18_1^7.'
-  identifier: 10.57992/nmrxiv.p157.s1604
   sameAs: https://doi.org/10.57992/nmrxiv.p157.s1604
   datePublished: '2026-01-16'
   license:

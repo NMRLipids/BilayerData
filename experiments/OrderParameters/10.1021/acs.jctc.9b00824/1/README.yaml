@@ -14,7 +14,6 @@ COUNTER_IONS:
 bioschema_properties:
   name: Improved Cation Binding to Lipid Bilayers with Negatively Charged POPS by Effective Inclusion of Electronic Polarization
   description: Experimental C-H bond order parameters for a lipid bilayer at 298.0 K, measured by NMR.
-  identifier: 10.1021/acs.jctc.9b00824
   sameAs: https://doi.org/10.1021/acs.jctc.9b00824
   datePublished: '2019-11-24'
   license:

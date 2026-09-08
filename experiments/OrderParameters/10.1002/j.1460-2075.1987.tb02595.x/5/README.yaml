@@ -56,7 +56,6 @@ COUNTER_IONS:
 bioschema_properties:
   name: Structure and dynamics of the phosphatidylcholine and the phosphatidylethanolamine head group in L‐M fibroblasts as studied by deuterium nuclear magnetic resonance.
   description: 'Experimental C-H bond order parameters for a lipid bilayer containing POPC, POPG at 298 K, measured by NMR: 2H:QE.'
-  identifier: 10.1002/j.1460-2075.1987.tb02595.x
   sameAs: https://doi.org/10.1002/j.1460-2075.1987.tb02595.x
   datePublished: '1987-10-01'
   license:

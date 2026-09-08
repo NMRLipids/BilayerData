@@ -46,7 +46,6 @@ COUNTER_IONS:
 bioschema_properties:
   name: Bilayers of arachidonic acid containing phospholipids studied by deuterium and phosphorus-31 NMR spectroscopy
   description: 'Experimental C-H bond order parameters for a lipid bilayer containing PAPC at 303 K, measured by NMR: 2H:QE.'
-  identifier: 10.1021/bi00231a015
   sameAs: https://doi.org/10.1021/bi00231a015
   datePublished: '1991-04-30'
   license:

@@ -12,7 +12,6 @@ COUNTER_IONS:
 bioschema_properties:
   name: Cholesterol-Induced Conformational Change in the Sphingomyelin Headgroup
   description: Experimental C-H bond order parameters for a lipid bilayer at 323 K, measured by NMR.
-  identifier: 10.1016/j.bpj.2019.06.019
   sameAs: https://doi.org/10.1016/j.bpj.2019.06.019
   datePublished: 2019-07
   license:

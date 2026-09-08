@@ -12,7 +12,6 @@ COUNTER_IONS:
 bioschema_properties:
   name: Probing segmental order in lipid bilayers at variable hydration levels by amplitude- and phase-modulated cross-polarization NMR
   description: Experimental C-H bond order parameters for a lipid bilayer at 314 K, measured by NMR.
-  identifier: 10.1039/B508190D
   sameAs: https://doi.org/10.1039/B508190D
   datePublished: '2005'
   license:

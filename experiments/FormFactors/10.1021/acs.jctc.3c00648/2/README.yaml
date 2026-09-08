@@ -32,7 +32,6 @@ COUNTER_IONS:
 bioschema_properties:
   name: Quantitative Comparison against Experiments Reveals Imperfections in Force Fields’ Descriptions of POPC–Cholesterol Interactions
   description: Experimental X-ray scattering form factor for a lipid bilayer containing CHOL, POPC at 300 K, measured by X-ray scattering (MLV).
-  identifier: 10.1021/acs.jctc.3c00648
   sameAs: https://doi.org/10.1021/acs.jctc.3c00648
   datePublished: '2023-08-24'
   license:

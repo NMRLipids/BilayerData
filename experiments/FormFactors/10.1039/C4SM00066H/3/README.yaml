@@ -39,7 +39,6 @@ COUNTER_IONS:
 bioschema_properties:
   name: The molecular structure of a phosphatidylserine bilayer determined by scattering and molecular dynamics simulations
   description: Experimental X-ray scattering form factor for a lipid bilayer containing POPS at 298 K, measured by X-ray scattering (SUV).
-  identifier: 10.1039/C4SM00066H
   sameAs: https://doi.org/10.1039/C4SM00066H
   datePublished: '2014'
   license:

@@ -32,7 +32,6 @@ COUNTER_IONS:
 bioschema_properties:
   name: Effect of cholesterol on structural and mechanical properties of membranes depends on lipid chain saturation
   description: Experimental X-ray scattering form factor for a lipid bilayer containing SOPC at 303 K, measured by X-ray scattering (SUV).
-  identifier: 10.1103/PhysRevE.80.021931
   sameAs: https://doi.org/10.1103/PhysRevE.80.021931
   datePublished: '2009-08-25'
   license:
