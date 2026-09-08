@@ -81,10 +81,23 @@ bioschema_properties:
   - CHOL
   - cholesterol
   measurementTechnique:
+  - '@type': DefinedTerm
+    name: small-angle X-ray scattering
+    termCode: CHMO_0000204
+    inDefinedTermSet: http://purl.obolibrary.org/obo/chmo.owl
+    url: http://purl.obolibrary.org/obo/CHMO_0000204
+  - '@type': DefinedTerm
+    name: X-ray diffraction
+    termCode: topic_2828
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_2828
   - X-ray scattering (MLV)
   - EMBL BioSAXS beamline, PETRA III
   variableMeasured:
-  - X-ray scattering form factor
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
   distribution:
   - '@type': DataDownload
     name: formfactor_chol25_FormFactor.json

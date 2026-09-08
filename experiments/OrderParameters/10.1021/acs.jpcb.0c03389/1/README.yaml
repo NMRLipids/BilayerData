@@ -12,7 +12,7 @@ COUNTER_IONS:
 
 bioschema_properties:
   name: Molecular Structure of Sphingomyelin in Fluid Phase Bilayers Determined by the Joint Analysis of Small-Angle Neutron and X-ray Scattering Data
-  description: Experimental C-H bond order parameters for a lipid bilayer at 318 K, measured by NMR.
+  description: Experimental C-H bond order parameters for a lipid bilayer at 318 K.
   sameAs: https://doi.org/10.1021/acs.jpcb.0c03389
   datePublished: '2020-05-29'
   license:
@@ -59,9 +59,21 @@ bioschema_properties:
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/topic_3306
   measurementTechnique:
-  - NMR
+  - '@type': DefinedTerm
+    name: nuclear magnetic resonance spectroscopy
+    termCode: CHMO_0000591
+    inDefinedTermSet: http://purl.obolibrary.org/obo/chmo.owl
+    url: http://purl.obolibrary.org/obo/CHMO_0000591
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
   variableMeasured:
-  - C-H bond order parameter
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
   distribution:
   - '@type': DataDownload
     name: SM16_OrderParameters.json

@@ -94,10 +94,23 @@ bioschema_properties:
   - SOD
   - CLA
   measurementTechnique:
+  - '@type': DefinedTerm
+    name: solid-state nuclear magnetic resonance spectroscopy
+    termCode: CHMO_0000614
+    inDefinedTermSet: http://purl.obolibrary.org/obo/chmo.owl
+    url: http://purl.obolibrary.org/obo/CHMO_0000614
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
   - 'NMR: 2H:QE'
   - Bruker-Spektrospin CXP 300
   variableMeasured:
-  - C-H bond order parameter
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
   distribution:
   - '@type': DataDownload
     name: POPC_OrderParameters.json
