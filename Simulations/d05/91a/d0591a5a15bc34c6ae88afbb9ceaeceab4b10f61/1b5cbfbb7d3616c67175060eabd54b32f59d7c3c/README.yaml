@@ -63,3 +63,23 @@ EXPERIMENT:
     POPS: []
   FORMFACTOR: []
 ID: 621
+bioschema_properties:
+  name: Md Simulation Trajectory Of A Popc/Pops (4:1) Bilayer With 1M Nacl, Berger Force Field For Lipids And Ffgmx For Ions
+  description: 'MD simulation trajectory of a POPC/POPS (4:1) bilayer with 1M NaCl (102 POPC, 26 POPS, 4290 WAT, 106 Na+, 80 Cl-). Additional Na+ cations added to neutralize the negative charge of POPS. Berger force field for lipids and ffgmx for ions are employed. Gromacs 4.0.7, T=310K, 200 ns trajectories were calculated with the last 50 ns stored here. Used in: P. Jurkiewicz, L. Cwiklik, A. Vojtiskova, P. Jungwirth, M. Hof, Structure, Dynamics, and Hydration of POPC/POPS Bilayers Suspended in NaCl, KCl, and CsCl BBA Biomembranes 2012 , 1818, 609-616. DOI: 10.1016/j.bbamem.2011.11.033'
+  datePublished: '2017-08-02'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Cwiklik, Lukasz
+  citation:
+  - 10.1016/j.bbamem.2011.11.033
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.838219
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

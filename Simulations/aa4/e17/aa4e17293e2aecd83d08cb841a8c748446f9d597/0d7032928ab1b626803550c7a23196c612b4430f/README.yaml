@@ -53,3 +53,21 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 ID: 138
+bioschema_properties:
+  name: SLIPID POPC-POPG 7:3 Bilayer Simulation (Last 100 ns, 310 K )
+  description: Simulation of a POPC-POPG 7:3 bilalyer of 500 lipids (150 POPG lipids and 350 POPG lipids, 250 per leaflet) is simulated for 500 ns using Gromacs v2018.3 in water solution with Na+ counterions. The SLPID model is employed for lipids with TIP3P Water Model. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top) , simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided.
+  datePublished: '2019-06-06'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: PeON, Antonio
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3240156
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

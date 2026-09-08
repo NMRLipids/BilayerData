@@ -38,3 +38,21 @@ EXPERIMENT:
     POPC:
     - 10.1021/acs.jpcb.4c04719/1
   FORMFACTOR: []
+bioschema_properties:
+  name: MD simulation of POPC bilayer with CHARMM36 force field. 5 w/l.
+  description: 'MD simulation of POPC (1-palmitoyl-2-oleoyl-phosphatidylcholine) bilayer with CHARMM36 force field. 5 w/l. Dataset contains simulation files including trajectories (.xtc) (original production.xtc and equilibrated and centered centered-350-1000ns.xtc). System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 1000 Simulation time: 1000 ns Sampling rate: 10 ps Simulation engine: GROMACS 2019.5 Temperature: 300 K'
+  datePublished: '2022-03-07'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Lindström, Milla
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.6333548
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

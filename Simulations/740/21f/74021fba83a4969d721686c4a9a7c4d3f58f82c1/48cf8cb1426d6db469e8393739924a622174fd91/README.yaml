@@ -50,3 +50,22 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 ID: 84
+bioschema_properties:
+  name: Popc_Amber_Lipid14_Cacl2_1Mol
+  description: 'MD simulation trajectory and related files for fully hydrated POPC bilayer with 1M CaCl2. The LIPID14 force field was used with Gromacs 5.0.3. Ions were described by AMBER99SB-ILDN force field. Conditions: T=298.15, 128 POPC molecules, 6400 tip3p waters (lipid/water 1:50), 100 Ca, 200 Cl. 200ns trajectory (preceded by 5ns NPT equillibration) (2 files of 100ns).'
+  datePublished: '2015-12-09'
+  license:
+    spdx: GPL-3.0-only
+    name: GNU General Public License v3.0 only
+    url: https://spdx.org/licenses/GPL-3.0-only.html
+    sameAs: http://www.opensource.org/licenses/GPL-3.0
+  publisher: Zenodo
+  creator:
+  - name: Girych Mykhailo
+  - name: Ollila O. H. Samuli
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.35074
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

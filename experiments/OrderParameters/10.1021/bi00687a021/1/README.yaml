@@ -42,3 +42,23 @@ TOTAL_LIPID_CONCENTRATION: 1.362
 COUNTER_IONS:
  
 
+bioschema_properties:
+  name: Conformation and motion of the choline head group in bilayers of dipalmitoyl-3-sn-phosphatidylcholine
+  datePublished: '1975-08-01'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  publisher: American Chemical Society (ACS)
+  creator:
+  - name: Hans U. Gally
+  - name: Werner Niederberger
+  - name: Joachim Seelig
+  citation:
+  - 10.1021/bi00687a021
+  isPartOf: Biochemistry
+  _source:
+    api: crossref
+    doi: 10.1021/bi00687a021
+    retrieved: '2026-09-08'

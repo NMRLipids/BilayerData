@@ -45,3 +45,19 @@ EXPERIMENT:
     - 10.1021/acs.jpcb.4c04719/3
   FORMFACTOR: []
 ID: 804
+bioschema_properties:
+  name: MD simulation of POPC bilayer with OPLS4 force field. 12 w/l.
+  datePublished: '2024-04-05'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kurki, Milla
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.10931212
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

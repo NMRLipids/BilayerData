@@ -53,3 +53,24 @@ EXPERIMENT:
   ORDERPARAMETER:
     TOCL: []
   FORMFACTOR: []
+bioschema_properties:
+  name: MD simulations of TOCL(TMA/Na) and TLCL(Na) in CHARMM36
+  description: 'Simulation of TLCL and TOCL is done in GROMACS 2024.x in fully hydrated states using standrad CHARMM-GUI protocol over 500 ns after 100 ns of pre-equilibration (not deposited). Trajectory is saved every 100 ps with velocities. Temperature 303K (v-rescale), pressure semi-isotropic 1bar (parrinello-rahman). Three systems are deposited: TLCL (33/33), NaCl (66*2+15), H2O (~45 w/P) TOCL (33/33), TMACl (66*2+11), H2O (~32 w/P) TOCL (33/33), NaCl (66*2+11), H2O (~40 w/P)'
+  datePublished: '2024-10-15'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Hörstel, Ferdinand
+  - name: Miettinen, Markus S.
+    identifier: https://orcid.org/0000-0002-3999-4722
+  - name: Nesterenko, Alexey
+    identifier: https://orcid.org/0000-0003-1592-257X
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.13933145
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

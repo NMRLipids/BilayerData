@@ -39,3 +39,21 @@ EXPERIMENT:
     POPG: []
   FORMFACTOR: []
 ID: 284
+bioschema_properties:
+  name: Popg Lipid Bilayer Simulation At T298K Ran With Model_Charmm_Gui Force Field And Gromacs
+  description: POPG lipid bilayer simulation at T298K ran 100ns with the force field given by CHARMM gui using Gromacs. 118 POPG, 4110 TIP3P and 118 potassium molecules.
+  datePublished: '2017-10-13'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Ollila, O. H. Samuli
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1011096
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

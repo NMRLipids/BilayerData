@@ -50,3 +50,22 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 467
+bioschema_properties:
+  name: Simulations Popc Bilayers (512 Lipids) Using Charmm36 Ff In Gromacs
+  description: 'Collection simulations of POPC (512 lipids) bilayers in gromacs using the charmm36 force field. The list of systems can be found below where the several parameter are: POPC_512_310K (500ns) POPC_512_NaCl_150mM_310K (500ns) POPC_512_NaCl_150mM_310K_tip3p (500ns) POPC_512_NaCl_Dang_150mM_310K (500ns) For further information read the Readme file provided for each simulation.'
+  datePublished: '2017-10-12'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Martinez-Seara, Hector
+    identifier: https://orcid.org/0000-0001-9716-1713
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1010083
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

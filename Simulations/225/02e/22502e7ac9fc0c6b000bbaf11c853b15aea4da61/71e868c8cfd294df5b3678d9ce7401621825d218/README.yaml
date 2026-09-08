@@ -41,3 +41,21 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 281
+bioschema_properties:
+  name: Charmm36 Popc Gromacs 5.0.6 500 Ns (Started From Tjp Files)
+  description: CHARMM36 force field POPC simulations performed using GROMACS version 5.0.6 started from structure and POPC topology obtained from http://pubs.acs.org/doi/abs/10.1021/ct3003157 and the CHARMM36 force field parameters from http://mackerell.umaryland.edu/charmm_ff.shtml#gromacs. Results are included for simulations using both an 8 Å and 10 Å switching point for the van der Waals interactions, with 2 x 500 ns for each of these cut-off schemes (versions with different starting velocities are labelled as v1 and v2). The trajectories have been processed using trjconv -skip 10 to make the files smaller for uploading, although the initial analysis was performed on the complete simulations.
+  datePublished: '2016-11-01'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Piggot, Thomas
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.164203
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

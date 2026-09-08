@@ -41,3 +41,31 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 35
+bioschema_properties:
+  name: 212 DPPC Molecules bilayer in pure Water, simulated at temperatures ranging from 288K to 358K
+  description: 'Publication: A machine learning study of the two states model for lipid bilayer phase transitions Published on: 12 August 2020 Journal : Phys. Chem. Chem. Phys. , 2020, DOI: 10.1039/D0CP02058C Description : Simulation files used to train our machine learning algorithm to identify the thermodynamic phase of individual lipid molecules in a bilayer, as well as the simulation files analysed by the machine learning models. Code source for the ML algorithm can be found on Github. The training files are named gel.gro and fluid.gro. They respectively correspond to the final frame of the systems simulated at 288K and 358K. All other files are the files analysed by the machine learning models. System composition: DPPC molecules: 212 with 130 atoms each Water molecules: 29,826 with 3 atoms each Simulation box dimensions (approx.): 8 x 8 x 20 nm Simulation details: Software: Gromacs (v. 2016.4) Forcefield: Charmm36 (v. June 2015) - Water: TIP3P Thermostat: Nose-hoover (0.4ps, 2 groups) Barostat: Parrinello-Rahman semi-isotropic (2.0ps, 1.0 bar on each axis, 4.5e-5 bar-1) Duration: 50 ns'
+  datePublished: '2020-07-20'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Walter, Vivien
+    identifier: https://orcid.org/0000-0003-3203-9543
+  - name: Ruscher, Celine
+    identifier: https://orcid.org/0000-0003-1095-9103
+  - name: Benzerara, Olivier
+  - name: Marques, Carlos
+    identifier: https://orcid.org/0000-0002-3952-0498
+  - name: Thalmann, Fabrice
+    identifier: https://orcid.org/0000-0002-9630-1128
+  citation:
+  - 10.1039/D0CP02058C
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3950029
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

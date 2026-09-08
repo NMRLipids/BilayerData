@@ -44,3 +44,21 @@ LOG:
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 512
+bioschema_properties:
+  name: POPC CHARMM36 T313K
+  description: POPC CHARMM36 T313K. The simulations are ran for simulations with cationic surfactants for NMRlipids IV project at 313 K using Gromacs 5. itp files called in top files can be found from the root of repository https://doi.org/10.5281/zenodo.1288296.
+  datePublished: '2020-09-21'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Ollila
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.4040423
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

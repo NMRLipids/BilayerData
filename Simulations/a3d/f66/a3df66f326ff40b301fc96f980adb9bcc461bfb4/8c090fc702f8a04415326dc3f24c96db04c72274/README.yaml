@@ -41,3 +41,25 @@ EXPERIMENT:
   ORDERPARAMETER:
     DPPE: []
   FORMFACTOR: []
+bioschema_properties:
+  name: CHARMM36 DPPE bilayer freezes at 342 K
+  description: This dataset contains MD simulation data of a system of a total of 34 DPPE (1,2-dipalmitoyl-sn-glycero-3-phosphoethanolamine) lipids in a bilayer (17 lipids per leaflet) using the CHARMM36 force field at 342 K. In addition to the lipid molecules, the system contains 1335 molecules of Charmm TIP3P water (39.3 waters / lipid). GROMACS version 2023.3 was used. Although the temperature is 7 degrees above the main transition temperature of DPPE (Tm = 335 K), the lipids are observed to enter the gel phase after roughly 30 ns of simulation. This is illustrated by the drop in area per lipid (see APL_vs_time.png), as well as the snapshots saved every 10 ns from the beginning (DPPE_342K_0ns.gro) to 100 ns (DPPE_342K_100ns.gro). The equilibrated trajectory file (DPPE_342K_100-200ns.xtc) covers the last 100 ns of the 200-ns trajectory, with coordinates saved every 15 ps.
+  datePublished: '2025-11-01'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Singh, Avneesh
+    identifier: https://orcid.org/0009-0003-8482-7207
+  - name: Ganguly, Anubhav
+    identifier: https://orcid.org/0009-0009-3011-1792
+  - name: Miettinen, Markus S.
+    identifier: https://orcid.org/0000-0002-3999-4722
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.15662847
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

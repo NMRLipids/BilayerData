@@ -40,3 +40,22 @@ TPR:
 TRJ:
 - - prottraj.xtc
 ID: 151
+bioschema_properties:
+  name: Pure POPC bilayer MD simulation using Berger force field, T=303K
+  description: Protonated trajectory and .gro from a Berger simulation of 256 POPCs hydrated with 10342 waters simulated with Gpu-version of Gromacs2020.1. The force field and inputs were downloaded from https://zenodo.org/record/1402417/. Prod.tpr was used to run the simulation, protonated.tpr is a dummy .tpr used for the analysis of the protonated trajectory. Simulation used Nose-Hoover thermostat and Parrinello-Rahman barostat.
+  datePublished: '2021-02-12'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Antila, Hanne
+    identifier: https://orcid.org/0000-0002-2474-5053
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.4537207
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

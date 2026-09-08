@@ -49,3 +49,20 @@ EXPERIMENT:
 WARNINGS:
   TIMESTEP: incorrect
 ID: 805
+bioschema_properties:
+  name: MD simulation of POPC bilayer with OPLS3e force field. Full hydration 44 w/l
+  description: 'MD simulation of POPC (1-palmitoyl-2-oleoyl-phosphatidylcholine) bilayer with OPLS3e force field. Full hydration 44 w/l. Dataset contains trajectories (_trj), topologies (-out.cms) and input files (.cfg, .msj, .cms), and other files. For the ease of the upload, trajectory files (_trj) are divided to 100ns pieces and tarred (named popc44_x-xns_trj.tar.gz) Gromacs converted files are also included: popchydr44_0-500ns.xtc, desmond_md_popc200lip500ns-in_converted.gro desmond_md_popc200lip500ns-in_converted.top System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 8859 Simulation engine: Desmond 2019-4 (This version includes fixed time stamps in converted .xtc file)'
+  datePublished: '2022'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Milla Lindström
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.10183982
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

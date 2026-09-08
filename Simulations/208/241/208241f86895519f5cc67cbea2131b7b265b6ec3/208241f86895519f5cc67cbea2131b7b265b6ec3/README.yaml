@@ -45,3 +45,21 @@ EXPERIMENT:
     - unpublished/ferreiraPOPE/1
   FORMFACTOR:
   - 10.1021/jp511159q/1
+bioschema_properties:
+  name: Pure POPE membrane simulations with the CHARMM-Drude force field at 310K (OpenMM)
+  description: MD simulation data of a pure POPE membrane with the CHARMM-Drude force field generated with the OpenMM simulation engine at 310K. Parameters from CHARMM-GUI.
+  datePublished: '2023-02-03'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Ollila, O. H. Samuli
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.7602770
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

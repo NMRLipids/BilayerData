@@ -47,3 +47,23 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 ID: 858
+bioschema_properties:
+  name: MD simulation of POPC bilayer with OPLS3e force field, 1000 mM CaCl2 part 2
+  description: 'MD simulation of POPC bilayer with OPLS3e force field, 1000 mM CaCl 2 part 2 Dataset contains trajectories (_trj) for the last 500ns of the 1000ns trajectory, topology (-out.cms), and other files. For the ease of the upload, trajectory files (_trj) are divided to 100ns pieces and tarred (named desmond_md_cacl1000_x-xns.tar.gz) Dataset also contains Gromacs converted trajectories for the last 500 ns of 1000 ns, and are as 100 ns pieces for analysis since simulation did not equilibrate during 1000 ns. System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 8880 Salt: CaCl 2 Concentration: 1000 mM Number of cations: 160 Simulation time: 1000 ns (in this dataset 500-1000ns) Simulation engine: Desmond 2019-4 Temperature: 300 K Related dataset: MD simulation of POPC bilayer with OPLS3e force field, 1000 mM CaCl 2 part 1'
+  datePublished: '2022-03-15'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Lindström, Milla
+  citation:
+  - 10.1021/acs.jcim.2c00395
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.6619202
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

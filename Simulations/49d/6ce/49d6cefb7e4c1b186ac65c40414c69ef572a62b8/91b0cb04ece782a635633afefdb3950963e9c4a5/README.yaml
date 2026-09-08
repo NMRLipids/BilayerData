@@ -49,3 +49,21 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /usr/home/bort/Databank
 ID: 122
+bioschema_properties:
+  name: Popc @ 310K, 450 Mm Of Cacl_2. Slipids With Default Amber Ions
+  description: 'Simulations of a POPC bilayer with 450 mM of CaCl_2. The goal was to study the effect of salt on the order parameters of the lipid head group and the glycerol backbone for the NMRlipids project, see http://nmrlipids.blogspot.fi for more information. A POPC bilayer consisting of 200 lipids (100 per leaflet) is simulated in the presence of 450 mM CaCl_2. The Slipids model [1–3] is employed for lipids, tip3p model for water, and the default amber ion parameters (type C0) for CaCl_2. The Slipids force field parameters were downloaded from http://mmkluster.fos.su.se/slipids/ –––––––––––––––––––––––––––––––––––––––––––––––––––––– The files are in GROMACS format. Trajectory (.xtc) is 100 ns long with data saved every 100 ps. These data were collected after 1900 ns of simulation. Additionally, the initial structure (.gro), topology (.top), index file (.ndx), simulation paremeter file (.mdp), binary run input file for GROMACS v. 4.6–> (.tpr) and the energy output file (.edr) are provided. –––––––––––––––––––––––––––––––––––––––––––––––––––––– [1] Derivation and Systematic Validation of a Refined All-Atom Force Field for Phosphatidylcholine Lipids Joakim P. M. Jämbeck and Alexander P. Lyubartsev The Journal of Physical Chemistry B 2012 116 (10), 3164-3179 DOI: 10.1021/jp212503e [2] An Extension and Further Validation of an All-Atomistic Force Field for Biological Membranes Joakim P. M. Jämbeck and Alexander P. Lyubartsev Journal of Chemical Theory and Computation 2012 8 (8), 2938-2948 DOI: 10.1021/ct300342n [3] Another Piece of the Membrane Puzzle: Extending Slipids Further Joakim P. M. Jämbeck and Alexander P. Lyubartsev Journal of Chemical Theory and Computation 2013 9 (1), 774-784 DOI: 10.1021/ct300777p'
+  datePublished: '2016-05-09'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.51182
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

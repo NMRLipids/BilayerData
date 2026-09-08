@@ -44,3 +44,21 @@ EXPERIMENT:
     POPE: []
   FORMFACTOR: []
 ID: 86
+bioschema_properties:
+  name: 'Gromos 43A1-S3 Pope Simulations (Versions 1 And 2) 313 K (Note: Anisotropic Pressure Coupling)'
+  description: 'Two GROMOS 43A1-S3 POPE bilayer simulations performed using GROMACS 4.0.7 for 200 ns with different starting velocities. Simulations were performed with the standard 43A1-S3 settings: a 1.0 nm cut-off with PME for the Coulombic interactions and a twin-range 1.0/1.6 nm cut-off for the van der Waals interactions. These simulations were performed at 313 K with a 128 lipid bilayer and used anisotropic pressure coupling. The full trajectories are provided bar the initial 100 ns. The starting structure was made through the conversion of an equilibrated GROMOS 43A1-S3 POPC membrane.'
+  datePublished: '2018-06-20'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Piggot, Thomas
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1293762
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

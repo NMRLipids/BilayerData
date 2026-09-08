@@ -53,3 +53,21 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 389
+bioschema_properties:
+  name: PC/PS 5:1 bilayer, Na contraions, additional CaCl_2, CHARMM36 FF, NBFIX-Han
+  description: Systems of 250 POPC and 50 POPS lipids in water solutions with 50 sodium contra ions and 0, 140, 940 mM additional calcium chloride. Simulations were run with CHARMM36 force field with NBFIX for calcium ions (http://dx.doi.org/10.1021/acs.jpcb.7b10730). 320K, 1bar. Gromacs version 2018.6
+  datePublished: '2019-08-19'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Nencini, Ricky
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3371327
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

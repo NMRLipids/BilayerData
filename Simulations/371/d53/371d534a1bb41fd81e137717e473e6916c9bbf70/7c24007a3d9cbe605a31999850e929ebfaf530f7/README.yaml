@@ -49,3 +49,21 @@ EXPERIMENT:
   - 10.1039/C4SM00066H/2
   - 10.1039/C4SM00066H/3
 ID: 26
+bioschema_properties:
+  name: Macrog Pops Simulations (Versions 1 And 2) 298 K With Corrected Po Not Op Tails
+  description: MacRog POPS simulations (298 K, starting structure from the CHARMM-GUI) performed with 1.0 nm cut-offs, PME and a dispersion correction. Two simulations were performed with differently assigned random starting velocities. Note that unlike the original MacRog simulations, these have the correct PO and not OP tails.
+  datePublished: '2018-06-05'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Piggot, Thomas
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1283335
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

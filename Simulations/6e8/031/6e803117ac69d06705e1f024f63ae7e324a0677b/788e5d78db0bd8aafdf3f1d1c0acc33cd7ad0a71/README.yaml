@@ -50,3 +50,21 @@ TRJLENGTH: 200020.0
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 610
 AUTHORS_CONTACT: Santuz, Hubert
+bioschema_properties:
+  name: Md Simulation Trajectory For Popc/20% Chol Bilayer (Charmm36, Gromacs 4.5)
+  description: 'Equilibrated POPC/20%CHL lipid bilayer ran with Gromacs 4.5 with CHARMM36 lipid forcefield. The simulation is composed of 100 POPC/24 Cholesterol at full hydratation and ran for 200ns at 303K, data saved every 20ps. All input parameters can be find on the github repository: https://github.com/NMRLipids/nmrlipids.blogspot.fi This data is used in the project "Matching lipid force fields with NMR data". More information at : http://nmrlipids.blogspot.fi/'
+  datePublished: '2015-01-19'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0
+  publisher: Zenodo
+  creator:
+  - name: Santuz, Hubert
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.14067
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

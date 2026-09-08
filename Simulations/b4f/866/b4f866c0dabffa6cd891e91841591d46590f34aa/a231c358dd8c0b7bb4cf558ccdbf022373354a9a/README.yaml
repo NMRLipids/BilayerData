@@ -43,3 +43,22 @@ TRJLENGTH: 500010.0
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 428
 AUTHORS_CONTACT: Buslaev Pavel
+bioschema_properties:
+  name: MD simulation trajectory for POPC bilayer with 128 lipid molecules (CHARMM36, Gromacs 5.1)
+  description: 'Equilibrated POPC lipid bilayer ran with Gromacs 5.1.2 with CHARMM36 lipid forcefield. The simulation is composed of 128 POPC at full hydratation and ran for 500ns at 303K, data saved every 10ps. This data is used in the project "Matching lipid force fields with NMR data". More information at : http://nmrlipids.blogspot.fi/'
+  datePublished: '2019-10-07'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Pavel, Buslaev
+    identifier: https://orcid.org/0000-0003-2031-4691
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3474863
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

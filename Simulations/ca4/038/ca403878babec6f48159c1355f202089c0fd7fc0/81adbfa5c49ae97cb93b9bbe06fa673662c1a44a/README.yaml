@@ -45,3 +45,21 @@ EXPERIMENT:
 WARNINGS:
   PBC: hexagonal-box
 ID: 29
+bioschema_properties:
+  name: 'Slipids Pope Simulations (Versions 1 And 2) 310 K (Note: Hexagonal Membrane)'
+  description: Two Slipids POPE bilayer simulations performed using GROMACS 5.0.6 for 200 ns with different starting velocities. Simulations were performed with a 1.0 nm cut-off with PME for the Coulombic and a 1.0 nm cut-off for the van der Waals interactions interactions. These simulations were performed at 310 K with a 336 hexagonal lipid bilayer. The full trajectories are provided bar the initial 100 ns. The starting structure of the membrane was made by reverse mapping an equilibrated MARTINI POPE bilayer (constructed with the INSANE script).
+  datePublished: '2018-06-20'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Piggot, Thomas
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1293813
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

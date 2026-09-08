@@ -43,3 +43,22 @@ ION_CONCENTRATIONS:
   CLA: 0
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: 1.362
+bioschema_properties:
+  name: Influence of cholesterol on the polar region of phosphatidylcholine and phosphatidylethanolamine bilayers
+  datePublished: '1978-01-24'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  publisher: American Chemical Society (ACS)
+  creator:
+  - name: Michael F. Brown
+  - name: Joachim Seelig
+  citation:
+  - 10.1021/bi00595a029
+  isPartOf: Biochemistry
+  _source:
+    api: crossref
+    doi: 10.1021/bi00595a029
+    retrieved: '2026-09-08'

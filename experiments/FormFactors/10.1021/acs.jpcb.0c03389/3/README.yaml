@@ -1,5 +1,5 @@
 ARTICLE_DOI: 10.1021/acs.jpcb.0c03389
-DATE: 2020-05-29T10:13:50Z
+DATE: '2020-05-29'
 TEMPERATURE: 318  # K
 MEMBRANE_COMPOSITION:
   SM18: 1
@@ -31,3 +31,38 @@ ION_CONCENTRATIONS:
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
+bioschema_properties:
+  name: Molecular Structure of Sphingomyelin in Fluid Phase Bilayers Determined by the Joint Analysis of Small-Angle Neutron and X-ray Scattering Data
+  datePublished: '2020-05-29'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  articleLicense:
+    url: https://doi.org/10.15223/policy-029
+    spdx: null
+  publisher: American Chemical Society (ACS)
+  creator:
+  - name: Milka Doktorova
+  - name: Norbert Kučerka
+  - name: Jacob J. Kinnun
+  - name: Jianjun Pan
+    identifier: https://orcid.org/0000-0002-7042-0022
+  - name: Drew Marquardt
+    identifier: https://orcid.org/0000-0001-6848-2497
+  - name: Haden L. Scott
+  - name: Richard M. Venable
+  - name: Richard W. Pastor
+    identifier: https://orcid.org/0000-0002-2454-5131
+  - name: Stephen R. Wassall
+  - name: John Katsaras
+  - name: Frederick A. Heberle
+    identifier: https://orcid.org/0000-0002-0424-3240
+  citation:
+  - 10.1021/acs.jpcb.0c03389
+  isPartOf: The Journal of Physical Chemistry B
+  _source:
+    api: crossref
+    doi: 10.1021/acs.jpcb.0c03389
+    retrieved: '2026-09-08'

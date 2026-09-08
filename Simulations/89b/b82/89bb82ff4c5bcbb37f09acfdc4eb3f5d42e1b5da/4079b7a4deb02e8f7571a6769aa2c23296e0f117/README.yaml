@@ -43,3 +43,22 @@ EXPERIMENT:
     DOPC: []
   FORMFACTOR: []
 ID: 396
+bioschema_properties:
+  name: Simulations of a DOPC bilayer at different temperatures, three system sizes
+  description: For the calculation of shear viscosities based on Vögele et al., Phys. Rev. Lett. 120, 268104 (2018).
+  datePublished: '2022-07-30'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+    identifier: https://orcid.org/0000-0003-4858-364X
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.6943086
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

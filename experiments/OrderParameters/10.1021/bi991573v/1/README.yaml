@@ -39,3 +39,24 @@ ION_CONCENTRATIONS:
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: 'full hydration'
 COUNTER_IONS:
+bioschema_properties:
+  name: 'CTP:Phosphocholine Cytidylyltransferase Activation by Oxidized Phosphatidylcholines Correlates with a Decrease in Lipid Order: A <sup>2</sup>H NMR Analysis'
+  datePublished: '1999-11-01'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  publisher: American Chemical Society (ACS)
+  creator:
+  - name: Adrienne E. Drobnies
+  - name: Bryan van der Ende
+  - name: Jenifer L. Thewalt
+  - name: Rosemary B. Cornell
+  citation:
+  - 10.1021/bi991573v
+  isPartOf: Biochemistry
+  _source:
+    api: crossref
+    doi: 10.1021/bi991573v
+    retrieved: '2026-09-08'

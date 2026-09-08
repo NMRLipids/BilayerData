@@ -48,3 +48,24 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/1
 ID: 830
+bioschema_properties:
+  name: POPC membrane simulated with Slipids/CHARMM36 hybrid topology
+  description: Simulations with a hybrid POPC topology. Tails are from Slipids and glycerol and headgroup from CHARMM36. BSc thesis project.
+  datePublished: '2025-04-08'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Jokinen, Eerika
+  - name: Vuorte, Maisa
+    identifier: https://orcid.org/0000-0001-9652-8608
+  - name: Javanainen, Matti
+    identifier: https://orcid.org/0000-0003-4858-364X
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.15172176
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

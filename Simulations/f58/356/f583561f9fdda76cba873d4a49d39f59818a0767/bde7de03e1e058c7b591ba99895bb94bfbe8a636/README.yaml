@@ -42,3 +42,23 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 591
+bioschema_properties:
+  name: Optimization of Slipids Force Field Parameters Describing Headgroups of Phospholipids
+  description: Trajectory, topology and parameter files for simulation of POPC bilayer using force field parameters derived in J. Phys. Chem. B 2020, 124, 40, 8784–8793.
+  datePublished: '2020-09-14'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Grote, Fredrik
+  citation:
+  - F. Grote and A. P. Lyubartsev, J. Phys. Chem. B 2020, 124, 8784-8793
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.4683633
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

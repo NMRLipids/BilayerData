@@ -41,3 +41,24 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 375
+bioschema_properties:
+  name: Md Simulation Trajectory And Related Files For Popc Bilayer In Low Hydration (Charmm36, Gromacs 4.5)
+  description: Equilibrated POPC lipid bilayer simulation ran with Gromacs 4.5, CHARMM36 force field in low hydration (dx.doi.org/10.1021/jp101759q), 20ns, T=303K, 72 POPC molecules, 504 water molecules. This data is ran for the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi. If data is used, please cite nmrlipids.blogspot.fi project and the original publication of the parameters (dx.doi.org/10.1021/jp101759q).
+  datePublished: '2015-01-14'
+  license:
+    spdx: GPL-3.0-only
+    name: GNU General Public License v3.0 only
+    url: https://spdx.org/licenses/GPL-3.0-only.html
+    sameAs: http://www.opensource.org/licenses/GPL-3.0
+  publisher: Zenodo
+  creator:
+  - name: Ollila O. H. Samuli
+  - name: Miettinen, Markus
+  citation:
+  - 10.1021/acs.jpcb.5b04878
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.13945
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

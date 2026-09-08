@@ -56,3 +56,21 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 116
+bioschema_properties:
+  name: POPC:POPS (5:1) with 890 mM potassium simulation with CHARMM36 at 298K
+  description: POPC:POPS (5:1) with 890 mM potassium simulation with CHARMM36 at 298K. Trajectory 50-200ns. 110 POPC molecules, 22 POPS molecules, 4946 water molecules and 79 Na + ions.
+  datePublished: '2018-11-21'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Ollila, O. H. S.
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1493246
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

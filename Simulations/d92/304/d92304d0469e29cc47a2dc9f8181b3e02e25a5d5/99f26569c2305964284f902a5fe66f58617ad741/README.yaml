@@ -63,3 +63,24 @@ EXPERIMENT:
     SAPC: []
     POPE: []
   FORMFACTOR: []
+bioschema_properties:
+  name: Simulation of model mitochondrial membrane (CHARMM36)
+  description: MD simulation trajectories of model internal mitochondrial membrane (IMM) consisted of 45% PC (18:0, 20:4),SAPC, 35% PE (16:0, 18:1), POPE, and 20% CL (18:2), TLCL conducted in NPT ensemble at 310K in CHARMM36 force field using GROMACS v.2023+. Pre-equilibration trajectory of 1000 ns was taken as initial states (from timesteps 300, 700, 1000 ns) for three deposited 1-us replicas. Writting frequency is 20 ps. Part of the bachelor project "Kardiolipin sin effekt på membranfluiditet" (in Norwegian) of Olivia Lykke Nygaard uploaded and referenced below.
+  datePublished: '2025-07-17'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Nygaard, Olivia Lykke
+  - name: Nesterenko, Alexey
+    identifier: https://orcid.org/0000-0003-1592-257X
+  citation:
+  - 10.5281/zenodo.15600823
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.16001915
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

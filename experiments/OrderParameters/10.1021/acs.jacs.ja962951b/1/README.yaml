@@ -33,3 +33,23 @@ TOTAL_LIPID_CONCENTRATION: 1.64
 COUNTER_IONS:
 
 
+bioschema_properties:
+  name: 'Dipolar Recoupling in MAS NMR: A Probe for Segmental Order in Lipid Bilayers'
+  datePublished: '1997-01-01'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  publisher: American Chemical Society (ACS)
+  creator:
+  - name: John D. Gross
+  - name: Dror E. Warschawski
+  - name: Robert G. Griffin
+  citation:
+  - 10.1021/ja962951b
+  isPartOf: Journal of the American Chemical Society
+  _source:
+    api: crossref
+    doi: 10.1021/ja962951b
+    retrieved: '2026-09-08'

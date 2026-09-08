@@ -51,3 +51,24 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 61
+bioschema_properties:
+  name: Dppc_512_Nacl_150Mm_320K_V-Rescale
+  description: 'System description ------------------- - Title: Simulation DPPC_512_NaCl_150mM_320K_v-rescale bilayer - MD engine: gromacs 5.0.4 - Force field: charmm36 - Temperature: 320K - Simulation time: 500ns - Saving frequency: 100ps - Molecular content: DPPC 512 water 20480 Cl- 55 Na+ 55 - Other information: * Use of v-rescale thermostat instead of the default nose-hoover * Center of mass motion removed independently for bilayer and water+ions'
+  datePublished: '2015-03-23'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Martinez-Seara, Hector
+  - name: Javanainen, Matti
+  - name: Rissanen, Sami
+  - name: Lolicato, Fabio
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.16276
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

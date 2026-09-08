@@ -38,3 +38,21 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/1
 ID: 617
+bioschema_properties:
+  name: 'Md Simulation Trajectory Of A Lipid Bilayer: Pure Popc In Water. Slipids, Gromacs 4.6.3. 2016.'
+  description: 'MD simulation trajectory files, for fully hydrated POPC bilayer [512 POPC, 23943 WAT]. The SLIPIDS force field was used with Gromacs 4.6.3. Conditions: T=298K. 170 ns each trajectory, last 100 ns analyzed.'
+  datePublished: '2016-11-21'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Favela-Rosales, Fernando
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.166034
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

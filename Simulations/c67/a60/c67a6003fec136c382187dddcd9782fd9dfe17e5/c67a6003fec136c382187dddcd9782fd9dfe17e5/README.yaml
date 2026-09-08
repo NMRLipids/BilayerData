@@ -43,3 +43,23 @@ EXPERIMENT:
     - 10.1021/bi00687a021/1
   FORMFACTOR:
   - 10.1016/j.bbamem.2011.07.022/4
+bioschema_properties:
+  name: DPPC lipid bilayer simulation with CHARMM36-LJPME force field using OpenMM
+  description: DPPC lipid bilayer simulation (300 ns) with CHARMM36-LJPME force field using OpenMM at 323K. Used in https://doi.org/10.1021/acs.jctc.1c00951 The force field parameters were downloaded from https://terpconnect.umd.edu/%7Ejbklauda/ff.html. trajCORRECT1-2.dcd has incorrect timestamps. traj1-2.xtc has correct timestamps.
+  datePublished: '2022-02-02'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Ollila, O. H. Samuli
+  citation:
+  - 10.1021/acs.jctc.1c00951
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.7476579
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

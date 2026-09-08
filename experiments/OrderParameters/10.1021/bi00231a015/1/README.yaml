@@ -43,3 +43,22 @@ ION_CONCENTRATIONS:
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: 'full hydration'
 COUNTER_IONS:
+bioschema_properties:
+  name: Bilayers of arachidonic acid containing phospholipids studied by deuterium and phosphorus-31 NMR spectroscopy
+  datePublished: '1991-04-30'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  publisher: American Chemical Society (ACS)
+  creator:
+  - name: Kannan Rajamoorthi
+  - name: Michael F. Brown
+  citation:
+  - 10.1021/bi00231a015
+  isPartOf: Biochemistry
+  _source:
+    api: crossref
+    doi: 10.1021/bi00231a015
+    retrieved: '2026-09-08'

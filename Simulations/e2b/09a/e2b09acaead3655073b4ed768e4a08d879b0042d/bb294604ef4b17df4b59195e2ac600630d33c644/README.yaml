@@ -40,3 +40,20 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/1
 AUTHORS_CONTACT: Hoelfich, Jullianne
+bioschema_properties:
+  name: POPC openff-1.3.1 replicate 2
+  description: 'Parameterized with OpenFF openff-1.3.1.offxml, AM1BCC charges, TIP3P water parameters Lipids: POPCLipid count: 128 (64 per leaflet)Solvent: TIP3PSolvent count: 5120 (40 w/l)Ions: noIon Count: n/aTemperature: 300KLength of equilibration: 100ns (40 NVT - 60 NPT)Length of production: 500ns HMR w/ 4fs timestep 0.9 rvdw/rcouloumb cutoff 0.8 rvdw-switch SMILES string: [C@](COP(=O)([O-])OCC[N+](C)(C)C)([H])(OC(CCCCCCC/C=C\CCCCCCCC)=O)COC(CCCCCCCCCCCCCCC)=O'
+  datePublished: '2025-02-17'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: JH
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.14880880
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

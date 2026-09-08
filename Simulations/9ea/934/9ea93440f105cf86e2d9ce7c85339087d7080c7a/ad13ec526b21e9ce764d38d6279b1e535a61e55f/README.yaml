@@ -46,3 +46,23 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1016/j.bbamem.2011.07.022/4
 ID: 41
+bioschema_properties:
+  name: Dppc_Berger
+  description: 'MD simulation trajectory and related files for fully hydrated DPPC bilayer. Berger-DPPC-98 force field delivered by Peter Tieleman (http://wcm.ucalgary.ca/tieleman/downloads) was used with Gromacs 4.6.6. Conditions: T=323K, 72 lipids, 2880 SPC waters. 60 ns trajectory.'
+  datePublished: '2015-01-13'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0
+  publisher: Zenodo
+  creator:
+  - name: Määttä, Jukka
+  citation:
+  - 10.1021/acs.jpcb.5b04878
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.13934
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

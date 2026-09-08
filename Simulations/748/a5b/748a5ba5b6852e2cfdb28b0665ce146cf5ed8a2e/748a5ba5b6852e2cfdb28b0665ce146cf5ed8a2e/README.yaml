@@ -43,3 +43,23 @@ EXPERIMENT:
   ORDERPARAMETER:
     PAPC: []
   FORMFACTOR: []
+bioschema_properties:
+  name: 'PAPC lipid bilayer: 1-palmitoyl-2-arachidonoyl-sn-glycero-3-phosphocholine (16:0)(20:4) | Deutrated, 16:0 | 303K, CHARMM36m-WYF forcefield, NAMD 3.0.2, 2* 500 ns'
+  description: 'PAPC lipid bilayer: 1-palmitoyl-2-arachidonoyl-sn-glycero-3-phosphocholine (16:0)(20:4) lipid bilayer | Deutrated, 16:0 200 lipid molecules (100 lipids per leaflet) and 80mM KCl. Lipid for a total water content of 50 wt% >>> Hydration: 45 Temperature: 303.15 System was prepared using CHARMM-GUI. CHARMM36m-WYF forcefield was used. Simulation was performed with NAMD 3.0.2. timestep: 2.0 fs 500 ns production after 150 ns equilibration dcd saving freq: 10000 2 replicates'
+  datePublished: '2026-02-03'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Moqadam, Mahmoud
+    identifier: https://orcid.org/0000-0002-3456-5064
+  - name: Reuter, Nathalie
+    identifier: https://orcid.org/0000-0002-3649-7675
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.18471806
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

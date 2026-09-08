@@ -51,3 +51,23 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 ID: 39
+bioschema_properties:
+  name: Md Simulation Trajectory For Popc Bilayer With 140Mm Nacl (Orange, Gromacs 4.5.)
+  description: Equilibrated POPC lipid bilayer simulation ran with Gromacs 4.5, Orange, 60ns, T=298K, 72 POPC molecules, 2866 water molecules, 7 Na molecules, 7 Cl molecules. This data is used in the NMRLipids II project (nmrlipids.blospot.fi, https://github.com/NMRLipids/lipid_ionINTERACTION). The Orange model is unpublished lipid model developed by Luca Monticelli et al. http://perso.ibcp.fr/luca.monticelli/research/index.html. Beta version of the model is used here, thus only trajectory is shared.
+  datePublished: '2015-12-02'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0
+  publisher: Zenodo
+  creator:
+  - name: Ollila, O. H. Samuli
+  - name: Määttä, Jukka
+  - name: Monticelli, Luca
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.34491
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

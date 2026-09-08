@@ -49,3 +49,22 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 570
+bioschema_properties:
+  name: Set Simulations Small Pure Bilayers With Cholesterol (Max 128 Lipids) Using Charmm36 Ff In Gromacs (Dppc)
+  description: 'Collection simulations of small pure bilayers (max 128 phospholipids) with cholesterol in gromacs using the charmm36 force field. The list of systems describing their particular simulation conditions can be found below: DPPC_128_CHL1_32_310K For further information read the Readme file provided for each simulation.'
+  datePublished: '2017-10-13'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Martinez-Seara, Hector
+    identifier: https://orcid.org/0000-0001-9716-1713
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1010131
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

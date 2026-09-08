@@ -47,3 +47,29 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: 'full hydration'
 COUNTER_IONS:
   TMA: TOCL
+bioschema_properties:
+  name: TOCL_TMA
+  datePublished: '2026-01-16'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  articleLicense:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: nmrXiv
+  creator:
+  - name: Miettinen, Markus
+    identifier: https://orcid.org/0000-0002-3999-4722
+  - name: Nesterenko, Alexey
+    identifier: https://orcid.org/0000-0003-1592-257X
+  - name: Hörstel, Ferdinand
+    identifier: https://orcid.org/0009-0004-1647-8209
+  _source:
+    api: datacite
+    doi: 10.57992/nmrxiv.p157.s1600
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-08'

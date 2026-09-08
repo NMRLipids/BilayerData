@@ -44,3 +44,23 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/jp511159q/1
 ID: 790
+bioschema_properties:
+  name: All-atomic simulation of POPE bilayer with RFZ
+  description: We have performed simulations of POPE to check if the reaction-field-zero mode of calculating electrostatics is a good substitute for PME if we want to avoid PME for some reasons (e.g. for stress calculations). We started this simulation from the configuration deposited by Matti Javanainen (10.5281/zenodo.2641987). We performed the simulation of about 500 ns with the reaction-field-zero protocol supplemented as well. DMPC simulated with the same RFZ protocol is deposited in a separate dataset (10.5281/zenodo.8431709).
+  datePublished: '2023-10-12'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Nesterenko Alexey
+    identifier: https://orcid.org/0000-0003-1592-257X
+  - name: Miettinen, Markus S.
+    identifier: https://orcid.org/0000-0002-3999-4722
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8435138
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

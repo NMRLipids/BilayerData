@@ -52,3 +52,22 @@ EXPERIMENT:
     POPE: []
   FORMFACTOR: []
 ID: 290
+bioschema_properties:
+  name: Berger Popc/Pope (50:50 Ratio) Md Simulation (300 K - 400Ns - 1 Bar)
+  description: Berger POPC/POPE (50:50 ratio) bilayer simulation (300 K, with 128 POPC and 128 POPE lipids fully hydrated with 43 water molecules per lipid). The trajectory contains the whole simulation from 0 to 400 ns skipped every 100 ps and centered on the P atoms. No ions were added as there is no global net charge in the system. This bilayer was used to calculate the order parameter and the area per lipid for the NMRlipids IV project (on the time window 100-300 ns). It should be noted that for this specific simulation, using PE lipids, the Berger forcefield was modified to add a repulsive potential onto the ethanolamine hydrogens.
+  datePublished: '2018-08-23'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Bacle Amélie
+  - name: Fuchs Patrick, F.J.
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1402449
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

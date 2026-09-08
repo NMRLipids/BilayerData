@@ -10,3 +10,34 @@ ION_CONCENTRATIONS:
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: 'full hydration'
 COUNTER_IONS:
+bioschema_properties:
+  name: Cholesterol-Induced Conformational Change in the Sphingomyelin Headgroup
+  datePublished: 2019-07
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  articleLicense:
+    url: http://www.elsevier.com/open-access/userlicense/1.0/
+    spdx: null
+  publisher: Elsevier BV
+  creator:
+  - name: Shinya Hanashima
+  - name: Kazuhiro Murakami
+  - name: Michihiro Yura
+  - name: Yo Yano
+  - name: Yuichi Umegawa
+  - name: Hiroshi Tsuchikawa
+  - name: Nobuaki Matsumori
+  - name: Sangjae Seo
+  - name: Wataru Shinoda
+    identifier: https://orcid.org/0000-0002-3388-9227
+  - name: Michio Murata
+  citation:
+  - 10.1016/j.bpj.2019.06.019
+  isPartOf: Biophysical Journal
+  _source:
+    api: crossref
+    doi: 10.1016/j.bpj.2019.06.019
+    retrieved: '2026-09-08'

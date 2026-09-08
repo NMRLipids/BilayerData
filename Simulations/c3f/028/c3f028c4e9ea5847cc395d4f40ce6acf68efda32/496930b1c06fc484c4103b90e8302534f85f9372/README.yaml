@@ -45,3 +45,19 @@ EXPERIMENT:
 ID: 813
 WARNINGS:
   PBC: z-jumps
+bioschema_properties:
+  name: MD simulation of DMPC bilayer with OPLS4 force field. Full hydration.
+  datePublished: '2024-04-23'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kurki, Milla
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.11044615
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

@@ -57,3 +57,22 @@ EXPERIMENT:
     POPE: []
   FORMFACTOR: []
 ID: 139
+bioschema_properties:
+  name: GOMOS-CKP POPG-POPE 1:3 Bilayer Simulation (Last 100 ns, 310 K )
+  description: Simulation of a POPG-POPE 1:3 bilayer of 500 lipids (126 L-POPG lipids and 374 POPE lipids, 250 per leaflet) is simulated for 500 ns using Gromacs v2018.3 in water solution with Na+ counterions. The GROMOS-CKP model is employed for lipids and SCP Water Model . Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top), simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided.
+  datePublished: '2019-07-02'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Peon, Antonio
+    identifier: https://orcid.org/0000-0003-4803-988X
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3266238
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

@@ -55,3 +55,21 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 ID: 201
+bioschema_properties:
+  name: Popc With Varying Amounts Of Cholesterol, 450 Mm Of Cacl_2. Charmm36 With Default Charmm Ions
+  description: 'Simulations of a POPC bilayer with varying amounts (0, 10, 20, and 30 mol-%) of cholesterol and 450 mM of CaCl_2 performed at 310 K. The POPC bilayer consists of 200 lipids (100 per leaflet) and on top of that there is 0 (0%), 22 (10%), 50 (20%), or 86 (30%) of cholesterol. The Charmm36 model [1,2] is employed for lipids, the Charmm compatible variant of the tip3p model for water, and the default Charmm ion parameters (type CAL) for CaCl_2. The Charmm36 force field parameters were obtained from http://mackerell.umaryland.edu/charmm_ff.shtml . –––––––––––––––––––––––––––––––––––––––––––––––––––––– The files are in GROMACS format and named based on the amount of cholesterol present (in %) in the corresponding simulation. Trajectories (.xtc) are 2 µs long with data saved every 100 ps. Additionally, the final structure (.gro), topology (.top), index file (.ndx), energy output file (.edr), and binary run input files (for Gromacs 5.0->) (.tpr) are provided for each system. The common simulation parameter file (.mdp) is also provided. –––––––––––––––––––––––––––––––––––––––––––––––––––––– [1] Update of the CHARMM All-Atom Additive Force Field for Lipids: Validation on Six Lipid Types. Jeffery B. Klauda, Richard M. Venable, J. Alfredo Freites, Joseph W. O’Connor, Douglas J. Tobias, Carlos Mondragon-Ramirez, Igor Vorobyov, Alexander D. MacKerell, Jr., and Richard W. Pastor, The Journal of Physical Chemistry B 2010 114 (23), 7830–7843, DOI: 10.1021/jp101759q [2] Update of the Cholesterol Force Field Parameters in CHARMM. Joseph B. Lim, Brent Rogaski, and Jeffery B. Klauda, The Journal of Physical Chemistry B 2012 116 (1), 203–210, DOI: 10.1021/jp207925m'
+  datePublished: '2017-01-24'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.259365
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

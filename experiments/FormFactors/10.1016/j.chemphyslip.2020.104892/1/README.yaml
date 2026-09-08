@@ -1,5 +1,5 @@
 ARTICLE_DOI: 10.1016/j.chemphyslip.2020.104892
-DATE: 2020-02-12T14:12:18Z
+DATE: '2020-02-12'
 TEMPERATURE: 303  # K (30 °C)
 MEMBRANE_COMPOSITION:
   PDPC: 1
@@ -33,3 +33,33 @@ ION_CONCENTRATIONS:
   CLA: 0
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: "full hydration"
+bioschema_properties:
+  name: The structures of polyunsaturated lipid bilayers by joint refinement of neutron and X-ray scattering data
+  datePublished: 2020-07
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  articleLicense:
+    url: https://www.elsevier.com/tdm/userlicense/1.0/
+    spdx: null
+  publisher: Elsevier BV
+  creator:
+  - name: Drew Marquardt
+    identifier: https://orcid.org/0000-0001-6848-2497
+  - name: Frederick A. Heberle
+  - name: Jianjun Pan
+  - name: Xiaolin Cheng
+  - name: Georg Pabst
+  - name: Thad A. Harroun
+    identifier: https://orcid.org/0000-0001-9816-2590
+  - name: Norbert Kučerka
+  - name: John Katsaras
+  citation:
+  - 10.1016/j.chemphyslip.2020.104892
+  isPartOf: Chemistry and Physics of Lipids
+  _source:
+    api: crossref
+    doi: 10.1016/j.chemphyslip.2020.104892
+    retrieved: '2026-09-08'

@@ -43,3 +43,20 @@ EXPERIMENT:
     - 10.1021/acs.jpcb.4c04719/1
   FORMFACTOR: []
 ID: 817
+bioschema_properties:
+  name: MD simulation of POPC bilayer with OPLS4 force field. 5 w/l
+  description: 'MD simulation of POPC bilayer with OPLS4 force field. 5w/l Dataset contains trajectories (_trj), topologies (-out.cms), input files and converted gromacs format files For the ease of the upload, trajectory file (_trj) is divided into 4 pieces and tarred (named desmond_md_popc_5wl_opls4_x-xns.tar.gz) System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 1000 Simulation time: 1000 ns Simulation engine: Desmond 2022-2 Temperature: 300 K'
+  datePublished: '2024-04-09'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kurki, Milla
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.10949612
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

@@ -54,3 +54,21 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 363
 AUTHORS_CONTACT: Kiirikki, M. Anne; Ollila O. H. Samuli
+bioschema_properties:
+  name: Lipid17ecc POPC:POPG 4:1 bilayer simulation in 1 M CaCl2 solution and Na+ counter ions
+  description: Lipid17ecc POPC:POPG 4:1 bilayer simulation in 1 M CaCl2 solution. The initial structure was taken from https://zenodo.org/record/3874378#.X0OfthmEZGF . Temperature is 298 K. The system contains 350 POPC, 88 POPG, 88 Na+ ions, 24840 SPCE water molecules, 475 Ca2+ ions and 950 Cl- ions Total length of simulation is 400 ns. First 100 ns were discarded as equilibration time. Saving frequency of 100-300ns.xtc is 20 ps.
+  datePublished: '2020-08-24'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kiirikki, M. Anne; Ollila O. H. Samuli
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3997184
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

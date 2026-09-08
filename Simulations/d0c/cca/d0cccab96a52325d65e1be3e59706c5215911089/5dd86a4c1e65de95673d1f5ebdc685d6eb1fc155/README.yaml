@@ -50,3 +50,21 @@ LOG:
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 280
+bioschema_properties:
+  name: Popc/Cholesterol (50:50) Lipid Membrane, 303K, Charmm36 Force Field, Simulation Files And 100 Ns Trajectory For Gromacs Simulation Engine V5
+  description: 'All runs were performed with GROMACS simulation engine v5 and CHARMM36 additive force field parameters obtained from MacKerell lab website (http://mackerell.umaryland.edu/charmm_ff.shtml, also available at https://doi.org/10.5281/zenodo.209080). Conditions: T=303, 80 POPC and 80 Cholesterol molecules, 7200 tip3p waters, 100ns trajectory (preceded with equilibration). These data were originally obtained for the nmrlipids.blospot.fi project. Find more details at nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi'
+  datePublished: '2017-01-16'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Melcr, Josef
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.247386
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

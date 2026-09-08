@@ -49,3 +49,22 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/3
 ID: 680
+bioschema_properties:
+  name: Simulations of POPC/cholesterol mixtures at 298 K, three system sizes, LIPID17
+  description: GROMACS input and output files. LIPID17. Membranes with 64, 256, and 1024 lipids.
+  datePublished: '2022-08-15'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+    identifier: https://orcid.org/0000-0003-4858-364X
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.6992065
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

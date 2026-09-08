@@ -57,3 +57,21 @@ EXPERIMENT:
     POPS: []
   FORMFACTOR: []
 ID: 140
+bioschema_properties:
+  name: Popc:Pops (4:1) Simulation With Berger Model At 310K
+  description: POPC:POPS (4:1) simulation with Berger model at 310K
+  datePublished: '2018-10-30'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Ollila O. H. Samuli
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1475285
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

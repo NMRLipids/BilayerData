@@ -48,3 +48,24 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 ID: 133
+bioschema_properties:
+  name: POPC_AMBER_LIPID14_CaCl2_035Mol
+  description: 'THIS IS UNCORRUPTED TRAJECTORY RELATED TO THIS DATASET: http://dx.doi.org/10.5281/zenodo.34415 MD simulation trajectory and related files for fully hydrated POPC bilayer with 0.35M CaCl2. The LIPID14 force field was used with Gromacs 5.0.3. Ions were described by AMBER99SB-ILDN force field. Conditions: T=298.15, 128 POPC molecules, 6400 tip3p waters (lipid/water 1:50), 35 Ca, 70 Cl. 200ns trajectory (preceded by 5ns NPT equillibration) (2 files of 100ns). This data is ran for the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi'
+  datePublished: '2016-02-18'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Girych, Mykhailo
+  - name: Ollila, Samuli
+  citation:
+  - 10.5281/zenodo.34415
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.5592698
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

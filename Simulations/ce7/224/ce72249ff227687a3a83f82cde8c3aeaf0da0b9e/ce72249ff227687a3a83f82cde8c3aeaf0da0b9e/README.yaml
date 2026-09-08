@@ -40,3 +40,22 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1529/biophysj.108.132662/1
 ID: 742
+bioschema_properties:
+  name: MD Simulation data for a pure DOPC bilayer without salt with AMOEBA force field + OpenMM
+  description: 'MD simulation data for the DOPC bilayer with the AMOEBA-based force field developed by Li (https://doi.org/10.1080/00268976.2018.1436201). The simulation contains 72 DOPC lipids and 2880 water molecules. The trajectory is 201,61 ns long (20161 frames with 10 ps saving frequency). It has been discovered that (https://github.com/NMRLipids/Databank/issues/2#issuecomment-1357871243) the previously uploaded trajectory did not have the correct timestamp: the timestep between two consecutive simulation frames was not correctly embedded into the trajectory information. Therefore, with the latest version we are uploading the "unwrapped_all_fixed_dt.xtc" which has the correct timestamp. The frame saving frequency in this trajectory is 10 ps. This new update should not invalidate any previous calculations that did not explicitly read the timestamp information from the trajectory. This simulation consists of 12 sub-trajectories, each of which starts from the last frame of the previous one. These trajectories (originally in dcd format) were concatenated and saved in xtc format with MDAnalysis.'
+  datePublished: '2022-12-09'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kav, Batuhan
+    identifier: https://orcid.org/0000-0003-4990-373X
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.7604681
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

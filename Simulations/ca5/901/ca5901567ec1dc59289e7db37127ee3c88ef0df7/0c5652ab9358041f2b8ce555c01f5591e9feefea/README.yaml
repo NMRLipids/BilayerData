@@ -54,3 +54,22 @@ TRJ:
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 470
 AUTHORS_CONTACT: Ollila, O. H. Samuli; Virtanen, I. Salla
+bioschema_properties:
+  name: ECC-LIPID17 POPC-POPG 50:50 MD simulation, Na+ counterions and 1000mM CaCl2, 298K
+  description: 'Simulation data and parameters of ECC-LIPID17 simulation of POPC:POPG 50:50 mixture with Na+ counterions and 1000mM CaCl2 at 298K, ran for NMRlipidsIVb: https://github.com/NMRLipids/NMRlipidsIVPEandPG/blob/master/Manuscript/manuscriptPGPE.pdf ECC-ion parameters are from bitbucket.org/hseara/ions/src/master/'
+  datePublished: '2020-05-28'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Ollila, O. H. Samuli
+  - name: Virtanen, I. Salla
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3862036
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

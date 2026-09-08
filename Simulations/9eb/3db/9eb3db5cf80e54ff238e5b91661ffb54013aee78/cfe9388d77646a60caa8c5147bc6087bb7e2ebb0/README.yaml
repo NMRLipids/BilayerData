@@ -53,3 +53,21 @@ EXPERIMENT:
     DHMDMAB: []
   FORMFACTOR: []
 ID: 285
+bioschema_properties:
+  name: Popc Bilayer With 10% Of Dihexadecyldimethylammonium Simulated At T313K With The Lipid14 Model Using Gromacs
+  description: POPC bilayer with 10% of dihexadecyldimethylammonium simulated at T313K with the Lipid14 model using Gromacs. Last 80ns of 100ns long simulation. See also http://nmrlipids.blogspot.cz/2017/07/quantifying-effect-of-bound-charge-on.html and https://github.com/NMRLipids/MATCH/tree/master/Data/Lipid_Bilayers/POPC%2B10%25DHMDMAB/T313K/MODEL_LIPID14
+  datePublished: '2017-10-18'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Ollila, O. H. Samuli
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1020240
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

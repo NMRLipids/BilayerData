@@ -54,3 +54,21 @@ EXPERIMENT:
     DPPC: []
   FORMFACTOR: []
 ID: 611
+bioschema_properties:
+  name: Dppc_Berger_Nacl_Scaled
+  description: 'MD simulation trajectory and related files for fully hydrated DPPC bilayer with 150 mM NaCl. Berger-DPPC-98 force field delivered by Peter Tieleman (http://wcm.ucalgary.ca/tieleman/downloads) was used with Gromacs 5.0.4. Ions were described by the gromos force field. Ion charges were scaled by a factor 0.7. Conditions: T=323K, 72 lipids, 2880 SPC waters, 8 Na, 8 Cl. 120 ns trajectory, last 60 ns analyzed.'
+  datePublished: '2015-03-24'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0
+  publisher: Zenodo
+  creator:
+  - name: Määttä, Jukka
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.16320
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

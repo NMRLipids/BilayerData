@@ -43,3 +43,21 @@ TRJ:
 - - popc50_T298_every100ps.xtc
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 82
+bioschema_properties:
+  name: 'Md Simulation Trajectory Of A Lipid Bilayer: 50/50 Mol% Popc/Cholesterol . Slipids, Gromacs 4.6.3. 2016.'
+  description: 'MD simulation trajectory files, for fully hydrated POPC + CHOLESTEROL bilayer (50/50 mol%) [256 POPC, 256 CHOL, 20334 WAT]. The SLIPIDS force field was used with Gromacs 4.6.3. Conditions: T=298K. 170 ns each trajectory, last 100 ns analyzed.'
+  datePublished: '2016-10-05'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Favela-Rosales, Fernando
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.159434
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

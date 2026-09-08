@@ -37,3 +37,21 @@ EXPERIMENT:
   ORDERPARAMETER:
     POPE: []
   FORMFACTOR: []
+bioschema_properties:
+  name: OpenFF Pure POPE
+  description: 200 ns MD production of a pure POPE bilayer using OpenFF parameters.
+  datePublished: '2023-10-06'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Frankel, Patrick
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8411733
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

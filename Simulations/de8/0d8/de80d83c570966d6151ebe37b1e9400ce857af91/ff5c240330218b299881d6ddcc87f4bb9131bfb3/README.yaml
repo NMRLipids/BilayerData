@@ -52,3 +52,22 @@ EXPERIMENT:
   - 10.1039/C4SM00066H/2
   - 10.1039/C4SM00066H/3
 ID: 842
+bioschema_properties:
+  name: MD Simulation of POPS 144 144 Na contraions prosECCo75
+  description: prosECCo 75 paper related data
+  datePublished: '2024-01-07'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Nencini, Ricky
+  citation:
+  - 10.1021/acs.jctc.4c00743
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.10467181
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

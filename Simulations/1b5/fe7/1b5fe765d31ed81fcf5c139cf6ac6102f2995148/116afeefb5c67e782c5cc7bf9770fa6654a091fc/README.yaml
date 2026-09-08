@@ -50,3 +50,22 @@ LOG:
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 78
+bioschema_properties:
+  name: Popc_Charmm36_Cacl2_067Mol
+  description: 'The starting structure was constructed using the CHARMM-GUI Membrane Builder (http://www.charmm-gui.org/) online tool. All runs were performed with Gromacs 5.0.4 software package and CHARMM36 additive force field parameters obtained from CHARMM-GUI input files [1]. Conditions: T=303, 128 POPC molecules, 6400 tip3p waters (lipid/water 1:50), 67 Ca, 134 Cl. 200ns trajectory (preceded by standard CHARMM-GUI NPT equilibration) (2 files of 100ns). This data is ran for the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi [1] CHARMM-GUI Input Generator for NAMD, GROMACS, AMBER, OpenMM, and CHARMM/OpenMM Simulations Using the CHARMM36 Additive Force Field, J. Lee et al. , JCTC, DOI: 10.1021/acs.jctc.5b00935'
+  datePublished: '2015-12-10'
+  license:
+    spdx: LGPL-3.0-only
+    name: GNU Lesser General Public License v3.0 only
+    url: https://spdx.org/licenses/LGPL-3.0-only.html
+    sameAs: http://www.opensource.org/licenses/LGPL-3.0
+  publisher: Zenodo
+  creator:
+  - name: Girych Mykhailo
+  - name: Ollila O. H. Samuli
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.35160
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

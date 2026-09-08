@@ -38,3 +38,20 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/1
 ID: 833
+bioschema_properties:
+  name: Bilayer 5
+  description: Modifications to the LJ parameters of P and O. Base FF is Sage 2.2.0
+  datePublished: '2025-03-10'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: JH
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.15002801
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

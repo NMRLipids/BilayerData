@@ -45,3 +45,21 @@ EXPERIMENT:
     POPG: []
   FORMFACTOR: []
 ID: 616
+bioschema_properties:
+  name: POPG MD simulation with Lipid17 in water with Na+ counter ions
+  description: Lipid17 POPG bilayer simulation water. The initial structure was taken from https://zenodo.org/record/3832274#.X0OlNxmEZGE . Temperature is 310 K. The system contains 500 POPG, 500 sodium ions and 25000 TIP3 water molecules. Total length of simulation is 400 ns. First 100 ns were discarded. Saving frequency of 100-300ns.xtc is 20 ps.
+  datePublished: '2020-08-24'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kiirikki, M. Anne; Ollila O. H. Samuli
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3997214
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

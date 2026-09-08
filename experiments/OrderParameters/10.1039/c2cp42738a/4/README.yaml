@@ -47,3 +47,26 @@ ION_CONCENTRATIONS:
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
+bioschema_properties:
+  name: 'Cholesterol and POPC segmental order parameters in lipid membranes: solid state <sup>1</sup> H– <sup>13</sup> C NMR and MD simulation studies'
+  datePublished: '2013'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  publisher: Royal Society of Chemistry (RSC)
+  creator:
+  - name: Tiago Mendes Ferreira
+  - name: Filipe Coreta-Gomes
+  - name: O. H. Samuli Ollila
+  - name: Maria João Moreno
+  - name: Winchil L. C. Vaz
+  - name: Daniel Topgaard
+  citation:
+  - 10.1039/c2cp42738a
+  isPartOf: Phys. Chem. Chem. Phys.
+  _source:
+    api: crossref
+    doi: 10.1039/c2cp42738a
+    retrieved: '2026-09-08'

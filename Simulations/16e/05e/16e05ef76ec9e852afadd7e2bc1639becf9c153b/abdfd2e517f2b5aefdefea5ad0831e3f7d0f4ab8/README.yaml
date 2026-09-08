@@ -56,3 +56,22 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 402
+bioschema_properties:
+  name: 'MD simulations of bilayers containing PC/PG mixtures and CaCl_2: 250POPC_250POPG_1MCaCl_2'
+  description: NMRLipids IVb project (nmrlipids.blogspot.fi) Gromacs, CHARMM36 FF, 1 atm, 298K, 200ns (no pre-equilibration) 250 POPC lipids, 250 POPG lipids, 120677 Atoms
+  datePublished: '2019-10-12'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Madsen, Jesper J.
+    identifier: https://orcid.org/0000-0003-1411-9080
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3483793
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

@@ -37,3 +37,30 @@ TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
   SOD: POPG
   
+bioschema_properties:
+  name: Molecular structures of fluid phase phosphatidylglycerol bilayers as determined by small angle neutron and X-ray scattering
+  datePublished: 2012-09
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  articleLicense:
+    url: https://www.elsevier.com/open-access/userlicense/1.0/
+    spdx: null
+  publisher: Elsevier BV
+  creator:
+  - name: Jianjun Pan
+  - name: Frederick A. Heberle
+  - name: Stephanie Tristram-Nagle
+  - name: Michelle Szymanski
+  - name: Mary Koepfinger
+  - name: John Katsaras
+  - name: Norbert Kučerka
+  citation:
+  - 10.1016/j.bbamem.2012.05.007
+  isPartOf: Biochimica et Biophysica Acta (BBA) - Biomembranes
+  _source:
+    api: crossref
+    doi: 10.1016/j.bbamem.2012.05.007
+    retrieved: '2026-09-08'
