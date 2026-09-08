@@ -46,7 +46,6 @@ bioschema_properties:
   name: LIPID17 POPE Bilayer Simulation (Last 100 ns, 310 K ) using dihedral 9
   alternateName: 500POPE_25000SOL_310K
   description: Simulation of a POPE bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs v2020.1 in water solution with Na+ counterions. The LIPID17 model (1), AMBER ff15ipq and TIP3P water model are employed. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top), simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided.
-  identifier: 10.5281/zenodo.4424292
   sameAs: https://doi.org/10.5281/zenodo.4424292
   datePublished: '2019-06-03'
   license:

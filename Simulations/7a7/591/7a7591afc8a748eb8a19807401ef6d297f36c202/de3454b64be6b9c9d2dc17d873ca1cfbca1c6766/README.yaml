@@ -44,7 +44,6 @@ bioschema_properties:
   name: Simulation data for ECC-CHARMM36 POPC bilayer, 100 lipids/leaflet, 310K, GROMACS 5.1.4
   alternateName: 200POPC_9000SOL_310K
   description: Simulations of a POPC bilayer without ions with ECC-CHARMM36 FF . The third from the set of 6 simulations. The goal was to study the effect of scaling the CHARMM FF on the ion binding. Done for the NMRlipids project, see http://nmrlipids.blogspot.fi for more information. A POPC bilayer consisting of 200 lipids (100 per leaflet) is simulated. The ECC-Charmm36 model is employed for lipids, the Charmm compatible variant of the tip3p model for water. The Charmm36 force field parameters were obtained from http://charmm-gui.org/ Charges of head group of POPC were scaled by 0.8, sigmas were scaled by 0.89. This is the same scaling as used for ECC-POPC –––––––––––––––––––––––––––––––––––––––––––––––––––––– The files are in GROMACS format. Trajectory (.xtc) is 400 ns long with data saved every 100 ps. the initial structure (.gro), topology (.top), index file (.ndx), simulation paremeter file (.mdp), binary run input file for GROMACS v. 5.1–> (.tpr) and the energy output file (.edr) are provided.
-  identifier: 10.5281/zenodo.2562080
   sameAs: https://doi.org/10.5281/zenodo.2562080
   datePublished: '2019-02-11'
   license:

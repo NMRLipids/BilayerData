@@ -49,7 +49,6 @@ bioschema_properties:
   name: 'Md Simulation Trajectory Of A Lipid Bilayer: 70/30 Mol% Popc/Cholesterol . Slipids, Gromacs 4.6.3. 2016.'
   alternateName: 154CHOL_358POPC_21183SOL_298K
   description: 'MD simulation trajectory files, for fully hydrated POPC + CHOLESTEROL bilayer (70/30 mol%) [358 POPC, 154 CHOL, 21183 WAT]. The SLIPIDS force field was used with Gromacs 4.6.3. Conditions: T=298K. 170 ns each trajectory, last 100 ns analyzed.'
-  identifier: 10.5281/zenodo.62026
   sameAs: https://doi.org/10.5281/zenodo.62026
   datePublished: '2016-09-10'
   license:

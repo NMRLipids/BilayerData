@@ -54,7 +54,6 @@ bioschema_properties:
   name: Simulations of POPC/cholesterol mixtures at 333 K, three system sizes
   alternateName: 1024DOPC_128CHOL_57600SOL_333K
   description: For the calculation of shear viscosities based on Vögele et al., Phys. Rev. Lett. 120, 268104 (2018). All simulations at 333 K.
-  identifier: 10.5281/zenodo.6943929
   sameAs: https://doi.org/10.5281/zenodo.6943929
   datePublished: '2022-07-30'
   license:

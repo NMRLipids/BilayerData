@@ -48,7 +48,6 @@ bioschema_properties:
   name: Md Simulation Trajectory And Related Files For Popc Bilayer In Low Hydration (Berger Model Delivered By Tieleman, Gromacs 4.5)
   alternateName: 128POPC_896SOL_298K_Berger
   description: Equilibrated POPC lipid bilayer simulation in low hydration (7 water per lipid molecule) ran with Gromacs 4.5, Berger force field delivered by Peter Tieleman (http://wcm.ucalgary.ca/tieleman/downloads) with fixed double bond dihedrals, 60ns, T=298K, 128 POPC molecules, 896 water molecules. This data is used in the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi. If data is used, please cite the nmrlipids.blogspot.fi project and the original publications related to the force field.
-  identifier: 10.5281/zenodo.13814
   sameAs: https://doi.org/10.5281/zenodo.13814
   datePublished: '2015-01-08'
   license:

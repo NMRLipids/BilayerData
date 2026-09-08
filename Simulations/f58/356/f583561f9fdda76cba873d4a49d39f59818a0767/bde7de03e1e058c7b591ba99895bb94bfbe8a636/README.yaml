@@ -45,7 +45,6 @@ bioschema_properties:
   name: Optimization of Slipids Force Field Parameters Describing Headgroups of Phospholipids
   alternateName: POPC bilayer 303 K
   description: Trajectory, topology and parameter files for simulation of POPC bilayer using force field parameters derived in J. Phys. Chem. B 2020, 124, 40, 8784–8793.
-  identifier: 10.5281/zenodo.4683633
   sameAs: https://doi.org/10.5281/zenodo.4683633
   datePublished: '2020-09-14'
   license:

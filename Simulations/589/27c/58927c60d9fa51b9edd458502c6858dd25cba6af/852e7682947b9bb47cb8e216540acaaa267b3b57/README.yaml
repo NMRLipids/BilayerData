@@ -43,7 +43,6 @@ bioschema_properties:
   name: Bilayer2
   alternateName: POPCandTIP3P
   description: Modified LJ parameters on P and O atoms. Base FF is sage 2.2.0
-  identifier: 10.5281/zenodo.15002712
   sameAs: https://doi.org/10.5281/zenodo.15002712
   datePublished: '2025-03-10'
   license:

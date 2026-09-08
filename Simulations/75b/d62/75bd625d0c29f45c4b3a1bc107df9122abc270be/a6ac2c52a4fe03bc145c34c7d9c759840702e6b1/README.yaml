@@ -53,7 +53,6 @@ bioschema_properties:
   name: Simulations of POPC/cholesterol mixtures at 298 K, three system sizes, MacRog
   alternateName: MacRog_POPC_CHOL11_M
   description: GROMACS input and output files. Lipid model by Maciejewski and Rog ('MacRog'). Membranes with 64, 256, and 1024 lipids.
-  identifier: 10.5281/zenodo.7061800
   sameAs: https://doi.org/10.5281/zenodo.7061800
   datePublished: '2022-09-08'
   license:

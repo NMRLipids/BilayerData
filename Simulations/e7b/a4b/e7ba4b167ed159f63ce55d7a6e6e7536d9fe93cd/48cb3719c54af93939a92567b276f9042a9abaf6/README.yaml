@@ -52,7 +52,6 @@ bioschema_properties:
   name: GROMOS-CKP POPC bilayer simulation at 298K (rvdw = 1.0 nm)
   alternateName: POPC_298
   description: 'Simulation of a POPC bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs at 298 K. The GROMOS-CKP model is employed for lipids and SPC for water. Simulation is identical to https://doi.org/10.5281/zenodo.3247434 with the exception of the temperature. Force field files are from https://lipidbook.org/. NOTE: This is run with 1.0 nm cut-off even though 1.4 nm should be used with GROMOS-CKP Trajectory (.xtc) is for the last 350 ns of a simulation of 500 ns with data saved every 10 ps.'
-  identifier: 10.5281/zenodo.5997385
   sameAs: https://doi.org/10.5281/zenodo.5997385
   datePublished: '2022-02-07'
   license:

@@ -43,7 +43,6 @@ bioschema_properties:
   name: 'MD simulation input files and results for ,,Atomistic MD simulations of n-alkanes in a phospholipid bilayer: CHARMM36 versus Slipids"'
   alternateName: DPPC/C30
   description: 'Input files and trajectories of n-alkane/lipid systems used in the article: ,,Atomistic MD simulations of n-alkanes in a phospholipid bilayer: CHARMM36 versus Slipids". Equilibrated starting configurations were created using CHARMM36. Otherwise, filenames specifiy the force field used (C36 or SL), Temperature and system composition. .xtc trajectories were created using gmx trjconv with options -pbc nojump -dt 10. run2 equals simulations from 100-200ns, run3 equals 200-300ns. The first 100ns were excluded from the analysis and are not included in this dataset. Exemplary .mdp files have been included for both force-fields. Please refer to the manuscript for the force field sources and additional information.'
-  identifier: 10.5281/zenodo.7572990
   sameAs: https://doi.org/10.5281/zenodo.7572990
   datePublished: '2023-01-26'
   license:

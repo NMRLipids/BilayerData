@@ -59,7 +59,6 @@ bioschema_properties:
   name: POPC:POPS (5:1) with 450 mM potassium simulation with CHARMM36 at 298K
   alternateName: 110POPC_22POPS_4929SOL_62POT_40CLA_298K
   description: POPC:POPS (5:1) with 450 mM potassium simulation with CHARMM36 at 298K. Trajectory 50-200ns. 110 POPC molecules, 22 POPS molecules, 4926 water molecules and 40 Na + ions.
-  identifier: 10.5281/zenodo.1493241
   sameAs: https://doi.org/10.5281/zenodo.1493241
   datePublished: '2018-11-21'
   license:

@@ -13,7 +13,6 @@ COUNTER_IONS:
 bioschema_properties:
   name: Molecular Structures of Fluid Phosphatidylethanolamine Bilayers Obtained from Simulation-to-Experiment Comparisons and Experimental Scattering Density Profiles
   description: Experimental X-ray scattering form factor for a lipid bilayer at 308 K, measured by X-ray scattering.
-  identifier: 10.1021/jp511159q
   sameAs: https://doi.org/10.1021/jp511159q
   datePublished: '2014-12-12'
   license:

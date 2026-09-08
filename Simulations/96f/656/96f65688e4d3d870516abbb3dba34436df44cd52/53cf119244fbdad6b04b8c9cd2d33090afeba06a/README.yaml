@@ -47,7 +47,6 @@ bioschema_properties:
   name: LIPID17 POPG Bilayer Simulation (Last 100 ns, 310 K ) using dihedral type 9
   alternateName: 500POPG_500SOD_25000SOL_310K
   description: 'Simulation of a POPG bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs v2018.3 in water solution with Na+ counterions. The LIPID17 model (1), AMBER ff15ipq and TIP3P water model are employed. It was used dihedral type 9 instead 1. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top), simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided. ------- (1) Gould, I.R., Skjevik A.A., Dickson, C.J., Madej, B.D., Walker, R.C., "Lipid17: A Comprehensive AMBER Force Field for the Simulation of Zwitterionic and Anionic Lipids", 2018, in prep.'
-  identifier: 10.5281/zenodo.3832274
   sameAs: https://doi.org/10.5281/zenodo.3832274
   datePublished: '2019-06-17'
   license:

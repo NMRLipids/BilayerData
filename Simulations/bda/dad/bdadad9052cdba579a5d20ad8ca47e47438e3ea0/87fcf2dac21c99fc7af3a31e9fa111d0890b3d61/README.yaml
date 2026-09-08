@@ -46,7 +46,6 @@ bioschema_properties:
   name: Simulations of a DOPC bilayer at different temperatures, three system sizes
   alternateName: 1024DOPC_51200SOL_313K
   description: For the calculation of shear viscosities based on Vögele et al., Phys. Rev. Lett. 120, 268104 (2018).
-  identifier: 10.5281/zenodo.6943086
   sameAs: https://doi.org/10.5281/zenodo.6943086
   datePublished: '2022-07-30'
   license:

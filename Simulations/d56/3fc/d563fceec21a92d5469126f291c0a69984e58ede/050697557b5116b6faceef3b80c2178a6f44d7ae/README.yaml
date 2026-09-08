@@ -59,7 +59,6 @@ bioschema_properties:
   name: 'MD simulation trajectory of Ternary mixture of POPC/PSM/Chol (35:35:30) at 295 K: Slipids, GROMACS 5.1.4.'
   alternateName: POPC/SM16/CHOL (35:35:30)
   description: 'MD simulation trajectory files for Ternary mixture of POPC/PSM/Chol [360 POPC, 352 PSM, 304 Chol and 35840 SOL]. The Slipids (2013 version) force field was used with Gromacs 5.1.4. Conditions: T=295K. Data saved every 20 ps. 100 ns trajectory. PREEQTIME: 100 ns TIMELEFTOUT: 300 ns'
-  identifier: 10.5281/zenodo.17730864
   sameAs: https://doi.org/10.5281/zenodo.17730864
   datePublished: '2025-11-27'
   license:

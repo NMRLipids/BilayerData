@@ -36,7 +36,6 @@ TOTAL_LIPID_CONCENTRATION: "full hydration"
 bioschema_properties:
   name: The structures of polyunsaturated lipid bilayers by joint refinement of neutron and X-ray scattering data
   description: Experimental X-ray scattering form factor for a lipid bilayer containing SDPC at 303 K, measured by X-ray scattering (SUV).
-  identifier: 10.1016/j.chemphyslip.2020.104892
   sameAs: https://doi.org/10.1016/j.chemphyslip.2020.104892
   datePublished: 2020-07
   license:

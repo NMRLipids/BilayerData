@@ -51,7 +51,6 @@ bioschema_properties:
   name: MD simulation trajectory of DOG/POPE bilayer and related files
   alternateName: 9.4%DOGinPOPEwithLipid17
   description: Raw simulation trajectory data of pre-equiblirated DOG/POPE bilayer and related files from all-atom molecular dynamics simulations. Simulations have been performed with GROMACS-2018.6 with Lipid17 forcefield and TIP3P water model. The trajectory is 0-2100 ns, and we have disregarded the first 100 ns in our analysis. The system in the trajectory consists of 12 DOG, 116 POPE and 6400 water molecules. Temperature 310 K, pressure 1 bar.
-  identifier: 10.5281/zenodo.6778072
   sameAs: https://doi.org/10.5281/zenodo.6778072
   datePublished: '2022-06-29'
   license:

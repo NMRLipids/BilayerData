@@ -56,7 +56,6 @@ bioschema_properties:
   name: Simulations of POPC/cholesterol mixtures at 298 K, three system sizes, Slipids
   alternateName: Slipids_POPC_CHOL47_S
   description: 'GROMACS input and output files. Slipids. Membranes with 64, 256, and 1024 lipids. New version, added missing file: CHOL4_medium.edr'
-  identifier: 10.5281/zenodo.7022749
   sameAs: https://doi.org/10.5281/zenodo.7022749
   datePublished: '2022-08-23'
   license:

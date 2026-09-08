@@ -58,7 +58,6 @@ bioschema_properties:
   name: MD simulation trajectory of POPE/SDG/CHOL bilayer and related files
   alternateName: DOGandCHOLinSDPEwithLipid17
   description: 'Simulation trajectory pre-equiblirated POPE/SDG/CHOL bilayer and related files from all-atom molecular dynamics simulations. Simulations have been performed with GROMACS-2018.7 with Lipid17 forcefield and TIP3P water model. The trajectory is 0-1000 ns, and we have disregarded the first 100 ns in our analysis. The system in the trajectory consists of 74 POPE, 12 SDG, 42 CHOL and 6400 water molecules. Temperature 310 K, pressure 1 bar. Publication: https://doi.org/10.1016/j.bbamem.2022.183961'
-  identifier: 10.5281/zenodo.6823087
   sameAs: https://doi.org/10.5281/zenodo.6823087
   datePublished: '2022-07-12'
   license:

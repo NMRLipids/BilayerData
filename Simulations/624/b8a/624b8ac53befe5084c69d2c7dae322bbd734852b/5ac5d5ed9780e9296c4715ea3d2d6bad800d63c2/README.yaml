@@ -58,7 +58,6 @@ bioschema_properties:
   name: Dppc_Berger_Nacl_1Mol
   alternateName: 72DPPC_2778SOL_51SOD_51CLA_323K
   description: 'MD simulation trajectory and related files for fully hydrated DPPC bilayer with 1 M NaCl. Berger-DPPC-98 force field delivered by Peter Tieleman (http://wcm.ucalgary.ca/tieleman/downloads) was used with Gromacs 5.0.4. Ions were described by the gromos force field. Conditions: T=323K, 72 lipids, 2778 SPC waters, 51 Na, 51 Cl. 120 ns trajectory, last 60 ns analyzed.'
-  identifier: 10.5281/zenodo.17210
   sameAs: https://doi.org/10.5281/zenodo.17210
   datePublished: '2015-04-28'
   license:

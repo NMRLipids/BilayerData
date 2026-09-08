@@ -55,7 +55,6 @@ bioschema_properties:
   name: Simulations of POPC/cholesterol mixtures at 298 K, three system sizes, CHARMM36
   alternateName: 64POPC_8CHOL_3600SOL_298K
   description: GROMACS input and output files. CHARMM36. Membranes with 64, 256, and 1024 lipids.
-  identifier: 10.5281/zenodo.5767451
   sameAs: https://doi.org/10.5281/zenodo.5767451
   datePublished: '2021-12-08'
   license:

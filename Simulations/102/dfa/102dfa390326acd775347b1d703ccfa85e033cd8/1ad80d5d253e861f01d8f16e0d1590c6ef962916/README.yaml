@@ -43,7 +43,6 @@ bioschema_properties:
   name: Pure POPC bilayer MD simulation using Berger force field, T=303K
   alternateName: Berger_POPC_T303K
   description: Protonated trajectory and .gro from a Berger simulation of 256 POPCs hydrated with 10342 waters simulated with Gpu-version of Gromacs2020.1. The force field and inputs were downloaded from https://zenodo.org/record/1402417/. Prod.tpr was used to run the simulation, protonated.tpr is a dummy .tpr used for the analysis of the protonated trajectory. Simulation used Nose-Hoover thermostat and Parrinello-Rahman barostat.
-  identifier: 10.5281/zenodo.4537207
   sameAs: https://doi.org/10.5281/zenodo.4537207
   datePublished: '2021-02-12'
   license:

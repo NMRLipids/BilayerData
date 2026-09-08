@@ -50,7 +50,6 @@ bioschema_properties:
   name: Popc/Cholesterol (70:30) Lipid Membrane, 303K, Charmm36 Force Field, Simulation Files And 100 Ns Trajectory For Openmm Simulation Engine V7
   alternateName: 84POPC_36CHOL_4800SOL_303K
   description: 'All runs were performed with openMM simulation engine v7 and CHARMM36 additive force field parameters obtained from MacKerell lab website (http://mackerell.umaryland.edu/charmm_ff.shtml). Conditions: T=303, 84 POPC and 36 Cholesterol molecules, 4800 tip3p waters, 100ns trajectory (preceded with equilibration). Charmm-format parameters were used. Topology was built using VMD. Built-in VdW switch was used. Heavy Hydrogen atoms (4amu) and 4 fs time step used in this simulation. These data were originally obtained for the nmrlipids.blospot.fi project. Find more details at nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi'
-  identifier: 10.5281/zenodo.209360
   sameAs: https://doi.org/10.5281/zenodo.209360
   datePublished: '2016-12-19'
   license:

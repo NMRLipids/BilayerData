@@ -48,7 +48,6 @@ bioschema_properties:
   name: CHARMM36, NB-Fix approaches, without NBFIX, POPC membrane, Ca, Na ions,
   alternateName: 200POPC_9000SOL_303K_noNBFIX
   description: Different versions of NB-Fix from CHARMM-Gui and simulations without NB-Fix (called original charmm) 200 POPC lipids, TIP3P - charrmm water model,
-  identifier: 10.5281/zenodo.3434396
   sameAs: https://doi.org/10.5281/zenodo.3434396
   datePublished: '2019-09-17'
   license:

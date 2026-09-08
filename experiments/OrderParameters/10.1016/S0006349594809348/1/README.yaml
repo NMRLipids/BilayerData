@@ -35,7 +35,6 @@ COUNTER_IONS:
 bioschema_properties:
   name: Molecular response of the lipid headgroup to bilayer hydration monitored by 2H-NMR
   description: 'Experimental C-H bond order parameters for a lipid bilayer containing DOPC at 303 K, measured by NMR: 2H:SP.'
-  identifier: 10.1016/S0006-3495(94)80934-8
   sameAs: https://doi.org/10.1016/S0006-3495(94)80934-8
   datePublished: 1994-05
   license:

@@ -45,7 +45,6 @@ bioschema_properties:
   name: OpenMM simulations of POPE using the CHARMM Drude2023 force field in xtc format
   alternateName: POPE_CHARMMdrude2023_308K
   description: 'The dataset contains a PSF, a formatted coordinate file (CRD), and XTC files with the final 200 ns from each of 3 replicate simulations from the paper Drude Polarizable Lipid Force Field with Explicit Treatment of LongRange Dispersion: Parametrization and Validation for Saturated and Monounsaturated Zwitterionic Lipids Yalun Yu, Richard M. Venable, Jonathan Thirman, Payal Chatterjee, Anmol Kumar, Richard W. Pastor,* Benoît Roux,* Alexander D. MacKerell, Jr.,* and Jeffery B. Klauda* https://doi.org/10.1021/acs.jctc.3c00203 XTC file names indicate the lipid and the replica number; each file has frames spaced at 10 ps over a 200 ns interval. The DCD sub-files in 10.5281/zenodo.7872447 have been concatenated into a single 200 ns long trajectory in xtc format by Batuhan Kav using MDAnalysis.'
-  identifier: 10.5281/zenodo.7916494
   sameAs: https://doi.org/10.5281/zenodo.7916494
   datePublished: '2023-05-09'
   license:

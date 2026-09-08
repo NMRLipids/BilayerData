@@ -50,7 +50,6 @@ COUNTER_IONS:
 bioschema_properties:
   name: TOCL_TMA
   description: 'Experimental C-H bond order parameters for a lipid bilayer containing TOCL at 300.5 K, measured by NMR: PDLF:R18_1^7.'
-  identifier: 10.57992/nmrxiv.p157.s1600
   sameAs: https://doi.org/10.57992/nmrxiv.p157.s1600
   datePublished: '2026-01-16'
   license:

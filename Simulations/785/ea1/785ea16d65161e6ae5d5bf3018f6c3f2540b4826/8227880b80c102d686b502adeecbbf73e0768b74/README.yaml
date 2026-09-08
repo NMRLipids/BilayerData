@@ -74,7 +74,6 @@ bioschema_properties:
   name: Simulation of model mitochondrial membrane where TLCL is divided into TLPA+PG (CHARMM36)
   alternateName: IMM_TLCL_divided_PA_PG_310K
   description: MD simulation trajectories of model internal mitochondrial membrane (IMM) consisted of 45% PC (18:0, 20:4),SAPC, 35% PE (16:0, 18:1), POPE, and 20% CL (18:2), TLCL after complete separation of TLCL onto TLPA(-1) and TLPG(-1). The simulations are conducted in NPT ensemble at 310K in CHARMM36 force field using GROMACS v.2023+. High-temperature trajectory of 100 ns was taken as initial states (from timesteps 0, 50, 100 ns) for three deposited 1-us replicas. Writing frequency is 20 ps. Part of the bachelor project "Kardiolipin sin effekt på membranfluiditet" (in Norwegian) of Olivia Lykke Nygaard uploaded and referenced below.
-  identifier: 10.5281/zenodo.16813252
   sameAs: https://doi.org/10.5281/zenodo.16813252
   datePublished: '2025-08-12'
   license:

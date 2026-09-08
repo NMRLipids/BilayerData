@@ -60,7 +60,6 @@ bioschema_properties:
   name: Popc:Pops (4:1) Simulation With Berger Model At 310K
   alternateName: 102POPC_26POPS_26SOD_4290SOL_310K_Berger
   description: POPC:POPS (4:1) simulation with Berger model at 310K
-  identifier: 10.5281/zenodo.1475285
   sameAs: https://doi.org/10.5281/zenodo.1475285
   datePublished: '2018-10-30'
   license:

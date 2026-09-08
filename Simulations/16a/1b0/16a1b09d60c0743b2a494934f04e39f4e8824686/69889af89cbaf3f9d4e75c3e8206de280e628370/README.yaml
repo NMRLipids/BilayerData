@@ -63,7 +63,6 @@ bioschema_properties:
   name: POPC_270_SAPI25_30_KCl_150mM_298.15K
   alternateName: POPC_270_SAPI25_30_KCl_150mM_298.15K
   description: 'GROMACS MD simulation trajectory files for the PC10 system referred in: https://doi.org/10.1083/jcb.202106123 Software version: GROMACS-2020.1'
-  identifier: 10.5281/zenodo.8370426
   sameAs: https://doi.org/10.5281/zenodo.8370426
   datePublished: '2023-09-22'
   license:

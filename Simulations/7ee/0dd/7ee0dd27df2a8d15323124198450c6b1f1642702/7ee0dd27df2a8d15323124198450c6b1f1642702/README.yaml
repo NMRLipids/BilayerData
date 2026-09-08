@@ -80,7 +80,6 @@ bioschema_properties:
   name: Trajectory files of ER-like lipid bilayer
   alternateName: 12CHOL,134POPC,60POPE,14POPS,26POPI,10CER180,10551SOL,40SOD
   description: Simulation of ER-like lipid bilayer. Including DCD, PSF, and PDB files.
-  identifier: 10.5281/zenodo.8369427
   sameAs: https://doi.org/10.5281/zenodo.8369427
   datePublished: '2023-09-18'
   license:

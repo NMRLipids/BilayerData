@@ -52,7 +52,6 @@ bioschema_properties:
   name: 'MD simulations of bilayers containing POPC and Cholesterol: 108POPC_20CHL_31Nwat_neutral (lipid14)'
   alternateName: 108POPC_20CHOL_3968SOL_303K
   description: NMRLipids III CholXray project (nmrlipids.blogspot.fi) Gromacs 5.0.4, lipid14 FF (Madej et al. JPCB 2015, 119, 12424), 1 atm, 303K, 200ns 128 lipids (108 POPC, 20 CHL), N_wat/lipid = 31, 27856 Atoms
-  identifier: 10.5281/zenodo.3871000
   sameAs: https://doi.org/10.5281/zenodo.3871000
   datePublished: '2020-06-01'
   license:

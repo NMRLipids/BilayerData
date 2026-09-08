@@ -54,7 +54,6 @@ bioschema_properties:
   name: Unpublished simulation data related to ProsECCo lipids development
   alternateName: POPC_60_POPS_12_Na_contraions_600mM_CaCl_prosECCo75
   description: Some unpublished lipid bilayer simulation data related to ProsECCo force field development. File names should be self-explanatory.
-  identifier: 10.5281/zenodo.22030946
   sameAs: https://doi.org/10.5281/zenodo.22030946
   datePublished: '2026-08-20'
   license:

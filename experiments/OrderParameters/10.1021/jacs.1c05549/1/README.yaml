@@ -13,7 +13,6 @@ COUNTER_IONS:
 bioschema_properties:
   name: 'NMRLipids/NMRlipidsIVPEandPG: First submission'
   description: NMRlipids IV project, PE and PG lipids
-  identifier: 10.5281/zenodo.4748647
   sameAs: https://doi.org/10.5281/zenodo.4748647
   datePublished: '2021-05-11'
   license:

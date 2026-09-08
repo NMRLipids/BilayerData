@@ -48,7 +48,6 @@ bioschema_properties:
   name: All-atomic simulation of DMPC bilayer with PME and with RFZ
   alternateName: DMPC(313K,rfz)
   description: We have performed simulations of DMPC to check if the reaction-field-zero mode of calculating electrostatics is a good substitute for PME if we want to avoid PME for some reasons (e.g. for stress calculations). We started this simulation from the configuration deposited by Matti Javanainen (10.5281/zenodo.6943413). We performed two simulations of about 500 ns with the same protocol but at 313 K. Protocol for reaction-field-zero is supplemented as well. POPE simulated with the same RFZ protocol is deposited in a separate dataset (10.5281/zenodo.8435138).
-  identifier: 10.5281/zenodo.8431710
   sameAs: https://doi.org/10.5281/zenodo.8431710
   datePublished: '2023-10-11'
   license:

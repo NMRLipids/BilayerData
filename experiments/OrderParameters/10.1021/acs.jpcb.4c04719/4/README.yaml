@@ -34,7 +34,6 @@ COUNTER_IONS:
 bioschema_properties:
   name: 'Solid-State NMR Validation of OPLS4: Structure of PC-Lipid Bilayers and Its Modulation by Dehydration'
   description: 'Experimental C-H bond order parameters for a lipid bilayer containing POPC at 298.0 K, measured by NMR: PDLF:R18_1^7.'
-  identifier: 10.1021/acs.jpcb.4c04719
   sameAs: https://doi.org/10.1021/acs.jpcb.4c04719
   datePublished: '2024-12-09'
   license:

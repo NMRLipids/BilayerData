@@ -57,7 +57,6 @@ bioschema_properties:
   name: Popc Bilayer With 50% Of Dihexadecyldimethylammonium Simulated At T313K With The Lipid14 Model Using Gromacs
   alternateName: 100POPC_100DHMDMAB_6214SOL_100CLA_313K
   description: POPC bilayer with 50% of dihexadecyldimethylammonium simulated at T313K with the Lipid14 model using Gromacs. Last 180ns of 200ns long simulation. See also http://nmrlipids.blogspot.cz/2017/07/quantifying-effect-of-bound-charge-on.html and https://github.com/NMRLipids/MATCH/tree/master/Data/Lipid_Bilayers/POPC%2B50%25DHMDMAB/T313K/MODEL_LIPID14
-  identifier: 10.5281/zenodo.1020689
   sameAs: https://doi.org/10.5281/zenodo.1020689
   datePublished: '2017-10-18'
   license:

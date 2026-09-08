@@ -35,7 +35,6 @@ COUNTER_IONS:
 bioschema_properties:
   name: Fluid phase lipid areas and bilayer thicknesses of commonly used phosphatidylcholines as a function of temperature
   description: Experimental X-ray scattering form factor for a lipid bilayer containing DLPC at 303 K, measured by X-ray scattering (SUV).
-  identifier: 10.1016/j.bbamem.2011.07.022
   sameAs: https://doi.org/10.1016/j.bbamem.2011.07.022
   datePublished: 2011-11
   license:

@@ -65,7 +65,6 @@ bioschema_properties:
   name: Md Simulation Trajectory Of A Popc/Pops (4:1) Bilayer With 1M Kcl, Berger Force Field For Lipids, Dang'S For K+ And Ffgmx For Cl-
   alternateName: 102POPC_22POPS_4290SOL_106POT_80CLA_310K
   description: 'MD simulation trajectory of a POPC/POPS (4:1) bilayer with 1M KCl (102 POPC, 26 POPS, 4290 WAT, 106 K+, 80 Cl-). Additional K+ cations added to neutralize the negative charge of POPS. Berger force field for lipids, Dang''s for K+ (), ffgmx for Cl- are employed. Gromacs 4.0.7, T=310K, 200 ns trajectories were calculated with the last 50 ns stored here).K+ nonbonding parameters (from Dang''s JPC B 1999, 103, 8195 based on Vacha et al. Biophys. J 2009, 96, 4493.): sig=0.3048655 eps=0.418400 Used in: P. Jurkiewicz, L. Cwiklik, A. Vojtiskova, P. Jungwirth, M. Hof, Structure, Dynamics, and Hydration of POPC/POPS Bilayers Suspended in NaCl, KCl, and CsCl BBA Biomembranes 2012 , 1818, 609-616. DOI: 10.1016/j.bbamem.2011.11.033'
-  identifier: 10.5281/zenodo.838225
   sameAs: https://doi.org/10.5281/zenodo.838225
   datePublished: '2017-08-02'
   license:

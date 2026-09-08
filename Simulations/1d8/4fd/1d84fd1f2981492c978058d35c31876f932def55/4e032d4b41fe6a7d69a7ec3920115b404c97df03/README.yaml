@@ -51,7 +51,6 @@ bioschema_properties:
   name: Slipids simulations of a bilayer containing 50% of cholesterol, T=303K
   alternateName: 122CHOL_122POPC_9760SOL_303K
   description: Simulation of 50%POPC+50%cholesterol bilayer (122+122 lipids per leaflet) in full hydration (40 water/lipid) at T=303K in NPT ensemble. Simulations where done on GPU Gromacs 2020.1. The initial configurations were obtained from CHARMM36 simulations and then equilibrated with Slipids force field. The force field was downloaded from the Slipids website (http://www.fos.su.se/~sasha/SLipids/). Note that this is the pre-2020 version of the force field. Simulation uses Parrinello-Rahman barostat and Nose-Hoover thermostat.
-  identifier: 10.5281/zenodo.4349753
   sameAs: https://doi.org/10.5281/zenodo.4349753
   datePublished: '2020-12-18'
   license:

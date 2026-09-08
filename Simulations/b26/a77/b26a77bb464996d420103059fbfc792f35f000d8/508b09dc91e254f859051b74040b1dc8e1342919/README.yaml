@@ -49,7 +49,6 @@ bioschema_properties:
   name: Berger Pure Popc Md Simulation (300 K - 300Ns - 1 Bar)
   alternateName: 256POPC_10342SOL_300K_Berger
   description: Berger POPC pure bilayer simulation (300 K, with 256 POPC lipids fully hydrated with 40 water molecules per lipid). The trajectory contains the whole simulation from 0 to 300 ns skipped every 100 ps and centered on the P atoms. No ions were added as there is no global net charge in the system. This bilayer was used to calculate the order parameter and the area per lipid for the NMRlipids IV project (on the time window 100-300 ns).
-  identifier: 10.5281/zenodo.1402417
   sameAs: https://doi.org/10.5281/zenodo.1402417
   datePublished: '2018-08-23'
   license:

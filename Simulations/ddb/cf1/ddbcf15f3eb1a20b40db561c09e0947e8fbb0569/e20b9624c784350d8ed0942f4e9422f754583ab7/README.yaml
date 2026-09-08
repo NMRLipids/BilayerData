@@ -48,7 +48,6 @@ bioschema_properties:
   name: MD simulation of POPC bilayer with CHARMM36 force field. Full hydration 44 w/l.
   alternateName: 200POPC_8880SOL_300K
   description: 'MD simulation of POPC (1-palmitoyl-2-oleoyl-phosphatidylcholine) bilayer with CHARMM36 force field. Full hydration 44 w/l. Dataset contains simulation files including trajectories (.xtc) (original production.xtc and equilibrated and centered centered-40-500ns.xtc). System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 8880 Simulation time: 500 ns Sampling rate: every 10 ps Simulation engine: GROMACS 2019.5 Temperature: 300 K'
-  identifier: 10.5281/zenodo.6336691
   sameAs: https://doi.org/10.5281/zenodo.6336691
   datePublished: '2022-03-08'
   license:

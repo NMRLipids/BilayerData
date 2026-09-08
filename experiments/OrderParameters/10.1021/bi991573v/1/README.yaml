@@ -42,7 +42,6 @@ COUNTER_IONS:
 bioschema_properties:
   name: 'CTP:Phosphocholine Cytidylyltransferase Activation by Oxidized Phosphatidylcholines Correlates with a Decrease in Lipid Order: A <sup>2</sup>H NMR Analysis'
   description: 'Experimental C-H bond order parameters for a lipid bilayer containing PAPC at 310 K, measured by NMR: 2H:QE.'
-  identifier: 10.1021/bi991573v
   sameAs: https://doi.org/10.1021/bi991573v
   datePublished: '1999-11-01'
   license:

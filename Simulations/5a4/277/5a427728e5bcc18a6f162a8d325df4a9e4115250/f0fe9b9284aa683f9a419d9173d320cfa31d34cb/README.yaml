@@ -42,7 +42,6 @@ bioschema_properties:
   name: 'Md Simulation Trajectory Of A Lipid Bilayer: Pure Popc In Water. Slipids, Gromacs 4.6.3. 2016.'
   alternateName: POPC_T298K
   description: 'MD simulation trajectory files, for fully hydrated POPC bilayer [512 POPC, 23943 WAT]. The SLIPIDS force field was used with Gromacs 4.6.3. Conditions: T=298K. 170 ns each trajectory, last 100 ns analyzed.'
-  identifier: 10.5281/zenodo.166034
   sameAs: https://doi.org/10.5281/zenodo.166034
   datePublished: '2016-11-21'
   license:

@@ -41,7 +41,6 @@ COUNTER_IONS:
 bioschema_properties:
   name: 'Average structural and motional properties of a diunsaturated acyl chain in a lipid bilayer: effects of two cis-unsaturated double bonds'
   description: 'Experimental C-H bond order parameters for a lipid bilayer containing PILPC at 293 K, measured by NMR: 2H:QE.'
-  identifier: 10.1021/bi00218a003
   sameAs: https://doi.org/10.1021/bi00218a003
   datePublished: 1991-01
   license:

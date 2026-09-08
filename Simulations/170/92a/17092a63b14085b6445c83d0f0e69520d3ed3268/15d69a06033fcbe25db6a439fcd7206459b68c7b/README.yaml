@@ -46,7 +46,6 @@ bioschema_properties:
   name: MD simulation of DMPC bilayer with OPLS4 force field. 5 w/l.
   alternateName: 200DMPC_1000SOL_300K
   description: Molecular dynamics simulation of a lipid bilayer containing DMPC at 314.0 K, OPLS4 force field, gromacs, 450 ns trajectory.
-  identifier: 10.5281/zenodo.11045998
   sameAs: https://doi.org/10.5281/zenodo.11045998
   datePublished: '2024-04-23'
   license:

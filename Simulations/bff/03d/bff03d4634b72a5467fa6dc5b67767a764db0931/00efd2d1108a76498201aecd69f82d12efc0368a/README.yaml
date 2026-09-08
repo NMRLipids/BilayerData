@@ -46,7 +46,6 @@ bioschema_properties:
   name: SOPC bilayer, CHARMM36
   alternateName: SOPC
   description: Simulation of SOPC bilayer with 32 lipids per leavlet for 500ns after minimization and 200ns equilibration. The CHARRM36 forcefield was used.
-  identifier: 10.5281/zenodo.12698832
   sameAs: https://doi.org/10.5281/zenodo.12698832
   datePublished: '2024-07-09'
   license:

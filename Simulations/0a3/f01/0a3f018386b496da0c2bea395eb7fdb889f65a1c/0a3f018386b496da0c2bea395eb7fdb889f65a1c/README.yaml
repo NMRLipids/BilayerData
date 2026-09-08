@@ -40,7 +40,6 @@ bioschema_properties:
   name: PLPC (PiLPC) lipid bilayer | 1-palmitoyl-2-isolinoleoyl-i«-glycero-3-phosphocholine with C6-C7 and the C9-C10 double bonds | 303K, CHARMM36m-WYF forcefield, NAMD 3.0.2, 2* 500 ns
   alternateName: PiLPC
   description: 'PLPC (PiLPC) lipid bilayer: 1-palmitoyl-2-isolinoleoyl-i«-glycero-3-phosphocholine with C6-C7 and the C9-C10 double bonds200 lipid molecules (100 lipids per leaflet) and no ions.Lipid for a total water content of 50 wt% >>> Hydration: 42Temperature: 303.15System was prepared using CHARMM-GUI.CHARMM36m-WYF forcefield was used.Simulation was performed with NAMD 3.0.2.timestep: 2.0 fs500 ns production after 150 ns equilibrationdcd saving freq: 100002 replicates'
-  identifier: 10.5281/zenodo.18480411
   sameAs: https://doi.org/10.5281/zenodo.18480411
   datePublished: '2026-02-04'
   license:

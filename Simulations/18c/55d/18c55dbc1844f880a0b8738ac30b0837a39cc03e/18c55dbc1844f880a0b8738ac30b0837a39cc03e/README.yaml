@@ -53,7 +53,6 @@ bioschema_properties:
   name: Pure POPC membrane simulations with 1000 mM CaCl2 with the CHARMM-Drude force field (OpenMM)
   alternateName: 128POPC_6400SOL_114CaCl2_303K
   description: 400 ns MD simulation of pure POPC membrane using Charmm-Drude polarizable force field. The system contains 128 POPC lipids, 114 CaCl2, and 6400 SWM4 water molecules. Before running the Drude simulation, the system has been equilibriated using Charmm36 force field for 200 ns. The last frame of that simulation was used to generate Drude polarizable model. The first 100 ns of the Drude simulation has been discarded from this dataset. Total simulation time is 500 ns, included data is 400 ns. wrapped.dcd has a frame saving frequency of 100 ps.
-  identifier: 10.5281/zenodo.5507316
   sameAs: https://doi.org/10.5281/zenodo.5507316
   datePublished: '2021-05-05'
   license:

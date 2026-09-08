@@ -47,7 +47,6 @@ bioschema_properties:
   name: MD simulation trajectory for POPC bilayer with 128 lipid molecules (CHARMM36, Gromacs 5.1)
   alternateName: POPC_T303K
   description: 'Equilibrated POPC lipid bilayer ran with Gromacs 5.1.2 with CHARMM36 lipid forcefield. The simulation is composed of 128 POPC at full hydratation and ran for 500ns at 303K, data saved every 10ps. This data is used in the project "Matching lipid force fields with NMR data". More information at : http://nmrlipids.blogspot.fi/'
-  identifier: 10.5281/zenodo.3474863
   sameAs: https://doi.org/10.5281/zenodo.3474863
   datePublished: '2019-10-07'
   license:

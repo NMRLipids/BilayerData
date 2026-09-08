@@ -44,7 +44,6 @@ bioschema_properties:
   name: NAMD Trajectory of a Palmitoyl Sphingomyelin Bilayer
   alternateName: PSM NAMD
   description: All-atom PSM bilayer simulated in NPT ensemble with NAMD and the CHARMM36 force field from Doktorova et al. 2020 J. Phys. Chem. B. article (DOI 10.1021/acs.jpcb.0c03389). The trajectory represents the last 117 ns used for analysis where the area per lipid is equilibrated (the file has 5874 frames output every 20 ps). The bilayer has 200 lipids total (100 lipids per leaflet) and is hydrated with 45 waters/lipid. The simulation was done at 55C (328.15K) and the trajectory is centered on the bilayer midplane.
-  identifier: 10.5281/zenodo.8338253
   sameAs: https://doi.org/10.5281/zenodo.8338253
   datePublished: '2023-09-12'
   license:

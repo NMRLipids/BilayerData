@@ -66,7 +66,6 @@ bioschema_properties:
   name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS (5:1) with ECC-lipids force field, and Na+ (K+) counterions at various CaCl2 additional concentrations
   alternateName: 12POPS_60POPC_3561SOL_8CAL_16CLA_12SOD_298K
   description: 'Classical molecular dynamics simulations of various mixtures of POPC:POPS lipid bilayers in water solution with Na+ counterions (or with K+ counterions when noted with "_KCl" suffix) and an additional concentration of CaCl2. The numbers in the file names denote the number of additional Ca2+ cations. ECC-lipids force field parameters used for lipids, SPC/E water model and ECC-ions, all parameters available at https://github.com/jmelcr/ecc_lipids simulations performed with Gromacs 2018.0 (*.xtc files) simulation length 1000 ns = 1 microsecond temperature 298 K Simulations without additional salts are at a separate deposit: 10.5281/zenodo.1488094.'
-  identifier: 10.5281/zenodo.1488102
   sameAs: https://doi.org/10.5281/zenodo.1488102
   datePublished: '2018-11-14'
   license:

@@ -43,7 +43,6 @@ bioschema_properties:
   name: bilayer9
   alternateName: POPCandTIP3P
   description: Modifications to the LJ parameters of phospahte bound Oxygen based on Amber optimization paper. Topology modification to original force field
-  identifier: 10.5281/zenodo.15021844
   sameAs: https://doi.org/10.5281/zenodo.15021844
   datePublished: '2025-03-13'
   license:

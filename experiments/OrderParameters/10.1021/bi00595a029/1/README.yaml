@@ -46,7 +46,6 @@ TOTAL_LIPID_CONCENTRATION: 1.362
 bioschema_properties:
   name: Influence of cholesterol on the polar region of phosphatidylcholine and phosphatidylethanolamine bilayers
   description: 'Experimental C-H bond order parameters for a lipid bilayer containing DPPC at 331 K, measured by NMR: 2H:SP.'
-  identifier: 10.1021/bi00595a029
   sameAs: https://doi.org/10.1021/bi00595a029
   datePublished: '1978-01-24'
   license:

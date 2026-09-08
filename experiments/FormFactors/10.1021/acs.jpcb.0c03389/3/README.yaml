@@ -34,7 +34,6 @@ COUNTER_IONS:
 bioschema_properties:
   name: Molecular Structure of Sphingomyelin in Fluid Phase Bilayers Determined by the Joint Analysis of Small-Angle Neutron and X-ray Scattering Data
   description: Experimental X-ray scattering form factor for a lipid bilayer containing SM18 at 318 K, measured by X-ray scattering (SUV).
-  identifier: 10.1021/acs.jpcb.0c03389
   sameAs: https://doi.org/10.1021/acs.jpcb.0c03389
   datePublished: '2020-05-29'
   license:

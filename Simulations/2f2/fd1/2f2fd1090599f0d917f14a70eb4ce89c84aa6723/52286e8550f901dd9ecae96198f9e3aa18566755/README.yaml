@@ -49,7 +49,6 @@ bioschema_properties:
   name: MD simulation of POPC bilayer with OPLS4 force field. Full hydration
   alternateName: 200POPC_9kSOL_300K
   description: 'MD simulation of POPC bilayer with OPLS4 force field. Full hydration Dataset contains trajectories (_trj), topologies (-out.cms), input files and converted gromacs format files For the ease of the upload, trajectory file (_trj) is divided into 3 pieces and tarred (named desmond_md_popc_fullhydr_opls4_x-xns.tar.gz) System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 9000 Simulation time: 500 ns Simulation engine: Desmond 2021-3 Temperature: 300 K'
-  identifier: 10.5281/zenodo.10958387
   sameAs: https://doi.org/10.5281/zenodo.10958387
   datePublished: '2024-04-11'
   license:

@@ -48,7 +48,6 @@ bioschema_properties:
   name: CHARMM36 POPG Bilayer Simulation (Last 100 ns, 310 K )
   alternateName: 500POPG_25000SOL_500SOD_310K
   description: Simulation of a POPG bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs v2018.3 in water solution with Na+ counterions. The CHARMM model is employed for lipids and the TIP3P model for water. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top), and the energy output file (.edr) are provided.
-  identifier: 10.5281/zenodo.3237463
   sameAs: https://doi.org/10.5281/zenodo.3237463
   datePublished: '2019-06-03'
   license:

@@ -57,7 +57,6 @@ bioschema_properties:
   name: Charmm36 Simulations Of Popc Mixed With Cationic Surfactant
   alternateName: POPC50%DHMDMAB_T313K
   description: CHARMM36 simulations of POPC mixed with cationic surfactants. The simulations are ran for NMRlipids IV project at 313 K using Gromacs 5. run10* for 10 mol% of surfactant run20* for 20 mol% of surfactant run30* for 30 mol% of surfactant run50* for 50 mol% of surfactant itp files called in top files from the folder ../47molF/CHARMMfiles/ are here in the root
-  identifier: 10.5281/zenodo.1288297
   sameAs: https://doi.org/10.5281/zenodo.1288297
   datePublished: '2018-06-13'
   license:

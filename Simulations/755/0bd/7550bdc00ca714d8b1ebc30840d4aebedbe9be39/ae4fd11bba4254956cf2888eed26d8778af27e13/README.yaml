@@ -59,7 +59,6 @@ bioschema_properties:
   name: 'MD simulation trajectory of Ternary mixture of POPC/PSM/Ergo (35:35:30) at 295 K: Slipids, GROMACS 2019.6'
   alternateName: POPC/SM16/ERG(35:35:30)
   description: 'MD simulation trajectory files for Ternary mixture of POPC/PSM/Ergo [360 POPC, 352 SM16, 304 Ergo, and 35840 SOL]. The Slipids (2013 version) force field was used with Gromacs 2019.6. Ergosterol parameters from https://doi.org/10.1002/bit.25845 . Conditions: T=295K. Data saved every 20 ps. 100 ns trajectory. PREEQTIME: 100 ns TIMELEFTOUT: 300 ns'
-  identifier: 10.5281/zenodo.17730735
   sameAs: https://doi.org/10.5281/zenodo.17730735
   datePublished: '2025-11-27'
   license:

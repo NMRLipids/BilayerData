@@ -58,7 +58,6 @@ bioschema_properties:
   name: POPC:POPS (5:1) with 890 mM sodium simulation with CHARMM36 at 298K
   alternateName: 110POPC_22POPS_4932SOL_101SOD_79CLA_298K
   description: POPC:POPS (5:1) with 890 mM sodium simulation with CHARMM36 at 298K. Trajectory 50-200ns. 110 POPC molecules, 22 POPS molecules, 4932 water molecules and 79 Na + ions.
-  identifier: 10.5281/zenodo.1493229
   sameAs: https://doi.org/10.5281/zenodo.1493229
   datePublished: '2018-11-21'
   license:

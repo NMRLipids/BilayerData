@@ -44,7 +44,6 @@ bioschema_properties:
   name: CHARMM36 simulations of pure POPC bilayer and a bilayer containing 50% of cholesterol, T=303K
   alternateName: 122POPC_4880SOL_303K
   description: Simulation of POPC and 50%POPC+50%cholesterol bilayer in full hydration (40 water/lipid) at T=303K in NPT ensemble. Simulations where done on GPU Gromacs 2020.1. The initial configurations and force field (CHARMM36) were dowloaded from CHARMM-GUI. Simulation uses Parrinello-Rahman barostat and Nose-Hoover thermostat.
-  identifier: 10.5281/zenodo.4071264
   sameAs: https://doi.org/10.5281/zenodo.4071264
   datePublished: '2020-10-07'
   license:

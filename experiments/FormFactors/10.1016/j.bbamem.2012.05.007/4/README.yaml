@@ -39,7 +39,6 @@ COUNTER_IONS:
 bioschema_properties:
   name: Molecular structures of fluid phase phosphatidylglycerol bilayers as determined by small angle neutron and X-ray scattering
   description: Experimental X-ray scattering form factor for a lipid bilayer containing POPG at 333 K, measured by X-ray scattering (SUV).
-  identifier: 10.1016/j.bbamem.2012.05.007
   sameAs: https://doi.org/10.1016/j.bbamem.2012.05.007
   datePublished: 2012-09
   license:

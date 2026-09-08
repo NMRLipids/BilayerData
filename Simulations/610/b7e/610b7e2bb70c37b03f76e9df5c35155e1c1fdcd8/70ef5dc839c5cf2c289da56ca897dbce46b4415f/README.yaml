@@ -56,7 +56,6 @@ bioschema_properties:
   name: PC/PS 5:1 bilayer, Na contraions, additional CaCl_2, CHARMM36 FF, NBFIX-Han
   alternateName: 250POPC_50POPS_11207SOL_50SOD_320K
   description: Systems of 250 POPC and 50 POPS lipids in water solutions with 50 sodium contra ions and 0, 140, 940 mM additional calcium chloride. Simulations were run with CHARMM36 force field with NBFIX for calcium ions (http://dx.doi.org/10.1021/acs.jpcb.7b10730). 320K, 1bar. Gromacs version 2018.6
-  identifier: 10.5281/zenodo.3371327
   sameAs: https://doi.org/10.5281/zenodo.3371327
   datePublished: '2019-08-19'
   license:

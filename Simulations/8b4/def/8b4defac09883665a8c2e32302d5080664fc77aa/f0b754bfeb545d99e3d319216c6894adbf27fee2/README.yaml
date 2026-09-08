@@ -46,7 +46,6 @@ bioschema_properties:
   name: Set Simulations Small Pure Bilayers (72 Lipids) Using Charmm36 Ff In Gromacs (Dppc, Popc)
   alternateName: 72DPPC_2188SOL_325K_rmcomm_leaflets
   description: 'Collection simulations of DPPC and POPC bilayers in gromacs using the charmm36 force field. The list of systems describing their particular simulation conditions can be found below: 1) DPPC_72_325K (500ns) 2) DPPC_72_310K_rmcomm_leaflets (500ns) 3) DPPC_72_310K_rmcomm_leaflets_low_hydration (500ns) 4) POPC_72_310K (500ns) 5) POPC_72_310K_rmcomm_leaflets (500ns) 6) POPC_72_310K_rmcomm_leaflets_low_hydration (550ns) 7) POPC_72_303K_rmcomm_leaflets_low_hydration (550ns) For further information read the Readme file provided for each simulation.'
-  identifier: 10.5281/zenodo.1009607
   sameAs: https://doi.org/10.5281/zenodo.1009607
   datePublished: '2017-10-12'
   license:

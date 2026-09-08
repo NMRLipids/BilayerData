@@ -50,7 +50,6 @@ bioschema_properties:
   name: MD simulation of POPC lipids bilayer at 310K (Berger, Gromacs 3.1.4)
   alternateName: POPClipidbilayer_310K_Berger
   description: Simulation data and files for POPC Berger simulation at 310K used in publication J. Phys. Chem. B 2007, 111, 3139-3150.
-  identifier: 10.5281/zenodo.1230170
   sameAs: https://doi.org/10.5281/zenodo.1230170
   datePublished: '2018-04-26'
   license:

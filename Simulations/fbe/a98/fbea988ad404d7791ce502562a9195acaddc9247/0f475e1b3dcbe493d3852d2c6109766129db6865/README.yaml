@@ -51,7 +51,6 @@ bioschema_properties:
   name: Simulation POPC_512_NaCl_150mM_310K membrane
   alternateName: 512POPC_20480SOL_55SOD_55CLA_310K
   description: 'Title publication: A Ceramide-Regulated Element in the Late Endosomal Protein LAPTM4B Controls Amino Acid Transporter Interaction Year publication: 2018 DOI publication: 10.1021/acscentsci.7b00582 Description: Simulation POPC membrane using charmm36 at 310K. MD engine: 2016.1 Force field : charmm36 Temperature : 310 K Pressure: 1 bar Simulation time : 4200 ns Saving frequency : 100 ps Molecular content : POPC 512 water 20480 Cl- 55 Na+ 55 Other information: * Center of mass motion removed independently for bilayer and water+ions * 01-* are the merged files. * 02-* are the original simulation files. So do not concatenate 02 and 01 files.'
-  identifier: 10.5281/zenodo.3228177
   sameAs: https://doi.org/10.5281/zenodo.3228177
   datePublished: '2019-05-28'
   license:

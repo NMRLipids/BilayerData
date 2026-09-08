@@ -52,7 +52,6 @@ bioschema_properties:
   name: Simulations of POPC/cholesterol mixtures at 298 K, three system sizes, LIPID17
   alternateName: Lipid17_POPC_CHOL29_S
   description: GROMACS input and output files. LIPID17. Membranes with 64, 256, and 1024 lipids.
-  identifier: 10.5281/zenodo.6992065
   sameAs: https://doi.org/10.5281/zenodo.6992065
   datePublished: '2022-08-15'
   license:
