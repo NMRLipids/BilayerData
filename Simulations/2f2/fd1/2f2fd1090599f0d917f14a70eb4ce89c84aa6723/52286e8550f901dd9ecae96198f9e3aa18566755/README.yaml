@@ -45,3 +45,20 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/1
 ID: 814
+bioschema_properties:
+  name: MD simulation of POPC bilayer with OPLS4 force field. Full hydration
+  description: 'MD simulation of POPC bilayer with OPLS4 force field. Full hydration Dataset contains trajectories (_trj), topologies (-out.cms), input files and converted gromacs format files For the ease of the upload, trajectory file (_trj) is divided into 3 pieces and tarred (named desmond_md_popc_fullhydr_opls4_x-xns.tar.gz) System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 9000 Simulation time: 500 ns Simulation engine: Desmond 2021-3 Temperature: 300 K'
+  datePublished: '2024-04-11'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kurki, Milla
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.10958387
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

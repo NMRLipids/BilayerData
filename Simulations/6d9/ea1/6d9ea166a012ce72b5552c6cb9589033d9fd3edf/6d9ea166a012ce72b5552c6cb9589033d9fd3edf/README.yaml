@@ -48,3 +48,24 @@ EXPERIMENT:
   ORDERPARAMETER:
     TOCL: []
   FORMFACTOR: []
+bioschema_properties:
+  name: NAMD Trajectory of a Tetraoleoyl Cardiolipin Bilayer
+  description: All-atom TOCL (tetraoleoyl cardiolipin) bilayer simulated in NPT ensemble with NAMD and the CHARMM36 force field from Doktorova et al. 2017 Phys. Chem. Chem. Phys. article (DOI 10.1039/c7cp01921a). The trajectory represents the last 155 ns used for analysis where the area per lipid is equilibrated (the file has 7752 frames output every 20 ps). The bilayer has 100 lipids total (50 lipids per leaflet) and is hydrated with 60 waters/lipid and 140mM NaCl. The simulation was done at 30C (303.15K) and the trajectory is centered on the bilayer midplane.
+  datePublished: '2023-09-13'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Doktorova, Milka
+    identifier: https://orcid.org/0000-0003-4366-2242
+  citation:
+  - 10.1039/c7cp01921a
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8341624
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

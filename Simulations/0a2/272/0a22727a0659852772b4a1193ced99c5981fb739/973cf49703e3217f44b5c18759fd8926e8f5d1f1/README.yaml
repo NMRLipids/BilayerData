@@ -47,3 +47,23 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 ID: 344
+bioschema_properties:
+  name: MD simulation of POPC lipids bilayer at 310K (Berger, Gromacs 3.1.4)
+  description: Simulation data and files for POPC Berger simulation at 310K used in publication J. Phys. Chem. B 2007, 111, 3139-3150.
+  datePublished: '2018-04-26'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Ollila, O. H. Samuli
+  citation:
+  - 10.1021/jp065424f
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1230170
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

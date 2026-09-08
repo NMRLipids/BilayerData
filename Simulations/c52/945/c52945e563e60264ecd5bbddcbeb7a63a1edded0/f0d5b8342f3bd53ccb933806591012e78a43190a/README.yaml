@@ -45,3 +45,26 @@ EXPERIMENT:
     DPPC: []
     C20: []
   FORMFACTOR: []
+bioschema_properties:
+  name: 'MD simulation input files and results for ,,Atomistic MD simulations of n-alkanes in a phospholipid bilayer: CHARMM36 versus Slipids"'
+  description: 'Input files and trajectories of n-alkane/lipid systems used in the article: ,,Atomistic MD simulations of n-alkanes in a phospholipid bilayer: CHARMM36 versus Slipids". Equilibrated starting configurations were created using CHARMM36. Otherwise, filenames specifiy the force field used (C36 or SL), Temperature and system composition. .xtc trajectories were created using gmx trjconv with options -pbc nojump -dt 10. run2 equals simulations from 100-200ns, run3 equals 200-300ns. The first 100ns were excluded from the analysis and are not included in this dataset. Exemplary .mdp files have been included for both force-fields. Please refer to the manuscript for the force field sources and additional information.'
+  datePublished: '2023-01-26'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Wurl, Anika
+    identifier: https://orcid.org/0000-0002-6785-9296
+  - name: Mendes Ferreira, Tiago
+    identifier: https://orcid.org/0000-0002-0312-1479
+  citation:
+  - 10.1002/mats.202200078
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.7572990
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

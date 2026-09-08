@@ -54,3 +54,22 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 ID: 191
+bioschema_properties:
+  name: Simulations Of Popc Lipid Bilayer In Water Solution At Various Nacl And Cacl2 Concentrations Using Ecc-Popc Force Field And Various Water Models
+  description: Classical molecular dynamics simulations of a POPC lipid bilayer in water solution at various NaCl and CaCl2 concentrations using ECC-POPC force field parameters, various water models and ECC-ions. Simulations with SPC/E water model are in a separate Zenodo deposit https://doi.org/10.5281/zenodo.1118266 file names report molar fraction of cations (i.e. not bulk concentrations) simulations performed with Gromacs 5.1.4 (*.xtc files) and openMM 7 (*.dcd files) simulation length 300 ns temperature 313 K (otherwise noted)
+  datePublished: '2017-12-19'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Melcr, Josef
+    identifier: https://orcid.org/0000-0003-4729-3990
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1118980
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

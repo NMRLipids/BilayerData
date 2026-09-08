@@ -51,3 +51,21 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 ID: 415
+bioschema_properties:
+  name: ECC-POPC, 28mM, 2600mM
+  description: POPC mambrane with different concentrations of calcium ions simulated with ECC-POPC force-field
+  datePublished: '2019-09-17'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Nencini, Ricky
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3434100
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

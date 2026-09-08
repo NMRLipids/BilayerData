@@ -62,3 +62,24 @@ EXPERIMENT:
     PVCL: []
   FORMFACTOR: []
 ID: 844
+bioschema_properties:
+  name: Simulation of model inner bacterial membrane (CHARMM36)
+  description: MD simulation trajectories of the model bacterial membrane (IMM) consisted of 75% (16:0/16:1)PE, PYPE, 20% (18:1)PG, DOPG,and 5% (16:0/18:1)CL, PVCL. The simulations are conducted in NPT ensemble at 310K in CHARMM36 force field using GROMACS v.2023+. High-temperature trajectory of 100 ns was taken as initial states (from timesteps 0, 50, 100 ns) for three deposited 1-us replicas. Writing frequency is 20 ps. Part of the bachelor project "Kardiolipin sin effekt på membranfluiditet" (in Norwegian) of Olivia Lykke Nygaard uploaded and referenced below.
+  datePublished: '2025-08-13'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Nygaard, Olivia Lykke
+  - name: Nesterenko, Alexey
+    identifier: https://orcid.org/0000-0003-1592-257X
+  citation:
+  - 10.5281/zenodo.15600823
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.16842791
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

@@ -77,3 +77,22 @@ EXPERIMENT:
     SM16: []
     CHOL: []
   FORMFACTOR: []
+bioschema_properties:
+  name: Trajectory file of asymmetric PM-like lipid bilayer
+  description: Simulation of asymmetric PM-like lipid bilayer. Including DCD, PSF, and PDB files.
+  datePublished: '2023-09-18'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Talandashti, Reza
+  - name: Reuter, Nathalie
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8369348
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

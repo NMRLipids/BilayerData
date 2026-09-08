@@ -50,3 +50,23 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 ID: 857
+bioschema_properties:
+  name: MD simulation of POPC bilayer with CHARMM36 force field, 200 mM CaCl2
+  description: 'MD simulation of POPC bilayer with CHARMM36 force field, 200 mM CaCl 2 Dataset contains simulation files including centered trajectory files. For the ease of the upload, trajectory files (.xtc) are divided to 100ns pieces (Cacl200mM_x-x.xtc) System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 8880 Salt: CaCl 2 Concentration: 200 mM Number of cations: 32 Simulation time: 1000 ns Simulation engine: GROMACS 2019.5 Temperature: 300 K'
+  datePublished: '2022-03-08'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Lindström, Milla
+  citation:
+  - 10.1021/acs.jcim.2c00395
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.6337813
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

@@ -52,3 +52,24 @@ EXPERIMENT:
   ORDERPARAMETER:
     POPC: []
   FORMFACTOR: []
+bioschema_properties:
+  name: POPC_300_KCl_150mM_298.15K
+  description: 'GROMACS MD simulation trajectory files for the PC0 system referred in: https://doi.org/10.1083/jcb.202106123 Software version: GROMACS-2020.1'
+  datePublished: '2023-09-22'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Lolicato, Fabio
+    identifier: https://orcid.org/0000-0001-7537-0549
+  citation:
+  - 10.1083/jcb.202106123
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8370414
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

@@ -51,3 +51,21 @@ EXPERIMENT:
 WARNINGS:
   PBC: z-jumps
 ID: 544
+bioschema_properties:
+  name: MD simulation trajectory and related files for POPC bilayer with 350mM NaCl (CHARMM36, Gromacs 4.5)
+  description: Equilibrated POPC lipid bilayer simulation ran with Gromacs 4.5, CHARMM36, 60ns, T=303K, 72 POPC molecules, 2085 water molecules, 13 Na molecules, 13 Cl molecules. This data is used in the NMRLipids II project (nmrlipids.blospot.fi).
+  datePublished: '2015-10-21'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Ollila, Samuli
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.4750862
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

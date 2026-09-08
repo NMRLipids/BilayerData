@@ -54,3 +54,26 @@ EXPERIMENT:
     SDG: []
     CHOL: []
   FORMFACTOR: []
+bioschema_properties:
+  name: MD simulation trajectory of SDPE/SDG/CHOL bilayer and related files
+  description: 'Simulation trajectory pre-equiblirated SDPE/SDG/CHOL bilayer and related files from all-atom molecular dynamics simulations. Simulations have been performed with GROMACS-2018.7 with Lipid17 forcefield and TIP3P water model. The trajectory is 0-1000 ns, and we have disregarded the first 100 ns in our analysis. The system in the trajectory consists of 74 SDPE, 12 SDG, 42 CHOL and 6400 water molecules. Temperature 310 K, pressure 1 bar. Publication: https://doi.org/10.1016/j.bbamem.2022.183961'
+  datePublished: '2022-07-12'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Lautala, Saara
+    identifier: https://orcid.org/0000-0001-5528-8839
+  - name: Heinonen, Suvi
+    identifier: https://orcid.org/0000-0002-2495-1017
+  citation:
+  - 10.1016/j.bbamem.2022.183961
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.6823140
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

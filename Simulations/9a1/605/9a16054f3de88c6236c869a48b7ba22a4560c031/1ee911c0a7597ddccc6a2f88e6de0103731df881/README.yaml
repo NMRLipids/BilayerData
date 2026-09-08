@@ -54,3 +54,25 @@ EXPERIMENT:
     CHOL: []
   FORMFACTOR: []
 ID: 15
+bioschema_properties:
+  name: MD simulation trajectory and related files for POPC/cholesterol (60 mol%) bilayer (Berger model delivered by Tieleman, modified Höltje, Gromacs 4.5)
+  description: Equilibrated POPC lipid bilayer simulation ran with Gromacs 4.5, Berger force field delivered by Peter Tieleman (http://wcm.ucalgary.ca/tieleman/downloads), Modified Höltje model for cholesterol (http://dx.doi.org/10.1016/S0005-2736(01)00270-X), 50ns, T=298K, 50 POPC molecules, 5782 water molecules, 78 cholesterol molecules. This data is used in http://dx.doi.org/10.1039/C2CP42738A and in the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi. If data is used, please cite [Ferreira et al. Phys. Chem. Chem. Phys. , 2013,15, 1976-1989], the nmrlipids.blogspot.fi project and the original publication related to the force field.
+  datePublished: '2014-12-17'
+  license:
+    spdx: GPL-3.0-only
+    name: GNU General Public License v3.0 only
+    url: https://spdx.org/licenses/GPL-3.0-only.html
+    sameAs: https://www.gnu.org/licenses/gpl-3.0-standalone.html
+  publisher: Zenodo
+  creator:
+  - name: Ollila O. H. Samuli
+  - name: Ferreira Tiago
+  - name: Topgaard Daniel
+  citation:
+  - 10.1039/c2cp42738a
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.4644028
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

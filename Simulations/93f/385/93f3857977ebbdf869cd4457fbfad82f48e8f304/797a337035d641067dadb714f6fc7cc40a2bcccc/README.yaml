@@ -46,3 +46,21 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 ID: 118
+bioschema_properties:
+  name: 'Md Simulation Trajectory Of A Lipid Bilayer: 70/30 Mol% Popc/Cholesterol . Slipids, Gromacs 4.6.3. 2016.'
+  description: 'MD simulation trajectory files, for fully hydrated POPC + CHOLESTEROL bilayer (70/30 mol%) [358 POPC, 154 CHOL, 21183 WAT]. The SLIPIDS force field was used with Gromacs 4.6.3. Conditions: T=298K. 170 ns each trajectory, last 100 ns analyzed.'
+  datePublished: '2016-09-10'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0
+  publisher: Zenodo
+  creator:
+  - name: Favela-Rosales, Fernando
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.62026
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

@@ -45,3 +45,21 @@ EXPERIMENT:
     - unpublished/ferreiraPOPG/1
   FORMFACTOR: []
 ID: 207
+bioschema_properties:
+  name: 'Md Simulation Trajectory Of A Fully Hydrated Popg Bilayer: Slipids, Gromacs 5.0.4. 2017.'
+  description: 'MD simulation trajectory files, for fully hydrated POPG bilayer [288 POPG, 10664 WAT and 288 NA ions]. The SLIPIDS force field was used with Gromacs 5.0.4. Conditions: T=298K. 250 ns trajectory, last 100 ns uploaded for analysis.'
+  datePublished: '2017-04-13'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Favela-Rosales, Fernando
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.546133
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

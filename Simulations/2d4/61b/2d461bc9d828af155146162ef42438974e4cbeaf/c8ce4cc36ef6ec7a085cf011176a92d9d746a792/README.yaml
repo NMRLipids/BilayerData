@@ -38,3 +38,22 @@ TRJ:
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 430
 AUTHORS_CONTACT: Javanainen, Matti
+bioschema_properties:
+  name: Simulation of a POPE bilayer at 310K with the CHARMM36 force field
+  description: 'A bilayer of 144 POPE lipids (72 per leaflet) simulated in water (40 molecules per lipid) for 500 ns using the CHARMM36 force field [1] using GROMACS v. 2018.6 [2]. Topologies are obtained from CHARMM-GUI [3]. [1] DOI: 10.1021/jp101759q [2] DOI: 10.1016/j.softx.2015.06.001 [3] DOI: 10.1021/acs.jctc.5b00935'
+  datePublished: '2019-04-16'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+    identifier: https://orcid.org/0000-0003-4858-364X
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.2641987
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

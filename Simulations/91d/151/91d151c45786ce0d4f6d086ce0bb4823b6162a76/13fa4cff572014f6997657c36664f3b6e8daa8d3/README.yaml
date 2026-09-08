@@ -50,3 +50,21 @@ EXPERIMENT:
     POPC: []
     POPS: []
   FORMFACTOR: []
+bioschema_properties:
+  name: Unpublished simulation data related to ProsECCo lipids development
+  description: Some unpublished lipid bilayer simulation data related to ProsECCo force field development. File names should be self-explanatory.
+  datePublished: '2026-08-20'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Olllila, Samuli
+  - name: Nencini, Ricky
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.22030946
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

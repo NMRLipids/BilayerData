@@ -63,3 +63,26 @@ EXPERIMENT:
     POPC: []
     CHOL: []
   FORMFACTOR: []
+bioschema_properties:
+  name: All-atom MD simulations of POPC/SSM/CHOL mixture
+  description: 'All-atom MD simulation of lipid bilayer in water, with composition POPC/SSM/CHOL, at 321.15 K, NPT conditions. Force field: CHARMM36. Water model: TIP3P. Number of molecules: 100 POPC + 100 SSM + 100 CHOL + 9000 SOL + 18 Na+ + 18 Cl-. SSM is (d18:1/18:0) sphingomyelin. Duration of the simulation: 300 ns.'
+  datePublished: '2023-09-12'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Stroh, Kai
+    identifier: https://orcid.org/0000-0001-5239-7124
+  - name: Risselada, Jelger
+    identifier: https://orcid.org/0000-0003-1410-6570
+  - name: Monticelli, Luca
+    identifier: https://orcid.org/0000-0002-6352-4595
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8337239
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

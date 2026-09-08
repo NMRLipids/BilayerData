@@ -45,3 +45,23 @@ EXPERIMENT:
     DLPC: []
   FORMFACTOR: []
 ID: 277
+bioschema_properties:
+  name: Md Trajectory For Dlpc Bilayer (Berger, Gromacs 4.5.4), Nw=28 W/L
+  description: Equilibrated DLPC lipid bilayer ran with Gromacs 4.5.4 with Berger force field, 80ns, T=300K, 72 DLPC molecules, hydration level nw=28 water/lipid.
+  datePublished: '2015-03-24'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0
+  publisher: Zenodo
+  creator:
+  - name: Kanduc, Matej
+  citation:
+  - 10.1021/acs.jpcb.5b04878
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.16287
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

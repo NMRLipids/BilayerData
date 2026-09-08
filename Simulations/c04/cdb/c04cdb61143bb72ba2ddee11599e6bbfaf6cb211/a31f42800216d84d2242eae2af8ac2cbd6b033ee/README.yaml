@@ -36,3 +36,20 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/1
 ID: 829
+bioschema_properties:
+  name: POPC aux replicate 1
+  description: 'POPC simulation parameterized with Sage2.2.1.aux.offxml Lipids: POPCLipid count: 128 (64 per leaflet)Solvent: TIP3PSolvent count: 5120 (40 w/l)Ions: noIon Count: n/aTemperature: 300KLength of equilibration: 100ns (40 NVT - 60 NPT)Length of production: 500ns HMR w/ 4fs timestep 0.9 rvdw/rcouloumb cutoff 0.8 rvdw-switch SMILES string: [C@](COP(=O)([O-])OCC[N+](C)(C)C)([H])(OC(CCCCCCC/C=C\CCCCCCCC)=O)COC(CCCCCCCCCCCCCCC)=O'
+  datePublished: '2025-01-21'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Julianne Hoeflich
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.14713793
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

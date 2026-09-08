@@ -53,3 +53,20 @@ EXPERIMENT:
     POPE: []
   FORMFACTOR: []
 ID: 878
+bioschema_properties:
+  name: MD simulation of POPI-POPE (20:80) bilayer with CHARMM36 force field
+  description: 'Dataset contains simulation files MD simulation of of POPI-POPE (20:80) bilayer with CHARMM36 force field with neutralizing NH4+ ions System: POPI-POPE (20:80) bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 10000 Salt: Neutralizing NH4+ Number of cations: 40 Simulation time: 500 ns Sampling rate: every 10 ps Simulation engine: GROMACS 2022.4 Force field: CHARMM36 (parameters as charmm-gui input files 2.11.2023) Temperature: 310 K Equilibration: 50 ns (equilibration period in the uploaded trajectory, evaluated based on area per lipid) Pre-equilibration: 2.8 ns'
+  datePublished: '2023-12-18'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kurki, Milla
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.10280829
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

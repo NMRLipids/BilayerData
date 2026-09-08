@@ -43,3 +43,20 @@ EXPERIMENT:
     POPC:
     - 10.1021/acs.jpcb.4c04719/1
   FORMFACTOR: []
+bioschema_properties:
+  name: MD simulation of POPC bilayer with OPLS3e force field. 5 w/l.
+  description: 'MD simulation of POPC bilayer with OPLS3e force field. 5 w/l. Dataset contains trajectories (_trj), topologies (-out.cms), input files (.cfg, .msj, .cms) and other files For the ease of the upload, trajectory files (_trj) are divided to 100ns pieces and tarred (named desmond_md_popchydr5_x-xns.tar.gz) Dataset also contains Gromacs converted files (.xtc, .gro and .top) System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 1000 Simulation time: 1000 ns Simulation engine: Desmond 2019-4 Temperature: 300 K In contrast to previous version, this version contains gromacs format trajectory file .xtc with corrected time steps.'
+  datePublished: '2022'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Milla Lindström
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.10184229
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

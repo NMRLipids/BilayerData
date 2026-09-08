@@ -54,3 +54,21 @@ TRJLENGTH: 200010.0
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 382
 AUTHORS_CONTACT: Ollila, O. H. Samuli
+bioschema_properties:
+  name: Charmm36 Simulations Of Popc Mixed With Cationic Surfactant
+  description: CHARMM36 simulations of POPC mixed with cationic surfactants. The simulations are ran for NMRlipids IV project at 313 K using Gromacs 5. run10* for 10 mol% of surfactant run20* for 20 mol% of surfactant run30* for 30 mol% of surfactant run50* for 50 mol% of surfactant itp files called in top files from the folder ../47molF/CHARMMfiles/ are here in the root
+  datePublished: '2018-06-13'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Ollila, O. H. Samuli
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1288297
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

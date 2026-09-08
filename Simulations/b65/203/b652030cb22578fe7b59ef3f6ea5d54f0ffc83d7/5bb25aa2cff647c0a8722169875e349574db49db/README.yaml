@@ -43,3 +43,20 @@ EXPERIMENT:
     DMPC: []
   FORMFACTOR: []
 ID: 807
+bioschema_properties:
+  name: MD simulation of DMPC bilayer with CHARMM36 force field. 20 w/l
+  description: 'MD simulation of DMPC bilayer with CHARMM36 force field. 20 w/l. Dataset contains simulation files including trajectories (.xtc) (original production.xtc, and equilibrated and centered centered_pbcmol-20-500ns.xtc). System: DMPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 4000 Simulation time: 500 ns Simulation engine: GROMACS 2019.5 Temperature: 314 K'
+  datePublished: '2024-04-10'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kurki, Milla
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.10952391
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

@@ -41,3 +41,24 @@ EXPERIMENT:
     - 10.1021/acs.jacs.ja962951b/1
   FORMFACTOR:
   - 10.1016/j.bbamem.2011.07.022/18
+bioschema_properties:
+  name: MD simulation trajectory and related files for DMPC lipid bilayer in full hydration at 303 K with Charmm6
+  description: A MD simulation of 1,2-dimyristoyl-sn-glycero-3-phosphocholine (DMPC) conducted as part of a bachelor's project. Simulation ran with Gromacs 2026.1, CHARMM36 force field (as obtained from CHARMM-GUI on 17.04.2026) in full hydration. T= 303.15K, 40 DMPC (20 per leaflet) molecules, 1360 TIP3 (Charmm) molecules. The uploaded 100 ns trajectory was saved every 10 ps. We recommend discarding the first 10 ns to guarantee equilibration, see the attached plot time_ApL.png. production.tpr used Gromacs 2026.1, while prod243.tpr used Gromacs 2024.3
+  datePublished: '2026-06-03'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Sandtorv-Lerøen, Anna Kristine
+  - name: Miettinen, Markus S.
+    identifier: https://orcid.org/0000-0002-3999-4722
+  citation:
+  - 10.1021/ja962951b
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.20283378
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

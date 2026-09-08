@@ -55,3 +55,22 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 ID: 444
+bioschema_properties:
+  name: Popc_Ulmschneider_Opls_Nacl_015Mol
+  description: 'MD simulation trajectory and related files for fully hydrated POPC bilayer with 0.15M NaCl. The Ulmschneider force field for POPC was used with Gromacs 5.0.3 [1,2]. Ions were described by OPLS-AA force field (Gromacs 5.0.3). Conditions: T=298.15, 128 POPC molecules, 5120 tip3p waters, 12 Na, 12 Cl. 200ns trajectory (preceded by 5ns NPT equillibration). This data is ran for the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi [1] J.P. Ulmschneider & M.B. Ulmschneider, United Atom Lipid Parameters for Combination with the Optimized Potentials for Liquid Simulations All-Atom Force Field, JCTC 2009, 5(7), 1803–1813 [2] http://lipidbook.bioch.ox.ac.uk/package/show/id/52.html'
+  datePublished: '2015-09-11'
+  license:
+    spdx: GPL-3.0-only
+    name: GNU General Public License v3.0 only
+    url: https://spdx.org/licenses/GPL-3.0-only.html
+    sameAs: http://www.opensource.org/licenses/GPL-3.0
+  publisher: Zenodo
+  creator:
+  - name: Girych Mykhailo
+  - name: Ollila O. H. Samuli
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.30892
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

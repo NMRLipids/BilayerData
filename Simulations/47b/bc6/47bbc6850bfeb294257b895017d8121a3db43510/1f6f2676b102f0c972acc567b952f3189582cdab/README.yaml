@@ -51,3 +51,22 @@ EXPERIMENT:
     CHOL: []
   FORMFACTOR: []
 ID: 59
+bioschema_properties:
+  name: MD simulation of 50% POPC+50% cholesterol bilayer using Berger force field at T=303K
+  description: Unprotonated trajectory (1.2 microseconds) from a Berger simulation of 256 POPCs and 265 cholesterols hydrated with 20408 waters simulated with Gpu-version of Gromacs2020.1. The force field and inputs were downloaded from 10.5281/zenodo.13285. Prod.tpr was used to run the simulation. Simulation used Nose-Hoover thermostat and Parrinello-Rahman barostat.
+  datePublished: '2021-02-12'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Antila, Hanne
+    identifier: https://orcid.org/0000-0002-2474-5053
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.4537794
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

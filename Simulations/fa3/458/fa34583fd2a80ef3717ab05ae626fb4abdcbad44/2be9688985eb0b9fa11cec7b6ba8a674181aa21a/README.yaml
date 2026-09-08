@@ -54,3 +54,21 @@ TRJ:
 - - 100-400ns.xtc
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 368
+bioschema_properties:
+  name: POPC:POPG 4:1 MD simulation with CHARMM36 in 1 M CaCL2 solution with Na+ counterions
+  description: CHARMM36 POPC:POPG 4:1 bilayer simulation in 1 M CaCl2 solution. The initial structure was taken from CHARMM-GUI. Temperature is 298 K. The system contains 350 POPC, 88 POPG, 88 sodium ions, 24927 TIP3 water molecules, 451 Ca2+ ions and 902 Cl- ions. Total length of simulation is 400 ns. First 100 ns were discarded as equilibration time. Saving frequency of 100-300ns.xtc is 20 ps.
+  datePublished: '2020-08-24'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kiirikki, M. Anne; Ollila O. H. Samuli
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3997037
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

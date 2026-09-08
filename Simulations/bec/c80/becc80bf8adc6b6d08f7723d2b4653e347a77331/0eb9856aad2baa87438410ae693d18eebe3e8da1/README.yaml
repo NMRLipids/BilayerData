@@ -39,3 +39,20 @@ EXPERIMENT:
     - 10.1039/c2cp42738a/1
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/1
+bioschema_properties:
+  name: bilayer9
+  description: Modifications to the LJ parameters of phospahte bound Oxygen based on Amber optimization paper. Topology modification to original force field
+  datePublished: '2025-03-13'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: JH
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.15021844
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

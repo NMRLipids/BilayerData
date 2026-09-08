@@ -44,3 +44,22 @@ EXPERIMENT:
     - 10.1039/B508190D/3
     - unpublished/nesterenkoDMPCbOG/1
   FORMFACTOR: []
+bioschema_properties:
+  name: All-atomic simulation of DMPC bilayer with PME and with RFZ
+  description: We have performed simulations of DMPC to check if the reaction-field-zero mode of calculating electrostatics is a good substitute for PME if we want to avoid PME for some reasons (e.g. for stress calculations). We started this simulation from the configuration deposited by Matti Javanainen (10.5281/zenodo.6943413). We performed two simulations of about 500 ns with the same protocol but at 313 K. Protocol for reaction-field-zero is supplemented as well. POPE simulated with the same RFZ protocol is deposited in a separate dataset (10.5281/zenodo.8435138).
+  datePublished: '2023-10-11'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Alexey, Nesterenko
+    identifier: https://orcid.org/0000-0003-1592-257X
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8431710
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

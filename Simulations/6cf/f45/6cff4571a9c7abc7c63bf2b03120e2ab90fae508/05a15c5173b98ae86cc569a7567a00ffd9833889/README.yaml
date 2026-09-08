@@ -88,3 +88,22 @@ EXPERIMENT:
     SM16: []
     GM1: []
   FORMFACTOR: []
+bioschema_properties:
+  name: MD simulation trajectory for Heterogenous lipid bilayer with 150mM CaCl2 concentration
+  description: Equilibrated symmetric heterogenous lipid bilayer simulation ran with Gromacs 2020.4, Force field= Charmm36m, 300ns, T=300K, composed of 152 POPC, 96 POPE, 20 POPS, 80 CHOL, 36 PSM, and 16 GM1 molecules, 73 Ca2+, 110 Cl2- , 18915 water (TIP3P) molecules.
+  datePublished: '2023-09-10'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Lalitha, Anusha
+    identifier: https://orcid.org/0000-0002-2817-661X
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8331805
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

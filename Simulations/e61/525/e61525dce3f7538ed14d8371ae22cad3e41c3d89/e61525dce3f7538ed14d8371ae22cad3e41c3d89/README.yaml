@@ -49,3 +49,22 @@ EXPERIMENT:
   ORDERPARAMETER:
     POPC: []
   FORMFACTOR: []
+bioschema_properties:
+  name: Pure POPC membrane simulations with 1000 mM NaCl with the CHARMM-Drude2023 force field (OpenMM)
+  description: '220.14 ns MD simulation of pure POPC membrane using Charmm-Drude2023 polarizable force field ( Drude Polarizable Lipid Force Field with Explicit Treatment of LongRange Dispersion: Parametrization and Validation for Saturated and Monounsaturated Zwitterionic Lipids ) .The system contains 128 POPC lipids, 115 NaCl, and 6400 SWM4 water molecules. Before running the Drude simulation, the system has been equilibriated using Charmm36 force field for 200 ns. The last frame of that simulation was used to generate Drude polarizable model. Frame saving frequency is 10ps. There are 22014 frames in this trajectory.'
+  datePublished: '2023-06-02'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kav, Batuhan
+    identifier: https://orcid.org/0000-0003-4990-373X
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8000133
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

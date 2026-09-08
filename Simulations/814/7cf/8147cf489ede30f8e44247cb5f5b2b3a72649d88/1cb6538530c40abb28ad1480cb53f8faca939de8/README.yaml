@@ -50,3 +50,22 @@ EXPERIMENT:
 WARNINGS:
   PBC: z-jumps
 ID: 85
+bioschema_properties:
+  name: 'MD simulations of bilayers containing POPC and Cholesterol: 64POPC_64CHL_31Nwat_neutral (lipid14)'
+  description: NMRLipids III CholXray project (nmrlipids.blogspot.fi) Gromacs 5.0.4, lipid14 FF (Madej et al. JPCB 2015, 119, 12424), 1 atm, 303K, 200ns 128 lipids (64 POPC, 64 CHL), N_wat/lipid = 31, 25216 Atoms
+  datePublished: '2020-06-01'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Madsen, Jesper J
+    identifier: https://orcid.org/0000-0003-1411-9080
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3871006
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

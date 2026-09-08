@@ -42,3 +42,22 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /usr/home/bort/Databank
 ID: 613
+bioschema_properties:
+  name: Set Simulations Small Pure Bilayers (72 Lipids) Using Charmm36 Ff In Gromacs (Dppc, Popc)
+  description: 'Collection simulations of DPPC and POPC bilayers in gromacs using the charmm36 force field. The list of systems describing their particular simulation conditions can be found below: 1) DPPC_72_325K (500ns) 2) DPPC_72_310K_rmcomm_leaflets (500ns) 3) DPPC_72_310K_rmcomm_leaflets_low_hydration (500ns) 4) POPC_72_310K (500ns) 5) POPC_72_310K_rmcomm_leaflets (500ns) 6) POPC_72_310K_rmcomm_leaflets_low_hydration (550ns) 7) POPC_72_303K_rmcomm_leaflets_low_hydration (550ns) For further information read the Readme file provided for each simulation.'
+  datePublished: '2017-10-12'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Martinez-Seara, Hector
+    identifier: https://orcid.org/0000-0001-9716-1713
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1009607
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

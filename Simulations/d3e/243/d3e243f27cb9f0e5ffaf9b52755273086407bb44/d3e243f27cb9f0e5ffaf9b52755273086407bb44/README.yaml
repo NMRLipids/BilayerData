@@ -53,3 +53,23 @@ NUMBER_OF_ATOMS: 181519
 DATEOFRUNNING: 29/08/2026
 TYPEOFSYSTEM: lipid bilayer
 ID: 922
+bioschema_properties:
+  name: All-atom POPC-SSM (1:1) and POPC-SSM-CHOL (1:1:1) trajectories
+  description: All-atom MD simulation trajectories of a POPC and SSM (sphingomyelin) bilayer with and without Cholesterol; molar ratio POPC:SSM (1:1) and POPC:SSM:CHL (1:1:1). Simulations were performed with NAMD using the CHARMM36 force field.
+  datePublished: '2026-08-14'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Merzel, Franci
+    identifier: https://orcid.org/0000-0002-2748-4901
+  citation:
+  - 10.1038/s41467-025-58334-z
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.21937938
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

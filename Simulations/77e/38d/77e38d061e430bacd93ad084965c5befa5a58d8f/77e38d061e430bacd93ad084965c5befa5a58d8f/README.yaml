@@ -46,3 +46,22 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 ID: 744
+bioschema_properties:
+  name: Pure POPC Membrane with 650mM CaCl2 simulations using Drude Polarizable Force Field and OpenMM
+  description: '500 ns MD simulation of pure POPC membrane using Charmm-Drude polarizable force field. The system contains 128 POPC lipids, 76 CaCl2, and 6400 SWM4 water molecules. The simulation have been performed using OpenMM 7.4.1 Before running the Drude simulation, the system has been equilibriated using Charmm36 force field for 200 ns. The last frame of that simulation was used to generate Drude polarizable model. The first 100 ns of the Drude simulation has been discarded from this dataset. wrapped.dcd has a frame saving frequency of 100 ps. The initial structures have been obtained from CHARMM-GUI. It has been discovered that (https://github.com/NMRLipids/Databank/issues/2#issuecomment-1357871243) the wrapped_full.dcd trajectory did not have the correct timestamp: the timestep between two consecutive simulation frames was not correctly embedded into the trajectory information. Therefore, with the latest version we are uploading the "wrapped_full_fixed_dt.xtc" which has the correct timestamp. The frame saving frequency in this trajectory is 10 ps. This new update should not invalidate any previous calculations that did not explicitly read the timestamp information from the trajectory. This simulation consists of 5 sub-trajectories, each of which starts from the last frame of the previous one and runs for 100 ns. These trajectories (originally in dcd format) were concatenated and saved in xtc format with MDAnalysis.'
+  datePublished: '2020-08-21'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kav, Batuhan
+    identifier: https://orcid.org/0000-0003-4990-373X
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.7604040
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

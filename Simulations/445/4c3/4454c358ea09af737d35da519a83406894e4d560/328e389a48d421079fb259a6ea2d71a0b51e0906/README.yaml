@@ -58,3 +58,24 @@ EXPERIMENT:
     CER: []
   FORMFACTOR: []
 ID: 266
+bioschema_properties:
+  name: Simulation CER160_128_POPC_512_NaCl_150mM_310K_rep1 membrane
+  description: 'Title publication: A Ceramide-Regulated Element in the Late Endosomal Protein LAPTM4B Controls Amino Acid Transporter Interaction Year publication: 2018 DOI publication: 10.1021/acscentsci.7b00582 Description: Simulation 512 POPCs membrane containing 128 ceramides (CER160) using charmm36 at 310K. MD engine: gromacs 2016.1 Force field : charmm36 Temperature : 310 K Pressure: 1 bar Simulation time : 3000 ns Saving frequency : 100 ps Molecular content : POPC 512 CER160 128 SOL 32000 NA 86 CL 86 Additional information :'
+  datePublished: '2019-06-18'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Martinez-Seara, Hector
+    identifier: https://orcid.org/0000-0001-9716-1713
+  citation:
+  - 10.1021/acscentsci.7b00582
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3248612
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

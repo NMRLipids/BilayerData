@@ -54,3 +54,21 @@ EXPERIMENT:
     POPC: []
     SM16: []
   FORMFACTOR: []
+bioschema_properties:
+  name: 'MD simulation trajectory of Ternary mixture of POPC/PSM/Ergo (2:2:1) at 295 K: Slipids, GROMACS 2019.6'
+  description: 'MD simulation trajectory files for Ternary mixture of POPC/PSM/Ergo [408 POPC, 408 SM16, 208 Ergo and 35840 SOL]. The Slipids (2013 version) force field was used with Gromacs 2019.6. Ergosterol parameters from https://doi.org/10.1002/bit.25845 . Conditions: T=295K. Data saved every 20 ps. 100 ns trajectory. PREEQTIME: 100 nsTIMELEFTOUT: 6.4 μs'
+  datePublished: '2025-11-26'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Favela-Rosales, Fernando
+    identifier: https://orcid.org/0000-0002-0687-6594
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.17730115
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

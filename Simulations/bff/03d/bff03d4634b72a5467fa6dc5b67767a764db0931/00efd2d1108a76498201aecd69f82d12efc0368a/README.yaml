@@ -43,3 +43,22 @@ EXPERIMENT:
   - 10.1103.008/PhysRevE.80.021931/1
   - 10.1103.008/PhysRevE.80.021931/2
 ID: 820
+bioschema_properties:
+  name: SOPC bilayer, CHARMM36
+  description: Simulation of SOPC bilayer with 32 lipids per leavlet for 500ns after minimization and 200ns equilibration. The CHARRM36 forcefield was used.
+  datePublished: '2024-07-09'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Nesterenko, Alexey
+    identifier: https://orcid.org/0000-0003-1592-257X
+  - name: Hörstel, Ferdinand
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.12698832
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

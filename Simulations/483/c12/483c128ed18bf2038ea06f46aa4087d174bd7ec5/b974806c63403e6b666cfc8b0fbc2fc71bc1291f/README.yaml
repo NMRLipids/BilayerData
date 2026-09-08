@@ -43,3 +43,21 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1016/j.bbamem.2011.07.022/4
 ID: 463
+bioschema_properties:
+  name: Dppc_Slipids
+  description: 'MD simulation trajectory and related files for fully hydrated DPPC bilayer. Slipids force field (doi:10.1021/jp212503e) was used with Gromacs 4.6.6. Conditions: T=323K, 128 lipids, 3840 tip3p waters.'
+  datePublished: '2014-12-17'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0
+  publisher: Zenodo
+  creator:
+  - name: Määttä, Jukka
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.13287
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

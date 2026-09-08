@@ -55,3 +55,21 @@ TRJ:
 - - 100-400ns.xtc
 TEMPERATURE: 298.0
 ID: 417
+bioschema_properties:
+  name: Lipid17ecc POPC:POPG 4:1 bilayer simulation in 0.1 M CaCl2 solution and Na+ counter ions
+  description: Lipid17ecc POPC:POPG 4:1 bilayer simulation in 0.1 M CaCl2 solution. The initial structure was taken from https://zenodo.org/record/3833725#.X0OayxmEZGG . Temperature is 298 K. The system contains 350 POPC, 88 POPG, 88 Na+ ions, 26124 SPCE water molecules, 47 Ca2+ ions and 94 Cl- ions Total length of simulation is 400 ns. First 100 ns were discarded as equilibration time. Saving frequency of 100-300ns.xtc is 20 ps.
+  datePublished: '2020-08-24'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kiirikki, M. Anne; Ollila O. H. Samuli
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3997176
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

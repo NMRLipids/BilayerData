@@ -39,3 +39,22 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1016/j.bbamem.2011.07.022/4
 ID: 911
+bioschema_properties:
+  name: MD simulation trajectory and related files for DPPC lipid bilayer in full hydration at 322 K
+  description: A MD simulation of 1,2-dipalmitoyl-sn-glycero-3-phosphocholine (DPPC) conducted as part of a bachelor's project. Simulation ran with Gromacs 2026.1, CHARMM36 force field (as obtained from CHARMM-GUI on 17.04.2026) in full hydration. T= 322 K, 40 DPPC (20 per leaflet) molecules, 1645 TIP3P (Charmm) waters. The uploaded 100 ns trajectory was saved every 10 ps. We recommend discarding the first 20 ns to guarantee equilibration, see the attached plot time_ApL.png.
+  datePublished: '2026-06-04'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Floen, Stine
+  - name: Miettinen, Markus S.
+    identifier: https://orcid.org/0000-0002-3999-4722
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.20524112
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

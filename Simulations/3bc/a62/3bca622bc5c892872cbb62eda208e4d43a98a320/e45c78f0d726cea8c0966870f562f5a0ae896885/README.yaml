@@ -44,3 +44,22 @@ EXPERIMENT:
     DOPC: []
   FORMFACTOR: []
 ID: 330
+bioschema_properties:
+  name: Berger Pure Dopc Md Simulation (300 K - 300Ns - 1 Bar)
+  description: Berger DOPC pure bilayer simulation (300 K, with 256 DOPC lipids fully hydrated with 43 water molecules per lipid). The trajectory contains the whole simulation from 0 to 300 ns skipped every 100 ps and centered on the P atoms. No ions were added as there is no global net charge in the system. This bilayer was used to calculate the order parameter and the area per lipid for the NMRlipids IV project (on the time window 100-300 ns).
+  datePublished: '2018-08-23'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Bacle Amélie
+  - name: Fuchs Patrick, F.J.
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1402411
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

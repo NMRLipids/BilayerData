@@ -60,3 +60,25 @@ EXPERIMENT:
     DMTAP: []
   FORMFACTOR: []
 ID: 581
+bioschema_properties:
+  name: 'Molecular dynamics simulation trajectory of a cationic lipid bilayer: 50/50 mol% DMTAP/DMPC'
+  description: 'System: Symmetric bilayer of cationic DMTAP (dimyristoyltrimethylammoniumpropane, 50 mol-%) and zwitterionic DMPC (dimyristoylphosphatidylcholine, 50 mol-%) lipids in water. Number of DMPC: 64. Number of DMTAP: 64. Number of Cl--ions: 64. Number of waters: 5336. Lipid model: ''Berger'' united-atom [ Biophys. J. 72 2002 (1997)] with DMTAP modification by Gurtovenko et al. [ Biophys. J. 86 3461 (2004)]. Water model: SPC [In Intermolecular Forces, ed. Pullman. 331 (1981)]. Simulation engine: Gromacs 3.x [www.gromacs.org] Trajectory length: 149 ns. Previously equilibrated for: 41 ns. Sampling rate: every 10 ps. Time integration step: 2 fs. Thermodynamic ensemble: NpT. Temperature coupling: ''Berendsen'' [ J. Chem. Phys. 81 3684 (1984)] with lipids and water coupled separately at T = 323 K. Pressure coupling: '' Berendsen'' [ J. Chem. Phys. 81 3684 (1984)] with xy and z coupled separately at p = 1.0 bar. Electrostatics: PME [ J. Chem. Phys. 98 10089 (1993); J. Chem. Phys. 103 8577 (1995)], real-space cutoff at 1.0 nm. Van der Waals: Truncated at 1.0 nm. Constraints: Covalent bond lengths in lipids using LINCS [ J. Comput. Chem. 18 1463 (1997)], in water using SETTLE [J. Comput. Chem. 13 952 (1992)]. Used in publications: [1] Markus S. Miettinen, Andrey A. Gurtovenko, Ilpo Vattulainen, and Mikko Karttunen: "Ion Dynamics in Cationic Lipid Bilayer Systems in Saline Solutions". J. Phys. Chem. B 113 9226 (2009). DOI: 10.1021/jp810233q. [2] Markus S. Miettinen: "Computational Modeling of Cationic Lipid Bilayers in Saline Solutions". PhD Thesis. Aalto University School of Science and Technology, Helsinki, Finland. (2010). ISBN 978-952-60-3194-1.'
+  datePublished: '2016-05-20'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Miettinen, Markus S.
+    identifier: https://orcid.org/0000-0002-3999-4722
+  citation:
+  - 10.1021/jp810233q
+  - ISBN 978-952-60-3194-1
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.51748
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

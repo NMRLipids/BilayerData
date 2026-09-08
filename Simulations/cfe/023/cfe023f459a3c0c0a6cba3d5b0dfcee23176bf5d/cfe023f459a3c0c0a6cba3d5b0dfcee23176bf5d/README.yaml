@@ -59,3 +59,22 @@ EXPERIMENT:
     DPPGK: []
     TOCL: []
   FORMFACTOR: []
+bioschema_properties:
+  name: MD simulation of a model Gram-positive bilayer membrane (60% PG, 35% lysyl-PG, 5% CL)
+  description: 'Composition : Model bilayer composition aimed at replicating the behavior of the Staphylococcus aureus membrane (See also Mohanan et al. Chem Sci 2020, 11, 4669: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8159255/ ) Per leaflet we have 48 POPG (16:0 / 18:1; -1 net charge), 28 DPPGK (16:0 / 16:0; +1 net charge), 4 TOCL1 (18:1,18:1 / 18:1,18:1; -1 net charge), giving 60% PG, 35% lysyl-PG, 5% CL. Bilayer is symmetric. Technical details : OpenMM 7.5.1 CHARMM36m force field 6,712 TIP3P waters 150 mM KCl (64 K+, 16 Cl-) Temperature = 303.15 K Trajectory output every 100 ps Trajectory length = 500 ns ( = 5,000 frames) (Standard CHARMM-GUI relaxation protocol)'
+  datePublished: '2023-10-06'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Madsen, Jesper J.
+    identifier: https://orcid.org/0000-0003-1411-9080
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8415046
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

@@ -42,3 +42,22 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1016/j.bbamem.2011.07.022/2
 ID: 154
+bioschema_properties:
+  name: Md Simulation Trajectory And Related Files For Popc Bilayer (Lipid14, Gromacs 4.5)
+  description: Equilibrated POPC lipid bilayer simulation ran with Gromacs 4.5, Lipid14 force field (http://dx.doi.org/10.1021/ct4010307), 50ns, T=303K, 72 POPC molecules, 2234 water molecules. This data is ran for the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi. If data is used, please cite nmrlipids.blogspot.fi project.
+  datePublished: '2014-11-19'
+  license:
+    spdx: GPL-3.0-only
+    name: GNU General Public License v3.0 only
+    url: https://spdx.org/licenses/GPL-3.0-only.html
+    sameAs: http://www.opensource.org/licenses/GPL-3.0
+  publisher: Zenodo
+  creator:
+  - name: Ollila O. H. Samuli
+  - name: Retegan, Marius
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.12767
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

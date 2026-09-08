@@ -44,3 +44,25 @@ TOP:
 - - topol.top
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 497
+bioschema_properties:
+  name: MD simulation trajectory and related files for POPC bilayer (Berger model delivered by Tieleman, Gromacs 4.5)
+  description: Equilibrated POPC lipid bilayer simulation ran with Gromacs 4.5, Berger force field delivered by Peter Tieleman (http://wcm.ucalgary.ca/tieleman/downloads), this trajectory contains the last 50 ns of a 270 ns simulation, T=298K, 128 POPC molecules, 7290 water molecules. This data is used in http://dx.doi.org/10.1039/C2CP42738A and in the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi. If data is used, please cite [Ferreira et al. Phys. Chem. Chem. Phys. , 2013,15, 1976-1989], the nmrlipids.blogspot.fi project and the original publication related to the force field.
+  datePublished: '2014-12-17'
+  license:
+    spdx: GPL-3.0-only
+    name: GNU General Public License v3.0 only
+    url: https://spdx.org/licenses/GPL-3.0-only.html
+    sameAs: https://www.gnu.org/licenses/gpl-3.0-standalone.html
+  publisher: Zenodo
+  creator:
+  - name: Ollila O. H. Samuli
+  - name: Ferreira Tiago
+  - name: Topgaard Daniel
+  citation:
+  - Ferreira et al. Phys. Chem. Chem. Phys., 2013,15, 1976-1989
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.4643875
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

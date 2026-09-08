@@ -43,3 +43,21 @@ LOG:
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 320
+bioschema_properties:
+  name: POPC membrane, 310K, CHARMM36, tip4p2005 water, gromacs 5
+  description: POPC membrane simulated with CHARMM36 in tip4p2005 water
+  datePublished: '2019-09-17'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Nencini, Ricky
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3431948
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

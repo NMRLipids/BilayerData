@@ -54,3 +54,23 @@ EXPERIMENT:
     DMPC: []
     BOG: []
   FORMFACTOR: []
+bioschema_properties:
+  name: MD simulations of bOG:DMPC in CHARMM36 force field
+  description: 'CHARMM-GUI based series of simulations of beta-octyl-D-glucopyranoside (b-OG) mixed with DMPC at different dilutions. bOG:DMPC mol ratios are 1:1, 1:2, and 2:3. The only change in the force field was changing atom names from 2H2 to H2 in BOG residue to allow **gmx grompp** to recognize protons as protons when setting up constraints for bonds with hydrogens. Simulations are performed in highly hydrated state. I can name it "more than 50 water per two acyl chains"; "water per lipid" measure doesn''t work here because bOG has just a single hydrocarbon tail. Trajectory length: 500 ns (20 ps step). T = 303 K. In this version we add *znd files where atom names are unique (changed in a new version of BOG.itp).'
+  datePublished: '2024-10-02'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Nesterenko, Alexey
+    identifier: https://orcid.org/0000-0003-1592-257X
+  - name: Markus, Miettinen
+    identifier: https://orcid.org/0000-0002-3999-4722
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.13881447
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

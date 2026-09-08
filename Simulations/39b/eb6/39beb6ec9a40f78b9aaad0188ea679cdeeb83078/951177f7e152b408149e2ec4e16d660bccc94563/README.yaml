@@ -41,3 +41,22 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /usr/home/bort/Databank
 ID: 376
+bioschema_properties:
+  name: Slipids simulation of pure POPC bilayer at T=303K
+  description: Simulation of pure bilayer (122 lipids per leaflet) in full hydration (40 water/lipid) at T=303K in NPT ensemble. Simulations where done on GPU Gromacs 2020.1. The initial configurations were obtained from CHARMM36 simulations and then equilibrated with Slipids force field. The force field was downloaded from the Slipids website (http://www.fos.su.se/~sasha/SLipids/). The .itps used are the same as in entry 10.5281/zenodo.4349753. Note that this is the pre-2020 version of the force field. Simulation uses Parrinello-Rahman barostat and Nose-Hoover thermostat.
+  datePublished: '2020-12-18'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Antila, Hanne
+    identifier: https://orcid.org/0000-0002-2474-5053
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.4352287
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

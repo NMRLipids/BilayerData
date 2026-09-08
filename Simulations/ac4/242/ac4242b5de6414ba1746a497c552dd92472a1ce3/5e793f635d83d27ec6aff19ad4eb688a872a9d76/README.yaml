@@ -47,3 +47,23 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/1
 ID: 422
+bioschema_properties:
+  name: MD simulation trajectory and related files for POPC bilayer (Chiu et al. Gromos version, Gromacs 4.5)
+  description: Equilibrated POPC lipid bilayer simulation ran with Gromacs 4.5, Chiu et al. force field (http://dx.doi.org/10.1021/jp807056c), 50ns, T=298K, 128 POPC molecules, 3552 water molecules. This data is ran for the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi. If data is used, please cite nmrlipids.blogspot.fi project and the original publication of the parameters (http://dx.doi.org/10.1021/jp807056c).
+  datePublished: '2015-02-20'
+  license:
+    spdx: GPL-3.0-only
+    name: GNU General Public License v3.0 only
+    url: https://spdx.org/licenses/GPL-3.0-only.html
+    sameAs: https://www.gnu.org/licenses/gpl-3.0-standalone.html
+  publisher: Zenodo
+  creator:
+  - name: Ollila Samuli
+  citation:
+  - 10.1021/jp807056c
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.6656031
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

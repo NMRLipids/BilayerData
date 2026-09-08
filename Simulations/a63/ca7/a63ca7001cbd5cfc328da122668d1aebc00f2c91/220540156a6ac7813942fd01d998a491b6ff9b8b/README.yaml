@@ -45,3 +45,22 @@ TRJLENGTH: 300100.0
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 558
 AUTHORS_CONTACT: Papadopoulos, Chris; Fuchs, Patrick F.J.
+bioschema_properties:
+  name: Charmm36 Pure Popc Md Simulation (300 K - 300Ns - 1 Bar)
+  description: CHARMM36 POPC pure bilayer simulation (300 K, starting structure from CHARMM-GUI with 256 POPC lipids fully hydrated with 34 water molecules per lipid). The trajectory contains the whole simulation from 0 to 300 ns skipped every 100 ps and centered on the P atoms. No ions were added as there is no charge in the system. This bilayer was used to calculate the order parameter and the area per lipid for the NMRlipids project (on the time window 50-300 ns).
+  datePublished: '2018-07-06'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Papadopoulos, Chris
+  - name: Fuchs, Patrick F.J.
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1306800
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

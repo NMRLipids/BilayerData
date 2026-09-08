@@ -42,3 +42,25 @@ EXPERIMENT:
     DOPC: []
   FORMFACTOR: []
 ID: 711
+bioschema_properties:
+  name: Simulations of POPC, SOPC, DOPC, and OMPC bilayers at three different sizes
+  description: 'Simulations of lipid bilayers with the CHARMM36 force field and TIP3P water. Three system sizes are used: small ("s", 64 lipids), medium ("m", 256 lipids), and large ("l", 1024 lipids). All simulations are 1 µs long. The simulations are performed using GROMACS, and for each system the following are provided: index file (ndx) topology file (top) run input file (tpr) energy file (edr) trajectory file (xtc) checkpoint file (cpt) final structure (gro) The simulation parameter file (mdp) is common for all simulations. The molecular topologies (top) are included in TOP.tar. The CHARMM36 force field is obtained from http://mackerell.umaryland.edu/charmm_ff.shtml'
+  datePublished: '2022-09-22'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+    identifier: https://orcid.org/0000-0003-4858-364X
+  - name: Fabian, Balazs
+    identifier: https://orcid.org/0000-0002-6881-716X
+  - name: Tempra, Carmelo
+    identifier: https://orcid.org/0000-0002-2890-6993
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.7103807
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

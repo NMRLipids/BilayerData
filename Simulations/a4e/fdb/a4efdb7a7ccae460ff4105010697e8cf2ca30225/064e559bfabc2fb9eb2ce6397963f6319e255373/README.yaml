@@ -62,3 +62,23 @@ EXPERIMENT:
     POPS: []
   FORMFACTOR: []
 ID: 370
+bioschema_properties:
+  name: Md Simulation Trajectory Of A Popc/Pops (4:1) Bilayer With 1M Kcl, Berger Force Field For Lipids, Dang'S For K+ And Ffgmx For Cl-
+  description: 'MD simulation trajectory of a POPC/POPS (4:1) bilayer with 1M KCl (102 POPC, 26 POPS, 4290 WAT, 106 K+, 80 Cl-). Additional K+ cations added to neutralize the negative charge of POPS. Berger force field for lipids, Dang''s for K+ (), ffgmx for Cl- are employed. Gromacs 4.0.7, T=310K, 200 ns trajectories were calculated with the last 50 ns stored here).K+ nonbonding parameters (from Dang''s JPC B 1999, 103, 8195 based on Vacha et al. Biophys. J 2009, 96, 4493.): sig=0.3048655 eps=0.418400 Used in: P. Jurkiewicz, L. Cwiklik, A. Vojtiskova, P. Jungwirth, M. Hof, Structure, Dynamics, and Hydration of POPC/POPS Bilayers Suspended in NaCl, KCl, and CsCl BBA Biomembranes 2012 , 1818, 609-616. DOI: 10.1016/j.bbamem.2011.11.033'
+  datePublished: '2017-08-02'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Cwiklik, Lukasz
+  citation:
+  - 10.1016/j.bbamem.2011.11.033
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.838225
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

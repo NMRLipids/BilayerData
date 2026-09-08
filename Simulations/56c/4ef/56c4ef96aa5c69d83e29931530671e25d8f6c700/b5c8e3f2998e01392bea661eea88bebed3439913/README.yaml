@@ -50,3 +50,22 @@ EXPERIMENT:
     POPC: []
     GB3: []
   FORMFACTOR: []
+bioschema_properties:
+  name: MD Simulation of Gb3 in POPC Membrane (run2)
+  datePublished: '2024-02-08'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Vogel, Alexander
+    identifier: https://orcid.org/0000-0001-8882-6410
+  - name: Werz, Daniel B.
+    identifier: https://orcid.org/0000-0002-3973-2212
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.10635875
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'

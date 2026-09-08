@@ -48,3 +48,21 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 351
+bioschema_properties:
+  name: Simulation data for ECC-CHARMM36 POPC bilayer, 100 lipids/leaflet, 940 mM NaCl, 310K, GROMACS 5.1.4
+  description: Simulations of a POPC bilayer with 940 mM of NaC. The sixth from the set of 6 simulations. The goal was to study the effect of scaling the CHARMM FF on the ion binding. Done for the NMRlipids project, see http://nmrlipids.blogspot.fi for more information. A POPC bilayer consisting of 200 lipids (100 per leaflet) is simulated in the presence of 945 mM NaCl. The scaled ECC-Charmm36 model is employed for lipids, the Charmm compatible variant of the tip3p model for water, and the ECC-ions for NaCl. The new extra nonbonded parameters (NB-Fix) were removed. The Charmm36 force field parameters were obtained from http://charmm-gui.org/ Charges of head group of POPC were scaled by 0.8, sigmas were scaled by 0.89. In the CHARMM FF, thera are extra sigma and epsilon parameters for 1,4 interactions (these are not present in the lipid14 FF). These parameters were not scaled here. This is the same scaling as used for ECC-POPC –––––––––––––––––––––––––––––––––––––––––––––––––––––– The files are in GROMACS format. Trajectory (.xtc) is 610 ns long with data saved every 100 ps. the initial structure (.gro), topology (.top), index file (.ndx), simulation paremeter file (.mdp), binary run input file for GROMACS v. 5.1–> (.tpr) and the energy output file (.edr) are provided.
+  datePublished: '2019-02-11'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Nencini, Ricky
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.2562083
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-07'
