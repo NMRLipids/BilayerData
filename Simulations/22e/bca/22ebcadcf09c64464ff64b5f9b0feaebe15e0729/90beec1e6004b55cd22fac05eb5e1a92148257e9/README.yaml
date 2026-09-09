@@ -58,9 +58,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 172
 bioschema_properties:
-  name: Popc With Varying Amounts Of Cholesterol, 450 Mm Of Cacl_2. Charmm36 With Ecc-Scaled Ions
+  name: Molecular dynamics trajectory of a POPC/CLA/CAL/CHOL (43:31:16:11) bilayer at 310.15 K (CHARMM36 with incorrect multiplicity in dihedrals and ECC ions, GROMACS 5.0, 800 ns) [NMRlipids simulation 172]
   alternateName: 50CHOL_200POPC_9000SOL_73CAL_146CLA_310K
-  description: 'Simulations of a POPC bilayer with varying amounts (0, 10, 20, and 30 mol-%) of cholesterol and 450 mM of CaCl_2 performed at 310 K. The POPC bilayer consists of 200 lipids (100 per leaflet) and on top of that there is 0 (0%), 22 (10%), 50 (20%), or 86 (30%) of cholesterol. The Charmm36 model [1,2] is employed for lipids, the Charmm compatible variant of the tip3p model for water, and the recent ion parameters by Kohagen et al. [3] for CaCl_2. The Charmm36 force field parameters were obtained Charmm-GUI [4], and the ion parameters are available at https://bitbucket.org/hseara/ions/ . IMPORTANT: The simulations are performed with version 1.7 obtained from Charmm-GUI, and this version is known to have an issue with the multiplicity of dihedrals in Gromacs output files, see http://www.charmm-gui.org/?doc=log . –––––––––––––––––––––––––––––––––––––––––––––––––––––– The files are in GROMACS format and named based on the amount of cholesterol present (in %) in the corresponding simulation. Trajectories (.xtc) are 800 ns long with data saved every 100 ps. Additionally, the final structure (.gro), topology (.top), index file (.ndx), energy output file (.edr), and binary run input files (for Gromacs 5.0->) (.tpr) are provided for each system. The common simulation parameter file (.mdp) is also provided. –––––––––––––––––––––––––––––––––––––––––––––––––––––– [1] Update of the CHARMM All-Atom Additive Force Field for Lipids: Validation on Six Lipid Types. Jeffery B. Klauda, Richard M. Venable, J. Alfredo Freites, Joseph W. O’Connor, Douglas J. Tobias, Carlos Mondragon-Ramirez, Igor Vorobyov, Alexander D. MacKerell, Jr., and Richard W. Pastor, The Journal of Physical Chemistry B 2010 114 (23), 7830–7843, DOI: 10.1021/jp101759q [2] Update of the Cholesterol Force Field Parameters in CHARMM. Joseph B. Lim, Brent Rogaski, and Jeffery B. Klauda, The Journal of Physical Chemistry B 2012 116 (1), 203–210, DOI: 10.1021/jp207925m [3] Accurate Description of Calcium Solvation in Concentrated Aqueous Solutions. Miriam Kohagen, Philip E. Mason, and Pavel Jungwirth, The Journal of Physical Chemistry B 2014 118 (28), 7902-7909, DOI: 10.1021/jp5005693 [4] CHARMM-GUI Input Generator for NAMD, GROMACS, AMBER, OpenMM, and CHARMM/OpenMM Simulations Using the CHARMM36 Additive Force Field. Jumin Lee, Xi Cheng, Jason M. Swails, Min Sun Yeom, Peter K. Eastman, Justin A. Lemkul, Shuai Wei, Joshua Buckner, Jong Cheol Jeong, Yifei Qi, Sunhwan Jo, Vijay S. Pande, David A. Case, Charles L. Brooks, III, Alexander D. MacKerell, Jr., Jeffery B. Klauda, and Wonpil Im, Journal of Chemical Theory and Computation 2016 12 (1), 405-413, DOI: 10.1021/acs.jctc.5b00935'
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 43 mol%), 146 CLA (31 mol%), 73 CAL (16 mol%) and 50 CHOL (cholesterol, 11 mol%) at 310.15 K. Simulated with CHARMM36 with incorrect multiplicity in dihedrals and ECC ions in GROMACS 5.0 for 800 ns (57719 atoms). Deposited as NMRlipids Databank simulation 172 and available from https://doi.org/10.5281/zenodo.259376.
   sameAs: https://doi.org/10.5281/zenodo.259376
   datePublished: '2017-01-24'
   license:
@@ -97,12 +97,12 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - CHOL
-  - cholesterol
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  - CAL
   - CLA
+  - CAL
+  - CHOL
+  - cholesterol
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -145,9 +145,16 @@ bioschema_properties:
     - md20.xtc
     - md20.tpr
     - md20.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.259376
+    identifier: 10.5281/zenodo.259376
+    url: https://doi.org/10.5281/zenodo.259376
+    name: Popc With Varying Amounts Of Cholesterol, 450 Mm Of Cacl_2. Charmm36 With Ecc-Scaled Ions
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.259376
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

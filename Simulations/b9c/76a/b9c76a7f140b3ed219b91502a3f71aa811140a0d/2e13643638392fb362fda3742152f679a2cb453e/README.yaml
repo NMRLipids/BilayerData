@@ -45,9 +45,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 128
 bioschema_properties:
-  name: Md Simulation Trajectory And Related Files For Popc Bilayer In Low Hydration (Berger Model Delivered By Tieleman, Gromacs 4.5)
+  name: Molecular dynamics trajectory of a POPC bilayer at 298 K (Berger delivered by Peter Tieleman, GROMACS 4.5, 60 ns) [NMRlipids simulation 128]
   alternateName: 128POPC_896SOL_298K_Berger
-  description: Equilibrated POPC lipid bilayer simulation in low hydration (7 water per lipid molecule) ran with Gromacs 4.5, Berger force field delivered by Peter Tieleman (http://wcm.ucalgary.ca/tieleman/downloads) with fixed double bond dihedrals, 60ns, T=298K, 128 POPC molecules, 896 water molecules. This data is used in the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi. If data is used, please cite the nmrlipids.blogspot.fi project and the original publications related to the force field.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 298 K. Simulated with Berger delivered by Peter Tieleman in GROMACS 4.5 for 60 ns (9344 atoms). Deposited as NMRlipids Databank simulation 128 and available from https://doi.org/10.5281/zenodo.13814.
   sameAs: https://doi.org/10.5281/zenodo.13814
   datePublished: '2015-01-08'
   license:
@@ -130,9 +130,16 @@ bioschema_properties:
     - popc7wPERpc.gro
   isBasedOn:
   - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/2
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.13814
+    identifier: 10.5281/zenodo.13814
+    url: https://doi.org/10.5281/zenodo.13814
+    name: Md Simulation Trajectory And Related Files For Popc Bilayer In Low Hydration (Berger Model Delivered By Tieleman, Gromacs 4.5)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.13814
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

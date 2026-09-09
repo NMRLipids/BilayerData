@@ -38,9 +38,9 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1016/j.chemphyslip.2020.104892/2
 bioschema_properties:
-  name: Polyunsaturated 1-stearoyl-2-docosahexaenoyl-sn-glycero-3-phosphocholine (18:0/22:6) | SDPC lipid bilayer, 303K, CHARMM36m-WYF forcefield, NAMD 3.0.2, 2* 500 ns
+  name: Molecular dynamics trajectory of a SDPC bilayer at 303.15 K (CHARMM36m, NAMD 3, 500 ns) [NMRlipids simulation 894]
   alternateName: SDPC
-  description: '1-stearoyl-2-docosahexaenoyl-sn-glycero-3-phosphocholine (SDPC) (18:0/22:6) lipid bilayer. 200 lipid molecules (100 lipids per leaflet) and no ions. Lipid for a total water content of 50 wt% >>> Hydration: 46 Temperature: 303.15 System was prepared using CHARMM-GUI. CHARMM36m-WYF forcefield was used. Simulation was performed with NAMD 3.0.2. timestep: 2.0 fs 500 ns production after 150 ns equilibration dcd saving freq: 10000 2 replicates'
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 SDPC (1-stearoyl-2-docosahexaenoyl-sn-glycero-3-phosphocholine) at 303.15 K. Simulated with CHARMM36m in NAMD 3 for 500 ns (56000 atoms). Deposited as NMRlipids Databank simulation 894 and available from https://doi.org/10.5281/zenodo.18384813.
   sameAs: https://doi.org/10.5281/zenodo.18384813
   datePublished: '2026-01-27'
   license:
@@ -127,8 +127,15 @@ bioschema_properties:
   isBasedOn:
   - experiments/OrderParameters/10.1021/ja029029o/1
   - experiments/FormFactors/10.1016/j.chemphyslip.2020.104892/2
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.18384813
+    identifier: 10.5281/zenodo.18384813
+    url: https://doi.org/10.5281/zenodo.18384813
+    name: Polyunsaturated 1-stearoyl-2-docosahexaenoyl-sn-glycero-3-phosphocholine (18:0/22:6) | SDPC lipid bilayer, 303K, CHARMM36m-WYF forcefield, NAMD 3.0.2, 2* 500 ns
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.18384813
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

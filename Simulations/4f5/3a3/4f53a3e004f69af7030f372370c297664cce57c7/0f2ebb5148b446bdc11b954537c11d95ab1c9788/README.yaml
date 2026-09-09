@@ -49,9 +49,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 693
 bioschema_properties:
-  name: Simulations of POPC/cholesterol mixtures at 298 K, three system sizes, Slipids
+  name: Molecular dynamics trajectory of a POPC/CHOL (71:29) bilayer at 298.15 K (Slipids, GROMACS 2021, 1001 ns) [NMRlipids simulation 693]
   alternateName: Slipids_POPC_CHOL29_S
-  description: 'GROMACS input and output files. Slipids. Membranes with 64, 256, and 1024 lipids. New version, added missing file: CHOL4_medium.edr'
+  description: Molecular dynamics trajectory of a lipid bilayer of 64 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 71 mol%) and 26 CHOL (cholesterol, 29 mol%) at 298.15 K. Simulated with Slipids in GROMACS 2021 for 1001 ns (24000 atoms). Deposited as NMRlipids Databank simulation 693 and available from https://doi.org/10.5281/zenodo.7022749.
   sameAs: https://doi.org/10.5281/zenodo.7022749
   datePublished: '2022-08-23'
   license:
@@ -135,9 +135,16 @@ bioschema_properties:
     - CHOL13_small.xtc
     - CHOL13_small.tpr
     - CHOL13_small.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.7022749
+    identifier: 10.5281/zenodo.7022749
+    url: https://doi.org/10.5281/zenodo.7022749
+    name: Simulations of POPC/cholesterol mixtures at 298 K, three system sizes, Slipids
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.7022749
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

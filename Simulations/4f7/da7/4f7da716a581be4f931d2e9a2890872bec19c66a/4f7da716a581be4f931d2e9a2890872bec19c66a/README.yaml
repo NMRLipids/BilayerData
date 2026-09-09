@@ -46,9 +46,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 738
 bioschema_properties:
-  name: Pure POPC Membrane with 450mM NaCl simulations using Drude Polarizable Force Field and OpenMM
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (56:22:22) bilayer at 303 K (Charmm-Drude polarizable; system has been equilibriated using Charmm36, OPENMM 7.4.1, 521 ns) [NMRlipids simulation 738]
   alternateName: 128POPC_6400SOL_51NaCl_303K
-  description: '500 ns MD simulation of pure POPC membrane using Charmm-Drude polarizable force field. The system contains 128 POPC lipids, 51 NaCl, and 6400 SWM4 water molecules. The simulation have been performed using OpenMM 7.4.1 Before running the Drude simulation, the system has been equilibriated using Charmm36 force field for 200 ns. The last frame of that simulation was used to generate Drude polarizable model. The first 100 ns of the Drude simulation has been discarded from this dataset. wrapped.dcd has a frame saving frequency of 100 ps. It has been discovered that (https://github.com/NMRLipids/Databank/issues/2#issuecomment-1357871243) the wrapped_full.dcd trajectory did not have the correct timestamp: the timestep between two consecutive simulation frames was not correctly embedded into the trajectory information. Therefore, with the latest version we are uploading the "wrapped_full_fixed_dt.xtc" which has the correct timestamp. The frame saving frequency in this trajectory is 10 ps. This new update should not invalidate any previous calculations that did not explicitly read the timestamp information from the trajectory. This simulation consists of 5 sub-trajectories, each of which starts from the last frame of the previous one and runs for 100 ns. These trajectories (originally in dcd format) were concatenated and saved in xtc format with MDAnalysis.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 56 mol%), 51 CLA (22 mol%) and 51 SOD (22 mol%) at 303 K. Simulated with Charmm-Drude polarizable; system has been equilibriated using Charmm36 in OPENMM 7.4.1 for 521 ns (57036 atoms). Deposited as NMRlipids Databank simulation 738 and available from https://doi.org/10.5281/zenodo.7591753.
   sameAs: https://doi.org/10.5281/zenodo.7591753
   datePublished: '2020-08-19'
   license:
@@ -88,8 +88,8 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  - SOD
   - CLA
+  - SOD
   - phosphatidylcholine
   - Drude polarizable force field
   - OpenMM
@@ -135,9 +135,16 @@ bioschema_properties:
     - wrapped_full_fixed_dt.xtc
     - step2_charmm2omm.psf
     - step2_charmm2omm.pdb
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.7591753
+    identifier: 10.5281/zenodo.7591753
+    url: https://doi.org/10.5281/zenodo.7591753
+    name: Pure POPC Membrane with 450mM NaCl simulations using Drude Polarizable Force Field and OpenMM
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.7591753
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

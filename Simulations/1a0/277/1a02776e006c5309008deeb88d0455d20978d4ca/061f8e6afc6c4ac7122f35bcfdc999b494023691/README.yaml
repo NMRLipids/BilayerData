@@ -56,9 +56,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 437
 bioschema_properties:
-  name: 'MD simulations of bilayers containing PC/PS mixtures and CaCl_2: 250POPC_50POPS_0.15MCaCl_2'
+  name: Molecular dynamics trajectory of a POPC/CLA/CAL/POPS (61:14:13:12) bilayer at 298 K (CHARMM36, GROMACS, 200 ns) [NMRlipids simulation 437]
   alternateName: 250POPC_50POPS_53CAL_56CLA_298K_73529Atoms
-  description: NMRLipids IV project (nmrlipids.blogspot.fi) Gromacs, CHARMM36 FF, 1 atm, 298K 250 POPC lipids, 50 POPS lipids, 73529 Atoms
+  description: Molecular dynamics trajectory of a lipid bilayer of 250 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 61 mol%), 56 CLA (14 mol%), 53 CAL (13 mol%) and 50 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 12 mol%) at 298 K. Simulated with CHARMM36 in GROMACS for 200 ns (73529 atoms). Deposited as NMRlipids Databank simulation 437 and available from https://doi.org/10.5281/zenodo.2542176.
   sameAs: https://doi.org/10.5281/zenodo.2542176
   datePublished: '2019-01-14'
   license:
@@ -96,12 +96,12 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - POPS
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  - CAL
   - CLA
+  - CAL
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -144,9 +144,16 @@ bioschema_properties:
     - run.wrapped.xtc
     - step7_1.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.2542176
+    identifier: 10.5281/zenodo.2542176
+    url: https://doi.org/10.5281/zenodo.2542176
+    name: 'MD simulations of bilayers containing PC/PS mixtures and CaCl_2: 250POPC_50POPS_0.15MCaCl_2'
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.2542176
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

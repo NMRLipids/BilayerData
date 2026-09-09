@@ -63,9 +63,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 603
 bioschema_properties:
-  name: Md Simulation Trajectory Of A Popc/Pops (4:1) Bilayer With 715Mm Cacl2, Berger Force Field For Lipids, Scaled Charges For Ca2+ And Cl-
+  name: Molecular dynamics trajectory of a CLA/POPC/CAL/POPS (36:33:23:8) bilayer at 310 K (Berger, GROMACS 4.5.5, 100 ns) [NMRlipids simulation 603]
   alternateName: 104POPC_24POPS_4306SOL_72CAL_112CLA_310K
-  description: 'MD simulation trajectory of a POPC/POPS (4:1) bilayer with 715 mM CaCl2 (104 POPC, 24 POPS, 26 POPS, 4306 WAT, 72 Ca2+, 112 Cl-). Additional Ca2+ cations added to neutralize the negative charge of POPS (leading to total Ca2+ concentration of 919 mM). Berger force field for lipids, scaled charges employed for calcium and chloride ions. Gromacs 4.5.5, T=310K, 300 ns trajectories were calculated with the last 100 ns stored here. Used in (see therein also a detailed description of ion scaling): A. Melcrova, S. Pokorna, S. Pullanchery, M. Kohagen, P. Jurkiewicz, M. Hof, P. Jungwirth, P. S. Cremer, L. Cwiklik, The complex nature of calcium cation interactions with phospholipid bilayers Scientific Reports 2016, 6, 38035. DOI: 10.1038/srep38035'
+  description: Molecular dynamics trajectory of a lipid bilayer of 112 CLA (36 mol%), 104 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 33 mol%), 72 CAL (23 mol%) and 24 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 8 mol%) at 310 K. Simulated with Berger in GROMACS 4.5.5 for 100 ns (19830 atoms). Deposited as NMRlipids Databank simulation 603 and available from https://doi.org/10.5281/zenodo.887400.
   sameAs: https://doi.org/10.5281/zenodo.887400
   datePublished: '2017-09-07'
   license:
@@ -104,12 +104,12 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
+  - CLA
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CAL
   - POPS
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
-  - CAL
-  - CLA
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -153,9 +153,16 @@ bioschema_properties:
     - topol.tpr
     - topol.top
     - conf.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.887400
+    identifier: 10.5281/zenodo.887400
+    url: https://doi.org/10.5281/zenodo.887400
+    name: Md Simulation Trajectory Of A Popc/Pops (4:1) Bilayer With 715Mm Cacl2, Berger Force Field For Lipids, Scaled Charges For Ca2+ And Cl-
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.887400
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -40,9 +40,9 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1016/j.bbamem.2011.07.022/2
 bioschema_properties:
-  name: OpenMM simulations of POPC using the CHARMM Drude2023 force field in xtc format
+  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (Charmm-Drude polarizable2023, OPENMM, 200 ns) [NMRlipids simulation 752]
   alternateName: POPC_CHARMMdrude2023_303K
-  description: 'PSF, single CRD file, and XTC format trajectories for the final 200 ns of triplicate POPC simulations, from the publication Drude Polarizable Lipid Force Field with Explicit Treatment of LongRange Dispersion: Parametrization and Validation for Saturated and Monounsaturated Zwitterionic Lipids Yalun Yu, Richard M. Venable, Jonathan Thirman, Payal Chatterjee, Anmol Kumar, Richard W. Pastor,* Benoît Roux,* Alexander D. MacKerell, Jr.,* and Jeffery B. Klauda* https://doi.org/10.1021/acs.jctc.3c00203 XTC file names indicate the lipid and the replica number; each file has frames spaced at 10 ps over a 200 ns interval. The DCD sub-files in 10.5281/zenodo.7871949 have been concatenated into a single 200 ns long trajectory in xtc format by Batuhan Kav using MDAnalysis.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with Charmm-Drude polarizable2023 in OPENMM for 200 ns (25163 atoms). Deposited as NMRlipids Databank simulation 752 and available from https://doi.org/10.5281/zenodo.7916287.
   sameAs: https://doi.org/10.5281/zenodo.7916287
   datePublished: '2023-05-09'
   license:
@@ -125,9 +125,16 @@ bioschema_properties:
     - popc72_drude.psf
   isBasedOn:
   - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/2
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.7916287
+    identifier: 10.5281/zenodo.7916287
+    url: https://doi.org/10.5281/zenodo.7916287
+    name: OpenMM simulations of POPC using the CHARMM Drude2023 force field in xtc format
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.7916287
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

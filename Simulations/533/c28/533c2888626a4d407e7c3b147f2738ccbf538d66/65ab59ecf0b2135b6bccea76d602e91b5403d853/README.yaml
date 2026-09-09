@@ -52,9 +52,9 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 bioschema_properties:
-  name: POPC_300_KCl_150mM_298.15K
+  name: Molecular dynamics trajectory of a POPC/CLA/POT (81:9:9) bilayer at 298.15 K (CHARMM36m, GROMACS 2020.1, 1203 ns) [NMRlipids simulation 773]
   alternateName: POPC_298K
-  description: 'GROMACS MD simulation trajectory files for the PC0 system referred in: https://doi.org/10.1083/jcb.202106123 Software version: GROMACS-2020.1'
+  description: Molecular dynamics trajectory of a lipid bilayer of 300 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 81 mol%), 35 CLA (9 mol%) and 35 POT (9 mol%) at 298.15 K. Simulated with CHARMM36m in GROMACS 2020.1 for 1203 ns (80791 atoms). Deposited as NMRlipids Databank simulation 773 and available from https://doi.org/10.5281/zenodo.8370414.
   sameAs: https://doi.org/10.5281/zenodo.8370414
   datePublished: '2023-09-22'
   license:
@@ -96,8 +96,8 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  - POT
   - CLA
+  - POT
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -140,9 +140,16 @@ bioschema_properties:
     - PC0_t_1200ns.xtc
     - PC0.tpr
     - PC0.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8370414
+    identifier: 10.5281/zenodo.8370414
+    url: https://doi.org/10.5281/zenodo.8370414
+    name: POPC_300_KCl_150mM_298.15K
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.8370414
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

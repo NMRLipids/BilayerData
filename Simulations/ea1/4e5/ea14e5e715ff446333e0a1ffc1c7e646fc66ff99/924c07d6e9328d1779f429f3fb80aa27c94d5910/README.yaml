@@ -39,9 +39,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 819
 bioschema_properties:
-  name: MD simulation of POPC bilayer with CHARMM36 force field. 20 w/l.
+  name: Molecular dynamics trajectory of a POPC bilayer at 314 K (Charmm36, GROMACS 2019.5, 400 ns) [NMRlipids simulation 819]
   alternateName: POPС(300K, 20w/l, CHARMM36)
-  description: 'MD simulation of POPC (1-palmitoyl-2-oleoyl-phosphatidylcholine) bilayer with CHARMM36 force field. 20 w/l. Dataset contains simulation files including trajectories (.xtc) (original production.xtc, and equilibrated and centered centered-pbcmol-100-500ns.xtc). System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 4000 Simulation time: 500 ns Sampling rate: every 10 ps Simulation engine: GROMACS 2019.5 Temperature: 300 K'
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 314 K. Simulated with Charmm36 in GROMACS 2019.5 for 400 ns (38800 atoms). Deposited as NMRlipids Databank simulation 819 and available from https://doi.org/10.5281/zenodo.6335769.
   sameAs: https://doi.org/10.5281/zenodo.6335769
   datePublished: '2022-03-07'
   license:
@@ -124,9 +124,16 @@ bioschema_properties:
     - centered_pbcmol-100-500.xtc
     - production.tpr
     - production.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.6335769
+    identifier: 10.5281/zenodo.6335769
+    url: https://doi.org/10.5281/zenodo.6335769
+    name: MD simulation of POPC bilayer with CHARMM36 force field. 20 w/l.
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.6335769
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

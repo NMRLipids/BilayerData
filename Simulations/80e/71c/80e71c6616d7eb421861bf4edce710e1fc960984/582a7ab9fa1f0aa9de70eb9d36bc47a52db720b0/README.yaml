@@ -52,9 +52,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 556
 bioschema_properties:
-  name: LIPID17 POPG-POPE 3:1 Bilayer Simulation (Last 100 ns, 310 K )
+  name: Molecular dynamics trajectory of a POPG/SOD/POPE (43:43:14) bilayer at 310 K (Lipid17, GROMACS 2018.3, 100 ns) [NMRlipids simulation 556]
   alternateName: POPG_POPE_25000SOL_374SOD_310K
-  description: Simulation of a POPG-POPE 3:1 bilayer of 500 lipids (374 L-POPG lipids and 126 POPE lipids, 250 per leaflet) is simulated for 500 ns using Gromacs v2018.3 in water solution with Na+ counterions. The LIPID17 model is employed for lipids and TIP3P Water Model. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top) , simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided.
+  description: Molecular dynamics trajectory of a lipid bilayer of 374 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 43 mol%), 374 SOD (43 mol%) and 126 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 14 mol%) at 310 K. Simulated with Lipid17 in GROMACS 2018.3 for 100 ns (138622 atoms). Deposited as NMRlipids Databank simulation 556 and available from https://doi.org/10.5281/zenodo.3256490.
   sameAs: https://doi.org/10.5281/zenodo.3256490
   datePublished: '2019-06-25'
   license:
@@ -94,9 +94,9 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPG
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - SOD
   - POPE
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
-  - SOD
   - LIPID17 POPG-POPE_3:1 Bilayer
   measurementTechnique:
   - '@type': DefinedTerm
@@ -140,9 +140,16 @@ bioschema_properties:
     - total_4_500.xtc
     - md_0.tpr
     - gromacs.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3256490
+    identifier: 10.5281/zenodo.3256490
+    url: https://doi.org/10.5281/zenodo.3256490
+    name: LIPID17 POPG-POPE 3:1 Bilayer Simulation (Last 100 ns, 310 K )
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3256490
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

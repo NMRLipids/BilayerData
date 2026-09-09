@@ -67,9 +67,9 @@ EXPERIMENT:
     SAPI25: []
   FORMFACTOR: []
 bioschema_properties:
-  name: POPC_238_SAPI25_16_CHOL_46_KCl_150mM_298.15K
+  name: Molecular dynamics trajectory of a POPC/POT/CHOL/CLA/SAPI25 (56:22:11:7:4) bilayer at 298.15 K (CHARMM36m, GROMACS 2020.1, 1206 ns) [NMRlipids simulation 783]
   alternateName: POPC_238_SAPI25_16_CHOL_46_KCl_150mM_298.15K
-  description: 'GROMACS MD simulation trajectory files for the PC5-CHOL15 system referred in: https://doi.org/10.1083/jcb.202106123 Software version: GROMACS-2020.1'
+  description: Molecular dynamics trajectory of a lipid bilayer of 238 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 56 mol%), 96 POT (22 mol%), 46 CHOL (cholesterol, 11 mol%), 32 CLA (7 mol%) and 16 SAPI25 (1-stearoyl-2-arachidonoyl-sn-phosphatidylinositol 4,5-biphosphate, 4 mol%) at 298.15 K. Simulated with CHARMM36m in GROMACS 2020.1 for 1206 ns (75159 atoms). Deposited as NMRlipids Databank simulation 783 and available from https://doi.org/10.5281/zenodo.8370440.
   sameAs: https://doi.org/10.5281/zenodo.8370440
   datePublished: '2023-09-22'
   license:
@@ -111,12 +111,12 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - POT
   - CHOL
   - cholesterol
+  - CLA
   - SAPI25
   - 1-stearoyl-2-arachidonoyl-sn-phosphatidylinositol 4,5-biphosphate
-  - POT
-  - CLA
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -159,9 +159,16 @@ bioschema_properties:
     - PC5-CHOL15.xtc
     - PC5-CHOL15.tpr
     - PC5-CHOL15.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8370440
+    identifier: 10.5281/zenodo.8370440
+    url: https://doi.org/10.5281/zenodo.8370440
+    name: POPC_238_SAPI25_16_CHOL_46_KCl_150mM_298.15K
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.8370440
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

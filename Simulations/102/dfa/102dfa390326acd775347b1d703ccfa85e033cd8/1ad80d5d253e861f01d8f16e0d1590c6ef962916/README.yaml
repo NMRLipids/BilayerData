@@ -40,9 +40,9 @@ TRJ:
 - - prottraj.xtc
 ID: 151
 bioschema_properties:
-  name: Pure POPC bilayer MD simulation using Berger force field, T=303K
+  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (Berger, GROMACS Gpu_version_2020.1, 1200 ns) [NMRlipids simulation 151]
   alternateName: Berger_POPC_T303K
-  description: Protonated trajectory and .gro from a Berger simulation of 256 POPCs hydrated with 10342 waters simulated with Gpu-version of Gromacs2020.1. The force field and inputs were downloaded from https://zenodo.org/record/1402417/. Prod.tpr was used to run the simulation, protonated.tpr is a dummy .tpr used for the analysis of the protonated trajectory. Simulation used Nose-Hoover thermostat and Parrinello-Rahman barostat.
+  description: Molecular dynamics trajectory of a lipid bilayer of 256 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with Berger in GROMACS Gpu_version_2020.1 for 1200 ns (65330 atoms). Deposited as NMRlipids Databank simulation 151 and available from https://doi.org/10.5281/zenodo.4537207.
   sameAs: https://doi.org/10.5281/zenodo.4537207
   datePublished: '2021-02-12'
   license:
@@ -125,9 +125,16 @@ bioschema_properties:
     - protonated.tpr
   isBasedOn:
   - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/2
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.4537207
+    identifier: 10.5281/zenodo.4537207
+    url: https://doi.org/10.5281/zenodo.4537207
+    name: Pure POPC bilayer MD simulation using Berger force field, T=303K
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.4537207
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

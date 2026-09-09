@@ -48,9 +48,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 133
 bioschema_properties:
-  name: POPC_AMBER_LIPID14_CaCl2_035Mol
+  name: Molecular dynamics trajectory of a POPC/CLA/CAL (55:30:15) bilayer at 298.15 K (Lipid14 for lipids and AMBER99SB-ILDN for ions, GROMACS 5.0.3, 100 ns) [NMRlipids simulation 133]
   alternateName: 128POPC_6400SOL_35CAL_70CLA_298K
-  description: 'THIS IS UNCORRUPTED TRAJECTORY RELATED TO THIS DATASET: http://dx.doi.org/10.5281/zenodo.34415 MD simulation trajectory and related files for fully hydrated POPC bilayer with 0.35M CaCl2. The LIPID14 force field was used with Gromacs 5.0.3. Ions were described by AMBER99SB-ILDN force field. Conditions: T=298.15, 128 POPC molecules, 6400 tip3p waters (lipid/water 1:50), 35 Ca, 70 Cl. 200ns trajectory (preceded by 5ns NPT equillibration) (2 files of 100ns). This data is ran for the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi'
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 55 mol%), 70 CLA (30 mol%) and 35 CAL (15 mol%) at 298.15 K. Simulated with Lipid14 for lipids and AMBER99SB-ILDN for ions in GROMACS 5.0.3 for 100 ns (36457 atoms). Deposited as NMRlipids Databank simulation 133 and available from https://doi.org/10.5281/zenodo.5592698.
   sameAs: https://doi.org/10.5281/zenodo.5592698
   datePublished: '2016-02-18'
   license:
@@ -92,8 +92,8 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  - CAL
   - CLA
+  - CAL
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -135,9 +135,16 @@ bioschema_properties:
     hasPart:
     - 035M_CaCl2_POPC_AMB_100_200ns.xtc
     - 035M_CaCl2_POPC_AMB.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.5592698
+    identifier: 10.5281/zenodo.5592698
+    url: https://doi.org/10.5281/zenodo.5592698
+    name: POPC_AMBER_LIPID14_CaCl2_035Mol
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.5592698
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -41,9 +41,9 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/1
 bioschema_properties:
-  name: POPC Sage 2.2.0 with Espaloma charges
+  name: Molecular dynamics trajectory of a POPC bilayer at 300 K (Sage2.2.0 Espaloma Charges, GROMACS, 200 ns) [NMRlipids simulation 834]
   alternateName: POPCandTIP3P
-  description: Molecular dynamics simulation of a lipid bilayer containing POPC at 300.0 K, Sage2.2.0 Espaloma Charges force field, gromacs, 200 ns trajectory.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with Sage2.2.0 Espaloma Charges in GROMACS for 200 ns (32512 atoms). Deposited as NMRlipids Databank simulation 834 and available from https://doi.org/10.5281/zenodo.15065566.
   sameAs: https://doi.org/10.5281/zenodo.15065566
   datePublished: '2025-03-21'
   license:
@@ -128,8 +128,15 @@ bioschema_properties:
   - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
   - experiments/OrderParameters/10.1039/c2cp42738a/1
   - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.15065566
+    identifier: 10.5281/zenodo.15065566
+    url: https://doi.org/10.5281/zenodo.15065566
+    name: POPC Sage 2.2.0 with Espaloma charges
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.15065566
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

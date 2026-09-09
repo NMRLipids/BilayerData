@@ -54,9 +54,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 530
 bioschema_properties:
-  name: Gromos POPG Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+  name: Molecular dynamics trajectory of a SOD/POPG/CLA (50:46:4) bilayer at 310 K (GROMOS-CKP-POPG-Tom_Piggot-v1, GROMACS 5.1.2, 100 ns) [NMRlipids simulation 530]
   alternateName: 500POPG_25000SOL_549SOD_49CLA_310K
-  description: Simulation of a POPG bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs v5.1.2 in water solution with Na+ counterions and 150 mM of NaCl. The GROMOS-CKP-POPG-Tom_Piggot-v1 model wiht GROMOS57a7 is employed for lipids and the SCP model for water. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top), simulation parameter file (.mdp), and the energy output file (.edr) are provided.
+  description: Molecular dynamics trajectory of a lipid bilayer of 549 SOD (50 mol%), 500 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 46 mol%) and 49 CLA (4 mol%) at 310 K. Simulated with GROMOS-CKP-POPG-Tom_Piggot-v1 in GROMACS 5.1.2 for 100 ns (102098 atoms). Deposited as NMRlipids Databank simulation 530 and available from https://doi.org/10.5281/zenodo.3378992.
   sameAs: https://doi.org/10.5281/zenodo.3378992
   datePublished: '2019-02-19'
   license:
@@ -94,9 +94,9 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
+  - SOD
   - POPG
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
-  - SOD
   - CLA
   - POPG bilayer
   - Gromos
@@ -144,9 +144,16 @@ bioschema_properties:
     - md_031.tpr
     - topol.top
     - conf.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3378992
+    identifier: 10.5281/zenodo.3378992
+    url: https://doi.org/10.5281/zenodo.3378992
+    name: Gromos POPG Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3378992
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

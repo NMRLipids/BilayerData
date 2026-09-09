@@ -44,9 +44,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 295
 bioschema_properties:
-  name: Charmm36 Dops Simulations (Versions 1 And 2) 303 K 1.0 Nm Lj Switching
+  name: Molecular dynamics trajectory of a DOPS/SOD (50:50) bilayer at 303 K (CHARMM36, GROMACS, 100 ns) [NMRlipids simulation 295]
   alternateName: 128DOPS_128SOD_4480SOL_303K_v1
-  description: CHARMM36 DOPS simulations (303 K, starting structure from the CHARMM-GUI) performed with a 1.0 nm point at which to switch off the van der Waals interactions. Two different simulations generated with different starting velocities are provided (the files are named v1 and v2 for these different simulations). The trajectories contain only the data from 400-500 ns of the simulations (as per the analysis provided on the nmrlipids blog) and additionally they have been processed with trjconv -skip 10 to keep the upload small.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 DOPS (1,2-dioleoyl-sn-glycero-3-phospho-L-serine, 50 mol%) and 128 SOD (50 mol%) at 303 K. Simulated with CHARMM36 in GROMACS for 100 ns (30336 atoms). Deposited as NMRlipids Databank simulation 295 and available from https://doi.org/10.5281/zenodo.1129411.
   sameAs: https://doi.org/10.5281/zenodo.1129411
   datePublished: '2017-12-24'
   license:
@@ -127,9 +127,16 @@ bioschema_properties:
     hasPart:
     - md-CHARMM36_10A-switch_DOPS_v1_400-500ns_skip10.xtc
     - for-md-CHARMM36_DOPS_303K_v1.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1129411
+    identifier: 10.5281/zenodo.1129411
+    url: https://doi.org/10.5281/zenodo.1129411
+    name: Charmm36 Dops Simulations (Versions 1 And 2) 303 K 1.0 Nm Lj Switching
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1129411
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

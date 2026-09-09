@@ -61,9 +61,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 447
 bioschema_properties:
-  name: GROMOS-CKP POPG-POPE 3:1 Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+  name: Molecular dynamics trajectory of a SOD/POPG/POPE/CLA (44:38:13:5) bilayer at 310 K (GROMOS-CKP, GROMACS 5.1.2, 100 ns) [NMRlipids simulation 447]
   alternateName: 374POPG_126POPE_25000SOL_423SOD_49CLA_310K
-  description: Simulation of a POPG-POPE 3:1 bilayer of 500 lipids (374 L-POPG lipids and 126 POPE lipids, 250 per leaflet) is simulated for 500 ns using Gromacs v5.1.2 in water solution with Na+ counterions and 150 mM of NaCl. The GROMOS-CKP model is employed for lipids with SCP TIP3P Water Model. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top) , simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided.
+  description: Molecular dynamics trajectory of a lipid bilayer of 423 SOD (44 mol%), 374 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 38 mol%), 126 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 13 mol%) and 49 CLA (5 mol%) at 310 K. Simulated with GROMOS-CKP in GROMACS 5.1.2 for 100 ns (101846 atoms). Deposited as NMRlipids Databank simulation 447 and available from https://doi.org/10.5281/zenodo.2580158.
   sameAs: https://doi.org/10.5281/zenodo.2580158
   datePublished: '2019-02-28'
   license:
@@ -101,11 +101,11 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
+  - SOD
   - POPG
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
   - POPE
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
-  - SOD
   - CLA
   - GROMOS-CKP
   - POPG-POPE 3:1
@@ -151,9 +151,16 @@ bioschema_properties:
     - dm_popg_pope_3_1_gromos.xtc
     - md_07.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.2580158
+    identifier: 10.5281/zenodo.2580158
+    url: https://doi.org/10.5281/zenodo.2580158
+    name: GROMOS-CKP POPG-POPE 3:1 Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.2580158
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

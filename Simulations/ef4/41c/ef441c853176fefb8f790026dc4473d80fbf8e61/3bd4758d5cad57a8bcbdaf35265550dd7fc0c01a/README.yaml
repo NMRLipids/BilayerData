@@ -49,9 +49,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 66
 bioschema_properties:
-  name: CHARMM36 POPC Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (84:8:8) bilayer at 310 K (CHARMM36 and CHARMM TIP3P, GROMACS 5.1.2, 100 ns) [NMRlipids simulation 66]
   alternateName: 500POPC_25000SOL_48SOD_48CLA_310K
-  description: Simulation of a POPC bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs v5.1.2 in water solution with Na+ counterions and 150 mM of NaCl. The CHARMM36 model is employed for lipids and CHARMM TIP3P Water Model . Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top, .itp), simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided.
+  description: Molecular dynamics trajectory of a lipid bilayer of 500 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 84 mol%), 48 CLA (8 mol%) and 48 SOD (8 mol%) at 310 K. Simulated with CHARMM36 and CHARMM TIP3P in GROMACS 5.1.2 for 100 ns (142096 atoms). Deposited as NMRlipids Databank simulation 66 and available from https://doi.org/10.5281/zenodo.2628335.
   sameAs: https://doi.org/10.5281/zenodo.2628335
   datePublished: '2019-02-25'
   license:
@@ -89,9 +89,9 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - CLA
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
   - SOD
   - CHARMM36
   measurementTechnique:
@@ -136,9 +136,16 @@ bioschema_properties:
     - m_400_500_POPC_charmm.xtc
     - md_080.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.2628335
+    identifier: 10.5281/zenodo.2628335
+    url: https://doi.org/10.5281/zenodo.2628335
+    name: CHARMM36 POPC Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.2628335
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

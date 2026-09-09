@@ -47,9 +47,9 @@ DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 286
 AUTHORS_CONTACT: Antonio Peon
 bioschema_properties:
-  name: LIPID17 POPC-POPG 7:3 Bilayer Simulation (Last 100 ns, 310 K )
+  name: Molecular dynamics trajectory of a POPC/POPG/SOD (54:23:23) bilayer at 310 K (lipid17, GROMACS, 100 ns) [NMRlipids simulation 286]
   alternateName: POPC:POPG(7:3)_T310K
-  description: Simulation of a POPC-POPG 7:3 bilayer of 500 lipids (350 POPC lipids and 150 L-POPG lipids, 250 per leaflet) is simulated for 500 ns using Gromacs v2018.3 in water solution with Na+ counterions. The LIPID17 model is employed for lipids with TIP3P Water Model. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top) , simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided.
+  description: Molecular dynamics trajectory of a lipid bilayer of 350 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 54 mol%), 150 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 23 mol%) and 150 SOD (23 mol%) at 310 K. Simulated with lipid17 in GROMACS for 100 ns (141100 atoms). Deposited as NMRlipids Databank simulation 286 and available from https://doi.org/10.5281/zenodo.3241243.
   sameAs: https://doi.org/10.5281/zenodo.3241243
   datePublished: '2019-06-06'
   license:
@@ -87,10 +87,10 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - POPG
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
   - SOD
   - LIPID17 POPC-POPG_7:3 Bilayer
   measurementTechnique:
@@ -134,9 +134,16 @@ bioschema_properties:
     hasPart:
     - total_4_500.xtc
     - md_0.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3241243
+    identifier: 10.5281/zenodo.3241243
+    url: https://doi.org/10.5281/zenodo.3241243
+    name: LIPID17 POPC-POPG 7:3 Bilayer Simulation (Last 100 ns, 310 K )
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3241243
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

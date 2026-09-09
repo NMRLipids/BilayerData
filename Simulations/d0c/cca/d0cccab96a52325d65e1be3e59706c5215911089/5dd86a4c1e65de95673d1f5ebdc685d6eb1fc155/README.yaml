@@ -50,9 +50,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 280
 bioschema_properties:
-  name: Popc/Cholesterol (50:50) Lipid Membrane, 303K, Charmm36 Force Field, Simulation Files And 100 Ns Trajectory For Gromacs Simulation Engine V5
+  name: Molecular dynamics trajectory of a CHOL/POPC (50:50) bilayer at 303.15 K (CHARMM36, GROMACS 5, 86 ns) [NMRlipids simulation 280]
   alternateName: 80POPC_7200SOL_80CHOL_303.80K
-  description: 'All runs were performed with GROMACS simulation engine v5 and CHARMM36 additive force field parameters obtained from MacKerell lab website (http://mackerell.umaryland.edu/charmm_ff.shtml, also available at https://doi.org/10.5281/zenodo.209080). Conditions: T=303, 80 POPC and 80 Cholesterol molecules, 7200 tip3p waters, 100ns trajectory (preceded with equilibration). These data were originally obtained for the nmrlipids.blospot.fi project. Find more details at nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi'
+  description: Molecular dynamics trajectory of a lipid bilayer of 80 CHOL (cholesterol, 50 mol%) and 80 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) at 303.15 K. Simulated with CHARMM36 in GROMACS 5 for 86 ns (38240 atoms). Deposited as NMRlipids Databank simulation 280 and available from https://doi.org/10.5281/zenodo.247386.
   sameAs: https://doi.org/10.5281/zenodo.247386
   datePublished: '2017-01-16'
   license:
@@ -137,9 +137,16 @@ bioschema_properties:
     - traj_comp.xtc
     - topol.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.247386
+    identifier: 10.5281/zenodo.247386
+    url: https://doi.org/10.5281/zenodo.247386
+    name: Popc/Cholesterol (50:50) Lipid Membrane, 303K, Charmm36 Force Field, Simulation Files And 100 Ns Trajectory For Gromacs Simulation Engine V5
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.247386
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

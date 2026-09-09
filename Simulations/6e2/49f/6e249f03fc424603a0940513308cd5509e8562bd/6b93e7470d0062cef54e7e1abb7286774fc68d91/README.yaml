@@ -47,9 +47,9 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/jp511159q/1
 bioschema_properties:
-  name: Simulation of a POPE bilayer, lipid model based on OPLS-aa by Rog et al.
+  name: Molecular dynamics trajectory of a POPE bilayer at 310 K (OPLS-aa, GROMACS, 500 ns) [NMRlipids simulation 882]
   alternateName: Bilayer
-  description: A 500 ns-long simulation of a bilayer consisting of 144 POPE lipids and 40 water molecules per lipid. All GROMACS-compatible input and output files are required. Topologies are provided by their original authors. If you use the topologies, please cite the papers indicated in the POPE.itp file.
+  description: Molecular dynamics trajectory of a lipid bilayer of 144 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 310 K. Simulated with OPLS-aa in GROMACS for 500 ns (35280 atoms). Deposited as NMRlipids Databank simulation 882 and available from https://doi.org/10.5281/zenodo.3571071.
   sameAs: https://doi.org/10.5281/zenodo.3571071
   datePublished: '2019-12-11'
   license:
@@ -136,9 +136,16 @@ bioschema_properties:
   - experiments/OrderParameters/10.1021/jacs.1c05549/2
   - experiments/OrderParameters/unpublished/ferreiraPOPE/1
   - experiments/FormFactors/10.1021/jp511159q/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3571071
+    identifier: 10.5281/zenodo.3571071
+    url: https://doi.org/10.5281/zenodo.3571071
+    name: Simulation of a POPE bilayer, lipid model based on OPLS-aa by Rog et al.
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3571071
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

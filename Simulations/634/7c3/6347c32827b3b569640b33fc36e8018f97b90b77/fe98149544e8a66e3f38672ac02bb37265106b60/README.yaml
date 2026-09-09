@@ -48,9 +48,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 876
 bioschema_properties:
-  name: MD simulation of POPC bilayer with OPLS3e force field, 100 mM NaCl part 1
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (86:7:7) bilayer at 300 K (OPLS3e, GROMACS Desmond of Schrodinger 2019-4, 1000 ns) [NMRlipids simulation 876]
   alternateName: POPC, 44 w/l, 300 K, 0.1 M NaCl
-  description: 'MD simulation of POPC bilayer with OPLS3e force field, 100 mM NaCl part 1 (0-500ns) Dataset contains trajectories (_trj) for the first 500ns of the 1000ns trajectory, topologies (-out.cms), input files (.cfg, .msj, .cms) and other files. For the ease of the upload, trajectory files (_trj) are divided to 100ns pieces and tarred (named desmond_md_nacl100_x-xns.tar.gz). Dataset also contains Gromacs converted files (.xtc, .gro and .top). Converted trajectory is also for the first 500 ns of 1000 ns trajectory System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 8880 Concentration: 100 mM Number of cations: 16 Simulation time: 1000 ns (in this dataset 0-500ns) Simulation engine: Desmond 2019-4 Temperature: 300 K Related dataset: MD simulation of POPC bilayer with OPLS3e force field, 100 mM NaCl part 2 In contrast to previous version, this version contains gromacs format trajectory file .xtc with corrected time steps.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 86 mol%), 16 CLA (7 mol%) and 16 SOD (7 mol%) at 300 K. Simulated with OPLS3e in GROMACS Desmond of Schrodinger 2019-4 for 1000 ns (53472 atoms). Deposited as NMRlipids Databank simulation 876 and available from https://doi.org/10.5281/zenodo.10203643.
   sameAs: https://doi.org/10.5281/zenodo.10203643
   datePublished: '2022'
   license:
@@ -91,8 +91,8 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  - SOD
   - CLA
+  - SOD
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -136,8 +136,15 @@ bioschema_properties:
     - analyze.tpr
     - desmond_md_nacl100-1-in_converted.top
     - final.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.10203643
+    identifier: 10.5281/zenodo.10203643
+    url: https://doi.org/10.5281/zenodo.10203643
+    name: MD simulation of POPC bilayer with OPLS3e force field, 100 mM NaCl part 1
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.10203643
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

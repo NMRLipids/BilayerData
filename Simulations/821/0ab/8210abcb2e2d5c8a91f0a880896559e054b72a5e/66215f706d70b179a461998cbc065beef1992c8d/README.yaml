@@ -50,9 +50,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 873
 bioschema_properties:
-  name: MD simulation of POPC bilayer with CHARMM36 force field, 1000 mM NaCl
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (38:31:31) bilayer at 300 K (CHARMM36, GROMACS 2019.5, 485 ns) [NMRlipids simulation 873]
   alternateName: POPC, 44 w/l, 300 K, 1 M NaCl
-  description: 'MD simulation of POPC bilayer with CHARMM36 force field, 1000 mM NaCl Dataset contains simulation files including centered and equilibrated trajectory Nacl1000mM-15-500ns.xtc. System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 8880 Salt: NaCl Concentration: 1000 mM Number of cations: 160 Simulation time: 500 ns Simulation engine: GROMACS 2019.5 Temperature: 300 K'
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 38 mol%), 160 CLA (31 mol%) and 160 SOD (31 mol%) at 300 K. Simulated with CHARMM36 in GROMACS 2019.5 for 485 ns (53760 atoms). Deposited as NMRlipids Databank simulation 873 and available from https://doi.org/10.5281/zenodo.6342652.
   sameAs: https://doi.org/10.5281/zenodo.6342652
   datePublished: '2022-03-10'
   license:
@@ -138,9 +138,16 @@ bioschema_properties:
     - production.tpr
     - topol.top
     - production.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.6342652
+    identifier: 10.5281/zenodo.6342652
+    url: https://doi.org/10.5281/zenodo.6342652
+    name: MD simulation of POPC bilayer with CHARMM36 force field, 1000 mM NaCl
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.6342652
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

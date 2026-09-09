@@ -53,9 +53,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 225
 bioschema_properties:
-  name: CHARMM36, NB-Fix approaches, without NBFIX, POPC membrane, Ca, Na ions,
+  name: Molecular dynamics trajectory of a POPC/CLA/CAL (73:18:9) bilayer at 310.15 K (CHARMM36 NBFIX Han, GROMACS, 432 ns) [NMRlipids simulation 225]
   alternateName: 200POPC_9000SOL_25CAL_50CLA_310K_NBFIXHan
-  description: Different versions of NB-Fix from CHARMM-Gui and simulations without NB-Fix (called original charmm) 200 POPC lipids, TIP3P - charrmm water model,
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 73 mol%), 50 CLA (18 mol%) and 25 CAL (9 mol%) at 310.15 K. Simulated with CHARMM36 NBFIX Han in GROMACS for 432 ns (53875 atoms). Deposited as NMRlipids Databank simulation 225 and available from https://doi.org/10.5281/zenodo.3434396.
   sameAs: https://doi.org/10.5281/zenodo.3434396
   datePublished: '2019-09-17'
   license:
@@ -94,8 +94,8 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  - CAL
   - CLA
+  - CAL
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -138,9 +138,16 @@ bioschema_properties:
     - NB-Fix-Han_CHARMM36_310K_CHARMM_ion_150mM_calcium.xtc
     - NB-Fix-Han_CHARMM36_310K_CHARMM_ion_150mM_calcium.tpr
     - NB-Fix-Han_CHARMM36_310K_CHARMM_ion_150mM_calcium.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3434396
+    identifier: 10.5281/zenodo.3434396
+    url: https://doi.org/10.5281/zenodo.3434396
+    name: CHARMM36, NB-Fix approaches, without NBFIX, POPC membrane, Ca, Na ions,
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3434396
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

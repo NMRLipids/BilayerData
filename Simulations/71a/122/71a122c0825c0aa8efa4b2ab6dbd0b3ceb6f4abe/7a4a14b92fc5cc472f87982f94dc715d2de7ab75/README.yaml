@@ -42,9 +42,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 623
 bioschema_properties:
-  name: POPC with 0, 10, 20, and 30 mol-% of cholesterol at 310 K. Charmm36 force field.
+  name: Molecular dynamics trajectory of a POPC bilayer at 310.15 K (CHARMM36, GROMACS 5.0, 500 ns) [NMRlipids simulation 623]
   alternateName: 200POPC_9000SOL_310K
-  description: 'A POPC bilayer consisting of 200 lipids (100 per leaflet) is simulated in the presence of 0% (0 molecules), 10 % (22 molecules), 20 % (50 molecules), or 30 % (86 molecules) of cholesterol. The Charmm36 model [1] is employed for lipids and the Charmm-compatible variant of the tip3p model for water. The Charmm36 force field parameters were obtained from CHARMM-GUI [2] at http://www.charmm-gui.org *** IMPORTANT *** This is a correction to an earlier dataset simulated with some missing dihedrals, see: DOI: 10.5281/zenodo.61649 –––––––––––––––––––––––––––––––––––––––––––––––––––––– The files are in GROMACS format. Trajectory (.xtc) is 100 ns long with data saved every 100 ps. Additionally, the initial structure (.gro), topology (.top), index file (.ndx), simulation paremeter file (.mdp), binary run input file for GROMACS v. 5.0–> (.tpr) and the energy output file (.edr) are provided. UPDATE: Longer 500 ns trajectories are updated together with the checkpoint files. –––––––––––––––––––––––––––––––––––––––––––––––––––––– [1] Update of the CHARMM All-Atom Additive Force Field for Lipids: Validation on Six Lipid Types Jeffery B. Klauda, Richard M. Venable, J. Alfredo Freites, Joseph W. O’Connor, Douglas J. Tobias, Carlos Mondragon-Ramirez, Igor Vorobyov, Alexander D. MacKerell, Jr., and Richard W. Pastor The Journal of Physical Chemistry B 2010 114 (23), 7830-7843 DOI: 10.1021/jp101759q [2] CHARMM-GUI Input Generator for NAMD, GROMACS, AMBER, OpenMM, and CHARMM/OpenMM Simulations Using the CHARMM36 Additive Force Field Jumin Lee, Xi Cheng, Jason M. Swails, Min Sun Yeom, Peter K. Eastman, Justin A. Lemkul, Shuai Wei, Joshua Buckner, Jong Cheol Jeong, Yifei Qi, Sunhwan Jo, Vijay S. Pande, David A. Case, Charles L. Brooks, III, Alexander D. MacKerell, Jr., Jeffery B. Klauda, and Wonpil Im Journal of Chemical Theory and Computation 2016 12 (1), 405-413 DOI: 10.1021/acs.jctc.5b00935'
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 310.15 K. Simulated with CHARMM36 in GROMACS 5.0 for 500 ns (53800 atoms). Deposited as NMRlipids Databank simulation 623 and available from https://doi.org/10.5281/zenodo.3237420.
   sameAs: https://doi.org/10.5281/zenodo.3237420
   datePublished: '2016-10-09'
   license:
@@ -126,9 +126,16 @@ bioschema_properties:
     - chol0_500ns.xtc
     - chol0.tpr
     - chol0.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3237420
+    identifier: 10.5281/zenodo.3237420
+    url: https://doi.org/10.5281/zenodo.3237420
+    name: POPC with 0, 10, 20, and 30 mol-% of cholesterol at 310 K. Charmm36 force field.
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3237420
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

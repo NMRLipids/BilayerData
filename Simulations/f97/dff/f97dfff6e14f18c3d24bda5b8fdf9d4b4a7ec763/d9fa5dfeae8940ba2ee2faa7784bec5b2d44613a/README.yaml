@@ -64,9 +64,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 120
 bioschema_properties:
-  name: 'Molecular dynamics simulation trajectory of a cationic lipid bilayer: 50/50 mol% DMTAP/DMPC in 0.5 M NaCl'
+  name: Molecular dynamics trajectory of a CLA/DMPC/DMTAP/SOD (39:22:22:17) bilayer at 323 K (Berger with DMTAP modification by Gurtovenko et al., GROMACS 3.x, 179 ns) [NMRlipids simulation 120]
   alternateName: 64DMPC_64DMTAP_48SOD_112CLA_5240SOL_323K
-  description: 'System: Symmetric bilayer of cationic DMTAP (dimyristoyltrimethylammoniumpropane, 50 mol-%) and zwitterionic DMPC (dimyristoylphosphatidylcholine, 50 mol-%) lipids in 0.5 M NaCl solution. Number of DMPC: 64. Number of DMTAP: 64. Number of Na + -ions: 48. Number of Cl - -ions: 112. Number of waters: 5240. Lipid model: ''Berger'' united-atom [ Biophys. J. 72 2002 (1997)] with DMTAP modification by Gurtovenko et al. [ Biophys. J. 86 3461 (2004)]. Water model: SPC [In Intermolecular Forces, ed. Pullman. 331 (1981)]. Simulation engine: Gromacs 3.x [www.gromacs.org] Trajectory length: 179 ns. Previously equilibrated for: 21 ns. Sampling rate: every 10 ps. Time integration step: 2 fs. Thermodynamic ensemble: NpT. Temperature coupling: ''Berendsen'' [ J. Chem. Phys. 81 3684 (1984)] with lipids and water coupled separately at T = 323 K. Pressure coupling: '' Berendsen'' [ J. Chem. Phys. 81 3684 (1984)] with xy and z coupled separately at p = 1.0 bar. Electrostatics: PME [ J. Chem. Phys. 98 10089 (1993); J. Chem. Phys. 103 8577 (1995)], real-space cutoff at 1.0 nm. Van der Waals: Truncated at 1.0 nm. Constraints: Covalent bond lengths in lipids using LINCS [ J. Comput. Chem. 18 1463 (1997)], in water using SETTLE [J. Comput. Chem. 13 952 (1992)]. Used in publications: [1] Markus S. Miettinen, Andrey A. Gurtovenko, Ilpo Vattulainen, and Mikko Karttunen: "Ion Dynamics in Cationic Lipid Bilayer Systems in Saline Solutions". J. Phys. Chem. B 113 9226 (2009). DOI: 10.1021/jp810233q. [2] Markus S. Miettinen: "Computational Modeling of Cationic Lipid Bilayers in Saline Solutions". PhD Thesis. Aalto University School of Science and Technology, Helsinki, Finland. (2010). ISBN 978-952-60-3194-1.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 112 CLA (39 mol%), 64 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine, 22 mol%), 64 DMTAP (1,2-dimyristoyl-3-trimethylammonium-propane, 22 mol%) and 48 SOD (17 mol%) at 323 K. Simulated with Berger with DMTAP modification by Gurtovenko et al. in GROMACS 3.x for 179 ns (21320 atoms). Deposited as NMRlipids Databank simulation 120 and available from https://doi.org/10.5281/zenodo.53151.
   sameAs: https://doi.org/10.5281/zenodo.53151
   datePublished: '2016-05-26'
   license:
@@ -107,12 +107,12 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
+  - CLA
   - DMPC
   - 1,2-dimyristoyl-sn-glycero-3-phosphocholine
   - DMTAP
   - 1,2-dimyristoyl-3-trimethylammonium-propane
   - SOD
-  - CLA
   - cationic lipid bilayer
   - NaCl
   - Molecular Dynamics Simulation
@@ -160,9 +160,16 @@ bioschema_properties:
     - tap50s05_101ns.tpr
     - tap50s05.top
     - tap50s05_200ns.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.53151
+    identifier: 10.5281/zenodo.53151
+    url: https://doi.org/10.5281/zenodo.53151
+    name: 'Molecular dynamics simulation trajectory of a cationic lipid bilayer: 50/50 mol% DMTAP/DMPC in 0.5 M NaCl'
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.53151
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

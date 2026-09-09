@@ -48,9 +48,9 @@ SOFTWARE: gromacs
 DIR_WRK: /usr/home/bort/Databank
 ID: 466
 bioschema_properties:
-  name: Simulation POPC_512_NaCl_150mM_310K membrane
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (82:9:9) bilayer at 310 K (CHARMM36, GROMACS 2016.1, 4178 ns) [NMRlipids simulation 466]
   alternateName: 512POPC_20480SOL_55SOD_55CLA_310K
-  description: 'Title publication: A Ceramide-Regulated Element in the Late Endosomal Protein LAPTM4B Controls Amino Acid Transporter Interaction Year publication: 2018 DOI publication: 10.1021/acscentsci.7b00582 Description: Simulation POPC membrane using charmm36 at 310K. MD engine: 2016.1 Force field : charmm36 Temperature : 310 K Pressure: 1 bar Simulation time : 4200 ns Saving frequency : 100 ps Molecular content : POPC 512 water 20480 Cl- 55 Na+ 55 Other information: * Center of mass motion removed independently for bilayer and water+ions * 01-* are the merged files. * 02-* are the original simulation files. So do not concatenate 02 and 01 files.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 512 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 82 mol%), 55 CLA (9 mol%) and 55 SOD (9 mol%) at 310 K. Simulated with CHARMM36 in GROMACS 2016.1 for 4178 ns (130158 atoms). Deposited as NMRlipids Databank simulation 466 and available from https://doi.org/10.5281/zenodo.3228177.
   sameAs: https://doi.org/10.5281/zenodo.3228177
   datePublished: '2019-05-28'
   license:
@@ -90,9 +90,9 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - CLA
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
   - SOD
   - Charmm36
   - membrane
@@ -137,9 +137,16 @@ bioschema_properties:
     hasPart:
     - 01-POPC_512_NaCl_150mM_310K_md.xtc
     - 01-POPC_512_NaCl_150mM_310K_md.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3228177
+    identifier: 10.5281/zenodo.3228177
+    url: https://doi.org/10.5281/zenodo.3228177
+    name: Simulation POPC_512_NaCl_150mM_310K membrane
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3228177
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

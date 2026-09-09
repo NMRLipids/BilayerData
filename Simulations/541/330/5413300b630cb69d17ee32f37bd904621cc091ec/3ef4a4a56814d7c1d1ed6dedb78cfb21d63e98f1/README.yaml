@@ -49,9 +49,9 @@ EXPERIMENT:
   - 10.1021/acs.jctc.3c00648/1
 ID: 831
 bioschema_properties:
-  name: POPC membrane simulated with Slipids/CHARMM36 hybrid topology
+  name: Molecular dynamics trajectory of a POPC bilayer at 298 K (C36_Slipids_Hybrid, GROMACS 2024.3, 500 ns) [NMRlipids simulation 831]
   alternateName: POPC_hybrid_slmdp
-  description: Simulations with a hybrid POPC topology. Tails are from Slipids and glycerol and headgroup from CHARMM36. BSc thesis project.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 298 K. Simulated with C36_Slipids_Hybrid in GROMACS 2024.3 for 500 ns (36352 atoms). Deposited as NMRlipids Databank simulation 831 and available from https://doi.org/10.5281/zenodo.15172176.
   sameAs: https://doi.org/10.5281/zenodo.15172176
   datePublished: '2025-04-08'
   license:
@@ -140,8 +140,15 @@ bioschema_properties:
   - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
   - experiments/OrderParameters/10.1039/c2cp42738a/1
   - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.15172176
+    identifier: 10.5281/zenodo.15172176
+    url: https://doi.org/10.5281/zenodo.15172176
+    name: POPC membrane simulated with Slipids/CHARMM36 hybrid topology
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.15172176
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

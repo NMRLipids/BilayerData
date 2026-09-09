@@ -51,9 +51,9 @@ EXPERIMENT:
     CHOL: []
   FORMFACTOR: []
 bioschema_properties:
-  name: MD simulation trajectory of SDPE/DOG/CHOL bilayer and related files
+  name: Molecular dynamics trajectory of a SDPE/CHOL/DOG (58:33:9) bilayer at 310 K (Lipid17, GROMACS 18.7, 1000 ns) [NMRlipids simulation 721]
   alternateName: DOGandCHOLinSDPEwithLipid17
-  description: 'Simulation trajectory pre-equiblirated SDPE/DOG/CHOL bilayer and related files from all-atom molecular dynamics simulations. Simulations have been performed with GROMACS-2018.7 with Lipid17 forcefield and TIP3P water model. The trajectory is 0-1000 ns, and we have disregarded the first 100 ns in our analysis. The system in the trajectory consists of 74 SDPE, 12 DOG, 42 CHOL and 6400 water molecules. Temperature 310 K, pressure 1 bar. Publication: https://doi.org/10.1016/j.bbamem.2022.183961'
+  description: Molecular dynamics trajectory of a lipid bilayer of 74 SDPE (1-stearoyl-2-docosahexaenoyl-sn-glycero-3-phosphoethanolamine, 58 mol%), 42 CHOL (cholesterol, 33 mol%) and 12 DOG (1,2-dioleoyl-sn-glycerol, 9 mol%) at 310 K. Simulated with Lipid17 in GROMACS 18.7 for 1000 ns (33542 atoms). Deposited as NMRlipids Databank simulation 721 and available from https://doi.org/10.5281/zenodo.6823118.
   sameAs: https://doi.org/10.5281/zenodo.6823118
   datePublished: '2022-07-12'
   license:
@@ -97,10 +97,10 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - SDPE
   - 1-stearoyl-2-docosahexaenoyl-sn-glycero-3-phosphoethanolamine
-  - DOG
-  - 1,2-dioleoyl-sn-glycerol
   - CHOL
   - cholesterol
+  - DOG
+  - 1,2-dioleoyl-sn-glycerol
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -142,9 +142,16 @@ bioschema_properties:
     hasPart:
     - run_sdpe_dog_chol_lipid17_0-1us.xtc
     - run_sdpe_dog_chol_lipid17.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.6823118
+    identifier: 10.5281/zenodo.6823118
+    url: https://doi.org/10.5281/zenodo.6823118
+    name: MD simulation trajectory of SDPE/DOG/CHOL bilayer and related files
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.6823118
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

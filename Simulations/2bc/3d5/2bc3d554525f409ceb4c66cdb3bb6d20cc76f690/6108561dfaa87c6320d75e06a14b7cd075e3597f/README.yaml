@@ -51,9 +51,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 39
 bioschema_properties:
-  name: Md Simulation Trajectory For Popc Bilayer With 140Mm Nacl (Orange, Gromacs 4.5.)
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (84:8:8) bilayer at 298 K (Orange, GROMACS 4.5, 60 ns) [NMRlipids simulation 39]
   alternateName: 72POPC_2866SOL_7CLA_7SOD_298K
-  description: Equilibrated POPC lipid bilayer simulation ran with Gromacs 4.5, Orange, 60ns, T=298K, 72 POPC molecules, 2866 water molecules, 7 Na molecules, 7 Cl molecules. This data is used in the NMRLipids II project (nmrlipids.blospot.fi, https://github.com/NMRLipids/lipid_ionINTERACTION). The Orange model is unpublished lipid model developed by Luca Monticelli et al. http://perso.ibcp.fr/luca.monticelli/research/index.html. Beta version of the model is used here, thus only trajectory is shared.
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 84 mol%), 7 CLA (8 mol%) and 7 SOD (8 mol%) at 298 K. Simulated with Orange in GROMACS 4.5 for 60 ns (12356 atoms). Deposited as NMRlipids Databank simulation 39 and available from https://doi.org/10.5281/zenodo.34491.
   sameAs: https://doi.org/10.5281/zenodo.34491
   datePublished: '2015-12-02'
   license:
@@ -137,9 +137,16 @@ bioschema_properties:
     hasPart:
     - popcRUN2.xtc
     - popcRUN2.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.34491
+    identifier: 10.5281/zenodo.34491
+    url: https://doi.org/10.5281/zenodo.34491
+    name: Md Simulation Trajectory For Popc Bilayer With 140Mm Nacl (Orange, Gromacs 4.5.)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.34491
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

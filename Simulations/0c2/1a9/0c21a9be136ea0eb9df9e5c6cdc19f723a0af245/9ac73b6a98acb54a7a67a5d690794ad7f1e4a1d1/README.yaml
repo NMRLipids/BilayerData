@@ -46,9 +46,9 @@ TRJ:
 - - 100-400ns.xtc
 ID: 592
 bioschema_properties:
-  name: POPC:POPG 1:1 MD simulation with CHARMM36 in water and Na+ counter ions
+  name: Molecular dynamics trajectory of a POPC/POPG/SOD (33:33:33) bilayer at 298 K (CHARMM36, GROMACS, 300 ns) [NMRlipids simulation 592]
   alternateName: POPC:POPG(1:1)_T298K
-  description: CHARMM36 POPC:POPG 1:1 bilayer simulation in water. The initial structure was taken from CHARMM-GUI. Temperature is 298 K. The system contains 150 POPC, 150 POPG, 150 sodium ions and 31500 TIP3 water molecules. Total length of simulation is 400 ns. First 100 ns were discarded. Saving frequency of 100-300ns.xtc is 20 ps.
+  description: Molecular dynamics trajectory of a lipid bilayer of 150 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 33 mol%), 150 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 33 mol%) and 150 SOD (33 mol%) at 298 K. Simulated with CHARMM36 in GROMACS for 300 ns (133800 atoms). Deposited as NMRlipids Databank simulation 592 and available from https://doi.org/10.5281/zenodo.3997116.
   sameAs: https://doi.org/10.5281/zenodo.3997116
   datePublished: '2020-08-24'
   license:
@@ -85,10 +85,10 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - POPG
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
   - SOD
   measurementTechnique:
   - '@type': DefinedTerm
@@ -131,9 +131,16 @@ bioschema_properties:
     hasPart:
     - 100-400ns.xtc
     - run_400ns.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3997116
+    identifier: 10.5281/zenodo.3997116
+    url: https://doi.org/10.5281/zenodo.3997116
+    name: POPC:POPG 1:1 MD simulation with CHARMM36 in water and Na+ counter ions
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3997116
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

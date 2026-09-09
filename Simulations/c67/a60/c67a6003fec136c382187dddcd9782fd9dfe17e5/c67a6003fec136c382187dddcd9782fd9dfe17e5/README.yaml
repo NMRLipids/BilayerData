@@ -43,9 +43,9 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1016/j.bbamem.2011.07.022/4
 bioschema_properties:
-  name: DPPC lipid bilayer simulation with CHARMM36-LJPME force field using OpenMM
+  name: Molecular dynamics trajectory of a DPPC bilayer at 323 K (CHARMM36-LJPME, OPENMM, 300 ns) [NMRlipids simulation 728]
   alternateName: DPPC_SOL_323K
-  description: DPPC lipid bilayer simulation (300 ns) with CHARMM36-LJPME force field using OpenMM at 323K. Used in https://doi.org/10.1021/acs.jctc.1c00951 The force field parameters were downloaded from https://terpconnect.umd.edu/%7Ejbklauda/ff.html. trajCORRECT1-2.dcd has incorrect timestamps. traj1-2.xtc has correct timestamps.
+  description: Molecular dynamics trajectory of a lipid bilayer of 288 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 323 K. Simulated with CHARMM36-LJPME in OPENMM for 300 ns (64224 atoms). Deposited as NMRlipids Databank simulation 728 and available from https://doi.org/10.5281/zenodo.7476579.
   sameAs: https://doi.org/10.5281/zenodo.7476579
   datePublished: '2022-02-02'
   license:
@@ -130,9 +130,16 @@ bioschema_properties:
   isBasedOn:
   - experiments/OrderParameters/10.1021/bi00687a021/1
   - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/4
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.7476579
+    identifier: 10.5281/zenodo.7476579
+    url: https://doi.org/10.5281/zenodo.7476579
+    name: DPPC lipid bilayer simulation with CHARMM36-LJPME force field using OpenMM
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.7476579
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

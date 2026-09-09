@@ -56,9 +56,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 458
 bioschema_properties:
-  name: LIPID17 POPG-POPE 1:3 Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+  name: Molecular dynamics trajectory of a POPE/SOD/POPG/CLA (52:24:17:7) bilayer at 310 K (Lipid17 for lipids and AMBER ff15ipq for ions, GROMACS 5.1.2, 100 ns) [NMRlipids simulation 458]
   alternateName: 371POPE_126POPG_176SOD_50CLA_25000SOL_310K
-  description: 'Simulation of a POPG-POPE 1:3 bilayer of 500 lipids (126 L-POPG lipids and 374 POPE lipids, 250 per leaflet) is simulated for 500 ns using Gromacs v5.1.2 in water solution with Na+ counterions and 150 mM of NaCl. The LIPID17 model (1), AMBER ff15ipq and TIP3P water model are employed. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top), simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided. ------- (1) Gould, I.R., Skjevik A.A., Dickson, C.J., Madej, B.D., Walker, R.C., "Lipid17: A Comprehensive AMBER Force Field for the Simulation of Zwitterionic and Anionic Lipids", 2018, in prep.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 374 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 52 mol%), 176 SOD (24 mol%), 126 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 17 mol%) and 50 CLA (7 mol%) at 310 K. Simulated with Lipid17 for lipids and AMBER ff15ipq for ions in GROMACS 5.1.2 for 100 ns (137978 atoms). Deposited as NMRlipids Databank simulation 458 and available from https://doi.org/10.5281/zenodo.2579061.
   sameAs: https://doi.org/10.5281/zenodo.2579061
   datePublished: '2019-02-27'
   license:
@@ -98,9 +98,9 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPE
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  - SOD
   - POPG
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
-  - SOD
   - CLA
   - POPG-POPE 1:3
   - LIPID17
@@ -146,9 +146,16 @@ bioschema_properties:
     - m_400_500_PG_PE_1_3_lipid.xtc
     - md_00.tpr
     - gromacs.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.2579061
+    identifier: 10.5281/zenodo.2579061
+    url: https://doi.org/10.5281/zenodo.2579061
+    name: LIPID17 POPG-POPE 1:3 Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.2579061
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

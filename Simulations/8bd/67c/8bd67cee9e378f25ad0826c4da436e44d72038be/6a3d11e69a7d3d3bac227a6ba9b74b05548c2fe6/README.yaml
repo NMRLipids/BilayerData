@@ -43,9 +43,9 @@ TRJ:
 TEMPERATURE: 300.0
 ID: 149
 bioschema_properties:
-  name: MacRog POPC/POPE 1:1 MD simulation (300 K - 500ns - 1 bar)
+  name: Molecular dynamics trajectory of a POPC/POPE (50:50) bilayer at 300 K (MacRog, GROMACS, 500 ns) [NMRlipids simulation 149]
   alternateName: POPC:POPE(1:1)_T300K
-  description: 'MacRog POPC/POPE 1:1 bilayer simulation. Starting structure from CHARMM-GUI: the initial PDB file was modified to match MacRog nomenclature and atom order. Temperature was set to 300 K and pressure to 1 bar with 128 lipids fully hydrated: 40 water molecules per lipid. The trajectory contains the whole simulation from 0 to 500 ns skipped every 100 ps and centered on the P atoms. No ions were added as there is no charge in the system. This bilayer was used to calculate the order parameter and the area per lipid for the NMRLipids project (on the time window 200-500 ns). The popc.itp and pope.itp files were obtained from the paper doi : 10.1016/j.dib.2016.03.067. Several corrections have been made to the original files (for more information, go check https://www.dsimb.inserm.fr/~fuchs/project_Samuli/POPC_POPE/report_results_comparison.pdf). We provide here the corrected itp files.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 64 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) and 64 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 50 mol%) at 300 K. Simulated with MacRog in GROMACS for 500 ns (31936 atoms). Deposited as NMRlipids Databank simulation 149 and available from https://doi.org/10.5281/zenodo.3725637.
   sameAs: https://doi.org/10.5281/zenodo.3725637
   datePublished: '2020-03-26'
   license:
@@ -130,9 +130,16 @@ bioschema_properties:
     hasPart:
     - md_OK_100.xtc
     - md.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3725637
+    identifier: 10.5281/zenodo.3725637
+    url: https://doi.org/10.5281/zenodo.3725637
+    name: MacRog POPC/POPE 1:1 MD simulation (300 K - 500ns - 1 bar)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3725637
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -37,9 +37,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 562
 bioschema_properties:
-  name: Pure POPC Membrane Simulation Using Charmm-Drude Force Field with OpenMM
+  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (Charmm-Drude polarizable, OPENMM 7.4.1, 2 ns) [NMRlipids simulation 562]
   alternateName: 72POPC_303K (equilibriated using Charmm36)
-  description: 400 ns MD simulation of pure POPC membrane using Charmm-Drude polarizable force field. The system contains 72 POPC lipids and 2809 SWM4 water molecules. The simulation have been performed using OpenMM 7.4.1 Before running the Drude simulation, the system has been equilibriated using Charmm36 force field for 200 ns. The last frame of that simulation was used to generate Drude polarizable model. The first 100 ns of the Drude simulation has been discarded from this dataset. This dataset does not contain the water molecules. Please note that the trajectories might need to be realigned.
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with Charmm-Drude polarizable in OPENMM 7.4.1 for 2 ns (13968 atoms). Deposited as NMRlipids Databank simulation 562 and available from https://doi.org/10.5281/zenodo.3865283.
   sameAs: https://doi.org/10.5281/zenodo.3865283
   datePublished: '2020-05-29'
   license:
@@ -111,9 +111,16 @@ bioschema_properties:
     hasPart:
     - production_after_equilibration_400ns_nowater.dcd
     - production_last_frame_nowater.pdb
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3865283
+    identifier: 10.5281/zenodo.3865283
+    url: https://doi.org/10.5281/zenodo.3865283
+    name: Pure POPC Membrane Simulation Using Charmm-Drude Force Field with OpenMM
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3865283
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

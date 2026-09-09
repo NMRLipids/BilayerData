@@ -55,9 +55,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 355
 bioschema_properties:
-  name: Popc_Ulmschneider_Opls_Nacl_1Mol
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (45:27:27) bilayer at 298.15 K (Ulmschneider, GROMACS 5.0.3, 200 ns) [NMRlipids simulation 355]
   alternateName: 128POPC_5120SOL_77SOD_77CLA_298K
-  description: 'MD simulation trajectory and related files for fully hydrated POPC bilayer with 1M NaCl. The Ulmschneider force field for POPC was used with Gromacs 5.0.3 [1,2]. Ions were described by OPLS-AA force field (Gromacs 5.0.3). Conditions: T=298.15, 128 POPC molecules, 5120 tip3p waters, 77 Na, 77 Cl. 200ns trajectory (preceded by 5ns NPT equillibration). This data is ran for the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi [1] J.P. Ulmschneider & M.B. Ulmschneider, United Atom Lipid Parameters for Combination with the Optimized Potentials for Liquid Simulations All-Atom Force Field, JCTC 2009, 5(7), 1803–1813 [2] http://lipidbook.bioch.ox.ac.uk/package/show/id/52.html'
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 45 mol%), 77 CLA (27 mol%) and 77 SOD (27 mol%) at 298.15 K. Simulated with Ulmschneider in GROMACS 5.0.3 for 200 ns (22170 atoms). Deposited as NMRlipids Databank simulation 355 and available from https://doi.org/10.5281/zenodo.30894.
   sameAs: https://doi.org/10.5281/zenodo.30894
   datePublished: '2015-09-11'
   license:
@@ -97,8 +97,8 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  - SOD
   - CLA
+  - SOD
   - ULMSCHNEIDER
   - Gromacs
   measurementTechnique:
@@ -144,9 +144,16 @@ bioschema_properties:
     - run_200ns_gpu.tpr
     - topol.top
     - confout.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.30894
+    identifier: 10.5281/zenodo.30894
+    url: https://doi.org/10.5281/zenodo.30894
+    name: Popc_Ulmschneider_Opls_Nacl_1Mol
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.30894
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

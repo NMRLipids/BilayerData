@@ -41,9 +41,9 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/1
 bioschema_properties:
-  name: POPC Sage 2.2.1-core-priors
+  name: Molecular dynamics trajectory of a POPC bilayer at 300 K (FF-development, GROMACS, 500 ns) [NMRlipids simulation 836]
   alternateName: POPCandTIP3P
-  description: 500 ns simulation, charges assigned with NAGL openff-gnn-am1bcc-0.1.0-rc.3.pt
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with FF-development in GROMACS for 500 ns (32512 atoms). Deposited as NMRlipids Databank simulation 836 and available from https://doi.org/10.5281/zenodo.15065748.
   sameAs: https://doi.org/10.5281/zenodo.15065748
   datePublished: '2025-03-21'
   license:
@@ -128,8 +128,15 @@ bioschema_properties:
   - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
   - experiments/OrderParameters/10.1039/c2cp42738a/1
   - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.15065748
+    identifier: 10.5281/zenodo.15065748
+    url: https://doi.org/10.5281/zenodo.15065748
+    name: POPC Sage 2.2.1-core-priors
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.15065748
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

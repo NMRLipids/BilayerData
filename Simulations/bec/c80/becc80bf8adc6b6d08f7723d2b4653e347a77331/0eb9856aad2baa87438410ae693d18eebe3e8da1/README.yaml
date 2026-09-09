@@ -40,9 +40,9 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/1
 bioschema_properties:
-  name: bilayer9
+  name: Molecular dynamics trajectory of a POPC bilayer at 300 K (FF-development, GROMACS, 288 ns) [NMRlipids simulation 837]
   alternateName: POPCandTIP3P
-  description: Modifications to the LJ parameters of phospahte bound Oxygen based on Amber optimization paper. Topology modification to original force field
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with FF-development in GROMACS for 288 ns (32512 atoms). Deposited as NMRlipids Databank simulation 837 and available from https://doi.org/10.5281/zenodo.15021844.
   sameAs: https://doi.org/10.5281/zenodo.15021844
   datePublished: '2025-03-13'
   license:
@@ -127,8 +127,15 @@ bioschema_properties:
   - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
   - experiments/OrderParameters/10.1039/c2cp42738a/1
   - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.15021844
+    identifier: 10.5281/zenodo.15021844
+    url: https://doi.org/10.5281/zenodo.15021844
+    name: bilayer9
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.15021844
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

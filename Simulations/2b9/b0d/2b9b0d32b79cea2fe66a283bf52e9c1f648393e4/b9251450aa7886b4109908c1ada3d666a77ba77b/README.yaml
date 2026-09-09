@@ -47,9 +47,9 @@ DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 429
 AUTHORS_CONTACT: Kiirikki, M. Anne; Ollila O. H. Samuli
 bioschema_properties:
-  name: Lipid17ecc POPC:POPG 4:1 MD simulation in water with Na+ counter ions
+  name: Molecular dynamics trajectory of a POPC/POPG/SOD (67:17:17) bilayer at 298 K (lipid17ecc, GROMACS, 300 ns) [NMRlipids simulation 429]
   alternateName: POPC:POPG(4:1)_T298K
-  description: Lipid17ecc POPC:POPG 4:1 bilayer simulation in water. The initial structure was taken from https://zenodo.org/record/3693681#.X0OY5RmEZGE . Temperature is 298 K. The system contains 350 POPC, 88 POPG, 88 sodium ions and 26265 SPCE water molecules. Total length of simulation is 400 ns. First 100 ns were discarded as equilibration time. Saving frequency of 100-300ns.xtc is 20 ps.
+  description: Molecular dynamics trajectory of a lipid bilayer of 350 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 67 mol%), 88 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 17 mol%) and 88 SOD (17 mol%) at 298 K. Simulated with lipid17ecc in GROMACS for 300 ns (136959 atoms). Deposited as NMRlipids Databank simulation 429 and available from https://doi.org/10.5281/zenodo.3997154.
   sameAs: https://doi.org/10.5281/zenodo.3997154
   datePublished: '2020-08-24'
   license:
@@ -86,10 +86,10 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - POPG
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
   - SOD
   measurementTechnique:
   - '@type': DefinedTerm
@@ -132,9 +132,16 @@ bioschema_properties:
     hasPart:
     - 100-400ns.xtc
     - run_400ns.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3997154
+    identifier: 10.5281/zenodo.3997154
+    url: https://doi.org/10.5281/zenodo.3997154
+    name: Lipid17ecc POPC:POPG 4:1 MD simulation in water with Na+ counter ions
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3997154
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

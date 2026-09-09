@@ -52,9 +52,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 226
 bioschema_properties:
-  name: 'MD simulations of bilayers containing PC/PG mixtures and CaCl_2: 250POPC_250POPG_neutral'
+  name: Molecular dynamics trajectory of a POPC/POPG/POT (33:33:33) bilayer at 298 K (CHARMM36, GROMACS, 200 ns) [NMRlipids simulation 226]
   alternateName: 250POPC_250POPG_250POT_298K_119974Atoms
-  description: NMRLipids IVb project (nmrlipids.blogspot.fi) Gromacs, CHARMM36 FF, 1 atm, 298K, 200ns (no pre-equilibration) 250 POPC lipids, 250 POPG lipids, 119974 Atoms
+  description: Molecular dynamics trajectory of a lipid bilayer of 250 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 33 mol%), 250 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 33 mol%) and 250 POT (33 mol%) at 298 K. Simulated with CHARMM36 in GROMACS for 200 ns (119974 atoms). Deposited as NMRlipids Databank simulation 226 and available from https://doi.org/10.5281/zenodo.3483787.
   sameAs: https://doi.org/10.5281/zenodo.3483787
   datePublished: '2019-10-12'
   license:
@@ -92,11 +92,11 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - POPG
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
   - POT
-  - POPC
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -139,9 +139,16 @@ bioschema_properties:
     - run.wrapped.xtc
     - step7_1.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3483787
+    identifier: 10.5281/zenodo.3483787
+    url: https://doi.org/10.5281/zenodo.3483787
+    name: 'MD simulations of bilayers containing PC/PG mixtures and CaCl_2: 250POPC_250POPG_neutral'
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3483787
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

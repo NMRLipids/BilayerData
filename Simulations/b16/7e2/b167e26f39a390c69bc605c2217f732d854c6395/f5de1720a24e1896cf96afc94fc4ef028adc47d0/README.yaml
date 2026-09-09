@@ -55,9 +55,9 @@ EXPERIMENT:
   - 10.1021/acs.jctc.3c00648/2
 ID: 305
 bioschema_properties:
-  name: MD simulation trajectory and related files for POPC/cholesterol (7 mol%) bilayer (Berger model delivered by Tieleman, modified Höltje, Gromacs 4.5)
+  name: Molecular dynamics trajectory of a POPC/CHOL (94:6) bilayer at 298 K (Berger and Modified Höltje model for cholesterol, GROMACS 4.5, 50 ns) [NMRlipids simulation 305]
   alternateName: 8CHOL_120POPC_7290SOL_298K_Berger
-  description: Equilibrated POPC lipid bilayer simulation ran with Gromacs 4.5, Berger force field delivered by Peter Tieleman (http://wcm.ucalgary.ca/tieleman/downloads), Modified Höltje model for cholesterol (http://dx.doi.org/10.1016/S0005-2736(01)00270-X), 50ns, T=298K, 120 POPC molecules, 7290 water molecules, 8 cholesterol molecules. This data is used in http://dx.doi.org/10.1039/C2CP42738A and in the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi. If data is used, please cite [Ferreira et al. Phys. Chem. Chem. Phys. , 2013,15, 1976-1989], the nmrlipids.blogspot.fi project and the original publication related to the force field.
+  description: Molecular dynamics trajectory of a lipid bilayer of 120 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 94 mol%) and 8 CHOL (cholesterol, 6 mol%) at 298 K. Simulated with Berger and Modified Höltje model for cholesterol in GROMACS 4.5 for 50 ns (28342 atoms). Deposited as NMRlipids Databank simulation 305 and available from https://doi.org/10.5281/zenodo.4643899.
   sameAs: https://doi.org/10.5281/zenodo.4643899
   datePublished: '2014-12-17'
   license:
@@ -148,9 +148,16 @@ bioschema_properties:
   isBasedOn:
   - experiments/OrderParameters/10.1039/c2cp42738a/2
   - experiments/FormFactors/10.1021/acs.jctc.3c00648/2
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.4643899
+    identifier: 10.5281/zenodo.4643899
+    url: https://doi.org/10.5281/zenodo.4643899
+    name: MD simulation trajectory and related files for POPC/cholesterol (7 mol%) bilayer (Berger model delivered by Tieleman, modified Höltje, Gromacs 4.5)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.4643899
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

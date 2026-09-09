@@ -62,9 +62,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 370
 bioschema_properties:
-  name: Md Simulation Trajectory Of A Popc/Pops (4:1) Bilayer With 1M Kcl, Berger Force Field For Lipids, Dang'S For K+ And Ffgmx For Cl-
+  name: Molecular dynamics trajectory of a POT/POPC/CLA/POPS (34:32:25:8) bilayer at 310 K (Berger, GROMACS 4.0.7, 50 ns) [NMRlipids simulation 370]
   alternateName: 102POPC_22POPS_4290SOL_106POT_80CLA_310K
-  description: 'MD simulation trajectory of a POPC/POPS (4:1) bilayer with 1M KCl (102 POPC, 26 POPS, 4290 WAT, 106 K+, 80 Cl-). Additional K+ cations added to neutralize the negative charge of POPS. Berger force field for lipids, Dang''s for K+ (), ffgmx for Cl- are employed. Gromacs 4.0.7, T=310K, 200 ns trajectories were calculated with the last 50 ns stored here).K+ nonbonding parameters (from Dang''s JPC B 1999, 103, 8195 based on Vacha et al. Biophys. J 2009, 96, 4493.): sig=0.3048655 eps=0.418400 Used in: P. Jurkiewicz, L. Cwiklik, A. Vojtiskova, P. Jungwirth, M. Hof, Structure, Dynamics, and Hydration of POPC/POPS Bilayers Suspended in NaCl, KCl, and CsCl BBA Biomembranes 2012 , 1818, 609-616. DOI: 10.1016/j.bbamem.2011.11.033'
+  description: Molecular dynamics trajectory of a lipid bilayer of 106 POT (34 mol%), 102 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 32 mol%), 80 CLA (25 mol%) and 26 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 8 mol%) at 310 K. Simulated with Berger in GROMACS 4.0.7 for 50 ns (19790 atoms). Deposited as NMRlipids Databank simulation 370 and available from https://doi.org/10.5281/zenodo.838225.
   sameAs: https://doi.org/10.5281/zenodo.838225
   datePublished: '2017-08-02'
   license:
@@ -103,12 +103,12 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
+  - POT
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
   - POPS
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
-  - POT
-  - CLA
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -152,9 +152,16 @@ bioschema_properties:
     - topol.tpr
     - topol.top
     - conf.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.838225
+    identifier: 10.5281/zenodo.838225
+    url: https://doi.org/10.5281/zenodo.838225
+    name: Md Simulation Trajectory Of A Popc/Pops (4:1) Bilayer With 1M Kcl, Berger Force Field For Lipids, Dang'S For K+ And Ffgmx For Cl-
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.838225
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

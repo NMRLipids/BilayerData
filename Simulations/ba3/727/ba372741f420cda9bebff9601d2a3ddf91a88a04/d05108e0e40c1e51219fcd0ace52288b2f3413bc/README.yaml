@@ -37,9 +37,9 @@ EXPERIMENT:
     POPE: []
   FORMFACTOR: []
 bioschema_properties:
-  name: OpenFF Pure POPE
+  name: Molecular dynamics trajectory of a POPE bilayer at 300 K (OpenFF, GROMACS, 200 ns) [NMRlipids simulation 791]
   alternateName: POPE_128_OPENFF_300K
-  description: 200 ns MD production of a pure POPE bilayer using OpenFF parameters.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 300 K. Simulated with OpenFF in GROMACS for 200 ns (31000 atoms). Deposited as NMRlipids Databank simulation 791 and available from https://doi.org/10.5281/zenodo.8411733.
   sameAs: https://doi.org/10.5281/zenodo.8411733
   datePublished: '2023-10-06'
   license:
@@ -120,9 +120,16 @@ bioschema_properties:
     - md.xtc
     - md.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8411733
+    identifier: 10.5281/zenodo.8411733
+    url: https://doi.org/10.5281/zenodo.8411733
+    name: OpenFF Pure POPE
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.8411733
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

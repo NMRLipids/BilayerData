@@ -46,9 +46,9 @@ EXPERIMENT:
   - 10.1021/acs.jctc.3c00648/1
 ID: 115
 bioschema_properties:
-  name: Berger Pure Popc Md Simulation (300 K - 300Ns - 1 Bar)
+  name: Molecular dynamics trajectory of a POPC bilayer at 300 K (Berger, GROMACS, 300 ns) [NMRlipids simulation 115]
   alternateName: 256POPC_10342SOL_300K_Berger
-  description: Berger POPC pure bilayer simulation (300 K, with 256 POPC lipids fully hydrated with 40 water molecules per lipid). The trajectory contains the whole simulation from 0 to 300 ns skipped every 100 ps and centered on the P atoms. No ions were added as there is no global net charge in the system. This bilayer was used to calculate the order parameter and the area per lipid for the NMRlipids IV project (on the time window 100-300 ns).
+  description: Molecular dynamics trajectory of a lipid bilayer of 256 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with Berger in GROMACS for 300 ns (44338 atoms). Deposited as NMRlipids Databank simulation 115 and available from https://doi.org/10.5281/zenodo.1402417.
   sameAs: https://doi.org/10.5281/zenodo.1402417
   datePublished: '2018-08-23'
   license:
@@ -136,9 +136,16 @@ bioschema_properties:
   - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
   - experiments/OrderParameters/10.1039/c2cp42738a/1
   - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1402417
+    identifier: 10.5281/zenodo.1402417
+    url: https://doi.org/10.5281/zenodo.1402417
+    name: Berger Pure Popc Md Simulation (300 K - 300Ns - 1 Bar)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1402417
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

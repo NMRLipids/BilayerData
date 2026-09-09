@@ -46,9 +46,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 118
 bioschema_properties:
-  name: 'Md Simulation Trajectory Of A Lipid Bilayer: 70/30 Mol% Popc/Cholesterol . Slipids, Gromacs 4.6.3. 2016.'
+  name: Molecular dynamics trajectory of a POPC/CHOL (70:30) bilayer at 298 K (Slipids, GROMACS 4.6.3, 100 ns) [NMRlipids simulation 118]
   alternateName: 154CHOL_358POPC_21183SOL_298K
-  description: 'MD simulation trajectory files, for fully hydrated POPC + CHOLESTEROL bilayer (70/30 mol%) [358 POPC, 154 CHOL, 21183 WAT]. The SLIPIDS force field was used with Gromacs 4.6.3. Conditions: T=298K. 170 ns each trajectory, last 100 ns analyzed.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 358 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 70 mol%) and 154 CHOL (cholesterol, 30 mol%) at 298 K. Simulated with Slipids in GROMACS 4.6.3 for 100 ns (122917 atoms). Deposited as NMRlipids Databank simulation 118 and available from https://doi.org/10.5281/zenodo.62026.
   sameAs: https://doi.org/10.5281/zenodo.62026
   datePublished: '2016-09-10'
   license:
@@ -85,10 +85,10 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - CHOL
-  - cholesterol
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CHOL
+  - cholesterol
   - slipids
   - gromacs
   measurementTechnique:
@@ -132,9 +132,16 @@ bioschema_properties:
     hasPart:
     - popc30_T298_every100ps.xtc
     - popc30_T298_every100ps.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.62026
+    identifier: 10.5281/zenodo.62026
+    url: https://doi.org/10.5281/zenodo.62026
+    name: 'Md Simulation Trajectory Of A Lipid Bilayer: 70/30 Mol% Popc/Cholesterol . Slipids, Gromacs 4.6.3. 2016.'
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.62026
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

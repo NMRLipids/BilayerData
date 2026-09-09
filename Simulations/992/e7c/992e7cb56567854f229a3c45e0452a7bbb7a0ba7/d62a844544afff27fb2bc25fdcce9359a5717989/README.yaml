@@ -55,9 +55,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 197
 bioschema_properties:
-  name: CHARMM36 POPG-POPE 1:3 Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+  name: Molecular dynamics trajectory of a POPE/SOD/POPG/CLA (52:24:17:7) bilayer at 310 K (CHARMM36, GROMACS 5.1.2, 100 ns) [NMRlipids simulation 197]
   alternateName: 126POPG_374POPE_25000SOL_176SOD_50CLA_310K
-  description: Simulation of a POPG-POPE 1:3 bilayer of 500 lipids (126 L-POPG lipids and 374 POPE lipids, 250 per leaflet) is simulated for 500 ns using Gromacs v5.1.2 in water solution with Na+ counterions and 150 mM of NaCl. The CHARMM36 model and CHARMM TIP3P water model are employed. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top), simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided.
+  description: Molecular dynamics trajectory of a lipid bilayer of 374 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 52 mol%), 176 SOD (24 mol%), 126 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 17 mol%) and 50 CLA (7 mol%) at 310 K. Simulated with CHARMM36 in GROMACS 5.1.2 for 100 ns (137978 atoms). Deposited as NMRlipids Databank simulation 197 and available from https://doi.org/10.5281/zenodo.2579108.
   sameAs: https://doi.org/10.5281/zenodo.2579108
   datePublished: '2019-02-27'
   license:
@@ -95,12 +95,12 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - POPG
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
-  - CLA
   - POPE
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
   - SOD
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - CLA
   - POPG-POPE 1:3
   - CHARMM36
   measurementTechnique:
@@ -145,9 +145,16 @@ bioschema_properties:
     - m_400_500_PG_PE_1_3_charmm.xtc
     - md_04.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.2579108
+    identifier: 10.5281/zenodo.2579108
+    url: https://doi.org/10.5281/zenodo.2579108
+    name: CHARMM36 POPG-POPE 1:3 Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.2579108
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

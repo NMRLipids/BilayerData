@@ -63,9 +63,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 434
 bioschema_properties:
-  name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS with the lipid17 force field, NaCl and KCl salt concentrations
+  name: Molecular dynamics trajectory of a CLA/POT/POPC/POPS/SOD (40:40:14:3:3) bilayer at 298 K (Lipid17 and Dang ions, GROMACS 2018.0, 1000 ns) [NMRlipids simulation 434]
   alternateName: 12POPS_60POPC_3213SOL_12SOD_174POT_174CLA_298K
-  description: Classical molecular dynamics simulations of various mixtures of POPC:POPS lipid bilayers in water solution at various NaCl, KCl and CaCl2 concentrations, with Na+ counterions (and K+ counterions when noted with "_KCl" suffix). Lipid17 force field parameters used for lipids, TIP3p water model and Dang ions. The file names report the number of additional cations. simulations performed with Gromacs 2018.0 (*.xtc files) simulation length 1000 ns = 1 microsecond temperature 298 K Gromacs simulation setting is in the file npt_lipid_bilayer.mdp
+  description: Molecular dynamics trajectory of a lipid bilayer of 174 CLA (40 mol%), 174 POT (40 mol%), 60 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 14 mol%), 12 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 3 mol%) and 12 SOD (3 mol%) at 298 K. Simulated with Lipid17 and Dang ions in GROMACS 2018.0 for 1000 ns (19563 atoms). Deposited as NMRlipids Databank simulation 434 and available from https://doi.org/10.5281/zenodo.1487895.
   sameAs: https://doi.org/10.5281/zenodo.1487895
   datePublished: '2018-11-14'
   license:
@@ -103,13 +103,13 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - POPS
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  - CLA
+  - POT
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
   - SOD
-  - POT
-  - CLA
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -153,9 +153,16 @@ bioschema_properties:
     - lipid17_5PC-1PS-mix_174KCl_298K.tpr
     - lipid17_5PC-1PS-mix_174KCl_298K.top
     - lipid17_5PC-1PS-mix_174KCl_298K.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1487895
+    identifier: 10.5281/zenodo.1487895
+    url: https://doi.org/10.5281/zenodo.1487895
+    name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS with the lipid17 force field, NaCl and KCl salt concentrations
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1487895
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

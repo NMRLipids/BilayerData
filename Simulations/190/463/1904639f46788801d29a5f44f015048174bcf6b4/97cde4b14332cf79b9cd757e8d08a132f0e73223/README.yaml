@@ -40,9 +40,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 255
 bioschema_properties:
-  name: 256 DPPC Molecules bilayer in pure Water, simulated at 288K (gel) or 358K (fluid)
+  name: Molecular dynamics trajectory of a DPPC bilayer at 358 K (CHARMM36, GROMACS 2020, 25 ns) [NMRlipids simulation 255]
   alternateName: 256DPPC_42642SOL_358K
-  description: 'Publication: MLLPA: A Machine Learning-assisted Python module to study phase-specific events in lipid membranes Published on: 08 April 2021 Journal : J Comp Chem, 2021, DOI: 10.1002/jcc.26508 Description : Simulation files used to train our Python module to identify the thermodynamic phase of individual lipid molecules in a bilayer, as well as the simulation files analysed by the machine learning models. More information on the module can be found on its website. The training files are named dppc_gel.gro and dppc_fluid.gro. They respectively correspond to the final frame of the systems simulated at 288K and 358K. All other files are the files analysed by the module. System composition: DPPC molecules: 256 with 130 atoms each Water molecules: 42,492 with 3 atoms each Simulation box dimensions (approx.): 9 x 9 x 20 nm Simulation details: Software: Gromacs (v. 2020) Forcefield: Charmm36 (v. June 2015) - Water: TIP3P Thermostat: Nose-hoover (0.4ps, 2 groups) Barostat: Parrinello-Rahman semi-isotropic (2.0ps, 1.0 bar on each axis, 4.5e-5 bar-1) Duration: 25 ns (after stabilisation)'
+  description: Molecular dynamics trajectory of a lipid bilayer of 256 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 358 K. Simulated with CHARMM36 in GROMACS 2020 for 25 ns (161206 atoms). Deposited as NMRlipids Databank simulation 255 and available from https://doi.org/10.5281/zenodo.4300706.
   sameAs: https://doi.org/10.5281/zenodo.4300706
   datePublished: '2020-12-01'
   license:
@@ -130,9 +130,16 @@ bioschema_properties:
     hasPart:
     - dppc_fluid.xtc
     - dppc_fluid.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.4300706
+    identifier: 10.5281/zenodo.4300706
+    url: https://doi.org/10.5281/zenodo.4300706
+    name: 256 DPPC Molecules bilayer in pure Water, simulated at 288K (gel) or 358K (fluid)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.4300706
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

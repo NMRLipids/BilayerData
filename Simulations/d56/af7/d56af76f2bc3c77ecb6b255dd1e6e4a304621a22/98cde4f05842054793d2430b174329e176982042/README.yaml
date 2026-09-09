@@ -50,9 +50,9 @@ WARNINGS:
   PBC: z-jumps
 ID: 421
 bioschema_properties:
-  name: 'MD simulations of bilayers containing POPC and Cholesterol: 84POPC_44CHL_31Nwat_neutral (lipid14)'
+  name: Molecular dynamics trajectory of a POPC/CHOL (66:34) bilayer at 303 K (Lipid14, GROMACS 5.0.4, 200 ns) [NMRlipids simulation 421]
   alternateName: 84POPC_44CHOL_3968SOL_303K
-  description: NMRLipids III CholXray project (nmrlipids.blogspot.fi) Gromacs 5.0.4, lipid14 FF (Madej et al. JPCB 2015, 119, 12424), 1 atm, 303K, 200ns 128 lipids (84 POPC, 44 CHL), N_wat/lipid = 31, 26416 Atoms
+  description: Molecular dynamics trajectory of a lipid bilayer of 84 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 66 mol%) and 44 CHOL (cholesterol, 34 mol%) at 303 K. Simulated with Lipid14 in GROMACS 5.0.4 for 200 ns (26416 atoms). Deposited as NMRlipids Databank simulation 421 and available from https://doi.org/10.5281/zenodo.3871004.
   sameAs: https://doi.org/10.5281/zenodo.3871004
   datePublished: '2020-06-01'
   license:
@@ -136,9 +136,16 @@ bioschema_properties:
     - run.total.xtc
     - step7_production.tpr
     - md.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3871004
+    identifier: 10.5281/zenodo.3871004
+    url: https://doi.org/10.5281/zenodo.3871004
+    name: 'MD simulations of bilayers containing POPC and Cholesterol: 84POPC_44CHL_31Nwat_neutral (lipid14)'
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3871004
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

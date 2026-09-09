@@ -39,9 +39,9 @@ EXPERIMENT:
   - 10.1021/acs.jctc.3c00648/1
 ID: 617
 bioschema_properties:
-  name: 'Md Simulation Trajectory Of A Lipid Bilayer: Pure Popc In Water. Slipids, Gromacs 4.6.3. 2016.'
+  name: Molecular dynamics trajectory of a POPC bilayer at 298 K (Slipids, GROMACS, 100 ns) [NMRlipids simulation 617]
   alternateName: POPC_T298K
-  description: 'MD simulation trajectory files, for fully hydrated POPC bilayer [512 POPC, 23943 WAT]. The SLIPIDS force field was used with Gromacs 4.6.3. Conditions: T=298K. 170 ns each trajectory, last 100 ns analyzed.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 512 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 298 K. Simulated with Slipids in GROMACS for 100 ns (140437 atoms). Deposited as NMRlipids Databank simulation 617 and available from https://doi.org/10.5281/zenodo.166034.
   sameAs: https://doi.org/10.5281/zenodo.166034
   datePublished: '2016-11-21'
   license:
@@ -127,9 +127,16 @@ bioschema_properties:
   - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
   - experiments/OrderParameters/10.1039/c2cp42738a/1
   - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.166034
+    identifier: 10.5281/zenodo.166034
+    url: https://doi.org/10.5281/zenodo.166034
+    name: 'Md Simulation Trajectory Of A Lipid Bilayer: Pure Popc In Water. Slipids, Gromacs 4.6.3. 2016.'
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.166034
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

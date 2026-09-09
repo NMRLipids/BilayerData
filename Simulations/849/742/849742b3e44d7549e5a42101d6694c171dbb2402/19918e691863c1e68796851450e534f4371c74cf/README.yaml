@@ -54,9 +54,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 19
 bioschema_properties:
-  name: Dppc_Berger_Opls06_Nacl_Scaled
+  name: Molecular dynamics trajectory of a DPPC/CLA/SOD (82:9:9) bilayer at 323 K (OPLSAA-compatible Berger-DPPC-06, GROMACS 4.6.7, 120 ns) [NMRlipids simulation 19]
   alternateName: 72DPPC_2864SOL_8SOD_8CLA_323K
-  description: 'MD simulation trajectory and related files for fully hydrated DPPC bilayer with 150 mM NaCl. The OPLS-AA-compatible Berger-DPPC-06 force field (DOI:10.1088/0953--8984/18/28/S07) was used with Gromacs 4.6.7. Ions were described by the Åqvist parameters. The ion charges were scaled by a factor 0.7. Conditions: T=323K, 72 lipids, 2880 SPC waters, 8 Na, 8 Cl. 120 ns trajectory, last 60 ns analyzed.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine, 82 mol%), 8 CLA (9 mol%) and 8 SOD (9 mol%) at 323 K. Simulated with OPLSAA-compatible Berger-DPPC-06 in GROMACS 4.6.7 for 120 ns (12208 atoms). Deposited as NMRlipids Databank simulation 19 and available from https://doi.org/10.5281/zenodo.16485.
   sameAs: https://doi.org/10.5281/zenodo.16485
   datePublished: '2015-03-30'
   license:
@@ -95,8 +95,8 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - DPPC
   - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
-  - SOD
   - CLA
+  - SOD
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -140,9 +140,16 @@ bioschema_properties:
     - md.tpr
     - topol.top
     - md.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.16485
+    identifier: 10.5281/zenodo.16485
+    url: https://doi.org/10.5281/zenodo.16485
+    name: Dppc_Berger_Opls06_Nacl_Scaled
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.16485
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -45,9 +45,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 81
 bioschema_properties:
-  name: Md Trajectory For Dlpc Bilayer (Berger, Gromacs 4.5.4), Nw=4 W/L
+  name: Molecular dynamics trajectory of a DLPC bilayer at 300 K (Berger-DLPC-13, GROMACS 4.5.4, 80 ns) [NMRlipids simulation 81]
   alternateName: 72DLPC_288SOL_300K
-  description: 'Equilibrated DLPC lipid bilayer ran with Gromacs 4.5.4 with Berger force field, 80ns, T=300K, 72 DLPC molecules, hydration level nw=4 water/lipid. This data is used in the project "Matching lipid force fields with NMR data". More information at : http://nmrlipids.blogspot.fi/'
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 DLPC (1,2-dilauroyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with Berger-DLPC-13 in GROMACS 4.5.4 for 80 ns (3888 atoms). Deposited as NMRlipids Databank simulation 81 and available from https://doi.org/10.5281/zenodo.16295.
   sameAs: https://doi.org/10.5281/zenodo.16295
   datePublished: '2015-03-24'
   license:
@@ -128,9 +128,16 @@ bioschema_properties:
     - topol.tpr
     - system.top
     - init2_TI5.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.16295
+    identifier: 10.5281/zenodo.16295
+    url: https://doi.org/10.5281/zenodo.16295
+    name: Md Trajectory For Dlpc Bilayer (Berger, Gromacs 4.5.4), Nw=4 W/L
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.16295
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

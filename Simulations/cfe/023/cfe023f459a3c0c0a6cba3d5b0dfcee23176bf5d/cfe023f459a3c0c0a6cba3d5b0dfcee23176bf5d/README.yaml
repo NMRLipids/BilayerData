@@ -59,9 +59,9 @@ EXPERIMENT:
     TOCL: []
   FORMFACTOR: []
 bioschema_properties:
-  name: MD simulation of a model Gram-positive bilayer membrane (60% PG, 35% lysyl-PG, 5% CL)
+  name: Molecular dynamics trajectory of a POPG/POT/DPPGK/CLA/TOCL (40:27:23:7:3) bilayer at 303 K (Charmm36, OPENMM 7.5.1, 500 ns) [NMRlipids simulation 782]
   alternateName: Gram-positive bilayer membrane (60% PG, 35% lysyl-PG, 5% CL)
-  description: 'Composition : Model bilayer composition aimed at replicating the behavior of the Staphylococcus aureus membrane (See also Mohanan et al. Chem Sci 2020, 11, 4669: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8159255/ ) Per leaflet we have 48 POPG (16:0 / 18:1; -1 net charge), 28 DPPGK (16:0 / 16:0; +1 net charge), 4 TOCL1 (18:1,18:1 / 18:1,18:1; -1 net charge), giving 60% PG, 35% lysyl-PG, 5% CL. Bilayer is symmetric. Technical details : OpenMM 7.5.1 CHARMM36m force field 6,712 TIP3P waters 150 mM KCl (64 K+, 16 Cl-) Temperature = 303.15 K Trajectory output every 100 ps Trajectory length = 500 ns ( = 5,000 frames) (Standard CHARMM-GUI relaxation protocol)'
+  description: Molecular dynamics trajectory of a lipid bilayer of 96 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 40 mol%), 64 POT (27 mol%), 56 DPPGK (1,2-dioleoyl-sn-glycero-3-[phospho-rac-(3-lysyl(1-glycerol))] (lysyl-PG), 23 mol%), 16 CLA (7 mol%) and 8 TOCL (1’,3’-Bis[1,2-dioleoyl-sn-glycero-3-phospho]-glycerol, 3 mol%) at 303 K. Simulated with Charmm36 in OPENMM 7.5.1 for 500 ns (42576 atoms). Deposited as NMRlipids Databank simulation 782 and available from https://doi.org/10.5281/zenodo.8415046.
   sameAs: https://doi.org/10.5281/zenodo.8415046
   datePublished: '2023-10-06'
   license:
@@ -101,12 +101,12 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPG
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - POT
   - DPPGK
   - 1,2-dioleoyl-sn-glycero-3-[phospho-rac-(3-lysyl(1-glycerol))] (lysyl-PG)
+  - CLA
   - TOCL
   - 1’,3’-Bis[1,2-dioleoyl-sn-glycero-3-phospho]-glycerol
-  - POT
-  - CLA
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -148,9 +148,16 @@ bioschema_properties:
     hasPart:
     - step7_1.dcd
     - step5_input.pdb
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8415046
+    identifier: 10.5281/zenodo.8415046
+    url: https://doi.org/10.5281/zenodo.8415046
+    name: MD simulation of a model Gram-positive bilayer membrane (60% PG, 35% lysyl-PG, 5% CL)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.8415046
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

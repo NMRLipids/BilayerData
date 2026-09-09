@@ -45,9 +45,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 880
 bioschema_properties:
-  name: LIPID17 POPG Bilayer Simulation (Last 100ns, 310 K) using dihedral type 9 instead of type 1.
+  name: Molecular dynamics trajectory of a POPG/SOD (50:50) bilayer at 310 K (Lipid17(1), GROMACS 5.1.3, 100 ns) [NMRlipids simulation 880]
   alternateName: POPG:310K:Lipid17_specific_ver
-  description: 'Simulation of a L-POPG bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs v5.1.2 in water solution with Na+ counterions and 150 mM of NaCl. The LIPID17 model (1), AMBER ff15ipq and TIP3P water model are employed. It was used dihedral type 9 instead of type 1. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top), simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided. ------- (1) Gould, I.R., Skjevik A.A., Dickson, C.J., Madej, B.D., Walker, R.C., "Lipid17: A Comprehensive AMBER Force Field for the Simulation of Zwitterionic and Anionic Lipids", 2018, in prep.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 500 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 50 mol%) and 500 SOD (50 mol%) at 310 K. Simulated with Lipid17(1) in GROMACS 5.1.3 for 100 ns (139000 atoms). Deposited as NMRlipids Databank simulation 880 and available from https://doi.org/10.5281/zenodo.3832219.
   sameAs: https://doi.org/10.5281/zenodo.3832219
   datePublished: '2020-05-18'
   license:
@@ -135,9 +135,16 @@ bioschema_properties:
     - md.tpr
     - popg_fix.top
     - membrane500ns.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3832219
+    identifier: 10.5281/zenodo.3832219
+    url: https://doi.org/10.5281/zenodo.3832219
+    name: LIPID17 POPG Bilayer Simulation (Last 100ns, 310 K) using dihedral type 9 instead of type 1.
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3832219
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -54,9 +54,9 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 bioschema_properties:
-  name: NAMD Trajectory of a POPC/PSM 70/30 bilayer
+  name: Molecular dynamics trajectory of a POPC/SM16/CLA/SOD (52:22:13:13) bilayer at 298 K (Charmm36, NAMD, 0 ns) [NMRlipids simulation 770]
   alternateName: POPC/PSM (70/30) NAMD
-  description: All-atom bilayer mixture of POPC/PSM 70/30 simulated in an NPT ensemble with NAMD and the CHARMM36 force field from Doktorova et al. 2017 Phys. Chem. Chem. Phys. article (DOI 10.1039/c7cp01921a). The trajectory represents the last 126 ns used for analysis where the area per lipid is equilibrated (the file has 3145 frames output every 40 ps). The bilayer has 200 lipids total (100 lipids per leaflet) and is hydrated with 70 waters/lipid and 140mM NaCl. The simulation was done at 25C (298.15K) and the trajectory is centered on the bilayer midplane.
+  description: Molecular dynamics trajectory of a lipid bilayer of 140 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 52 mol%), 60 SM16 (N-palmitoyl-D-erythro-sphingosylphosphorylcholine, 22 mol%), 35 CLA (13 mol%) and 35 SOD (13 mol%) at 298 K. Simulated with Charmm36 in NAMD for 0 ns (68450 atoms). Deposited as NMRlipids Databank simulation 770 and available from https://doi.org/10.5281/zenodo.8357123.
   sameAs: https://doi.org/10.5281/zenodo.8357123
   datePublished: '2023-09-18'
   license:
@@ -96,12 +96,12 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - SM16
-  - N-palmitoyl-D-erythro-sphingosylphosphorylcholine
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  - SOD
+  - SM16
+  - N-palmitoyl-D-erythro-sphingosylphosphorylcholine
   - CLA
+  - SOD
   - PSM
   - lipid mixture
   - membrane simulation
@@ -147,9 +147,16 @@ bioschema_properties:
     - traj_center.dcd
     - struct.psf
     - struct.pdb
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8357123
+    identifier: 10.5281/zenodo.8357123
+    url: https://doi.org/10.5281/zenodo.8357123
+    name: NAMD Trajectory of a POPC/PSM 70/30 bilayer
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.8357123
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

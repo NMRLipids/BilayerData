@@ -44,9 +44,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 815
 bioschema_properties:
-  name: MD simulation of POPC bilayer with OPLS3e force field. 20 w/l.
+  name: Molecular dynamics trajectory of a POPC bilayer at 300 K (OPLS3e, GROMACS 2019-4, 490 ns) [NMRlipids simulation 815]
   alternateName: 200POPC_4kSOL_300K
-  description: 'MD simulation of POPC (1-palmitoyl-2-oleoyl-phosphatidylcholine) bilayer with OPLS3e force field. 20 w/l. In contrast to previous version, this version contains gromacs format trajectory file popchydr20_10-500ns_step10ps.xtc with corrected time steps. Dataset contains original desmond trajectories (_trj), topologies (-out.cms), input files (.cfg, .msj, .cms), and other files For the ease of the upload, trajectory files (_trj) are divided to 100ns pieces and tarred (named desmond_md_popchydr20_x-xns_.tar.gz) Dataset also contains Gromacs converted files (.xtc, .gro and .top) System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 4000 Simulation time: 500 ns Simulation engine: Desmond 2019-4 Temperature: 300 K'
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with OPLS3e in GROMACS 2019-4 for 490 ns (38800 atoms). Deposited as NMRlipids Databank simulation 815 and available from https://doi.org/10.5281/zenodo.10183802.
   sameAs: https://doi.org/10.5281/zenodo.10183802
   datePublished: '2022'
   license:
@@ -132,8 +132,15 @@ bioschema_properties:
     - final.gro
   isBasedOn:
   - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/5
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.10183802
+    identifier: 10.5281/zenodo.10183802
+    url: https://doi.org/10.5281/zenodo.10183802
+    name: MD simulation of POPC bilayer with OPLS3e force field. 20 w/l.
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.10183802
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

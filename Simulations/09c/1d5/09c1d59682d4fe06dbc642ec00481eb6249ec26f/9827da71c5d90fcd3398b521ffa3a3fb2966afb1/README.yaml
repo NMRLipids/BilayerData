@@ -53,9 +53,9 @@ EXPERIMENT:
     TOCL: []
   FORMFACTOR: []
 bioschema_properties:
-  name: MD simulations of TOCL(TMA/Na) and TLCL(Na) in CHARMM36
+  name: Molecular dynamics trajectory of a TMA/TOCL/CLA (65:30:5) bilayer at 303.15 K (Charmm36, GROMACS 2023.2, 500 ns) [NMRlipids simulation 826]
   alternateName: TOCL_66_TMA_Cl_T303_32w/P
-  description: 'Simulation of TLCL and TOCL is done in GROMACS 2024.x in fully hydrated states using standrad CHARMM-GUI protocol over 500 ns after 100 ns of pre-equilibration (not deposited). Trajectory is saved every 100 ps with velocities. Temperature 303K (v-rescale), pressure semi-isotropic 1bar (parrinello-rahman). Three systems are deposited: TLCL (33/33), NaCl (66*2+15), H2O (~45 w/P) TOCL (33/33), TMACl (66*2+11), H2O (~32 w/P) TOCL (33/33), NaCl (66*2+11), H2O (~40 w/P)'
+  description: Molecular dynamics trajectory of a lipid bilayer of 143 TMA (65 mol%), 66 TOCL (1’,3’-Bis[1,2-dioleoyl-sn-glycero-3-phospho]-glycerol, 30 mol%) and 11 CLA (5 mol%) at 303.15 K. Simulated with Charmm36 in GROMACS 2023.2 for 500 ns (31578 atoms). Deposited as NMRlipids Databank simulation 826 and available from https://doi.org/10.5281/zenodo.13933145.
   sameAs: https://doi.org/10.5281/zenodo.13933145
   datePublished: '2024-10-15'
   license:
@@ -96,9 +96,9 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
+  - TMA
   - TOCL
   - 1’,3’-Bis[1,2-dioleoyl-sn-glycero-3-phospho]-glycerol
-  - TMA
   - CLA
   - Lipids
   - GROMACS
@@ -147,8 +147,15 @@ bioschema_properties:
     - TOCL_TMA_prod500.tpr
     - TOCL_TMA.top
     - TOCL_TMA_prod500ns.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.13933145
+    identifier: 10.5281/zenodo.13933145
+    url: https://doi.org/10.5281/zenodo.13933145
+    name: MD simulations of TOCL(TMA/Na) and TLCL(Na) in CHARMM36
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.13933145
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

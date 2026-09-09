@@ -57,9 +57,9 @@ DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 180
 AUTHORS_CONTACT: Kiirikki, M. Anne; Ollila O. H. Samuli
 bioschema_properties:
-  name: POPC:POPG 4:1 MD simulation with CHARMM36 in 0.1 M CaCL2 solution with Na+ counter ions
+  name: Molecular dynamics trajectory of a POPC/CLA/POPG/SOD/CAL (52:14:13:13:7) bilayer at 298 K (CHARMM36, GROMACS, 300 ns) [NMRlipids simulation 180]
   alternateName: POPC:POPG(4:1)+0.1MCaCl_T298K
-  description: CHARMM36 POPC:POPG 4:1 bilayer simulation in 0.1 M CaCl2 solution. The initial structure was taken from CHARMM-GUI. Temperature is 298 K. The system contains 350 POPC, 88 POPG, 88 sodium ions, 26280 TIP3 water molecules, 47 Ca2+ ions and 94 Cl- ions. Total length of simulation is 400 ns. First 100 ns were discarded. Saving frequency of 100-300ns.xtc is 20 ps.
+  description: Molecular dynamics trajectory of a lipid bilayer of 350 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 52 mol%), 94 CLA (14 mol%), 88 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 13 mol%), 88 SOD (13 mol%) and 47 CAL (7 mol%) at 298 K. Simulated with CHARMM36 in GROMACS for 300 ns (137145 atoms). Deposited as NMRlipids Databank simulation 180 and available from https://doi.org/10.5281/zenodo.3997019.
   sameAs: https://doi.org/10.5281/zenodo.3997019
   datePublished: '2020-08-24'
   license:
@@ -96,13 +96,13 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - POPG
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
-  - CLA
-  - CAL
-  - SOD
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - SOD
+  - CAL
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -144,9 +144,16 @@ bioschema_properties:
     hasPart:
     - 100-400ns.xtc
     - run_400ns.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3997019
+    identifier: 10.5281/zenodo.3997019
+    url: https://doi.org/10.5281/zenodo.3997019
+    name: POPC:POPG 4:1 MD simulation with CHARMM36 in 0.1 M CaCL2 solution with Na+ counter ions
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3997019
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

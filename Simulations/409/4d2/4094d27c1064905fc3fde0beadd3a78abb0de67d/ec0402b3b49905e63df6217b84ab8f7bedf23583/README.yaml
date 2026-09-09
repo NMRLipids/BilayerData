@@ -51,9 +51,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 56
 bioschema_properties:
-  name: Simulations of DLPC, DOPC, and DEPC membranes
+  name: Molecular dynamics trajectory of a DOPC/CLA/SOD (81:9:9) bilayer at 310 K (CHARMM36, GROMACS 2019, 500 ns) [NMRlipids simulation 56]
   alternateName: 200DOPC_10000SOL_23SOD_23CLA
-  description: Simulations of three different lipid bilayers using the CHARMM36 lipid model. The bilayers were built using CHARMM-GUI and simulated for 500 ns using Gromacs 2019. The systems contain 200 lipids (DLPC, DOPC, or DEPC), 50 lipids per water, and 130 mM NaCl. For each simulation, the run input file (tpr), topology (top), index (ndx), trajectory (xtc), log file (log), energy file (edr), continue point (cpt), and the final structure (gro) are given. The topology refers to the Gromacs-compatible CHARMM36 force field, available at http://mackerell.umaryland.edu/charmm_ff.shtml#gromacs and to other itp files provided in this upload. The simulation parameters are given in the md.mdp file.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 DOPC (1,2-dioleoyl-sn-glycero-3-phosphocholine, 81 mol%), 23 CLA (9 mol%) and 23 SOD (9 mol%) at 310 K. Simulated with CHARMM36 in GROMACS 2019 for 500 ns (57646 atoms). Deposited as NMRlipids Databank simulation 56 and available from https://doi.org/10.5281/zenodo.3592499.
   sameAs: https://doi.org/10.5281/zenodo.3592499
   datePublished: '2019-12-24'
   license:
@@ -91,9 +91,9 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - CLA
   - DOPC
   - 1,2-dioleoyl-sn-glycero-3-phosphocholine
+  - CLA
   - SOD
   measurementTechnique:
   - '@type': DefinedTerm
@@ -137,9 +137,16 @@ bioschema_properties:
     - dopc.xtc
     - dopc.tpr
     - dopc.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3592499
+    identifier: 10.5281/zenodo.3592499
+    url: https://doi.org/10.5281/zenodo.3592499
+    name: Simulations of DLPC, DOPC, and DEPC membranes
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3592499
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

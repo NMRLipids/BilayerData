@@ -49,9 +49,9 @@ WARNINGS:
   TIMESTEP: incorrect
 ID: 805
 bioschema_properties:
-  name: MD simulation of POPC bilayer with OPLS3e force field. Full hydration 44 w/l
+  name: Molecular dynamics trajectory of a POPC bilayer at 300 K (OPLS3e, GROMACS Desmond 2019-4, 500 ns) [NMRlipids simulation 805]
   alternateName: 200POPC_8859SOL_300K_run_with_demond_convert_gromacs
-  description: 'MD simulation of POPC (1-palmitoyl-2-oleoyl-phosphatidylcholine) bilayer with OPLS3e force field. Full hydration 44 w/l. Dataset contains trajectories (_trj), topologies (-out.cms) and input files (.cfg, .msj, .cms), and other files. For the ease of the upload, trajectory files (_trj) are divided to 100ns pieces and tarred (named popc44_x-xns_trj.tar.gz) Gromacs converted files are also included: popchydr44_0-500ns.xtc, desmond_md_popc200lip500ns-in_converted.gro desmond_md_popc200lip500ns-in_converted.top System: POPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 8859 Simulation engine: Desmond 2019-4 (This version includes fixed time stamps in converted .xtc file)'
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with OPLS3e in GROMACS Desmond 2019-4 for 500 ns (53377 atoms). Deposited as NMRlipids Databank simulation 805 and available from https://doi.org/10.5281/zenodo.10183982.
   sameAs: https://doi.org/10.5281/zenodo.10183982
   datePublished: '2022'
   license:
@@ -137,8 +137,15 @@ bioschema_properties:
   - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
   - experiments/OrderParameters/10.1039/c2cp42738a/1
   - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.10183982
+    identifier: 10.5281/zenodo.10183982
+    url: https://doi.org/10.5281/zenodo.10183982
+    name: MD simulation of POPC bilayer with OPLS3e force field. Full hydration 44 w/l
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.10183982
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

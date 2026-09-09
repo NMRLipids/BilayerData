@@ -41,9 +41,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 281
 bioschema_properties:
-  name: Charmm36 Popc Gromacs 5.0.6 500 Ns (Started From Tjp Files)
+  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (CHARMM36, GROMACS 5.0.6, 500 ns) [NMRlipids simulation 281]
   alternateName: 128POPC_4040SOL_8A-switch_v1
-  description: CHARMM36 force field POPC simulations performed using GROMACS version 5.0.6 started from structure and POPC topology obtained from http://pubs.acs.org/doi/abs/10.1021/ct3003157 and the CHARMM36 force field parameters from http://mackerell.umaryland.edu/charmm_ff.shtml#gromacs. Results are included for simulations using both an 8 Å and 10 Å switching point for the van der Waals interactions, with 2 x 500 ns for each of these cut-off schemes (versions with different starting velocities are labelled as v1 and v2). The trajectories have been processed using trjconv -skip 10 to make the files smaller for uploading, although the initial analysis was performed on the complete simulations.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with CHARMM36 in GROMACS 5.0.6 for 500 ns (29272 atoms). Deposited as NMRlipids Databank simulation 281 and available from https://doi.org/10.5281/zenodo.164203.
   sameAs: https://doi.org/10.5281/zenodo.164203
   datePublished: '2016-11-01'
   license:
@@ -125,9 +125,16 @@ bioschema_properties:
     - for-md_CHARMM36_GMX506_POPC_8A-switch_v1.tpr
   isBasedOn:
   - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/2
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.164203
+    identifier: 10.5281/zenodo.164203
+    url: https://doi.org/10.5281/zenodo.164203
+    name: Charmm36 Popc Gromacs 5.0.6 500 Ns (Started From Tjp Files)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.164203
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

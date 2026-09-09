@@ -57,9 +57,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 140
 bioschema_properties:
-  name: Popc:Pops (4:1) Simulation With Berger Model At 310K
+  name: Molecular dynamics trajectory of a POPC/POPS/SOD (66:17:17) bilayer at 310 K (Berger, GROMACS, 80 ns) [NMRlipids simulation 140]
   alternateName: 102POPC_26POPS_26SOD_4290SOL_310K_Berger
-  description: POPC:POPS (4:1) simulation with Berger model at 310K
+  description: Molecular dynamics trajectory of a lipid bilayer of 102 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 66 mol%), 26 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 17 mol%) and 26 SOD (17 mol%) at 310 K. Simulated with Berger in GROMACS for 80 ns (19630 atoms). Deposited as NMRlipids Databank simulation 140 and available from https://doi.org/10.5281/zenodo.1475285.
   sameAs: https://doi.org/10.5281/zenodo.1475285
   datePublished: '2018-10-30'
   license:
@@ -144,9 +144,16 @@ bioschema_properties:
     - topol.tpr
     - topol.top
     - run.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1475285
+    identifier: 10.5281/zenodo.1475285
+    url: https://doi.org/10.5281/zenodo.1475285
+    name: Popc:Pops (4:1) Simulation With Berger Model At 310K
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1475285
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

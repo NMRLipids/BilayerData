@@ -44,9 +44,9 @@ DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 428
 AUTHORS_CONTACT: Buslaev Pavel
 bioschema_properties:
-  name: MD simulation trajectory for POPC bilayer with 128 lipid molecules (CHARMM36, Gromacs 5.1)
+  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (CHARMM36, GROMACS, 500 ns) [NMRlipids simulation 428]
   alternateName: POPC_T303K
-  description: 'Equilibrated POPC lipid bilayer ran with Gromacs 5.1.2 with CHARMM36 lipid forcefield. The simulation is composed of 128 POPC at full hydratation and ran for 500ns at 303K, data saved every 10ps. This data is used in the project "Matching lipid force fields with NMR data". More information at : http://nmrlipids.blogspot.fi/'
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with CHARMM36 in GROMACS for 500 ns (32512 atoms). Deposited as NMRlipids Databank simulation 428 and available from https://doi.org/10.5281/zenodo.3474863.
   sameAs: https://doi.org/10.5281/zenodo.3474863
   datePublished: '2019-10-07'
   license:
@@ -129,9 +129,16 @@ bioschema_properties:
     - mdrun.tpr
   isBasedOn:
   - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/2
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3474863
+    identifier: 10.5281/zenodo.3474863
+    url: https://doi.org/10.5281/zenodo.3474863
+    name: MD simulation trajectory for POPC bilayer with 128 lipid molecules (CHARMM36, Gromacs 5.1)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3474863
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -48,9 +48,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 246
 bioschema_properties:
-  name: MD simulation trajectory of DOG/POPE bilayer and related files
+  name: Molecular dynamics trajectory of a POPE/DOG (91:9) bilayer at 310 K (Lipid17, GROMACS 18.6, 2100 ns) [NMRlipids simulation 246]
   alternateName: 9.4%DOGinPOPEwithLipid17
-  description: Raw simulation trajectory data of pre-equiblirated DOG/POPE bilayer and related files from all-atom molecular dynamics simulations. Simulations have been performed with GROMACS-2018.6 with Lipid17 forcefield and TIP3P water model. The trajectory is 0-2100 ns, and we have disregarded the first 100 ns in our analysis. The system in the trajectory consists of 12 DOG, 116 POPE and 6400 water molecules. Temperature 310 K, pressure 1 bar.
+  description: Molecular dynamics trajectory of a lipid bilayer of 116 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 91 mol%) and 12 DOG (1,2-dioleoyl-sn-glycerol, 9 mol%) at 310 K. Simulated with Lipid17 in GROMACS 18.6 for 2100 ns (35092 atoms). Deposited as NMRlipids Databank simulation 246 and available from https://doi.org/10.5281/zenodo.6778072.
   sameAs: https://doi.org/10.5281/zenodo.6778072
   datePublished: '2022-06-29'
   license:
@@ -132,9 +132,16 @@ bioschema_properties:
     hasPart:
     - run_pope_dog_lipid17-0to2100ns.xtc
     - run_pope_dog_lipid17.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.6778072
+    identifier: 10.5281/zenodo.6778072
+    url: https://doi.org/10.5281/zenodo.6778072
+    name: MD simulation trajectory of DOG/POPE bilayer and related files
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.6778072
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

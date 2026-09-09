@@ -58,9 +58,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 801
 bioschema_properties:
-  name: MD Simulation of Gb3 in POPC Membrane (run1)
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD/GB3 (75:11:11:4) bilayer at 310 K (CHARMM36m, GROMACS, 7255 ns) [NMRlipids simulation 801]
   alternateName: Gb3inPOPC_run1
-  description: Molecular dynamics simulation of a lipid bilayer containing CLA, GB3, POPC, SOD at 310.0 K, CHARMM36m force field, gromacs, 7255 ns trajectory.
+  description: Molecular dynamics trajectory of a lipid bilayer of 190 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 75 mol%), 27 CLA (11 mol%), 27 SOD (11 mol%) and 10 GB3 (Gb3(d18:1/24:0), 4 mol%) at 310 K. Simulated with CHARMM36m in GROMACS for 7255 ns (74381 atoms). Deposited as NMRlipids Databank simulation 801 and available from https://doi.org/10.5281/zenodo.10635871.
   sameAs: https://doi.org/10.5281/zenodo.10635871
   datePublished: '2024-02-08'
   license:
@@ -102,8 +102,8 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  - SOD
   - CLA
+  - SOD
   - GB3
   - Gb3(d18:1/24:0)
   measurementTechnique:
@@ -143,8 +143,15 @@ bioschema_properties:
     hasPart:
     - reduced_1ns_center.xtc
     - run1.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.10635871
+    identifier: 10.5281/zenodo.10635871
+    url: https://doi.org/10.5281/zenodo.10635871
+    name: MD Simulation of Gb3 in POPC Membrane (run1)
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.10635871
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -42,9 +42,9 @@ SOFTWARE: gromacs
 DIR_WRK: /usr/home/bort/Databank
 ID: 613
 bioschema_properties:
-  name: Set Simulations Small Pure Bilayers (72 Lipids) Using Charmm36 Ff In Gromacs (Dppc, Popc)
+  name: Molecular dynamics trajectory of a POPC bilayer at 310 K (CHARMM36, GROMACS 5.0.4, 500 ns) [NMRlipids simulation 613]
   alternateName: 72POPC_2880SOL_310K
-  description: 'Collection simulations of DPPC and POPC bilayers in gromacs using the charmm36 force field. The list of systems describing their particular simulation conditions can be found below: 1) DPPC_72_325K (500ns) 2) DPPC_72_310K_rmcomm_leaflets (500ns) 3) DPPC_72_310K_rmcomm_leaflets_low_hydration (500ns) 4) POPC_72_310K (500ns) 5) POPC_72_310K_rmcomm_leaflets (500ns) 6) POPC_72_310K_rmcomm_leaflets_low_hydration (550ns) 7) POPC_72_303K_rmcomm_leaflets_low_hydration (550ns) For further information read the Readme file provided for each simulation.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 310 K. Simulated with CHARMM36 in GROMACS 5.0.4 for 500 ns (18288 atoms). Deposited as NMRlipids Databank simulation 613 and available from https://doi.org/10.5281/zenodo.1009607.
   sameAs: https://doi.org/10.5281/zenodo.1009607
   datePublished: '2017-10-12'
   license:
@@ -132,9 +132,16 @@ bioschema_properties:
     - POPC_72_310K_md.xtc
     - POPC_72_310K_md.tpr
     - POPC_72_310K_md.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1009607
+    identifier: 10.5281/zenodo.1009607
+    url: https://doi.org/10.5281/zenodo.1009607
+    name: Set Simulations Small Pure Bilayers (72 Lipids) Using Charmm36 Ff In Gromacs (Dppc, Popc)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1009607
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

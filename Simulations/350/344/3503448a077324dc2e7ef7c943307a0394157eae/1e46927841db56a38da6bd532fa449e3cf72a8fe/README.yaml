@@ -57,9 +57,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 142
 bioschema_properties:
-  name: Simulations Of Popc Lipid Bilayer In Water Solution With Various Molar Fractions Of Cationic Surfactant Dihexadecylammonium Using Ecc-Popc Force Field
+  name: Molecular dynamics trajectory of a POPC/CLA/DHMDMAB (42:29:29) bilayer at 313 K (ECC-lipids, GROMACS 5.1.4, 200 ns) [NMRlipids simulation 142]
   alternateName: 100POPC_6214SOL_70DHMDMAB_70CLA_313K_SPCEmodel
-  description: Classical molecular dynamics simulations of a POPC lipid bilayer in water solution with various molar fractions of cationic surfactant dihexadecylammonium using ECC-POPC force field parameters, SPC/E water model and ECC-ions. Simulation at pure water is in a separate Zenodo deposit https://doi.org/10.5281/zenodo.1118266 file names report molar fraction of cations (i.e. not bulk concentrations) simulations performed with Gromacs 5.1.4 (*.xtc files) and openMM 7 (*.dcd files) simulation length 200 ns temperature 313 K (otherwise noted)
+  description: Molecular dynamics trajectory of a lipid bilayer of 100 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 42 mol%), 70 CLA (29 mol%) and 70 DHMDMAB (dihexadecyldimethylammonium, 29 mol%) at 313 K. Simulated with ECC-lipids in GROMACS 5.1.4 for 200 ns (39602 atoms). Deposited as NMRlipids Databank simulation 142 and available from https://doi.org/10.5281/zenodo.1118682.
   sameAs: https://doi.org/10.5281/zenodo.1118682
   datePublished: '2017-12-19'
   license:
@@ -99,9 +99,9 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
   - DHMDMAB
   - dihexadecyldimethylammonium
-  - CLA
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -145,9 +145,16 @@ bioschema_properties:
     - sim_ECC-POPC_cat-surf-42p_SPCE.tpr
     - sim_ECC-POPC_cat-surf-42p_SPCE.top
     - sim_ECC-POPC_cat-surf-42p_SPCE.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1118682
+    identifier: 10.5281/zenodo.1118682
+    url: https://doi.org/10.5281/zenodo.1118682
+    name: Simulations Of Popc Lipid Bilayer In Water Solution With Various Molar Fractions Of Cationic Surfactant Dihexadecylammonium Using Ecc-Popc Force Field
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1118682
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

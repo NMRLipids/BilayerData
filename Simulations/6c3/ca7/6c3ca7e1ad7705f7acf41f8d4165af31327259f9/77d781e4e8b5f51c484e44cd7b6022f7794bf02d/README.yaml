@@ -44,9 +44,9 @@ EXPERIMENT:
   - 10.1016/j.bbamem.2011.07.022/11
 ID: 584
 bioschema_properties:
-  name: Popc Bilayer Simulated At T313K With The Lipid14 Model Using Gromacs
+  name: Molecular dynamics trajectory of a POPC bilayer at 313 K (Lipid14, GROMACS, 74 ns) [NMRlipids simulation 584]
   alternateName: 72POPC_2234SOL_313K
-  description: POPC bilayer with 50% of dihexadecyldimethylammonium simulated at T313K with the Lipid14 model using Gromacs. 70ns long simulation. See also http://nmrlipids.blogspot.cz/2017/07/quantifying-effect-of-bound-charge-on.html and https://github.com/NMRLipids/MATCH/tree/master/Data/Lipid_Bilayers/POPC/T313K/MODEL_LIPID14
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 313 K. Simulated with Lipid14 in GROMACS for 74 ns (16350 atoms). Deposited as NMRlipids Databank simulation 584 and available from https://doi.org/10.5281/zenodo.1020709.
   sameAs: https://doi.org/10.5281/zenodo.1020709
   datePublished: '2017-10-18'
   license:
@@ -129,9 +129,16 @@ bioschema_properties:
     - popc.top
   isBasedOn:
   - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/11
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1020709
+    identifier: 10.5281/zenodo.1020709
+    url: https://doi.org/10.5281/zenodo.1020709
+    name: Popc Bilayer Simulated At T313K With The Lipid14 Model Using Gromacs
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1020709
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

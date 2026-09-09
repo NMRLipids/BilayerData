@@ -61,9 +61,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 111
 bioschema_properties:
-  name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS (5:1) with ECC-lipids force field, and Na+ (K+) counterions at various additional concentrations of NaCl and KCl
+  name: Molecular dynamics trajectory of a POPC/SOD/CLA/POPS (37:31:24:7) bilayer at 298 K (ECC-lipids, GROMACS 2018.0, 975 ns) [NMRlipids simulation 111]
   alternateName: 12POPS_60POPC_3483SOL_51SOD_39CLA_298K
-  description: 'Classical molecular dynamics simulations of various mixtures of POPC:POPS lipid bilayers in water solution with Na+ counterions (or with K+ counterions when noted with "_KCl" suffix) and an additional concentration of NaCl or KCl. The numbers in the file names denote the number of additional cations. ECC-lipids force field parameters used for lipids, SPC/E water model and ECC-ions, all parameters are included in this repository in GROMACS format and are also available at https://github.com/jmelcr/ecc_lipids simulations performed with Gromacs 2018.0 (*.xtc files) simulation length 1000 ns = 1 microsecond temperature 298 K Simulations without additional salts are at a separate deposit: 10.5281/zenodo.1488094.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 60 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 37 mol%), 51 SOD (31 mol%), 39 CLA (24 mol%) and 12 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 7 mol%) at 298 K. Simulated with ECC-lipids in GROMACS 2018.0 for 975 ns (20103 atoms). Deposited as NMRlipids Databank simulation 111 and available from https://doi.org/10.5281/zenodo.3332778.
   sameAs: https://doi.org/10.5281/zenodo.3332778
   datePublished: '2018-11-14'
   license:
@@ -101,12 +101,12 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - POPS
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - SOD
   - CLA
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -150,9 +150,16 @@ bioschema_properties:
     - ECClipids_5PC-1PS-mix_39NaCl_298K.tpr
     - ECClipids_5PC-1PS-mix_39NaCl_298K.top
     - ECClipids_5PC-1PS-mix_39NaCl_298K.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3332778
+    identifier: 10.5281/zenodo.3332778
+    url: https://doi.org/10.5281/zenodo.3332778
+    name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS (5:1) with ECC-lipids force field, and Na+ (K+) counterions at various additional concentrations of NaCl and KCl
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3332778
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

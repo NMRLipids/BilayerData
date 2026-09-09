@@ -49,9 +49,9 @@ CPT: null
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 321
 bioschema_properties:
-  name: Popc_Charmm36_Cacl2_035Mol
+  name: Molecular dynamics trajectory of a POPC/CLA/CAL (55:30:15) bilayer at 303 K (CHARMM36, GROMACS 5.0.4, 100 ns) [NMRlipids simulation 321]
   alternateName: POPC_CHARMM36_CaCl2_035Mol_303K
-  description: 'The starting structure was constructed using the CHARMM-GUI Membrane Builder (http://www.charmm-gui.org/) online tool. All runs were performed with Gromacs 5.0.4 software package and CHARMM36 additive force field parameters obtained from CHARMM-GUI input files [1]. Conditions: T=303, 128 POPC molecules, 6400 tip3p waters (lipid/water 1:50), 35 Ca, 70 Cl. 200ns trajectory (preceded by standard CHARMM-GUI NPT equilibration) (2 files of 100ns). This data is ran for the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi [1] CHARMM-GUI Input Generator for NAMD, GROMACS, AMBER, OpenMM, and CHARMM/OpenMM Simulations Using the CHARMM36 Additive Force Field, J. Lee et al. , JCTC, DOI: 10.1021/acs.jctc.5b00935'
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 55 mol%), 70 CLA (30 mol%) and 35 CAL (15 mol%) at 303 K. Simulated with CHARMM36 in GROMACS 5.0.4 for 100 ns (36457 atoms). Deposited as NMRlipids Databank simulation 321 and available from https://doi.org/10.5281/zenodo.35159.
   sameAs: https://doi.org/10.5281/zenodo.35159
   datePublished: '2015-12-10'
   license:
@@ -91,8 +91,8 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  - CAL
   - CLA
+  - CAL
   - LIPID14
   - Gromacs
   measurementTechnique:
@@ -137,9 +137,16 @@ bioschema_properties:
     - 035M_CaCl2_POPC_CRM36_100_200ns.xtc
     - 035M_CaCl2_POPC_CRM36.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.35159
+    identifier: 10.5281/zenodo.35159
+    url: https://doi.org/10.5281/zenodo.35159
+    name: Popc_Charmm36_Cacl2_035Mol
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.35159
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

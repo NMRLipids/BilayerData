@@ -43,9 +43,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 811
 bioschema_properties:
-  name: MD simulation of DMPC bilayer with OPLS4 force field. 5 w/l.
+  name: Molecular dynamics trajectory of a DMPC bilayer at 314 K (OPLS4, GROMACS Desmond 2022-2, 450 ns) [NMRlipids simulation 811]
   alternateName: 200DMPC_1000SOL_300K
-  description: Molecular dynamics simulation of a lipid bilayer containing DMPC at 314.0 K, OPLS4 force field, gromacs, 450 ns trajectory.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine) at 314 K. Simulated with OPLS4 in GROMACS Desmond 2022-2 for 450 ns (26600 atoms). Deposited as NMRlipids Databank simulation 811 and available from https://doi.org/10.5281/zenodo.11045998.
   sameAs: https://doi.org/10.5281/zenodo.11045998
   datePublished: '2024-04-23'
   license:
@@ -128,8 +128,15 @@ bioschema_properties:
     - DMPC_5wl.gro
   isBasedOn:
   - experiments/OrderParameters/10.1039/B508190D/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.11045998
+    identifier: 10.5281/zenodo.11045998
+    url: https://doi.org/10.5281/zenodo.11045998
+    name: MD simulation of DMPC bilayer with OPLS4 force field. 5 w/l.
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.11045998
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

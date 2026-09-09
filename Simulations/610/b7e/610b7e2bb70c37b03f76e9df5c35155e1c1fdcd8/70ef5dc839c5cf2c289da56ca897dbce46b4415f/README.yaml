@@ -53,9 +53,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 389
 bioschema_properties:
-  name: PC/PS 5:1 bilayer, Na contraions, additional CaCl_2, CHARMM36 FF, NBFIX-Han
+  name: Molecular dynamics trajectory of a POPC/POPS/SOD (71:14:14) bilayer at 320 K (CHARMM36 with NBFIX, GROMACS 2018.6, 399 ns) [NMRlipids simulation 389]
   alternateName: 250POPC_50POPS_11207SOL_50SOD_320K
-  description: Systems of 250 POPC and 50 POPS lipids in water solutions with 50 sodium contra ions and 0, 140, 940 mM additional calcium chloride. Simulations were run with CHARMM36 force field with NBFIX for calcium ions (http://dx.doi.org/10.1021/acs.jpcb.7b10730). 320K, 1bar. Gromacs version 2018.6
+  description: Molecular dynamics trajectory of a lipid bilayer of 250 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 71 mol%), 50 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 14 mol%) and 50 SOD (14 mol%) at 320 K. Simulated with CHARMM36 with NBFIX in GROMACS 2018.6 for 399 ns (73521 atoms). Deposited as NMRlipids Databank simulation 389 and available from https://doi.org/10.5281/zenodo.3371327.
   sameAs: https://doi.org/10.5281/zenodo.3371327
   datePublished: '2019-08-19'
   license:
@@ -92,10 +92,10 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - POPS
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
   - SOD
   measurementTechnique:
   - '@type': DefinedTerm
@@ -139,9 +139,16 @@ bioschema_properties:
     - popc_pops_250_50_contra_sodium_nbfix_han.xtc
     - popc_pops_250_50_contra_sodium_nbfix_han.tpr
     - popc_pops_250_50_contra_sodium_nbfix_han.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3371327
+    identifier: 10.5281/zenodo.3371327
+    url: https://doi.org/10.5281/zenodo.3371327
+    name: PC/PS 5:1 bilayer, Na contraions, additional CaCl_2, CHARMM36 FF, NBFIX-Han
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3371327
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

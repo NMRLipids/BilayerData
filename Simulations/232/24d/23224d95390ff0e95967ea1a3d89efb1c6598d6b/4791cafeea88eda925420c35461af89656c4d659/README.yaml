@@ -45,9 +45,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 279
 bioschema_properties:
-  name: Berger Dope Simulations (Versions 1 And 2) 271 K - Larger Repulsive H
+  name: Molecular dynamics trajectory of a DOPE bilayer at 271 K (Berger-DOPE-2018, GROMACS 4.0.7, 200 ns) [NMRlipids simulation 279]
   alternateName: 128DOPE_4789SOL_271K_v2
-  description: Two Berger-based DOPE bilayer simulations performed using GROMACS 4.0.7 for 300 ns with different starting velocities. Simulations were performed with a 1.0 nm cut-off with PME for the Coulombic and a 1.0 nm cut-off for the van der Waals interactions with a dispersion correction. These simulations were performed at 303 K with a 128 lipid bilayer. The full trajectories are provided bar the initial 100 ns. The starting structure was converted from an equilibrated DOPC membrane simulated with the GROMOS-CKP force field. The DOPE parameters were constructed following the approach used by de Vries et al (https://pubs.acs.org/doi/abs/10.1021/jp0366926), but with a slightly larger repulsive potential included for the explicit hydrogen atoms (designed to increase the area per lipid).
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 DOPE (1,2-dioleoyl-sn-glycero-3-phosphoethanolamine) at 271 K. Simulated with Berger-DOPE-2018 in GROMACS 4.0.7 for 200 ns (21279 atoms). Deposited as NMRlipids Databank simulation 279 and available from https://doi.org/10.5281/zenodo.1293905.
   sameAs: https://doi.org/10.5281/zenodo.1293905
   datePublished: '2018-06-20'
   license:
@@ -128,9 +128,16 @@ bioschema_properties:
     - md-DOPE_berger_271K_repH2_v2_100-300ns.xtc
     - for-md-DOPE_berger_271K_repH2_v2.tpr
     - md-DOPE_berger_271K_repH2_v2.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1293905
+    identifier: 10.5281/zenodo.1293905
+    url: https://doi.org/10.5281/zenodo.1293905
+    name: Berger Dope Simulations (Versions 1 And 2) 271 K - Larger Repulsive H
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1293905
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

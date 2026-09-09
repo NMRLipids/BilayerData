@@ -44,9 +44,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 330
 bioschema_properties:
-  name: Berger Pure Dopc Md Simulation (300 K - 300Ns - 1 Bar)
+  name: Molecular dynamics trajectory of a DOPC bilayer at 300 K (Berger, GROMACS, 300 ns) [NMRlipids simulation 330]
   alternateName: 256DOPC_11096SOL_300K_Berger
-  description: Berger DOPC pure bilayer simulation (300 K, with 256 DOPC lipids fully hydrated with 43 water molecules per lipid). The trajectory contains the whole simulation from 0 to 300 ns skipped every 100 ps and centered on the P atoms. No ions were added as there is no global net charge in the system. This bilayer was used to calculate the order parameter and the area per lipid for the NMRlipids IV project (on the time window 100-300 ns).
+  description: Molecular dynamics trajectory of a lipid bilayer of 256 DOPC (1,2-dioleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with Berger in GROMACS for 300 ns (47112 atoms). Deposited as NMRlipids Databank simulation 330 and available from https://doi.org/10.5281/zenodo.1402411.
   sameAs: https://doi.org/10.5281/zenodo.1402411
   datePublished: '2018-08-23'
   license:
@@ -128,9 +128,16 @@ bioschema_properties:
     - md_dt100_OK_centered.xtc
     - md.tpr
     - start.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1402411
+    identifier: 10.5281/zenodo.1402411
+    url: https://doi.org/10.5281/zenodo.1402411
+    name: Berger Pure Dopc Md Simulation (300 K - 300Ns - 1 Bar)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1402411
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

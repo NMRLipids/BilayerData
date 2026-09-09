@@ -54,9 +54,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 302
 bioschema_properties:
-  name: Simulations of POPC:POPG 1:1 membranes with varying levels of CaCl_2 using the Slipids force field
+  name: Molecular dynamics trajectory of a CLA/POPC/POPG/SOD/CAL (32:18:18:18:16) bilayer at 298 K (Slipids, GROMACS, 1000 ns) [NMRlipids simulation 302]
   alternateName: POPCPOPG(1:1)500mM
-  description: Simulations of POPC/POPG lipid bilayers consisting of a total of 256 lipids (128 POPC + 128 POPG) spread equally between the two leaflets. The initial CaCl_2 concentration in the water phase was either 0, 100, 200, 500, or 1000 mM. Na+ was used as the counterion for the POPG charges. The simuatlions were performed using the Slipids model, available at http://www.fos.su.se/~sasha/SLipids/ . The Dang ion parameters were used, and they were obtained from https://bitbucket.org/hseara/ions/ . The common simulation parameters are given in the md.mdp file. The simulations are 1500 ns long (except CA0, which is 500 ns long), and the "extend" files contain the last 1000 ns of the outputs. The "extend" continue points should also be used to extend the simulations beyond 1500 ns. All relevant input and output files are provided to repeat or extend the simulations.
+  description: Molecular dynamics trajectory of a lipid bilayer of 230 CLA (32 mol%), 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 18 mol%), 128 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 18 mol%), 128 SOD (18 mol%) and 115 CAL (16 mol%) at 298 K. Simulated with Slipids in GROMACS for 1000 ns (72281 atoms). Deposited as NMRlipids Databank simulation 302 and available from https://doi.org/10.5281/zenodo.3613573.
   sameAs: https://doi.org/10.5281/zenodo.3613573
   datePublished: '2020-01-13'
   license:
@@ -94,13 +94,13 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
+  - CLA
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - POPG
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
   - SOD
   - CAL
-  - CLA
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -142,9 +142,16 @@ bioschema_properties:
     hasPart:
     - PCPG_CA500_extend.xtc
     - PCPG_CA500.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3613573
+    identifier: 10.5281/zenodo.3613573
+    url: https://doi.org/10.5281/zenodo.3613573
+    name: Simulations of POPC:POPG 1:1 membranes with varying levels of CaCl_2 using the Slipids force field
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3613573
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

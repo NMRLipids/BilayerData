@@ -45,9 +45,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 579
 bioschema_properties:
-  name: Berger Pope Simulations (Versions 1 And 2) 303 K - De Vries Repulsive H
+  name: Molecular dynamics trajectory of a POPE bilayer at 303 K (Berger-POPE-2004, GROMACS 4.0.7, 100 ns) [NMRlipids simulation 579]
   alternateName: 128POPE_3552SOL_303K_v2
-  description: Two Berger-based POPE bilayer simulations performed using GROMACS 4.0.7 for 200 ns with different starting velocities. Simulations were performed with a 1.0 nm cut-off with PME for the Coulombic and a 1.0 nm cut-off for the van der Waals interactions with a dispersion correction. These simulations were performed at 303 K with a 128 lipid bilayer. The full trajectories are provided bar the initial 100 ns. The starting structure was taken from an equilibrated POPE membrane simulated with the GROMOS-CKP force field. The PE parameters were constructed following the approach for DOPE used by de Vries et al (https://pubs.acs.org/doi/abs/10.1021/jp0366926), and so include a small repulsive potential on the explicit hydrogen atoms.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 303 K. Simulated with Berger-POPE-2004 in GROMACS 4.0.7 for 100 ns (17312 atoms). Deposited as NMRlipids Databank simulation 579 and available from https://doi.org/10.5281/zenodo.1293889.
   sameAs: https://doi.org/10.5281/zenodo.1293889
   datePublished: '2018-06-20'
   license:
@@ -128,9 +128,16 @@ bioschema_properties:
     - md-POPE_berger_303K_repH_v2_100-200ns.xtc
     - for-md-POPE_berger_303K_repH_v2.tpr
     - md-POPE_berger_303K_repH_v2.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1293889
+    identifier: 10.5281/zenodo.1293889
+    url: https://doi.org/10.5281/zenodo.1293889
+    name: Berger Pope Simulations (Versions 1 And 2) 303 K - De Vries Repulsive H
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1293889
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -50,9 +50,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 403
 bioschema_properties:
-  name: Popc/Cholesterol (70:30) Lipid Membrane, 303K, Charmm36 Force Field, Simulation Files And 200 Ns Trajectory For Gromacs Md Simulation Engine V5.1.2
+  name: Molecular dynamics trajectory of a POPC/CHOL (70:30) bilayer at 303.15 K (CHARMM36, GROMACS 5.1.2, 200 ns) [NMRlipids simulation 403]
   alternateName: 84POPC_4800SOL_36CHOL_303K
-  description: 'The starting structure was obtained from CHARMM-GUI Membrane Builder v1.7 (http://www.charmm-gui.org/) online tool. [1] All runs were performed with Gromacs 5.1.2 software package and CHARMM36 additive force field parameters obtained from CHARMM-GUI input files [1]. Conditions: T=303, 128 POPC molecules, 5120 tip3p waters, 200ns trajectory (preceded with equilibration) These data were originally obtained for the nmrlipids.blospot.fi project. Find more details at nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi [1] CHARMM-GUI Input Generator for NAMD, GROMACS, AMBER, OpenMM, and CHARMM/OpenMM Simulations Using the CHARMM36 Additive Force Field, J. Lee et al. , JCTC, DOI: 10.1021/acs.jctc.5b00935'
+  description: Molecular dynamics trajectory of a lipid bilayer of 84 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 70 mol%) and 36 CHOL (cholesterol, 30 mol%) at 303.15 K. Simulated with CHARMM36 in GROMACS 5.1.2 for 200 ns (28320 atoms). Deposited as NMRlipids Databank simulation 403 and available from https://doi.org/10.5281/zenodo.163336.
   sameAs: https://doi.org/10.5281/zenodo.163336
   datePublished: '2016-10-26'
   license:
@@ -89,10 +89,10 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - CHOL
-  - cholesterol
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CHOL
+  - cholesterol
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -135,9 +135,16 @@ bioschema_properties:
     - step7_10.xtc
     - step7_10.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.163336
+    identifier: 10.5281/zenodo.163336
+    url: https://doi.org/10.5281/zenodo.163336
+    name: Popc/Cholesterol (70:30) Lipid Membrane, 303K, Charmm36 Force Field, Simulation Files And 200 Ns Trajectory For Gromacs Md Simulation Engine V5.1.2
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.163336
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

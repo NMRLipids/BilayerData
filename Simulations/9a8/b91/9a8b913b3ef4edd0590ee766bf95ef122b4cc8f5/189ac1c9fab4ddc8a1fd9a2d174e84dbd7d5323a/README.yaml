@@ -43,9 +43,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 404
 bioschema_properties:
-  name: 'Md Simulation Trajectory Of A Fully Hydrated Dppg Bilayer @314K: Slipids, Gromacs 5.0.4. 2017.'
+  name: Molecular dynamics trajectory of a DPPG/SOD (50:50) bilayer at 314 K (Slipids, GROMACS 5.0.4, 50 ns) [NMRlipids simulation 404]
   alternateName: 288DPPG_11232SOL_288SOD_314K
-  description: 'MD simulation trajectory files, for fully hydrated DPPG bilayer [288 DPPG, 11232 WAT and 288 NA ions]. The SLIPIDS force field was used with Gromacs 5.0.4. Conditions: T=314K. 200 ns trajectory, last 100 ns uploaded for analysis.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 288 DPPG (1,2-dipalmitoyl-sn-glycero-3-phospho-(1’-rac-glycerol), 50 mol%) and 288 SOD (50 mol%) at 314 K. Simulated with Slipids in GROMACS 5.0.4 for 50 ns (69408 atoms). Deposited as NMRlipids Databank simulation 404 and available from https://doi.org/10.5281/zenodo.546136.
   sameAs: https://doi.org/10.5281/zenodo.546136
   datePublished: '2017-04-13'
   license:
@@ -128,9 +128,16 @@ bioschema_properties:
     hasPart:
     - md50ns_chunk02.xtc
     - md50ns_chunk01.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.546136
+    identifier: 10.5281/zenodo.546136
+    url: https://doi.org/10.5281/zenodo.546136
+    name: 'Md Simulation Trajectory Of A Fully Hydrated Dppg Bilayer @314K: Slipids, Gromacs 5.0.4. 2017.'
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.546136
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

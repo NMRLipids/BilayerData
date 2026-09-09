@@ -40,9 +40,9 @@ EXPERIMENT:
   - 10.1016/j.bbamem.2011.07.022/4
 ID: 911
 bioschema_properties:
-  name: MD simulation trajectory and related files for DPPC lipid bilayer in full hydration at 322 K
+  name: Molecular dynamics trajectory of a DPPC bilayer at 322 K (CHARMM36, GROMACS, 100 ns) [NMRlipids simulation 911]
   alternateName: DPPC
-  description: A MD simulation of 1,2-dipalmitoyl-sn-glycero-3-phosphocholine (DPPC) conducted as part of a bachelor's project. Simulation ran with Gromacs 2026.1, CHARMM36 force field (as obtained from CHARMM-GUI on 17.04.2026) in full hydration. T= 322 K, 40 DPPC (20 per leaflet) molecules, 1645 TIP3P (Charmm) waters. The uploaded 100 ns trajectory was saved every 10 ps. We recommend discarding the first 20 ns to guarantee equilibration, see the attached plot time_ApL.png.
+  description: Molecular dynamics trajectory of a lipid bilayer of 40 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 322 K. Simulated with CHARMM36 in GROMACS for 100 ns (10135 atoms). Deposited as NMRlipids Databank simulation 911 and available from https://doi.org/10.5281/zenodo.20524112.
   sameAs: https://doi.org/10.5281/zenodo.20524112
   datePublished: '2026-06-04'
   license:
@@ -133,8 +133,15 @@ bioschema_properties:
   isBasedOn:
   - experiments/OrderParameters/10.1021/bi00687a021/1
   - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/4
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.20524112
+    identifier: 10.5281/zenodo.20524112
+    url: https://doi.org/10.5281/zenodo.20524112
+    name: MD simulation trajectory and related files for DPPC lipid bilayer in full hydration at 322 K
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.20524112
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

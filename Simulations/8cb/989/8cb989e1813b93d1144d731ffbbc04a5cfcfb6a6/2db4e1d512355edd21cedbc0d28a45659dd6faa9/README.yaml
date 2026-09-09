@@ -44,9 +44,9 @@ TRJ:
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 82
 bioschema_properties:
-  name: 'Md Simulation Trajectory Of A Lipid Bilayer: 50/50 Mol% Popc/Cholesterol . Slipids, Gromacs 4.6.3. 2016.'
+  name: Molecular dynamics trajectory of a CHOL/POPC (50:50) bilayer at 298 K (slipids, GROMACS 4.6.3, 100 ns) [NMRlipids simulation 82]
   alternateName: POPC:CHOL(1:1)_T298K
-  description: 'MD simulation trajectory files, for fully hydrated POPC + CHOLESTEROL bilayer (50/50 mol%) [256 POPC, 256 CHOL, 20334 WAT]. The SLIPIDS force field was used with Gromacs 4.6.3. Conditions: T=298K. 170 ns each trajectory, last 100 ns analyzed.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 256 CHOL (cholesterol, 50 mol%) and 256 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) at 298 K. Simulated with slipids in GROMACS 4.6.3 for 100 ns (114250 atoms). Deposited as NMRlipids Databank simulation 82 and available from https://doi.org/10.5281/zenodo.159434.
   sameAs: https://doi.org/10.5281/zenodo.159434
   datePublished: '2016-10-05'
   license:
@@ -133,9 +133,16 @@ bioschema_properties:
   isBasedOn:
   - experiments/OrderParameters/10.1039/c2cp42738a/5
   - experiments/FormFactors/10.1021/acs.jctc.3c00648/10
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.159434
+    identifier: 10.5281/zenodo.159434
+    url: https://doi.org/10.5281/zenodo.159434
+    name: 'Md Simulation Trajectory Of A Lipid Bilayer: 50/50 Mol% Popc/Cholesterol . Slipids, Gromacs 4.6.3. 2016.'
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.159434
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

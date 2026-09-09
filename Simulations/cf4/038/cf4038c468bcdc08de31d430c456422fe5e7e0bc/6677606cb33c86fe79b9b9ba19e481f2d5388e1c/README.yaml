@@ -44,9 +44,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 563
 bioschema_properties:
-  name: Popc Lipid Membrane, 303K, Charmm36 Force Field, Simulation Files And 200 Ns Trajectory For Gromacs Md Simulation Engine V5.1.2
+  name: Molecular dynamics trajectory of a POPC bilayer at 303.15 K (CHARMM36, GROMACS 5.1.2, 60 ns) [NMRlipids simulation 563]
   alternateName: 128POPC_5120SOL_303K
-  description: 'POPC lipid membrane, 303K, Charmm36 force field, simulation files and 200 ns trajectory for Gromacs MD simulation engine v5.1.2 The starting structure was obtained from CHARMM-GUI Membrane Builder v1.7 (http://www.charmm-gui.org/) online tool. [1] All runs were performed with Gromacs 5.1.2 software package and CHARMM36 additive force field parameters obtained from CHARMM-GUI input files [1]. Conditions: T=303, 128 POPC molecules, 5120 tip3p waters, 200ns trajectory (preceded with equilibration) These data were originally obtained for the nmrlipids.blospot.fi project. Find more details at nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi [1] CHARMM-GUI Input Generator for NAMD, GROMACS, AMBER, OpenMM, and CHARMM/OpenMM Simulations Using the CHARMM36 Additive Force Field, J. Lee et al. , JCTC, DOI: 10.1021/acs.jctc.5b00935'
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303.15 K. Simulated with CHARMM36 in GROMACS 5.1.2 for 60 ns (32512 atoms). Deposited as NMRlipids Databank simulation 563 and available from https://doi.org/10.5281/zenodo.153944.
   sameAs: https://doi.org/10.5281/zenodo.153944
   datePublished: '2016-09-13'
   license:
@@ -134,9 +134,16 @@ bioschema_properties:
     - topol.top
   isBasedOn:
   - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/2
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.153944
+    identifier: 10.5281/zenodo.153944
+    url: https://doi.org/10.5281/zenodo.153944
+    name: Popc Lipid Membrane, 303K, Charmm36 Force Field, Simulation Files And 200 Ns Trajectory For Gromacs Md Simulation Engine V5.1.2
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.153944
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

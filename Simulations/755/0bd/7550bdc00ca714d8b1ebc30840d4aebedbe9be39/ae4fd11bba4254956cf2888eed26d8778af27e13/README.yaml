@@ -56,9 +56,9 @@ EXPERIMENT:
     SM16: []
   FORMFACTOR: []
 bioschema_properties:
-  name: 'MD simulation trajectory of Ternary mixture of POPC/PSM/Ergo (35:35:30) at 295 K: Slipids, GROMACS 2019.6'
+  name: Molecular dynamics trajectory of a POPC/SM16/ERG (35:35:30) bilayer at 295 K (Slipids, GROMACS 2019.6, 100 ns) [NMRlipids simulation 847]
   alternateName: POPC/SM16/ERG(35:35:30)
-  description: 'MD simulation trajectory files for Ternary mixture of POPC/PSM/Ergo [360 POPC, 352 SM16, 304 Ergo, and 35840 SOL]. The Slipids (2013 version) force field was used with Gromacs 2019.6. Ergosterol parameters from https://doi.org/10.1002/bit.25845 . Conditions: T=295K. Data saved every 20 ps. 100 ns trajectory. PREEQTIME: 100 ns TIMELEFTOUT: 300 ns'
+  description: Molecular dynamics trajectory of a lipid bilayer of 360 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 35 mol%), 352 SM16 (N-palmitoyl-D-erythro-sphingosylphosphorylcholine, 35 mol%) and 304 ERG (ergosterol, 30 mol%) at 295 K. Simulated with Slipids in GROMACS 2019.6 for 100 ns (222656 atoms). Deposited as NMRlipids Databank simulation 847 and available from https://doi.org/10.5281/zenodo.17730735.
   sameAs: https://doi.org/10.5281/zenodo.17730735
   datePublished: '2025-11-27'
   license:
@@ -98,12 +98,12 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - ERG
-  - ergosterol
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - SM16
   - N-palmitoyl-D-erythro-sphingosylphosphorylcholine
+  - ERG
+  - ergosterol
   - PSM
   - Gromacs
   measurementTechnique:
@@ -149,8 +149,15 @@ bioschema_properties:
     - md50ns_chunk01.tpr
     - 1k_pop35prc+psm35prc+erg30prc+wat.top
     - 1k_pop35prc+psm35prc+erg30prc+wat.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.17730735
+    identifier: 10.5281/zenodo.17730735
+    url: https://doi.org/10.5281/zenodo.17730735
+    name: 'MD simulation trajectory of Ternary mixture of POPC/PSM/Ergo (35:35:30) at 295 K: Slipids, GROMACS 2019.6'
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.17730735
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

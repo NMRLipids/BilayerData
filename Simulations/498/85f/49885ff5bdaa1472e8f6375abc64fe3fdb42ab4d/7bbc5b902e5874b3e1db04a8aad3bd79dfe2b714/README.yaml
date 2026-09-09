@@ -6,7 +6,6 @@ PREEQTIME: 0
 TIMELEFTOUT: 0
 TEMPERATURE: 310.0
 SYSTEM: POPC bilayer at 310K with the CHARMM36 force field, 111 mM CaCl2
-PUBLICATION: https://doi.org/10.1021/acs.jctc.4c00743
 AUTHORS_CONTACT: Nencini, Ricky
 SOFTWARE_VERSION: 2022.5-plumed_2.8.2
 FF: CHARMM36
@@ -44,13 +43,13 @@ COMPOSITION:
 TRAJECTORY_SIZE: 1992763856
 TRJLENGTH: 1000100.0
 NUMBER_OF_ATOMS: 53854
-DATEOFRUNNING: 07/09/2026
+DATEOFRUNNING: '2026-09-07'
 TYPEOFSYSTEM: lipid bilayer
 ID: 923
 bioschema_properties:
-  name: POPC bilayer at 310K with the CHARMM36 force field, 111 mM CaCl2
+  name: Molecular dynamics trajectory of a POPC/CLA/CAL (79:14:7) bilayer at 310 K (CHARMM36, GROMACS 2022.5-plumed_2.8.2, 1000 ns) [NMRlipids simulation 923]
   alternateName: POPC bilayer at 310K with the CHARMM36 force field, 111 mM CaCl2
-  description: prosECCo 75 paper related data
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 79 mol%), 36 CLA (14 mol%) and 18 CAL (7 mol%) at 310 K. Simulated with CHARMM36 in GROMACS 2022.5-plumed_2.8.2 for 1000 ns (53854 atoms). Deposited as NMRlipids Databank simulation 923 and available from https://doi.org/10.5281/zenodo.10464498.
   sameAs: https://doi.org/10.5281/zenodo.10464498
   datePublished: '2024-01-06'
   license:
@@ -91,8 +90,8 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  - CAL
   - CLA
+  - CAL
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -136,8 +135,15 @@ bioschema_properties:
     - POPC_113mM_CaCl2_CHARMM36.tpr
     - POPC_113mM_CaCl2_CHARMM36.top
     - POPC_113mM_CaCl2_CHARMM36.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.10464498
+    identifier: 10.5281/zenodo.10464498
+    url: https://doi.org/10.5281/zenodo.10464498
+    name: POPC bilayer at 310K with the CHARMM36 force field, 111 mM CaCl2
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.10464498
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

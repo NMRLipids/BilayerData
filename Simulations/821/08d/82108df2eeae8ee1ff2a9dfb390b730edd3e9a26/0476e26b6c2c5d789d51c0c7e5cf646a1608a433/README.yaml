@@ -48,9 +48,9 @@ EXPERIMENT:
   - 10.1021/acs.jctc.3c00648/1
 ID: 43
 bioschema_properties:
-  name: Simulations Of Popc Lipid Bilayer In Water Solution At Various Nacl And Cacl2 Concentrations Using Ecc-Popc Force Field And Various Water Models
+  name: Molecular dynamics trajectory of a POPC bilayer at 300 K (ECC-lipids, GROMACS 5.1.4, 300 ns) [NMRlipids simulation 43]
   alternateName: 128POPC_6400SOL_300K_OPC3model
-  description: Classical molecular dynamics simulations of a POPC lipid bilayer in water solution at various NaCl and CaCl2 concentrations using ECC-POPC force field parameters, various water models and ECC-ions. Simulations with SPC/E water model are in a separate Zenodo deposit https://doi.org/10.5281/zenodo.1118266 file names report molar fraction of cations (i.e. not bulk concentrations) simulations performed with Gromacs 5.1.4 (*.xtc files) and openMM 7 (*.dcd files) simulation length 300 ns temperature 313 K (otherwise noted)
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with ECC-lipids in GROMACS 5.1.4 for 300 ns (36352 atoms). Deposited as NMRlipids Databank simulation 43 and available from https://doi.org/10.5281/zenodo.1118980.
   sameAs: https://doi.org/10.5281/zenodo.1118980
   datePublished: '2017-12-19'
   license:
@@ -137,9 +137,16 @@ bioschema_properties:
   - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
   - experiments/OrderParameters/10.1039/c2cp42738a/1
   - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1118980
+    identifier: 10.5281/zenodo.1118980
+    url: https://doi.org/10.5281/zenodo.1118980
+    name: Simulations Of Popc Lipid Bilayer In Water Solution At Various Nacl And Cacl2 Concentrations Using Ecc-Popc Force Field And Various Water Models
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1118980
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -56,9 +56,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 332
 bioschema_properties:
-  name: Simulations Of Dppc/Cholesterol Bilayers With The Slipids Force Field, Part 2/2
+  name: Molecular dynamics trajectory of a DPPC/CHOL/CLA/SOD (65:17:9:9) bilayer at 310 K (Slipids, GROMACS 4.6, 500 ns) [NMRlipids simulation 332]
   alternateName: 912DPPC_240CHOL_46440SOL_124SOD_124CLA_310K
-  description: 'Simulation data related to our publication "Nanoscale Membrane Domain Formation Driven by Cholesterol" (DOI:10.1038/s41598-017-01247-9), part 2/2. Part 1/2 of the data are in the Zenodo record (DOI:10.5281/zenodo.439066). Please note that the description below covers both parts. Data for both cholesterol-free calibration simulations (letters in Table S1 and Fig. 1) and for cholesterol-containing simulations (numbers in Table S1 and Fig. 1) are included. The files are named as "dppc-X-Y.Z", where X is the cholesterol concentration, Y the simulation temperature (not shifted, see the paper), and Z defines the file type (in GROMACS formats): xtc for trajectory, edr for energy file, tpr for the simulation input file, and .cpt for the checkpoint file. The index file (.ndx) and the topology file (.top) are common among systems with equal cholesterol concentration. The simulation parameter file (.mdp) is common for all simulations, only the target temperature of the thermostat needs to be adjusted. Simulation lengths vary between 300 and 1400 ns, and the trajectories are written every 100 ps. Further information on the setup and composition of the simulated systems is available in the paper. The Slipids force field [1,2,3] is employed, and the topologies (.itp) are available at http://www.fos.su.se/~sasha/SLipids/ All simulations were performed with Gromacs 4.6.x [1] Derivation and Systematic Validation of a Refined All-Atom Force Field for Phosphatidylcholine Lipids. Joakim P. M. Jämbeck and Alexander P. Lyubartsev, The Journal of Physical Chemistry B 2012 116 (10), 3164-3179, DOI: 10.1021/jp212503e [2] An Extension and Further Validation of an All-Atomistic Force Field for Biological Membranes. Joakim P. M. Jämbeck and Alexander P. Lyubartsev, Journal of Chemical Theory and Computation 2012 8 (8), 2938-2948, DOI: 10.1021/ct300342n [3] Another Piece of the Membrane Puzzle: Extending Slipids Further. Joakim P. M. Jämbeck and Alexander P. Lyubartsev, Journal of Chemical Theory and Computation 2013 9 (1), 774-784, DOI: 10.1021/ct300777p'
+  description: Molecular dynamics trajectory of a lipid bilayer of 912 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine, 65 mol%), 240 CHOL (cholesterol, 17 mol%), 124 CLA (9 mol%) and 124 SOD (9 mol%) at 310 K. Simulated with Slipids in GROMACS 4.6 for 500 ns (275888 atoms). Deposited as NMRlipids Databank simulation 332 and available from https://doi.org/10.5281/zenodo.439080.
   sameAs: https://doi.org/10.5281/zenodo.439080
   datePublished: '2017-03-29'
   license:
@@ -103,8 +103,8 @@ bioschema_properties:
   - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
   - CHOL
   - cholesterol
-  - SOD
   - CLA
+  - SOD
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -147,9 +147,16 @@ bioschema_properties:
     - dppc-20-310.xtc
     - dppc-20-310.tpr
     - topol20.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.439080
+    identifier: 10.5281/zenodo.439080
+    url: https://doi.org/10.5281/zenodo.439080
+    name: Simulations Of Dppc/Cholesterol Bilayers With The Slipids Force Field, Part 2/2
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.439080
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

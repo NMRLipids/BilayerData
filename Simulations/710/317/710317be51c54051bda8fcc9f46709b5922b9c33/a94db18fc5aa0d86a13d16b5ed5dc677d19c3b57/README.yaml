@@ -52,9 +52,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 555
 bioschema_properties:
-  name: 'MD simulations of bilayers containing PC/PS mixtures and CaCl_2: 250POPC_50POPS_neutral'
+  name: Molecular dynamics trajectory of a POPC/POPS/POT (71:14:14) bilayer at 298 K (CHARMM36, GROMACS, 200 ns) [NMRlipids simulation 555]
   alternateName: 250POPC_50POPS_50POT_298K_73521Atoms
-  description: NMRLipids IV project (nmrlipids.blogspot.fi) Gromacs, CHARMM36 FF, 1 atm, 298K, 200ns (no pre-equilibration) 250 POPC lipids, 50 POPS lipids, 73521 Atoms
+  description: Molecular dynamics trajectory of a lipid bilayer of 250 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 71 mol%), 50 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 14 mol%) and 50 POT (14 mol%) at 298 K. Simulated with CHARMM36 in GROMACS for 200 ns (73521 atoms). Deposited as NMRlipids Databank simulation 555 and available from https://doi.org/10.5281/zenodo.2542151.
   sameAs: https://doi.org/10.5281/zenodo.2542151
   datePublished: '2019-01-16'
   license:
@@ -92,11 +92,11 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - POPS
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
   - POT
-  - POPC
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -139,9 +139,16 @@ bioschema_properties:
     - run.wrapped.xtc
     - step7_1.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.2542151
+    identifier: 10.5281/zenodo.2542151
+    url: https://doi.org/10.5281/zenodo.2542151
+    name: 'MD simulations of bilayers containing PC/PS mixtures and CaCl_2: 250POPC_50POPS_neutral'
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.2542151
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

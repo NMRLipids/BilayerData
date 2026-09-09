@@ -43,9 +43,9 @@ EXPERIMENT:
   - 10.1021/jp511159q/1
 ID: 195
 bioschema_properties:
-  name: LIPID17 POPE Bilayer Simulation (Last 100 ns, 310 K ) using dihedral 9
+  name: Molecular dynamics trajectory of a POPE bilayer at 310 K (Lipid17, GROMACS 2020.1, 100 ns) [NMRlipids simulation 195]
   alternateName: 500POPE_25000SOL_310K
-  description: Simulation of a POPE bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs v2020.1 in water solution with Na+ counterions. The LIPID17 model (1), AMBER ff15ipq and TIP3P water model are employed. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top), simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided.
+  description: Molecular dynamics trajectory of a lipid bilayer of 500 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 310 K. Simulated with Lipid17 in GROMACS 2020.1 for 100 ns (137500 atoms). Deposited as NMRlipids Databank simulation 195 and available from https://doi.org/10.5281/zenodo.4424292.
   sameAs: https://doi.org/10.5281/zenodo.4424292
   datePublished: '2019-06-03'
   license:
@@ -132,9 +132,16 @@ bioschema_properties:
   - experiments/OrderParameters/10.1021/jacs.1c05549/2
   - experiments/OrderParameters/unpublished/ferreiraPOPE/1
   - experiments/FormFactors/10.1021/jp511159q/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.4424292
+    identifier: 10.5281/zenodo.4424292
+    url: https://doi.org/10.5281/zenodo.4424292
+    name: LIPID17 POPE Bilayer Simulation (Last 100 ns, 310 K ) using dihedral 9
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.4424292
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -41,9 +41,9 @@ SOFTWARE: gromacs
 DIR_WRK: /usr/home/bort/Databank
 ID: 376
 bioschema_properties:
-  name: Slipids simulation of pure POPC bilayer at T=303K
+  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (Slipids, GROMACS 2020.1, 1200 ns) [NMRlipids simulation 376]
   alternateName: 122POPC_4880SOL_303K
-  description: Simulation of pure bilayer (122 lipids per leaflet) in full hydration (40 water/lipid) at T=303K in NPT ensemble. Simulations where done on GPU Gromacs 2020.1. The initial configurations were obtained from CHARMM36 simulations and then equilibrated with Slipids force field. The force field was downloaded from the Slipids website (http://www.fos.su.se/~sasha/SLipids/). The .itps used are the same as in entry 10.5281/zenodo.4349753. Note that this is the pre-2020 version of the force field. Simulation uses Parrinello-Rahman barostat and Nose-Hoover thermostat.
+  description: Molecular dynamics trajectory of a lipid bilayer of 122 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with Slipids in GROMACS 2020.1 for 1200 ns (30988 atoms). Deposited as NMRlipids Databank simulation 376 and available from https://doi.org/10.5281/zenodo.4352287.
   sameAs: https://doi.org/10.5281/zenodo.4352287
   datePublished: '2020-12-18'
   license:
@@ -126,9 +126,16 @@ bioschema_properties:
     - purepopc.tpr
   isBasedOn:
   - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/2
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.4352287
+    identifier: 10.5281/zenodo.4352287
+    url: https://doi.org/10.5281/zenodo.4352287
+    name: Slipids simulation of pure POPC bilayer at T=303K
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.4352287
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

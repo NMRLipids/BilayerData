@@ -45,9 +45,9 @@ EXPERIMENT:
   - 10.1021/acs.jctc.3c00648/1
 ID: 678
 bioschema_properties:
-  name: Simulations of POPC, SOPC, DOPC, and OMPC bilayers at three different sizes
+  name: Molecular dynamics trajectory of a POPC bilayer at 298.15 K (CHARMM36, GROMACS 2021, 1001 ns) [NMRlipids simulation 678]
   alternateName: POPC_S
-  description: 'Simulations of lipid bilayers with the CHARMM36 force field and TIP3P water. Three system sizes are used: small ("s", 64 lipids), medium ("m", 256 lipids), and large ("l", 1024 lipids). All simulations are 1 µs long. The simulations are performed using GROMACS, and for each system the following are provided: index file (ndx) topology file (top) run input file (tpr) energy file (edr) trajectory file (xtc) checkpoint file (cpt) final structure (gro) The simulation parameter file (mdp) is common for all simulations. The molecular topologies (top) are included in TOP.tar. The CHARMM36 force field is obtained from http://mackerell.umaryland.edu/charmm_ff.shtml'
+  description: Molecular dynamics trajectory of a lipid bilayer of 64 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 298.15 K. Simulated with CHARMM36 in GROMACS 2021 for 1001 ns (18176 atoms). Deposited as NMRlipids Databank simulation 678 and available from https://doi.org/10.5281/zenodo.7103807.
   sameAs: https://doi.org/10.5281/zenodo.7103807
   datePublished: '2022-09-22'
   license:
@@ -137,8 +137,15 @@ bioschema_properties:
   - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
   - experiments/OrderParameters/10.1039/c2cp42738a/1
   - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.7103807
+    identifier: 10.5281/zenodo.7103807
+    url: https://doi.org/10.5281/zenodo.7103807
+    name: Simulations of POPC, SOPC, DOPC, and OMPC bilayers at three different sizes
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.7103807
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

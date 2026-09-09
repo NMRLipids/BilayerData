@@ -46,9 +46,9 @@ EXPERIMENT:
   - 10.1016/j.bbamem.2011.07.022/11
 ID: 405
 bioschema_properties:
-  name: Simulations of POPC lipid bilayer in water solution at various NaCl, KCl and CaCl2 concentrations using ECC-POPC force field
+  name: Molecular dynamics trajectory of a POPC bilayer at 313 K (ECC-lipids, GROMACS 5.1.4, 100 ns) [NMRlipids simulation 405]
   alternateName: 128POPC_6400SOL_313K
-  description: Classical molecular dynamics simulations of a POPC lipid bilayer in water solution at various NaCl, KCl and CaCl2 concentrations using ECC-POPC force field parameters, SPC/E water model and ECC-ions. file names report molar fraction of cations (i.e. not bulk concentrations) simulations performed with Gromacs 5.1.4 (*.xtc files) and openMM 7 (*.dcd files) simulation length 300 ns temperature 313 K (otherwise noted) Gromacs simulation setting is in the file npt_lipid_bilayer.mdp
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 313 K. Simulated with ECC-lipids in GROMACS 5.1.4 for 100 ns (36352 atoms). Deposited as NMRlipids Databank simulation 405 and available from https://doi.org/10.5281/zenodo.3335503.
   sameAs: https://doi.org/10.5281/zenodo.3335503
   datePublished: '2017-12-19'
   license:
@@ -135,9 +135,16 @@ bioschema_properties:
     - sim_ECC-POPC_SPCE_noIons-ref.gro
   isBasedOn:
   - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/11
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3335503
+    identifier: 10.5281/zenodo.3335503
+    url: https://doi.org/10.5281/zenodo.3335503
+    name: Simulations of POPC lipid bilayer in water solution at various NaCl, KCl and CaCl2 concentrations using ECC-POPC force field
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3335503
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'
