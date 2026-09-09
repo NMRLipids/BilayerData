@@ -5,7 +5,6 @@ NMRlipids:
 sameAs:
   ChEBI: CHEBI:62862
   pubchem.compound: 11159192
-  lipidmaps: LMGP12019AAA
   metabolights: MTBLC62862
   pdb.ligand: CD4
 bioschema_properties:
