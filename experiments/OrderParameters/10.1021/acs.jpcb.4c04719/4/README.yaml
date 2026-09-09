@@ -65,7 +65,7 @@ bioschema_properties:
   - name: Markus S. Miettinen
     identifier: https://orcid.org/0000-0002-3999-4722
   citation:
-  - 10.1021/acs.jpcb.4c04719
+  - 10.18710/ETWNCU
   keywords:
   - '@type': DefinedTerm
     name: NMR

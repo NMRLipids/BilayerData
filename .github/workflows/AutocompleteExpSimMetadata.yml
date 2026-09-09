@@ -1,10 +1,10 @@
-name: AutocompleteMetadata
+name: AutocompleteExpSimMetadata
 
 on:
   pull_request_target:
     paths:
-      - 'Molecules/membrane/**/metadata.yaml'
-      - 'Molecules/solution/**/metadata.yaml'
+      - 'Simulations/**/README.yaml'
+      - 'experiments/**/README.yaml'
 
 permissions:
   contents: read
@@ -13,7 +13,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  add-metadata:
+  add-expsim-metadata:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout BilayerData
@@ -34,7 +34,7 @@ jobs:
         with:
           version: 2.83.0
 
-      - name: Find changed metadata.yaml files
+      - name: Find changed README.yaml files
         id: files
         env:
           GH_TOKEN: ${{ github.token }}
@@ -42,7 +42,7 @@ jobs:
           changed_files=$(gh api --paginate \
             "repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files" \
             --jq '.[] | select(.status != "removed") | .filename' \
-            | grep -E '^Molecules/(membrane|solution)/[^/]+/metadata\.yaml$' || true)
+            | grep -E '^(Simulations|experiments)/.+/README\.yaml$' || true)
           {
             echo "changed_files<<EOF"
             echo "$changed_files"
@@ -51,25 +51,32 @@ jobs:
           echo "Changed files:"
           echo "$changed_files"
 
-      - name: Run AddMetadata.py and create suggestions
+      # Many simulations share a Zenodo deposition -- roughly 480 distinct DOIs
+      # across 900 records -- so a warm cache turns most runs into no network at
+      # all, and keeps the databank polite towards DataCite and CrossRef.
+      - name: Restore API response cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ runner.temp }}/.cache/bioschema
+          key: bioschema-${{ hashFiles('Simulations/**/README.yaml', 'experiments/**/README.yaml') }}
+          restore-keys: bioschema-
+
+      - name: Run autocomplete_bioschema.py and create suggestions
         if: steps.files.outputs.changed_files != ''
         env:
           CHANGED_FILES: ${{ steps.files.outputs.changed_files }}
-          CAS_API_KEY: ${{ secrets.CAS_API_KEY }}
         run: |
           set -euo pipefail
-          while IFS= read -r f; do
-            [ -n "$f" ] || continue
-            echo "::group::autocomplete_metadata.py $f"
-            python "$RUNNER_TEMP/Databank/developer/autocomplete_metadata.py" "$f"
-            echo "::endgroup::"
-          done <<< "$CHANGED_FILES"
+          mapfile -t files <<< "$CHANGED_FILES"
+          echo "::group::autocomplete_bioschema.py"
+          python "$RUNNER_TEMP/Databank/developer/autocomplete_bioschema.py" "${files[@]}"
+          echo "::endgroup::"
 
       - name: Suggest changes on PR
         if: steps.files.outputs.changed_files != ''
         uses: reviewdog/action-suggester@v1
         with:
-          tool_name: addmetadata
+          tool_name: expsimmetadata
           github_token: ${{ secrets.GITHUB_TOKEN }}
           fail_level: none         # post suggestions without failing the job
           reviewdog_flags: -tee    # echo reviewdog's stdout/stderr to the log
