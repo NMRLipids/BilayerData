@@ -10,8 +10,8 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: 'full hydration'
 COUNTER_IONS:
 bioschema_properties:
-  name: Experimental C-H bond order parameters for a lipid bilayer at 303.0 K.
-  description: Experimental C-H bond order parameters for a lipid bilayer at 303.0 K.
+  name: C-H bond order parameters of a DOPC bilayer at 303 K, full hydration (NMR) [unpublished, ferreiraDOPC]
+  description: Experimental C-H bond order parameters for a lipid bilayer of DOPC (1,2-dioleoyl-sn-glycero-3-phosphocholine) at 303 K, fully hydrated. Measured by nuclear magnetic resonance spectroscopy. Unpublished data contributed to the NMRlipids Databank.
   license:
     spdx: CC-BY-4.0
     name: Creative Commons Attribution 4.0 International
@@ -33,6 +33,8 @@ bioschema_properties:
     termCode: topic_3306
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/topic_3306
+  - DOPC
+  - 1,2-dioleoyl-sn-glycero-3-phosphocholine
   measurementTechnique:
   - '@type': DefinedTerm
     name: nuclear magnetic resonance spectroscopy
@@ -56,4 +58,4 @@ bioschema_properties:
   _source:
     api: null
     doi: null
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

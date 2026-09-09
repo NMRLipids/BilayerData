@@ -11,8 +11,8 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: 'full hydration'
 COUNTER_IONS:
 bioschema_properties:
-  name: Cholesterol-Induced Conformational Change in the Sphingomyelin Headgroup
-  description: Experimental C-H bond order parameters for a lipid bilayer at 323 K.
+  name: C-H bond order parameters of a CHOL/SM18 (50:50) bilayer at 323 K, full hydration (NMR) [Hanashima 2019]
+  description: Experimental C-H bond order parameters for a lipid bilayer of CHOL (cholesterol, 50 mol%) and SM18 (N-stearoyl-D-erythro-sphingosylphosphorylcholine, 50 mol%) at 323 K, fully hydrated. Measured by nuclear magnetic resonance spectroscopy. Values digitised into the NMRlipids Databank from https://doi.org/10.1016/j.bpj.2019.06.019.
   sameAs: https://doi.org/10.1016/j.bpj.2019.06.019
   datePublished: 2019-07
   license:
@@ -54,6 +54,10 @@ bioschema_properties:
     termCode: topic_3306
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/topic_3306
+  - CHOL
+  - cholesterol
+  - SM18
+  - N-stearoyl-D-erythro-sphingosylphosphorylcholine
   measurementTechnique:
   - '@type': DefinedTerm
     name: nuclear magnetic resonance spectroscopy
@@ -86,4 +90,4 @@ bioschema_properties:
   _source:
     api: crossref
     doi: 10.1016/j.bpj.2019.06.019
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

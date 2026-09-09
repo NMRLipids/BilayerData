@@ -11,8 +11,8 @@ TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
 
 bioschema_properties:
-  name: Molecular Structure of Sphingomyelin in Fluid Phase Bilayers Determined by the Joint Analysis of Small-Angle Neutron and X-ray Scattering Data
-  description: Experimental C-H bond order parameters for a lipid bilayer at 321 K.
+  name: C-H bond order parameters of a SM16 bilayer at 321 K, full hydration (NMR) [Doktorova 2020]
+  description: Experimental C-H bond order parameters for a lipid bilayer of SM16 (N-palmitoyl-D-erythro-sphingosylphosphorylcholine) at 321 K, fully hydrated. Measured by nuclear magnetic resonance spectroscopy. Values digitised into the NMRlipids Databank from https://doi.org/10.1021/acs.jpcb.0c03389.
   sameAs: https://doi.org/10.1021/acs.jpcb.0c03389
   datePublished: '2020-05-29'
   license:
@@ -58,6 +58,8 @@ bioschema_properties:
     termCode: topic_3306
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/topic_3306
+  - SM16
+  - N-palmitoyl-D-erythro-sphingosylphosphorylcholine
   measurementTechnique:
   - '@type': DefinedTerm
     name: nuclear magnetic resonance spectroscopy
@@ -90,4 +92,4 @@ bioschema_properties:
   _source:
     api: crossref
     doi: 10.1021/acs.jpcb.0c03389
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -10,8 +10,8 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: 5.55
 COUNTER_IONS:
 bioschema_properties:
-  name: Probing segmental order in lipid bilayers at variable hydration levels by amplitude- and phase-modulated cross-polarization NMR
-  description: Experimental C-H bond order parameters for a lipid bilayer at 314 K.
+  name: C-H bond order parameters of a DMPC bilayer at 314 K, 10 waters per lipid (NMR) [Dvinskikh 2005]
+  description: Experimental C-H bond order parameters for a lipid bilayer of DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine) at 314 K, hydrated to 10 waters per lipid. Measured by nuclear magnetic resonance spectroscopy. Values digitised into the NMRlipids Databank from https://doi.org/10.1039/B508190D.
   sameAs: https://doi.org/10.1039/B508190D
   datePublished: '2005'
   license:
@@ -42,6 +42,8 @@ bioschema_properties:
     termCode: topic_3306
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/topic_3306
+  - DMPC
+  - 1,2-dimyristoyl-sn-glycero-3-phosphocholine
   measurementTechnique:
   - '@type': DefinedTerm
     name: nuclear magnetic resonance spectroscopy
@@ -74,4 +76,4 @@ bioschema_properties:
   _source:
     api: crossref
     doi: 10.1039/B508190D
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

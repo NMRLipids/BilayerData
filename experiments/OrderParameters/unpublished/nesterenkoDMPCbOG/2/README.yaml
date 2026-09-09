@@ -13,8 +13,8 @@ TOTAL_LIPID_CONCENTRATION: 4.4
 # 32 mass % water
 COUNTER_IONS:
 bioschema_properties:
-  name: Experimental C-H bond order parameters for a lipid bilayer at 298 K.
-  description: Experimental C-H bond order parameters for a lipid bilayer at 298 K.
+  name: C-H bond order parameters of a DMPC/BOG (67:33) bilayer at 298 K, 13 waters per lipid (NMR) [unpublished, nesterenkoDMPCbOG]
+  description: Experimental C-H bond order parameters for a lipid bilayer of DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine, 67 mol%) and BOG (beta-octyl D-glucopyranoside, 33 mol%) at 298 K, hydrated to 13 waters per lipid. Measured by nuclear magnetic resonance spectroscopy. Unpublished data contributed to the NMRlipids Databank.
   license:
     spdx: CC-BY-4.0
     name: Creative Commons Attribution 4.0 International
@@ -36,6 +36,10 @@ bioschema_properties:
     termCode: topic_3306
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/topic_3306
+  - DMPC
+  - 1,2-dimyristoyl-sn-glycero-3-phosphocholine
+  - BOG
+  - beta-octyl D-glucopyranoside
   measurementTechnique:
   - '@type': DefinedTerm
     name: nuclear magnetic resonance spectroscopy
@@ -62,4 +66,4 @@ bioschema_properties:
   _source:
     api: null
     doi: null
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

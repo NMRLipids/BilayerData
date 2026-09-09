@@ -34,8 +34,8 @@ COUNTER_IONS:
 
 
 bioschema_properties:
-  name: 'Dipolar Recoupling in MAS NMR: A Probe for Segmental Order in Lipid Bilayers'
-  description: 'Experimental C-H bond order parameters for a lipid bilayer containing DMPC at 303 K, measured by NMR: PDLF:DROSS.'
+  name: C-H bond order parameters of a DMPC bilayer at 303 K, 50% water (PDLF NMR) [Gross 1997]
+  description: Experimental C-H bond order parameters for a lipid bilayer of DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine) at 303 K, hydrated to 50% water. Measured by proton detected separated local field spectroscopy (PDLF:DROSS) on a Custom designed spectrometer (397.9 MHz for 1H), 5 mm Doty high-speed spinning assembly. Values digitised into the NMRlipids Databank from https://doi.org/10.1021/ja962951b.
   sameAs: https://doi.org/10.1021/ja962951b
   datePublished: '1997-01-01'
   license:
@@ -102,4 +102,4 @@ bioschema_properties:
   _source:
     api: crossref
     doi: 10.1021/ja962951b
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

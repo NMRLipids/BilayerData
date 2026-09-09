@@ -38,8 +38,8 @@ TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
   SOD: DPPG
 bioschema_properties:
-  name: Molecular structures of fluid phase phosphatidylglycerol bilayers as determined by small angle neutron and X-ray scattering
-  description: Experimental X-ray scattering form factor for a lipid bilayer containing DPPG at 323 K, measured by X-ray scattering (SUV).
+  name: X-ray scattering form factor of a DPPG bilayer at 323 K, 97.5% water, with CLA/SOD (SAXS, SUV) [Pan 2012]
+  description: Experimental X-ray scattering form factor for a lipid bilayer of DPPG (1,2-dipalmitoyl-sn-glycero-3-phospho-(1’-rac-glycerol)) at 323 K, hydrated to 97.5% water, with ions CLA and SOD. Measured by small-angle X-ray scattering on SUV samples at G1 station, CHESS. Values digitised into the NMRlipids Databank from https://doi.org/10.1016/j.bbamem.2012.05.007.
   sameAs: https://doi.org/10.1016/j.bbamem.2012.05.007
   datePublished: 2012-09
   license:
@@ -79,8 +79,8 @@ bioschema_properties:
     url: http://edamontology.org/topic_3306
   - DPPG
   - 1,2-dipalmitoyl-sn-glycero-3-phospho-(1’-rac-glycerol)
-  - SOD
   - CLA
+  - SOD
   measurementTechnique:
   - '@type': DefinedTerm
     name: small-angle X-ray scattering
@@ -115,4 +115,4 @@ bioschema_properties:
   _source:
     api: crossref
     doi: 10.1016/j.bbamem.2012.05.007
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

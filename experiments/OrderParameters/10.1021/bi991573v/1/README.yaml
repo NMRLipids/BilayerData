@@ -40,8 +40,8 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: 'full hydration'
 COUNTER_IONS:
 bioschema_properties:
-  name: 'CTP:Phosphocholine Cytidylyltransferase Activation by Oxidized Phosphatidylcholines Correlates with a Decrease in Lipid Order: A <sup>2</sup>H NMR Analysis'
-  description: 'Experimental C-H bond order parameters for a lipid bilayer containing PAPC at 310 K, measured by NMR: 2H:QE.'
+  name: C-H bond order parameters of a PAPC bilayer at 310 K, 95% water, with EDTA/TRIS (2H NMR) [Drobnies 1999]
+  description: Experimental C-H bond order parameters for a lipid bilayer of PAPC (1-palmitoyl-2-arachidonoyl-sn-glycero-3-phosphocholine) at 310 K, hydrated to 95% water, with additives EDTA and TRIS; pH 7.4 (buffer). Measured by solid-state nuclear magnetic resonance spectroscopy (2H:QE) on a Custom-built spectrometer (Davis, 1979) operating at 46.2 MHz. Values digitised into the NMRlipids Databank from https://doi.org/10.1021/bi991573v.
   sameAs: https://doi.org/10.1021/bi991573v
   datePublished: '1999-11-01'
   license:
@@ -104,11 +104,11 @@ bioschema_properties:
     '@id': https://doi.org/10.1021/bi991573v
     identifier: 10.1021/bi991573v
     url: https://doi.org/10.1021/bi991573v
-    name: 'CTP:Phosphocholine Cytidylyltransferase Activation by Oxidized Phosphatidylcholines Correlates with a Decrease in Lipid Order: A <sup>2</sup>H NMR Analysis'
+    name: 'CTP:Phosphocholine Cytidylyltransferase Activation by Oxidized Phosphatidylcholines Correlates with a Decrease in Lipid Order: A 2 H NMR Analysis'
     isPartOf:
       '@type': Periodical
       name: Biochemistry
   _source:
     api: crossref
     doi: 10.1021/bi991573v
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

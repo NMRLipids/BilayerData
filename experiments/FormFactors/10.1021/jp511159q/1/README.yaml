@@ -11,8 +11,8 @@ TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
 
 bioschema_properties:
-  name: Molecular Structures of Fluid Phosphatidylethanolamine Bilayers Obtained from Simulation-to-Experiment Comparisons and Experimental Scattering Density Profiles
-  description: Experimental X-ray scattering form factor for a lipid bilayer at 308 K, measured by X-ray scattering.
+  name: X-ray scattering form factor of a POPE bilayer at 308 K, full hydration (SAXS) [Kučerka 2014]
+  description: Experimental X-ray scattering form factor for a lipid bilayer of POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 308 K, fully hydrated. Measured by small-angle X-ray scattering. Values digitised into the NMRlipids Databank from https://doi.org/10.1021/jp511159q.
   sameAs: https://doi.org/10.1021/jp511159q
   datePublished: '2014-12-12'
   license:
@@ -46,6 +46,8 @@ bioschema_properties:
     termCode: topic_3306
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/topic_3306
+  - POPE
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
   measurementTechnique:
   - '@type': DefinedTerm
     name: small-angle X-ray scattering
@@ -79,4 +81,4 @@ bioschema_properties:
   _source:
     api: crossref
     doi: 10.1021/jp511159q
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

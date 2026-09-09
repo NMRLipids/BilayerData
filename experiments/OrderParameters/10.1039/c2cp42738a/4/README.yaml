@@ -48,8 +48,8 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
 bioschema_properties:
-  name: 'Cholesterol and POPC segmental order parameters in lipid membranes: solid state <sup>1</sup> H– <sup>13</sup> C NMR and MD simulation studies'
-  description: 'Experimental C-H bond order parameters for a lipid bilayer containing CHOL, POPC at 300 K, measured by NMR: PDLF:R18_1^7.'
+  name: C-H bond order parameters of a POPC/CHOL (66:34) bilayer at 300 K, 50% water (R-PDLF NMR) [Ferreira 2013]
+  description: Experimental C-H bond order parameters for a lipid bilayer of POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 66 mol%) and CHOL (cholesterol, 34 mol%) at 300 K, hydrated to 50% water. Measured by R-type recoupling proton detected separated local field spectroscopy (PDLF:R18_1^7) on a Bruker Avance AVII-500 NMR with 4 mm CP-MAS HX probe. Values digitised into the NMRlipids Databank from https://doi.org/10.1039/c2cp42738a.
   sameAs: https://doi.org/10.1039/c2cp42738a
   datePublished: '2013'
   license:
@@ -114,11 +114,11 @@ bioschema_properties:
     '@id': https://doi.org/10.1039/c2cp42738a
     identifier: 10.1039/c2cp42738a
     url: https://doi.org/10.1039/c2cp42738a
-    name: 'Cholesterol and POPC segmental order parameters in lipid membranes: solid state <sup>1</sup> H– <sup>13</sup> C NMR and MD simulation studies'
+    name: 'Cholesterol and POPC segmental order parameters in lipid membranes: solid state 1 H– 13 C NMR and MD simulation studies'
     isPartOf:
       '@type': Periodical
       name: Phys. Chem. Chem. Phys.
   _source:
     api: crossref
     doi: 10.1039/c2cp42738a
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

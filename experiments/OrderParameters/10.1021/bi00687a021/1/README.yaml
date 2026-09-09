@@ -43,8 +43,8 @@ COUNTER_IONS:
  
 
 bioschema_properties:
-  name: Conformation and motion of the choline head group in bilayers of dipalmitoyl-3-sn-phosphatidylcholine
-  description: 'Experimental C-H bond order parameters for a lipid bilayer containing DPPC at 322 K, measured by NMR: 2H:SP.'
+  name: C-H bond order parameters of a DPPC bilayer at 322 K, 50% water (2H NMR) [Gally 1975]
+  description: Experimental C-H bond order parameters for a lipid bilayer of DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 322 K, hydrated to 50% water. Measured by solid-state nuclear magnetic resonance spectroscopy (2H:SP). Values digitised into the NMRlipids Databank from https://doi.org/10.1021/bi00687a021.
   sameAs: https://doi.org/10.1021/bi00687a021
   datePublished: '1975-08-01'
   license:
@@ -110,4 +110,4 @@ bioschema_properties:
   _source:
     api: crossref
     doi: 10.1021/bi00687a021
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

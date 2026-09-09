@@ -44,8 +44,8 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: 'full hydration'
 COUNTER_IONS:
 bioschema_properties:
-  name: Bilayers of arachidonic acid containing phospholipids studied by deuterium and phosphorus-31 NMR spectroscopy
-  description: 'Experimental C-H bond order parameters for a lipid bilayer containing PAPC at 303 K, measured by NMR: 2H:QE.'
+  name: C-H bond order parameters of a PAPC bilayer at 303 K, 50% water, with EDTA/TRIS (2H NMR) [Rajamoorthi 1991]
+  description: Experimental C-H bond order parameters for a lipid bilayer of PAPC (1-palmitoyl-2-arachidonoyl-sn-glycero-3-phosphocholine) at 303 K, hydrated to 50% water, with additives EDTA and TRIS; pH 7.4 (buffer). Measured by solid-state nuclear magnetic resonance spectroscopy (2H:QE) on a GN-300 (GE, Vermont) at 46.13 MHz equipped with a home-built high-power transverse solenoid probe.. Values digitised into the NMRlipids Databank from https://doi.org/10.1021/bi00231a015.
   sameAs: https://doi.org/10.1021/bi00231a015
   datePublished: '1991-04-30'
   license:
@@ -115,4 +115,4 @@ bioschema_properties:
   _source:
     api: crossref
     doi: 10.1021/bi00231a015
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'
