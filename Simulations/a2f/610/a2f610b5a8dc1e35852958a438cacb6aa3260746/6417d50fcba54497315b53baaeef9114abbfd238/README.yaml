@@ -63,9 +63,9 @@ EXPERIMENT:
     CHOL: []
   FORMFACTOR: []
 bioschema_properties:
-  name: All-atom MD simulations of POPC/SSM/CHOL mixture
+  name: Molecular dynamics trajectory of a CHOL/POPC/SM18/CLA/SOD (30:30:30:5:5) bilayer at 321.15 K (CHARMM36, GROMACS 2020.4 and 2021.4, 300 ns) [NMRlipids simulation 764]
   alternateName: POPC/SSM/CHOL bilayer in water (with ions), 321.15 K, NPT
-  description: 'All-atom MD simulation of lipid bilayer in water, with composition POPC/SSM/CHOL, at 321.15 K, NPT conditions. Force field: CHARMM36. Water model: TIP3P. Number of molecules: 100 POPC + 100 SSM + 100 CHOL + 9000 SOL + 18 Na+ + 18 Cl-. SSM is (d18:1/18:0) sphingomyelin. Duration of the simulation: 300 ns.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 100 CHOL (cholesterol, 30 mol%), 100 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 30 mol%), 100 SM18 (N-stearoyl-D-erythro-sphingosylphosphorylcholine, 30 mol%), 18 CLA (5 mol%) and 18 SOD (5 mol%) at 321.15 K. Simulated with CHARMM36 in GROMACS 2020.4 and 2021.4 for 300 ns (61136 atoms). Deposited as NMRlipids Databank simulation 764 and available from https://doi.org/10.5281/zenodo.8337239.
   sameAs: https://doi.org/10.5281/zenodo.8337239
   datePublished: '2023-09-12'
   license:
@@ -107,14 +107,14 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - SM18
-  - N-stearoyl-D-erythro-sphingosylphosphorylcholine
-  - POPC
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - CHOL
   - cholesterol
-  - SOD
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SM18
+  - N-stearoyl-D-erythro-sphingosylphosphorylcholine
   - CLA
+  - SOD
   - MD
   - all-atom
   - CHARMM36
@@ -161,9 +161,16 @@ bioschema_properties:
     - NPT.xtc
     - NPT.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8337239
+    identifier: 10.5281/zenodo.8337239
+    url: https://doi.org/10.5281/zenodo.8337239
+    name: All-atom MD simulations of POPC/SSM/CHOL mixture
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.8337239
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

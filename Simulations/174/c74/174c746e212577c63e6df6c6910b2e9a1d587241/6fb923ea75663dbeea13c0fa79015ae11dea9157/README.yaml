@@ -44,9 +44,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 87
 bioschema_properties:
-  name: Dppc_512_325K
+  name: Molecular dynamics trajectory of a DPPC bilayer at 325 K (CHARMM36, GROMACS 5.0.4, 400 ns) [NMRlipids simulation 87]
   alternateName: 512DPPC_20480SOL_325K
-  description: 'System description ------------------- - Title: Simulation DPPC_512_325K bilayer - MD engine: gromacs 5.0.4 - Force field: charmm36 - Temperature: 325K - Simulation time: 500ns - Saving frequency: 100ps - Molecular content: DPPC 512 water 20480 - Other information: * Center of mass motion removed independently for bilayer and water'
+  description: Molecular dynamics trajectory of a lipid bilayer of 512 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 325 K. Simulated with CHARMM36 in GROMACS 5.0.4 for 400 ns (128000 atoms). Deposited as NMRlipids Databank simulation 87 and available from https://doi.org/10.5281/zenodo.16254.
   sameAs: https://doi.org/10.5281/zenodo.16254
   datePublished: '2015-03-21'
   license:
@@ -136,9 +136,16 @@ bioschema_properties:
     - DPPC_512_325K_md.top
   isBasedOn:
   - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/4
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.16254
+    identifier: 10.5281/zenodo.16254
+    url: https://doi.org/10.5281/zenodo.16254
+    name: Dppc_512_325K
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.16254
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

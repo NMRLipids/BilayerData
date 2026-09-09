@@ -50,9 +50,9 @@ SOFTWARE: gromacs
 DIR_WRK: /usr/home/bort/Databank
 ID: 245
 bioschema_properties:
-  name: Atomistic simulations of cholesterol in symmetric lipid bilayers with varying degrees of lipid chain unsaturation
+  name: Molecular dynamics trajectory of a DOPC/CHOL (90:10) bilayer at 310 K (CHARMM36, GROMACS, 1000 ns) [NMRlipids simulation 245]
   alternateName: 260DOPC_28CHOL_11520SOL_310K
-  description: 'Membranes consisting of 260 phospholipids varying levels of chain unsaturation together with 28 (10 mol%) cholesterol molecules were simulated at 310 K. The phospholipids had either 1 (DOPC), 2 (DLiPC), 4 (DAPC), or 6 (DDPC) double bonds in both of their chains. The CHARMM36 force field [1] was used and the membranes were generated using CHARMM-GUI [2]. The simulations for DAPC were also repeated with higher cholesterol concentrations of 20, 30, 40, and 50 mol%. Moreover, the DAPC/cholesterol simulations with 10 mol% cholesterol were also simulated at 285, 298, 310, 320, and 333 K. The simulations were run for 1 microsecond using the GROMACS simulation suite [3]. Simulation parameters are found in the common mdp file (note that the temperature varies between simulations). The upload contains simulation inputs and outputs that allows the replication, extension, or analysis of the simulation data: Topology files (top) and molecular definitions (itp) Index files (ndx) A common run parameter file (mdp) A run input file (tpr) Trajectory file (xtc) written every 100 ps Energy file (edr) Log file (log) Final structure file (gro) Continue point file (cpt) The files are named LLLL_AA_CHOLXX_TTT.FFF, where LLLL is the type of phospholipid AA stands for all atom (Coarse-grained data in a separate upload) CHOLXX stands for the cholesterol concentration (CHOL10 for 10 mol%) TTT is the temperature FFF is the tile type (see above) Note that topologies/index files are the same regardless of temperature, and hence their file names do not have the TTT section. [1] DOI: 10.1021/jp101759q [2] DOI: 10.1021/acs.jctc.5b00935 [3] DOI: 10.1016/j.softx.2015.06.001'
+  description: Molecular dynamics trajectory of a lipid bilayer of 260 DOPC (1,2-dioleoyl-sn-glycero-3-phosphocholine, 90 mol%) and 28 CHOL (cholesterol, 10 mol%) at 310 K. Simulated with CHARMM36 in GROMACS for 1000 ns (72512 atoms). Deposited as NMRlipids Databank simulation 245 and available from https://doi.org/10.5281/zenodo.2653721.
   sameAs: https://doi.org/10.5281/zenodo.2653721
   datePublished: '2019-04-29'
   license:
@@ -90,10 +90,10 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - CHOL
-  - cholesterol
   - DOPC
   - 1,2-dioleoyl-sn-glycero-3-phosphocholine
+  - CHOL
+  - cholesterol
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -136,9 +136,16 @@ bioschema_properties:
     - DOPC_AA_CHOL10_310.xtc
     - DOPC_AA_CHOL10_310.tpr
     - DOPC_AA_CHOL10.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.2653721
+    identifier: 10.5281/zenodo.2653721
+    url: https://doi.org/10.5281/zenodo.2653721
+    name: Atomistic simulations of cholesterol in symmetric lipid bilayers with varying degrees of lipid chain unsaturation
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.2653721
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

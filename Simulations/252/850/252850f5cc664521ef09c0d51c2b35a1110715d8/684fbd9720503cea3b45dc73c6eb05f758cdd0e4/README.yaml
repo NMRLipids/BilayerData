@@ -56,9 +56,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 179
 bioschema_properties:
-  name: 'MD simulations of bilayers containing PC/PG mixtures and CaCl_2: 250POPC_250POPG_0.15MCaCl_2'
+  name: Molecular dynamics trajectory of a POPC/POPG/CAL/CLA (39:39:20:1) bilayer at 298 K (CHARMM36, GROMACS, 200 ns) [NMRlipids simulation 179]
   alternateName: 250POPG_250POPC_128CAL_6CLA_298K_127778Atoms
-  description: NMRLipids IVb project (nmrlipids.blogspot.fi) Gromacs, CHARMM36 FF, 1 atm, 298K, 200ns (no pre-equilibration) 250 POPC lipids, 250 POPG lipids, 127778 Atoms
+  description: Molecular dynamics trajectory of a lipid bilayer of 250 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 39 mol%), 250 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 39 mol%), 128 CAL (20 mol%) and 6 CLA (1 mol%) at 298 K. Simulated with CHARMM36 in GROMACS for 200 ns (127778 atoms). Deposited as NMRlipids Databank simulation 179 and available from https://doi.org/10.5281/zenodo.3483789.
   sameAs: https://doi.org/10.5281/zenodo.3483789
   datePublished: '2019-10-12'
   license:
@@ -96,10 +96,10 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - POPG
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
   - CAL
   - CLA
   measurementTechnique:
@@ -144,9 +144,16 @@ bioschema_properties:
     - run.wrapped.xtc
     - step7_1.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3483789
+    identifier: 10.5281/zenodo.3483789
+    url: https://doi.org/10.5281/zenodo.3483789
+    name: 'MD simulations of bilayers containing PC/PG mixtures and CaCl_2: 250POPC_250POPG_0.15MCaCl_2'
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3483789
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

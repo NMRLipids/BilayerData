@@ -45,9 +45,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 616
 bioschema_properties:
-  name: POPG MD simulation with Lipid17 in water with Na+ counter ions
+  name: Molecular dynamics trajectory of a POPG/SOD (50:50) bilayer at 310 K (Lipid17, GROMACS, 300 ns) [NMRlipids simulation 616]
   alternateName: 500POPG_500SOD_25000SOL_310K
-  description: Lipid17 POPG bilayer simulation water. The initial structure was taken from https://zenodo.org/record/3832274#.X0OlNxmEZGE . Temperature is 310 K. The system contains 500 POPG, 500 sodium ions and 25000 TIP3 water molecules. Total length of simulation is 400 ns. First 100 ns were discarded. Saving frequency of 100-300ns.xtc is 20 ps.
+  description: Molecular dynamics trajectory of a lipid bilayer of 500 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 50 mol%) and 500 SOD (50 mol%) at 310 K. Simulated with Lipid17 in GROMACS for 300 ns (139000 atoms). Deposited as NMRlipids Databank simulation 616 and available from https://doi.org/10.5281/zenodo.3997214.
   sameAs: https://doi.org/10.5281/zenodo.3997214
   datePublished: '2020-08-24'
   license:
@@ -129,9 +129,16 @@ bioschema_properties:
     - 100-400ns.xtc
     - run_400ns.tpr
     - popg_fix.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3997214
+    identifier: 10.5281/zenodo.3997214
+    url: https://doi.org/10.5281/zenodo.3997214
+    name: POPG MD simulation with Lipid17 in water with Na+ counter ions
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3997214
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

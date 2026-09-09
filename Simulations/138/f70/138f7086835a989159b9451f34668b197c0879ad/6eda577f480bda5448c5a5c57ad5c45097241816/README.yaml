@@ -44,9 +44,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 586
 bioschema_properties:
-  name: Gromos-Ckp Dppe Simulations (Versions 1 And 2) 342 K
+  name: Molecular dynamics trajectory of a DPPE bilayer at 342 K (GROMOS-CKP, GROMACS 5.0.6, 400 ns) [NMRlipids simulation 586]
   alternateName: 128DPPE_3655SOL_342K_GROMOS-CKP_v2
-  description: Two GROMOS-CKP DPPE bilayer simulations performed using GROMACS 5.0.6 for 500 ns with different starting velocities. Simulations were performed with a 1.4 nm cut-off with PME for the Coulombic and a 1.4 nm cut-off for the van der Waals interactions with a dispersion correction. These simulations were performed at 342 K with a 128 lipid bilayer. The full trajectories are provided bar the initial 100 ns. The starting structure was taken from an equilibrated DPPE membrane simulated with an older version of the force field which used the PC charges in the head group (see the SI of https://pubs.acs.org/doi/abs/10.1021/jp207013v). The newer PE parameters were constructed using the standard GROMOS lysine parameters.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 DPPE (1,2-dipalmitoyl-sn-glycero-3-phosphoethanolamine) at 342 K. Simulated with GROMOS-CKP in GROMACS 5.0.6 for 400 ns (17365 atoms). Deposited as NMRlipids Databank simulation 586 and available from https://doi.org/10.5281/zenodo.1293957.
   sameAs: https://doi.org/10.5281/zenodo.1293957
   datePublished: '2018-06-20'
   license:
@@ -127,9 +127,16 @@ bioschema_properties:
     - md_DPPE_CKP_new_NH3_PME_verlet_v2_100-500ns.xtc
     - for-md_DPPE_CKP_new_NH3_PME_verlet_v2.tpr
     - md_DPPE_CKP_new_NH3_PME_verlet_v2.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1293957
+    identifier: 10.5281/zenodo.1293957
+    url: https://doi.org/10.5281/zenodo.1293957
+    name: Gromos-Ckp Dppe Simulations (Versions 1 And 2) 342 K
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1293957
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

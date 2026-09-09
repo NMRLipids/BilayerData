@@ -52,9 +52,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 505
 bioschema_properties:
-  name: LIPID17 POPG-POPE 1:3 Bilayer Simulation (Last 100 ns, 310 K )
+  name: Molecular dynamics trajectory of a POPE/POPG/SOD (60:20:20) bilayer at 310 K (Lipid17 for lipids and AMBER ff15ipq for ions, GROMACS 2018.3, 100 ns) [NMRlipids simulation 505]
   alternateName: POPE_POPG_SOD_SOL_310K
-  description: 'Simulation of a POPG-POPE 1:3 bilayer of 500 lipids (126 L-POPG lipids and 374 POPE lipids, 250 per leaflet) is simulated for 500 ns using Gromacs v2018.3 in water solution with Na+ counterions. The LIPID17 model (1), AMBER ff15ipq and TIP3P water model are employed. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top), simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided. ------- (1) Gould, I.R., Skjevik A.A., Dickson, C.J., Madej, B.D., Walker, R.C., "Lipid17: A Comprehensive AMBER Force Field for the Simulation of Zwitterionic and Anionic Lipids", 2018, in prep.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 374 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 60 mol%), 126 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 20 mol%) and 126 SOD (20 mol%) at 310 K. Simulated with Lipid17 for lipids and AMBER ff15ipq for ions in GROMACS 2018.3 for 100 ns (137878 atoms). Deposited as NMRlipids Databank simulation 505 and available from https://doi.org/10.5281/zenodo.3241269.
   sameAs: https://doi.org/10.5281/zenodo.3241269
   datePublished: '2019-06-07'
   license:
@@ -140,9 +140,16 @@ bioschema_properties:
     - total_4_500.xtc
     - md_0.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3241269
+    identifier: 10.5281/zenodo.3241269
+    url: https://doi.org/10.5281/zenodo.3241269
+    name: LIPID17 POPG-POPE 1:3 Bilayer Simulation (Last 100 ns, 310 K )
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3241269
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

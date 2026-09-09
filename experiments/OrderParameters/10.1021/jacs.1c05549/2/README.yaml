@@ -10,8 +10,8 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: 'full hydration'
 COUNTER_IONS:
 bioschema_properties:
-  name: Inverse Conformational Selection in Lipid–Protein Binding
-  description: Experimental C-H bond order parameters for a lipid bilayer at 310.0 K.
+  name: C-H bond order parameters of a POPE bilayer at 310 K, full hydration (NMR) [Bacle 2021]
+  description: Experimental C-H bond order parameters for a lipid bilayer of POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 310 K, fully hydrated. Measured by nuclear magnetic resonance spectroscopy. Values digitised into the NMRlipids Databank from https://doi.org/10.1021/jacs.1c05549.
   sameAs: https://doi.org/10.1021/jacs.1c05549
   datePublished: '2021-08-16'
   license:
@@ -71,6 +71,8 @@ bioschema_properties:
     termCode: topic_3306
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/topic_3306
+  - POPE
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
   measurementTechnique:
   - '@type': DefinedTerm
     name: nuclear magnetic resonance spectroscopy
@@ -104,4 +106,4 @@ bioschema_properties:
     api: crossref
     doi: 10.1021/jacs.1c05549
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

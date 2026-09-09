@@ -31,8 +31,8 @@ TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
 
 bioschema_properties:
-  name: Quantitative Comparison against Experiments Reveals Imperfections in Force Fields’ Descriptions of POPC–Cholesterol Interactions
-  description: Experimental X-ray scattering form factor for a lipid bilayer containing CHOL, POPC at 300 K, measured by X-ray scattering (MLV).
+  name: X-ray scattering form factor of a POPC/CHOL (55:45) bilayer at 300 K, 97% water (SAXS, MLV) [Javanainen 2023]
+  description: Experimental X-ray scattering form factor for a lipid bilayer of POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 55 mol%) and CHOL (cholesterol, 45 mol%) at 300 K, hydrated to 97% water. Measured by small-angle X-ray scattering on MLV samples at EMBL BioSAXS beamline, PETRA III. Values digitised into the NMRlipids Databank from https://doi.org/10.1021/acs.jctc.3c00648.
   sameAs: https://doi.org/10.1021/acs.jctc.3c00648
   datePublished: '2023-08-24'
   license:
@@ -115,4 +115,4 @@ bioschema_properties:
     api: crossref
     doi: 10.1021/acs.jctc.3c00648
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

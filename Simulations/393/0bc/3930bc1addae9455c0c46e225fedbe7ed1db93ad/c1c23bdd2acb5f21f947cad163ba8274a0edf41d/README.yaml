@@ -58,9 +58,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 322
 bioschema_properties:
-  name: GROMOS-CKP POPC-POPG 7:3 Bilayer Simulation (Last 100 ns, 310 K )
+  name: Molecular dynamics trajectory of a POPC/POPG/SOD (54:23:23) bilayer at 310 K (GROMOS-CKP, GROMACS 2018.3, 100 ns) [NMRlipids simulation 322]
   alternateName: 350POPC_150POPG_25000SOL_150SOD_310K
-  description: Simulation of a POPC-POPG 7:3 bilayer of 500 lipids (350 POPC lipids and 150 L-POPG lipids, 250 per leaflet) is simulated for 50/mnt/lustre/scratch/home/usc/fa/apl/membranes/popc_popg_7_3/charmm/mdy/mandar0 ns using Gromacs v2018.3 in water solution with Na+ counterions. The GROMOS-CKP model is employed for lipids and SCP Water Model Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top) , simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided.
+  description: Molecular dynamics trajectory of a lipid bilayer of 350 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 54 mol%), 150 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 23 mol%) and 150 SOD (23 mol%) at 310 K. Simulated with GROMOS-CKP in GROMACS 2018.3 for 100 ns (101300 atoms). Deposited as NMRlipids Databank simulation 322 and available from https://doi.org/10.5281/zenodo.3266240.
   sameAs: https://doi.org/10.5281/zenodo.3266240
   datePublished: '2019-07-02'
   license:
@@ -147,9 +147,16 @@ bioschema_properties:
     - md_0.tpr
     - topol.top
     - conf.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3266240
+    identifier: 10.5281/zenodo.3266240
+    url: https://doi.org/10.5281/zenodo.3266240
+    name: GROMOS-CKP POPC-POPG 7:3 Bilayer Simulation (Last 100 ns, 310 K )
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3266240
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

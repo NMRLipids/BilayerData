@@ -49,9 +49,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 397
 bioschema_properties:
-  name: Popc_Amber_Lipid14_Nacl_015Mol
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (84:8:8) bilayer at 298.15 K (Lipid14 for lipids and AMBER99SB-ILDN for ions, GROMACS 5.0.3, 100 ns) [NMRlipids simulation 397]
   alternateName: 128POPC_5120SOL_12SOD_12CLA_298K
-  description: 'MD simulation trajectory and related files for fully hydrated POPC bilayer with 0.15M NaCl. The LIPID14 force field was used with Gromacs 5.0.3. Ions were described by AMBER99SB-ILDN force field. Conditions: T=298.15, 128 POPC molecules, 5120 tip3p waters, 12 Na, 12 Cl. 200ns trajectory (preceded by 5ns NPT equillibration) (2 files of 100ns). This data is ran for the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi'
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 84 mol%), 12 CLA (8 mol%) and 12 SOD (8 mol%) at 298.15 K. Simulated with Lipid14 for lipids and AMBER99SB-ILDN for ions in GROMACS 5.0.3 for 100 ns (32536 atoms). Deposited as NMRlipids Databank simulation 397 and available from https://doi.org/10.5281/zenodo.30891.
   sameAs: https://doi.org/10.5281/zenodo.30891
   datePublished: '2015-09-11'
   license:
@@ -91,8 +91,8 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  - SOD
   - CLA
+  - SOD
   - LIPID14
   - Gromacs
   measurementTechnique:
@@ -137,9 +137,16 @@ bioschema_properties:
     - 015_popc_amb_100_200ns.xtc
     - run_200ns_gpu.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.30891
+    identifier: 10.5281/zenodo.30891
+    url: https://doi.org/10.5281/zenodo.30891
+    name: Popc_Amber_Lipid14_Nacl_015Mol
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.30891
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

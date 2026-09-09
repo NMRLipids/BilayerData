@@ -41,9 +41,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 386
 bioschema_properties:
-  name: LIPID17 POPC Bilayer Simulation (Last 100 ns, 310 K )
+  name: Molecular dynamics trajectory of a POPC bilayer at 310 K (Lipid17, GROMACS 2018.3, 100 ns) [NMRlipids simulation 386]
   alternateName: 500POPC_25000SOL_310K
-  description: Simulation of a POPC bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs v2018.3 in water solution with Na+ counterions. The LIPID17 model (1), AMBER ff15ipq and TIP3P water model are employed. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top), simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided.
+  description: Molecular dynamics trajectory of a lipid bilayer of 500 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 310 K. Simulated with Lipid17 in GROMACS 2018.3 for 100 ns (142000 atoms). Deposited as NMRlipids Databank simulation 386 and available from https://doi.org/10.5281/zenodo.3237657.
   sameAs: https://doi.org/10.5281/zenodo.3237657
   datePublished: '2019-06-03'
   license:
@@ -126,9 +126,16 @@ bioschema_properties:
     - total_4_500.xtc
     - md_0.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3237657
+    identifier: 10.5281/zenodo.3237657
+    url: https://doi.org/10.5281/zenodo.3237657
+    name: LIPID17 POPC Bilayer Simulation (Last 100 ns, 310 K )
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3237657
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

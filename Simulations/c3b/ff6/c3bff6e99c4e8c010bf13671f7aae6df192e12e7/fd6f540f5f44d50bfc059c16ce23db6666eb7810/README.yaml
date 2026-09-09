@@ -57,9 +57,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 165
 bioschema_properties:
-  name: Simulation CER160_50_POPC_512_NaCl_150mM_310K (rep1)
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD/CER (72:11:11:7) bilayer at 310 K (CHARMM36, GROMACS 2016.2, 1070 ns) [NMRlipids simulation 165]
   alternateName: 512POPC_50CER_28100SOL_75SOD_75CLA_310K
-  description: 'Title publication: A Ceramide-Regulated Element in the Late Endosomal Protein LAPTM4B Controls Amino Acid Transporter Interaction Year publication: 2018 DOI publication: 10.1021/acscentsci.7b00556 Description: Simulation POPC membrane containing ~8% ceramide (CER160) using charmm36 at 310K. MD engine: Gromacs 2016.2-dev-20170105-4feb0be Force field : charmm36 Temperature : 310 K Pressure: 1 bar Simulation time : 1069 ns Saving frequency : 100 ps (A version with saving frequency of 10 ps can be found in the following links) https://zenodo.org/deposit/1230317 https://zenodo.org/deposit/1230325 Molecular content : POPC 512 CER160 50 SOL 28100 NA 75 CL 75'
+  description: Molecular dynamics trajectory of a lipid bilayer of 512 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 72 mol%), 75 CLA (11 mol%), 75 SOD (11 mol%) and 50 CER (N-palmitoyl-D-erythro-sphingosine, 7 mol%) at 310 K. Simulated with CHARMM36 in GROMACS 2016.2 for 1070 ns (158308 atoms). Deposited as NMRlipids Databank simulation 165 and available from https://doi.org/10.5281/zenodo.1219494.
   sameAs: https://doi.org/10.5281/zenodo.1219494
   datePublished: '2018-04-17'
   license:
@@ -101,10 +101,10 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - SOD
   - CER
   - N-palmitoyl-D-erythro-sphingosine
-  - SOD
-  - CLA
   - Charmm36
   - ceramide
   - CER16
@@ -150,9 +150,16 @@ bioschema_properties:
     - 01-CER160_50_POPC_512_NaCL_150mM_310K_md.xtc
     - 01-CER160_50_POPC_512_NaCL_150mM_310K_md.tpr
     - 01-CER160_50_POPC_512_NaCL_150mM_310K_md.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1219494
+    identifier: 10.5281/zenodo.1219494
+    url: https://doi.org/10.5281/zenodo.1219494
+    name: Simulation CER160_50_POPC_512_NaCl_150mM_310K (rep1)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1219494
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

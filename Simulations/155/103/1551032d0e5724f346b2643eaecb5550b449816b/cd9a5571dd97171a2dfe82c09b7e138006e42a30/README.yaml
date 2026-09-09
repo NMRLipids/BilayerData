@@ -49,9 +49,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 220
 bioschema_properties:
-  name: LIPID17 POPG Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K ) using dihedral type 9
+  name: Molecular dynamics trajectory of a SOD/POPG/CLA (50:46:4) bilayer at 310 K (Lipid17, GROMACS 2020.1, 100 ns) [NMRlipids simulation 220]
   alternateName: 500POPG_549SOD_49CLA_25000SOL_310K
-  description: 'Simulation of a L-POPG bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs v2020.1 in water solution with Na+ counterions and 150 mM of NaCl. The LIPID17 model (1), AMBER ff15ipq and TIP3P water model are employed. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top), simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided. ------- (1) Gould, I.R., Skjevik A.A., Dickson, C.J., Madej, B.D., Walker, R.C., "Lipid17: A Comprehensive AMBER Force Field for the Simulation of Zwitterionic and Anionic Lipids", 2018, in prep.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 549 SOD (50 mol%), 500 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 46 mol%) and 49 CLA (4 mol%) at 310 K. Simulated with Lipid17 in GROMACS 2020.1 for 100 ns (139098 atoms). Deposited as NMRlipids Databank simulation 220 and available from https://doi.org/10.5281/zenodo.4386514.
   sameAs: https://doi.org/10.5281/zenodo.4386514
   datePublished: '2019-02-20'
   license:
@@ -89,9 +89,9 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
+  - SOD
   - POPG
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
-  - SOD
   - CLA
   - AMBER
   - BILAYER
@@ -137,9 +137,16 @@ bioschema_properties:
     - md_400_500.xtc
     - md.tpr
     - amber.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.4386514
+    identifier: 10.5281/zenodo.4386514
+    url: https://doi.org/10.5281/zenodo.4386514
+    name: LIPID17 POPG Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K ) using dihedral type 9
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.4386514
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

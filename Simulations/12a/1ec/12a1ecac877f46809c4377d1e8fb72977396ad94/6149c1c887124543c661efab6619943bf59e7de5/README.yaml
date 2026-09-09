@@ -53,9 +53,9 @@ EXPERIMENT:
   - 10.1039/C4SM00066H/3
 ID: 521
 bioschema_properties:
-  name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS with the lipid17 force field and ff99 ions
+  name: Molecular dynamics trajectory of a POPS/SOD (50:50) bilayer at 298 K (Lipid17 and ff99 ions, GROMACS 2018.0, 1000 ns) [NMRlipids simulation 521]
   alternateName: 72POPS_3600SOL_72SOD_298K
-  description: Classical molecular dynamics simulations of various mixtures of POPC:POPS lipid bilayers in water solution at various NaCl, KCl and CaCl2 concentrations, with Na+ counterions (and K+ counterions when noted with "_KCl" suffix). Lipid17 force field parameters used for lipids, TIP3p water model and ff99 ions. The file names report the number of additional cations. simulations performed with Gromacs 2018.0 (*.xtc files) simulation length 1000 ns = 1 microsecond temperature 298 K Gromacs simulation setting is in the file npt_lipid_bilayer.mdp
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 50 mol%) and 72 SOD (50 mol%) at 298 K. Simulated with Lipid17 and ff99 ions in GROMACS 2018.0 for 1000 ns (20016 atoms). Deposited as NMRlipids Databank simulation 521 and available from https://doi.org/10.5281/zenodo.1487906.
   sameAs: https://doi.org/10.5281/zenodo.1487906
   datePublished: '2018-11-14'
   license:
@@ -145,9 +145,16 @@ bioschema_properties:
   - experiments/FormFactors/10.1039/C4SM00066H/1
   - experiments/FormFactors/10.1039/C4SM00066H/2
   - experiments/FormFactors/10.1039/C4SM00066H/3
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1487906
+    identifier: 10.5281/zenodo.1487906
+    url: https://doi.org/10.5281/zenodo.1487906
+    name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS with the lipid17 force field and ff99 ions
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1487906
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

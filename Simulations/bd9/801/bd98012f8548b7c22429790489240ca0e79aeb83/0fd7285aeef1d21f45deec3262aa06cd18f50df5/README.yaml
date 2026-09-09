@@ -40,9 +40,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 99
 bioschema_properties:
-  name: Charmm36 Popc Gromacs 5.0.6 500 Ns (Started From Jm Files)
+  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (CHARMM36, GROMACS 5.0.6, 500 ns) [NMRlipids simulation 99]
   alternateName: 128POPC_5120SOL_10A-switch_v2
-  description: CHARMM36 force field POPC simulations performed using GROMACS version 5.0.6 started from files obtained from https://doi.org/10.5281/zenodo.153944. Results are included for simulations using both an 8 Å and 10 Å switching point for the van der Waals interactions, with 4 x 500 ns for each of these cut-off schemes (versions with different starting velocities are labelled as v1, v2, v3 and v4). The trajectories have been processed using trjconv -skip 10 to make the files smaller for uploading, although the initial analysis was performed on the complete simulations.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with CHARMM36 in GROMACS 5.0.6 for 500 ns (32512 atoms). Deposited as NMRlipids Databank simulation 99 and available from https://doi.org/10.5281/zenodo.164206.
   sameAs: https://doi.org/10.5281/zenodo.164206
   datePublished: '2016-11-01'
   license:
@@ -124,9 +124,16 @@ bioschema_properties:
     - for-md_CHARMM36_GMX506_POPC_10A-switch_from_JM_v2.tpr
   isBasedOn:
   - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/2
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.164206
+    identifier: 10.5281/zenodo.164206
+    url: https://doi.org/10.5281/zenodo.164206
+    name: Charmm36 Popc Gromacs 5.0.6 500 Ns (Started From Jm Files)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.164206
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

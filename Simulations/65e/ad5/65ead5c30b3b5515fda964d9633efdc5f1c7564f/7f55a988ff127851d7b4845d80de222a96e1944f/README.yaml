@@ -52,9 +52,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 162
 bioschema_properties:
-  name: ECC-POPC, 28mM, 2600mM
+  name: Molecular dynamics trajectory of a CLA/POPC/CAL (48:28:24) bilayer at 313 K (ECC-lipids, GROMACS, 1292 ns) [NMRlipids simulation 162]
   alternateName: 512POPC_24928SOL_440CAL_880CLA_313K
-  description: POPC mambrane with different concentrations of calcium ions simulated with ECC-POPC force-field
+  description: Molecular dynamics trajectory of a lipid bilayer of 880 CLA (48 mol%), 512 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 28 mol%) and 440 CAL (24 mol%) at 313 K. Simulated with ECC-lipids in GROMACS for 1292 ns (144712 atoms). Deposited as NMRlipids Databank simulation 162 and available from https://doi.org/10.5281/zenodo.3434100.
   sameAs: https://doi.org/10.5281/zenodo.3434100
   datePublished: '2019-09-17'
   license:
@@ -91,10 +91,10 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
+  - CLA
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - CAL
-  - CLA
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -137,9 +137,16 @@ bioschema_properties:
     - 1-POPC512_ECC-lipid14-CaCL_978mM_md.xtc
     - 1-POPC512_ECC-lipid14-CaCL_978mM_md.tpr
     - 1-POPC512_ECC-lipid14-CaCL_978mM_md.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3434100
+    identifier: 10.5281/zenodo.3434100
+    url: https://doi.org/10.5281/zenodo.3434100
+    name: ECC-POPC, 28mM, 2600mM
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3434100
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

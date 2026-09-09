@@ -51,9 +51,9 @@ EXPERIMENT:
     POPS: []
   FORMFACTOR: []
 bioschema_properties:
-  name: Unpublished simulation data related to ProsECCo lipids development
+  name: Molecular dynamics trajectory of a CLA/POPC/CAL/POPS/SOD (39:30:19:6:6) bilayer at 298 K (prosECCo75, GROMACS, 500 ns) [NMRlipids simulation 921]
   alternateName: POPC_60_POPS_12_Na_contraions_600mM_CaCl_prosECCo75
-  description: Some unpublished lipid bilayer simulation data related to ProsECCo force field development. File names should be self-explanatory.
+  description: Molecular dynamics trajectory of a lipid bilayer of 78 CLA (39 mol%), 60 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 30 mol%), 39 CAL (19 mol%), 12 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 6 mol%) and 12 SOD (6 mol%) at 298 K. Simulated with prosECCo75 in GROMACS for 500 ns (20142 atoms). Deposited as NMRlipids Databank simulation 921 and available from https://doi.org/10.5281/zenodo.22030946.
   sameAs: https://doi.org/10.5281/zenodo.22030946
   datePublished: '2026-08-20'
   license:
@@ -91,13 +91,13 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
+  - CLA
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CAL
   - POPS
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
   - SOD
-  - CLA
-  - CAL
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -139,8 +139,15 @@ bioschema_properties:
     hasPart:
     - POPC_60_POPS_12_Na_contraions_600mM_CaCl_prosECCo75.xtc
     - POPC_60_POPS_12_Na_contraions_600mM_CaCl_prosECCo75.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.22030946
+    identifier: 10.5281/zenodo.22030946
+    url: https://doi.org/10.5281/zenodo.22030946
+    name: Unpublished simulation data related to ProsECCo lipids development
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.22030946
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

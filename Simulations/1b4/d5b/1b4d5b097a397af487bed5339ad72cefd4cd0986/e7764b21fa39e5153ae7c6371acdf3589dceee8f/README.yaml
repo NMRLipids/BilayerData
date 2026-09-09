@@ -50,9 +50,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 391
 bioschema_properties:
-  name: Simulations Dppc Bilayers (512 Lipids) Using Charmm36 Ff In Gromacs
+  name: Molecular dynamics trajectory of a DPPC/CLA/SOD (82:9:9) bilayer at 338 K (CHARMM36, GROMACS 5.0.4, 500 ns) [NMRlipids simulation 391]
   alternateName: DPPC_512_NaCl_150mM_325K_MEMB_338K
-  description: 'Collection simulations of DPPC (512 lipids) bilayers in gromacs using the charmm36 force field. Several temperatures between 315 and 338 K are included. The list of systems can be found below where the several parameter are: 1) DPPC_512_NaCl_150mM_315K_v-rescale (500ns) 2) DPPC_512_NaCl_150mM_320K (700ns) 3) DPPC_512_NaCl_150mM_320K_v-rescale (500ns) 4) DPPC_512_NaCl_150mM_322K_v-rescale (700ns) 5) DPPC_512_NaCl_150mM_325K (500ns) 6) DPPC_512_NaCl_150mM_325K_v-rescale (500ns) 7) DPPC_512_NaCl_150mM_325K_cutoff09 (500ns) 8) DPPC_512_NaCl_150mM_325K_MEMB_338K (500ns) 9) DPPC_512_NaCl_150mM_338K (500ns) For further information read the Readme file provided for each simulation.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 512 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine, 82 mol%), 55 CLA (9 mol%) and 55 SOD (9 mol%) at 338 K. Simulated with CHARMM36 in GROMACS 5.0.4 for 500 ns (128110 atoms). Deposited as NMRlipids Databank simulation 391 and available from https://doi.org/10.5281/zenodo.1009027.
   sameAs: https://doi.org/10.5281/zenodo.1009027
   datePublished: '2017-10-11'
   license:
@@ -92,8 +92,8 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - DPPC
   - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
-  - SOD
   - CLA
+  - SOD
   - Gromacs
   - Bilayer
   - Membranes
@@ -141,9 +141,16 @@ bioschema_properties:
     - DPPC_512_NaCl_150mM_325K_MEMB_338K_md.xtc
     - DPPC_512_NaCl_150mM_325K_MEMB_338K_md.tpr
     - DPPC_512_NaCl_150mM_325K_MEMB_338K_md.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1009027
+    identifier: 10.5281/zenodo.1009027
+    url: https://doi.org/10.5281/zenodo.1009027
+    name: Simulations Dppc Bilayers (512 Lipids) Using Charmm36 Ff In Gromacs
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1009027
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

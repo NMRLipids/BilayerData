@@ -52,9 +52,9 @@ EXPERIMENT:
   - 10.1021/acs.jctc.3c00648/9
 ID: 707
 bioschema_properties:
-  name: Simulations of POPC/cholesterol mixtures at 298 K, three system sizes, LIPID17
+  name: Molecular dynamics trajectory of a POPC/CHOL (53:47) bilayer at 298.15 K (Lipid17, GROMACS 2021, 1001 ns) [NMRlipids simulation 707]
   alternateName: Lipid17_POPC_CHOL47_S
-  description: GROMACS input and output files. LIPID17. Membranes with 64, 256, and 1024 lipids.
+  description: Molecular dynamics trajectory of a lipid bilayer of 64 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 53 mol%) and 56 CHOL (cholesterol, 47 mol%) at 298.15 K. Simulated with Lipid17 in GROMACS 2021 for 1001 ns (30720 atoms). Deposited as NMRlipids Databank simulation 707 and available from https://doi.org/10.5281/zenodo.6992065.
   sameAs: https://doi.org/10.5281/zenodo.6992065
   datePublished: '2022-08-15'
   license:
@@ -142,9 +142,16 @@ bioschema_properties:
   - experiments/OrderParameters/10.1039/c2cp42738a/5
   - experiments/FormFactors/10.1021/acs.jctc.3c00648/10
   - experiments/FormFactors/10.1021/acs.jctc.3c00648/9
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.6992065
+    identifier: 10.5281/zenodo.6992065
+    url: https://doi.org/10.5281/zenodo.6992065
+    name: Simulations of POPC/cholesterol mixtures at 298 K, three system sizes, LIPID17
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.6992065
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

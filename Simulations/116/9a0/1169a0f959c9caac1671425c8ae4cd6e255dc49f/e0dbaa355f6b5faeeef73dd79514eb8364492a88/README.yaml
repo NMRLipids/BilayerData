@@ -44,9 +44,9 @@ SOFTWARE: gromacs
 DIR_WRK: /usr/home/bort/Databank
 ID: 171
 bioschema_properties:
-  name: Set Simulations Small Pure Bilayers (72 Lipids) Using Charmm36 Ff In Gromacs (Dppc, Popc)
+  name: Molecular dynamics trajectory of a DPPC bilayer at 325 K (CHARMM36 (center of mass removed independently for upper leaflet, lower leaflet and water+ions), GROMACS 5.0.4, 500 ns) [NMRlipids simulation 171]
   alternateName: 72DPPC_2880SOL_325K_rmcomm_leaflets
-  description: 'Collection simulations of DPPC and POPC bilayers in gromacs using the charmm36 force field. The list of systems describing their particular simulation conditions can be found below: 1) DPPC_72_325K (500ns) 2) DPPC_72_310K_rmcomm_leaflets (500ns) 3) DPPC_72_310K_rmcomm_leaflets_low_hydration (500ns) 4) POPC_72_310K (500ns) 5) POPC_72_310K_rmcomm_leaflets (500ns) 6) POPC_72_310K_rmcomm_leaflets_low_hydration (550ns) 7) POPC_72_303K_rmcomm_leaflets_low_hydration (550ns) For further information read the Readme file provided for each simulation.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 325 K. Simulated with CHARMM36 (center of mass removed independently for upper leaflet, lower leaflet and water+ions) in GROMACS 5.0.4 for 500 ns (18000 atoms). Deposited as NMRlipids Databank simulation 171 and available from https://doi.org/10.5281/zenodo.1009607.
   sameAs: https://doi.org/10.5281/zenodo.1009607
   datePublished: '2017-10-12'
   license:
@@ -136,9 +136,16 @@ bioschema_properties:
     - DPPC_72_325K_rmcomm_leaflets_md.top
   isBasedOn:
   - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/4
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1009607
+    identifier: 10.5281/zenodo.1009607
+    url: https://doi.org/10.5281/zenodo.1009607
+    name: Set Simulations Small Pure Bilayers (72 Lipids) Using Charmm36 Ff In Gromacs (Dppc, Popc)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1009607
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

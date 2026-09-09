@@ -39,8 +39,8 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: 'full hydration'
 COUNTER_IONS:
 bioschema_properties:
-  name: 'Average structural and motional properties of a diunsaturated acyl chain in a lipid bilayer: effects of two cis-unsaturated double bonds'
-  description: 'Experimental C-H bond order parameters for a lipid bilayer containing PILPC at 313 K, measured by NMR: 2H:QE.'
+  name: C-H bond order parameters of a PILPC bilayer at 313 K, 85% water (2H NMR) [Baenziger 1991]
+  description: Experimental C-H bond order parameters for a lipid bilayer of PILPC (1-Palmitoyl-2-isolinoleoyl phosphatidylcholine) at 313 K, hydrated to 85% water. Measured by solid-state nuclear magnetic resonance spectroscopy (2H:QE) on a Bruker MSL-300 (46.06 MHz) and custom-built spectrometer (30.7 MHz). Values digitised into the NMRlipids Databank from https://doi.org/10.1021/bi00218a003.
   sameAs: https://doi.org/10.1021/bi00218a003
   datePublished: 1991-01
   license:
@@ -110,4 +110,4 @@ bioschema_properties:
   _source:
     api: crossref
     doi: 10.1021/bi00218a003
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

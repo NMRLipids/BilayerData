@@ -55,9 +55,9 @@ EXPERIMENT:
     POPE: []
   FORMFACTOR: []
 bioschema_properties:
-  name: All-atom Gromacs Trajectory of POPC/POPE/TOCL bilayer mixture
+  name: Molecular dynamics trajectory of a POPC/SOD/POPE/TOCL (33:33:17:17) bilayer at 310 K (Charmm36, GROMACS, 570 ns) [NMRlipids simulation 787]
   alternateName: POPC/POPE/TOCL mixture
-  description: All-atom bilayer mixture of POPC/POPE//TOCL 50/25/25 mol% simulated in an NPT ensemble with Gromacs and the CHARMM36 force field from Castillo et al, 2022, Mol. Pharmaceutics. 19:1839-1852 (https://doi.org/10.1021/acs.molpharmaceut.1c00926). The trajectory represents 570 ns with frames output every 20 ps. The bilayer has 120 lipids total (60 lipids per leaflet) and is hydrated with 75 waters/lipid and sodium ions to neutralize the system. The simulation was done at 37C (310.15K). POPC is 16:0,18:1 PC; POPE is 16:0,18:1 PE; TOCL is tetraoleoyl cardiolipin
+  description: Molecular dynamics trajectory of a lipid bilayer of 60 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 33 mol%), 60 SOD (33 mol%), 30 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 17 mol%) and 30 TOCL (1’,3’-Bis[1,2-dioleoyl-sn-glycero-3-phospho]-glycerol, 17 mol%) at 310 K. Simulated with Charmm36 in GROMACS for 570 ns (46290 atoms). Deposited as NMRlipids Databank simulation 787 and available from https://doi.org/10.5281/zenodo.13984187.
   sameAs: https://doi.org/10.5281/zenodo.13984187
   datePublished: '2023-09-29'
   license:
@@ -97,13 +97,13 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - TOCL
-  - 1’,3’-Bis[1,2-dioleoyl-sn-glycero-3-phospho]-glycerol
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SOD
   - POPE
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
-  - SOD
+  - TOCL
+  - 1’,3’-Bis[1,2-dioleoyl-sn-glycero-3-phospho]-glycerol
   - TOCL mixture
   - cardiolipin
   - membrane simulation
@@ -148,8 +148,15 @@ bioschema_properties:
     hasPart:
     - PC_PE_CL_570Run.xtc
     - PC_PE_CL_570Run.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.13984187
+    identifier: 10.5281/zenodo.13984187
+    url: https://doi.org/10.5281/zenodo.13984187
+    name: All-atom Gromacs Trajectory of POPC/POPE/TOCL bilayer mixture
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.13984187
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

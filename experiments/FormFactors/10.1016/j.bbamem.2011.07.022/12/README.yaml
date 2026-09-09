@@ -33,8 +33,8 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
 bioschema_properties:
-  name: Fluid phase lipid areas and bilayer thicknesses of commonly used phosphatidylcholines as a function of temperature
-  description: Experimental X-ray scattering form factor for a lipid bilayer containing POPC at 323 K, measured by X-ray scattering (SUV).
+  name: X-ray scattering form factor of a POPC bilayer at 323 K, 98% water (SAXS, SUV) [Kučerka 2011]
+  description: Experimental X-ray scattering form factor for a lipid bilayer of POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 323 K, hydrated to 98% water. Measured by small-angle X-ray scattering on SUV samples at G1 station, CHESS. Values digitised into the NMRlipids Databank from https://doi.org/10.1016/j.bbamem.2011.07.022.
   sameAs: https://doi.org/10.1016/j.bbamem.2011.07.022
   datePublished: 2011-11
   license:
@@ -104,4 +104,4 @@ bioschema_properties:
   _source:
     api: crossref
     doi: 10.1016/j.bbamem.2011.07.022
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

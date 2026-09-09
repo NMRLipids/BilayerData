@@ -40,9 +40,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 284
 bioschema_properties:
-  name: Popg Lipid Bilayer Simulation At T298K Ran With Model_Charmm_Gui Force Field And Gromacs
+  name: Molecular dynamics trajectory of a POPG/POT (50:50) bilayer at 298 K (CHARMM36, GROMACS, 100 ns) [NMRlipids simulation 284]
   alternateName: POPG_T298K
-  description: POPG lipid bilayer simulation at T298K ran 100ns with the force field given by CHARMM gui using Gromacs. 118 POPG, 4110 TIP3P and 118 potassium molecules.
+  description: Molecular dynamics trajectory of a lipid bilayer of 118 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 50 mol%) and 118 POT (50 mol%) at 298 K. Simulated with CHARMM36 in GROMACS for 100 ns (27434 atoms). Deposited as NMRlipids Databank simulation 284 and available from https://doi.org/10.5281/zenodo.1011096.
   sameAs: https://doi.org/10.5281/zenodo.1011096
   datePublished: '2017-10-13'
   license:
@@ -123,9 +123,16 @@ bioschema_properties:
     hasPart:
     - run2.xtc
     - run2.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1011096
+    identifier: 10.5281/zenodo.1011096
+    url: https://doi.org/10.5281/zenodo.1011096
+    name: Popg Lipid Bilayer Simulation At T298K Ran With Model_Charmm_Gui Force Field And Gromacs
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1011096
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

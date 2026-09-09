@@ -51,9 +51,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 843
 bioschema_properties:
-  name: POPC bilayer at 310K with the CHARMM36-NBFIX force field, 111 mM NaCl
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (85:8:8) bilayer at 310 K (CHARMM36, GROMACS, 1000 ns) [NMRlipids simulation 843]
   alternateName: POPC_111mM_NaCl_CHARMM36
-  description: prosECCo 75 paper related data
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 85 mol%), 18 CLA (8 mol%) and 18 SOD (8 mol%) at 310 K. Simulated with CHARMM36 in GROMACS for 1000 ns (53836 atoms). Deposited as NMRlipids Databank simulation 843 and available from https://doi.org/10.5281/zenodo.10464958.
   sameAs: https://doi.org/10.5281/zenodo.10464958
   datePublished: '2024-01-06'
   license:
@@ -94,8 +94,8 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  - SOD
   - CLA
+  - SOD
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -139,8 +139,15 @@ bioschema_properties:
     - POPC_113mM_NaCl_NBFIX.tpr
     - POPC_113mM_NaCl_NBFIX.top
     - POPC_113mM_NaCl_NBFIX.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.10464958
+    identifier: 10.5281/zenodo.10464958
+    url: https://doi.org/10.5281/zenodo.10464958
+    name: POPC bilayer at 310K with the CHARMM36-NBFIX force field, 111 mM NaCl
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.10464958
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

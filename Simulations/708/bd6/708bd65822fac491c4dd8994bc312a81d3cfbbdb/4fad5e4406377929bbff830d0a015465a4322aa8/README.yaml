@@ -55,9 +55,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 492
 bioschema_properties:
-  name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS with the lipid17 force field, only counterions, and CaCl2 concentrations
+  name: Molecular dynamics trajectory of a POPC/POPS/POT (33:33:33) bilayer at 298 K (Lipid17 and Dang ions, GROMACS 2018.0, 1000 ns) [NMRlipids simulation 492]
   alternateName: 64POPC_64POPS_5253SOL_64POT_298K
-  description: Classical molecular dynamics simulations of various mixtures of POPC:POPS lipid bilayers in water solution at various NaCl, KCl and CaCl2 concentrations, with Na+ counterions (and K+ counterions when noted with "_KCl" suffix). Lipid17 force field parameters used for lipids, TIP3p water model and Dang ions. The file names report the number of additional cations. simulations performed with Gromacs 2018.0 (*.xtc files) simulation length 1000 ns = 1 microsecond temperature 298 K Gromacs simulation setting is in the file npt_lipid_bilayer.mdp
+  description: Molecular dynamics trajectory of a lipid bilayer of 64 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 33 mol%), 64 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 33 mol%) and 64 POT (33 mol%) at 298 K. Simulated with Lipid17 and Dang ions in GROMACS 2018.0 for 1000 ns (32527 atoms). Deposited as NMRlipids Databank simulation 492 and available from https://doi.org/10.5281/zenodo.1487761.
   sameAs: https://doi.org/10.5281/zenodo.1487761
   datePublished: '2018-11-14'
   license:
@@ -143,9 +143,16 @@ bioschema_properties:
     - lipid17_1PC-1PS_mix_SPCE_298K_KCl.tpr
     - lipid17_1PC-1PS_mix_SPCE_298K_KCl.top
     - lipid17_1PC-1PS_mix_SPCE_298K_KCl.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1487761
+    identifier: 10.5281/zenodo.1487761
+    url: https://doi.org/10.5281/zenodo.1487761
+    name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS with the lipid17 force field, only counterions, and CaCl2 concentrations
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1487761
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

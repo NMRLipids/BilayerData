@@ -54,9 +54,9 @@ EXPERIMENT:
     BOG: []
   FORMFACTOR: []
 bioschema_properties:
-  name: MD simulations of bOG:DMPC in CHARMM36 force field
+  name: Molecular dynamics trajectory of a DMPC/BOG (67:33) bilayer at 303.15 K (Charmm36, GROMACS 2023.2, 500 ns) [NMRlipids simulation 822]
   alternateName: DMPC_BOG_1x2_fh
-  description: 'CHARMM-GUI based series of simulations of beta-octyl-D-glucopyranoside (b-OG) mixed with DMPC at different dilutions. bOG:DMPC mol ratios are 1:1, 1:2, and 2:3. The only change in the force field was changing atom names from 2H2 to H2 in BOG residue to allow **gmx grompp** to recognize protons as protons when setting up constraints for bonds with hydrogens. Simulations are performed in highly hydrated state. I can name it "more than 50 water per two acyl chains"; "water per lipid" measure doesn''t work here because bOG has just a single hydrocarbon tail. Trajectory length: 500 ns (20 ps step). T = 303 K. In this version we add *znd files where atom names are unique (changed in a new version of BOG.itp).'
+  description: Molecular dynamics trajectory of a lipid bilayer of 108 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine, 67 mol%) and 54 BOG (beta-octyl D-glucopyranoside, 33 mol%) at 303.15 K. Simulated with Charmm36 in GROMACS 2023.2 for 500 ns (47694 atoms). Deposited as NMRlipids Databank simulation 822 and available from https://doi.org/10.5281/zenodo.13881447.
   sameAs: https://doi.org/10.5281/zenodo.13881447
   datePublished: '2024-10-02'
   license:
@@ -146,8 +146,15 @@ bioschema_properties:
     - run1x2znd.tpr
     - topol1x2.top
     - SMALLG_run1x2znd.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.13881447
+    identifier: 10.5281/zenodo.13881447
+    url: https://doi.org/10.5281/zenodo.13881447
+    name: MD simulations of bOG:DMPC in CHARMM36 force field
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.13881447
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

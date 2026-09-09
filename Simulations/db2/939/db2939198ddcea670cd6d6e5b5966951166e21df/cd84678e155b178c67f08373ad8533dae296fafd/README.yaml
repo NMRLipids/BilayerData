@@ -47,9 +47,9 @@ EXPERIMENT:
   - 10.1016/j.bbamem.2011.07.022/4
 ID: 365
 bioschema_properties:
-  name: Md Simulation Trajectory And Related Files For Dppc Bilayer In Full Hydration (Poger Gromos 53A6_L, Gromacs 4.0.7, Pme, Traj 1)
+  name: Molecular dynamics trajectory of a DPPC bilayer at 323 K (Poger GROMOS 53A6_L, GROMACS 4.0.7, 100 ns) [NMRlipids simulation 365]
   alternateName: 128DPPC_5841SOL_323K
-  description: Equilibrated DPPC lipid bilayer simulation ran with Gromacs 4.0.7 using PME (Particle Mesh Ewald) for computing electrostatics, Poger GROMOS 53A6_L force field in full hydration (dx.doi.org/10.1002/jcc.21396), 100ns, T=323K, 128 DPPC molecules, 5841 water molecules. This data is ran for the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi. If data is used, please cite nmrlipids.blogspot.fi project and the original publication of the parameters (dx.doi.org/10.1002/jcc.21396).
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 323 K. Simulated with Poger GROMOS 53A6_L in GROMACS 4.0.7 for 100 ns (23923 atoms). Deposited as NMRlipids Databank simulation 365 and available from https://doi.org/10.5281/zenodo.14594.
   sameAs: https://doi.org/10.5281/zenodo.14594
   datePublished: '2015-01-27'
   license:
@@ -136,9 +136,16 @@ bioschema_properties:
   isBasedOn:
   - experiments/OrderParameters/10.1021/bi00687a021/1
   - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/4
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.14594
+    identifier: 10.5281/zenodo.14594
+    url: https://doi.org/10.5281/zenodo.14594
+    name: Md Simulation Trajectory And Related Files For Dppc Bilayer In Full Hydration (Poger Gromos 53A6_L, Gromacs 4.0.7, Pme, Traj 1)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.14594
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

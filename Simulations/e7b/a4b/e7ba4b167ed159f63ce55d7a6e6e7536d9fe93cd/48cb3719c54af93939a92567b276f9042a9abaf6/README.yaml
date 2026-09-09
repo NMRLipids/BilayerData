@@ -49,9 +49,9 @@ EXPERIMENT:
   - 10.1021/acs.jctc.3c00648/1
 ID: 202
 bioschema_properties:
-  name: GROMOS-CKP POPC bilayer simulation at 298K (rvdw = 1.0 nm)
+  name: Molecular dynamics trajectory of a POPC bilayer at 298 K (GROMOS-CKP, GROMACS, 350 ns) [NMRlipids simulation 202]
   alternateName: POPC_298
-  description: 'Simulation of a POPC bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs at 298 K. The GROMOS-CKP model is employed for lipids and SPC for water. Simulation is identical to https://doi.org/10.5281/zenodo.3247434 with the exception of the temperature. Force field files are from https://lipidbook.org/. NOTE: This is run with 1.0 nm cut-off even though 1.4 nm should be used with GROMOS-CKP Trajectory (.xtc) is for the last 350 ns of a simulation of 500 ns with data saved every 10 ps.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 500 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 298 K. Simulated with GROMOS-CKP in GROMACS for 350 ns (101000 atoms). Deposited as NMRlipids Databank simulation 202 and available from https://doi.org/10.5281/zenodo.5997385.
   sameAs: https://doi.org/10.5281/zenodo.5997385
   datePublished: '2022-02-07'
   license:
@@ -137,9 +137,16 @@ bioschema_properties:
   - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
   - experiments/OrderParameters/10.1039/c2cp42738a/1
   - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.5997385
+    identifier: 10.5281/zenodo.5997385
+    url: https://doi.org/10.5281/zenodo.5997385
+    name: GROMOS-CKP POPC bilayer simulation at 298K (rvdw = 1.0 nm)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.5997385
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

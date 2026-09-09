@@ -45,9 +45,9 @@ EXPERIMENT:
     - unpublished/nesterenkoDMPCbOG/1
   FORMFACTOR: []
 bioschema_properties:
-  name: All-atomic simulation of DMPC bilayer with PME and with RFZ
+  name: Molecular dynamics trajectory of a DMPC bilayer at 313.15 K (Charmm36, GROMACS 2022.5, 592 ns) [NMRlipids simulation 788]
   alternateName: DMPC(313K,rfz)
-  description: We have performed simulations of DMPC to check if the reaction-field-zero mode of calculating electrostatics is a good substitute for PME if we want to avoid PME for some reasons (e.g. for stress calculations). We started this simulation from the configuration deposited by Matti Javanainen (10.5281/zenodo.6943413). We performed two simulations of about 500 ns with the same protocol but at 313 K. Protocol for reaction-field-zero is supplemented as well. POPE simulated with the same RFZ protocol is deposited in a separate dataset (10.5281/zenodo.8435138).
+  description: Molecular dynamics trajectory of a lipid bilayer of 64 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine) at 313.15 K. Simulated with Charmm36 in GROMACS 2022.5 for 592 ns (17152 atoms). Deposited as NMRlipids Databank simulation 788 and available from https://doi.org/10.5281/zenodo.8431710.
   sameAs: https://doi.org/10.5281/zenodo.8431710
   datePublished: '2023-10-11'
   license:
@@ -138,9 +138,16 @@ bioschema_properties:
   isBasedOn:
   - experiments/OrderParameters/10.1039/B508190D/3
   - experiments/OrderParameters/unpublished/nesterenkoDMPCbOG/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8431710
+    identifier: 10.5281/zenodo.8431710
+    url: https://doi.org/10.5281/zenodo.8431710
+    name: All-atomic simulation of DMPC bilayer with PME and with RFZ
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.8431710
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

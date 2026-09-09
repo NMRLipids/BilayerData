@@ -51,9 +51,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 59
 bioschema_properties:
-  name: MD simulation of 50% POPC+50% cholesterol bilayer using Berger force field at T=303K
+  name: Molecular dynamics trajectory of a CHOL/POPC (50:50) bilayer at 303 K (Berger, GROMACS Gpu-version 2020.1, 1200 ns) [NMRlipids simulation 59]
   alternateName: 256POPC_256CHOL_20480SOL_303K_Berger
-  description: Unprotonated trajectory (1.2 microseconds) from a Berger simulation of 256 POPCs and 265 cholesterols hydrated with 20408 waters simulated with Gpu-version of Gromacs2020.1. The force field and inputs were downloaded from 10.5281/zenodo.13285. Prod.tpr was used to run the simulation. Simulation used Nose-Hoover thermostat and Parrinello-Rahman barostat.
+  description: Molecular dynamics trajectory of a lipid bilayer of 256 CHOL (cholesterol, 50 mol%) and 256 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) at 303 K. Simulated with Berger in GROMACS Gpu-version 2020.1 for 1200 ns (82176 atoms). Deposited as NMRlipids Databank simulation 59 and available from https://doi.org/10.5281/zenodo.4537794.
   sameAs: https://doi.org/10.5281/zenodo.4537794
   datePublished: '2021-02-12'
   license:
@@ -91,10 +91,10 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - POPC
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - CHOL
   - cholesterol
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -136,9 +136,16 @@ bioschema_properties:
     hasPart:
     - prod.xtc
     - prod.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.4537794
+    identifier: 10.5281/zenodo.4537794
+    url: https://doi.org/10.5281/zenodo.4537794
+    name: MD simulation of 50% POPC+50% cholesterol bilayer using Berger force field at T=303K
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.4537794
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

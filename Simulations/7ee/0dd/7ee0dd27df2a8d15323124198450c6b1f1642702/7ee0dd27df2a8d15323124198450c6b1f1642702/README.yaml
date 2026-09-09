@@ -77,9 +77,9 @@ EXPERIMENT:
     CHOL: []
   FORMFACTOR: []
 bioschema_properties:
-  name: Trajectory files of ER-like lipid bilayer
+  name: Molecular dynamics trajectory of a POPC/POPE/SOD/POPI/POPS/CHOL/CER180 (45:20:14:9:5:4:3) bilayer at 310 K (CHARMM36m, NAMD 2.14, 200 ns) [NMRlipids simulation 776]
   alternateName: 12CHOL,134POPC,60POPE,14POPS,26POPI,10CER180,10551SOL,40SOD
-  description: Simulation of ER-like lipid bilayer. Including DCD, PSF, and PDB files.
+  description: Molecular dynamics trajectory of a lipid bilayer of 134 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 45 mol%), 60 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 20 mol%), 40 SOD (14 mol%), 26 POPI (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol, 9 mol%), 14 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 5 mol%), 12 CHOL (cholesterol, 4 mol%) and 10 CER180 (N-stearoyl-D-erythro-sphingosine, 3 mol%) at 310 K. Simulated with CHARMM36m in NAMD 2.14 for 200 ns (64487 atoms). Deposited as NMRlipids Databank simulation 776 and available from https://doi.org/10.5281/zenodo.8369427.
   sameAs: https://doi.org/10.5281/zenodo.8369427
   datePublished: '2023-09-18'
   license:
@@ -121,15 +121,15 @@ bioschema_properties:
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - POPE
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
-  - POPS
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  - SOD
   - POPI
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol
-  - CER180
-  - N-stearoyl-D-erythro-sphingosine
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
   - CHOL
   - cholesterol
-  - SOD
+  - CER180
+  - N-stearoyl-D-erythro-sphingosine
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -172,9 +172,16 @@ bioschema_properties:
     - ER-like.dcd
     - ER-like.psf
     - ER-like.pdb
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8369427
+    identifier: 10.5281/zenodo.8369427
+    url: https://doi.org/10.5281/zenodo.8369427
+    name: Trajectory files of ER-like lipid bilayer
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.8369427
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -42,9 +42,9 @@ EXPERIMENT:
   - 10.1016/j.bbamem.2011.07.022/2
 ID: 154
 bioschema_properties:
-  name: Md Simulation Trajectory And Related Files For Popc Bilayer (Lipid14, Gromacs 4.5)
+  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (Lipid14, GROMACS 4.5, 50 ns) [NMRlipids simulation 154]
   alternateName: 72POPC_2234SOL_303K
-  description: Equilibrated POPC lipid bilayer simulation ran with Gromacs 4.5, Lipid14 force field (http://dx.doi.org/10.1021/ct4010307), 50ns, T=303K, 72 POPC molecules, 2234 water molecules. This data is ran for the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi. If data is used, please cite nmrlipids.blogspot.fi project.
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with Lipid14 in GROMACS 4.5 for 50 ns (16350 atoms). Deposited as NMRlipids Databank simulation 154 and available from https://doi.org/10.5281/zenodo.12767.
   sameAs: https://doi.org/10.5281/zenodo.12767
   datePublished: '2014-11-19'
   license:
@@ -128,9 +128,16 @@ bioschema_properties:
     - popc.top
   isBasedOn:
   - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/2
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.12767
+    identifier: 10.5281/zenodo.12767
+    url: https://doi.org/10.5281/zenodo.12767
+    name: Md Simulation Trajectory And Related Files For Popc Bilayer (Lipid14, Gromacs 4.5)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.12767
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -55,9 +55,9 @@ TRJLENGTH: 200010.0
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 272
 bioschema_properties:
-  name: Charmm36 Simulations Of Popc Mixed With Cationic Surfactant
+  name: Molecular dynamics trajectory of a POPC/CLA/DHMDMAB (53:23:23) bilayer at 313 K (CHARMM36, GROMACS, 200 ns) [NMRlipids simulation 272]
   alternateName: POPC10%DHMDMAB_T313K
-  description: CHARMM36 simulations of POPC mixed with cationic surfactants. The simulations are ran for NMRlipids IV project at 313 K using Gromacs 5. run10* for 10 mol% of surfactant run20* for 20 mol% of surfactant run30* for 30 mol% of surfactant run50* for 50 mol% of surfactant itp files called in top files from the folder ../47molF/CHARMMfiles/ are here in the root
+  description: Molecular dynamics trajectory of a lipid bilayer of 100 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 53 mol%), 44 CLA (23 mol%) and 44 DHMDMAB (dihexadecyldimethylammonium, 23 mol%) at 313 K. Simulated with CHARMM36 in GROMACS for 200 ns (42050 atoms). Deposited as NMRlipids Databank simulation 272 and available from https://doi.org/10.5281/zenodo.1288297.
   sameAs: https://doi.org/10.5281/zenodo.1288297
   datePublished: '2018-06-13'
   license:
@@ -94,9 +94,9 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - CLA
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
   - DHMDMAB
   - dihexadecyldimethylammonium
   measurementTechnique:
@@ -140,9 +140,16 @@ bioschema_properties:
     hasPart:
     - run30.xtc
     - run30.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1288297
+    identifier: 10.5281/zenodo.1288297
+    url: https://doi.org/10.5281/zenodo.1288297
+    name: Charmm36 Simulations Of Popc Mixed With Cationic Surfactant
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1288297
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

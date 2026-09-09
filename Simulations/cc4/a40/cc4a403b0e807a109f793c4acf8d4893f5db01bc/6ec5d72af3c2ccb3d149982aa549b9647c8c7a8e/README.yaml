@@ -40,9 +40,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 475
 bioschema_properties:
-  name: Popc @ 310K, Slipids Force Field.
+  name: Molecular dynamics trajectory of a POPC bilayer at 310 K (Slipids, GROMACS 4.6, 150 ns) [NMRlipids simulation 475]
   alternateName: 128POPC_5120SOL_310K
-  description: 'Input parameter file and part of the resulting trajectory for a POPC bilayer simulation using the Slipids force field [1,2]. Initial structure, force field parameters and simulation parameters were taken from the Slipids web page (http://people.su.se/~jjm/Stockholm_Lipids/Downloads.html). The structure simulated at 303K was used (http://people.su.se/~jjm/Stockholm_Lipids/Downloads_files/POPC_303K.gro) This data is used in the project "Matching lipid force fields with NMR data", see: http://nmrlipids.blogspot.fi. –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– Files: md.tpr – run input file for Gromacs versions 4.6 and above md.xtc – The last 150 ns of a 200 ns long simulation. Data saved every 100 ps. –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– [1] Joakim P. M. Jämbeck, Alexander P. Lyubartsev. Derivation and Systematic Validation of a Refined All-Atom Force Field for Phosphatidylcholine Lipids , J. Phys. Chem. B, 2012, 116 (10), 3164-3179 [2] Joakim P. M. Jämbeck, Alexander P. Lyubartsev. An Extension and Further Validation of an All-Atomistic Force Field for Biological Membranes , J. Chem. Theory Comput., 2012, 8 (8), 2938-2948'
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 310 K. Simulated with Slipids in GROMACS 4.6 for 150 ns (32512 atoms). Deposited as NMRlipids Databank simulation 475 and available from https://doi.org/10.5281/zenodo.13887.
   sameAs: https://doi.org/10.5281/zenodo.13887
   datePublished: '2015-01-12'
   license:
@@ -124,9 +124,16 @@ bioschema_properties:
     hasPart:
     - md.xtc
     - md.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.13887
+    identifier: 10.5281/zenodo.13887
+    url: https://doi.org/10.5281/zenodo.13887
+    name: Popc @ 310K, Slipids Force Field.
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.13887
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

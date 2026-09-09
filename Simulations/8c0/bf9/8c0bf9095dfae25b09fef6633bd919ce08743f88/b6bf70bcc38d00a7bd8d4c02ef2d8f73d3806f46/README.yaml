@@ -41,9 +41,9 @@ EXPERIMENT:
     SM18: []
   FORMFACTOR: []
 bioschema_properties:
-  name: MD simulation of sphingomyelin (d18:1/18:0) bilayer in water
+  name: Molecular dynamics trajectory of a SM18 bilayer at 328.15 K (CHARMM36, GROMACS 2020.4 and 2021.4, 150 ns) [NMRlipids simulation 763]
   alternateName: SSM bilayer in water, 328K
-  description: MD simulations of sphingomyelin (d18:1/18:0) bilayer in water, NPT, 328 K. 128 SM + 5120 TIP3P water molecules, CHARMM36 force field.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 SM18 (N-stearoyl-D-erythro-sphingosylphosphorylcholine) at 328.15 K. Simulated with CHARMM36 in GROMACS 2020.4 and 2021.4 for 150 ns (32384 atoms). Deposited as NMRlipids Databank simulation 763 and available from https://doi.org/10.5281/zenodo.8333993.
   sameAs: https://doi.org/10.5281/zenodo.8333993
   datePublished: '2023-09-11'
   license:
@@ -131,9 +131,16 @@ bioschema_properties:
     - NPT.xtc
     - NPT.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8333993
+    identifier: 10.5281/zenodo.8333993
+    url: https://doi.org/10.5281/zenodo.8333993
+    name: MD simulation of sphingomyelin (d18:1/18:0) bilayer in water
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.8333993
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

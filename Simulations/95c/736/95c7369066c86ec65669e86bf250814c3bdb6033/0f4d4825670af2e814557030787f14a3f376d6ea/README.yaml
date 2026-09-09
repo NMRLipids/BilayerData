@@ -42,9 +42,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 319
 bioschema_properties:
-  name: Md Simulation Trajectory And Related Files For Dppc Bilayer (Charmm36, Gromacs 4.5)
+  name: Molecular dynamics trajectory of a DPPC bilayer at 323 K (CHARMM36, GROMACS 4.5, 25 ns) [NMRlipids simulation 319]
   alternateName: 72DPPC_2189SOL_323K
-  description: Equilibrated DPPC lipid bilayer simulation ran with Gromacs 4.5, CHARMM36 force field (dx.doi.org/10.1021/jp101759q), 25ns, T=323K, 72 POPC molecules, 2189 water molecules. This data is ran for the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi. If data is used, please cite nmrlipids.blogspot.fi project and the original publication of the parameters (dx.doi.org/10.1021/jp101759q).
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 323 K. Simulated with CHARMM36 in GROMACS 4.5 for 25 ns (15927 atoms). Deposited as NMRlipids Databank simulation 319 and available from https://doi.org/10.5281/zenodo.15549.
   sameAs: https://doi.org/10.5281/zenodo.15549
   datePublished: '2015-02-20'
   license:
@@ -131,9 +131,16 @@ bioschema_properties:
   isBasedOn:
   - experiments/OrderParameters/10.1021/bi00687a021/1
   - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/4
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.15549
+    identifier: 10.5281/zenodo.15549
+    url: https://doi.org/10.5281/zenodo.15549
+    name: Md Simulation Trajectory And Related Files For Dppc Bilayer (Charmm36, Gromacs 4.5)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.15549
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

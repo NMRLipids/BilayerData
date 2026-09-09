@@ -55,9 +55,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 265
 bioschema_properties:
-  name: SLIPID POPC-POPG 7:3 Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+  name: Molecular dynamics trajectory of a POPC/SOD/POPG/CLA (47:27:20:6) bilayer at 310 K (Slipids, GROMACS 5.1.2, 100 ns) [NMRlipids simulation 265]
   alternateName: 150POPG_350POPC_25000SOL_198SOD_48CLA_310K
-  description: Simulation of a POPG-POPE 3:1 bilayer of 500 lipids (374 L-POPG lipids and 126 POPE lipids, 250 per leaflet) is simulated for 500 ns using Gromacs v5.1.2 in water solution with Na+ counterions and 150 mM of NaCl. The SLPID model is employed for lipids with TIP3P Water Model. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top) , simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided.
+  description: Molecular dynamics trajectory of a lipid bilayer of 350 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 47 mol%), 198 SOD (27 mol%), 150 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 20 mol%) and 48 CLA (6 mol%) at 310 K. Simulated with Slipids in GROMACS 5.1.2 for 100 ns (141196 atoms). Deposited as NMRlipids Databank simulation 265 and available from https://doi.org/10.5281/zenodo.2581186.
   sameAs: https://doi.org/10.5281/zenodo.2581186
   datePublished: '2019-03-03'
   license:
@@ -95,11 +95,11 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - POPG
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - SOD
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
   - CLA
   measurementTechnique:
   - '@type': DefinedTerm
@@ -142,9 +142,16 @@ bioschema_properties:
     hasPart:
     - dm_popc_popg_7_3_slipid.xtc
     - md_07.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.2581186
+    identifier: 10.5281/zenodo.2581186
+    url: https://doi.org/10.5281/zenodo.2581186
+    name: SLIPID POPC-POPG 7:3 Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.2581186
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

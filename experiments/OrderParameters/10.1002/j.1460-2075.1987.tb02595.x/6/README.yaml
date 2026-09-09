@@ -54,8 +54,8 @@ TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
   SOD: POPG
 bioschema_properties:
-  name: Structure and dynamics of the phosphatidylcholine and the phosphatidylethanolamine head group in L‐M fibroblasts as studied by deuterium nuclear magnetic resonance.
-  description: 'Experimental C-H bond order parameters for a lipid bilayer containing POPC, POPG at 298 K, measured by NMR: 2H:QE.'
+  name: C-H bond order parameters of a POPC/POPG (51:49) bilayer at 298 K, 66.7% water, with CLA/SOD and HEPES (2H NMR) [Scherer 1987]
+  description: Experimental C-H bond order parameters for a lipid bilayer of POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 51 mol%) and POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 49 mol%) at 298 K, hydrated to 66.7% water, with ions CLA and SOD; additives HEPES; pH 7.4 (buffer). Measured by solid-state nuclear magnetic resonance spectroscopy (2H:QE) on a Bruker-Spektrospin CXP 300. Values digitised into the NMRlipids Databank from https://doi.org/10.1002/j.1460-2075.1987.tb02595.x.
   sameAs: https://doi.org/10.1002/j.1460-2075.1987.tb02595.x
   datePublished: '1987-10-01'
   license:
@@ -92,8 +92,8 @@ bioschema_properties:
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - POPG
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
-  - SOD
   - CLA
+  - SOD
   measurementTechnique:
   - '@type': DefinedTerm
     name: solid-state nuclear magnetic resonance spectroscopy
@@ -128,4 +128,4 @@ bioschema_properties:
   _source:
     api: crossref
     doi: 10.1002/j.1460-2075.1987.tb02595.x
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

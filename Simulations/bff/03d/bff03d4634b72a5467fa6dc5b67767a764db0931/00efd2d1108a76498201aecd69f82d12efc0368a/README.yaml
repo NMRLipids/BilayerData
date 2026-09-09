@@ -43,9 +43,9 @@ EXPERIMENT:
   - 10.1103.008/PhysRevE.80.021931/2
 ID: 820
 bioschema_properties:
-  name: SOPC bilayer, CHARMM36
+  name: Molecular dynamics trajectory of a SOPC bilayer at 303.15 K (CHARMM36, GROMACS 2022.5, 500 ns) [NMRlipids simulation 820]
   alternateName: SOPC
-  description: Simulation of SOPC bilayer with 32 lipids per leavlet for 500ns after minimization and 200ns equilibration. The CHARRM36 forcefield was used.
+  description: Molecular dynamics trajectory of a lipid bilayer of 64 SOPC (1-stearoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303.15 K. Simulated with CHARMM36 in GROMACS 2022.5 for 500 ns (18560 atoms). Deposited as NMRlipids Databank simulation 820 and available from https://doi.org/10.5281/zenodo.12698832.
   sameAs: https://doi.org/10.5281/zenodo.12698832
   datePublished: '2024-07-09'
   license:
@@ -131,8 +131,15 @@ bioschema_properties:
   isBasedOn:
   - experiments/FormFactors/10.1103.008/PhysRevE.80.021931/1
   - experiments/FormFactors/10.1103.008/PhysRevE.80.021931/2
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.12698832
+    identifier: 10.5281/zenodo.12698832
+    url: https://doi.org/10.5281/zenodo.12698832
+    name: SOPC bilayer, CHARMM36
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.12698832
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

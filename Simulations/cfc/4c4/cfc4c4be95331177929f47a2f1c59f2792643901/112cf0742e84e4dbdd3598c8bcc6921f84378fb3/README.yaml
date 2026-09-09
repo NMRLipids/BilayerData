@@ -55,9 +55,9 @@ EXPERIMENT:
 ID: 363
 AUTHORS_CONTACT: Kiirikki, M. Anne; Ollila O. H. Samuli
 bioschema_properties:
-  name: Lipid17ecc POPC:POPG 4:1 bilayer simulation in 1 M CaCl2 solution and Na+ counter ions
+  name: Molecular dynamics trajectory of a CLA/CAL/POPC/POPG/SOD (49:24:18:5:5) bilayer at 298 K (lipid17ecc, GROMACS, 300 ns) [NMRlipids simulation 363]
   alternateName: POPC:POPG(4:1)_T298K_1MCaCl
-  description: Lipid17ecc POPC:POPG 4:1 bilayer simulation in 1 M CaCl2 solution. The initial structure was taken from https://zenodo.org/record/3874378#.X0OfthmEZGF . Temperature is 298 K. The system contains 350 POPC, 88 POPG, 88 Na+ ions, 24840 SPCE water molecules, 475 Ca2+ ions and 950 Cl- ions Total length of simulation is 400 ns. First 100 ns were discarded as equilibration time. Saving frequency of 100-300ns.xtc is 20 ps.
+  description: Molecular dynamics trajectory of a lipid bilayer of 950 CLA (49 mol%), 475 CAL (24 mol%), 350 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 18 mol%), 88 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 5 mol%) and 88 SOD (5 mol%) at 298 K. Simulated with lipid17ecc in GROMACS for 300 ns (134109 atoms). Deposited as NMRlipids Databank simulation 363 and available from https://doi.org/10.5281/zenodo.3997184.
   sameAs: https://doi.org/10.5281/zenodo.3997184
   datePublished: '2020-08-24'
   license:
@@ -94,13 +94,13 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
+  - CLA
+  - CAL
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - POPG
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
   - SOD
-  - CAL
-  - CLA
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -142,9 +142,16 @@ bioschema_properties:
     hasPart:
     - 100-400ns.xtc
     - run_400ns.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3997184
+    identifier: 10.5281/zenodo.3997184
+    url: https://doi.org/10.5281/zenodo.3997184
+    name: Lipid17ecc POPC:POPG 4:1 bilayer simulation in 1 M CaCl2 solution and Na+ counter ions
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3997184
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

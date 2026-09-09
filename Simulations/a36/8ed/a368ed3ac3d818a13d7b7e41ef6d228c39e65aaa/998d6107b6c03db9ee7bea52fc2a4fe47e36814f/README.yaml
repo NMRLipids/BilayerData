@@ -44,9 +44,9 @@ EXPERIMENT:
   - 10.1016/j.bbamem.2011.07.022/11
 ID: 93
 bioschema_properties:
-  name: Simulations Of Popc Lipid Bilayer In Water Solution At Various Nacl And Cacl2 Concentrations Using Ecc-Popc Force Field And Various Water Models
+  name: Molecular dynamics trajectory of a POPC bilayer at 313 K (ECC-lipids, GROMACS 5.1.4, 300 ns) [NMRlipids simulation 93]
   alternateName: 128POPC_6400SOL_313K_TIP4p-FBmodel
-  description: Classical molecular dynamics simulations of a POPC lipid bilayer in water solution at various NaCl and CaCl2 concentrations using ECC-POPC force field parameters, various water models and ECC-ions. Simulations with SPC/E water model are in a separate Zenodo deposit https://doi.org/10.5281/zenodo.1118266 file names report molar fraction of cations (i.e. not bulk concentrations) simulations performed with Gromacs 5.1.4 (*.xtc files) and openMM 7 (*.dcd files) simulation length 300 ns temperature 313 K (otherwise noted)
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 313 K. Simulated with ECC-lipids in GROMACS 5.1.4 for 300 ns (42752 atoms). Deposited as NMRlipids Databank simulation 93 and available from https://doi.org/10.5281/zenodo.1118980.
   sameAs: https://doi.org/10.5281/zenodo.1118980
   datePublished: '2017-12-19'
   license:
@@ -130,9 +130,16 @@ bioschema_properties:
     - sim_ECC-POPC_TIP4p-FB_noIons-ref.top
   isBasedOn:
   - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/11
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1118980
+    identifier: 10.5281/zenodo.1118980
+    url: https://doi.org/10.5281/zenodo.1118980
+    name: Simulations Of Popc Lipid Bilayer In Water Solution At Various Nacl And Cacl2 Concentrations Using Ecc-Popc Force Field And Various Water Models
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1118980
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

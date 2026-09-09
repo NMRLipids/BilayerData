@@ -45,9 +45,9 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/jp511159q/1
 bioschema_properties:
-  name: Pure POPE membrane simulations with the CHARMM-Drude force field at 310K (OpenMM)
+  name: Molecular dynamics trajectory of a POPE bilayer at 310 K (Charmm-Drude, OPENMM, 360 ns) [NMRlipids simulation 731]
   alternateName: POPE_303K
-  description: MD simulation data of a pure POPE membrane with the CHARMM-Drude force field generated with the OpenMM simulation engine at 310K. Parameters from CHARMM-GUI.
+  description: Molecular dynamics trajectory of a lipid bilayer of 144 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 310 K. Simulated with Charmm-Drude in OPENMM for 360 ns (51408 atoms). Deposited as NMRlipids Databank simulation 731 and available from https://doi.org/10.5281/zenodo.7602770.
   sameAs: https://doi.org/10.5281/zenodo.7602770
   datePublished: '2023-02-03'
   license:
@@ -132,9 +132,16 @@ bioschema_properties:
   - experiments/OrderParameters/10.1021/jacs.1c05549/2
   - experiments/OrderParameters/unpublished/ferreiraPOPE/1
   - experiments/FormFactors/10.1021/jp511159q/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.7602770
+    identifier: 10.5281/zenodo.7602770
+    url: https://doi.org/10.5281/zenodo.7602770
+    name: Pure POPE membrane simulations with the CHARMM-Drude force field at 310K (OpenMM)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.7602770
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

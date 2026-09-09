@@ -77,9 +77,9 @@ EXPERIMENT:
     CHOL: []
   FORMFACTOR: []
 bioschema_properties:
-  name: Trajectory file of asymmetric PM-like lipid bilayer
+  name: Molecular dynamics trajectory of a CHOL/POPC/SM16/POPE/SOD/POPS/SAPI24 (35:19:14:13:12:6:1) bilayer at 310 K (CHARMM36m, NAMD 2.14, 200 ns) [NMRlipids simulation 774]
   alternateName: (innerleaflet,76CHOL,30POPC,52POPE,26POPS,6SAPI24)(outerleaflet,76CHOL,52POPC,6POPE,2POPS,57PSM),13495SOL,52SOD
-  description: Simulation of asymmetric PM-like lipid bilayer. Including DCD, PSF, and PDB files.
+  description: Molecular dynamics trajectory of a lipid bilayer of 152 CHOL (cholesterol, 35 mol%), 82 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 19 mol%), 59 SM16 (N-palmitoyl-D-erythro-sphingosylphosphorylcholine, 14 mol%), 58 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 13 mol%), 52 SOD (12 mol%), 28 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 6 mol%) and 6 SAPI24 (1-stearoyl-2-arachidonoyl-sn-glycero-3-phospho-(1’-myo-inositol-4’,5’-bisphosphate), 1 mol%) at 310 K. Simulated with CHARMM36m in NAMD 2.14 for 200 ns (81972 atoms). Deposited as NMRlipids Databank simulation 774 and available from https://doi.org/10.5281/zenodo.8369348.
   sameAs: https://doi.org/10.5281/zenodo.8369348
   datePublished: '2023-09-18'
   license:
@@ -117,19 +117,19 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
+  - CHOL
+  - cholesterol
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SM16
+  - N-palmitoyl-D-erythro-sphingosylphosphorylcholine
   - POPE
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  - SOD
   - POPS
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
   - SAPI24
   - 1-stearoyl-2-arachidonoyl-sn-glycero-3-phospho-(1’-myo-inositol-4’,5’-bisphosphate)
-  - SM16
-  - N-palmitoyl-D-erythro-sphingosylphosphorylcholine
-  - CHOL
-  - cholesterol
-  - SOD
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -172,9 +172,16 @@ bioschema_properties:
     - PM-like.dcd
     - PM-like.psf
     - PM-like.pdb
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8369348
+    identifier: 10.5281/zenodo.8369348
+    url: https://doi.org/10.5281/zenodo.8369348
+    name: Trajectory file of asymmetric PM-like lipid bilayer
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.8369348
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

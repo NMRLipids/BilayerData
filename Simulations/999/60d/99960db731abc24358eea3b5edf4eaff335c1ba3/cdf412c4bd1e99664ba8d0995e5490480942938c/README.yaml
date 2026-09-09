@@ -48,9 +48,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 249
 bioschema_properties:
-  name: POPC with 40 and 50 mol-% of cholesterol at 310 K. Slipids force field.
+  name: Molecular dynamics trajectory of a CHOL/POPC (50:50) bilayer at 310 K (Slipids, GROMACS 4.6, 500 ns) [NMRlipids simulation 249]
   alternateName: 200POPC_9000SOL_200CHOL_310K
-  description: 'Simulations of a POPC bilayer with varying amounts of cholesterol. This data is employed for the NMRlipids project, see http://nmrlipids.blogspot.fi for more information. A POPC bilayer consisting of 200 lipids (100 per leaflet) is simulated in the presence of 40% (134 molecules) or 50 % (200 molecules) of cholesterol. The Slipids model [1–3] is employed for lipids, and the tip3p model for water. The Slipids force field parameters were downloaded from http://mmkluster.fos.su.se/slipids/ –––––––––––––––––––––––––––––––––––––––––––––––––––––– The files are in GROMACS format. Trajectory (.xtc) is 100 ns long with data saved every 100 ps. Additionally, the final structure (.gro), topology (.top), index file (.ndx), binary run input file for GROMACS v. 4.6–> (.tpr) and the energy output file (.edr) are provided together with the run parameter file (.mdp) employed to run all the simulations. UPDATE: Longer 500 ns trajectories are updated together with the checkpoint files. –––––––––––––––––––––––––––––––––––––––––––––––––––––– [1] Derivation and Systematic Validation of a Refined All-Atom Force Field for Phosphatidylcholine Lipids Joakim P. M. Jämbeck and Alexander P. Lyubartsev The Journal of Physical Chemistry B 2012 116 (10), 3164-3179 DOI: 10.1021/jp212503e [2] An Extension and Further Validation of an All-Atomistic Force Field for Biological Membranes Joakim P. M. Jämbeck and Alexander P. Lyubartsev Journal of Chemical Theory and Computation 2012 8 (8), 2938-2948 DOI: 10.1021/ct300342n [3] Another Piece of the Membrane Puzzle: Extending Slipids Further Joakim P. M. Jämbeck and Alexander P. Lyubartsev Journal of Chemical Theory and Computation 2013 9 (1), 774-784 DOI: 10.1021/ct300777p'
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 CHOL (cholesterol, 50 mol%) and 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) at 310 K. Simulated with Slipids in GROMACS 4.6 for 500 ns (95600 atoms). Deposited as NMRlipids Databank simulation 249 and available from https://doi.org/10.5281/zenodo.3243329.
   sameAs: https://doi.org/10.5281/zenodo.3243329
   datePublished: '2016-09-18'
   license:
@@ -88,10 +88,10 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - POPC
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - CHOL
   - cholesterol
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -134,9 +134,16 @@ bioschema_properties:
     - chol50_500ns.xtc
     - chol50.tpr
     - chol50.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3243329
+    identifier: 10.5281/zenodo.3243329
+    url: https://doi.org/10.5281/zenodo.3243329
+    name: POPC with 40 and 50 mol-% of cholesterol at 310 K. Slipids force field.
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3243329
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

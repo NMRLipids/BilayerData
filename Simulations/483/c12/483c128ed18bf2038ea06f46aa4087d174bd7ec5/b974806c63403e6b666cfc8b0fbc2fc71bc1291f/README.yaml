@@ -43,9 +43,9 @@ EXPERIMENT:
   - 10.1016/j.bbamem.2011.07.022/4
 ID: 463
 bioschema_properties:
-  name: Dppc_Slipids
+  name: Molecular dynamics trajectory of a DPPC bilayer at 323 K (Slipids, GROMACS 4.6.6, 150 ns) [NMRlipids simulation 463]
   alternateName: 128DPPC_3840SOL_323K
-  description: 'MD simulation trajectory and related files for fully hydrated DPPC bilayer. Slipids force field (doi:10.1021/jp212503e) was used with Gromacs 4.6.6. Conditions: T=323K, 128 lipids, 3840 tip3p waters.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 323 K. Simulated with Slipids in GROMACS 4.6.6 for 150 ns (28160 atoms). Deposited as NMRlipids Databank simulation 463 and available from https://doi.org/10.5281/zenodo.13287.
   sameAs: https://doi.org/10.5281/zenodo.13287
   datePublished: '2014-12-17'
   license:
@@ -129,9 +129,16 @@ bioschema_properties:
   isBasedOn:
   - experiments/OrderParameters/10.1021/bi00687a021/1
   - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/4
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.13287
+    identifier: 10.5281/zenodo.13287
+    url: https://doi.org/10.5281/zenodo.13287
+    name: Dppc_Slipids
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.13287
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -43,9 +43,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 40
 bioschema_properties:
-  name: CHARMM36, NB-Fix approaches, without NBFIX, POPC membrane, Ca, Na ions,
+  name: Molecular dynamics trajectory of a POPC bilayer at 310.15 K (CHARMM36 noNBFIX, GROMACS, 383 ns) [NMRlipids simulation 40]
   alternateName: 200POPC_9000SOL_310K_noNBFIX
-  description: Different versions of NB-Fix from CHARMM-Gui and simulations without NB-Fix (called original charmm) 200 POPC lipids, TIP3P - charrmm water model,
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 310.15 K. Simulated with CHARMM36 noNBFIX in GROMACS for 383 ns (53800 atoms). Deposited as NMRlipids Databank simulation 40 and available from https://doi.org/10.5281/zenodo.3434396.
   sameAs: https://doi.org/10.5281/zenodo.3434396
   datePublished: '2019-09-17'
   license:
@@ -125,9 +125,16 @@ bioschema_properties:
     hasPart:
     - original_CHARMM36_310K_TIP3P_CHARMMS_ions_no_ions.xtc
     - original_CHARMM36_310K_TIP3P_CHARMMS_ions_no_ions.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3434396
+    identifier: 10.5281/zenodo.3434396
+    url: https://doi.org/10.5281/zenodo.3434396
+    name: CHARMM36, NB-Fix approaches, without NBFIX, POPC membrane, Ca, Na ions,
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3434396
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

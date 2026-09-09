@@ -47,9 +47,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 64
 bioschema_properties:
-  name: Charmm36 Popc/Pope (50%-50%) Md Simulation (300 K - 300Ns - 1 Bar)
+  name: Molecular dynamics trajectory of a POPC/POPE (50:50) bilayer at 300 K (CHARMM36, GROMACS, 300 ns) [NMRlipids simulation 64]
   alternateName: 128POPC_128POPE_9102SOL_300K
-  description: CHARMM36 POPC 50% POPE 50% bilayer simulation (300 K, starting structure from CHARMM-GUI with 128 POPC and 128 POPE lipids (64 per leaflet for each species) fully hydrated with 34 water molecules per lipid). The trajectory contains the whole simulation from 0 to 300 ns skipped every 100 ps and centered on the P atoms. No ions were added as there is no charge in the system. This bilayer was used to calculate the order parameter and the area per lipid for the NMRlipids project (on the time window 50-300 ns).
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) and 128 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 50 mol%) at 300 K. Simulated with CHARMM36 in GROMACS for 300 ns (60458 atoms). Deposited as NMRlipids Databank simulation 64 and available from https://doi.org/10.5281/zenodo.1306821.
   sameAs: https://doi.org/10.5281/zenodo.1306821
   datePublished: '2018-07-06'
   license:
@@ -132,9 +132,16 @@ bioschema_properties:
     hasPart:
     - md_dt100_OK_centered.xtc
     - md.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1306821
+    identifier: 10.5281/zenodo.1306821
+    url: https://doi.org/10.5281/zenodo.1306821
+    name: Charmm36 Popc/Pope (50%-50%) Md Simulation (300 K - 300Ns - 1 Bar)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1306821
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

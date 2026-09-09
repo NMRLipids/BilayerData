@@ -55,9 +55,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 866
 bioschema_properties:
-  name: MD simulation of POPI-POPE (60:40) bilayer with CHARMM36 force field
+  name: Molecular dynamics trajectory of a NH4/POPI/POPE (38:38:25) bilayer at 310 K (CHARMM36, GROMACS 2022.4, 500 ns) [NMRlipids simulation 866]
   alternateName: POPI-POPE (60:40), full hydration, 310 K, NH4+ counter ions
-  description: 'Dataset contains simulation files of MD simulation with POPI-POPE (60:40) bilayer in CHARMM36 force field with neutralizing NH4+ ions System: POPI-POPE (60:40) bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 10000 Salt: Neutralizing NH4+ Number of cations: 120 Simulation time: 500 ns Sampling rate: every 10 ps Simulation engine: GROMACS 2022.4 Force field: CHARMM36 (parameters as charmm-gui input files 2.11.2023) Temperature: 310 K Equilibration: 100 ns (equilibration period in the uploaded trajectory, evaluated based on area per lipid) Pre-equilibration: 2.8 ns'
+  description: Molecular dynamics trajectory of a lipid bilayer of 120 NH4 (38 mol%), 120 POPI (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol, 38 mol%) and 80 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 25 mol%) at 310 K. Simulated with CHARMM36 in GROMACS 2022.4 for 500 ns (57040 atoms). Deposited as NMRlipids Databank simulation 866 and available from https://doi.org/10.5281/zenodo.10260376.
   sameAs: https://doi.org/10.5281/zenodo.10260376
   datePublished: '2023-12-18'
   license:
@@ -94,11 +94,11 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
+  - NH4
   - POPI
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol
   - POPE
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
-  - NH4
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -142,8 +142,15 @@ bioschema_properties:
     - production.tpr
     - topol.top
     - production.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.10260376
+    identifier: 10.5281/zenodo.10260376
+    url: https://doi.org/10.5281/zenodo.10260376
+    name: MD simulation of POPI-POPE (60:40) bilayer with CHARMM36 force field
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.10260376
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

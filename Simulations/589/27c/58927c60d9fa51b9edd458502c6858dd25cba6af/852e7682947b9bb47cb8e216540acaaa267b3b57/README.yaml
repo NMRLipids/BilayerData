@@ -40,9 +40,9 @@ EXPERIMENT:
   - 10.1021/acs.jctc.3c00648/1
 ID: 832
 bioschema_properties:
-  name: Bilayer2
+  name: Molecular dynamics trajectory of a POPC bilayer at 300 K (FF-development, GROMACS, 286 ns) [NMRlipids simulation 832]
   alternateName: POPCandTIP3P
-  description: Modified LJ parameters on P and O atoms. Base FF is sage 2.2.0
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with FF-development in GROMACS for 286 ns (32512 atoms). Deposited as NMRlipids Databank simulation 832 and available from https://doi.org/10.5281/zenodo.15002712.
   sameAs: https://doi.org/10.5281/zenodo.15002712
   datePublished: '2025-03-10'
   license:
@@ -127,8 +127,15 @@ bioschema_properties:
   - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
   - experiments/OrderParameters/10.1039/c2cp42738a/1
   - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.15002712
+    identifier: 10.5281/zenodo.15002712
+    url: https://doi.org/10.5281/zenodo.15002712
+    name: Bilayer2
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.15002712
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

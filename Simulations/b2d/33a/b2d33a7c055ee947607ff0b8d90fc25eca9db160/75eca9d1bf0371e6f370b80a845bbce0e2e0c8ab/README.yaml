@@ -48,9 +48,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 92
 bioschema_properties:
-  name: LIPID17 POPC Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (84:8:8) bilayer at 310 K (Lipid17, GROMACS 5.1.2, 100 ns) [NMRlipids simulation 92]
   alternateName: 500POPC_48SOD_48CLA_25000SOL_310K
-  description: 'Simulation of a POPC bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs v5.1.2 in water solution with Na+ counterions and 150 mM of NaCl. The LIPID17 model (1), AMBER ff15ipq and TIP3P water model are employed. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top), simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided. ------- (1) Gould, I.R., Skjevik A.A., Dickson, C.J., Madej, B.D., Walker, R.C., "Lipid17: A Comprehensive AMBER Force Field for the Simulation of Zwitterionic and Anionic Lipids", 2018, in prep.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 500 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 84 mol%), 48 CLA (8 mol%) and 48 SOD (8 mol%) at 310 K. Simulated with Lipid17 in GROMACS 5.1.2 for 100 ns (142096 atoms). Deposited as NMRlipids Databank simulation 92 and available from https://doi.org/10.5281/zenodo.2574959.
   sameAs: https://doi.org/10.5281/zenodo.2574959
   datePublished: '2019-02-25'
   license:
@@ -89,8 +89,8 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  - SOD
   - CLA
+  - SOD
   - LIPID17
   measurementTechnique:
   - '@type': DefinedTerm
@@ -134,9 +134,16 @@ bioschema_properties:
     - m_400_500_POPC_amber.xtc
     - md_00.tpr
     - gromacs.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.2574959
+    identifier: 10.5281/zenodo.2574959
+    url: https://doi.org/10.5281/zenodo.2574959
+    name: LIPID17 POPC Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.2574959
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

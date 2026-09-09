@@ -34,8 +34,8 @@ TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
 
 bioschema_properties:
-  name: Effect of cholesterol on structural and mechanical properties of membranes depends on lipid chain saturation
-  description: Experimental X-ray scattering form factor for a lipid bilayer containing SOPC at 303 K, measured by X-ray scattering (OS).
+  name: X-ray scattering form factor of a SOPC bilayer at 303 K, 98% water (SAXS, OS) [Pan 2009]
+  description: Experimental X-ray scattering form factor for a lipid bilayer of SOPC (1-stearoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K, hydrated to 98% water. Measured by small-angle X-ray scattering on OS samples at G1 station, CHESS. Values digitised into the NMRlipids Databank from https://doi.org/10.1103/PhysRevE.80.021931.
   sameAs: https://doi.org/10.1103/PhysRevE.80.021931
   datePublished: '2009-08-25'
   license:
@@ -105,4 +105,4 @@ bioschema_properties:
   _source:
     api: crossref
     doi: 10.1103/PhysRevE.80.021931
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -45,9 +45,9 @@ WARNINGS:
   PBC: z-jumps
 ID: 100
 bioschema_properties:
-  name: 'Md Simulation Trajectory Of A Fully Hydrated Dops Bilayer: Slipids, Gromacs 5.0.4. 2017.'
+  name: Molecular dynamics trajectory of a DOPS/SOD (50:50) bilayer at 303 K (Slipids, GROMACS 5.0.4, 50 ns) [NMRlipids simulation 100]
   alternateName: 288DOPS_11232SOL_288SOD_303K
-  description: 'MD simulation trajectory files, for fully hydrated DOPS bilayer [288 DOPS, 11232 WAT and 288 NA ions]. The SLIPIDS force field was used with Gromacs 5.0.4. Conditions: T=303K. 200 ns trajectory, last 100 ns uploaded for analysis.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 288 DOPS (1,2-dioleoyl-sn-glycero-3-phospho-L-serine, 50 mol%) and 288 SOD (50 mol%) at 303 K. Simulated with Slipids in GROMACS 5.0.4 for 50 ns (71712 atoms). Deposited as NMRlipids Databank simulation 100 and available from https://doi.org/10.5281/zenodo.495510.
   sameAs: https://doi.org/10.5281/zenodo.495510
   datePublished: '2017-04-07'
   license:
@@ -130,9 +130,16 @@ bioschema_properties:
     hasPart:
     - md50ns_chunk02.xtc
     - md50ns_chunk01.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.495510
+    identifier: 10.5281/zenodo.495510
+    url: https://doi.org/10.5281/zenodo.495510
+    name: 'Md Simulation Trajectory Of A Fully Hydrated Dops Bilayer: Slipids, Gromacs 5.0.4. 2017.'
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.495510
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

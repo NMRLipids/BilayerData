@@ -55,9 +55,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 170
 bioschema_properties:
-  name: CHARMM36 POPC-POPG 7:3 Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+  name: Molecular dynamics trajectory of a POPC/SOD/POPG/CLA (47:27:20:6) bilayer at 310 K (CHARMM36, GROMACS 5.1.2, 100 ns) [NMRlipids simulation 170]
   alternateName: 350POPC_150POPG_25000SOL_150SOD_310K_2
-  description: Simulation of a POPC-POPG 7:3 bilayer of 500 lipids (350 POPC lipids and 150 L-POPG lipids, 250 per leaflet) is simulated for 500 ns using Gromacs v5.1.2 in water solution with Na+ counterions and 150 mM of NaCl. The CHARMM36 model and CHARMM TIP3P water model are employed. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top) , simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided.
+  description: Molecular dynamics trajectory of a lipid bilayer of 350 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 47 mol%), 198 SOD (27 mol%), 150 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 20 mol%) and 48 CLA (6 mol%) at 310 K. Simulated with CHARMM36 in GROMACS 5.1.2 for 100 ns (141196 atoms). Deposited as NMRlipids Databank simulation 170 and available from https://doi.org/10.5281/zenodo.2580902.
   sameAs: https://doi.org/10.5281/zenodo.2580902
   datePublished: '2019-03-01'
   license:
@@ -95,12 +95,12 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - POPG
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
-  - CLA
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - SOD
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - CLA
   - CHARMM36
   - POPC-POPG 7:3
   - BILAYER
@@ -145,9 +145,16 @@ bioschema_properties:
     hasPart:
     - dm_popc_popg_7_3_charmm.xtc
     - md_05.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.2580902
+    identifier: 10.5281/zenodo.2580902
+    url: https://doi.org/10.5281/zenodo.2580902
+    name: CHARMM36 POPC-POPG 7:3 Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.2580902
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

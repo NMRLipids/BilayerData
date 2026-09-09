@@ -52,9 +52,9 @@ EXPERIMENT:
   - 10.1021/acs.jctc.3c00648/5
 ID: 525
 bioschema_properties:
-  name: Simulations of POPC/cholesterol mixtures at 298 K, three system sizes, CHARMM36
+  name: Molecular dynamics trajectory of a POPC/CHOL (80:20) bilayer at 298.15 K (CHARMM36, GROMACS, 1001 ns) [NMRlipids simulation 525]
   alternateName: 64POPC_16CHOL_4000SOL_298K
-  description: GROMACS input and output files. CHARMM36. Membranes with 64, 256, and 1024 lipids.
+  description: Molecular dynamics trajectory of a lipid bilayer of 64 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 80 mol%) and 16 CHOL (cholesterol, 20 mol%) at 298.15 K. Simulated with CHARMM36 in GROMACS for 1001 ns (21760 atoms). Deposited as NMRlipids Databank simulation 525 and available from https://doi.org/10.5281/zenodo.5767451.
   sameAs: https://doi.org/10.5281/zenodo.5767451
   datePublished: '2021-12-08'
   license:
@@ -141,9 +141,16 @@ bioschema_properties:
     - CHOL8_small.gro
   isBasedOn:
   - experiments/FormFactors/10.1021/acs.jctc.3c00648/5
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.5767451
+    identifier: 10.5281/zenodo.5767451
+    url: https://doi.org/10.5281/zenodo.5767451
+    name: Simulations of POPC/cholesterol mixtures at 298 K, three system sizes, CHARMM36
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.5767451
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

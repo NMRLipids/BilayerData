@@ -41,9 +41,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 433
 bioschema_properties:
-  name: CHARMM36 simulations of pure POPC bilayer and a bilayer containing 50% of cholesterol, T=303K
+  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (CHARMM36, GROMACS 2020.1, 840 ns) [NMRlipids simulation 433]
   alternateName: 122POPC_4880SOL_303K
-  description: Simulation of POPC and 50%POPC+50%cholesterol bilayer in full hydration (40 water/lipid) at T=303K in NPT ensemble. Simulations where done on GPU Gromacs 2020.1. The initial configurations and force field (CHARMM36) were dowloaded from CHARMM-GUI. Simulation uses Parrinello-Rahman barostat and Nose-Hoover thermostat.
+  description: Molecular dynamics trajectory of a lipid bilayer of 122 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with CHARMM36 in GROMACS 2020.1 for 840 ns (30988 atoms). Deposited as NMRlipids Databank simulation 433 and available from https://doi.org/10.5281/zenodo.4071264.
   sameAs: https://doi.org/10.5281/zenodo.4071264
   datePublished: '2020-10-07'
   license:
@@ -128,9 +128,16 @@ bioschema_properties:
     - popc.tpr
   isBasedOn:
   - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/2
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.4071264
+    identifier: 10.5281/zenodo.4071264
+    url: https://doi.org/10.5281/zenodo.4071264
+    name: CHARMM36 simulations of pure POPC bilayer and a bilayer containing 50% of cholesterol, T=303K
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.4071264
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -37,9 +37,9 @@ EXPERIMENT:
     - 10.1021/bi00218a003/2
   FORMFACTOR: []
 bioschema_properties:
-  name: PLPC (PiLPC) lipid bilayer | 1-palmitoyl-2-isolinoleoyl-i«-glycero-3-phosphocholine with C6-C7 and the C9-C10 double bonds | 303K, CHARMM36m-WYF forcefield, NAMD 3.0.2, 2* 500 ns
+  name: Molecular dynamics trajectory of a PILPC bilayer at 303.15 K (CHARMM36m, NAMD 3.0, 500 ns) [NMRlipids simulation 908]
   alternateName: PiLPC
-  description: 'PLPC (PiLPC) lipid bilayer: 1-palmitoyl-2-isolinoleoyl-i«-glycero-3-phosphocholine with C6-C7 and the C9-C10 double bonds200 lipid molecules (100 lipids per leaflet) and no ions.Lipid for a total water content of 50 wt% >>> Hydration: 42Temperature: 303.15System was prepared using CHARMM-GUI.CHARMM36m-WYF forcefield was used.Simulation was performed with NAMD 3.0.2.timestep: 2.0 fs500 ns production after 150 ns equilibrationdcd saving freq: 100002 replicates'
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 PILPC (1-Palmitoyl-2-isolinoleoyl phosphatidylcholine) at 303.15 K. Simulated with CHARMM36m in NAMD 3.0 for 500 ns (51600 atoms). Deposited as NMRlipids Databank simulation 908 and available from https://doi.org/10.5281/zenodo.18480411.
   sameAs: https://doi.org/10.5281/zenodo.18480411
   datePublished: '2026-02-04'
   license:
@@ -125,8 +125,15 @@ bioschema_properties:
     - step5_input.pdb
   isBasedOn:
   - experiments/OrderParameters/10.1021/bi00218a003/2
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.18480411
+    identifier: 10.5281/zenodo.18480411
+    url: https://doi.org/10.5281/zenodo.18480411
+    name: PLPC (PiLPC) lipid bilayer | 1-palmitoyl-2-isolinoleoyl-i«-glycero-3-phosphocholine with C6-C7 and the C9-C10 double bonds | 303K, CHARMM36m-WYF forcefield, NAMD 3.0.2, 2* 500 ns
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.18480411
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

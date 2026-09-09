@@ -51,9 +51,9 @@ TRJLENGTH: 200020.0
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 9
 bioschema_properties:
-  name: Md Simulation Trajectory For Popc/50% Chol Bilayer (Charmm36, Gromacs 4.5)
+  name: Molecular dynamics trajectory of a CHOL/POPC (50:50) bilayer at 303 K (CHARMM36, GROMACS, 200 ns) [NMRlipids simulation 9]
   alternateName: POPC50%chol_T303K
-  description: 'Equilibrated POPC/50%CHL lipid bilayer ran with Gromacs 4.5 with CHARMM36 lipid forcefield. The simulation is composed of 80 POPC/80 Cholesterol at full hydratation and ran for 200ns at 303K, data saved every 20ps. All input parameters can be find on the github repository: https://github.com/NMRLipids/nmrlipids.blogspot.fi This data is used in the project "Matching lipid force fields with NMR data". More information at : http://nmrlipids.blogspot.fi/'
+  description: Molecular dynamics trajectory of a lipid bilayer of 80 CHOL (cholesterol, 50 mol%) and 80 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) at 303 K. Simulated with CHARMM36 in GROMACS for 200 ns (30128 atoms). Deposited as NMRlipids Databank simulation 9 and available from https://doi.org/10.5281/zenodo.14068.
   sameAs: https://doi.org/10.5281/zenodo.14068
   datePublished: '2015-01-19'
   license:
@@ -135,9 +135,16 @@ bioschema_properties:
     hasPart:
     - POPC_50CHL.xtc
     - POPC_50CHL.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.14068
+    identifier: 10.5281/zenodo.14068
+    url: https://doi.org/10.5281/zenodo.14068
+    name: Md Simulation Trajectory For Popc/50% Chol Bilayer (Charmm36, Gromacs 4.5)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.14068
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

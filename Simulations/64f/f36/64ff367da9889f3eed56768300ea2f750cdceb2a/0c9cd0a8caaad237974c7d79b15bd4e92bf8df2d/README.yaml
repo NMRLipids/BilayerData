@@ -58,9 +58,9 @@ EXPERIMENT:
     TLCL_0H: []
   FORMFACTOR: []
 bioschema_properties:
-  name: All-atom MD trajectory TOCL:POPC (10%), 50mM KCl
+  name: Molecular dynamics trajectory of a POPC/POT/CLA/TLCL_0H (71:17:8:5) bilayer at 303.15 K (CHARMM36, GROMACS 5.0.6, 500 ns) [NMRlipids simulation 777]
   alternateName: TLCL:POPC(10%)50mM-CHARMM
-  description: '500-ns MD simulation of a lipid bilayer, which monolayer was composed of 47 POPC (1-Palmitoyl-2-oleoylphosphatidylcholine) molecules and 3 TLCL (tetra-linoeoyl-cardiolipin) molecules. The background electrolyte is KCl; these ions were added in that amount, which imitates 50-mM ionic force in the bulk. The water amount is large (more than 100 water molecules per lipid), allowing it to equilibrate the electric double layer at a relatively low ionic force. TIP3P water model and CHARMM36 force field were used; the double-deprotonated form of cardiolipin was used (TLCL2). Production simulation was performed with MD integrator (2-fs step, bonds to hydrogen atoms were constrained), Nose-Hoover thermostat (303K, 1-ps time constant) and Parinello-Rahman semi-isotropic barostat (5-ps time constant, water compressibility). PME was used for electrostatics; cut-off radii were set to 1.2 nm. VDW switch radius was set to 1.0 nm. Resulting trajectories deposited: COMBINED-25ps.trr [500 ns length, 50-ps step, with velocities] (50, not 25!, filename is improper! ) COMBINED-10ps-100ns.trr [last 100 ns, 10-ps step, with velocities] COMBINED.edr [500 ns length, 2-ps step] The additional ZIP archive contains intermediate TPR and MDP files and a force field folder.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 94 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 71 mol%), 22 POT (17 mol%), 10 CLA (8 mol%) and 6 TLCL_0H (tetralinoleoyl cardiolipin(2−), 5 mol%) at 303.15 K. Simulated with CHARMM36 in GROMACS 5.0.6 for 500 ns (46933 atoms). Deposited as NMRlipids Databank simulation 777 and available from https://doi.org/10.5281/zenodo.8383234.
   sameAs: https://doi.org/10.5281/zenodo.8383234
   datePublished: '2023-09-27'
   license:
@@ -103,10 +103,10 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - POT
+  - CLA
   - TLCL_0H
   - tetralinoleoyl cardiolipin(2−)
-  - CLA
-  - POT
   - NMRlipids
   - GROMACS
   - cardiolipin
@@ -152,9 +152,16 @@ bioschema_properties:
     - COMBINED-25ps.trr
     - step7_3.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8383234
+    identifier: 10.5281/zenodo.8383234
+    url: https://doi.org/10.5281/zenodo.8383234
+    name: All-atom MD trajectory TOCL:POPC (10%), 50mM KCl
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.8383234
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

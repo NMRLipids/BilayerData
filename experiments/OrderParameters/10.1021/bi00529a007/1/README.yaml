@@ -40,8 +40,8 @@ TOTAL_LIPID_CONCENTRATION: 0.07
 COUNTER_IONS:
 
 bioschema_properties:
-  name: Interaction of metal ions with phosphatidylcholine bilayer membranes
-  description: 'Experimental C-H bond order parameters for a lipid bilayer containing DPPC at 332 K, measured by NMR: 2H:QE.'
+  name: C-H bond order parameters of a DPPC bilayer at 332 K, 95% water, with EDTA/Pipes (2H NMR) [Akutsu 1981]
+  description: Experimental C-H bond order parameters for a lipid bilayer of DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 332 K, hydrated to 95% water, with additives EDTA and Pipes; pH 7 (Buffer). Measured by solid-state nuclear magnetic resonance spectroscopy (2H:QE) on a Spectrometers operating at 13.8 and 61.4 MHz (single-pulse mode) and at 46 MHz (quadrupole echo technique). Values digitised into the NMRlipids Databank from https://doi.org/10.1021/bi00529a007.
   sameAs: https://doi.org/10.1021/bi00529a007
   datePublished: '1981-12-01'
   license:
@@ -107,4 +107,4 @@ bioschema_properties:
   _source:
     api: crossref
     doi: 10.1021/bi00529a007
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

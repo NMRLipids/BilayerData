@@ -55,9 +55,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 187
 bioschema_properties:
-  name: Md Simulation Trajectory And Related Files For Popc Bilayer With 340Mm Nacl (Berger Model Delivered By Tieleman, Ffgmx Ions, Gromacs 4.5)
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (59:20:20) bilayer at 298 K (Berger delivered by Peter Tieleman, GROMACS 4.5, 51 ns) [NMRlipids simulation 187]
   alternateName: 128POPC_44SOD_44CLA_7202SOL_298K_Berger
-  description: Equilibrated POPC lipid bilayer simulation ran with Gromacs 4.5, Berger force field delivered by Peter Tieleman (http://wcm.ucalgary.ca/tieleman/downloads), double bonds updated in http://dx.doi.org/10.1021/jp065424f, ffgmx parameters for ions, 50ns, T=298K, 128 POPC molecules, 7202 water molecules, 44 Na molecules, 44 Cl molecules. This data is used in the NMRLipids II project (nmrlipids.blospot.fi).
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 59 mol%), 44 CLA (20 mol%) and 44 SOD (20 mol%) at 298 K. Simulated with Berger delivered by Peter Tieleman in GROMACS 4.5 for 51 ns (28350 atoms). Deposited as NMRlipids Databank simulation 187 and available from https://doi.org/10.5281/zenodo.32144.
   sameAs: https://doi.org/10.5281/zenodo.32144
   datePublished: '2015-10-15'
   license:
@@ -96,8 +96,8 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  - SOD
   - CLA
+  - SOD
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -141,9 +141,16 @@ bioschema_properties:
     - run2.tpr
     - popcNACL.top
     - run.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.32144
+    identifier: 10.5281/zenodo.32144
+    url: https://doi.org/10.5281/zenodo.32144
+    name: Md Simulation Trajectory And Related Files For Popc Bilayer With 340Mm Nacl (Berger Model Delivered By Tieleman, Ffgmx Ions, Gromacs 4.5)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.32144
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

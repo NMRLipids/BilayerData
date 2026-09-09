@@ -55,9 +55,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 213
 bioschema_properties:
-  name: Md Simulation Trajectory Of A Popc Bilayer With 100Mm Cacl2, Berger Force Field For Lipids, Scaled Charges For Ca2+ And Cl-
+  name: Molecular dynamics trajectory of a POPC/CLA/CAL (84:11:5) bilayer at 310 K (Berger, GROMACS 4.5.5, 100 ns) [NMRlipids simulation 213]
   alternateName: 128POPC_4452SOL_8CAL_16CLA_310K_Berger
-  description: 'MD simulation trajectory of a POPC bilayer with 100 mM CaCl2 (128 POPC, 26 POPS, 4452 WAT, 8 Ca2+, 16 Cl-). Berger force field for lipids, scaled charges employed for calcium and chloride ions. Gromacs 4.5.5, T=310K, 200 ns trajectories were calculated with the last 100 ns stored here). Used in (see therein also a detailed description of ion scaling): A. Melcrova, S. Pokorna, S. Pullanchery, M. Kohagen, P. Jurkiewicz, M. Hof, P. Jungwirth, P. S. Cremer, L. Cwiklik, The complex nature of calcium cation interactions with phospholipid bilayers Scientific Reports 2016, 6, 38035. DOI: 10.1038/srep38035'
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 84 mol%), 16 CLA (11 mol%) and 8 CAL (5 mol%) at 310 K. Simulated with Berger in GROMACS 4.5.5 for 100 ns (20036 atoms). Deposited as NMRlipids Databank simulation 213 and available from https://doi.org/10.5281/zenodo.887351.
   sameAs: https://doi.org/10.5281/zenodo.887351
   datePublished: '2017-09-07'
   license:
@@ -98,8 +98,8 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  - CAL
   - CLA
+  - CAL
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -143,9 +143,16 @@ bioschema_properties:
     - topol.tpr
     - topol.top
     - conf.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.887351
+    identifier: 10.5281/zenodo.887351
+    url: https://doi.org/10.5281/zenodo.887351
+    name: Md Simulation Trajectory Of A Popc Bilayer With 100Mm Cacl2, Berger Force Field For Lipids, Scaled Charges For Ca2+ And Cl-
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.887351
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

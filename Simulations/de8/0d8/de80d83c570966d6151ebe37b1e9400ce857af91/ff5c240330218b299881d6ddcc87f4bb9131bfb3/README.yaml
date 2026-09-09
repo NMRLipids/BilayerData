@@ -52,9 +52,9 @@ EXPERIMENT:
   - 10.1039/C4SM00066H/3
 ID: 842
 bioschema_properties:
-  name: MD Simulation of POPS 144 144 Na contraions prosECCo75
+  name: Molecular dynamics trajectory of a POPS/SOD (50:50) bilayer at 298 K (PROSECCO, GROMACS, 500 ns) [NMRlipids simulation 842]
   alternateName: POPS_prosECCo
-  description: prosECCo 75 paper related data
+  description: Molecular dynamics trajectory of a lipid bilayer of 144 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 50 mol%) and 144 SOD (50 mol%) at 298 K. Simulated with PROSECCO in GROMACS for 500 ns (35712 atoms). Deposited as NMRlipids Databank simulation 842 and available from https://doi.org/10.5281/zenodo.10467181.
   sameAs: https://doi.org/10.5281/zenodo.10467181
   datePublished: '2024-01-07'
   license:
@@ -145,8 +145,15 @@ bioschema_properties:
   - experiments/FormFactors/10.1039/C4SM00066H/1
   - experiments/FormFactors/10.1039/C4SM00066H/2
   - experiments/FormFactors/10.1039/C4SM00066H/3
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.10467181
+    identifier: 10.5281/zenodo.10467181
+    url: https://doi.org/10.5281/zenodo.10467181
+    name: MD Simulation of POPS 144 144 Na contraions prosECCo75
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.10467181
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

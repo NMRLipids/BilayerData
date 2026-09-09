@@ -50,9 +50,9 @@ EXPERIMENT:
   - 10.1021/acs.jctc.3c00648/3
 ID: 695
 bioschema_properties:
-  name: Simulations of POPC/cholesterol mixtures at 298 K, three system sizes, MacRog
+  name: Molecular dynamics trajectory of a POPC/CHOL (89:11) bilayer at 298.15 K (MacRog, GROMACS 2021, 1001 ns) [NMRlipids simulation 695]
   alternateName: MacRog_POPC_CHOL11_M
-  description: GROMACS input and output files. Lipid model by Maciejewski and Rog ('MacRog'). Membranes with 64, 256, and 1024 lipids.
+  description: Molecular dynamics trajectory of a lipid bilayer of 256 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 89 mol%) and 32 CHOL (cholesterol, 11 mol%) at 298.15 K. Simulated with MacRog in GROMACS 2021 for 1001 ns (79872 atoms). Deposited as NMRlipids Databank simulation 695 and available from https://doi.org/10.5281/zenodo.7061800.
   sameAs: https://doi.org/10.5281/zenodo.7061800
   datePublished: '2022-09-08'
   license:
@@ -138,9 +138,16 @@ bioschema_properties:
     - CHOL4_medium.top
   isBasedOn:
   - experiments/FormFactors/10.1021/acs.jctc.3c00648/3
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.7061800
+    identifier: 10.5281/zenodo.7061800
+    url: https://doi.org/10.5281/zenodo.7061800
+    name: Simulations of POPC/cholesterol mixtures at 298 K, three system sizes, MacRog
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.7061800
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

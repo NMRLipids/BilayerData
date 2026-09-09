@@ -54,9 +54,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 336
 bioschema_properties:
-  name: Popc Bilayer With 50% Of Dihexadecyldimethylammonium Simulated At T313K With The Lipid14 Model Using Gromacs
+  name: Molecular dynamics trajectory of a CLA/DHMDMAB/POPC (33:33:33) bilayer at 313 K (Lipid14, GROMACS, 180 ns) [NMRlipids simulation 336]
   alternateName: 100POPC_100DHMDMAB_6214SOL_100CLA_313K
-  description: POPC bilayer with 50% of dihexadecyldimethylammonium simulated at T313K with the Lipid14 model using Gromacs. Last 180ns of 200ns long simulation. See also http://nmrlipids.blogspot.cz/2017/07/quantifying-effect-of-bound-charge-on.html and https://github.com/NMRLipids/MATCH/tree/master/Data/Lipid_Bilayers/POPC%2B50%25DHMDMAB/T313K/MODEL_LIPID14
+  description: Molecular dynamics trajectory of a lipid bilayer of 100 CLA (33 mol%), 100 DHMDMAB (dihexadecyldimethylammonium, 33 mol%) and 100 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 33 mol%) at 313 K. Simulated with Lipid14 in GROMACS for 180 ns (42842 atoms). Deposited as NMRlipids Databank simulation 336 and available from https://doi.org/10.5281/zenodo.1020689.
   sameAs: https://doi.org/10.5281/zenodo.1020689
   datePublished: '2017-10-18'
   license:
@@ -93,11 +93,11 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - POPC
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
   - DHMDMAB
   - dihexadecyldimethylammonium
-  - CLA
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -140,9 +140,16 @@ bioschema_properties:
     - trajectory.xtc
     - run.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1020689
+    identifier: 10.5281/zenodo.1020689
+    url: https://doi.org/10.5281/zenodo.1020689
+    name: Popc Bilayer With 50% Of Dihexadecyldimethylammonium Simulated At T313K With The Lipid14 Model Using Gromacs
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1020689
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

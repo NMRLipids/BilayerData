@@ -41,9 +41,9 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jpcb.0c03389/2
 bioschema_properties:
-  name: NAMD Trajectory of a Palmitoyl Sphingomyelin Bilayer
+  name: Molecular dynamics trajectory of a SM16 bilayer at 328.15 K (Charmm36, NAMD, 0 ns) [NMRlipids simulation 765]
   alternateName: PSM NAMD
-  description: All-atom PSM bilayer simulated in NPT ensemble with NAMD and the CHARMM36 force field from Doktorova et al. 2020 J. Phys. Chem. B. article (DOI 10.1021/acs.jpcb.0c03389). The trajectory represents the last 117 ns used for analysis where the area per lipid is equilibrated (the file has 5874 frames output every 20 ps). The bilayer has 200 lipids total (100 lipids per leaflet) and is hydrated with 45 waters/lipid. The simulation was done at 55C (328.15K) and the trajectory is centered on the bilayer midplane.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 SM16 (N-palmitoyl-D-erythro-sphingosylphosphorylcholine) at 328.15 K. Simulated with Charmm36 in NAMD for 0 ns (52400 atoms). Deposited as NMRlipids Databank simulation 765 and available from https://doi.org/10.5281/zenodo.8338253.
   sameAs: https://doi.org/10.5281/zenodo.8338253
   datePublished: '2023-09-12'
   license:
@@ -132,9 +132,16 @@ bioschema_properties:
   isBasedOn:
   - experiments/OrderParameters/10.1021/acs.jpcb.0c03389/3
   - experiments/FormFactors/10.1021/acs.jpcb.0c03389/2
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8338253
+    identifier: 10.5281/zenodo.8338253
+    url: https://doi.org/10.5281/zenodo.8338253
+    name: NAMD Trajectory of a Palmitoyl Sphingomyelin Bilayer
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.8338253
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

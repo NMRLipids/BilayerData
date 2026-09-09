@@ -49,9 +49,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 143
 bioschema_properties:
-  name: LIPID17 POPE Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K ) using dihedral 9
+  name: Molecular dynamics trajectory of a POPE/CLA/SOD (83:8:8) bilayer at 310 K (Lipid17, GROMACS 2020.1, 100 ns) [NMRlipids simulation 143]
   alternateName: 500POPE_50SOD_50CLA_25000SOL_310K
-  description: 'simulation of a POPE bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs v2020.1 in water solution with Na+ counterions and 150 mM of NaCl. The LIPID17 model (1), AMBER ff15ipq and TIP3P water model are employed. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top), simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided. ------- (1) Gould, I.R., Skjevik A.A., Dickson, C.J., Madej, B.D., Walker, R.C., "Lipid17: A Comprehensive AMBER Force Field for the Simulation of Zwitterionic and Anionic Lipids", 2018, in prep.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 500 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 83 mol%), 50 CLA (8 mol%) and 50 SOD (8 mol%) at 310 K. Simulated with Lipid17 in GROMACS 2020.1 for 100 ns (137600 atoms). Deposited as NMRlipids Databank simulation 143 and available from https://doi.org/10.5281/zenodo.4424934.
   sameAs: https://doi.org/10.5281/zenodo.4424934
   datePublished: '2019-02-25'
   license:
@@ -91,8 +91,8 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPE
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
-  - SOD
   - CLA
+  - SOD
   - LIPID17
   measurementTechnique:
   - '@type': DefinedTerm
@@ -136,9 +136,16 @@ bioschema_properties:
     - md_400_500.xtc
     - md.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.4424934
+    identifier: 10.5281/zenodo.4424934
+    url: https://doi.org/10.5281/zenodo.4424934
+    name: LIPID17 POPE Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K ) using dihedral 9
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.4424934
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

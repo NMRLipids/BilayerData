@@ -57,9 +57,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 354
 bioschema_properties:
-  name: MD simulation trajectory and related files for POPC bilayer with 30 mol% of deprotonated pazePC (Berger, Gromacs 4.5.)
+  name: Molecular dynamics trajectory of a POPC/PAzePCdeprot/POT (54:23:23) bilayer at 298 K (Berger, GROMACS 4.5, 60 ns) [NMRlipids simulation 354]
   alternateName: 90POPC_38PAzePCdeprot_7250SOL_38POT_298K
-  description: Simulation trajectory and related files for POPC bilayer with 30mol% of pazePC in deprotonated form used in "Acyl chain disorder and azelaoyl orientation in lipid membranes containing oxidised lipids" by T. M. Ferreira, et al., https://doi.org/10.1021/acs.langmuir.6b00788. 90 POPC, 38 pazePC, 7250 water and 38 potassium molecules. Simulation time 120ns. Force field for POPC is based on Berger model and force field for pazePC is from H. Khandelia and O. G. Mouritsen, Biophysical Journal, 2009, 96(7), 2734 – 2743, http://dx.doi.org/10.1016/j.bpj.2009.01.007. If used, please cite approriate publications.
+  description: Molecular dynamics trajectory of a lipid bilayer of 90 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 54 mol%), 38 PAzePCdeprot (1-palmitoyl-2-azelaoyl-sn-glycero-3-phosphocholine deprotonated, 23 mol%) and 38 POT (23 mol%) at 298 K. Simulated with Berger in GROMACS 4.5 for 60 ns (28178 atoms). Deposited as NMRlipids Databank simulation 354 and available from https://doi.org/10.5281/zenodo.44622.
   sameAs: https://doi.org/10.5281/zenodo.44622
   datePublished: '2016-01-12'
   license:
@@ -147,9 +147,16 @@ bioschema_properties:
     - pzpcRUN2.tpr
     - pzpc.top
     - pzpcRUN2.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.44622
+    identifier: 10.5281/zenodo.44622
+    url: https://doi.org/10.5281/zenodo.44622
+    name: MD simulation trajectory and related files for POPC bilayer with 30 mol% of deprotonated pazePC (Berger, Gromacs 4.5.)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.44622
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -61,9 +61,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 600
 bioschema_properties:
-  name: PC/PS 5:1 bilayer, Na contraions, additional CaCl_2, CHARMM36 FF, NBFIX-Han
+  name: Molecular dynamics trajectory of a POPC/CLA/POPS/SOD/CAL (58:13:12:12:6) bilayer at 320 K (CHARMM36 with NBFIX for calcium ions, GROMACS 2018.6, 434 ns) [NMRlipids simulation 600]
   alternateName: 250POPC_50POPS_11190SOL_50SOD_28CAL_56CLA_320K
-  description: Systems of 250 POPC and 50 POPS lipids in water solutions with 50 sodium contra ions and 0, 140, 940 mM additional calcium chloride. Simulations were run with CHARMM36 force field with NBFIX for calcium ions (http://dx.doi.org/10.1021/acs.jpcb.7b10730). 320K, 1bar. Gromacs version 2018.6
+  description: Molecular dynamics trajectory of a lipid bilayer of 250 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 58 mol%), 56 CLA (13 mol%), 50 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 12 mol%), 50 SOD (12 mol%) and 28 CAL (6 mol%) at 320 K. Simulated with CHARMM36 with NBFIX for calcium ions in GROMACS 2018.6 for 434 ns (73554 atoms). Deposited as NMRlipids Databank simulation 600 and available from https://doi.org/10.5281/zenodo.3371327.
   sameAs: https://doi.org/10.5281/zenodo.3371327
   datePublished: '2019-08-19'
   license:
@@ -100,13 +100,13 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - CLA
-  - CAL
-  - SOD
-  - POPS
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  - SOD
+  - CAL
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -149,9 +149,16 @@ bioschema_properties:
     - popc_pops_250_50_contra_sodium_150mM_CaCl_nbfix_han.xtc
     - popc_pops_250_50_contra_sodium_150mM_CaCl_nbfix_han.tpr
     - popc_pops_250_50_contra_sodium_150mM_CaCl_nbfix_han.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3371327
+    identifier: 10.5281/zenodo.3371327
+    url: https://doi.org/10.5281/zenodo.3371327
+    name: PC/PS 5:1 bilayer, Na contraions, additional CaCl_2, CHARMM36 FF, NBFIX-Han
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3371327
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

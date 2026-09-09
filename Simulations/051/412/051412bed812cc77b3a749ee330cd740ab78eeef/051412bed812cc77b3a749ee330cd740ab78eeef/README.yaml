@@ -49,9 +49,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 451
 bioschema_properties:
-  name: Popc/Cholesterol (50:50) Lipid Membrane, 303K, Charmm36 Force Field From Charmm-Gui, Simulation Files And 100 Ns Trajectory For Openmm Simulation Engine V7
+  name: Molecular dynamics trajectory of a CHOL/POPC (50:50) bilayer at 303 K (CHARMM36, OPENMM v7, 100 ns) [NMRlipids simulation 451]
   alternateName: 80POPC_80CHOL_7200SOL_303K
-  description: 'The starting structure was obtained from CHARMM-GUI Membrane Builder v1.7 (http://www.charmm-gui.org/) online tool. [1] All runs were performed with openMM simulation engine v7 and CHARMM36 additive force field parameters obtained from CHARMM-GUI input files [1]. Conditions: T=303, 80 POPC and 80 Cholesterol molecules, 7200 tip3p waters, 100ns trajectory (preceded with equilibration) These data were originally obtained for the nmrlipids.blospot.fi project. Find more details at nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi [1] CHARMM-GUI Input Generator for NAMD, GROMACS, AMBER, OpenMM, and CHARMM/OpenMM Simulations Using the CHARMM36 Additive Force Field, J. Lee et al. , JCTC, DOI: 10.1021/acs.jctc.5b00935'
+  description: Molecular dynamics trajectory of a lipid bilayer of 80 CHOL (cholesterol, 50 mol%) and 80 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) at 303 K. Simulated with CHARMM36 in OPENMM v7 for 100 ns (38240 atoms). Deposited as NMRlipids Databank simulation 451 and available from https://doi.org/10.5281/zenodo.163345.
   sameAs: https://doi.org/10.5281/zenodo.163345
   datePublished: '2016-10-26'
   license:
@@ -88,10 +88,10 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - POPC
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - CHOL
   - cholesterol
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -134,9 +134,16 @@ bioschema_properties:
     - step8_1.dcd
     - step5_charmm2omm.psf
     - step5_charmm2omm.pdb
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.163345
+    identifier: 10.5281/zenodo.163345
+    url: https://doi.org/10.5281/zenodo.163345
+    name: Popc/Cholesterol (50:50) Lipid Membrane, 303K, Charmm36 Force Field From Charmm-Gui, Simulation Files And 100 Ns Trajectory For Openmm Simulation Engine V7
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.163345
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

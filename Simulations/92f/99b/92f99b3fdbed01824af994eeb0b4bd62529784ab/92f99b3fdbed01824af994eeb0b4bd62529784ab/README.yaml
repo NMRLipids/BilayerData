@@ -37,9 +37,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 746
 bioschema_properties:
-  name: MD Simulation data for a pure POPE bilayer with AMOEBA force field + OpenMM
+  name: Molecular dynamics trajectory of a POPE bilayer at 303 K (AMOEBA, OPENMM v7.5.1, 306 ns) [NMRlipids simulation 746]
   alternateName: POPE_nosalt_at_303K_with_AMOEBA
-  description: 'MD simulation data for the POPE bilayer with the AMOEBA-based force field developed by Li (https://doi.org/10.1080/00268976.2018.1436201). The simulation contains 72 POPE lipids and 2880 water molecules. The trajectory is 305,94 ns long (30594 frames with 10 ps saving frequency). It has been discovered that (https://github.com/NMRLipids/Databank/issues/2#issuecomment-1357871243) the openmm_combined.dcd trajectory did not have the correct timestamp: the timestep between two consecutive simulation frames was not correctly embedded into the trajectory information. Therefore, with the latest version we are uploading the "wrapped_full.xtc" which has the correct timestamp. The frame saving frequency in this trajectory is 10 ps. The correction to the timestamp was done via MDAnalysis. This new update should not invalidate any previous calculations that did not explicitly read the timestamp information from the trajectory.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 303 K. Simulated with AMOEBA in OPENMM v7.5.1 for 306 ns (17640 atoms). Deposited as NMRlipids Databank simulation 746 and available from https://doi.org/10.5281/zenodo.7622838.
   sameAs: https://doi.org/10.5281/zenodo.7622838
   datePublished: '2023-02-08'
   license:
@@ -120,9 +120,16 @@ bioschema_properties:
     hasPart:
     - wrapped_full.xtc
     - pope_charmm_last_frame.pdb
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.7622838
+    identifier: 10.5281/zenodo.7622838
+    url: https://doi.org/10.5281/zenodo.7622838
+    name: MD Simulation data for a pure POPE bilayer with AMOEBA force field + OpenMM
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.7622838
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

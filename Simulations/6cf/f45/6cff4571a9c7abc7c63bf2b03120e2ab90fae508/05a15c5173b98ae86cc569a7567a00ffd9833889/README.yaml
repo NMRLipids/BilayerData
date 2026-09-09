@@ -88,9 +88,9 @@ EXPERIMENT:
     GM1: []
   FORMFACTOR: []
 bioschema_properties:
-  name: MD simulation trajectory for Heterogenous lipid bilayer with 150mM CaCl2 concentration
+  name: Molecular dynamics trajectory of a POPC/CLA/POPE/CHOL/CAL/SM16/POPS/GM1 (26:19:16:14:13:6:3:3) bilayer at 300 K (Charmm36, GROMACS 2020.4, 300 ns) [NMRlipids simulation 768]
   alternateName: POPC_POPE_POPS_SM_CHOL_GM1_CaCl2
-  description: Equilibrated symmetric heterogenous lipid bilayer simulation ran with Gromacs 2020.4, Force field= Charmm36m, 300ns, T=300K, composed of 152 POPC, 96 POPE, 20 POPS, 80 CHOL, 36 PSM, and 16 GM1 molecules, 73 Ca2+, 110 Cl2- , 18915 water (TIP3P) molecules.
+  description: Molecular dynamics trajectory of a lipid bilayer of 152 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 26 mol%), 110 CLA (19 mol%), 96 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 16 mol%), 80 CHOL (cholesterol, 14 mol%), 73 CAL (13 mol%), 36 SM16 (N-palmitoyl-D-erythro-sphingosylphosphorylcholine, 6 mol%), 20 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 3 mol%) and 16 GM1 (GM1(d18:1/16:0), 3 mol%) at 300 K. Simulated with Charmm36 in GROMACS 2020.4 for 300 ns (106024 atoms). Deposited as NMRlipids Databank simulation 768 and available from https://doi.org/10.5281/zenodo.8331805.
   sameAs: https://doi.org/10.5281/zenodo.8331805
   datePublished: '2023-09-10'
   license:
@@ -128,18 +128,18 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - POPE
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  - POPS
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  - CLA
+  - POPE
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
   - CHOL
   - cholesterol
+  - CAL
   - SM16
   - N-palmitoyl-D-erythro-sphingosylphosphorylcholine
-  - CAL
-  - CLA
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
   - GM1
   - GM1(d18:1/16:0)
   measurementTechnique:
@@ -180,9 +180,16 @@ bioschema_properties:
     - step7_1.trr
     - step7_1.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8331805
+    identifier: 10.5281/zenodo.8331805
+    url: https://doi.org/10.5281/zenodo.8331805
+    name: MD simulation trajectory for Heterogenous lipid bilayer with 150mM CaCl2 concentration
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.8331805
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

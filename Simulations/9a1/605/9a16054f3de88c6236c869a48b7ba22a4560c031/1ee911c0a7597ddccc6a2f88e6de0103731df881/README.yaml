@@ -54,9 +54,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 15
 bioschema_properties:
-  name: MD simulation trajectory and related files for POPC/cholesterol (60 mol%) bilayer (Berger model delivered by Tieleman, modified Höltje, Gromacs 4.5)
+  name: Molecular dynamics trajectory of a CHOL/POPC (61:39) bilayer at 298 K (Berger and Modified Höltje model for cholesterol, GROMACS 4.5, 50 ns) [NMRlipids simulation 15]
   alternateName: 78CHOL_50POPC_5782SOL_298K_Berger
-  description: Equilibrated POPC lipid bilayer simulation ran with Gromacs 4.5, Berger force field delivered by Peter Tieleman (http://wcm.ucalgary.ca/tieleman/downloads), Modified Höltje model for cholesterol (http://dx.doi.org/10.1016/S0005-2736(01)00270-X), 50ns, T=298K, 50 POPC molecules, 5782 water molecules, 78 cholesterol molecules. This data is used in http://dx.doi.org/10.1039/C2CP42738A and in the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi. If data is used, please cite [Ferreira et al. Phys. Chem. Chem. Phys. , 2013,15, 1976-1989], the nmrlipids.blogspot.fi project and the original publication related to the force field.
+  description: Molecular dynamics trajectory of a lipid bilayer of 78 CHOL (cholesterol, 61 mol%) and 50 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 39 mol%) at 298 K. Simulated with Berger and Modified Höltje model for cholesterol in GROMACS 4.5 for 50 ns (22208 atoms). Deposited as NMRlipids Databank simulation 15 and available from https://doi.org/10.5281/zenodo.4644028.
   sameAs: https://doi.org/10.5281/zenodo.4644028
   datePublished: '2014-12-17'
   license:
@@ -97,10 +97,10 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - POPC
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - CHOL
   - cholesterol
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -146,9 +146,16 @@ bioschema_properties:
     - endCONF.gro
   isBasedOn:
   - experiments/OrderParameters/10.1039/c2cp42738a/6
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.4644028
+    identifier: 10.5281/zenodo.4644028
+    url: https://doi.org/10.5281/zenodo.4644028
+    name: MD simulation trajectory and related files for POPC/cholesterol (60 mol%) bilayer (Berger model delivered by Tieleman, modified Höltje, Gromacs 4.5)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.4644028
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

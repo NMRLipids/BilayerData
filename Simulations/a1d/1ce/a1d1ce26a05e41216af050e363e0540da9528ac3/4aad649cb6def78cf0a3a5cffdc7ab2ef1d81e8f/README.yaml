@@ -49,9 +49,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 274
 bioschema_properties:
-  name: Popc With Varying Amounts Of Cholesterol, 130 Mm Of Nacl. Slipids With Ions By Smith &amp; Dang
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (83:9:9) bilayer at 350 K (Slipids for lipids and Smith & Dang for ions, GROMACS 4.6, 200 ns) [NMRlipids simulation 274]
   alternateName: 200POPC_9000SOL_21SOD_21CLA_350K
-  description: 'Simulations of a POPC bilayer with varying amounts (0, 10, 20, and 30 mol-%) of cholesterol and 130 mM of NaCl performed at 310 K. The POPC bilayer consists of 200 lipids (100 per leaflet) and on top of that there is 0 (0%), 22 (10%), 50 (20%), or 86 (30%) of cholesterol. Additionally, simulations with 0% cholesterol are repeated at 330 K, 350 K, and 370 K. The Slipids model [1–3] is employed for lipids, tip3p model for water, and the ion parameters by Smith and Dang [4] for NaCl. The Slipids force field parameters are available at http://www.fos.su.se/~sasha/SLipids/ and the ion parameters are available at https://bitbucket.org/hseara/ions/ –––––––––––––––––––––––––––––––––––––––––––––––––––––– The files are in GROMACS format and named based on the amount of cholesterol present (in %) in the corresponding simulation. Trajectories (.xtc) are 200 ns long with data saved every 100 ps. Additionally, the final structure (.gro), topology (.top), index file (.ndx), energy output file (.edr), and binary run input files (for Gromacs 4.6->) (.tpr) are provided for each system. The common simulation parameter file can be downloaded from another entry at https://doi.org/10.5281/zenodo.259341. –––––––––––––––––––––––––––––––––––––––––––––––––––––– [1] Derivation and Systematic Validation of a Refined All-Atom Force Field for Phosphatidylcholine Lipids. Joakim P. M. Jämbeck and Alexander P. Lyubartsev, The Journal of Physical Chemistry B 2012 116 (10), 3164-3179, DOI: 10.1021/jp212503e [2] An Extension and Further Validation of an All-Atomistic Force Field for Biological Membranes. Joakim P. M. Jämbeck and Alexander P. Lyubartsev, Journal of Chemical Theory and Computation 2012 8 (8), 2938-2948, DOI: 10.1021/ct300342n [3] Another Piece of the Membrane Puzzle: Extending Slipids Further. Joakim P. M. Jämbeck and Alexander P. Lyubartsev, Journal of Chemical Theory and Computation 2013 9 (1), 774-784, DOI: 10.1021/ct300777p [4] Computer simulations of NaCl association in polarizable water. David E. Smith and Liem X. Dang, The Journal of Chemical Physics 1994 100, 3757-3766, DOI: 10.1063/1.466363'
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 83 mol%), 21 CLA (9 mol%) and 21 SOD (9 mol%) at 350 K. Simulated with Slipids for lipids and Smith & Dang for ions in GROMACS 4.6 for 200 ns (53842 atoms). Deposited as NMRlipids Databank simulation 274 and available from https://doi.org/10.5281/zenodo.259335.
   sameAs: https://doi.org/10.5281/zenodo.259335
   datePublished: '2017-01-24'
   license:
@@ -90,8 +90,8 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  - SOD
   - CLA
+  - SOD
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -134,9 +134,16 @@ bioschema_properties:
     - md0_350.xtc
     - md0_350.tpr
     - md0_350.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.259335
+    identifier: 10.5281/zenodo.259335
+    url: https://doi.org/10.5281/zenodo.259335
+    name: Popc With Varying Amounts Of Cholesterol, 130 Mm Of Nacl. Slipids With Ions By Smith & Dang
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.259335
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

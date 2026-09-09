@@ -51,9 +51,9 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 24
 bioschema_properties:
-  name: Dppc_512_Nacl_150Mm_320K
+  name: Molecular dynamics trajectory of a DPPC/CLA/SOD (82:9:9) bilayer at 320 K (CHARMM36, GROMACS 5.0.4, 300 ns) [NMRlipids simulation 24]
   alternateName: 512DPPC_20480SOL_55SOD_55CLA_320K
-  description: 'System description ------------------- - Title: Simulation DPPC_512_NaCl_150mM_320K bilayer - MD engine: gromacs 5.0.4 - Force field: charmm36 - Temperature: 320K - Simulation time: 700ns - Saving frequency: 100ps - Molecular content: DPPC 512 water 20480 Cl- 55 Na+ 55 - Other information: * Center of mass motion removed independently for bilayer and water+ions'
+  description: Molecular dynamics trajectory of a lipid bilayer of 512 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine, 82 mol%), 55 CLA (9 mol%) and 55 SOD (9 mol%) at 320 K. Simulated with CHARMM36 in GROMACS 5.0.4 for 300 ns (128110 atoms). Deposited as NMRlipids Databank simulation 24 and available from https://doi.org/10.5281/zenodo.16258.
   sameAs: https://doi.org/10.5281/zenodo.16258
   datePublished: '2015-03-21'
   license:
@@ -95,8 +95,8 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - DPPC
   - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
-  - SOD
   - CLA
+  - SOD
   - Molecular Mechanics
   - Membrane
   - Bilayer
@@ -143,9 +143,16 @@ bioschema_properties:
     - DPPC_512_NaCl_150mM_320K_md_part1.xtc
     - DPPC_512_NaCl_150mM_320K_md.tpr
     - DPPC_512_NaCl_150mM_320K_md.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.16258
+    identifier: 10.5281/zenodo.16258
+    url: https://doi.org/10.5281/zenodo.16258
+    name: Dppc_512_Nacl_150Mm_320K
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.16258
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

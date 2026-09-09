@@ -61,9 +61,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 177
 bioschema_properties:
-  name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS with the lipid17 force field, only counterions, and CaCl2 concentrations
+  name: Molecular dynamics trajectory of a POPC/CLA/CAL/POPS/SOD (49:21:11:10:10) bilayer at 298 K (Lipid17 and Dang ions, GROMACS 2018.0, 975 ns) [NMRlipids simulation 177]
   alternateName: 60POPC_12POPS_3561SOL_13CAL_26CLA_12SOD_298K
-  description: Classical molecular dynamics simulations of various mixtures of POPC:POPS lipid bilayers in water solution at various NaCl, KCl and CaCl2 concentrations, with Na+ counterions (and K+ counterions when noted with "_KCl" suffix). Lipid17 force field parameters used for lipids, TIP3p water model and Dang ions. The file names report the number of additional cations. simulations performed with Gromacs 2018.0 (*.xtc files) simulation length 1000 ns = 1 microsecond temperature 298 K Gromacs simulation setting is in the file npt_lipid_bilayer.mdp
+  description: Molecular dynamics trajectory of a lipid bilayer of 60 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 49 mol%), 26 CLA (21 mol%), 13 CAL (11 mol%), 12 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 10 mol%) and 12 SOD (10 mol%) at 298 K. Simulated with Lipid17 and Dang ions in GROMACS 2018.0 for 975 ns (20298 atoms). Deposited as NMRlipids Databank simulation 177 and available from https://doi.org/10.5281/zenodo.1487761.
   sameAs: https://doi.org/10.5281/zenodo.1487761
   datePublished: '2018-11-14'
   license:
@@ -103,10 +103,10 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - CAL
   - POPS
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
-  - CAL
-  - CLA
   - SOD
   measurementTechnique:
   - '@type': DefinedTerm
@@ -150,9 +150,16 @@ bioschema_properties:
     - lipid17_5PC-1PS-mix_13CaCl2_298K.xtc
     - lipid17_5PC-1PS-mix_13CaCl2_298K.tpr
     - lipid17_5PC-1PS-mix_13CaCl2_298K.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1487761
+    identifier: 10.5281/zenodo.1487761
+    url: https://doi.org/10.5281/zenodo.1487761
+    name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS with the lipid17 force field, only counterions, and CaCl2 concentrations
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1487761
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

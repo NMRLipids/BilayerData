@@ -42,9 +42,9 @@ EXPERIMENT:
     DPPE: []
   FORMFACTOR: []
 bioschema_properties:
-  name: CHARMM36 DPPE bilayer freezes at 342 K
+  name: Molecular dynamics trajectory of a DPPE bilayer at 342 K (CHARMM36, GROMACS 2023.3, 100 ns) [NMRlipids simulation 846]
   alternateName: DPPE in TIP3(Water) at 342K
-  description: This dataset contains MD simulation data of a system of a total of 34 DPPE (1,2-dipalmitoyl-sn-glycero-3-phosphoethanolamine) lipids in a bilayer (17 lipids per leaflet) using the CHARMM36 force field at 342 K. In addition to the lipid molecules, the system contains 1335 molecules of Charmm TIP3P water (39.3 waters / lipid). GROMACS version 2023.3 was used. Although the temperature is 7 degrees above the main transition temperature of DPPE (Tm = 335 K), the lipids are observed to enter the gel phase after roughly 30 ns of simulation. This is illustrated by the drop in area per lipid (see APL_vs_time.png), as well as the snapshots saved every 10 ns from the beginning (DPPE_342K_0ns.gro) to 100 ns (DPPE_342K_100ns.gro). The equilibrated trajectory file (DPPE_342K_100-200ns.xtc) covers the last 100 ns of the 200-ns trajectory, with coordinates saved every 15 ps.
+  description: Molecular dynamics trajectory of a lipid bilayer of 34 DPPE (1,2-dipalmitoyl-sn-glycero-3-phosphoethanolamine) at 342 K. Simulated with CHARMM36 in GROMACS 2023.3 for 100 ns (8119 atoms). Deposited as NMRlipids Databank simulation 846 and available from https://doi.org/10.5281/zenodo.15662847.
   sameAs: https://doi.org/10.5281/zenodo.15662847
   datePublished: '2025-11-01'
   license:
@@ -138,8 +138,15 @@ bioschema_properties:
     - DPPE_342K.tpr
     - topol.top
     - DPPE_342K_200ns.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.15662847
+    identifier: 10.5281/zenodo.15662847
+    url: https://doi.org/10.5281/zenodo.15662847
+    name: CHARMM36 DPPE bilayer freezes at 342 K
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.15662847
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

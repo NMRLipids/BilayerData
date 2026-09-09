@@ -50,9 +50,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 84
 bioschema_properties:
-  name: Popc_Amber_Lipid14_Cacl2_1Mol
+  name: Molecular dynamics trajectory of a CLA/POPC/CAL (47:30:23) bilayer at 298.15 K (Lipid14 for lipids and AMBER99SB-ILDN for ions, GROMACS 5.0.3, 100 ns) [NMRlipids simulation 84]
   alternateName: 128POPC_6400SOL_100CAL_200CLA_298K
-  description: 'MD simulation trajectory and related files for fully hydrated POPC bilayer with 1M CaCl2. The LIPID14 force field was used with Gromacs 5.0.3. Ions were described by AMBER99SB-ILDN force field. Conditions: T=298.15, 128 POPC molecules, 6400 tip3p waters (lipid/water 1:50), 100 Ca, 200 Cl. 200ns trajectory (preceded by 5ns NPT equillibration) (2 files of 100ns).'
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 CLA (47 mol%), 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 30 mol%) and 100 CAL (23 mol%) at 298.15 K. Simulated with Lipid14 for lipids and AMBER99SB-ILDN for ions in GROMACS 5.0.3 for 100 ns (36652 atoms). Deposited as NMRlipids Databank simulation 84 and available from https://doi.org/10.5281/zenodo.35074.
   sameAs: https://doi.org/10.5281/zenodo.35074
   datePublished: '2015-12-09'
   license:
@@ -90,10 +90,10 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
+  - CLA
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - CAL
-  - CLA
   - LIPID14
   - Gromacs
   measurementTechnique:
@@ -138,9 +138,16 @@ bioschema_properties:
     - 1M_CaCl2_POPC_AMB_100_200ns.xtc
     - 1M_CaCl2_POPC_AMB.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.35074
+    identifier: 10.5281/zenodo.35074
+    url: https://doi.org/10.5281/zenodo.35074
+    name: Popc_Amber_Lipid14_Cacl2_1Mol
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.35074
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

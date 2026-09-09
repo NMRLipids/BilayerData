@@ -49,9 +49,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 168
 bioschema_properties:
-  name: Popc/Cholesterol (70:30) Lipid Membrane, 303K, Charmm36 Force Field, Simulation Files And 100 Ns Trajectory For Openmm Simulation Engine V7
+  name: Molecular dynamics trajectory of a POPC/CHOL (70:30) bilayer at 303 K (CHARMM36, OPENMM v7, 100 ns) [NMRlipids simulation 168]
   alternateName: 84POPC_36CHOL_4800SOL_303K
-  description: 'The starting structure was obtained from CHARMM-GUI Membrane Builder v1.7 (http://www.charmm-gui.org/) online tool. [1] All runs were performed with openMM simulation engine v7 and CHARMM36 additive force field parameters obtained from CHARMM-GUI input files [1]. Conditions: T=303, 84 POPC and 36 Cholesterol molecules, 4800 tip3p waters, 100ns trajectory (preceded with equilibration). These data were originally obtained for the nmrlipids.blospot.fi project. Find more details at nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi [1] CHARMM-GUI Input Generator for NAMD, GROMACS, AMBER, OpenMM, and CHARMM/OpenMM Simulations Using the CHARMM36 Additive Force Field, J. Lee et al. , JCTC, DOI: 10.1021/acs.jctc.5b00935'
+  description: Molecular dynamics trajectory of a lipid bilayer of 84 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 70 mol%) and 36 CHOL (cholesterol, 30 mol%) at 303 K. Simulated with CHARMM36 in OPENMM v7 for 100 ns (28320 atoms). Deposited as NMRlipids Databank simulation 168 and available from https://doi.org/10.5281/zenodo.163333.
   sameAs: https://doi.org/10.5281/zenodo.163333
   datePublished: '2016-10-26'
   license:
@@ -133,9 +133,16 @@ bioschema_properties:
     hasPart:
     - step8_1.dcd
     - step5_charmm2omm.pdb
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.163333
+    identifier: 10.5281/zenodo.163333
+    url: https://doi.org/10.5281/zenodo.163333
+    name: Popc/Cholesterol (70:30) Lipid Membrane, 303K, Charmm36 Force Field, Simulation Files And 100 Ns Trajectory For Openmm Simulation Engine V7
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.163333
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

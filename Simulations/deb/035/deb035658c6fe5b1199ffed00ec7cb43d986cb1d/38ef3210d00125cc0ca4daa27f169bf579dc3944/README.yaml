@@ -52,9 +52,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 290
 bioschema_properties:
-  name: Berger Popc/Pope (50:50 Ratio) Md Simulation (300 K - 400Ns - 1 Bar)
+  name: Molecular dynamics trajectory of a POPC/POPE (50:50) bilayer at 300 K (Berger (modified to add a repulsive potential onto the ethanolamine hydrogens), GROMACS, 400 ns) [NMRlipids simulation 290]
   alternateName: 128POPC_128POPE_11096SOL_300K_Berger
-  description: Berger POPC/POPE (50:50 ratio) bilayer simulation (300 K, with 128 POPC and 128 POPE lipids fully hydrated with 43 water molecules per lipid). The trajectory contains the whole simulation from 0 to 400 ns skipped every 100 ps and centered on the P atoms. No ions were added as there is no global net charge in the system. This bilayer was used to calculate the order parameter and the area per lipid for the NMRlipids IV project (on the time window 100-300 ns). It should be noted that for this specific simulation, using PE lipids, the Berger forcefield was modified to add a repulsive potential onto the ethanolamine hydrogens.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) and 128 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 50 mol%) at 300 K. Simulated with Berger (modified to add a repulsive potential onto the ethanolamine hydrogens) in GROMACS for 400 ns (46600 atoms). Deposited as NMRlipids Databank simulation 290 and available from https://doi.org/10.5281/zenodo.1402449.
   sameAs: https://doi.org/10.5281/zenodo.1402449
   datePublished: '2018-08-23'
   license:
@@ -138,9 +138,16 @@ bioschema_properties:
     - md_dt100_OK_centered.xtc
     - md.tpr
     - start.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1402449
+    identifier: 10.5281/zenodo.1402449
+    url: https://doi.org/10.5281/zenodo.1402449
+    name: Berger Popc/Pope (50:50 Ratio) Md Simulation (300 K - 400Ns - 1 Bar)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1402449
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

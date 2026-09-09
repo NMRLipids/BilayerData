@@ -71,9 +71,9 @@ EXPERIMENT:
     POPE: []
   FORMFACTOR: []
 bioschema_properties:
-  name: Simulation of model mitochondrial membrane where TLCL is divided into TLPA+PG (CHARMM36)
+  name: Molecular dynamics trajectory of a POT/SAPC/POPE/DLIPA/DLIPG/CLA (30:23:18:10:10:9) bilayer at 310 K (CHARMM36, GROMACS 2024, 1000 ns) [NMRlipids simulation 840]
   alternateName: IMM_TLCL_divided_PA_PG_310K
-  description: MD simulation trajectories of model internal mitochondrial membrane (IMM) consisted of 45% PC (18:0, 20:4),SAPC, 35% PE (16:0, 18:1), POPE, and 20% CL (18:2), TLCL after complete separation of TLCL onto TLPA(-1) and TLPG(-1). The simulations are conducted in NPT ensemble at 310K in CHARMM36 force field using GROMACS v.2023+. High-temperature trajectory of 100 ns was taken as initial states (from timesteps 0, 50, 100 ns) for three deposited 1-us replicas. Writing frequency is 20 ps. Part of the bachelor project "Kardiolipin sin effekt på membranfluiditet" (in Norwegian) of Olivia Lykke Nygaard uploaded and referenced below.
+  description: Molecular dynamics trajectory of a lipid bilayer of 117 POT (30 mol%), 90 SAPC (1-stearoyl-2-arachidonoyl-sn-glycero-3-phosphocholine, 23 mol%), 70 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 18 mol%), 40 DLIPA (1,2-dilinoleoyl-sn-glycero-3-phosphate, 10 mol%), 40 DLIPG (1,2-dilinoleoyl-sn-glycero-3-phosphoglycerol, 10 mol%) and 37 CLA (9 mol%) at 310 K. Simulated with CHARMM36 in GROMACS 2024 for 1000 ns (73866 atoms). Deposited as NMRlipids Databank simulation 840 and available from https://doi.org/10.5281/zenodo.16813252.
   sameAs: https://doi.org/10.5281/zenodo.16813252
   datePublished: '2025-08-12'
   license:
@@ -115,15 +115,15 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - DLIPG
-  - 1,2-dilinoleoyl-sn-glycero-3-phosphoglycerol
-  - DLIPA
-  - 1,2-dilinoleoyl-sn-glycero-3-phosphate
+  - POT
   - SAPC
   - 1-stearoyl-2-arachidonoyl-sn-glycero-3-phosphocholine
   - POPE
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
-  - POT
+  - DLIPA
+  - 1,2-dilinoleoyl-sn-glycero-3-phosphate
+  - DLIPG
+  - 1,2-dilinoleoyl-sn-glycero-3-phosphoglycerol
   - CLA
   - Cardiolipins
   - Cardiolipins/ultrastructure
@@ -173,8 +173,15 @@ bioschema_properties:
     - dump100.tpr
     - topol.top
     - dump100.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.16813252
+    identifier: 10.5281/zenodo.16813252
+    url: https://doi.org/10.5281/zenodo.16813252
+    name: Simulation of model mitochondrial membrane where TLCL is divided into TLPA+PG (CHARMM36)
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.16813252
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

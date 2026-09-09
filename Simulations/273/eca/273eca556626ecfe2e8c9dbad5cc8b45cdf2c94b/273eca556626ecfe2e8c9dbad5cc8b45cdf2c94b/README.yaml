@@ -48,9 +48,9 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 bioschema_properties:
-  name: Pure POPC membrane simulations with 350 mM NaCl with the CHARMM-Drude2023 force field (OpenMM)
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (61:20:20) bilayer at 303 K (Charmm-Drude polarizable2023, OPENMM, 224 ns) [NMRlipids simulation 758]
   alternateName: POPC_350_NaCl_CHARMMdrude2023_303K
-  description: '223.97 ns MD simulation of pure POPC membrane using Charmm-Drude2023 polarizable force field ( Drude Polarizable Lipid Force Field with Explicit Treatment of LongRange Dispersion: Parametrization and Validation for Saturated and Monounsaturated Zwitterionic Lipids ) .The system contains 128 POPC lipids, 41 NaCl, and 6400 SWM4 water molecules. Before running the Drude simulation, the system has been equilibriated using Charmm36 force field for 200 ns. The last frame of that simulation was used to generate Drude polarizable model. Frame saving frequency is 10ps. There are 22397 frames in this trajectory.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 61 mol%), 41 CLA (20 mol%) and 41 SOD (20 mol%) at 303 K. Simulated with Charmm-Drude polarizable2023 in OPENMM for 224 ns (56996 atoms). Deposited as NMRlipids Databank simulation 758 and available from https://doi.org/10.5281/zenodo.8000095.
   sameAs: https://doi.org/10.5281/zenodo.8000095
   datePublished: '2023-06-02'
   license:
@@ -90,8 +90,8 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  - SOD
   - CLA
+  - SOD
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -129,9 +129,16 @@ bioschema_properties:
     hasPart:
     - traj.xtc
     - step2_drude.psf
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8000095
+    identifier: 10.5281/zenodo.8000095
+    url: https://doi.org/10.5281/zenodo.8000095
+    name: Pure POPC membrane simulations with 350 mM NaCl with the CHARMM-Drude2023 force field (OpenMM)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.8000095
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

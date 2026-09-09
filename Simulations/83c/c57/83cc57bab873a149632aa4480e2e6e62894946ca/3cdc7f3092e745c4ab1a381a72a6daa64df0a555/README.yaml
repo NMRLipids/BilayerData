@@ -65,9 +65,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 827
 bioschema_properties:
-  name: Simulation of TMCL (TMA salt) with betaOG
+  name: Molecular dynamics trajectory of a TMA/BOG/TMCL/CLA/SOD (49:24:24:1:1) bilayer at 303.15 K (Charmm36, GROMACS 2023.2, 500 ns) [NMRlipids simulation 827]
   alternateName: TMCL_BOG_TMA_NaCl_T303_21w/P
-  description: Simulation of TMCL were done in GROMACS 2024.x in fully hydrated state using standrad CHARMM-GUI protocol over 500 ns after 500 ns of pre-equilibration (not deposited). Trajectory is saved every 20 ps (only compressed coordinates) and every 100 ps (full-precision, with velocities). Temperature 303K (v-rescale), pressure semi-isotropic 1bar (parrinello-rahman). Note (!), that BOG (beta-octyl-D-glucopyranoside) has renamed atoms comparing to CHARMM-GUI version. See itp file inside.
+  description: Molecular dynamics trajectory of a lipid bilayer of 160 TMA (49 mol%), 80 BOG (beta-octyl D-glucopyranoside, 24 mol%), 80 TMCL (Tetramyristoyl cardiolipin, 24 mol%), 4 CLA (1 mol%) and 4 SOD (1 mol%) at 303.15 K. Simulated with Charmm36 in GROMACS 2023.2 for 500 ns (38388 atoms). Deposited as NMRlipids Databank simulation 827 and available from https://doi.org/10.5281/zenodo.13981147.
   sameAs: https://doi.org/10.5281/zenodo.13981147
   datePublished: '2024-10-23'
   license:
@@ -108,11 +108,11 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - TMCL
-  - Tetramyristoyl cardiolipin
+  - TMA
   - BOG
   - beta-octyl D-glucopyranoside
-  - TMA
+  - TMCL
+  - Tetramyristoyl cardiolipin
   - CLA
   - SOD
   - Lipids
@@ -162,8 +162,15 @@ bioschema_properties:
     - tmclBOGprodZnd.tpr
     - topol.top
     - TMCL_TMA_BOGprod.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.13981147
+    identifier: 10.5281/zenodo.13981147
+    url: https://doi.org/10.5281/zenodo.13981147
+    name: Simulation of TMCL (TMA salt) with betaOG
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.13981147
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

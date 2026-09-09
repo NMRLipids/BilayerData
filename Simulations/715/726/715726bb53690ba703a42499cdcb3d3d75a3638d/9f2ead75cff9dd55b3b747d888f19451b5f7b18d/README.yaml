@@ -44,9 +44,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 328
 bioschema_properties:
-  name: Gromos-Ckp Pope Simulations (Versions 1 And 2) 313 K
+  name: Molecular dynamics trajectory of a POPE bilayer at 313 K (GROMOS-CKP, GROMACS 5.0.6, 400 ns) [NMRlipids simulation 328]
   alternateName: 128POPE_3552SOL_313K_GROMOS-CKP_v1
-  description: Two GROMOS-CKP POPE bilayer simulations performed using GROMACS 5.0.6 for 500 ns with different starting velocities. Simulations were performed with a 1.4 nm cut-off with PME for the Coulombic and a 1.4 nm cut-off for the van der Waals interactions with a dispersion correction. These simulations were performed at 313 K with a 128 lipid bilayer. The full trajectories are provided bar the initial 100 ns. The starting structure was taken from an equilibrated POPE membrane simulated with an older version of the force field which used the PC charges in the head group (see the SI of https://pubs.acs.org/doi/abs/10.1021/jp207013v). The newer PE parameters were constructed using the standard GROMOS lysine parameters.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 313 K. Simulated with GROMOS-CKP in GROMACS 5.0.6 for 400 ns (17312 atoms). Deposited as NMRlipids Databank simulation 328 and available from https://doi.org/10.5281/zenodo.1293932.
   sameAs: https://doi.org/10.5281/zenodo.1293932
   datePublished: '2018-06-20'
   license:
@@ -127,9 +127,16 @@ bioschema_properties:
     - md_POPE_CKP_new_NH3_PME_verlet_v1_100-500ns.xtc
     - for-md_POPE_CKP_new_NH3_PME_verlet_v1.tpr
     - md_POPE_CKP_new_NH3_PME_verlet_v1.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1293932
+    identifier: 10.5281/zenodo.1293932
+    url: https://doi.org/10.5281/zenodo.1293932
+    name: Gromos-Ckp Pope Simulations (Versions 1 And 2) 313 K
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1293932
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

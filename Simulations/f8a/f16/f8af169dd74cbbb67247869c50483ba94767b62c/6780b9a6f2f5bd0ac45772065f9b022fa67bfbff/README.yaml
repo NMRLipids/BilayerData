@@ -46,9 +46,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 808
 bioschema_properties:
-  name: MD simulation of DMPC bilayer with CHARMM36 force field. Full hydration
+  name: Molecular dynamics trajectory of a DMPC bilayer at 314 K (CHARMM36, GROMACS 2022.2, 500 ns) [NMRlipids simulation 808]
   alternateName: 200DMPC_10kSOL_300K
-  description: 'MD simulation of DMPC bilayer with CHARMM36 force field. Full hydration Dataset contains simulation files including trajectories (.xtc) (original production.xtc, and equilibrated and centered ). System: DMPC bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 10000 Simulation time: 500 ns Sampling rate: every 10 ps Simulation engine: GROMACS 2019.5 Temperature: 314 K'
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine) at 314 K. Simulated with CHARMM36 in GROMACS 2022.2 for 500 ns (53600 atoms). Deposited as NMRlipids Databank simulation 808 and available from https://doi.org/10.5281/zenodo.10949663.
   sameAs: https://doi.org/10.5281/zenodo.10949663
   datePublished: '2024-04-09'
   license:
@@ -133,8 +133,15 @@ bioschema_properties:
   isBasedOn:
   - experiments/OrderParameters/10.1039/B508190D/3
   - experiments/OrderParameters/unpublished/nesterenkoDMPCbOG/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.10949663
+    identifier: 10.5281/zenodo.10949663
+    url: https://doi.org/10.5281/zenodo.10949663
+    name: MD simulation of DMPC bilayer with CHARMM36 force field. Full hydration
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.10949663
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

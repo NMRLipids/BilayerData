@@ -53,9 +53,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 285
 bioschema_properties:
-  name: Popc Bilayer With 10% Of Dihexadecyldimethylammonium Simulated At T313K With The Lipid14 Model Using Gromacs
+  name: Molecular dynamics trajectory of a POPC/CLA/DHMDMAB (81:10:10) bilayer at 313 K (Lipid14, GROMACS, 80 ns) [NMRlipids simulation 285]
   alternateName: 100POPC_12DHMDMAB_6214SOL_12CLA_313K
-  description: POPC bilayer with 10% of dihexadecyldimethylammonium simulated at T313K with the Lipid14 model using Gromacs. Last 80ns of 100ns long simulation. See also http://nmrlipids.blogspot.cz/2017/07/quantifying-effect-of-bound-charge-on.html and https://github.com/NMRLipids/MATCH/tree/master/Data/Lipid_Bilayers/POPC%2B10%25DHMDMAB/T313K/MODEL_LIPID14
+  description: Molecular dynamics trajectory of a lipid bilayer of 100 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 81 mol%), 12 CLA (10 mol%) and 12 DHMDMAB (dihexadecyldimethylammonium, 10 mol%) at 313 K. Simulated with Lipid14 in GROMACS for 80 ns (33338 atoms). Deposited as NMRlipids Databank simulation 285 and available from https://doi.org/10.5281/zenodo.1020240.
   sameAs: https://doi.org/10.5281/zenodo.1020240
   datePublished: '2017-10-18'
   license:
@@ -94,9 +94,9 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
   - DHMDMAB
   - dihexadecyldimethylammonium
-  - CLA
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -139,9 +139,16 @@ bioschema_properties:
     - trajectory.xtc
     - run.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1020240
+    identifier: 10.5281/zenodo.1020240
+    url: https://doi.org/10.5281/zenodo.1020240
+    name: Popc Bilayer With 10% Of Dihexadecyldimethylammonium Simulated At T313K With The Lipid14 Model Using Gromacs
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1020240
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

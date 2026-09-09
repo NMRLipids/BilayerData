@@ -44,8 +44,8 @@ ION_CONCENTRATIONS:
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: 1.362
 bioschema_properties:
-  name: Influence of cholesterol on the polar region of phosphatidylcholine and phosphatidylethanolamine bilayers
-  description: 'Experimental C-H bond order parameters for a lipid bilayer containing DPPC at 331 K, measured by NMR: 2H:SP.'
+  name: C-H bond order parameters of a DPPC bilayer at 331 K, 50% water, with ACE/SOD and Acetic_acid/EDTA (2H NMR) [Brown 1978]
+  description: Experimental C-H bond order parameters for a lipid bilayer of DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 331 K, hydrated to 50% water, with ions ACE and SOD; additives Acetic_acid and EDTA; pH 5.7 (buffer). Measured by solid-state nuclear magnetic resonance spectroscopy (2H:SP) on a Bruker-Spectrospin HX-90-FT spectrometer (13.8 MHz for 2H, 36.4 MHz for 31P). Values digitised into the NMRlipids Databank from https://doi.org/10.1021/bi00595a029.
   sameAs: https://doi.org/10.1021/bi00595a029
   datePublished: '1978-01-24'
   license:
@@ -77,8 +77,8 @@ bioschema_properties:
     url: http://edamontology.org/topic_3306
   - DPPC
   - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
-  - SOD
   - ACE
+  - SOD
   measurementTechnique:
   - '@type': DefinedTerm
     name: solid-state nuclear magnetic resonance spectroscopy
@@ -113,4 +113,4 @@ bioschema_properties:
   _source:
     api: crossref
     doi: 10.1021/bi00595a029
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

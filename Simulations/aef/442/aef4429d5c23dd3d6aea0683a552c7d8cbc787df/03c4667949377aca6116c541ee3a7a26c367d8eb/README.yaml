@@ -45,9 +45,9 @@ EXPERIMENT:
   - 10.1021/jp511159q/1
 ID: 790
 bioschema_properties:
-  name: All-atomic simulation of POPE bilayer with RFZ
+  name: Molecular dynamics trajectory of a POPE bilayer at 310 K (Charmm36, GROMACS 2022.5, 512 ns) [NMRlipids simulation 790]
   alternateName: POPE(313K,rfz)
-  description: We have performed simulations of POPE to check if the reaction-field-zero mode of calculating electrostatics is a good substitute for PME if we want to avoid PME for some reasons (e.g. for stress calculations). We started this simulation from the configuration deposited by Matti Javanainen (10.5281/zenodo.2641987). We performed the simulation of about 500 ns with the reaction-field-zero protocol supplemented as well. DMPC simulated with the same RFZ protocol is deposited in a separate dataset (10.5281/zenodo.8431709).
+  description: Molecular dynamics trajectory of a lipid bilayer of 144 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 310 K. Simulated with Charmm36 in GROMACS 2022.5 for 512 ns (35280 atoms). Deposited as NMRlipids Databank simulation 790 and available from https://doi.org/10.5281/zenodo.8435138.
   sameAs: https://doi.org/10.5281/zenodo.8435138
   datePublished: '2023-10-12'
   license:
@@ -141,8 +141,15 @@ bioschema_properties:
   - experiments/OrderParameters/10.1021/jacs.1c05549/2
   - experiments/OrderParameters/unpublished/ferreiraPOPE/1
   - experiments/FormFactors/10.1021/jp511159q/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8435138
+    identifier: 10.5281/zenodo.8435138
+    url: https://doi.org/10.5281/zenodo.8435138
+    name: All-atomic simulation of POPE bilayer with RFZ
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.8435138
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

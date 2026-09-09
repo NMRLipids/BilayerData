@@ -45,9 +45,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 65
 bioschema_properties:
-  name: Berger Dope Simulations (Versions 1 And 2) 271 K - De Vries Repulsive H
+  name: Molecular dynamics trajectory of a DOPE bilayer at 271 K (Berger-DOPE-2004, GROMACS 4.0.7, 100 ns) [NMRlipids simulation 65]
   alternateName: 128DOPE_4789SOL_271K_v2
-  description: Two Berger-based DOPE bilayer simulations performed using GROMACS 4.0.7 for 200 ns with different starting velocities. Simulations were performed with a 1.0 nm cut-off with PME for the Coulombic and a 1.0 nm cut-off for the van der Waals interactions with a dispersion correction. These simulations were performed at 303 K with a 128 lipid bilayer. The full trajectories are provided bar the initial 100 ns. The starting structure was converted from an equilibrated DOPC membrane simulated with the GROMOS-CKP force field. The DOPE parameters were constructed following the approach used by de Vries et al (https://pubs.acs.org/doi/abs/10.1021/jp0366926), and so include a small repulsive potential on the explicit hydrogen atoms.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 DOPE (1,2-dioleoyl-sn-glycero-3-phosphoethanolamine) at 271 K. Simulated with Berger-DOPE-2004 in GROMACS 4.0.7 for 100 ns (21279 atoms). Deposited as NMRlipids Databank simulation 65 and available from https://doi.org/10.5281/zenodo.1293928.
   sameAs: https://doi.org/10.5281/zenodo.1293928
   datePublished: '2018-06-20'
   license:
@@ -128,9 +128,16 @@ bioschema_properties:
     - md-DOPE_berger_271K_repH_v2_100-200ns.xtc
     - for-md-DOPE_berger_271K_repH_v2.tpr
     - md-DOPE_berger_271K_repH_v2.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1293928
+    identifier: 10.5281/zenodo.1293928
+    url: https://doi.org/10.5281/zenodo.1293928
+    name: Berger Dope Simulations (Versions 1 And 2) 271 K - De Vries Repulsive H
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1293928
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -46,9 +46,9 @@ EXPERIMENT:
   - 10.1021/jp511159q/1
 ID: 414
 bioschema_properties:
-  name: SLIPID POPE Bilayer Simulation (Last 100 ns, 310 K )
+  name: Molecular dynamics trajectory of a POPE bilayer at 310 K (Slipids, GROMACS 2018.3, 100 ns) [NMRlipids simulation 414]
   alternateName: 500POPE_25000SOL_310K
-  description: Simulation of a POPE bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs v2018.3 in water solution with Na+ counterions. The SLIPID model is employed for lipids and the TIP3P model for water. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top), and the energy output file (.edr) are provided.
+  description: Molecular dynamics trajectory of a lipid bilayer of 500 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 310 K. Simulated with Slipids in GROMACS 2018.3 for 100 ns (137500 atoms). Deposited as NMRlipids Databank simulation 414 and available from https://doi.org/10.5281/zenodo.3231342.
   sameAs: https://doi.org/10.5281/zenodo.3231342
   datePublished: '2019-05-27'
   license:
@@ -136,9 +136,16 @@ bioschema_properties:
   - experiments/OrderParameters/10.1021/jacs.1c05549/2
   - experiments/OrderParameters/unpublished/ferreiraPOPE/1
   - experiments/FormFactors/10.1021/jp511159q/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3231342
+    identifier: 10.5281/zenodo.3231342
+    url: https://doi.org/10.5281/zenodo.3231342
+    name: SLIPID POPE Bilayer Simulation (Last 100 ns, 310 K )
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3231342
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

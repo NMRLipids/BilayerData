@@ -40,9 +40,9 @@ EXPERIMENT:
     C30: []
   FORMFACTOR: []
 bioschema_properties:
-  name: 'MD simulation input files and results for ,,Atomistic MD simulations of n-alkanes in a phospholipid bilayer: CHARMM36 versus Slipids"'
+  name: Molecular dynamics trajectory of a DPPC/C30 (95:5) bilayer at 343 K (SLIPIDS, GROMACS, 100 ns) [NMRlipids simulation 892]
   alternateName: DPPC/C30
-  description: 'Input files and trajectories of n-alkane/lipid systems used in the article: ,,Atomistic MD simulations of n-alkanes in a phospholipid bilayer: CHARMM36 versus Slipids". Equilibrated starting configurations were created using CHARMM36. Otherwise, filenames specifiy the force field used (C36 or SL), Temperature and system composition. .xtc trajectories were created using gmx trjconv with options -pbc nojump -dt 10. run2 equals simulations from 100-200ns, run3 equals 200-300ns. The first 100ns were excluded from the analysis and are not included in this dataset. Exemplary .mdp files have been included for both force-fields. Please refer to the manuscript for the force field sources and additional information.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 288 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine, 95 mol%) and 16 C30 (n-Triacontane, 5 mol%) at 343 K. Simulated with SLIPIDS in GROMACS for 100 ns (51875 atoms). Deposited as NMRlipids Databank simulation 892 and available from https://doi.org/10.5281/zenodo.7572990.
   sameAs: https://doi.org/10.5281/zenodo.7572990
   datePublished: '2023-01-26'
   license:
@@ -129,9 +129,16 @@ bioschema_properties:
     hasPart:
     - SL_16C30_288DPPC_70C_15w_traj_run3.xtc
     - SL_16C30_288DPPC_70C_15w_run3.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.7572990
+    identifier: 10.5281/zenodo.7572990
+    url: https://doi.org/10.5281/zenodo.7572990
+    name: 'MD simulation input files and results for ,,Atomistic MD simulations of n-alkanes in a phospholipid bilayer: CHARMM36 versus Slipids"'
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.7572990
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

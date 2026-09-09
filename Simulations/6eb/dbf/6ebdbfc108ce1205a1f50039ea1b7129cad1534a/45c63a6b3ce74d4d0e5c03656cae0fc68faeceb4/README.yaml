@@ -49,9 +49,9 @@ EXPERIMENT:
   - 10.1016/j.bbamem.2011.07.022/4
 ID: 472
 bioschema_properties:
-  name: Dppc_Berger_Opls06
+  name: Molecular dynamics trajectory of a DPPC bilayer at 323 K (OPLSAA-compatible Berger-DPPC-06, GROMACS 5.1-beta, 120 ns) [NMRlipids simulation 472]
   alternateName: 72DPPC_2880SOL_323K_Berger
-  description: 'MD simulation trajectory and related files for fully hydrated DPPC bilayer. The OPLSAA-compatible Berger-DPPC-06 force field (DOI:10.1088/0953--8984/18/28/S07) was used with Gromacs 5.1-beta. Conditions: T=323K, 72 lipids, 2880 SPC waters. 120 ns trajectory, last 60 ns analyzed.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 323 K. Simulated with OPLSAA-compatible Berger-DPPC-06 in GROMACS 5.1-beta for 120 ns (12240 atoms). Deposited as NMRlipids Databank simulation 472 and available from https://doi.org/10.5281/zenodo.17237.
   sameAs: https://doi.org/10.5281/zenodo.17237
   datePublished: '2015-04-29'
   license:
@@ -136,9 +136,16 @@ bioschema_properties:
   isBasedOn:
   - experiments/OrderParameters/10.1021/bi00687a021/1
   - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/4
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.17237
+    identifier: 10.5281/zenodo.17237
+    url: https://doi.org/10.5281/zenodo.17237
+    name: Dppc_Berger_Opls06
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.17237
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

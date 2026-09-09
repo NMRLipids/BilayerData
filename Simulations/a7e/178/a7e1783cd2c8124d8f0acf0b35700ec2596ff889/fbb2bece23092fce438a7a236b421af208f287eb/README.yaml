@@ -54,9 +54,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 870
 bioschema_properties:
-  name: MD simulation of POPI-POPC (80:20) bilayer with CHARMM36 force field
+  name: Molecular dynamics trajectory of a NH4/POPI/POPC (44:44:11) bilayer at 310 K (CHARMM36, GROMACS 2022.4, 500 ns) [NMRlipids simulation 870]
   alternateName: POPI-POPC (80:20), full hydration, 310 K, NH4+ counter ions
-  description: 'Dataset contains simulation files of MD simulation of POPI-POPC (80:20) bilayer in CHARMM36 force field with neutralizing NH4+ ions. System: POPI-POPC (80:20) bilayer in water Number of lipids: 200 (100/leaflet) Number of waters: 10000 Salt: Neutralizing NH4+ Number of cations: 160 Simulation time: 500 ns Sampling rate: every 10 ps Simulation engine: GROMACS 2022.4 Force field: CHARMM36 (parameters as charmm-gui input files 2.11.2023) Temperature: 310 K Equilibration: 50 ns (equilibration period in the uploaded trajectory, evaluated based on area per lipid) Pre-equilibration: 2.8 ns'
+  description: Molecular dynamics trajectory of a lipid bilayer of 160 NH4 (44 mol%), 160 POPI (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol, 44 mol%) and 40 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 11 mol%) at 310 K. Simulated with CHARMM36 in GROMACS 2022.4 for 500 ns (58080 atoms). Deposited as NMRlipids Databank simulation 870 and available from https://doi.org/10.5281/zenodo.10253820.
   sameAs: https://doi.org/10.5281/zenodo.10253820
   datePublished: '2023-12-18'
   license:
@@ -93,11 +93,11 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
+  - NH4
   - POPI
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
-  - NH4
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -141,8 +141,15 @@ bioschema_properties:
     - production.tpr
     - topol.top
     - production.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.10253820
+    identifier: 10.5281/zenodo.10253820
+    url: https://doi.org/10.5281/zenodo.10253820
+    name: MD simulation of POPI-POPC (80:20) bilayer with CHARMM36 force field
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.10253820
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

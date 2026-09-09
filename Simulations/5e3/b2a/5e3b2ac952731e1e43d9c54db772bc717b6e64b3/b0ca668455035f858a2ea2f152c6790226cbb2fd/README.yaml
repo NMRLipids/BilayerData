@@ -50,9 +50,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 406
 bioschema_properties:
-  name: Simulations of a DPPC bilayer at different temperatures
+  name: Molecular dynamics trajectory of a DPPC/CLA/SOD (82:9:9) bilayer at 305 K (Slipids, GROMACS, 500 ns) [NMRlipids simulation 406]
   alternateName: 1152DPPC_46440SOL_124SOD_124CLA_305K
-  description: 'Simulations aimed to estimate the melting point of pure DPPC membranes in the Slipids force field. Simulations performed at 300, 305, and 310 K. The simulations were 500 ns (300 K & 305 K) or 300 ns (310 K) long. Full details of simulations available in the related manuscript, where they are also carefully analyzed: Nanoscale Membrane Domain Formation Driven by Cholesterol by Matti Javanainen, Hector Martinez-Seara, and Ilpo Vattulainen Scientific Reports 7: 1143 (2017)'
+  description: Molecular dynamics trajectory of a lipid bilayer of 1152 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine, 82 mol%), 124 CLA (9 mol%) and 124 SOD (9 mol%) at 305 K. Simulated with Slipids in GROMACS for 500 ns (289328 atoms). Deposited as NMRlipids Databank simulation 406 and available from https://doi.org/10.5281/zenodo.3539129.
   sameAs: https://doi.org/10.5281/zenodo.3539129
   datePublished: '2019-11-12'
   license:
@@ -96,8 +96,8 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - DPPC
   - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
-  - SOD
   - CLA
+  - SOD
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -139,9 +139,16 @@ bioschema_properties:
     hasPart:
     - dppc_305.xtc
     - dppc_305.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3539129
+    identifier: 10.5281/zenodo.3539129
+    url: https://doi.org/10.5281/zenodo.3539129
+    name: Simulations of a DPPC bilayer at different temperatures
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3539129
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

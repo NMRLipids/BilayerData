@@ -41,9 +41,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 477
 bioschema_properties:
-  name: Md Simulation Trajectory And Related Files For Popc Bilayer In Low Hydration (Gafflipid, Gromacs 4.5)
+  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (GAFFlipid, GROMACS 4.5, 42 ns) [NMRlipids simulation 477]
   alternateName: 126POPC_896SOL_303K
-  description: 'Equilibrated POPC lipid bilayer simulation ran with Gromacs 4.5, GAFFlipid force field (http://dx.doi.org/10.1039/C2SM26007G) in low hydration, 40ns, T=303K, 126 POPC molecules, 896 water molecules. This data is ran for the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi. If data is used, please cite nmrlipids.blogspot.fi project and the original publication of the parameters: Dickson et al. Soft Matter, 2012,8, 9617-9627 http://dx.doi.org/10.1039/C2SM26007G.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 126 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with GAFFlipid in GROMACS 4.5 for 42 ns (19572 atoms). Deposited as NMRlipids Databank simulation 477 and available from https://doi.org/10.5281/zenodo.13853.
   sameAs: https://doi.org/10.5281/zenodo.13853
   datePublished: '2015-01-09'
   license:
@@ -126,9 +126,16 @@ bioschema_properties:
     - popcRUN3.trr
     - popcRUN3.tpr
     - popc3.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.13853
+    identifier: 10.5281/zenodo.13853
+    url: https://doi.org/10.5281/zenodo.13853
+    name: Md Simulation Trajectory And Related Files For Popc Bilayer In Low Hydration (Gafflipid, Gromacs 4.5)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.13853
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -44,9 +44,9 @@ EXPERIMENT:
     PAPC: []
   FORMFACTOR: []
 bioschema_properties:
-  name: 'PAPC lipid bilayer: 1-palmitoyl-2-arachidonoyl-sn-glycero-3-phosphocholine (16:0)(20:4) | Deutrated, 16:0 | 303K, CHARMM36m-WYF forcefield, NAMD 3.0.2, 2* 500 ns'
+  name: Molecular dynamics trajectory of a PAPC/CLA/POT (92:4:4) bilayer at 303.15 K (CHARMM36m, NAMD 3.0, 500 ns) [NMRlipids simulation 907]
   alternateName: PAPC 16:0 Deu
-  description: 'PAPC lipid bilayer: 1-palmitoyl-2-arachidonoyl-sn-glycero-3-phosphocholine (16:0)(20:4) lipid bilayer | Deutrated, 16:0 200 lipid molecules (100 lipids per leaflet) and 80mM KCl. Lipid for a total water content of 50 wt% >>> Hydration: 45 Temperature: 303.15 System was prepared using CHARMM-GUI. CHARMM36m-WYF forcefield was used. Simulation was performed with NAMD 3.0.2. timestep: 2.0 fs 500 ns production after 150 ns equilibration dcd saving freq: 10000 2 replicates'
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 PAPC (1-palmitoyl-2-arachidonoyl-sn-glycero-3-phosphocholine, 92 mol%), 9 CLA (4 mol%) and 9 POT (4 mol%) at 303.15 K. Simulated with CHARMM36m in NAMD 3.0 for 500 ns (53818 atoms). Deposited as NMRlipids Databank simulation 907 and available from https://doi.org/10.5281/zenodo.18471806.
   sameAs: https://doi.org/10.5281/zenodo.18471806
   datePublished: '2026-02-03'
   license:
@@ -88,8 +88,8 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - PAPC
   - 1-palmitoyl-2-arachidonoyl-sn-glycero-3-phosphocholine
-  - POT
   - CLA
+  - POT
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -132,8 +132,15 @@ bioschema_properties:
     - production-rep2.dcd
     - step5_input.psf
     - step5_input.pdb
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.18471806
+    identifier: 10.5281/zenodo.18471806
+    url: https://doi.org/10.5281/zenodo.18471806
+    name: 'PAPC lipid bilayer: 1-palmitoyl-2-arachidonoyl-sn-glycero-3-phosphocholine (16:0)(20:4) | Deutrated, 16:0 | 303K, CHARMM36m-WYF forcefield, NAMD 3.0.2, 2* 500 ns'
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.18471806
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

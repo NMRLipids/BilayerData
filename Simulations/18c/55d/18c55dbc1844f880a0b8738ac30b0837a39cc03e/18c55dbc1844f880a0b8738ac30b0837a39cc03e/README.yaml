@@ -50,9 +50,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 257
 bioschema_properties:
-  name: Pure POPC membrane simulations with 1000 mM CaCl2 with the CHARMM-Drude force field (OpenMM)
+  name: Molecular dynamics trajectory of a CLA/POPC/CAL (49:27:24) bilayer at 303 K (Charmm-Drude polarizable; system has been equilibriated using Charmm36, OPENMM, 4 ns) [NMRlipids simulation 257]
   alternateName: 128POPC_6400SOL_114CaCl2_303K
-  description: 400 ns MD simulation of pure POPC membrane using Charmm-Drude polarizable force field. The system contains 128 POPC lipids, 114 CaCl2, and 6400 SWM4 water molecules. Before running the Drude simulation, the system has been equilibriated using Charmm36 force field for 200 ns. The last frame of that simulation was used to generate Drude polarizable model. The first 100 ns of the Drude simulation has been discarded from this dataset. Total simulation time is 500 ns, included data is 400 ns. wrapped.dcd has a frame saving frequency of 100 ps.
+  description: Molecular dynamics trajectory of a lipid bilayer of 228 CLA (49 mol%), 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 27 mol%) and 114 CAL (24 mol%) at 303 K. Simulated with Charmm-Drude polarizable; system has been equilibriated using Charmm36 in OPENMM for 4 ns (57516 atoms). Deposited as NMRlipids Databank simulation 257 and available from https://doi.org/10.5281/zenodo.5507316.
   sameAs: https://doi.org/10.5281/zenodo.5507316
   datePublished: '2021-05-05'
   license:
@@ -90,10 +90,10 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
+  - CLA
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - CAL
-  - CLA
   - openmm
   - phospatidylcholine
   - drude
@@ -140,9 +140,16 @@ bioschema_properties:
     - wrapped.dcd
     - step3_charmm2omm.psf
     - step3_charmm2omm.pdb
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.5507316
+    identifier: 10.5281/zenodo.5507316
+    url: https://doi.org/10.5281/zenodo.5507316
+    name: Pure POPC membrane simulations with 1000 mM CaCl2 with the CHARMM-Drude force field (OpenMM)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.5507316
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

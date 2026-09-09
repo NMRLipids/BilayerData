@@ -54,9 +54,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 161
 bioschema_properties:
-  name: SLIPID POPG-POPE 3:1 Bilayer Simulation (Last 100 ns, 310 K )
+  name: Molecular dynamics trajectory of a POPG/SOD/POPE (43:43:14) bilayer at 310 K (Slipids, GROMACS 2018.3, 100 ns) [NMRlipids simulation 161]
   alternateName: 374POPG_126POPE_25000SOL_374SOD_310K
-  description: Simulation of a POPG-POPE 3:1 bilalyer of 500 lipids (150 POPG lipids and 350 POPG lipids, 250 per leaflet) is simulated for 500 ns using Gromacs v2018.3 in water solution with Na+ counterions. The SLPID model is employed for lipids with TIP3P Water Model. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top) , simulation parameter file (.mdp), index file (.ndx), portable binary run input file (.tpr) and the energy output file (.edr) are provided.
+  description: Molecular dynamics trajectory of a lipid bilayer of 374 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 43 mol%), 374 SOD (43 mol%) and 126 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 14 mol%) at 310 K. Simulated with Slipids in GROMACS 2018.3 for 100 ns (138622 atoms). Deposited as NMRlipids Databank simulation 161 and available from https://doi.org/10.5281/zenodo.3240403.
   sameAs: https://doi.org/10.5281/zenodo.3240403
   datePublished: '2019-06-06'
   license:
@@ -96,9 +96,9 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPG
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - SOD
   - POPE
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
-  - SOD
   - POPG-POPE_3:1 bilayer slipid
   measurementTechnique:
   - '@type': DefinedTerm
@@ -143,9 +143,16 @@ bioschema_properties:
     - md_0.tpr
     - topol.top
     - conf.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3240403
+    identifier: 10.5281/zenodo.3240403
+    url: https://doi.org/10.5281/zenodo.3240403
+    name: SLIPID POPG-POPE 3:1 Bilayer Simulation (Last 100 ns, 310 K )
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3240403
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

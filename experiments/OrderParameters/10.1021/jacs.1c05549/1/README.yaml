@@ -11,8 +11,8 @@ TOTAL_LIPID_CONCENTRATION: 'full hydration'
 COUNTER_IONS:
   SOD: POPG
 bioschema_properties:
-  name: 'NMRLipids/NMRlipidsIVPEandPG: First submission'
-  description: NMRlipids IV project, PE and PG lipids
+  name: C-H bond order parameters of a POPG bilayer at 298 K, full hydration (NMR) [OhsOllila 2021]
+  description: Experimental C-H bond order parameters for a lipid bilayer of POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol) at 298 K, fully hydrated. Measured by nuclear magnetic resonance spectroscopy. Values digitised into the NMRlipids Databank from https://doi.org/10.5281/zenodo.4748647.
   sameAs: https://doi.org/10.5281/zenodo.4748647
   datePublished: '2021-05-11'
   license:
@@ -44,6 +44,8 @@ bioschema_properties:
     termCode: topic_3306
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/topic_3306
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
   measurementTechnique:
   - '@type': DefinedTerm
     name: nuclear magnetic resonance spectroscopy
@@ -74,4 +76,4 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.4748647
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

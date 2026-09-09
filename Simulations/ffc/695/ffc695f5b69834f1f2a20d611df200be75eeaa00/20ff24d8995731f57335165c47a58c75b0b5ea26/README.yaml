@@ -55,9 +55,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 380
 bioschema_properties:
-  name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS (various mixtures) with ECC-lipids force field, and Na+ (K+) counterions
+  name: Molecular dynamics trajectory of a POPC/POPS/SOD (33:33:33) bilayer at 298 K (ECC-lipids, SPCE water model, ECC-ions, GROMACS 2018.0, 1000 ns) [NMRlipids simulation 380]
   alternateName: 64POPS_64POPC_5253SOL_64SOD_298K_ECC-lipid
-  description: Classical molecular dynamics simulations of various mixtures of POPC:POPS lipid bilayers in water solution with only Na+ counterions (or with K+ counterions when noted with "_KCl" suffix). ECC-lipids force field parameters used for lipids, SPC/E water model and ECC-ions, all parameters available at https://github.com/jmelcr/ecc_lipids simulations performed with Gromacs 2018.0 (*.xtc files) simulation length 1000 ns = 1 microsecond temperature 298 K Gromacs simulation setting is in the file npt_lipid_bilayer.mdp
+  description: Molecular dynamics trajectory of a lipid bilayer of 64 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 33 mol%), 64 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 33 mol%) and 64 SOD (33 mol%) at 298 K. Simulated with ECC-lipids, SPCE water model, ECC-ions in GROMACS 2018.0 for 1000 ns (32527 atoms). Deposited as NMRlipids Databank simulation 380 and available from https://doi.org/10.5281/zenodo.1488094.
   sameAs: https://doi.org/10.5281/zenodo.1488094
   datePublished: '2018-11-14'
   license:
@@ -95,10 +95,10 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
-  - POPS
-  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
   - SOD
   measurementTechnique:
   - '@type': DefinedTerm
@@ -143,9 +143,16 @@ bioschema_properties:
     - ECClipids_1PC-1PS_mix_SPCE_298K.tpr
     - ECClipids_1PC-1PS_mix_SPCE_298K.top
     - ECClipids_1PC-1PS_mix_SPCE_298K.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1488094
+    identifier: 10.5281/zenodo.1488094
+    url: https://doi.org/10.5281/zenodo.1488094
+    name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS (various mixtures) with ECC-lipids force field, and Na+ (K+) counterions
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1488094
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

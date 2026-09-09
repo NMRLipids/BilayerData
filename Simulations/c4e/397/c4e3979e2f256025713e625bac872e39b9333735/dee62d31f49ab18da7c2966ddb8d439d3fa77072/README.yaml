@@ -46,9 +46,9 @@ EXPERIMENT:
   - 10.1016/j.bbamem.2011.07.022/19
 ID: 147
 bioschema_properties:
-  name: 200 ns simulation of a DMPC bilayer using Gromos 53A6 + Berger lipids
+  name: Molecular dynamics trajectory of a DMPC bilayer at 323 K (Berger lipids + Gromos 53A6, GROMACS, 200 ns) [NMRlipids simulation 147]
   alternateName: 128DMPC_3655SOL_323K
-  description: 'MD simulation of a DMPC bilayer: 200 ns Gromos 53A6 force field and Berger lipids (lipid.itp) 128 DMPC lipids and 3655 SPC waters. Total number of atoms: 16853. This simulation: 200 ns. The systems was equilibrated for 52 ns before this run. Simulation details: Temperature: 323 K Times step: 2 fs V-rescale thermostat, Parrinello-Rahman barostat, P-LINCS for constraints The run was done using a laptop with GTX980M. Performance: ~105ns/day Area per lipid and thickness (P-P distance) are provided.'
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine) at 323 K. Simulated with Berger lipids + Gromos 53A6 in GROMACS for 200 ns (16853 atoms). Deposited as NMRlipids Databank simulation 147 and available from https://doi.org/10.5281/zenodo.2605546.
   sameAs: https://doi.org/10.5281/zenodo.2605546
   datePublished: '2019-03-25'
   license:
@@ -132,9 +132,16 @@ bioschema_properties:
     - dmpc128-200ns.gro
   isBasedOn:
   - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/19
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.2605546
+    identifier: 10.5281/zenodo.2605546
+    url: https://doi.org/10.5281/zenodo.2605546
+    name: 200 ns simulation of a DMPC bilayer using Gromos 53A6 + Berger lipids
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.2605546
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -40,8 +40,8 @@ TOTAL_LIPID_CONCENTRATION: 3.1
 COUNTER_IONS:
   SOD: TLCL_0H
 bioschema_properties:
-  name: BHCL_Na_DSS
-  description: 'Experimental C-H bond order parameters for a lipid bilayer containing TLCL_0H at 300.5 K, measured by NMR: PDLF:R18_1^7.'
+  name: C-H bond order parameters of a TLCL_0H bilayer at 300.5 K, 30% water, with SOD and DSS (R-PDLF NMR) [Miettinen 2026]
+  description: Experimental C-H bond order parameters for a lipid bilayer of TLCL_0H (tetralinoleoyl cardiolipin(2−)) at 300.5 K, hydrated to 30% water, with ions SOD; additives DSS. Measured by R-type recoupling proton detected separated local field spectroscopy (PDLF:R18_1^7) on a Bruker Avance III HD 500 MHz, Triple Resonance CP-MAS Probe (4mm). Values digitised into the NMRlipids Databank from https://doi.org/10.57992/nmrxiv.p157.s1604.
   sameAs: https://doi.org/10.57992/nmrxiv.p157.s1604
   datePublished: '2026-01-16'
   license:
@@ -114,4 +114,4 @@ bioschema_properties:
     api: datacite
     doi: 10.57992/nmrxiv.p157.s1604
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

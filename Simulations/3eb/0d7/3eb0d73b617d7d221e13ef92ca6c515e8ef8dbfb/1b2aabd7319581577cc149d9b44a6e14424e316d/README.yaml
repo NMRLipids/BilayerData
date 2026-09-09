@@ -43,9 +43,9 @@ WARNINGS:
   PBC: z-jumps
 ID: 150
 bioschema_properties:
-  name: MD simulation trajectory and related files for POPC bilayer in medium low hydration (CHARMM36, Gromacs 4.5)
+  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (CHARMM36, GROMACS 4.5, 40 ns) [NMRlipids simulation 150]
   alternateName: 72POPC_1080SOL_303K
-  description: Equilibrated POPC lipid bilayer simulation ran with Gromacs 4.5, CHARMM36 force field in medium low hydration (dx.doi.org/10.1021/jp101759q), 20ns, T=303K, 72 POPC molecules, 1080 water molecules. This data is ran for the nmrlipids.blospot.fi project. More details from nmrlipids.blospot.fi and https://github.com/NMRLipids/nmrlipids.blogspot.fi. If data is used, please cite nmrlipids.blogspot.fi project and the original publication of the parameters (dx.doi.org/10.1021/jp101759q).
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with CHARMM36 in GROMACS 4.5 for 40 ns (12888 atoms). Deposited as NMRlipids Databank simulation 150 and available from https://doi.org/10.5281/zenodo.4740115.
   sameAs: https://doi.org/10.5281/zenodo.4740115
   datePublished: '2015-01-14'
   license:
@@ -127,9 +127,16 @@ bioschema_properties:
     - popcRUN0-40ns.trr
     - popcRUN3.tpr
     - popcSH.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.4740115
+    identifier: 10.5281/zenodo.4740115
+    url: https://doi.org/10.5281/zenodo.4740115
+    name: MD simulation trajectory and related files for POPC bilayer in medium low hydration (CHARMM36, Gromacs 4.5)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.4740115
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -40,9 +40,9 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/1
 bioschema_properties:
-  name: 200 ns Quality Analysis of OpenFF Parameterized Pure POPC Lipid Bilayer
+  name: Molecular dynamics trajectory of a POPC bilayer at 300 K (OpenFF, GROMACS, 200 ns) [NMRlipids simulation 761]
   alternateName: POPC_128_OPENFF_300K
-  description: 200 ns production MD of a pure POPC bilayer using OpenFF parameters generated using interchange method. File application in the NMR Lipid Database/GUI.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with OpenFF in GROMACS for 200 ns (32152 atoms). Deposited as NMRlipids Databank simulation 761 and available from https://doi.org/10.5281/zenodo.8299506.
   sameAs: https://doi.org/10.5281/zenodo.8299506
   datePublished: '2023-08-29'
   license:
@@ -127,9 +127,16 @@ bioschema_properties:
   - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
   - experiments/OrderParameters/10.1039/c2cp42738a/1
   - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8299506
+    identifier: 10.5281/zenodo.8299506
+    url: https://doi.org/10.5281/zenodo.8299506
+    name: 200 ns Quality Analysis of OpenFF Parameterized Pure POPC Lipid Bilayer
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.8299506
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -50,9 +50,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 49
 bioschema_properties:
-  name: SLIPID POPG Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+  name: Molecular dynamics trajectory of a SOD/POPG/CLA (50:46:4) bilayer at 310 K (Slipids, GROMACS 5.1.2, 100 ns) [NMRlipids simulation 49]
   alternateName: 500POPG_25000SOL_549SOD_39CLA_310K
-  description: Simulation of a POPG bilayer of 500 lipids (250 per leaflet) is simulated for 500 ns using Gromacs v5.1.2 in water solution with Na+ counterions and 150mM of NaCl. The SLIPID model is employed for lipids and the TIP3P model for water. Trajectory (.xtc) is for the last 100 ns of a simulation of 500 ns with data saved every 10 ps. Additionally, the topology (.top), simulation parameter file (.mdp), and the energy output file (.edr) are provided.
+  description: Molecular dynamics trajectory of a lipid bilayer of 549 SOD (50 mol%), 500 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 46 mol%) and 49 CLA (4 mol%) at 310 K. Simulated with Slipids in GROMACS 5.1.2 for 100 ns (139098 atoms). Deposited as NMRlipids Databank simulation 49 and available from https://doi.org/10.5281/zenodo.3269320.
   sameAs: https://doi.org/10.5281/zenodo.3269320
   datePublished: '2019-02-20'
   license:
@@ -90,9 +90,9 @@ bioschema_properties:
     termCode: data_3870
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/data_3870
+  - SOD
   - POPG
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
-  - SOD
   - CLA
   - POPG bilayer
   - SLIPID
@@ -139,9 +139,16 @@ bioschema_properties:
     - m_400_500_POPG_slipid.xtc
     - topol.tpr
     - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3269320
+    identifier: 10.5281/zenodo.3269320
+    url: https://doi.org/10.5281/zenodo.3269320
+    name: SLIPID POPG Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3269320
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

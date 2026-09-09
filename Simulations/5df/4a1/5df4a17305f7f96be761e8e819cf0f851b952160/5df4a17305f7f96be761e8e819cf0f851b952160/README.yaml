@@ -39,9 +39,9 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1016/j.chemphyslip.2020.104892/2
 bioschema_properties:
-  name: 1-stearoyl(d35)-2-docosahexaenoyl-sn-glycero-3-phosphocholine (18:0(d35)/22:6n3PC) | SDPC lipid bilayer, 303K, CHARMM36m-WYF forcefield, NAMD 3.0.2, 2* 500 ns
+  name: Molecular dynamics trajectory of a SDPC bilayer at 303.15 K (CHARMM36m, NAMD 3, 500 ns) [NMRlipids simulation 900]
   alternateName: SDPC(18:0(d35)/22:6)
-  description: '1-stearoyl(d35)-2-docosahexaenoyl-sn-glycero-3-phosphocholine (18:0(d35)/22:6n3PC) | SDPC lipid bilayer. Deutrated, 18:0 (DX1, DX2 atom type in psf). 200 lipid molecules (100 lipids per leaflet) and no ions. Lipid for a total water content of 50 wt% >>> Hydration: 48 Temperature: 303.15 System was prepared using CHARMM-GUI. CHARMM36m-WYF forcefield was used. Simulation was performed with NAMD 3.0.2. timestep: 2.0 fs 500 ns production after 150 ns equilibration dcd saving freq: 10000'
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 SDPC (1-stearoyl-2-docosahexaenoyl-sn-glycero-3-phosphocholine) at 303.15 K. Simulated with CHARMM36m in NAMD 3 for 500 ns (57200 atoms). Deposited as NMRlipids Databank simulation 900 and available from https://doi.org/10.5281/zenodo.18469822.
   sameAs: https://doi.org/10.5281/zenodo.18469822
   datePublished: '2026-02-03'
   license:
@@ -128,8 +128,15 @@ bioschema_properties:
   isBasedOn:
   - experiments/OrderParameters/10.1021/ja029029o/1
   - experiments/FormFactors/10.1016/j.chemphyslip.2020.104892/2
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.18469822
+    identifier: 10.5281/zenodo.18469822
+    url: https://doi.org/10.5281/zenodo.18469822
+    name: 1-stearoyl(d35)-2-docosahexaenoyl-sn-glycero-3-phosphocholine (18:0(d35)/22:6n3PC) | SDPC lipid bilayer, 303K, CHARMM36m-WYF forcefield, NAMD 3.0.2, 2* 500 ns
+    publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.18469822
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

@@ -55,9 +55,9 @@ EXPERIMENT:
     CHOL: []
   FORMFACTOR: []
 bioschema_properties:
-  name: MD simulation trajectory of POPE/SDG/CHOL bilayer and related files
+  name: Molecular dynamics trajectory of a POPE/CHOL/SDG (58:33:9) bilayer at 310 K (Lipid17, GROMACS 18.7, 1000 ns) [NMRlipids simulation 719]
   alternateName: DOGandCHOLinSDPEwithLipid17
-  description: 'Simulation trajectory pre-equiblirated POPE/SDG/CHOL bilayer and related files from all-atom molecular dynamics simulations. Simulations have been performed with GROMACS-2018.7 with Lipid17 forcefield and TIP3P water model. The trajectory is 0-1000 ns, and we have disregarded the first 100 ns in our analysis. The system in the trajectory consists of 74 POPE, 12 SDG, 42 CHOL and 6400 water molecules. Temperature 310 K, pressure 1 bar. Publication: https://doi.org/10.1016/j.bbamem.2022.183961'
+  description: Molecular dynamics trajectory of a lipid bilayer of 74 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 58 mol%), 42 CHOL (cholesterol, 33 mol%) and 12 SDG (1-stearoyl-2-docosahexaenoyl-sn-glycerol, 9 mol%) at 310 K. Simulated with Lipid17 in GROMACS 18.7 for 1000 ns (32998 atoms). Deposited as NMRlipids Databank simulation 719 and available from https://doi.org/10.5281/zenodo.6823087.
   sameAs: https://doi.org/10.5281/zenodo.6823087
   datePublished: '2022-07-12'
   license:
@@ -101,10 +101,10 @@ bioschema_properties:
     url: http://edamontology.org/data_3870
   - POPE
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
-  - SDG
-  - 1-stearoyl-2-docosahexaenoyl-sn-glycerol
   - CHOL
   - cholesterol
+  - SDG
+  - 1-stearoyl-2-docosahexaenoyl-sn-glycerol
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -142,9 +142,16 @@ bioschema_properties:
     hasPart:
     - run_pope_sdg_chol_lipid17_0-1us.xtc
     - run_pope_sdg_chol_lipid17.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.6823087
+    identifier: 10.5281/zenodo.6823087
+    url: https://doi.org/10.5281/zenodo.6823087
+    name: MD simulation trajectory of POPE/SDG/CHOL bilayer and related files
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.6823087
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

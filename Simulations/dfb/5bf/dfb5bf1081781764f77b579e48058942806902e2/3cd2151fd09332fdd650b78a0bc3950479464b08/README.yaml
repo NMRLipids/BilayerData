@@ -54,9 +54,9 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 288
 bioschema_properties:
-  name: MD simulation trajectory and related files for POPC bilayer with 30 mol% of protonated pazePC (Berger, Gromacs 4.5.)
+  name: Molecular dynamics trajectory of a POPC/PAzePCprot (70:30) bilayer at 298 K (Berger, GROMACS 4.5, 50 ns) [NMRlipids simulation 288]
   alternateName: 90POPC_38PAzePCprot_7632SOL_298K
-  description: Simulation trajectory and related files for POPC bilayer with 30mol% of pazePC in deprotonated form used in "Acyl chain disorder and azelaoyl orientation in lipid membranes containing oxidised lipids" by T. M. Ferreira, et al. https://doi.org/10.1021/acs.langmuir.6b00788 The simulation with deprotonated pazePC from the same publication available at http://dx.doi.org/10.5281/zenodo.44622 90 POPC, 38 pazePC, 7250 water and 38 potassium molecules. Simulation time 167ns. Force field for POPC is based on Berger model and force field for pazePC is modified from H. Khandelia and O. G. Mouritsen, Biophysical Journal, 2009, 96(7), 2734 – 2743, http://dx.doi.org/10.1016/j.bpj.2009.01.007.
+  description: Molecular dynamics trajectory of a lipid bilayer of 90 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 70 mol%) and 38 PAzePCprot (1-palmitoyl-2-azelaoyl-sn-glycero-3-phosphocholine protonated, 30 mol%) at 298 K. Simulated with Berger in GROMACS 4.5 for 50 ns (29324 atoms). Deposited as NMRlipids Databank simulation 288 and available from https://doi.org/10.5281/zenodo.44660.
   sameAs: https://doi.org/10.5281/zenodo.44660
   datePublished: '2016-01-12'
   license:
@@ -142,9 +142,16 @@ bioschema_properties:
     - pzpcRUN3.tpr
     - pzpcPROT.top
     - pzpcRUN3.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.44660
+    identifier: 10.5281/zenodo.44660
+    url: https://doi.org/10.5281/zenodo.44660
+    name: MD simulation trajectory and related files for POPC bilayer with 30 mol% of protonated pazePC (Berger, Gromacs 4.5.)
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.44660
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'

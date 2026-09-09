@@ -56,9 +56,9 @@ WARNINGS:
   ORIENTATION: x-normal
 ID: 219
 bioschema_properties:
-  name: Simulations of mixed DPPC/cholesterol membranes Part 2/2
+  name: Molecular dynamics trajectory of a DPPC/DCHOL/CLA/SOD (73:10:9:9) bilayer at 310 K (Slipids, GROMACS, 600 ns) [NMRlipids simulation 219]
   alternateName: 392DPPC_52DCHOL_17760SOL_48SOD_48CLA_310K
-  description: 'Simulations of mixtures of DPPC and cholesterol performed with the Slipids force field. Files are named as DPPC_CC_TTT, where CC is the cholesterol concentration in mol-%, and TTT the temperature in K. This upload contains files related to systems with 15 or 20 mol-% of cholesterol, whereas systems with 10 mol-% are in a separate upload here: DOI: 10.5281/zenodo.3539263. The system containing DCHOL, as well as the simulations used for line tension calculations, are also included in this upload. Full details of simulations are available in the related manuscript, where they are also carefully analyzed: Nanoscale Membrane Domain Formation Driven by Cholesterol by Matti Javanainen, Hector Martinez-Seara, and Ilpo Vattulainen Scientific Reports 7: 1143 (2017)'
+  description: Molecular dynamics trajectory of a lipid bilayer of 392 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine, 73 mol%), 52 DCHOL (18,19-di-nor-cholesterol, 10 mol%), 48 CLA (9 mol%) and 48 SOD (9 mol%) at 310 K. Simulated with Slipids in GROMACS for 600 ns (107872 atoms). Deposited as NMRlipids Databank simulation 219 and available from https://doi.org/10.5281/zenodo.3540513.
   sameAs: https://doi.org/10.5281/zenodo.3540513
   datePublished: '2019-11-13'
   license:
@@ -104,8 +104,8 @@ bioschema_properties:
   - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
   - DCHOL
   - 18,19-di-nor-cholesterol
-  - SOD
   - CLA
+  - SOD
   measurementTechnique:
   - '@type': DefinedTerm
     name: Molecular dynamics
@@ -136,9 +136,16 @@ bioschema_properties:
     hasPart:
     - LT_BINARY_DMCHOL.xtc
     - LT_BINARY_DMCHOL.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3540513
+    identifier: 10.5281/zenodo.3540513
+    url: https://doi.org/10.5281/zenodo.3540513
+    name: Simulations of mixed DPPC/cholesterol membranes Part 2/2
+    publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3540513
     spdxLicenseList: 3.28.0
-    retrieved: '2026-09-08'
+    retrieved: '2026-09-09'
