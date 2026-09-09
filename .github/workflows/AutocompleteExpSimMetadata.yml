@@ -61,15 +61,15 @@ jobs:
           key: bioschema-${{ hashFiles('Simulations/**/README.yaml', 'experiments/**/README.yaml') }}
           restore-keys: bioschema-
 
-      - name: Run autocomplete_bioschema.py and create suggestions
+      - name: Run autocomplete_expsim_metadata.py and create suggestions
         if: steps.files.outputs.changed_files != ''
         env:
           CHANGED_FILES: ${{ steps.files.outputs.changed_files }}
         run: |
           set -euo pipefail
           mapfile -t files <<< "$CHANGED_FILES"
-          echo "::group::autocomplete_bioschema.py"
-          python "$RUNNER_TEMP/Databank/developer/autocomplete_bioschema.py" "${files[@]}"
+          echo "::group::autocomplete_expsim_metadata.py"
+          python "$RUNNER_TEMP/Databank/developer/autocomplete_expsim_metadata.py" "${files[@]}"
           echo "::endgroup::"
 
       - name: Suggest changes on PR

@@ -51,7 +51,7 @@ jobs:
           echo "Changed files:"
           echo "$changed_files"
 
-      - name: Run AddMetadata.py and create suggestions
+      - name: Run autocomplete_mol_metadata.py and create suggestions
         if: steps.files.outputs.changed_files != ''
         env:
           CHANGED_FILES: ${{ steps.files.outputs.changed_files }}
@@ -60,8 +60,8 @@ jobs:
           set -euo pipefail
           while IFS= read -r f; do
             [ -n "$f" ] || continue
-            echo "::group::autocomplete_metadata.py $f"
-            python "$RUNNER_TEMP/Databank/developer/autocomplete_metadata.py" "$f"
+            echo "::group::autocomplete_mol_metadata.py $f"
+            python "$RUNNER_TEMP/Databank/developer/autocomplete_mol_metadata.py" "$f"
             echo "::endgroup::"
           done <<< "$CHANGED_FILES"
 
