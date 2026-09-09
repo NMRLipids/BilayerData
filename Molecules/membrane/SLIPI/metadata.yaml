@@ -33,3 +33,15 @@ bioschema_properties:
   - PI(18:0/18:2)
   - 1-18:0-2-18:2-phosphatidylinositol
   - 18:0-18:2-PI
+  image: https://lipidmaps.org/api/molecules/LMGP06010956/svg
+  imageAttribution:
+    creditText: '"SLIPI structure depiction" by LIPID MAPS® is licensed under CC BY
+      4.0 (https://creativecommons.org/licenses/by/4.0/). Source: https://www.lipidmaps.org/databases/lmsd/LMGP06010956'
+    license:
+      spdx: CC-BY-4.0
+      name: Creative Commons Attribution 4.0 International
+      url: https://creativecommons.org/licenses/by/4.0/
+    source:
+      name: LIPID MAPS®
+      url: https://www.lipidmaps.org/
+      sameAs: https://www.lipidmaps.org/databases/lmsd/LMGP06010956

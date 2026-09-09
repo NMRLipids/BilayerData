@@ -19,7 +19,18 @@ bioschema_properties:
   molecularWeight: 762
   name: (2S)-2-amino-3-[[(2R)-3-hexadecanoyloxy-2-[(Z)-octadec-9-enoyl]oxypropoxy]-hydroxyphosphoryl]oxypropanoic
     acid
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=5283499&t=l
+  image: https://lipidmaps.org/api/molecules/LMGP03010024/svg
+  imageAttribution:
+    creditText: '"POPS structure depiction" by LIPID MAPS® is licensed under CC BY
+      4.0 (https://creativecommons.org/licenses/by/4.0/). Source: https://www.lipidmaps.org/databases/lmsd/LMGP03010024'
+    license:
+      spdx: CC-BY-4.0
+      name: Creative Commons Attribution 4.0 International
+      url: https://creativecommons.org/licenses/by/4.0/
+    source:
+      name: LIPID MAPS®
+      url: https://www.lipidmaps.org/
+      sameAs: https://www.lipidmaps.org/databases/lmsd/LMGP03010024
   alternateName:
   - 1-Hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphoserine
   - 1-Palmitoyl-2-oleoylglycero-3-phosphoserine

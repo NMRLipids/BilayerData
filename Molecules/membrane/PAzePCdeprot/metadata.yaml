@@ -16,6 +16,16 @@ bioschema_properties:
   molecularWeight: 664.8
   name: 9-[(2R)-1-hexadecanoyloxy-3-[oxido-[2-(trimethylazaniumyl)ethoxy]phosphoryl]oxypropan-2-yl]oxy-9-oxononanoate
   image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=86289475&t=l
+  imageAttribution:
+    creditText: '"PAzePCdeprot structure depiction". Source: PubChem, National Library
+      of Medicine (https://www.nlm.nih.gov/web_policies.html). https://pubchem.ncbi.nlm.nih.gov/compound/86289475'
+    license:
+      name: NLM Copyright and Privacy Policies
+      url: https://www.nlm.nih.gov/web_policies.html
+    source:
+      name: PubChem
+      url: https://pubchem.ncbi.nlm.nih.gov/
+      sameAs: https://pubchem.ncbi.nlm.nih.gov/compound/86289475
   alternateName:
   - 1-hexadecanoyl-2-(8-carboxylatooctanoyl)-sn-glycero-3-phosphocholine(1−)
   - 1-palmitoyl-2-(8-carboxylatooctanoyl)phosphatidylcholine(1−)

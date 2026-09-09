@@ -17,7 +17,18 @@ bioschema_properties:
   molecularFormula: C39H72O5
   molecularWeight: 621
   name: '[(2S)-3-hydroxy-2-[(Z)-octadec-9-enoyl]oxypropyl] (Z)-octadec-9-enoate'
-  image: https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL590047?dimensions=200
+  image: https://lipidmaps.org/api/molecules/LMGL02010049/svg
+  imageAttribution:
+    creditText: '"DOG structure depiction" by LIPID MAPS® is licensed under CC BY
+      4.0 (https://creativecommons.org/licenses/by/4.0/). Source: https://www.lipidmaps.org/databases/lmsd/LMGL02010049'
+    license:
+      spdx: CC-BY-4.0
+      name: Creative Commons Attribution 4.0 International
+      url: https://creativecommons.org/licenses/by/4.0/
+    source:
+      name: LIPID MAPS®
+      url: https://www.lipidmaps.org/
+      sameAs: https://www.lipidmaps.org/databases/lmsd/LMGL02010049
   alternateName:
   - sn-1,2-dioleoylglycerol
   - sn-1,2-Diolein

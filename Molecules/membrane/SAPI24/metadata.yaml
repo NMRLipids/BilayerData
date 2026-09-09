@@ -16,6 +16,16 @@ bioschema_properties:
   inChIKey: CNWINRVXAYPOMW-WJUYXORRSA-I
   smiles: CCCCCCCCCCCCCCCCCC(=O)OCC(COP(=O)(O)O[C@@H]1[C@@H]([C@@H]([C@H]([C@@H]([C@H]1O)OP(=O)(O)O)OP(=O)(O)O)O)O)OC(=O)CCC/C=C\C/C=C\C/C=C\C/C=C\CCCCC
   image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=24742074&t=l
+  imageAttribution:
+    creditText: '"SAPI24 structure depiction". Source: PubChem, National Library of
+      Medicine (https://www.nlm.nih.gov/web_policies.html). https://pubchem.ncbi.nlm.nih.gov/compound/24742074'
+    license:
+      name: NLM Copyright and Privacy Policies
+      url: https://www.nlm.nih.gov/web_policies.html
+    source:
+      name: PubChem
+      url: https://pubchem.ncbi.nlm.nih.gov/
+      sameAs: https://pubchem.ncbi.nlm.nih.gov/compound/24742074
   alternateName:
   - BDBM15235
   - CHEBI:232300

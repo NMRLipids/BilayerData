@@ -16,7 +16,18 @@ bioschema_properties:
   molecularWeight: 878.2
   name: '[(2R)-2,3-bis[[(4Z,7Z,10Z,13Z,16Z,19Z)-docosa-4,7,10,13,16,19-hexaenoyl]oxy]propyl]
     2-(trimethylazaniumyl)ethyl phosphate'
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=24779134&t=l
+  image: https://lipidmaps.org/api/molecules/LMGP01011119/svg
+  imageAttribution:
+    creditText: '"DDOPC structure depiction" by LIPID MAPS® is licensed under CC BY
+      4.0 (https://creativecommons.org/licenses/by/4.0/). Source: https://www.lipidmaps.org/databases/lmsd/LMGP01011119'
+    license:
+      spdx: CC-BY-4.0
+      name: Creative Commons Attribution 4.0 International
+      url: https://creativecommons.org/licenses/by/4.0/
+    source:
+      name: LIPID MAPS®
+      url: https://www.lipidmaps.org/
+      sameAs: https://www.lipidmaps.org/databases/lmsd/LMGP01011119
   alternateName:
   - 99296-81-8
   - 1,2-Docosahexanoyl-sn-glycero-3-phosphocholine

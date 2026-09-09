@@ -13,6 +13,16 @@ bioschema_properties:
   molecularWeight: 494.9
   name: dihexadecyl(dimethyl)azanium
   image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=15744&t=l
+  imageAttribution:
+    creditText: '"DHMDMAB structure depiction". Source: PubChem, National Library
+      of Medicine (https://www.nlm.nih.gov/web_policies.html). https://pubchem.ncbi.nlm.nih.gov/compound/15744'
+    license:
+      name: NLM Copyright and Privacy Policies
+      url: https://www.nlm.nih.gov/web_policies.html
+    source:
+      name: PubChem
+      url: https://pubchem.ncbi.nlm.nih.gov/
+      sameAs: https://pubchem.ncbi.nlm.nih.gov/compound/15744
   alternateName:
   - 42187-36-0
   - Dihexadecyldimethylammonium

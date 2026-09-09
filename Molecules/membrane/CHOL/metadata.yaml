@@ -18,7 +18,18 @@ bioschema_properties:
   molecularFormula: C27H46O
   molecularWeight: 386.7
   name: (3S,8S,9S,10R,13R,14S,17R)-10,13-dimethyl-17-[(2R)-6-methylheptan-2-yl]-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-3-ol
-  image: https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL112570?dimensions=200
+  image: https://lipidmaps.org/api/molecules/LMST01010001/svg
+  imageAttribution:
+    creditText: '"CHOL structure depiction" by LIPID MAPS® is licensed under CC BY
+      4.0 (https://creativecommons.org/licenses/by/4.0/). Source: https://www.lipidmaps.org/databases/lmsd/LMST01010001'
+    license:
+      spdx: CC-BY-4.0
+      name: Creative Commons Attribution 4.0 International
+      url: https://creativecommons.org/licenses/by/4.0/
+    source:
+      name: LIPID MAPS®
+      url: https://www.lipidmaps.org/
+      sameAs: https://www.lipidmaps.org/databases/lmsd/LMST01010001
   alternateName:
   - Cholesterol
   - Cholest-5-en-3beta-ol

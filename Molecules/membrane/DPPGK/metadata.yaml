@@ -15,3 +15,13 @@ bioschema_properties:
   name: '[3-[(2S)-2,6-bis(azaniumyl)hexanoyl]oxy-2-hydroxypropyl] [(2R)-2,3-bis[[(Z)-octadec-9-enoyl]oxy]propyl]
     phosphate'
   image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=140699964&t=l
+  imageAttribution:
+    creditText: '"DPPGK structure depiction". Source: PubChem, National Library of
+      Medicine (https://www.nlm.nih.gov/web_policies.html). https://pubchem.ncbi.nlm.nih.gov/compound/140699964'
+    license:
+      name: NLM Copyright and Privacy Policies
+      url: https://www.nlm.nih.gov/web_policies.html
+    source:
+      name: PubChem
+      url: https://pubchem.ncbi.nlm.nih.gov/
+      sameAs: https://pubchem.ncbi.nlm.nih.gov/compound/140699964

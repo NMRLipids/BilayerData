@@ -2,7 +2,6 @@ NMRlipids:
   id: ERG
   name: ergosterol
   charge: 0
-
 sameAs:
   ChEBI: CHEBI:16933
   pubchem.compound: 444679
@@ -11,7 +10,6 @@ sameAs:
   slm: SLM:000000326
   pdb.ligand: ERG
   ChEMBL: CHEMBL1232562
-
 bioschema_properties:
   iupacName: (3S,9S,10R,13R,14R,17R)-17-[(E,2R,5R)-5,6-dimethylhept-3-en-2-yl]-10,13-dimethyl-2,3,4,9,11,12,14,15,16,17-decahydro-1H-cyclopenta[a]phenanthren-3-ol
   smiles: CC(C)[C@@H](C)\C=C\[C@@H](C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3C2=CC=C4[C@@]3(CC[C@@H](C4)O)C)C
@@ -20,11 +18,22 @@ bioschema_properties:
   molecularFormula: C28H44O
   molecularWeight: 396.65
   name: ergosterol
-  image: https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL1232562?dimensions=200
+  image: https://lipidmaps.org/api/molecules/LMST01030093/svg
+  imageAttribution:
+    creditText: '"ERG structure depiction" by LIPID MAPS® is licensed under CC BY
+      4.0 (https://creativecommons.org/licenses/by/4.0/). Source: https://www.lipidmaps.org/databases/lmsd/LMST01030093'
+    license:
+      spdx: CC-BY-4.0
+      name: Creative Commons Attribution 4.0 International
+      url: https://creativecommons.org/licenses/by/4.0/
+    source:
+      name: LIPID MAPS®
+      url: https://www.lipidmaps.org/
+      sameAs: https://www.lipidmaps.org/databases/lmsd/LMST01030093
   alternateName:
-    - Ergosterol
-    - ergosta-5,7,22E-trien-3beta-ol
-    - ergosta-5,7,22-trien-3β-ol
-    - Provitamin D2
-    - Provitamina D2
-    - Ergosta-5,7,22-trien-3-ol
+  - Ergosterol
+  - ergosta-5,7,22E-trien-3beta-ol
+  - ergosta-5,7,22-trien-3β-ol
+  - Provitamin D2
+  - Provitamina D2
+  - Ergosta-5,7,22-trien-3-ol

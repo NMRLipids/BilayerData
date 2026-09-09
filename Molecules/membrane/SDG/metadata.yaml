@@ -16,7 +16,18 @@ bioschema_properties:
   molecularFormula: C43H72O5
   molecularWeight: 669
   name: '[(2S)-1-hydroxy-3-octadecanoyloxypropan-2-yl] (4Z,7Z,10Z,13Z,16Z,19Z)-docosa-4,7,10,13,16,19-hexaenoate'
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=9543881&t=l
+  image: https://lipidmaps.org/api/molecules/LMGL02010216/svg
+  imageAttribution:
+    creditText: '"SDG structure depiction" by LIPID MAPS® is licensed under CC BY
+      4.0 (https://creativecommons.org/licenses/by/4.0/). Source: https://www.lipidmaps.org/databases/lmsd/LMGL02010216'
+    license:
+      spdx: CC-BY-4.0
+      name: Creative Commons Attribution 4.0 International
+      url: https://creativecommons.org/licenses/by/4.0/
+    source:
+      name: LIPID MAPS®
+      url: https://www.lipidmaps.org/
+      sameAs: https://www.lipidmaps.org/databases/lmsd/LMGL02010216
   alternateName:
   - DAG 18:0/22:6(ω-3)/0:0
   - DG(18:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z)/0:0)

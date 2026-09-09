@@ -18,7 +18,18 @@ bioschema_properties:
   molecularWeight: 810.1
   name: '[(2R)-2-[(5Z,8Z,11Z,14Z)-icosa-5,8,11,14-tetraenoyl]oxy-3-octadecanoyloxypropyl]
     2-(trimethylazaniumyl)ethyl phosphate'
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=16219824&t=l
+  image: https://lipidmaps.org/api/molecules/LMGP01010802/svg
+  imageAttribution:
+    creditText: '"SAPC structure depiction" by LIPID MAPS® is licensed under CC BY
+      4.0 (https://creativecommons.org/licenses/by/4.0/). Source: https://www.lipidmaps.org/databases/lmsd/LMGP01010802'
+    license:
+      spdx: CC-BY-4.0
+      name: Creative Commons Attribution 4.0 International
+      url: https://creativecommons.org/licenses/by/4.0/
+    source:
+      name: LIPID MAPS®
+      url: https://www.lipidmaps.org/
+      sameAs: https://www.lipidmaps.org/databases/lmsd/LMGP01010802
   alternateName:
   - 1-octadecanoyl-2-(5Z,8Z,11Z,14Z)-icosatetraenoyl-sn-glycero-3-phosphocholine
   - 1-C18:0-2-C20:4(ω-6)-phosphatidylcholine
