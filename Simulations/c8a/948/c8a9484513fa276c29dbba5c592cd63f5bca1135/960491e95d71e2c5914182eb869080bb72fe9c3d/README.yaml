@@ -1,0 +1,37 @@
+DOI: 10.5281/zenodo.3332640
+TRJ:
+- - PN_model_328K_TIP3P_DPPC_no_ions.xtc
+SOFTWARE: gromacs
+PREEQTIME: 0
+TIMELEFTOUT: 0
+TEMPERATURE: 328.0
+SYSTEM: PN_model_328K_TIP3P_DPPC_no_ions
+PUBLICATION: https://doi.org/10.1021/acs.jctc.4c00743
+AUTHORS_CONTACT: Ricky Nencini
+SOFTWARE_VERSION: '2016.4'
+FF: Development of PROSECCO PC membranes
+TOP:
+- - PN_model_328K_TIP3P_DPPC_no_ions.top
+EDR:
+- - PN_model_328K_TIP3P_DPPC_no_ions.edr
+TPR:
+- - PN_model_328K_TIP3P_DPPC_no_ions.tpr
+GRO:
+- - PN_model_328K_TIP3P_DPPC_no_ions.gro
+COMPOSITION:
+  DPPC:
+    NAME: DPPC
+    MAPPING: mappingDPPCcharmm.yaml
+    COUNT:
+    - 100
+    - 100
+  SOL:
+    NAME: SOL
+    MAPPING: mappingTIP3PCHARMMgui.yaml
+    COUNT: 9000
+TRAJECTORY_SIZE: 1428397232
+TRJLENGTH: 730300.0
+NUMBER_OF_ATOMS: 53000
+DATEOFRUNNING: 09/09/2026
+TYPEOFSYSTEM: lipid bilayer
+ID: -1
