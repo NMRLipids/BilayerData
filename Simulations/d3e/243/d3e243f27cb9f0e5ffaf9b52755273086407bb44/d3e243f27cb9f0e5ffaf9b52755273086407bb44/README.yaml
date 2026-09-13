@@ -130,3 +130,9 @@ bioschema_properties:
     doi: 10.5281/zenodo.21937938
     spdxLicenseList: 3.28.0
     retrieved: '2026-09-08'
+EXPERIMENT:
+  ORDERPARAMETER:
+    POPC: []
+    SM18: []
+    CHOL: []
+  FORMFACTOR: []
