@@ -1,5 +1,29 @@
-DOI: 10.1021/jp511159q
+ARTICLE_DOI: 10.1021/jp511159q
+DATE: '2014-12-01'
 TEMPERATURE: 308
+MEMBRANE_COMPOSITION:
+  POPE: 1
+SOLUTION_COMPOSITION: {}
+ADDITIONAL_MOLECULES: {}
+TOTAL_HYDRATION: 98
+PH: UNKNOWN
+# PH_METHOD: NA
+REAGENT_SOURCES:
+  POPE: Avanti Polar Lipids (Alabaster, AL), used as received
+  H2O: 18 MΩ·cm Millipore water
+SAMPLE_PROTOCOL: >
+  Lyophilized POPE powder was mixed with 18 MΩ·cm H2O (Millipore) at a concentration not exceeding
+  40-50 mg/mL, followed by temperature cycling through the main phase transition until a uniform lipid
+  dispersion was obtained. Unilamellar vesicles were prepared above the main phase transition with an
+  Avanti mini-extruder, extruding through a 500-Å pore diameter polycarbonate filter (~33 total passes),
+  resulting in ~600-Å diameter ULVs. The final ULV lipid concentration was ~20 mg/mL in 100% H2O.
+XRAY:
+  SOURCE: G1 station, CHESS
+  LAMBDA: 1.17
+  DETECTOR: FLICAM CCD camera, 1024 x 1024 pixels, 71 µm pixel size
+  DISTANCE: 0.4267
+  DATATYPE: batch
+  SAMPLE_TYPE: SUV
 MOLAR_FRACTIONS:
   POPE: 1
 ION_CONCENTRATIONS:

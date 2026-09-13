@@ -1,13 +1,16 @@
 ARTICLE_DOI: 10.1016/S0006-3495(94)80934-8
-DATE: 1994
+DATE: '1994-05-01'
 TEMPERATURE: 303
 MEMBRANE_COMPOSITION:
   DOPC: 1
+SOLUTION_COMPOSITION: {}
+ADDITIONAL_MOLECULES: {}
 PH: UNKNOWN
 REAGENT_SOURCES:
   DOPC: Synthetic dioleoylphosphatidylcholine (DOPC), specifically deuterated at the alpha, beta, and gamma segments of the choline headgroup (DOPC-d4 and DOPC-d9)
   water: Deuterium-depleted water (Aldrich)
 TOTAL_HYDRATION: 33.5
+# PH_METHOD: NA
 SAMPLE_PROTOCOL: > 
   Lipid dissolved in chloroform was dried under a stream of nitrogen and high vacuum overnight. Multilamellar liposomes were prepared by adding a well-defined amount 
   of deuterium-depleted water using a microsyringe. Samples were homogenized and equilibrated at 30°C

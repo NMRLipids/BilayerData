@@ -3,16 +3,19 @@ DATE: '2009-08-25'
 TEMPERATURE: 303
 MEMBRANE_COMPOSITION:
   SOPC: 1
+SOLUTION_COMPOSITION: {}
+ADDITIONAL_MOLECULES: {}
 TOTAL_HYDRATION: 98
 PH: UNKNOWN
+# PH_METHOD: NA
 REAGENT_SOURCES:
   SOPC: Avanti Polar Lipids
 SAMPLE_PROTOCOL: >
   10 mg of lipid was mixed with 0.5 ml MilliQ water, and freeze-thaw cycled between 253 - 323 K.
   MLVs were then extruded through 500-Å polycarbonate filters.
 XRAY:
-  SOURCE: Rigaku RUH3R microfocus
-  LAMBDA: 1.5418 Å (Cu Kα)
+  SOURCE: Rigaku RUH3R microfocus rotating anode (Cu Kα), Xenocs FOX2D focusing collimation optic, 40 kV x 100 mA
+  LAMBDA: 1.5418
   DETECTOR: Rikagu Mercury CCD
   DISTANCE: 0.66
   DATATYPE: batch

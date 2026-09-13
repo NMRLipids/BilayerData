@@ -1,16 +1,18 @@
 ARTICLE_DOI: 10.1039/c2cp42738a
+DATE: '2012-12-05'
 TEMPERATURE: 300
 MEMBRANE_COMPOSITION:
   POPC: 0.93
   CHOL: 0.07
-SOLUTION_COMPOSITION:
+SOLUTION_COMPOSITION: {}
 TOTAL_HYDRATION: 50
-ADDITIONAL_MOLECULES:
+ADDITIONAL_MOLECULES: {}
 PH: UNKNOWN
 PH_METHOD: UNKNOWN
 REAGENT_SOURCES:
   POPC: d31-POPC and POPC, Avanti Polar Lipids, Alabaster, AL, USA
   H2O: UNKNOWN
+  CHOL: Avanti Polar Lipids, Alabaster, AL, USA
 SAMPLE_PROTOCOL: |
   Lipid samples were prepared by dissolving in organic solvent followed by
   solvent evaporation and vacuum drying. Samples were hydrated to form

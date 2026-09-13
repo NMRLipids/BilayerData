@@ -1,15 +1,21 @@
 ARTICLE_DOI: 10.1021/ja962951b
-DATE: 1997
+DATE: '1997-01-01'
 TEMPERATURE: 303
 MEMBRANE_COMPOSITION:
   DMPC: 1
-SOLUTION_COMPOSITION: 
+SOLUTION_COMPOSITION: {}
+ADDITIONAL_MOLECULES: {}
 # empty
 PH: UNKNOWN
 REAGENT_SOURCES:
   DMPC: Avanti Polar Lipids (purchased in chloroform, solvent removed under N2 and vacuum)
   water: D2O
 TOTAL_HYDRATION: 50.0
+# PH_METHOD: NA
+SAMPLE_PROTOCOL: >
+  DMPC was obtained as a chloroform solution and used without further purification. Chloroform was evaporated
+  under a gentle stream of N2 followed by mechanical vacuum pumping overnight. Dispersions of DMPC in D2O at a
+  1:1 ratio by weight were subjected to three freeze-thaw cycles before the NMR experiments.
 
 NMR:
   T_RF_HEATING: UNKNOWN

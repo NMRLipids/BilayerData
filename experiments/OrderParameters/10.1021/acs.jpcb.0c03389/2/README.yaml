@@ -1,5 +1,35 @@
-DOI: 10.1021/acs.jpcb.0c03389
+ARTICLE_DOI: 10.1021/acs.jpcb.0c03389
+DATE: '2020-05-29'
 TEMPERATURE: 321
+MEMBRANE_COMPOSITION:
+  SM16: 1
+SOLUTION_COMPOSITION: {}
+ADDITIONAL_MOLECULES: {}
+TOTAL_HYDRATION: 50
+PH: UNKNOWN
+# PH_METHOD: NA
+REAGENT_SOURCES:
+  SM16: Avanti Polar Lipids (Alabaster, AL), N-palmitoyl-d31-D-erythro-sphingosylphosphorylcholine (PSM-d31), used as received
+  H2O: Deuterium-depleted water (<1 ppm D), Sigma Aldrich (St. Louis, MO), degassed
+SAMPLE_PROTOCOL: >
+  A lipid film was prepared by dissolving 26 mg PSM-d31 powder in chloroform, removing the bulk solvent on a
+  rotary evaporator and drying under vacuum overnight. The film was hydrated with 2 mL degassed,
+  deuterium-depleted water (DDW) preheated to 50 °C and incubated at 50 °C for 2 h with intermittent vortexing.
+  The suspension was lyophilised, weighed and rehydrated with 2 mL DDW; this cycle was repeated twice more to
+  reduce the natural-abundance HDO level. The final rehydration was in 26 µL DDW (50 wt% lipid), followed by
+  five freeze/thaw cycles between -80 °C and 50 °C. The sample was transferred to a 5 mm NMR tube and sealed.
+NMR:
+  T_RF_HEATING: UNKNOWN  # static 2H probe; sample temperature regulated to within ±0.5 °C, no rf-heating correction reported
+  INSTRUMENT: Homebuilt spectrometer, 7.05 T (Oxford Instruments), 2H frequency 46.0 MHz, 5 mm static 2H probe
+  METHOD: 2H:QE
+  SIGN_MEASURED: NONE
+  DETAILS: >
+    Phase-alternated quadrupolar echo sequence (90x-tau-90y-acquire-delay); 90 degree pulse width 3.7 us,
+    inter-pulse separation tau = 50 us, delay between pulse sequences 1.0 s, sweep width +-100 kHz, 8192 scans.
+    Spectra are a superposition of powder patterns from all labelled positions of the N-acyl chain of PSM-d31;
+    order parameter profiles were extracted with an FFT depaking algorithm. NOTE: the main text reports the
+    depaked profile only at 55 °C (328 K); the 318 K and 321 K profiles come from the spectra shown in
+    Supplementary Fig. S6, which could not be checked here (the SI is distributed as a .docx file).
 MOLAR_FRACTIONS:
   SM16: 1
 ION_CONCENTRATIONS:

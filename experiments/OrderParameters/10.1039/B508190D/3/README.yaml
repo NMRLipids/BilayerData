@@ -1,5 +1,34 @@
-DOI: 10.1039/B508190D
+ARTICLE_DOI: 10.1039/B508190D
+DATE: '2005-08-12'
 TEMPERATURE: 314
+MEMBRANE_COMPOSITION:
+  DMPC: 1
+SOLUTION_COMPOSITION: {}
+ADDITIONAL_MOLECULES: {}
+# TOTAL_HYDRATION: NA
+PH: UNKNOWN
+# PH_METHOD: NA
+# REAGENT_SOURCES:
+  # DMPC: NA # not stated in this communication (the same laboratory used Avanti Polar Lipids DMPC in 10.1039/B418131J)
+  # H2O: NA
+SAMPLE_PROTOCOL: >
+  Unoriented (powder) DMPC samples of ca. 35 mg were measured in 4 mm rotors. APM-CP experiments were carried
+  out as a function of the number of water molecules per lipid (n_w) over the range 4 <= n_w <= 50; all
+  measurements were in the L-alpha phase. The detailed sample-preparation protocol is not given in this
+  communication (cf. 10.1039/B418131J from the same laboratory).
+NMR:
+  T_RF_HEATING: UNKNOWN  # the paper quotes 41 °C without stating whether an rf/MAS heating correction was applied
+  INSTRUMENT: Chemagnetics Infinity-400 spectrometer, 4 mm rotor, MAS 8 kHz
+  METHOD: CDLF:see_comments
+  SIGN_MEASURED: NONE
+  DETAILS: >
+    2D separated-local-field spectroscopy with on-resonance amplitude- and phase-modulated cross-polarization
+    (APM-CP) recoupling; dipolar scaling factor s = 1/sqrt(2) ~ 0.707. Spinning frequency 8 kHz, 4 mm rotor,
+    sample mass ca. 35 mg. 1H field strength during the evolution period 61 kHz; t1 increment 32.3 us
+    (two 360-degree phase-alternated CP pulses); 32 transients for each of 100 t1 increments (total acquisition
+    time 4 h). A CH group gives 2*pi*dnu_CH = (1/sqrt2)*S_CH*b_CH and a CH2 group 2*pi*dnu_CH2 = S_CH*b_CH,
+    with b_CH/2pi = 21.5 kHz. APM-CP is a carbon-detected local field experiment and is not one of the METHOD
+    values enumerated in the schema, hence CDLF:see_comments.
 MOLAR_FRACTIONS:
   DMPC: 1
 ION_CONCENTRATIONS:

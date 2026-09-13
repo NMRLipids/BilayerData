@@ -1,5 +1,36 @@
-DOI: 10.5281/zenodo.4748647
+ARTICLE_DOI: 10.1021/jacs.1c05549
+DATA_DOI: 10.5281/zenodo.4748647
+DATE: '2021-08-16'
 TEMPERATURE: 298.0
+MEMBRANE_COMPOSITION:
+  POPG: 1
+SOLUTION_COMPOSITION: {}
+ADDITIONAL_MOLECULES: {}
+# TOTAL_HYDRATION: NA
+PH: UNKNOWN
+# PH_METHOD: NA
+REAGENT_SOURCES:
+  POPG: Avanti Polar Lipids
+  # H2O: NA # not specified in the publication
+SAMPLE_PROTOCOL: >
+  The sample was prepared by mixing the lipid with water until a homogeneous preparation of multilamellar
+  vesicles (MLVs) was attained, and left to equilibrate for approximately 24 h before measurement.
+NMR:
+  T_RF_HEATING: UNKNOWN
+  INSTRUMENT: >-
+    Bruker Avance III 400 spectrometer (1H Larmor frequency 400.03 MHz), 4 mm CP-MAS probe; the setup was stated
+    to be identical to that of 10.1021/acs.jpcb.9b06091
+  METHOD: PDLF:R18_1^7
+  SIGN_MEASURED: S-DROSS
+  DETAILS: >
+    Natural-abundance 1H-13C solid-state NMR. Order parameter magnitudes from an R-type proton-detected local
+    field (R-PDLF) experiment; order parameter signs from S-DROSS experiments combined with SIMPSON simulations.
+    The experimental setup was identical to that described in 10.1021/acs.jpcb.9b06091 (Bruker Avance III 400,
+    MAS 5.15 kHz for R-PDLF and 5 kHz for S-DROSS). Glycerol backbone peaks, and the alpha-carbon peak of POPE,
+    were assigned from previously measured POPC spectra; the POPE beta-carbon peak from a 13C chemical-shift
+    table for amines; the POPG alpha, beta and gamma peaks from the measured R-PDLF dipolar couplings compared
+    with known order parameters from earlier 2H NMR experiments. The POPG beta-carbon peak overlaps the g2
+    glycerol peak.
 MOLAR_FRACTIONS:
   POPG: 1
 ION_CONCENTRATIONS:

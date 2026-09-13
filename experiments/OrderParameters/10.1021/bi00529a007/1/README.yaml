@@ -1,8 +1,9 @@
 ARTICLE_DOI: 10.1021/bi00529a007
-DATE: 1981
+DATE: '1981-12-01'
 TEMPERATURE: 332
 MEMBRANE_COMPOSITION: 
   DPPC: 1
+# SOLUTION_COMPOSITION: NA
 ADDITIONAL_MOLECULES:
   Pipes: 1,4-piperazinediethanesulfonic acid, 10 mM
   EDTA: Ethylenediaminetetraacetic acid, 1 mM

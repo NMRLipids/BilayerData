@@ -12,7 +12,7 @@ TOTAL_HYDRATION: 99
 PH: 7.4
 PH_METHOD: buffer
 REAGENT_SOURCES:
-  POPS: Avanti Polar Lipids DOPS sodium salt
+  POPS: Avanti Polar Lipids, synthetic POPS (sodium salt), used as received
 SAMPLE_PROTOCOL: >
   40 mg of lipid was mixed with 1 ml MilliQ water, and freeze-thaw cycled between 193 - 318 K.
   MLVs were then extruded through 500-Å polycarbonate filters. SUV final lipid concentration

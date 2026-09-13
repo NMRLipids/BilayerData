@@ -1,5 +1,33 @@
-DOI: 10.1021/acs.jpcb.9b06091
+ARTICLE_DOI: 10.1021/acs.jpcb.9b06091
+DATE: '2019-10-01'
 TEMPERATURE: 298.0
+MEMBRANE_COMPOSITION:
+  POPS: 1
+SOLUTION_COMPOSITION: {}
+ADDITIONAL_MOLECULES: {}
+TOTAL_HYDRATION: 40
+PH: UNKNOWN
+# PH_METHOD: NA
+REAGENT_SOURCES:
+  POPS: Avanti Polar Lipids, 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, sodium salt, powder
+  # H2O: NA # not specified in the publication
+SAMPLE_PROTOCOL: >
+  POPS powder was mixed with water (lipid:water 60:40 wt %) in an Eppendorf tube, then repeatedly centrifuged
+  and stirred with a thin glass rod (approximately five to six cycles) until a homogeneous viscous fluid was
+  visually observed. 20 mg of the sample was transferred to an NMR insert suitable for 4 mm NMR rotors.
+NMR:
+  T_RF_HEATING: UNKNOWN
+  INSTRUMENT: Bruker Avance III 400 spectrometer (1H Larmor frequency 400.03 MHz), 4 mm CP-MAS probe
+  METHOD: PDLF:R18_1^7
+  SIGN_MEASURED: S-DROSS
+  DETAILS: >
+    Order parameter magnitudes from an R-type proton-detected local field (R-PDLF) experiment at 5.15 kHz MAS:
+    refocused-INEPT delays tau1 = 1.94 ms and tau2 = 0.97 ms; nutation frequencies 46.35 kHz (R18_1^7 pulses),
+    63.45 kHz (13C 90 and 180 degree), 50 kHz (SPINAL64 1H decoupling); t1 increment 10.79 us x 18 x 2, 32 points
+    in the indirect dimension, 1024 scans each, 5 s recycle delay, 149.5 ppm spectral width.
+    Order parameter signs from an S-DROSS experiment at 5 kHz MAS: refocused-INEPT delay delta2 = 1.19 ms,
+    recoupling-block delays tau1 = 39.4 us and tau2 = 89.4 us, 800 us t1 increment, 8 t1 points, 1024 scans each,
+    5 s recycle delay. S-DROSS curves were simulated with SIMPSON (rep2000 powder averaging).
 MOLAR_FRACTIONS:
   POPS: 1
 ION_CONCENTRATIONS:

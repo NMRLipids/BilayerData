@@ -3,10 +3,14 @@ DATE: '2011-07-26'
 TEMPERATURE: 293
 MEMBRANE_COMPOSITION:
   DSPC: 1
+SOLUTION_COMPOSITION: {}
+ADDITIONAL_MOLECULES: {}
 TOTAL_HYDRATION: 98
 PH: UNKNOWN
+# PH_METHOD: NA
 REAGENT_SOURCES:
   DSPC: Avanti Polar Lipids
+  H2O: 18 MΩ·cm Millipore water
 SAMPLE_PROTOCOL: >
   Up to 60 mg of lipid was mixed with 1.5 ml MilliQ water and temperature cycled through
   the main phase transition until a uniform MLV dispersion was obtained. MLVs were then
@@ -20,6 +24,8 @@ XRAY:
   DISTANCE: 0.4236
   DATATYPE: batch
   SAMPLE_TYPE: SUV
+  EXPOSURE: 10
+  FRAMES: 2
 
 # Outdated fields kept for backward compatibility
 # TODO: remove in future

@@ -3,22 +3,26 @@ DATE: '2020-05-29'
 TEMPERATURE: 328  # K
 MEMBRANE_COMPOSITION:
   SM16: 1
-SOLUTION_COMPOSITION:
-TOTAL_HYDRATION: 99
+SOLUTION_COMPOSITION: {}
+ADDITIONAL_MOLECULES: {}
+TOTAL_HYDRATION: 98
+PH: UNKNOWN
+# PH_METHOD: NA
 REAGENT_SOURCES:
   SM16: Avanti Polar Lipids
   H2O: High-Q purification system
 SAMPLE_PROTOCOL: >
-  SM16 lipid films were prepared from chloroform stock solutions and dried
-  under an inert atmosphere. Samples were hydrated with ultrapure water using
-  repeated freeze–thaw cycles to achieve full hydration. Vesicles were prepared
-  by extrusion prior to SAXS measurements.
+  Lipid films were prepared from stock solutions; organic solvent was removed with a gentle argon stream
+  and mild heating, followed by vacuum drying overnight (~12 h). For SAXS the dry film was hydrated with
+  H2O to a concentration of 20 mg/mL, incubated at 60 C for ~2 h with intermittent vigorous vortexing to
+  generate MLVs, then subjected to 5 freeze/thaw cycles between -80 C and 60 C. LUVs were prepared with a
+  mini-extruder fitted with a single 50 nm pore size polycarbonate filter, heated to 50 C.
 XRAY:
   SOURCE: CHESS G-1 station
   LAMBDA: 1.17            # Å
-  DETECTOR: FLICAM CCD camera
+  DETECTOR: FLICAM CCD camera, 1024 x 1024 pixels, 71 µm pixel size
   DISTANCE: 0.4267        # m
-  DATATYPE: BATCH
+  DATATYPE: batch
   SAMPLE_TYPE: SUV
 
 # Outdated fields

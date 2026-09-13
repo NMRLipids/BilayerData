@@ -3,11 +3,15 @@ DATE: '2020-02-12'
 TEMPERATURE: 303  # K (30 °C)
 MEMBRANE_COMPOSITION:
   PDPC: 1
-SOLUTION_COMPOSITION:
+SOLUTION_COMPOSITION: {}
+ADDITIONAL_MOLECULES: {}
 TOTAL_HYDRATION: 99
+PH: UNKNOWN
+# PH_METHOD: NA
 REAGENT_SOURCES:
   PDPC: Avanti Polar Lipids
   H2O: High-Q purification system
+  D2O: 99.9% D2O, Cambridge Isotopes (Andover, MA)
 SAMPLE_PROTOCOL: >
   PDPC films were prepared from chloroform stock solutions, dried under Ar gas
   with gentle heating and further dried in vacuo for at least 4 h.
@@ -24,6 +28,7 @@ XRAY:
   DISTANCE: 0.4236   # m
   SAMPLE_CONTAINER: 1 mm quartz capillary
   SAMPLE_TYPE: SUV
+  DATATYPE: batch
 # Outdated fields
 MOLAR_FRACTIONS:
    PDPC: 1

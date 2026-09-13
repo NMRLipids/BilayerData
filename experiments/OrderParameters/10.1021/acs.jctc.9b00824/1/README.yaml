@@ -1,5 +1,33 @@
-DOI: 10.1021/acs.jctc.9b00824
+ARTICLE_DOI: 10.1021/acs.jctc.9b00824
+DATE: '2019-11-24'
 TEMPERATURE: 298.0
+MEMBRANE_COMPOSITION:
+  POPS: 1
+SOLUTION_COMPOSITION: {}
+ADDITIONAL_MOLECULES: {}
+TOTAL_HYDRATION: 40
+PH: UNKNOWN
+# PH_METHOD: NA
+REAGENT_SOURCES:
+  POPS: Avanti Polar Lipids, 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, sodium salt, powder
+  # H2O: NA # not specified in the publication
+SAMPLE_PROTOCOL: >
+  POPS powder was mixed with water (lipid/water 60:40 wt%) in an Eppendorf tube, then repeatedly centrifuged
+  and stirred (approximately five to six times) until a homogeneous viscous fluid was visually observed.
+  20 mg of the sample was transferred to an NMR insert suitable for 4 mm NMR rotors.
+NMR:
+  T_RF_HEATING: UNKNOWN
+  INSTRUMENT: Bruker Avance III 400 spectrometer (1H Larmor frequency 400.03 MHz), 4 mm CP-MAS HXY probe
+  METHOD: PDLF:R18_1^7
+  SIGN_MEASURED: NONE
+  DETAILS: >
+    Acyl-chain C-H bond order parameter magnitudes from an R-PDLF experiment at 5.15 kHz MAS. R18 recoupling
+    pulse length 10.79 us (nutation frequency 46.35 kHz); increments of 18 x 2 recoupling pulses giving a 2.6 kHz
+    spectral width in the indirect dimension; 32 points in the indirect dimension (order parameter resolution
+    +-0.01). Refocused-INEPT transfer with tau1 = 1.94 ms and tau2 = 0.97 ms, pulse nutation frequency 63.45 kHz.
+    1024 transients per indirect point, 5 s recycle delay, 0.1 s acquisition time under SPINAL64 1H decoupling
+    at 40 kHz, 200 ppm 13C spectral width. S_CH = dnu/(0.315 x 21.5 kHz). Splittings in the crowded 29-30 ppm
+    region were assigned from previous POPC assignments and from the simulations in the same work.
 MOLAR_FRACTIONS:
   POPS: 1
 ION_CONCENTRATIONS:

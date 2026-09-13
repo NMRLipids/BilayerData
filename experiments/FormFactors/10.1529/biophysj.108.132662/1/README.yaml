@@ -1,9 +1,13 @@
-DOI: 10.1529/biophysj.108.132662
+ARTICLE_DOI: 10.1529/biophysj.108.132662
+DATE: '2008-05-23'
 TEMPERATURE: 303
 MEMBRANE_COMPOSITION:
   DOPC: 1
+SOLUTION_COMPOSITION: {}
+ADDITIONAL_MOLECULES: {}
 TOTAL_HYDRATION: 98
 PH: UNKNOWN
+# PH_METHOD: NA
 REAGENT_SOURCES:
   DOPC: Avanti Polar Lipids
 SAMPLE_PROTOCOL: "600-Å-diameter SUVs were prepared at 20 mg/ml lipid concentration according to Kucerka et al. (2007) Langmuir, 23: 1292-1299."

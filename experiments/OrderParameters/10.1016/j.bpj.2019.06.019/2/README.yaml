@@ -1,5 +1,36 @@
-DOI: 10.1016/j.bpj.2019.06.019
+ARTICLE_DOI: 10.1016/j.bpj.2019.06.019
+DATE: '2019-06-25'
 TEMPERATURE: 323
+MEMBRANE_COMPOSITION:
+  SM18: 0.5
+  CHOL: 0.5
+SOLUTION_COMPOSITION: {}
+ADDITIONAL_MOLECULES: {}
+TOTAL_HYDRATION: 50
+PH: UNKNOWN
+# PH_METHOD: NA
+REAGENT_SOURCES:
+  SM18: Nonlabeled SSM purified from brain sphingomyelin (Avanti Polar Lipids, Alabaster, AL) by reverse-phase HPLC; deuterated (S)-α-d1-, (R)-α-d1-, β-d2- and γ-d3-SSM synthesized in the authors laboratory
+  CHOL: Nacalai Tesque (Kyoto, Japan) / TCI (Tokyo, Japan) / Wako (Osaka, Japan) / Sigma-Aldrich (St. Louis, MO)
+  H2O: Deuterium-depleted water (Cambridge Isotope Laboratories, Tewksbury, MA)
+SAMPLE_PROTOCOL: >
+  12-20 mg of the lipid mixture (SSM and deuterated SSM, with cholesterol where applicable) was dissolved in
+  methanol/chloroform (1:1); the organic solvent was removed and a homogeneous lipid film was prepared by
+  repeated cycles of dissolution and solvent removal. The film was dried for 12 h under high vacuum, hydrated
+  with water (30 times the lipid weight), vortexed and sonicated, freeze-thawed 15 times and lyophilised for at
+  least 12 h. The lipid film was then rehydrated with deuterium-depleted water to 50% moisture (w/w), vortexed
+  and freeze-thawed several times, transferred into an NMR tube and sealed with epoxy glue.
+NMR:
+  T_RF_HEATING: UNKNOWN  # static 2H probe (no MAS); no rf-heating correction reported
+  INSTRUMENT: Varian CMX-300 (300 MHz) with a 5 mm 2H static probe (Otsuka Electronics, Osaka, Japan)
+  METHOD: 2H:QE
+  SIGN_MEASURED: NONE
+  DETAILS: >
+    Static 2H NMR with a solid (quadrupolar) echo pulse sequence: 90 degree pulse width 2.0 us, solid-echo
+    delays 30 and 20 us, initial delay 0.6 s, sweep width 200 kHz, 4096 data points, ca. 30,000 scans.
+    Free induction decays were Fourier transformed after exponential multiplication; spectra were fitted for
+    elliptical spheres. Deuterated SSMs ((S)-alpha-d1, (R)-alpha-d1, beta-d2, gamma-d3) were reconstituted into
+    MLVs of SSM or SSM/Cho (1:1). 13C-31P REDOR was used in the same study to deduce headgroup conformations.
 MOLAR_FRACTIONS:
   SM18: 0.5
   CHOL: 0.5

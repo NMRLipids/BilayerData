@@ -1,13 +1,16 @@
 ARTICLE_DOI: 10.1021/bi00687a021
-DATE: 1975
+DATE: '1975-08-01'
 TEMPERATURE: 322
 MEMBRANE_COMPOSITION:
   DPPC: 1
+SOLUTION_COMPOSITION: {}
+ADDITIONAL_MOLECULES: {}
 PH: UNKNOWN
 REAGENT_SOURCES:
   DPPC: Synthesized locally (dipalmitoyl-3-sn-phosphatidylcholine), specifically deuterated at the choline (alpha, beta, gamma) and glycerol (C-3) positions.
   water: H2O and D2O
 TOTAL_HYDRATION: 50
+# PH_METHOD: NA
 SAMPLE_PROTOCOL: >
   DPPC bilayers were prepared by thoroughly mixing lipid (50 wt %) and water (50 wt %). 
   Approximately 200-500 mg of liquid crystalline phase was used for measuring powder type spectra. 
@@ -15,7 +18,7 @@ SAMPLE_PROTOCOL: >
 
 NMR:
   T_RF_HEATING: UNKNOWN
-  INSTUMENT: Bruker-Spectrospin HX-90-FT and WH-270-FT
+  INSTRUMENT: Bruker-Spectrospin HX-90-FT and WH-270-FT
   METHOD: 2H:SP
   SIGN_MEASURED: NONE
   DETAILS: >

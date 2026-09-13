@@ -1,5 +1,35 @@
-DOI: 10.1039/B418131J
+ARTICLE_DOI: 10.1039/B418131J
+DATE: '2005-01-24'
 TEMPERATURE: 312
+MEMBRANE_COMPOSITION:
+  DMPC: 1
+SOLUTION_COMPOSITION: {}
+ADDITIONAL_MOLECULES: {}
+TOTAL_HYDRATION: 25
+PH: UNKNOWN
+# PH_METHOD: NA
+REAGENT_SOURCES:
+  DMPC: Unlabelled DMPC, Avanti Polar Lipids (Alabaster, AL, USA), powder, used without further purification
+  H2O: Hydrated from the vapour phase over a saturated K2SO4 solution (96% relative humidity)
+SAMPLE_PROTOCOL: >
+  DMPC was dissolved in chloroform/methanol (2:1, v/v). The solution was dried under a stream of nitrogen
+  followed by vacuum pumping overnight. The lipid film was then placed in a chamber at 96% relative humidity
+  at 40 °C, created by a saturated solution of potassium sulfate, resulting in a hydration level of
+  approximately 25 wt% water, i.e. 13 water molecules per lipid.
+NMR:
+  T_RF_HEATING: >-
+    Total sample heating from rf irradiation and MAS estimated to ~7 °C; the set temperature was 32 °C,
+    corresponding to an effective sample temperature of ~39 °C (312 K)
+  INSTRUMENT: Chemagnetics Infinity-400 spectrometer (9.4 T) with a 6 mm double-resonance MAS probe
+  METHOD: PDLF:R18_1^7
+  SIGN_MEASURED: NONE
+  DETAILS: >
+    Two separated-local-field (SLF) MAS experiments were used: FSLG-CP and R-PDLF. The values deposited here
+    resolve diastereotopic protons on the same carbon, which requires the proton-detected local field (R-PDLF)
+    variant. MAS spinning frequency 5.15 kHz, stabilised to ±2 Hz. Ramped 1H-13C CP with rf nutation frequency
+    30 kHz and 4 ms contact time; 26 kHz TPPM 1H decoupling during the 80 ms detection period; 16 dummy scans;
+    5 s recycle delay. During R18_1^7 irradiation the 1H rf field strength was 46 kHz (nine times the spinning
+    frequency). Only cosine-modulated data sets were collected in t1; no apodisation, zero-filling to 512 points.
 MOLAR_FRACTIONS:
   DMPC: 1
 ION_CONCENTRATIONS:
