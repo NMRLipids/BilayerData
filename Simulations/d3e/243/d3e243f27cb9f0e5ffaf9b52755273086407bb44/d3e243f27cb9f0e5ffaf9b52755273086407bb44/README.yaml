@@ -51,6 +51,12 @@ TRJLENGTH: 0.23955224037812034
 NUMBER_OF_ATOMS: 181519
 DATEOFRUNNING: '2026-08-29'
 TYPEOFSYSTEM: lipid bilayer
+EXPERIMENT:
+  ORDERPARAMETER:
+    POPC: []
+    SM18: []
+    CHOL: []
+  FORMFACTOR: []
 ID: 922
 bioschema_properties:
   name: Molecular dynamics trajectory of a CHOL/POPC/SM18/CLA/SOD (28:28:28:8:8) bilayer at 303.15 K (Charmm36, NAMD NAMD 2.13, 0 ns) [NMRlipids simulation 922]

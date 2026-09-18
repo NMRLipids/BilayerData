@@ -46,6 +46,10 @@ NUMBER_OF_ATOMS: 53854
 DATEOFRUNNING: '2026-09-07'
 TYPEOFSYSTEM: lipid bilayer
 ID: 923
+EXPERIMENT:
+  ORDERPARAMETER:
+    POPC: []
+  FORMFACTOR: []
 bioschema_properties:
   name: Molecular dynamics trajectory of a POPC/CLA/CAL (79:14:7) bilayer at 310 K (CHARMM36, GROMACS 2022.5-plumed_2.8.2, 1000 ns) [NMRlipids simulation 923]
   alternateName: POPC bilayer at 310K with the CHARMM36 force field, 111 mM CaCl2
