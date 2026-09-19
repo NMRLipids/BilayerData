@@ -60,9 +60,14 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 217
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/POPG/SOD/CAL (52:14:13:13:7) bilayer at 298 K (Lipid17, GROMACS, 250 ns) [NMRlipids simulation 217]
+  name: Molecular dynamics trajectory of a POPC/CLA/POPG/SOD/CAL (52:14:13:13:7) bilayer
+    at 298 K (Lipid17, GROMACS, 250 ns) [NMRlipids simulation 217]
   alternateName: 350POPC_88POPG_26124SOL_47CAL_94CLA_88SOD_298K
-  description: Molecular dynamics trajectory of a lipid bilayer of 350 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 52 mol%), 94 CLA (14 mol%), 88 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 13 mol%), 88 SOD (13 mol%) and 47 CAL (7 mol%) at 298 K. Simulated with Lipid17 in GROMACS for 250 ns (136677 atoms). Deposited as NMRlipids Databank simulation 217 and available from https://doi.org/10.5281/zenodo.3833725.
+  description: Molecular dynamics trajectory of a lipid bilayer of 350 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    52 mol%), 94 CLA (14 mol%), 88 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol,
+    13 mol%), 88 SOD (13 mol%) and 47 CAL (7 mol%) at 298 K. Simulated with Lipid17
+    in GROMACS for 250 ns (136677 atoms). Deposited as NMRlipids Databank simulation
+    217 and available from https://doi.org/10.5281/zenodo.3833725.
   sameAs: https://doi.org/10.5281/zenodo.3833725
   datePublished: '2019-10-23'
   license:
@@ -154,7 +159,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.3833725
     identifier: 10.5281/zenodo.3833725
     url: https://doi.org/10.5281/zenodo.3833725
-    name: LIPID17 POPC-POPG 80:20 MD simulation, Na+ counterions and 100mM CaCl2, 298K
+    name: LIPID17 POPC-POPG 80:20 MD simulation, Na+ counterions and 100mM CaCl2,
+      298K
     publisher: Zenodo
   accessRights: openAccess
   _source:

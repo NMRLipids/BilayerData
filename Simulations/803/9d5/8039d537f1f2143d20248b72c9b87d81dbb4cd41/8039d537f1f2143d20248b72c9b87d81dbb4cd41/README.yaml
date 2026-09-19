@@ -46,9 +46,13 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 741
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DOPC/CLA/CAL (60:27:13) bilayer at 303 K (AMOEBA, OPENMM v7.5.1, 218 ns) [NMRlipids simulation 741]
+  name: Molecular dynamics trajectory of a DOPC/CLA/CAL (60:27:13) bilayer at 303
+    K (AMOEBA, OPENMM v7.5.1, 218 ns) [NMRlipids simulation 741]
   alternateName: DOPC_450mM_CaCl2_at_303K_with_AMOEBA
-  description: Molecular dynamics trajectory of a lipid bilayer of 72 DOPC (1,2-dioleoyl-sn-glycero-3-phosphocholine, 60 mol%), 32 CLA (27 mol%) and 16 CAL (13 mol%) at 303 K. Simulated with AMOEBA in OPENMM v7.5.1 for 218 ns (18624 atoms). Deposited as NMRlipids Databank simulation 741 and available from https://doi.org/10.5281/zenodo.7604842.
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 DOPC (1,2-dioleoyl-sn-glycero-3-phosphocholine,
+    60 mol%), 32 CLA (27 mol%) and 16 CAL (13 mol%) at 303 K. Simulated with AMOEBA
+    in OPENMM v7.5.1 for 218 ns (18624 atoms). Deposited as NMRlipids Databank simulation
+    741 and available from https://doi.org/10.5281/zenodo.7604842.
   sameAs: https://doi.org/10.5281/zenodo.7604842
   datePublished: '2022-12-11'
   license:
@@ -136,7 +140,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.7604842
     identifier: 10.5281/zenodo.7604842
     url: https://doi.org/10.5281/zenodo.7604842
-    name: MD Simulation data for a pure DOPC bilayer (450 mM CaCl2) with AMOEBA force field + OpenMM
+    name: MD Simulation data for a pure DOPC bilayer (450 mM CaCl2) with AMOEBA force
+      field + OpenMM
     publisher: Zenodo
   accessRights: openAccess
   _source:

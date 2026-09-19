@@ -58,9 +58,15 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 172
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/CAL/CHOL (43:31:16:11) bilayer at 310.15 K (CHARMM36 with incorrect multiplicity in dihedrals and ECC ions, GROMACS 5.0, 800 ns) [NMRlipids simulation 172]
+  name: Molecular dynamics trajectory of a POPC/CLA/CAL/CHOL (43:31:16:11) bilayer
+    at 310.15 K (CHARMM36 with incorrect multiplicity in dihedrals and ECC ions, GROMACS
+    5.0, 800 ns) [NMRlipids simulation 172]
   alternateName: 50CHOL_200POPC_9000SOL_73CAL_146CLA_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 43 mol%), 146 CLA (31 mol%), 73 CAL (16 mol%) and 50 CHOL (cholesterol, 11 mol%) at 310.15 K. Simulated with CHARMM36 with incorrect multiplicity in dihedrals and ECC ions in GROMACS 5.0 for 800 ns (57719 atoms). Deposited as NMRlipids Databank simulation 172 and available from https://doi.org/10.5281/zenodo.259376.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    43 mol%), 146 CLA (31 mol%), 73 CAL (16 mol%) and 50 CHOL (cholesterol, 11 mol%)
+    at 310.15 K. Simulated with CHARMM36 with incorrect multiplicity in dihedrals
+    and ECC ions in GROMACS 5.0 for 800 ns (57719 atoms). Deposited as NMRlipids Databank
+    simulation 172 and available from https://doi.org/10.5281/zenodo.259376.
   sameAs: https://doi.org/10.5281/zenodo.259376
   datePublished: '2017-01-24'
   license:
@@ -150,7 +156,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.259376
     identifier: 10.5281/zenodo.259376
     url: https://doi.org/10.5281/zenodo.259376
-    name: Popc With Varying Amounts Of Cholesterol, 450 Mm Of Cacl_2. Charmm36 With Ecc-Scaled Ions
+    name: Popc With Varying Amounts Of Cholesterol, 450 Mm Of Cacl_2. Charmm36 With
+      Ecc-Scaled Ions
     publisher: Zenodo
   accessRights: openAccess
   _source:

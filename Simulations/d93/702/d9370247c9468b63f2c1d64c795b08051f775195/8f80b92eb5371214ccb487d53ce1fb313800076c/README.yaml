@@ -57,9 +57,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 239
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CHOL/CLA/SOD (68:17:7:7) bilayer at 310 K (Slipids with ECC-scaled ions (Kohagen), GROMACS 4.6, 200 ns) [NMRlipids simulation 239]
+  name: Molecular dynamics trajectory of a POPC/CHOL/CLA/SOD (68:17:7:7) bilayer at
+    310 K (Slipids with ECC-scaled ions (Kohagen), GROMACS 4.6, 200 ns) [NMRlipids
+    simulation 239]
   alternateName: 50CHOL_200POPC_9000SOL_21SOD_21CLA_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 68 mol%), 50 CHOL (cholesterol, 17 mol%), 21 CLA (7 mol%) and 21 SOD (7 mol%) at 310 K. Simulated with Slipids with ECC-scaled ions (Kohagen) in GROMACS 4.6 for 200 ns (57542 atoms). Deposited as NMRlipids Databank simulation 239 and available from https://doi.org/10.5281/zenodo.259343.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    68 mol%), 50 CHOL (cholesterol, 17 mol%), 21 CLA (7 mol%) and 21 SOD (7 mol%)
+    at 310 K. Simulated with Slipids with ECC-scaled ions (Kohagen) in GROMACS 4.6
+    for 200 ns (57542 atoms). Deposited as NMRlipids Databank simulation 239 and available
+    from https://doi.org/10.5281/zenodo.259343.
   sameAs: https://doi.org/10.5281/zenodo.259343
   datePublished: '2017-01-24'
   license:
@@ -149,7 +155,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.259343
     identifier: 10.5281/zenodo.259343
     url: https://doi.org/10.5281/zenodo.259343
-    name: Popc With Varying Amounts Of Cholesterol, 130 Mm Of Nacl. Slipids With Ecc-Scaled Ions
+    name: Popc With Varying Amounts Of Cholesterol, 130 Mm Of Nacl. Slipids With Ecc-Scaled
+      Ions
     publisher: Zenodo
   accessRights: openAccess
   _source:

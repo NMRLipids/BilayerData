@@ -49,9 +49,14 @@ SOFTWARE: gromacs
 DIR_WRK: /usr/home/bort/Databank
 ID: 134
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/SOD (45:27:27) bilayer at 310 K (Slipids for lipids, Kohagen for NaCl, GROMACS 4.6, 100 ns) [NMRlipids simulation 134]
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (45:27:27) bilayer at 310
+    K (Slipids for lipids, Kohagen for NaCl, GROMACS 4.6, 100 ns) [NMRlipids simulation
+    134]
   alternateName: 200POPC_9000SOL_122SOD_122CLA_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 45 mol%), 122 CLA (27 mol%) and 122 SOD (27 mol%) at 310 K. Simulated with Slipids for lipids, Kohagen for NaCl in GROMACS 4.6 for 100 ns (54044 atoms). Deposited as NMRlipids Databank simulation 134 and available from https://doi.org/10.5281/zenodo.35193.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    45 mol%), 122 CLA (27 mol%) and 122 SOD (27 mol%) at 310 K. Simulated with Slipids
+    for lipids, Kohagen for NaCl in GROMACS 4.6 for 100 ns (54044 atoms). Deposited
+    as NMRlipids Databank simulation 134 and available from https://doi.org/10.5281/zenodo.35193.
   sameAs: https://doi.org/10.5281/zenodo.35193
   datePublished: '2015-12-11'
   license:

@@ -50,9 +50,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 84
 bioschema_properties:
-  name: Molecular dynamics trajectory of a CLA/POPC/CAL (47:30:23) bilayer at 298.15 K (Lipid14 for lipids and AMBER99SB-ILDN for ions, GROMACS 5.0.3, 100 ns) [NMRlipids simulation 84]
+  name: Molecular dynamics trajectory of a CLA/POPC/CAL (47:30:23) bilayer at 298.15
+    K (Lipid14 for lipids and AMBER99SB-ILDN for ions, GROMACS 5.0.3, 100 ns) [NMRlipids
+    simulation 84]
   alternateName: 128POPC_6400SOL_100CAL_200CLA_298K
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 CLA (47 mol%), 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 30 mol%) and 100 CAL (23 mol%) at 298.15 K. Simulated with Lipid14 for lipids and AMBER99SB-ILDN for ions in GROMACS 5.0.3 for 100 ns (36652 atoms). Deposited as NMRlipids Databank simulation 84 and available from https://doi.org/10.5281/zenodo.35074.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 CLA (47 mol%),
+    128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 30 mol%) and 100 CAL
+    (23 mol%) at 298.15 K. Simulated with Lipid14 for lipids and AMBER99SB-ILDN for
+    ions in GROMACS 5.0.3 for 100 ns (36652 atoms). Deposited as NMRlipids Databank
+    simulation 84 and available from https://doi.org/10.5281/zenodo.35074.
   sameAs: https://doi.org/10.5281/zenodo.35074
   datePublished: '2015-12-09'
   license:

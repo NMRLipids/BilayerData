@@ -44,9 +44,12 @@ EXPERIMENT:
     DYPC: []
   FORMFACTOR: []
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DYPC bilayer at 333.15 K (CHARMM36, GROMACS, 1001 ns) [NMRlipids simulation 632]
+  name: Molecular dynamics trajectory of a DYPC bilayer at 333.15 K (CHARMM36, GROMACS,
+    1001 ns) [NMRlipids simulation 632]
   alternateName: 64DYPC_3200SOL_333K
-  description: Molecular dynamics trajectory of a lipid bilayer of 64 DYPC (1,2-(16:1$^\Delta9$)-sn-glycero-3-phosphocholine) at 333.15 K. Simulated with CHARMM36 in GROMACS for 1001 ns (17664 atoms). Deposited as NMRlipids Databank simulation 632 and available from https://doi.org/10.5281/zenodo.6943413.
+  description: Molecular dynamics trajectory of a lipid bilayer of 64 DYPC (1,2-(16:1$^\Delta9$)-sn-glycero-3-phosphocholine)
+    at 333.15 K. Simulated with CHARMM36 in GROMACS for 1001 ns (17664 atoms). Deposited
+    as NMRlipids Databank simulation 632 and available from https://doi.org/10.5281/zenodo.6943413.
   sameAs: https://doi.org/10.5281/zenodo.6943413
   datePublished: '2022-07-30'
   license:
@@ -134,7 +137,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.6943413
     identifier: 10.5281/zenodo.6943413
     url: https://doi.org/10.5281/zenodo.6943413
-    name: Simulations of different single-component bilayers, three different system sizes
+    name: Simulations of different single-component bilayers, three different system
+      sizes
     publisher: Zenodo
   accessRights: openAccess
   _source:

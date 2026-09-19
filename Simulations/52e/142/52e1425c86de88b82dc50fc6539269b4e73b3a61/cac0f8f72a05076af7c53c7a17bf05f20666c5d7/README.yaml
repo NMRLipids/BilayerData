@@ -59,9 +59,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 102
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DMPC/CLA/DMTAP (88:6:6) bilayer at 323 K (Berger with DMTAP modification by Gurtovenko et al., GROMACS 3.x, 110 ns) [NMRlipids simulation 102]
+  name: Molecular dynamics trajectory of a DMPC/CLA/DMTAP (88:6:6) bilayer at 323
+    K (Berger with DMTAP modification by Gurtovenko et al., GROMACS 3.x, 110 ns) [NMRlipids
+    simulation 102]
   alternateName: 120DMPC_8DMTAP_8CLA_5099SOL_323K_Berger
-  description: Molecular dynamics trajectory of a lipid bilayer of 120 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine, 88 mol%), 8 CLA (6 mol%) and 8 DMTAP (1,2-dimyristoyl-3-trimethylammonium-propane, 6 mol%) at 323 K. Simulated with Berger with DMTAP modification by Gurtovenko et al. in GROMACS 3.x for 110 ns (21137 atoms). Deposited as NMRlipids Databank simulation 102 and available from https://doi.org/10.5281/zenodo.51639.
+  description: Molecular dynamics trajectory of a lipid bilayer of 120 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine,
+    88 mol%), 8 CLA (6 mol%) and 8 DMTAP (1,2-dimyristoyl-3-trimethylammonium-propane,
+    6 mol%) at 323 K. Simulated with Berger with DMTAP modification by Gurtovenko
+    et al. in GROMACS 3.x for 110 ns (21137 atoms). Deposited as NMRlipids Databank
+    simulation 102 and available from https://doi.org/10.5281/zenodo.51639.
   sameAs: https://doi.org/10.5281/zenodo.51639
   datePublished: '2016-05-19'
   license:
@@ -157,7 +163,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.51639
     identifier: 10.5281/zenodo.51639
     url: https://doi.org/10.5281/zenodo.51639
-    name: 'Molecular dynamics simulation trajectory of a cationic lipid bilayer: 6/94 mol% DMTAP/DMPC'
+    name: 'Molecular dynamics simulation trajectory of a cationic lipid bilayer: 6/94
+      mol% DMTAP/DMPC'
     publisher: Zenodo
   accessRights: openAccess
   _source:

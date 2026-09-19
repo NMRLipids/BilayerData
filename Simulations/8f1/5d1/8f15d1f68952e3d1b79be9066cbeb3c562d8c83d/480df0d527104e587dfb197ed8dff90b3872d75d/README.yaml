@@ -54,9 +54,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 401
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/POPS/SOD (67:17:17) bilayer at 298 K (ECC-lipids, SPC water model, ECC-ions, GROMACS 2018.0, 982 ns) [NMRlipids simulation 401]
+  name: Molecular dynamics trajectory of a POPC/POPS/SOD (67:17:17) bilayer at 298
+    K (ECC-lipids, SPC water model, ECC-ions, GROMACS 2018.0, 982 ns) [NMRlipids simulation
+    401]
   alternateName: 12POPS_48POPC_3600SOL_12SOD_298K_ECC-lipid
-  description: Molecular dynamics trajectory of a lipid bilayer of 48 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 67 mol%), 12 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 17 mol%) and 12 SOD (17 mol%) at 298 K. Simulated with ECC-lipids, SPC water model, ECC-ions in GROMACS 2018.0 for 982 ns (18768 atoms). Deposited as NMRlipids Databank simulation 401 and available from https://doi.org/10.5281/zenodo.1488094.
+  description: Molecular dynamics trajectory of a lipid bilayer of 48 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    67 mol%), 12 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 17 mol%)
+    and 12 SOD (17 mol%) at 298 K. Simulated with ECC-lipids, SPC water model, ECC-ions
+    in GROMACS 2018.0 for 982 ns (18768 atoms). Deposited as NMRlipids Databank simulation
+    401 and available from https://doi.org/10.5281/zenodo.1488094.
   sameAs: https://doi.org/10.5281/zenodo.1488094
   datePublished: '2018-11-14'
   license:
@@ -147,7 +153,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.1488094
     identifier: 10.5281/zenodo.1488094
     url: https://doi.org/10.5281/zenodo.1488094
-    name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS (various mixtures) with ECC-lipids force field, and Na+ (K+) counterions
+    name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS
+      (various mixtures) with ECC-lipids force field, and Na+ (K+) counterions
     publisher: Zenodo
   accessRights: openAccess
   _source:

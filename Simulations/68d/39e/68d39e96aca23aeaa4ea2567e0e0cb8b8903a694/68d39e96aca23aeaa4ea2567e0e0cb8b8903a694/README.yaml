@@ -41,9 +41,12 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jpcb.0c03389/2
 bioschema_properties:
-  name: Molecular dynamics trajectory of a SM16 bilayer at 328.15 K (Charmm36, NAMD, 0 ns) [NMRlipids simulation 765]
+  name: Molecular dynamics trajectory of a SM16 bilayer at 328.15 K (Charmm36, NAMD,
+    0 ns) [NMRlipids simulation 765]
   alternateName: PSM NAMD
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 SM16 (N-palmitoyl-D-erythro-sphingosylphosphorylcholine) at 328.15 K. Simulated with Charmm36 in NAMD for 0 ns (52400 atoms). Deposited as NMRlipids Databank simulation 765 and available from https://doi.org/10.5281/zenodo.8338253.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 SM16 (N-palmitoyl-D-erythro-sphingosylphosphorylcholine)
+    at 328.15 K. Simulated with Charmm36 in NAMD for 0 ns (52400 atoms). Deposited
+    as NMRlipids Databank simulation 765 and available from https://doi.org/10.5281/zenodo.8338253.
   sameAs: https://doi.org/10.5281/zenodo.8338253
   datePublished: '2023-09-12'
   license:

@@ -41,9 +41,12 @@ EXPERIMENT:
     SM18: []
   FORMFACTOR: []
 bioschema_properties:
-  name: Molecular dynamics trajectory of a SM18 bilayer at 328.15 K (CHARMM36, GROMACS 2020.4 and 2021.4, 150 ns) [NMRlipids simulation 763]
+  name: Molecular dynamics trajectory of a SM18 bilayer at 328.15 K (CHARMM36, GROMACS
+    2020.4 and 2021.4, 150 ns) [NMRlipids simulation 763]
   alternateName: SSM bilayer in water, 328K
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 SM18 (N-stearoyl-D-erythro-sphingosylphosphorylcholine) at 328.15 K. Simulated with CHARMM36 in GROMACS 2020.4 and 2021.4 for 150 ns (32384 atoms). Deposited as NMRlipids Databank simulation 763 and available from https://doi.org/10.5281/zenodo.8333993.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 SM18 (N-stearoyl-D-erythro-sphingosylphosphorylcholine)
+    at 328.15 K. Simulated with CHARMM36 in GROMACS 2020.4 and 2021.4 for 150 ns (32384
+    atoms). Deposited as NMRlipids Databank simulation 763 and available from https://doi.org/10.5281/zenodo.8333993.
   sameAs: https://doi.org/10.5281/zenodo.8333993
   datePublished: '2023-09-11'
   license:

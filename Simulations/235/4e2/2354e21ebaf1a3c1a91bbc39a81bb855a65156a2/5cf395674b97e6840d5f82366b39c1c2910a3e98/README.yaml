@@ -51,9 +51,13 @@ EXPERIMENT:
   - 10.1021/acs.jctc.3c00648/8
 ID: 679
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CHOL (62:38) bilayer at 298.15 K (MacRog, GROMACS 2021, 1001 ns) [NMRlipids simulation 679]
+  name: Molecular dynamics trajectory of a POPC/CHOL (62:38) bilayer at 298.15 K (MacRog,
+    GROMACS 2021, 1001 ns) [NMRlipids simulation 679]
   alternateName: MacRog_POPC_CHOL38_M
-  description: Molecular dynamics trajectory of a lipid bilayer of 256 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 62 mol%) and 160 CHOL (cholesterol, 38 mol%) at 298.15 K. Simulated with MacRog in GROMACS 2021 for 1001 ns (108544 atoms). Deposited as NMRlipids Databank simulation 679 and available from https://doi.org/10.5281/zenodo.7061800.
+  description: Molecular dynamics trajectory of a lipid bilayer of 256 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    62 mol%) and 160 CHOL (cholesterol, 38 mol%) at 298.15 K. Simulated with MacRog
+    in GROMACS 2021 for 1001 ns (108544 atoms). Deposited as NMRlipids Databank simulation
+    679 and available from https://doi.org/10.5281/zenodo.7061800.
   sameAs: https://doi.org/10.5281/zenodo.7061800
   datePublished: '2022-09-08'
   license:

@@ -49,9 +49,13 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 552
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CHOL (70:30) bilayer at 310.15 K (CHARMM36, GROMACS 5.0, 500 ns) [NMRlipids simulation 552]
+  name: Molecular dynamics trajectory of a POPC/CHOL (70:30) bilayer at 310.15 K (CHARMM36,
+    GROMACS 5.0, 500 ns) [NMRlipids simulation 552]
   alternateName: 86CHOL_200POPC_9000SOL_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 70 mol%) and 86 CHOL (cholesterol, 30 mol%) at 310.15 K. Simulated with CHARMM36 in GROMACS 5.0 for 500 ns (60164 atoms). Deposited as NMRlipids Databank simulation 552 and available from https://doi.org/10.5281/zenodo.3237420.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    70 mol%) and 86 CHOL (cholesterol, 30 mol%) at 310.15 K. Simulated with CHARMM36
+    in GROMACS 5.0 for 500 ns (60164 atoms). Deposited as NMRlipids Databank simulation
+    552 and available from https://doi.org/10.5281/zenodo.3237420.
   sameAs: https://doi.org/10.5281/zenodo.3237420
   datePublished: '2016-10-09'
   license:
@@ -140,7 +144,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.3237420
     identifier: 10.5281/zenodo.3237420
     url: https://doi.org/10.5281/zenodo.3237420
-    name: POPC with 0, 10, 20, and 30 mol-% of cholesterol at 310 K. Charmm36 force field.
+    name: POPC with 0, 10, 20, and 30 mol-% of cholesterol at 310 K. Charmm36 force
+      field.
     publisher: Zenodo
   accessRights: openAccess
   _source:

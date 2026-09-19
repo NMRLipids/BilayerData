@@ -40,9 +40,12 @@ TRJ:
 - - prottraj.xtc
 ID: 151
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (Berger, GROMACS Gpu_version_2020.1, 1200 ns) [NMRlipids simulation 151]
+  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (Berger, GROMACS
+    Gpu_version_2020.1, 1200 ns) [NMRlipids simulation 151]
   alternateName: Berger_POPC_T303K
-  description: Molecular dynamics trajectory of a lipid bilayer of 256 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with Berger in GROMACS Gpu_version_2020.1 for 1200 ns (65330 atoms). Deposited as NMRlipids Databank simulation 151 and available from https://doi.org/10.5281/zenodo.4537207.
+  description: Molecular dynamics trajectory of a lipid bilayer of 256 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine)
+    at 303 K. Simulated with Berger in GROMACS Gpu_version_2020.1 for 1200 ns (65330
+    atoms). Deposited as NMRlipids Databank simulation 151 and available from https://doi.org/10.5281/zenodo.4537207.
   sameAs: https://doi.org/10.5281/zenodo.4537207
   datePublished: '2021-02-12'
   license:

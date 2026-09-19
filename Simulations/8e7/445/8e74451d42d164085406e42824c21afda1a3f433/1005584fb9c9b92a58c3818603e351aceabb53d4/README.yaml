@@ -44,9 +44,12 @@ EXPERIMENT:
   - 10.1021/acs.jctc.3c00648/1
 ID: 708
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC bilayer at 298.15 K (Slipids, GROMACS 2021, 1001 ns) [NMRlipids simulation 708]
+  name: Molecular dynamics trajectory of a POPC bilayer at 298.15 K (Slipids, GROMACS
+    2021, 1001 ns) [NMRlipids simulation 708]
   alternateName: Slipids_POPC_M
-  description: Molecular dynamics trajectory of a lipid bilayer of 256 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 298.15 K. Simulated with Slipids in GROMACS 2021 for 1001 ns (72704 atoms). Deposited as NMRlipids Databank simulation 708 and available from https://doi.org/10.5281/zenodo.7022749.
+  description: Molecular dynamics trajectory of a lipid bilayer of 256 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine)
+    at 298.15 K. Simulated with Slipids in GROMACS 2021 for 1001 ns (72704 atoms).
+    Deposited as NMRlipids Databank simulation 708 and available from https://doi.org/10.5281/zenodo.7022749.
   sameAs: https://doi.org/10.5281/zenodo.7022749
   datePublished: '2022-08-23'
   license:

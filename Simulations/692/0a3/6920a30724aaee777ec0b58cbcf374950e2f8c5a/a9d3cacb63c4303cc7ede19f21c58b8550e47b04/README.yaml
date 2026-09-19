@@ -49,9 +49,12 @@ WARNINGS:
   TIMESTEP: incorrect
 ID: 805
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC bilayer at 300 K (OPLS3e, GROMACS Desmond 2019-4, 500 ns) [NMRlipids simulation 805]
+  name: Molecular dynamics trajectory of a POPC bilayer at 300 K (OPLS3e, GROMACS
+    Desmond 2019-4, 500 ns) [NMRlipids simulation 805]
   alternateName: 200POPC_8859SOL_300K_run_with_demond_convert_gromacs
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with OPLS3e in GROMACS Desmond 2019-4 for 500 ns (53377 atoms). Deposited as NMRlipids Databank simulation 805 and available from https://doi.org/10.5281/zenodo.10183982.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine)
+    at 300 K. Simulated with OPLS3e in GROMACS Desmond 2019-4 for 500 ns (53377 atoms).
+    Deposited as NMRlipids Databank simulation 805 and available from https://doi.org/10.5281/zenodo.10183982.
   sameAs: https://doi.org/10.5281/zenodo.10183982
   datePublished: '2022'
   license:
@@ -142,7 +145,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.10183982
     identifier: 10.5281/zenodo.10183982
     url: https://doi.org/10.5281/zenodo.10183982
-    name: MD simulation of POPC bilayer with OPLS3e force field. Full hydration 44 w/l
+    name: MD simulation of POPC bilayer with OPLS3e force field. Full hydration 44
+      w/l
     publisher: Zenodo
   _source:
     api: datacite

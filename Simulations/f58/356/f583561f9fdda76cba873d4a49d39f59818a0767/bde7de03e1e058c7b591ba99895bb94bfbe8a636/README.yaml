@@ -42,9 +42,12 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 591
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (Slipids2020, GROMACS GROMACS 2019, 268 ns) [NMRlipids simulation 591]
+  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (Slipids2020, GROMACS
+    GROMACS 2019, 268 ns) [NMRlipids simulation 591]
   alternateName: POPC bilayer 303 K
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with Slipids2020 in GROMACS GROMACS 2019 for 268 ns (32512 atoms). Deposited as NMRlipids Databank simulation 591 and available from https://doi.org/10.5281/zenodo.4683633.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine)
+    at 303 K. Simulated with Slipids2020 in GROMACS GROMACS 2019 for 268 ns (32512
+    atoms). Deposited as NMRlipids Databank simulation 591 and available from https://doi.org/10.5281/zenodo.4683633.
   sameAs: https://doi.org/10.5281/zenodo.4683633
   datePublished: '2020-09-14'
   license:
@@ -134,7 +137,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.4683633
     identifier: 10.5281/zenodo.4683633
     url: https://doi.org/10.5281/zenodo.4683633
-    name: Optimization of Slipids Force Field Parameters Describing Headgroups of Phospholipids
+    name: Optimization of Slipids Force Field Parameters Describing Headgroups of
+      Phospholipids
     publisher: Zenodo
   accessRights: openAccess
   _source:

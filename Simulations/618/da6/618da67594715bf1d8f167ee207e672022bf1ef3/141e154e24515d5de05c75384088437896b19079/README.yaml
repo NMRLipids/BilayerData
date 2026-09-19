@@ -41,9 +41,12 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/1
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC bilayer at 300 K (FF-development, GROMACS, 500 ns) [NMRlipids simulation 836]
+  name: Molecular dynamics trajectory of a POPC bilayer at 300 K (FF-development,
+    GROMACS, 500 ns) [NMRlipids simulation 836]
   alternateName: POPCandTIP3P
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with FF-development in GROMACS for 500 ns (32512 atoms). Deposited as NMRlipids Databank simulation 836 and available from https://doi.org/10.5281/zenodo.15065748.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine)
+    at 300 K. Simulated with FF-development in GROMACS for 500 ns (32512 atoms). Deposited
+    as NMRlipids Databank simulation 836 and available from https://doi.org/10.5281/zenodo.15065748.
   sameAs: https://doi.org/10.5281/zenodo.15065748
   datePublished: '2025-03-21'
   license:

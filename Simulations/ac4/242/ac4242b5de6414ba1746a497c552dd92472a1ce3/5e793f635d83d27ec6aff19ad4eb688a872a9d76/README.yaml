@@ -47,9 +47,12 @@ EXPERIMENT:
   - 10.1021/acs.jctc.3c00648/1
 ID: 422
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC bilayer at 298 K (Chiu Gromos, GROMACS 4.5, 50 ns) [NMRlipids simulation 422]
+  name: Molecular dynamics trajectory of a POPC bilayer at 298 K (Chiu Gromos, GROMACS
+    4.5, 50 ns) [NMRlipids simulation 422]
   alternateName: 128POPC_3552SOL_298K
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 298 K. Simulated with Chiu Gromos in GROMACS 4.5 for 50 ns (17312 atoms). Deposited as NMRlipids Databank simulation 422 and available from https://doi.org/10.5281/zenodo.6656031.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine)
+    at 298 K. Simulated with Chiu Gromos in GROMACS 4.5 for 50 ns (17312 atoms). Deposited
+    as NMRlipids Databank simulation 422 and available from https://doi.org/10.5281/zenodo.6656031.
   sameAs: https://doi.org/10.5281/zenodo.6656031
   datePublished: '2015-02-20'
   license:
@@ -142,7 +145,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.6656031
     identifier: 10.5281/zenodo.6656031
     url: https://doi.org/10.5281/zenodo.6656031
-    name: MD simulation trajectory and related files for POPC bilayer (Chiu et al. Gromos version, Gromacs 4.5)
+    name: MD simulation trajectory and related files for POPC bilayer (Chiu et al.
+      Gromos version, Gromacs 4.5)
     publisher: Zenodo
   accessRights: openAccess
   _source:

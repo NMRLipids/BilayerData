@@ -54,9 +54,14 @@ EXPERIMENT:
     POPE: []
   FORMFACTOR: []
 bioschema_properties:
-  name: Molecular dynamics trajectory of a NH4/POPI/POPE (44:44:11) bilayer at 310 K (CHARMM36, GROMACS 2022.4, 500 ns) [NMRlipids simulation 854]
+  name: Molecular dynamics trajectory of a NH4/POPI/POPE (44:44:11) bilayer at 310
+    K (CHARMM36, GROMACS 2022.4, 500 ns) [NMRlipids simulation 854]
   alternateName: POPI-POPE (80:20), full hydration, 310 K, NH4+ counter ions
-  description: Molecular dynamics trajectory of a lipid bilayer of 160 NH4 (44 mol%), 160 POPI (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol, 44 mol%) and 40 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 11 mol%) at 310 K. Simulated with CHARMM36 in GROMACS 2022.4 for 500 ns (57720 atoms). Deposited as NMRlipids Databank simulation 854 and available from https://doi.org/10.5281/zenodo.10259847.
+  description: Molecular dynamics trajectory of a lipid bilayer of 160 NH4 (44 mol%),
+    160 POPI (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol, 44 mol%) and 40 POPE
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 11 mol%) at 310 K. Simulated
+    with CHARMM36 in GROMACS 2022.4 for 500 ns (57720 atoms). Deposited as NMRlipids
+    Databank simulation 854 and available from https://doi.org/10.5281/zenodo.10259847.
   sameAs: https://doi.org/10.5281/zenodo.10259847
   datePublished: '2023-12-18'
   license:
