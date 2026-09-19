@@ -12,3 +12,58 @@ TOTAL_LIPID_CONCENTRATION: 4.4
 # 2:1 DMPC:betaOG system
 # 32 mass % water
 COUNTER_IONS:
+bioschema_properties:
+  name: C-H bond order parameters of a DMPC/BOG (67:33) bilayer at 298 K, 13 waters per lipid (NMR) [unpublished, nesterenkoDMPCbOG]
+  description: Experimental C-H bond order parameters for a lipid bilayer of DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine, 67 mol%) and BOG (beta-octyl D-glucopyranoside, 33 mol%) at 298 K, hydrated to 13 waters per lipid. Measured by nuclear magnetic resonance spectroscopy. Unpublished data contributed to the NMRlipids Databank.
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  keywords:
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - DMPC
+  - 1,2-dimyristoyl-sn-glycero-3-phosphocholine
+  - BOG
+  - beta-octyl D-glucopyranoside
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: nuclear magnetic resonance spectroscopy
+    termCode: CHMO_0000591
+    inDefinedTermSet: http://purl.obolibrary.org/obo/chmo.owl
+    url: http://purl.obolibrary.org/obo/CHMO_0000591
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  variableMeasured:
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    name: BOG_OrderParameters.json
+    encodingFormat: application/json
+  - '@type': DataDownload
+    name: DMPC_OrderParameters.json
+    encodingFormat: application/json
+  _source:
+    api: null
+    doi: null
+    retrieved: '2026-09-09'
