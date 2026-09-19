@@ -39,9 +39,12 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 357
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DPPC bilayer at 288 K (CHARMM36, GROMACS 2020, 25 ns) [NMRlipids simulation 357]
+  name: Molecular dynamics trajectory of a DPPC bilayer at 288 K (CHARMM36, GROMACS
+    2020, 25 ns) [NMRlipids simulation 357]
   alternateName: 192DPPC_318692SOL_288K
-  description: Molecular dynamics trajectory of a lipid bilayer of 256 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 288 K. Simulated with CHARMM36 in GROMACS 2020 for 25 ns (160756 atoms). Deposited as NMRlipids Databank simulation 357 and available from https://doi.org/10.5281/zenodo.4300706.
+  description: Molecular dynamics trajectory of a lipid bilayer of 256 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine)
+    at 288 K. Simulated with CHARMM36 in GROMACS 2020 for 25 ns (160756 atoms). Deposited
+    as NMRlipids Databank simulation 357 and available from https://doi.org/10.5281/zenodo.4300706.
   sameAs: https://doi.org/10.5281/zenodo.4300706
   datePublished: '2020-12-01'
   license:
@@ -134,7 +137,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.4300706
     identifier: 10.5281/zenodo.4300706
     url: https://doi.org/10.5281/zenodo.4300706
-    name: 256 DPPC Molecules bilayer in pure Water, simulated at 288K (gel) or 358K (fluid)
+    name: 256 DPPC Molecules bilayer in pure Water, simulated at 288K (gel) or 358K
+      (fluid)
     publisher: Zenodo
   accessRights: openAccess
   _source:

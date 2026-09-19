@@ -45,9 +45,13 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 207
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPG/SOD (50:50) bilayer at 298 K (Slipids, GROMACS 5.0.4, 50 ns) [NMRlipids simulation 207]
+  name: Molecular dynamics trajectory of a POPG/SOD (50:50) bilayer at 298 K (Slipids,
+    GROMACS 5.0.4, 50 ns) [NMRlipids simulation 207]
   alternateName: 288POPG_10664SOL_288SOD_298K
-  description: Molecular dynamics trajectory of a lipid bilayer of 288 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 50 mol%) and 288 SOD (50 mol%) at 298 K. Simulated with Slipids in GROMACS 5.0.4 for 50 ns (68856 atoms). Deposited as NMRlipids Databank simulation 207 and available from https://doi.org/10.5281/zenodo.546133.
+  description: Molecular dynamics trajectory of a lipid bilayer of 288 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol,
+    50 mol%) and 288 SOD (50 mol%) at 298 K. Simulated with Slipids in GROMACS 5.0.4
+    for 50 ns (68856 atoms). Deposited as NMRlipids Databank simulation 207 and available
+    from https://doi.org/10.5281/zenodo.546133.
   sameAs: https://doi.org/10.5281/zenodo.546133
   datePublished: '2017-04-13'
   license:
@@ -138,7 +142,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.546133
     identifier: 10.5281/zenodo.546133
     url: https://doi.org/10.5281/zenodo.546133
-    name: 'Md Simulation Trajectory Of A Fully Hydrated Popg Bilayer: Slipids, Gromacs 5.0.4. 2017.'
+    name: 'Md Simulation Trajectory Of A Fully Hydrated Popg Bilayer: Slipids, Gromacs
+      5.0.4. 2017.'
     publisher: Zenodo
   accessRights: openAccess
   _source:

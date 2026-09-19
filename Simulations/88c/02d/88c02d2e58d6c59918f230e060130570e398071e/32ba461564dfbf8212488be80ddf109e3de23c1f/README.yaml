@@ -47,9 +47,12 @@ EXPERIMENT:
   - 10.1016/j.bbamem.2011.07.022/19
 ID: 501
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DMPC bilayer at 323 K (Berger, GROMACS 3.x, 110 ns) [NMRlipids simulation 501]
+  name: Molecular dynamics trajectory of a DMPC bilayer at 323 K (Berger, GROMACS
+    3.x, 110 ns) [NMRlipids simulation 501]
   alternateName: 128DMPC_5097SOL_323K_Berger
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine) at 323 K. Simulated with Berger in GROMACS 3.x for 110 ns (21179 atoms). Deposited as NMRlipids Databank simulation 501 and available from https://doi.org/10.5281/zenodo.51635.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine)
+    at 323 K. Simulated with Berger in GROMACS 3.x for 110 ns (21179 atoms). Deposited
+    as NMRlipids Databank simulation 501 and available from https://doi.org/10.5281/zenodo.51635.
   sameAs: https://doi.org/10.5281/zenodo.51635
   datePublished: '2013-10-23'
   license:
@@ -144,7 +147,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.51635
     identifier: 10.5281/zenodo.51635
     url: https://doi.org/10.5281/zenodo.51635
-    name: Molecular dynamics simulation trajectory of a fully hydrated DMPC lipid bilayer
+    name: Molecular dynamics simulation trajectory of a fully hydrated DMPC lipid
+      bilayer
     publisher: Zenodo
   accessRights: openAccess
   _source:

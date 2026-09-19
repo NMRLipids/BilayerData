@@ -52,9 +52,13 @@ EXPERIMENT:
     TLCL_0H: []
   FORMFACTOR: []
 bioschema_properties:
-  name: Molecular dynamics trajectory of a SOD/TLCL_0H/CLA (64:29:7) bilayer at 303.15 K (Charmm36, GROMACS 2023.2, 500 ns) [NMRlipids simulation 825]
+  name: Molecular dynamics trajectory of a SOD/TLCL_0H/CLA (64:29:7) bilayer at 303.15
+    K (Charmm36, GROMACS 2023.2, 500 ns) [NMRlipids simulation 825]
   alternateName: TLCL_66_Na_Cl_T303_45w/P
-  description: Molecular dynamics trajectory of a lipid bilayer of 147 SOD (64 mol%), 66 TLCL_0H (tetralinoleoyl cardiolipin(2−), 29 mol%) and 15 CLA (7 mol%) at 303.15 K. Simulated with Charmm36 in GROMACS 2023.2 for 500 ns (33933 atoms). Deposited as NMRlipids Databank simulation 825 and available from https://doi.org/10.5281/zenodo.13933145.
+  description: Molecular dynamics trajectory of a lipid bilayer of 147 SOD (64 mol%),
+    66 TLCL_0H (tetralinoleoyl cardiolipin(2−), 29 mol%) and 15 CLA (7 mol%) at 303.15
+    K. Simulated with Charmm36 in GROMACS 2023.2 for 500 ns (33933 atoms). Deposited
+    as NMRlipids Databank simulation 825 and available from https://doi.org/10.5281/zenodo.13933145.
   sameAs: https://doi.org/10.5281/zenodo.13933145
   datePublished: '2024-10-15'
   license:

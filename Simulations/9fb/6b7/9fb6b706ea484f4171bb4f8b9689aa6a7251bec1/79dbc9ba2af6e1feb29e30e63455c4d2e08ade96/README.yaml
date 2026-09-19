@@ -50,9 +50,13 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 276
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/SOD (42:29:29) bilayer at 298 K (Orange, GROMACS 4.5, 120 ns) [NMRlipids simulation 276]
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (42:29:29) bilayer at 298
+    K (Orange, GROMACS 4.5, 120 ns) [NMRlipids simulation 276]
   alternateName: 72POPC_2780SOL_50CLA_50SOD_298K
-  description: Molecular dynamics trajectory of a lipid bilayer of 72 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 42 mol%), 50 CLA (29 mol%) and 50 SOD (29 mol%) at 298 K. Simulated with Orange in GROMACS 4.5 for 120 ns (12184 atoms). Deposited as NMRlipids Databank simulation 276 and available from https://doi.org/10.5281/zenodo.34497.
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    42 mol%), 50 CLA (29 mol%) and 50 SOD (29 mol%) at 298 K. Simulated with Orange
+    in GROMACS 4.5 for 120 ns (12184 atoms). Deposited as NMRlipids Databank simulation
+    276 and available from https://doi.org/10.5281/zenodo.34497.
   sameAs: https://doi.org/10.5281/zenodo.34497
   datePublished: '2015-12-02'
   license:
@@ -141,7 +145,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.34497
     identifier: 10.5281/zenodo.34497
     url: https://doi.org/10.5281/zenodo.34497
-    name: Md Simulation Trajectory For Popc Bilayer With 1000Mm Nacl (Orange, Gromacs 4.5.)
+    name: Md Simulation Trajectory For Popc Bilayer With 1000Mm Nacl (Orange, Gromacs
+      4.5.)
     publisher: Zenodo
   accessRights: openAccess
   _source:

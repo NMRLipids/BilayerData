@@ -49,9 +49,14 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 50
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/SOD (83:9:9) bilayer at 310 K (Slipids for lipids, Smith and Dang for NaCl, GROMACS 4.6, 100 ns) [NMRlipids simulation 50]
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (83:9:9) bilayer at 310 K
+    (Slipids for lipids, Smith and Dang for NaCl, GROMACS 4.6, 100 ns) [NMRlipids
+    simulation 50]
   alternateName: 200POPC_9000SOL_21SOD_21CLA_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 83 mol%), 21 CLA (9 mol%) and 21 SOD (9 mol%) at 310 K. Simulated with Slipids for lipids, Smith and Dang for NaCl in GROMACS 4.6 for 100 ns (53842 atoms). Deposited as NMRlipids Databank simulation 50 and available from https://doi.org/10.5281/zenodo.35275.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    83 mol%), 21 CLA (9 mol%) and 21 SOD (9 mol%) at 310 K. Simulated with Slipids
+    for lipids, Smith and Dang for NaCl in GROMACS 4.6 for 100 ns (53842 atoms). Deposited
+    as NMRlipids Databank simulation 50 and available from https://doi.org/10.5281/zenodo.35275.
   sameAs: https://doi.org/10.5281/zenodo.35275
   datePublished: '2015-12-12'
   license:

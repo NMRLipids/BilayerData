@@ -44,9 +44,12 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 482
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPE bilayer at 313 K (GROMOS-CKP, GROMACS 5.0.6, 400 ns) [NMRlipids simulation 482]
+  name: Molecular dynamics trajectory of a POPE bilayer at 313 K (GROMOS-CKP, GROMACS
+    5.0.6, 400 ns) [NMRlipids simulation 482]
   alternateName: 128POPE_3552SOL_313K_GROMOS-CKP_v2
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 313 K. Simulated with GROMOS-CKP in GROMACS 5.0.6 for 400 ns (17312 atoms). Deposited as NMRlipids Databank simulation 482 and available from https://doi.org/10.5281/zenodo.1293932.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine)
+    at 313 K. Simulated with GROMOS-CKP in GROMACS 5.0.6 for 400 ns (17312 atoms).
+    Deposited as NMRlipids Databank simulation 482 and available from https://doi.org/10.5281/zenodo.1293932.
   sameAs: https://doi.org/10.5281/zenodo.1293932
   datePublished: '2018-06-20'
   license:

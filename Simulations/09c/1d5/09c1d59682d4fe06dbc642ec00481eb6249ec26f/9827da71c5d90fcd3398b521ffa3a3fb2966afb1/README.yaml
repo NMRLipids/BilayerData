@@ -53,9 +53,14 @@ EXPERIMENT:
     TOCL: []
   FORMFACTOR: []
 bioschema_properties:
-  name: Molecular dynamics trajectory of a TMA/TOCL/CLA (65:30:5) bilayer at 303.15 K (Charmm36, GROMACS 2023.2, 500 ns) [NMRlipids simulation 826]
+  name: Molecular dynamics trajectory of a TMA/TOCL/CLA (65:30:5) bilayer at 303.15
+    K (Charmm36, GROMACS 2023.2, 500 ns) [NMRlipids simulation 826]
   alternateName: TOCL_66_TMA_Cl_T303_32w/P
-  description: Molecular dynamics trajectory of a lipid bilayer of 143 TMA (65 mol%), 66 TOCL (1’,3’-Bis[1,2-dioleoyl-sn-glycero-3-phospho]-glycerol, 30 mol%) and 11 CLA (5 mol%) at 303.15 K. Simulated with Charmm36 in GROMACS 2023.2 for 500 ns (31578 atoms). Deposited as NMRlipids Databank simulation 826 and available from https://doi.org/10.5281/zenodo.13933145.
+  description: Molecular dynamics trajectory of a lipid bilayer of 143 TMA (65 mol%),
+    66 TOCL (1’,3’-Bis[1,2-dioleoyl-sn-glycero-3-phospho]-glycerol, 30 mol%) and 11
+    CLA (5 mol%) at 303.15 K. Simulated with Charmm36 in GROMACS 2023.2 for 500 ns
+    (31578 atoms). Deposited as NMRlipids Databank simulation 826 and available from
+    https://doi.org/10.5281/zenodo.13933145.
   sameAs: https://doi.org/10.5281/zenodo.13933145
   datePublished: '2024-10-15'
   license:

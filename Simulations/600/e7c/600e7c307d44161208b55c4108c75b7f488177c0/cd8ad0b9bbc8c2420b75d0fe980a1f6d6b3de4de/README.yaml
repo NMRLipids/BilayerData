@@ -70,9 +70,15 @@ TRJ:
 SOFTWARE: gromacs
 ID: 3
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DMPC/SOD/SAPI/CLA/POPI/SLIPI (46:27:12:7:4:4) bilayer at 303.15 K (CHARMM36, GROMACS, 2000 ns) [NMRlipids simulation 3]
+  name: Molecular dynamics trajectory of a DMPC/SOD/SAPI/CLA/POPI/SLIPI (46:27:12:7:4:4)
+    bilayer at 303.15 K (CHARMM36, GROMACS, 2000 ns) [NMRlipids simulation 3]
   alternateName: DMPC/liverPI bilayer
-  description: Molecular dynamics trajectory of a lipid bilayer of 180 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine, 46 mol%), 104 SOD (27 mol%), 46 SAPI (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol, 12 mol%), 28 CLA (7 mol%), 16 POPI (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol, 4 mol%) and 14 SLIPI (1-stearoyl-2-linoleoyl-phosphatidylinositol(-1), 4 mol%) at 303.15 K. Simulated with CHARMM36 in GROMACS for 2000 ns (70516 atoms). Deposited as NMRlipids Databank simulation 3 and available from https://doi.org/10.5281/zenodo.4651415.
+  description: Molecular dynamics trajectory of a lipid bilayer of 180 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine,
+    46 mol%), 104 SOD (27 mol%), 46 SAPI (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol,
+    12 mol%), 28 CLA (7 mol%), 16 POPI (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol,
+    4 mol%) and 14 SLIPI (1-stearoyl-2-linoleoyl-phosphatidylinositol(-1), 4 mol%)
+    at 303.15 K. Simulated with CHARMM36 in GROMACS for 2000 ns (70516 atoms). Deposited
+    as NMRlipids Databank simulation 3 and available from https://doi.org/10.5281/zenodo.4651415.
   sameAs: https://doi.org/10.5281/zenodo.4651415
   datePublished: '2021-03-31'
   license:

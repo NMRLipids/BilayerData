@@ -57,9 +57,14 @@ EXPERIMENT:
     TLCL_0H: []
   FORMFACTOR: []
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/POT/TLCL_0H/CLA (48:32:12:8) bilayer at 303.15 K (CHARMM36, GROMACS 5.0.6, 500 ns) [NMRlipids simulation 779]
+  name: Molecular dynamics trajectory of a POPC/POT/TLCL_0H/CLA (48:32:12:8) bilayer
+    at 303.15 K (CHARMM36, GROMACS 5.0.6, 500 ns) [NMRlipids simulation 779]
   alternateName: TLCL:POPC(30%)50mM-CHARMM
-  description: Molecular dynamics trajectory of a lipid bilayer of 80 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 48 mol%), 54 POT (32 mol%), 20 TLCL_0H (tetralinoleoyl cardiolipin(2−), 12 mol%) and 14 CLA (8 mol%) at 303.15 K. Simulated with CHARMM36 in GROMACS 5.0.6 for 500 ns (60987 atoms). Deposited as NMRlipids Databank simulation 779 and available from https://doi.org/10.5281/zenodo.8386813.
+  description: Molecular dynamics trajectory of a lipid bilayer of 80 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    48 mol%), 54 POT (32 mol%), 20 TLCL_0H (tetralinoleoyl cardiolipin(2−), 12 mol%)
+    and 14 CLA (8 mol%) at 303.15 K. Simulated with CHARMM36 in GROMACS 5.0.6 for
+    500 ns (60987 atoms). Deposited as NMRlipids Databank simulation 779 and available
+    from https://doi.org/10.5281/zenodo.8386813.
   sameAs: https://doi.org/10.5281/zenodo.8386813
   datePublished: '2023-09-28'
   license:

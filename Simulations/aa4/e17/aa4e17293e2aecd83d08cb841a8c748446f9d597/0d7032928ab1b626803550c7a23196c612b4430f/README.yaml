@@ -53,9 +53,14 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 138
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/POPG/SOD (54:23:23) bilayer at 310 K (Slipids, GROMACS 2018.3, 100 ns) [NMRlipids simulation 138]
+  name: Molecular dynamics trajectory of a POPC/POPG/SOD (54:23:23) bilayer at 310
+    K (Slipids, GROMACS 2018.3, 100 ns) [NMRlipids simulation 138]
   alternateName: 150POPG_350POPC_25000SOL_150SOD_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 350 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 54 mol%), 150 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 23 mol%) and 150 SOD (23 mol%) at 310 K. Simulated with Slipids in GROMACS 2018.3 for 100 ns (141100 atoms). Deposited as NMRlipids Databank simulation 138 and available from https://doi.org/10.5281/zenodo.3240156.
+  description: Molecular dynamics trajectory of a lipid bilayer of 350 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    54 mol%), 150 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 23 mol%)
+    and 150 SOD (23 mol%) at 310 K. Simulated with Slipids in GROMACS 2018.3 for 100
+    ns (141100 atoms). Deposited as NMRlipids Databank simulation 138 and available
+    from https://doi.org/10.5281/zenodo.3240156.
   sameAs: https://doi.org/10.5281/zenodo.3240156
   datePublished: '2019-06-06'
   license:

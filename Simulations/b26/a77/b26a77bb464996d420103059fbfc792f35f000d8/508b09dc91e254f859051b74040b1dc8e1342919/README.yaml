@@ -46,9 +46,12 @@ EXPERIMENT:
   - 10.1021/acs.jctc.3c00648/1
 ID: 115
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC bilayer at 300 K (Berger, GROMACS, 300 ns) [NMRlipids simulation 115]
+  name: Molecular dynamics trajectory of a POPC bilayer at 300 K (Berger, GROMACS,
+    300 ns) [NMRlipids simulation 115]
   alternateName: 256POPC_10342SOL_300K_Berger
-  description: Molecular dynamics trajectory of a lipid bilayer of 256 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with Berger in GROMACS for 300 ns (44338 atoms). Deposited as NMRlipids Databank simulation 115 and available from https://doi.org/10.5281/zenodo.1402417.
+  description: Molecular dynamics trajectory of a lipid bilayer of 256 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine)
+    at 300 K. Simulated with Berger in GROMACS for 300 ns (44338 atoms). Deposited
+    as NMRlipids Databank simulation 115 and available from https://doi.org/10.5281/zenodo.1402417.
   sameAs: https://doi.org/10.5281/zenodo.1402417
   datePublished: '2018-08-23'
   license:

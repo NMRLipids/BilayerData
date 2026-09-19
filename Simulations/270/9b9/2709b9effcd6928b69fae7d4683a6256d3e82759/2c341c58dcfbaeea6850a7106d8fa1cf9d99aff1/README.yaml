@@ -57,9 +57,13 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 278
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/DHMDMAB (64:18:18) bilayer at 313 K (ECC-lipids, GROMACS 5.1.4, 200 ns) [NMRlipids simulation 278]
+  name: Molecular dynamics trajectory of a POPC/CLA/DHMDMAB (64:18:18) bilayer at
+    313 K (ECC-lipids, GROMACS 5.1.4, 200 ns) [NMRlipids simulation 278]
   alternateName: 100POPC_6214SOL_28DHMDMAB_CLA_313K_SPCEmodel
-  description: Molecular dynamics trajectory of a lipid bilayer of 100 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 64 mol%), 28 CLA (18 mol%) and 28 DHMDMAB (dihexadecyldimethylammonium, 18 mol%) at 313 K. Simulated with ECC-lipids in GROMACS 5.1.4 for 200 ns (35066 atoms). Deposited as NMRlipids Databank simulation 278 and available from https://doi.org/10.5281/zenodo.1118682.
+  description: Molecular dynamics trajectory of a lipid bilayer of 100 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    64 mol%), 28 CLA (18 mol%) and 28 DHMDMAB (dihexadecyldimethylammonium, 18 mol%)
+    at 313 K. Simulated with ECC-lipids in GROMACS 5.1.4 for 200 ns (35066 atoms).
+    Deposited as NMRlipids Databank simulation 278 and available from https://doi.org/10.5281/zenodo.1118682.
   sameAs: https://doi.org/10.5281/zenodo.1118682
   datePublished: '2017-12-19'
   license:
@@ -150,7 +154,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.1118682
     identifier: 10.5281/zenodo.1118682
     url: https://doi.org/10.5281/zenodo.1118682
-    name: Simulations Of Popc Lipid Bilayer In Water Solution With Various Molar Fractions Of Cationic Surfactant Dihexadecylammonium Using Ecc-Popc Force Field
+    name: Simulations Of Popc Lipid Bilayer In Water Solution With Various Molar Fractions
+      Of Cationic Surfactant Dihexadecylammonium Using Ecc-Popc Force Field
     publisher: Zenodo
   accessRights: openAccess
   _source:

@@ -45,9 +45,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 736
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/CAL (45:37:18) bilayer at 303 K (Charmm-Drude polarizable; system has been equilibriated using Charmm36, OPENMM 7.4.1, 516 ns) [NMRlipids simulation 736]
+  name: Molecular dynamics trajectory of a POPC/CLA/CAL (45:37:18) bilayer at 303
+    K (Charmm-Drude polarizable; system has been equilibriated using Charmm36, OPENMM
+    7.4.1, 516 ns) [NMRlipids simulation 736]
   alternateName: 128POPC_6400SOL_52CaCl2_303K
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 45 mol%), 104 CLA (37 mol%) and 52 CAL (18 mol%) at 303 K. Simulated with Charmm-Drude polarizable; system has been equilibriated using Charmm36 in OPENMM 7.4.1 for 516 ns (57144 atoms). Deposited as NMRlipids Databank simulation 736 and available from https://doi.org/10.5281/zenodo.7605016.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    45 mol%), 104 CLA (37 mol%) and 52 CAL (18 mol%) at 303 K. Simulated with Charmm-Drude
+    polarizable; system has been equilibriated using Charmm36 in OPENMM 7.4.1 for
+    516 ns (57144 atoms). Deposited as NMRlipids Databank simulation 736 and available
+    from https://doi.org/10.5281/zenodo.7605016.
   sameAs: https://doi.org/10.5281/zenodo.7605016
   datePublished: '2020-08-21'
   license:
@@ -139,7 +145,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.7605016
     identifier: 10.5281/zenodo.7605016
     url: https://doi.org/10.5281/zenodo.7605016
-    name: Pure POPC Membrane with 450mM CaCl2 simulations using Drude Polarizable Force Field and OpenMM
+    name: Pure POPC Membrane with 450mM CaCl2 simulations using Drude Polarizable
+      Force Field and OpenMM
     publisher: Zenodo
   accessRights: openAccess
   _source:

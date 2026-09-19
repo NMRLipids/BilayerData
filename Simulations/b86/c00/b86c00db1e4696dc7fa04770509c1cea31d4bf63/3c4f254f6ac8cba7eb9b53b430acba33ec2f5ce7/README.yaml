@@ -54,9 +54,13 @@ TRJLENGTH: 200010.0
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 238
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/DHMDMAB (36:32:32) bilayer at 313 K (CHARMM36, GROMACS, 200 ns) [NMRlipids simulation 238]
+  name: Molecular dynamics trajectory of a POPC/CLA/DHMDMAB (36:32:32) bilayer at
+    313 K (CHARMM36, GROMACS, 200 ns) [NMRlipids simulation 238]
   alternateName: POPC50%DHMDMAB_T313K
-  description: Molecular dynamics trajectory of a lipid bilayer of 100 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 36 mol%), 88 CLA (32 mol%) and 88 DHMDMAB (dihexadecyldimethylammonium, 32 mol%) at 313 K. Simulated with CHARMM36 in GROMACS for 200 ns (46802 atoms). Deposited as NMRlipids Databank simulation 238 and available from https://doi.org/10.5281/zenodo.1288297.
+  description: Molecular dynamics trajectory of a lipid bilayer of 100 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    36 mol%), 88 CLA (32 mol%) and 88 DHMDMAB (dihexadecyldimethylammonium, 32 mol%)
+    at 313 K. Simulated with CHARMM36 in GROMACS for 200 ns (46802 atoms). Deposited
+    as NMRlipids Databank simulation 238 and available from https://doi.org/10.5281/zenodo.1288297.
   sameAs: https://doi.org/10.5281/zenodo.1288297
   datePublished: '2018-06-13'
   license:

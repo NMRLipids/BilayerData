@@ -59,9 +59,14 @@ EXPERIMENT:
     TOCL: []
   FORMFACTOR: []
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPG/POT/DPPGK/CLA/TOCL (40:27:23:7:3) bilayer at 303 K (Charmm36, OPENMM 7.5.1, 500 ns) [NMRlipids simulation 782]
+  name: Molecular dynamics trajectory of a POPG/POT/DPPGK/CLA/TOCL (40:27:23:7:3)
+    bilayer at 303 K (Charmm36, OPENMM 7.5.1, 500 ns) [NMRlipids simulation 782]
   alternateName: Gram-positive bilayer membrane (60% PG, 35% lysyl-PG, 5% CL)
-  description: Molecular dynamics trajectory of a lipid bilayer of 96 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 40 mol%), 64 POT (27 mol%), 56 DPPGK (1,2-dioleoyl-sn-glycero-3-[phospho-rac-(3-lysyl(1-glycerol))] (lysyl-PG), 23 mol%), 16 CLA (7 mol%) and 8 TOCL (1’,3’-Bis[1,2-dioleoyl-sn-glycero-3-phospho]-glycerol, 3 mol%) at 303 K. Simulated with Charmm36 in OPENMM 7.5.1 for 500 ns (42576 atoms). Deposited as NMRlipids Databank simulation 782 and available from https://doi.org/10.5281/zenodo.8415046.
+  description: Molecular dynamics trajectory of a lipid bilayer of 96 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol,
+    40 mol%), 64 POT (27 mol%), 56 DPPGK (1,2-dioleoyl-sn-glycero-3-[phospho-rac-(3-lysyl(1-glycerol))]
+    (lysyl-PG), 23 mol%), 16 CLA (7 mol%) and 8 TOCL (1’,3’-Bis[1,2-dioleoyl-sn-glycero-3-phospho]-glycerol,
+    3 mol%) at 303 K. Simulated with Charmm36 in OPENMM 7.5.1 for 500 ns (42576 atoms).
+    Deposited as NMRlipids Databank simulation 782 and available from https://doi.org/10.5281/zenodo.8415046.
   sameAs: https://doi.org/10.5281/zenodo.8415046
   datePublished: '2023-10-06'
   license:
@@ -153,7 +158,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.8415046
     identifier: 10.5281/zenodo.8415046
     url: https://doi.org/10.5281/zenodo.8415046
-    name: MD simulation of a model Gram-positive bilayer membrane (60% PG, 35% lysyl-PG, 5% CL)
+    name: MD simulation of a model Gram-positive bilayer membrane (60% PG, 35% lysyl-PG,
+      5% CL)
     publisher: Zenodo
   accessRights: openAccess
   _source:

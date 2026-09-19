@@ -54,9 +54,14 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 288
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/PAzePCprot (70:30) bilayer at 298 K (Berger, GROMACS 4.5, 50 ns) [NMRlipids simulation 288]
+  name: Molecular dynamics trajectory of a POPC/PAzePCprot (70:30) bilayer at 298
+    K (Berger, GROMACS 4.5, 50 ns) [NMRlipids simulation 288]
   alternateName: 90POPC_38PAzePCprot_7632SOL_298K
-  description: Molecular dynamics trajectory of a lipid bilayer of 90 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 70 mol%) and 38 PAzePCprot (1-palmitoyl-2-azelaoyl-sn-glycero-3-phosphocholine protonated, 30 mol%) at 298 K. Simulated with Berger in GROMACS 4.5 for 50 ns (29324 atoms). Deposited as NMRlipids Databank simulation 288 and available from https://doi.org/10.5281/zenodo.44660.
+  description: Molecular dynamics trajectory of a lipid bilayer of 90 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    70 mol%) and 38 PAzePCprot (1-palmitoyl-2-azelaoyl-sn-glycero-3-phosphocholine
+    protonated, 30 mol%) at 298 K. Simulated with Berger in GROMACS 4.5 for 50 ns
+    (29324 atoms). Deposited as NMRlipids Databank simulation 288 and available from
+    https://doi.org/10.5281/zenodo.44660.
   sameAs: https://doi.org/10.5281/zenodo.44660
   datePublished: '2016-01-12'
   license:
@@ -147,7 +152,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.44660
     identifier: 10.5281/zenodo.44660
     url: https://doi.org/10.5281/zenodo.44660
-    name: MD simulation trajectory and related files for POPC bilayer with 30 mol% of protonated pazePC (Berger, Gromacs 4.5.)
+    name: MD simulation trajectory and related files for POPC bilayer with 30 mol%
+      of protonated pazePC (Berger, Gromacs 4.5.)
     publisher: Zenodo
   accessRights: openAccess
   _source:

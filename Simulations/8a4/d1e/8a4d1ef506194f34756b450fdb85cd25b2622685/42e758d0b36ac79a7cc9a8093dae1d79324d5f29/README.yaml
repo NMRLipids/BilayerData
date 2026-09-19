@@ -56,9 +56,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 306
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/CHOL/CAL (40:29:17:14) bilayer at 310 K (Slipids with default Amber ions parameters (type C0), GROMACS 4.6, 2000 ns) [NMRlipids simulation 306]
+  name: Molecular dynamics trajectory of a POPC/CLA/CHOL/CAL (40:29:17:14) bilayer
+    at 310 K (Slipids with default Amber ions parameters (type C0), GROMACS 4.6, 2000
+    ns) [NMRlipids simulation 306]
   alternateName: 86CHOL_200POPC_9000SOL_73CAL_146CLA_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 40 mol%), 146 CLA (29 mol%), 86 CHOL (cholesterol, 17 mol%) and 73 CAL (14 mol%) at 310 K. Simulated with Slipids with default Amber ions parameters (type C0) in GROMACS 4.6 for 2000 ns (60383 atoms). Deposited as NMRlipids Databank simulation 306 and available from https://doi.org/10.5281/zenodo.259349.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    40 mol%), 146 CLA (29 mol%), 86 CHOL (cholesterol, 17 mol%) and 73 CAL (14 mol%)
+    at 310 K. Simulated with Slipids with default Amber ions parameters (type C0)
+    in GROMACS 4.6 for 2000 ns (60383 atoms). Deposited as NMRlipids Databank simulation
+    306 and available from https://doi.org/10.5281/zenodo.259349.
   sameAs: https://doi.org/10.5281/zenodo.259349
   datePublished: '2017-01-24'
   license:
@@ -148,7 +154,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.259349
     identifier: 10.5281/zenodo.259349
     url: https://doi.org/10.5281/zenodo.259349
-    name: Popc With Varying Amounts Of Cholesterol, 450 Mm Of Cacl_2. Slipids With Default Amber Ions
+    name: Popc With Varying Amounts Of Cholesterol, 450 Mm Of Cacl_2. Slipids With
+      Default Amber Ions
     publisher: Zenodo
   accessRights: openAccess
   _source:
