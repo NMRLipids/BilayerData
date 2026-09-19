@@ -27,7 +27,6 @@ COMPOSITION:
     MAPPING: mappingCL.yaml
     COUNT: 12
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Girych Mykhailo; Ollila O. H. Samuli
 SYSTEM: 128POPC_5120SOL_12SOD_12CLA_298K
 SOFTWARE_VERSION: 5.0.3
@@ -42,10 +41,112 @@ TRAJECTORY_SIZE: 1206845768
 TRJLENGTH: 100010.0
 TEMPERATURE: 298.15
 NUMBER_OF_ATOMS: 32536
-DATEOFRUNNING: 03/01/2022
+DATEOFRUNNING: '2022-01-03'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPC: []
   FORMFACTOR: []
 ID: 397
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (84:8:8) bilayer at 298.15 K (Lipid14 for lipids and AMBER99SB-ILDN for ions, GROMACS 5.0.3, 100 ns) [NMRlipids simulation 397]
+  alternateName: 128POPC_5120SOL_12SOD_12CLA_298K
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 84 mol%), 12 CLA (8 mol%) and 12 SOD (8 mol%) at 298.15 K. Simulated with Lipid14 for lipids and AMBER99SB-ILDN for ions in GROMACS 5.0.3 for 100 ns (32536 atoms). Deposited as NMRlipids Databank simulation 397 and available from https://doi.org/10.5281/zenodo.30891.
+  sameAs: https://doi.org/10.5281/zenodo.30891
+  datePublished: '2015-09-11'
+  license:
+    spdx: GPL-3.0-only
+    name: GNU General Public License v3.0 only
+    url: https://spdx.org/licenses/GPL-3.0-only.html
+    sameAs: http://www.opensource.org/licenses/GPL-3.0
+  publisher: Zenodo
+  creator:
+  - name: Girych Mykhailo
+  - name: Ollila O. H. Samuli
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - SOD
+  - LIPID14
+  - Gromacs
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 5.0.3)
+  - Lipid14 for lipids and AMBER99SB-ILDN for ions force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.30891
+    name: 128POPC_5120SOL_12SOD_12CLA_298K
+    contentSize: 1206845768
+    encodingFormat: application/x-xtc
+    hasPart:
+    - 015_popc_amb_100_200ns.xtc
+    - run_200ns_gpu.tpr
+    - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.30891
+    identifier: 10.5281/zenodo.30891
+    url: https://doi.org/10.5281/zenodo.30891
+    name: Popc_Amber_Lipid14_Nacl_015Mol
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.30891
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

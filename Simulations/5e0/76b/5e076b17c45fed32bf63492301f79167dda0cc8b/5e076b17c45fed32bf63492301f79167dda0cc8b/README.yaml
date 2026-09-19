@@ -35,7 +35,6 @@ COMPOSITION:
     NAME: CLA
     MAPPING: mappingCLA.yaml
     COUNT: 35
-PUBLICATION: Doktorova et al. 2017 Phys. Chem. Chem. Phys. article (DOI 10.1039/c7cp01921a)
 AUTHORS_CONTACT: Milka Doktorova
 SYSTEM: POPC/PSM (70/30) NAMD
 SOFTWARE_VERSION: null
@@ -46,7 +45,7 @@ TOP: null
 TRAJECTORY_SIZE: 2583554876
 TRJLENGTH: 153.75342045
 NUMBER_OF_ATOMS: 68450
-DATEOFRUNNING: 22/09/2023
+DATEOFRUNNING: '2023-09-22'
 TYPEOFSYSTEM: lipid bilayer
 ID: 770
 EXPERIMENT:
@@ -54,3 +53,110 @@ EXPERIMENT:
     SM16: []
     POPC: []
   FORMFACTOR: []
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC/SM16/CLA/SOD (52:22:13:13) bilayer at 298 K (Charmm36, NAMD, 0 ns) [NMRlipids simulation 770]
+  alternateName: POPC/PSM (70/30) NAMD
+  description: Molecular dynamics trajectory of a lipid bilayer of 140 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 52 mol%), 60 SM16 (N-palmitoyl-D-erythro-sphingosylphosphorylcholine, 22 mol%), 35 CLA (13 mol%) and 35 SOD (13 mol%) at 298 K. Simulated with Charmm36 in NAMD for 0 ns (68450 atoms). Deposited as NMRlipids Databank simulation 770 and available from https://doi.org/10.5281/zenodo.8357123.
+  sameAs: https://doi.org/10.5281/zenodo.8357123
+  datePublished: '2023-09-18'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Doktorova, Milka
+    identifier: https://orcid.org/0000-0003-4366-2242
+  citation:
+  - 10.1039/c7cp01921a
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SM16
+  - N-palmitoyl-D-erythro-sphingosylphosphorylcholine
+  - CLA
+  - SOD
+  - PSM
+  - lipid mixture
+  - membrane simulation
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (NAMD)
+  - Charmm36 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.8357123
+    name: POPC/PSM (70/30) NAMD
+    contentSize: 2583554876
+    encodingFormat: application/x-dcd
+    hasPart:
+    - traj_center.dcd
+    - struct.psf
+    - struct.pdb
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8357123
+    identifier: 10.5281/zenodo.8357123
+    url: https://doi.org/10.5281/zenodo.8357123
+    name: NAMD Trajectory of a POPC/PSM 70/30 bilayer
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8357123
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

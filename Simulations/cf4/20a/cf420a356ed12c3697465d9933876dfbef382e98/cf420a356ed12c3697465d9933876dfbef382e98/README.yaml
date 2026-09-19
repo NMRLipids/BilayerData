@@ -15,7 +15,6 @@ COMPOSITION:
     COUNT:
     - 34
     - 38
-PUBLICATION: null
 AUTHORS_CONTACT: Kav, Batuhan
 SYSTEM: 72POPC_303K (equilibriated using Charmm36)
 SOFTWARE_VERSION: 7.4.1
@@ -28,7 +27,7 @@ CRD: null
 TRAJECTORY_SIZE: 6708175668
 TRJLENGTH: 1955.62617642
 NUMBER_OF_ATOMS: 13968
-DATEOFRUNNING: 12/07/2022
+DATEOFRUNNING: '2022-07-12'
 TYPEOFSYSTEM: lipid bilayer
 WARNINGS:
   NOWATER: true
@@ -37,3 +36,91 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 ID: 562
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (Charmm-Drude polarizable, OPENMM 7.4.1, 2 ns) [NMRlipids simulation 562]
+  alternateName: 72POPC_303K (equilibriated using Charmm36)
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with Charmm-Drude polarizable in OPENMM 7.4.1 for 2 ns (13968 atoms). Deposited as NMRlipids Databank simulation 562 and available from https://doi.org/10.5281/zenodo.3865283.
+  sameAs: https://doi.org/10.5281/zenodo.3865283
+  datePublished: '2020-05-29'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kav, Batuhan
+    identifier: https://orcid.org/0000-0003-4990-373X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - Zwitterionic lipids
+  - Drude polarizable model
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (openMM 7.4.1)
+  - Charmm-Drude polarizable force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3865283
+    name: 72POPC_303K (equilibriated using Charmm36)
+    contentSize: 6708175668
+    encodingFormat: application/x-dcd
+    hasPart:
+    - production_after_equilibration_400ns_nowater.dcd
+    - production_last_frame_nowater.pdb
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3865283
+    identifier: 10.5281/zenodo.3865283
+    url: https://doi.org/10.5281/zenodo.3865283
+    name: Pure POPC Membrane Simulation Using Charmm-Drude Force Field with OpenMM
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3865283
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

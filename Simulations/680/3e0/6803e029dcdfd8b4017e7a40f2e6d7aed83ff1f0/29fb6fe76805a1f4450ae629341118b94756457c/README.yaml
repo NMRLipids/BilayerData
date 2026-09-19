@@ -19,7 +19,6 @@ COMPOSITION:
     MAPPING: mappingTIP3Pwater.yaml
     COUNT: 896
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: 10.1021/acs.jpcb.5b04878
 AUTHORS_CONTACT: Ollila O. H. Samuli
 SYSTEM: 126POPC_896SOL_303K
 SOFTWARE_VERSION: 4.5
@@ -34,10 +33,109 @@ TRAJECTORY_SIZE: 1968193272
 TRJLENGTH: 41890.0
 TEMPERATURE: 303.0
 NUMBER_OF_ATOMS: 19572
-DATEOFRUNNING: 17/01/2022
+DATEOFRUNNING: '2022-01-17'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPC: []
   FORMFACTOR: []
 ID: 477
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (GAFFlipid, GROMACS 4.5, 42 ns) [NMRlipids simulation 477]
+  alternateName: 126POPC_896SOL_303K
+  description: Molecular dynamics trajectory of a lipid bilayer of 126 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with GAFFlipid in GROMACS 4.5 for 42 ns (19572 atoms). Deposited as NMRlipids Databank simulation 477 and available from https://doi.org/10.5281/zenodo.13853.
+  sameAs: https://doi.org/10.5281/zenodo.13853
+  datePublished: '2015-01-09'
+  license:
+    spdx: GPL-3.0-only
+    name: GNU General Public License v3.0 only
+    url: https://spdx.org/licenses/GPL-3.0-only.html
+    sameAs: http://www.opensource.org/licenses/GPL-3.0
+  publisher: Zenodo
+  creator:
+  - name: Ollila O. H. Samuli
+  citation:
+  - 10.1021/acs.jpcb.5b04878
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 4.5)
+  - GAFFlipid force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.13853
+    name: 126POPC_896SOL_303K
+    contentSize: 1968193272
+    encodingFormat: application/x-trr
+    hasPart:
+    - popcRUN3.trr
+    - popcRUN3.tpr
+    - popc3.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.13853
+    identifier: 10.5281/zenodo.13853
+    url: https://doi.org/10.5281/zenodo.13853
+    name: Md Simulation Trajectory And Related Files For Popc Bilayer In Low Hydration (Gafflipid, Gromacs 4.5)
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.13853
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

@@ -35,7 +35,7 @@ TOP:
 TRAJECTORY_SIZE: 24375430296
 TRJLENGTH: 591970.0
 NUMBER_OF_ATOMS: 17152
-DATEOFRUNNING: 12/10/2023
+DATEOFRUNNING: '2023-10-12'
 TYPEOFSYSTEM: lipid bilayer
 ID: 788
 EXPERIMENT:
@@ -44,3 +44,110 @@ EXPERIMENT:
     - 10.1039/B508190D/3
     - unpublished/nesterenkoDMPCbOG/1
   FORMFACTOR: []
+bioschema_properties:
+  name: Molecular dynamics trajectory of a DMPC bilayer at 313.15 K (Charmm36, GROMACS 2022.5, 592 ns) [NMRlipids simulation 788]
+  alternateName: DMPC(313K,rfz)
+  description: Molecular dynamics trajectory of a lipid bilayer of 64 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine) at 313.15 K. Simulated with Charmm36 in GROMACS 2022.5 for 592 ns (17152 atoms). Deposited as NMRlipids Databank simulation 788 and available from https://doi.org/10.5281/zenodo.8431710.
+  sameAs: https://doi.org/10.5281/zenodo.8431710
+  datePublished: '2023-10-11'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Alexey, Nesterenko
+    identifier: https://orcid.org/0000-0003-1592-257X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DMPC
+  - 1,2-dimyristoyl-sn-glycero-3-phosphocholine
+  - MD simulations
+  - lipid bilayer
+  - PME
+  - reaction field
+  - GROMACS
+  - NMRlipids
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 2022.5)
+  - Charmm36 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.8431710
+    name: DMPC(313K,rfz)
+    contentSize: 24375430296
+    encodingFormat: application/x-trr
+    hasPart:
+    - DMPC-md313-rfz.trr
+    - dmpc-md313-rfz.tpr
+    - DMPC_small.top
+  isBasedOn:
+  - experiments/OrderParameters/10.1039/B508190D/3
+  - experiments/OrderParameters/unpublished/nesterenkoDMPCbOG/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8431710
+    identifier: 10.5281/zenodo.8431710
+    url: https://doi.org/10.5281/zenodo.8431710
+    name: All-atomic simulation of DMPC bilayer with PME and with RFZ
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8431710
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

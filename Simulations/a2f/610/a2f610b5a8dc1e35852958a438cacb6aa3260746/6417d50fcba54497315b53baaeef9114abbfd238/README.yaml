@@ -39,7 +39,6 @@ COMPOSITION:
     COUNT: 18
 UNITEDATOM_DICT: null
 DIR_WRK: /home/sosamuli/temp/DataBank/
-PUBLICATION: null
 AUTHORS_CONTACT: Kai Stroh, Jelger Risselada, Luca MONTICELLI
 SYSTEM: POPC/SSM/CHOL bilayer in water (with ions), 321.15 K, NPT
 SOFTWARE_VERSION: 2020.4 and 2021.4
@@ -54,7 +53,7 @@ TRAJECTORY_SIZE: 684888780
 TRJLENGTH: 300100.0
 TEMPERATURE: 321.15
 NUMBER_OF_ATOMS: 61136
-DATEOFRUNNING: 12/09/2023
+DATEOFRUNNING: '2023-09-12'
 TYPEOFSYSTEM: lipid bilayer
 ID: 764
 EXPERIMENT:
@@ -63,3 +62,115 @@ EXPERIMENT:
     POPC: []
     CHOL: []
   FORMFACTOR: []
+bioschema_properties:
+  name: Molecular dynamics trajectory of a CHOL/POPC/SM18/CLA/SOD (30:30:30:5:5) bilayer at 321.15 K (CHARMM36, GROMACS 2020.4 and 2021.4, 300 ns) [NMRlipids simulation 764]
+  alternateName: POPC/SSM/CHOL bilayer in water (with ions), 321.15 K, NPT
+  description: Molecular dynamics trajectory of a lipid bilayer of 100 CHOL (cholesterol, 30 mol%), 100 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 30 mol%), 100 SM18 (N-stearoyl-D-erythro-sphingosylphosphorylcholine, 30 mol%), 18 CLA (5 mol%) and 18 SOD (5 mol%) at 321.15 K. Simulated with CHARMM36 in GROMACS 2020.4 and 2021.4 for 300 ns (61136 atoms). Deposited as NMRlipids Databank simulation 764 and available from https://doi.org/10.5281/zenodo.8337239.
+  sameAs: https://doi.org/10.5281/zenodo.8337239
+  datePublished: '2023-09-12'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Stroh, Kai
+    identifier: https://orcid.org/0000-0001-5239-7124
+  - name: Risselada, Jelger
+    identifier: https://orcid.org/0000-0003-1410-6570
+  - name: Monticelli, Luca
+    identifier: https://orcid.org/0000-0002-6352-4595
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - CHOL
+  - cholesterol
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SM18
+  - N-stearoyl-D-erythro-sphingosylphosphorylcholine
+  - CLA
+  - SOD
+  - MD
+  - all-atom
+  - CHARMM36
+  - sphingomyelin
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 2020.4 and 2021.4)
+  - CHARMM36 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.8337239
+    name: POPC/SSM/CHOL bilayer in water (with ions), 321.15 K, NPT
+    contentSize: 684888780
+    encodingFormat: application/x-xtc
+    hasPart:
+    - NPT.xtc
+    - NPT.tpr
+    - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8337239
+    identifier: 10.5281/zenodo.8337239
+    url: https://doi.org/10.5281/zenodo.8337239
+    name: All-atom MD simulations of POPC/SSM/CHOL mixture
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8337239
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

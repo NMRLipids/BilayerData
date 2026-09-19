@@ -21,7 +21,6 @@ COMPOSITION:
     MAPPING: mappingSPCwater.yaml
     COUNT: 4789
 DIR_WRK: /home/lara/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Thomas Piggot
 SYSTEM: 128DOPE_4789SOL_271K_GROMOS-CKP_v1
 SOFTWARE_VERSION: 5.0.6
@@ -37,10 +36,107 @@ TRAJECTORY_SIZE: 6322655412
 TRJLENGTH: 400005.0
 TEMPERATURE: 271.0
 NUMBER_OF_ATOMS: 21279
-DATEOFRUNNING: 06/05/2022
+DATEOFRUNNING: '2022-05-06'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     DOPE: []
   FORMFACTOR: []
 ID: 619
+bioschema_properties:
+  name: Molecular dynamics trajectory of a DOPE bilayer at 271 K (GROMOS-CKP, GROMACS 5.0.6, 400 ns) [NMRlipids simulation 619]
+  alternateName: 128DOPE_4789SOL_271K_GROMOS-CKP_v1
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 DOPE (1,2-dioleoyl-sn-glycero-3-phosphoethanolamine) at 271 K. Simulated with GROMOS-CKP in GROMACS 5.0.6 for 400 ns (21279 atoms). Deposited as NMRlipids Databank simulation 619 and available from https://doi.org/10.5281/zenodo.1293941.
+  sameAs: https://doi.org/10.5281/zenodo.1293941
+  datePublished: '2018-06-20'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Piggot, Thomas
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DOPE
+  - 1,2-dioleoyl-sn-glycero-3-phosphoethanolamine
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 5.0.6)
+  - GROMOS-CKP force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1293941
+    name: 128DOPE_4789SOL_271K_GROMOS-CKP_v1
+    contentSize: 6322655412
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md_DOPE_CKP_new_NH3_PME_verlet_v1_100-500ns.xtc
+    - for-md_DOPE_CKP_new_NH3_PME_verlet_v1.tpr
+    - md_DOPE_CKP_new_NH3_PME_verlet_v1.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1293941
+    identifier: 10.5281/zenodo.1293941
+    url: https://doi.org/10.5281/zenodo.1293941
+    name: Gromos-Ckp Dope Simulations (Versions 1 And 2) 271 K
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1293941
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

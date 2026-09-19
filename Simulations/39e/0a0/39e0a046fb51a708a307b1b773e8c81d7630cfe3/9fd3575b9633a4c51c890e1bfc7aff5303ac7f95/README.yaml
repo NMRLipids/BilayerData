@@ -27,7 +27,6 @@ COMPOSITION:
     MAPPING: mappingCLA.yaml
     COUNT: 9
 DIR_WRK: /home/lara/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Nencini, Ricky
 SYSTEM: 200POPC_9000SOL_9SOD_18CLA_310K_noNBFIX
 SOFTWARE_VERSION: null
@@ -45,10 +44,109 @@ TRAJECTORY_SIZE: 475594036
 TRJLENGTH: 238900.0
 TEMPERATURE: 310.0
 NUMBER_OF_ATOMS: 53818
-DATEOFRUNNING: 06/05/2022
+DATEOFRUNNING: '2022-05-06'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPC: []
   FORMFACTOR: []
 ID: 576
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (92:4:4) bilayer at 310 K (CHARMM36 noNBFIX, GROMACS, 239 ns) [NMRlipids simulation 576]
+  alternateName: 200POPC_9000SOL_9SOD_18CLA_310K_noNBFIX
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 92 mol%), 9 CLA (4 mol%) and 9 SOD (4 mol%) at 310 K. Simulated with CHARMM36 noNBFIX in GROMACS for 239 ns (53818 atoms). Deposited as NMRlipids Databank simulation 576 and available from https://doi.org/10.5281/zenodo.3434396.
+  sameAs: https://doi.org/10.5281/zenodo.3434396
+  datePublished: '2019-09-17'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Nencini, Ricky
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - SOD
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs)
+  - CHARMM36 noNBFIX force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3434396
+    name: 200POPC_9000SOL_9SOD_18CLA_310K_noNBFIX
+    contentSize: 475594036
+    encodingFormat: application/x-xtc
+    hasPart:
+    - original_CHARMM36_310K_TIP3P_CHARMMS_ions_56mM_sodium.xtc
+    - original_CHARMM36_310K_TIP3P_CHARMMS_ions_56mM_sodium.tpr
+    - original_CHARMM36_310K_TIP3P_CHARMMS_ions_56mM_sodium.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3434396
+    identifier: 10.5281/zenodo.3434396
+    url: https://doi.org/10.5281/zenodo.3434396
+    name: CHARMM36, NB-Fix approaches, without NBFIX, POPC membrane, Ca, Na ions,
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3434396
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

@@ -29,7 +29,6 @@ COMPOSITION:
     MAPPING: mappingSPCwater.yaml
     COUNT: 7202
 DIR_WRK: /home/lara/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Ollila O. H. Samuli
 SYSTEM: 128POPC_44SOD_44CLA_7202SOL_298K_Berger
 SOFTWARE_VERSION: 4.5
@@ -48,10 +47,110 @@ TRAJECTORY_SIZE: 525214684
 TRJLENGTH: 50850.0
 TEMPERATURE: 298.0
 NUMBER_OF_ATOMS: 28350
-DATEOFRUNNING: 24/03/2022
+DATEOFRUNNING: '2022-03-24'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPC: []
   FORMFACTOR: []
 ID: 187
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (59:20:20) bilayer at 298 K (Berger delivered by Peter Tieleman, GROMACS 4.5, 51 ns) [NMRlipids simulation 187]
+  alternateName: 128POPC_44SOD_44CLA_7202SOL_298K_Berger
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 59 mol%), 44 CLA (20 mol%) and 44 SOD (20 mol%) at 298 K. Simulated with Berger delivered by Peter Tieleman in GROMACS 4.5 for 51 ns (28350 atoms). Deposited as NMRlipids Databank simulation 187 and available from https://doi.org/10.5281/zenodo.32144.
+  sameAs: https://doi.org/10.5281/zenodo.32144
+  datePublished: '2015-10-15'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0
+  publisher: Zenodo
+  creator:
+  - name: Ollila O. H. Samuli
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - SOD
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 4.5)
+  - Berger delivered by Peter Tieleman force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.32144
+    name: 128POPC_44SOD_44CLA_7202SOL_298K_Berger
+    contentSize: 525214684
+    encodingFormat: application/x-xtc
+    hasPart:
+    - run2.xtc
+    - run2.tpr
+    - popcNACL.top
+    - run.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.32144
+    identifier: 10.5281/zenodo.32144
+    url: https://doi.org/10.5281/zenodo.32144
+    name: Md Simulation Trajectory And Related Files For Popc Bilayer With 340Mm Nacl (Berger Model Delivered By Tieleman, Ffgmx Ions, Gromacs 4.5)
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.32144
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

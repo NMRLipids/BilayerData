@@ -26,7 +26,6 @@ COMPOSITION:
     MAPPING: mappingCL.yaml
     COUNT: 8
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Nencini, Ricky
 SYSTEM: 200POPC_9000SOL_4CAL_8CLA_313K
 SOFTWARE_VERSION: null
@@ -45,10 +44,110 @@ TRAJECTORY_SIZE: 2989940288
 TRJLENGTH: 300020.0
 TEMPERATURE: 313.0
 NUMBER_OF_ATOMS: 53812
-DATEOFRUNNING: 17/02/2022
+DATEOFRUNNING: '2022-02-17'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPC: []
   FORMFACTOR: []
 ID: 37
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC/CLA/CAL (94:4:2) bilayer at 313 K (ECC-lipids, GROMACS, 300 ns) [NMRlipids simulation 37]
+  alternateName: 200POPC_9000SOL_4CAL_8CLA_313K
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 94 mol%), 8 CLA (4 mol%) and 4 CAL (2 mol%) at 313 K. Simulated with ECC-lipids in GROMACS for 300 ns (53812 atoms). Deposited as NMRlipids Databank simulation 37 and available from https://doi.org/10.5281/zenodo.3434100.
+  sameAs: https://doi.org/10.5281/zenodo.3434100
+  datePublished: '2019-09-17'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Nencini, Ricky
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - CAL
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs)
+  - ECC-lipids force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3434100
+    name: 200POPC_9000SOL_4CAL_8CLA_313K
+    contentSize: 2989940288
+    encodingFormat: application/x-xtc
+    hasPart:
+    - ECC-POPC_28mM.xtc
+    - ECC-POPC_28mM.tpr
+    - ECC-POPC_28mM.top
+    - ECC-POPC_28mM.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3434100
+    identifier: 10.5281/zenodo.3434100
+    url: https://doi.org/10.5281/zenodo.3434100
+    name: ECC-POPC, 28mM, 2600mM
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3434100
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

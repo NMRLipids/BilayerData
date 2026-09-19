@@ -8,7 +8,6 @@ TPR:
 PREEQTIME: 0
 TIMELEFTOUT: 0
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Määttä, Jukka
 SYSTEM: 128DPPC_3840SOL_323K
 SOFTWARE_VERSION: 4.6.6
@@ -34,7 +33,7 @@ TRAJECTORY_SIZE: 310823492
 TRJLENGTH: 150050.0
 TEMPERATURE: 323.0
 NUMBER_OF_ATOMS: 28160
-DATEOFRUNNING: 22/10/2021
+DATEOFRUNNING: '2021-10-22'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -43,3 +42,103 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1016/j.bbamem.2011.07.022/4
 ID: 463
+bioschema_properties:
+  name: Molecular dynamics trajectory of a DPPC bilayer at 323 K (Slipids, GROMACS 4.6.6, 150 ns) [NMRlipids simulation 463]
+  alternateName: 128DPPC_3840SOL_323K
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 323 K. Simulated with Slipids in GROMACS 4.6.6 for 150 ns (28160 atoms). Deposited as NMRlipids Databank simulation 463 and available from https://doi.org/10.5281/zenodo.13287.
+  sameAs: https://doi.org/10.5281/zenodo.13287
+  datePublished: '2014-12-17'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0
+  publisher: Zenodo
+  creator:
+  - name: Määttä, Jukka
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 4.6.6)
+  - Slipids force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.13287
+    name: 128DPPC_3840SOL_323K
+    contentSize: 310823492
+    encodingFormat: application/x-xtc
+    hasPart:
+    - mdnew.xtc
+    - mdnew.tpr
+    - sample.top
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/bi00687a021/1
+  - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/4
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.13287
+    identifier: 10.5281/zenodo.13287
+    url: https://doi.org/10.5281/zenodo.13287
+    name: Dppc_Slipids
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.13287
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

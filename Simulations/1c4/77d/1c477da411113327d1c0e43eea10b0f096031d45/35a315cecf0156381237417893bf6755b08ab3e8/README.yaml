@@ -37,7 +37,6 @@ COMPOSITION:
     MAPPING: mappingNA.yaml
     COUNT: 88
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Virtanen, Salla; Ollila, O. H. Samuli
 SYSTEM: 350POPC_88POPG_24840SOL_475CAL_950CLA_88SOD_298K
 SOFTWARE_VERSION: null
@@ -52,7 +51,7 @@ TRAJECTORY_SIZE: 4990900204
 TRJLENGTH: 200020.0
 TEMPERATURE: 298.0
 NUMBER_OF_ATOMS: 134109
-DATEOFRUNNING: 03/01/2022
+DATEOFRUNNING: '2022-01-03'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -60,3 +59,106 @@ EXPERIMENT:
     POPG: []
   FORMFACTOR: []
 ID: 418
+bioschema_properties:
+  name: Molecular dynamics trajectory of a CLA/CAL/POPC/POPG/SOD (49:24:18:5:5) bilayer at 298 K (Lipid17, GROMACS, 200 ns) [NMRlipids simulation 418]
+  alternateName: 350POPC_88POPG_24840SOL_475CAL_950CLA_88SOD_298K
+  description: Molecular dynamics trajectory of a lipid bilayer of 950 CLA (49 mol%), 475 CAL (24 mol%), 350 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 18 mol%), 88 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 5 mol%) and 88 SOD (5 mol%) at 298 K. Simulated with Lipid17 in GROMACS for 200 ns (134109 atoms). Deposited as NMRlipids Databank simulation 418 and available from https://doi.org/10.5281/zenodo.3874378.
+  sameAs: https://doi.org/10.5281/zenodo.3874378
+  datePublished: '2019-10-23'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Virtanen, Salla
+  - name: Ollila, O. H. Samuli
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - CLA
+  - CAL
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - SOD
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs)
+  - Lipid17 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3874378
+    name: 350POPC_88POPG_24840SOL_475CAL_950CLA_88SOD_298K
+    contentSize: 4990900204
+    encodingFormat: application/x-xtc
+    hasPart:
+    - traj.xtc
+    - run3.tpr
+    - gromacsFIXED.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3874378
+    identifier: 10.5281/zenodo.3874378
+    url: https://doi.org/10.5281/zenodo.3874378
+    name: LIPID17 POPC-POPG 80:20 MD simulation, Na+ counterions and 1000mM CaCl2, 298K
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3874378
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

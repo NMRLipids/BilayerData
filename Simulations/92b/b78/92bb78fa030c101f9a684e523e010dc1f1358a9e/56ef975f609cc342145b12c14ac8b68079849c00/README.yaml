@@ -18,7 +18,6 @@ COMPOSITION:
     MAPPING: mappingSPCwater.yaml
     COUNT: 5120
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Milan Rodriguez, Paula; Fuchs, Patrick F.J.
 SYSTEM: 128POPE_5120SOL_300K
 SOFTWARE_VERSION: null
@@ -34,10 +33,110 @@ TRAJECTORY_SIZE: 572272276
 TRJLENGTH: 500100.0
 TEMPERATURE: 300.0
 NUMBER_OF_ATOMS: 31360
-DATEOFRUNNING: 17/01/2022
+DATEOFRUNNING: '2022-01-17'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPE: []
   FORMFACTOR: []
 ID: 385
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPE bilayer at 300 K (MacRog, GROMACS, 500 ns) [NMRlipids simulation 385]
+  alternateName: 128POPE_5120SOL_300K
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 300 K. Simulated with MacRog in GROMACS for 500 ns (31360 atoms). Deposited as NMRlipids Databank simulation 385 and available from https://doi.org/10.5281/zenodo.3725670.
+  sameAs: https://doi.org/10.5281/zenodo.3725670
+  datePublished: '2020-03-26'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Milan Rodriguez, Paula
+    identifier: https://orcid.org/0000-0002-2724-0747
+  - name: Fuchs, Patrick F.J.
+    identifier: https://orcid.org/0000-0001-7117-994X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPE
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs)
+  - MacRog force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3725670
+    name: 128POPE_5120SOL_300K
+    contentSize: 572272276
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md_OK_100.xtc
+    - md.tpr
+    - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3725670
+    identifier: 10.5281/zenodo.3725670
+    url: https://doi.org/10.5281/zenodo.3725670
+    name: MacRog pure POPE MD simulation (300 K - 500ns - 1 bar)
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3725670
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

@@ -3,7 +3,6 @@ FF_DATE: null
 SYSTEM: 72POPC_2242SOL_303K
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 303.0
-PUBLICATION: 10.1021/acs.jpcb.5b04878
 NUMBER_OF_ATOMS: 16374
 EXPERIMENT:
   ORDERPARAMETER:
@@ -33,7 +32,7 @@ TOP:
 PREEQTIME: 10
 DOI: 10.5281/zenodo.13944
 DATE: 2015-01-14
-DATEOFRUNNING: 01/10/2021
+DATEOFRUNNING: '2021-10-01'
 TPR:
 - - popcRUN2.tpr
 TRJ:
@@ -44,3 +43,105 @@ DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 WARNINGS:
   PBC: z-jumps
 ID: 533
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (CHARMM36, GROMACS 4.5, 20 ns) [NMRlipids simulation 533]
+  alternateName: 72POPC_2242SOL_303K
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with CHARMM36 in GROMACS 4.5 for 20 ns (16374 atoms). Deposited as NMRlipids Databank simulation 533 and available from https://doi.org/10.5281/zenodo.13944.
+  sameAs: https://doi.org/10.5281/zenodo.13944
+  datePublished: '2015-01-14'
+  license:
+    spdx: GPL-3.0-only
+    name: GNU General Public License v3.0 only
+    url: https://spdx.org/licenses/GPL-3.0-only.html
+    sameAs: http://www.opensource.org/licenses/GPL-3.0
+  publisher: Zenodo
+  creator:
+  - name: Ollila O. H. Samuli
+  - name: Miettinen, Markus
+  citation:
+  - 10.1021/acs.jpcb.5b04878
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 4.5)
+  - CHARMM36 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.13944
+    name: 72POPC_2242SOL_303K
+    contentSize: 1572777096
+    encodingFormat: application/x-trr
+    hasPart:
+    - popcRUN2-3.trr
+    - popcRUN2.tpr
+    - popc.top
+  isBasedOn:
+  - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/2
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.13944
+    identifier: 10.5281/zenodo.13944
+    url: https://doi.org/10.5281/zenodo.13944
+    name: Md Simulation Trajectory And Related Files For Popc Bilayer (Charmm36, Gromacs 4.5)
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.13944
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

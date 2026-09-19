@@ -34,7 +34,6 @@ COMPOSITION:
     COUNT: 33
 UNITEDATOM_DICT: null
 DIR_WRK: /Users/fabiolol/Dropbox/Fabs/Projects/NMRlipid/tmp
-PUBLICATION: doi.org/10.1083/jcb.202106123
 AUTHORS_CONTACT: Fabio Lolicato
 SYSTEM: POPC_270_SAPI25_30_KCl_150mM_298.15K
 SOFTWARE_VERSION: 2020.1
@@ -52,7 +51,7 @@ TRAJECTORY_SIZE: 3527486504
 TRJLENGTH: 1200300.0
 TEMPERATURE: 298.15
 NUMBER_OF_ATOMS: 79698
-DATEOFRUNNING: 05/10/2023
+DATEOFRUNNING: '2023-10-05'
 TYPEOFSYSTEM: lipid bilayer
 ID: 784
 EXPERIMENT:
@@ -60,3 +59,107 @@ EXPERIMENT:
     POPC: []
     SAPI25: []
   FORMFACTOR: []
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC/POT/CLA/SAPI25 (56:31:7:6) bilayer at 298.15 K (CHARMM36m, GROMACS 2020.1, 1200 ns) [NMRlipids simulation 784]
+  alternateName: POPC_270_SAPI25_30_KCl_150mM_298.15K
+  description: Molecular dynamics trajectory of a lipid bilayer of 270 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 56 mol%), 153 POT (31 mol%), 33 CLA (7 mol%) and 30 SAPI25 (1-stearoyl-2-arachidonoyl-sn-phosphatidylinositol 4,5-biphosphate, 6 mol%) at 298.15 K. Simulated with CHARMM36m in GROMACS 2020.1 for 1200 ns (79698 atoms). Deposited as NMRlipids Databank simulation 784 and available from https://doi.org/10.5281/zenodo.8370426.
+  sameAs: https://doi.org/10.5281/zenodo.8370426
+  datePublished: '2023-09-22'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Lolicato, Fabio
+    identifier: https://orcid.org/0000-0001-7537-0549
+  citation:
+  - 10.1083/jcb.202106123
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - POT
+  - CLA
+  - SAPI25
+  - 1-stearoyl-2-arachidonoyl-sn-phosphatidylinositol 4,5-biphosphate
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 2020.1)
+  - CHARMM36m force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.8370426
+    name: POPC_270_SAPI25_30_KCl_150mM_298.15K
+    contentSize: 3527486504
+    encodingFormat: application/x-xtc
+    hasPart:
+    - PC10.xtc
+    - PC10.tpr
+    - PC10.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8370426
+    identifier: 10.5281/zenodo.8370426
+    url: https://doi.org/10.5281/zenodo.8370426
+    name: POPC_270_SAPI25_30_KCl_150mM_298.15K
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8370426
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

@@ -46,7 +46,7 @@ COMPOSITION:
 TRAJECTORY_SIZE: 4164730004
 TRJLENGTH: 100020.0
 NUMBER_OF_ATOMS: 222656
-DATEOFRUNNING: 07/12/2025
+DATEOFRUNNING: '2025-12-07'
 TYPEOFSYSTEM: lipid bilayer
 ID: 847
 EXPERIMENT:
@@ -55,3 +55,109 @@ EXPERIMENT:
     POPC: []
     SM16: []
   FORMFACTOR: []
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC/SM16/ERG (35:35:30) bilayer at 295 K (Slipids, GROMACS 2019.6, 100 ns) [NMRlipids simulation 847]
+  alternateName: POPC/SM16/ERG(35:35:30)
+  description: Molecular dynamics trajectory of a lipid bilayer of 360 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 35 mol%), 352 SM16 (N-palmitoyl-D-erythro-sphingosylphosphorylcholine, 35 mol%) and 304 ERG (ergosterol, 30 mol%) at 295 K. Simulated with Slipids in GROMACS 2019.6 for 100 ns (222656 atoms). Deposited as NMRlipids Databank simulation 847 and available from https://doi.org/10.5281/zenodo.17730735.
+  sameAs: https://doi.org/10.5281/zenodo.17730735
+  datePublished: '2025-11-27'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Favela-Rosales, Fernando
+    identifier: https://orcid.org/0000-0002-0687-6594
+  citation:
+  - 10.1016/j.bpc.2025.107408
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SM16
+  - N-palmitoyl-D-erythro-sphingosylphosphorylcholine
+  - ERG
+  - ergosterol
+  - PSM
+  - Gromacs
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 2019.6)
+  - Slipids force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.17730735
+    name: POPC/SM16/ERG(35:35:30)
+    contentSize: 4164730004
+    encodingFormat: application/x-xtc
+    hasPart:
+    - 100ns_c.xtc
+    - md50ns_chunk01.tpr
+    - 1k_pop35prc+psm35prc+erg30prc+wat.top
+    - 1k_pop35prc+psm35prc+erg30prc+wat.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.17730735
+    identifier: 10.5281/zenodo.17730735
+    url: https://doi.org/10.5281/zenodo.17730735
+    name: 'MD simulation trajectory of Ternary mixture of POPC/PSM/Ergo (35:35:30) at 295 K: Slipids, GROMACS 2019.6'
+    publisher: Zenodo
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.17730735
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

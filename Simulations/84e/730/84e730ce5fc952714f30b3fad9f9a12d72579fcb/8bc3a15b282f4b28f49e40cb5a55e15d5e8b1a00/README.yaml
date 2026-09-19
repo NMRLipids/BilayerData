@@ -7,7 +7,6 @@ TPR:
 PREEQTIME: 0
 TIMELEFTOUT: 0
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Javanainen, Matti
 SYSTEM: 22CHOL_200POPC_9000SOL_73CAL_146CLA_310K
 SOFTWARE_VERSION: 5.0
@@ -47,7 +46,7 @@ TRAJECTORY_SIZE: 4124327284
 TRJLENGTH: 2000100.0
 TEMPERATURE: 310.15
 NUMBER_OF_ATOMS: 55647
-DATEOFRUNNING: 27/12/2021
+DATEOFRUNNING: '2021-12-27'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -55,3 +54,104 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 ID: 201
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC/CLA/CAL/CHOL (45:33:17:5) bilayer at 310.15 K (CHARMM36, GROMACS 5.0, 2000 ns) [NMRlipids simulation 201]
+  alternateName: 22CHOL_200POPC_9000SOL_73CAL_146CLA_310K
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 45 mol%), 146 CLA (33 mol%), 73 CAL (17 mol%) and 22 CHOL (cholesterol, 5 mol%) at 310.15 K. Simulated with CHARMM36 in GROMACS 5.0 for 2000 ns (55647 atoms). Deposited as NMRlipids Databank simulation 201 and available from https://doi.org/10.5281/zenodo.259365.
+  sameAs: https://doi.org/10.5281/zenodo.259365
+  datePublished: '2017-01-24'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - CAL
+  - CHOL
+  - cholesterol
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 5.0)
+  - CHARMM36 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.259365
+    name: 22CHOL_200POPC_9000SOL_73CAL_146CLA_310K
+    contentSize: 4124327284
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md10.xtc
+    - md10.tpr
+    - md10.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.259365
+    identifier: 10.5281/zenodo.259365
+    url: https://doi.org/10.5281/zenodo.259365
+    name: Popc With Varying Amounts Of Cholesterol, 450 Mm Of Cacl_2. Charmm36 With Default Charmm Ions
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.259365
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

@@ -19,7 +19,6 @@ COMPOSITION:
     COUNT: 5120
 UNITEDATOM_DICT: null
 DIR_WRK: /home/sosamuli/temp/DataBank/
-PUBLICATION: null
 AUTHORS_CONTACT: Kai Stroh, Jelger Risselada, Luca Monticelli
 SYSTEM: SSM bilayer in water, 328K
 SOFTWARE_VERSION: 2020.4 and 2021.4
@@ -34,10 +33,114 @@ TRAJECTORY_SIZE: 180171180
 TRJLENGTH: 150100.0
 TEMPERATURE: 328.15
 NUMBER_OF_ATOMS: 32384
-DATEOFRUNNING: 12/09/2023
+DATEOFRUNNING: '2023-09-12'
 TYPEOFSYSTEM: lipid bilayer
 ID: 763
 EXPERIMENT:
   ORDERPARAMETER:
     SM18: []
   FORMFACTOR: []
+bioschema_properties:
+  name: Molecular dynamics trajectory of a SM18 bilayer at 328.15 K (CHARMM36, GROMACS 2020.4 and 2021.4, 150 ns) [NMRlipids simulation 763]
+  alternateName: SSM bilayer in water, 328K
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 SM18 (N-stearoyl-D-erythro-sphingosylphosphorylcholine) at 328.15 K. Simulated with CHARMM36 in GROMACS 2020.4 and 2021.4 for 150 ns (32384 atoms). Deposited as NMRlipids Databank simulation 763 and available from https://doi.org/10.5281/zenodo.8333993.
+  sameAs: https://doi.org/10.5281/zenodo.8333993
+  datePublished: '2023-09-11'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Stroh, Kai
+    identifier: https://orcid.org/0000-0001-5239-7124
+  - name: Risselada, Jelger
+    identifier: https://orcid.org/0000-0003-1410-6570
+  - name: Monticelli, Luca
+    identifier: https://orcid.org/0000-0002-6352-4595
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - SM18
+  - N-stearoyl-D-erythro-sphingosylphosphorylcholine
+  - MD
+  - sphingomyelin
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 2020.4 and 2021.4)
+  - CHARMM36 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.8333993
+    name: SSM bilayer in water, 328K
+    contentSize: 180171180
+    encodingFormat: application/x-xtc
+    hasPart:
+    - NPT.xtc
+    - NPT.tpr
+    - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8333993
+    identifier: 10.5281/zenodo.8333993
+    url: https://doi.org/10.5281/zenodo.8333993
+    name: MD simulation of sphingomyelin (d18:1/18:0) bilayer in water
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8333993
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

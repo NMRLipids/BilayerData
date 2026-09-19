@@ -7,7 +7,6 @@ TPR:
 PREEQTIME: 0
 TIMELEFTOUT: 0
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: 10.1038/s41598-017-01247-9
 AUTHORS_CONTACT: Javanainen, Matti; Martinez-Seara, Hector; Vattulainen, Ilpo
 SYSTEM: 1032DPPC_120CHOL_46440SOL_124SOD_124CLA_305K
 SOFTWARE_VERSION: null
@@ -47,7 +46,7 @@ TRAJECTORY_SIZE: 10557370368
 TRJLENGTH: 1000100.0
 TEMPERATURE: 305.0
 NUMBER_OF_ATOMS: 282608
-DATEOFRUNNING: 18/12/2021
+DATEOFRUNNING: '2021-12-18'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -55,3 +54,110 @@ EXPERIMENT:
     CHOL: []
   FORMFACTOR: []
 ID: 55
+bioschema_properties:
+  name: Molecular dynamics trajectory of a DPPC/CLA/SOD/CHOL (74:9:9:9) bilayer at 305 K (Slipids, GROMACS, 1000 ns) [NMRlipids simulation 55]
+  alternateName: 1032DPPC_120CHOL_46440SOL_124SOD_124CLA_305K
+  description: Molecular dynamics trajectory of a lipid bilayer of 1032 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine, 74 mol%), 124 CLA (9 mol%), 124 SOD (9 mol%) and 120 CHOL (cholesterol, 9 mol%) at 305 K. Simulated with Slipids in GROMACS for 1000 ns (282608 atoms). Deposited as NMRlipids Databank simulation 55 and available from https://doi.org/10.5281/zenodo.3539263.
+  sameAs: https://doi.org/10.5281/zenodo.3539263
+  datePublished: '2019-11-12'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+    identifier: https://orcid.org/0000-0003-4858-364X
+  - name: Martinez-Seara, Hector
+    identifier: https://orcid.org/0000-0001-9716-1713
+  - name: Vattulainen, Ilpo
+    identifier: https://orcid.org/0000-0001-7408-3214
+  citation:
+  - 10.1038/s41598-017-01247-9
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - SOD
+  - CHOL
+  - cholesterol
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs)
+  - Slipids force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3539263
+    name: 1032DPPC_120CHOL_46440SOL_124SOD_124CLA_305K
+    contentSize: 10557370368
+    encodingFormat: application/x-xtc
+    hasPart:
+    - DPPC_10_305.xtc
+    - DPPC_10_305.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3539263
+    identifier: 10.5281/zenodo.3539263
+    url: https://doi.org/10.5281/zenodo.3539263
+    name: Simulations of mixed DPPC/cholesterol membranes Part 1/2
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3539263
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

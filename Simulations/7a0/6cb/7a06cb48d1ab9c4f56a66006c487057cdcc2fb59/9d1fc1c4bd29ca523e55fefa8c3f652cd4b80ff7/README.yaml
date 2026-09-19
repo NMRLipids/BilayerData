@@ -32,7 +32,6 @@ COMPOSITION:
     MAPPING: mappingNA.yaml
     COUNT: 22
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Thomas Piggot
 SYSTEM: 110POPC_22POPS_4620SOL_22SOD_298K_GROMOS-CKP_v2
 SOFTWARE_VERSION: null
@@ -48,7 +47,7 @@ TRAJECTORY_SIZE: 154933476
 TRJLENGTH: 100050.0
 TEMPERATURE: 298.0
 NUMBER_OF_ATOMS: 20812
-DATEOFRUNNING: 20/01/2022
+DATEOFRUNNING: '2022-01-20'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -56,3 +55,103 @@ EXPERIMENT:
     POPS: []
   FORMFACTOR: []
 ID: 495
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC/POPS/SOD (71:14:14) bilayer at 298 K (GROMOS-CKP, Berger/Chiu NH3 charges and PME, GROMACS, 100 ns) [NMRlipids simulation 495]
+  alternateName: 110POPC_22POPS_4620SOL_22SOD_298K_GROMOS-CKP_v2
+  description: Molecular dynamics trajectory of a lipid bilayer of 110 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 71 mol%), 22 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 14 mol%) and 22 SOD (14 mol%) at 298 K. Simulated with GROMOS-CKP, Berger/Chiu NH3 charges and PME in GROMACS for 100 ns (20812 atoms). Deposited as NMRlipids Databank simulation 495 and available from https://doi.org/10.5281/zenodo.1283331.
+  sameAs: https://doi.org/10.5281/zenodo.1283331
+  datePublished: '2018-06-05'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Piggot, Thomas
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  - SOD
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs)
+  - GROMOS-CKP, Berger/Chiu NH3 charges and PME force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1283331
+    name: 110POPC_22POPS_4620SOL_22SOD_298K_GROMOS-CKP_v2
+    contentSize: 154933476
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md-GROMOS-CKP_POPS_POPC_Na_298K_PME_v2_400-500ns_skip10.xtc
+    - for-md-GROMOS-CKP_POPS_POPC_Na_298K_PME_v2.tpr
+    - md-GROMOS-CKP_POPS_POPC_Na_298K_PME_v2.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1283331
+    identifier: 10.5281/zenodo.1283331
+    url: https://doi.org/10.5281/zenodo.1283331
+    name: Gromos-Ckp Pops/Popc Simulations (Versions 1 And 2) 298 K With Berger/Chiu Nh3 Charges And Pme
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1283331
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

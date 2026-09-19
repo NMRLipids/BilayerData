@@ -37,7 +37,7 @@ TRAJECTORY_SIZE: 1340011568
 TRJLENGTH: 500100.0
 TEMPERATURE: 298.0
 NUMBER_OF_ATOMS: 71936
-DATEOFRUNNING: 21/12/2021
+DATEOFRUNNING: '2021-12-21'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -46,3 +46,103 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 307
 AUTHORS_CONTACT: Javanainen, Matti
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC/POPG/SOD (33:33:33) bilayer at 298 K (Slipids, GROMACS, 500 ns) [NMRlipids simulation 307]
+  alternateName: POPC_T298K
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 33 mol%), 128 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 33 mol%) and 128 SOD (33 mol%) at 298 K. Simulated with Slipids in GROMACS for 500 ns (71936 atoms). Deposited as NMRlipids Databank simulation 307 and available from https://doi.org/10.5281/zenodo.3613573.
+  sameAs: https://doi.org/10.5281/zenodo.3613573
+  datePublished: '2020-01-13'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+    identifier: https://orcid.org/0000-0003-4858-364X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - SOD
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs)
+  - Slipids force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3613573
+    name: POPC_T298K
+    contentSize: 1340011568
+    encodingFormat: application/x-xtc
+    hasPart:
+    - PCPG_CA0.xtc
+    - PCPG_CA0.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3613573
+    identifier: 10.5281/zenodo.3613573
+    url: https://doi.org/10.5281/zenodo.3613573
+    name: Simulations of POPC:POPG 1:1 membranes with varying levels of CaCl_2 using the Slipids force field
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3613573
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

@@ -27,7 +27,6 @@ COMPOSITION:
     MAPPING: mappingCL.yaml
     COUNT: 108
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Javanainen, Matti; Tynkkynen, Joona
 SYSTEM: 288POPC_14392SOL_108SOD_108CLA_298K
 SOFTWARE_VERSION: 4.5
@@ -41,10 +40,109 @@ TRAJECTORY_SIZE: 151390920
 TRJLENGTH: 50100.0
 TEMPERATURE: 298.0
 NUMBER_OF_ATOMS: 81984
-DATEOFRUNNING: 17/01/2022
+DATEOFRUNNING: '2022-01-17'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPC: []
   FORMFACTOR: []
 ID: 508
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (57:21:21) bilayer at 298 K (MacRog, GROMACS 4.5, 50 ns) [NMRlipids simulation 508]
+  alternateName: 288POPC_14392SOL_108SOD_108CLA_298K
+  description: Molecular dynamics trajectory of a lipid bilayer of 288 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 57 mol%), 108 CLA (21 mol%) and 108 SOD (21 mol%) at 298 K. Simulated with MacRog in GROMACS 4.5 for 50 ns (81984 atoms). Deposited as NMRlipids Databank simulation 508 and available from https://doi.org/10.5281/zenodo.14976.
+  sameAs: https://doi.org/10.5281/zenodo.14976
+  datePublished: '2015-02-10'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+  - name: Tynkkynen, Joona
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - SOD
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 4.5)
+  - MacRog force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.14976
+    name: 288POPC_14392SOL_108SOD_108CLA_298K
+    contentSize: 151390920
+    encodingFormat: application/x-xtc
+    hasPart:
+    - 400mM_50ns_100ps.xtc
+    - 400.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.14976
+    identifier: 10.5281/zenodo.14976
+    url: https://doi.org/10.5281/zenodo.14976
+    name: Popc @ 310K, Varying Amounts Of Nacl. Model By Maciejewski And Rog
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.14976
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

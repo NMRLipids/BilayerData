@@ -8,7 +8,6 @@ TPR:
 PREEQTIME: 0
 TIMELEFTOUT: 0
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
-PUBLICATION: 10.1021/acscentsci.7b00582
 AUTHORS_CONTACT: Hector Martinez-Seara
 SYSTEM: 512POPC_128CER_32000SOL_86SOD_86CLA_310K
 SOFTWARE_VERSION: 2016.1
@@ -50,7 +49,7 @@ TRAJECTORY_SIZE: 20081104160
 TRJLENGTH: 3011900.0
 TEMPERATURE: 310.0
 NUMBER_OF_ATOMS: 178220
-DATEOFRUNNING: 01/11/2021
+DATEOFRUNNING: '2021-11-01'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -58,3 +57,111 @@ EXPERIMENT:
     CER: []
   FORMFACTOR: []
 ID: 266
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC/CER/CLA/SOD (63:16:11:11) bilayer at 310 K (CHARMM36, GROMACS 2016.1, 3012 ns) [NMRlipids simulation 266]
+  alternateName: 512POPC_128CER_32000SOL_86SOD_86CLA_310K
+  description: Molecular dynamics trajectory of a lipid bilayer of 512 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 63 mol%), 128 CER (N-palmitoyl-D-erythro-sphingosine, 16 mol%), 86 CLA (11 mol%) and 86 SOD (11 mol%) at 310 K. Simulated with CHARMM36 in GROMACS 2016.1 for 3012 ns (178220 atoms). Deposited as NMRlipids Databank simulation 266 and available from https://doi.org/10.5281/zenodo.3248612.
+  sameAs: https://doi.org/10.5281/zenodo.3248612
+  datePublished: '2019-06-18'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Martinez-Seara, Hector
+    identifier: https://orcid.org/0000-0001-9716-1713
+  citation:
+  - 10.1021/acscentsci.7b00582
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CER
+  - N-palmitoyl-D-erythro-sphingosine
+  - CLA
+  - SOD
+  - Charmm36
+  - ceramide
+  - CER16
+  - LAPTM4B
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 2016.1)
+  - CHARMM36 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3248612
+    name: 512POPC_128CER_32000SOL_86SOD_86CLA_310K
+    contentSize: 20081104160
+    encodingFormat: application/x-xtc
+    hasPart:
+    - 01-CER160_128_POPC_512_NaCL_150mM_310K_md.xtc
+    - 01-CER160_128_POPC_512_NaCL_150mM_310K_md.tpr
+    - 01-CER160_128_POPC_512_NaCL_150mM_310K_md.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3248612
+    identifier: 10.5281/zenodo.3248612
+    url: https://doi.org/10.5281/zenodo.3248612
+    name: Simulation CER160_128_POPC_512_NaCl_150mM_310K_rep1 membrane
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3248612
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

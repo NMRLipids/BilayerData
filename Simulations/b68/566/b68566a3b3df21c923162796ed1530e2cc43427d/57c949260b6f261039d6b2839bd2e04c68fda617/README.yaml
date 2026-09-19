@@ -7,7 +7,6 @@ TPR:
 PREEQTIME: 0
 TIMELEFTOUT: 0
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Javanainen, Matti; Martinez-Seara, Hector; Vattulainen, Ilpo
 SYSTEM: 392DPPC_52DCHOL_17760SOL_48SOD_48CLA_310K
 SOFTWARE_VERSION: null
@@ -46,7 +45,7 @@ TRAJECTORY_SIZE: 2384429868
 TRJLENGTH: 600100.0
 TEMPERATURE: 310.0
 NUMBER_OF_ATOMS: 107872
-DATEOFRUNNING: 18/12/2021
+DATEOFRUNNING: '2021-12-18'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -56,3 +55,97 @@ EXPERIMENT:
 WARNINGS:
   ORIENTATION: x-normal
 ID: 219
+bioschema_properties:
+  name: Molecular dynamics trajectory of a DPPC/DCHOL/CLA/SOD (73:10:9:9) bilayer at 310 K (Slipids, GROMACS, 600 ns) [NMRlipids simulation 219]
+  alternateName: 392DPPC_52DCHOL_17760SOL_48SOD_48CLA_310K
+  description: Molecular dynamics trajectory of a lipid bilayer of 392 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine, 73 mol%), 52 DCHOL (18,19-di-nor-cholesterol, 10 mol%), 48 CLA (9 mol%) and 48 SOD (9 mol%) at 310 K. Simulated with Slipids in GROMACS for 600 ns (107872 atoms). Deposited as NMRlipids Databank simulation 219 and available from https://doi.org/10.5281/zenodo.3540513.
+  sameAs: https://doi.org/10.5281/zenodo.3540513
+  datePublished: '2019-11-13'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+    identifier: https://orcid.org/0000-0003-4858-364X
+  - name: Martinez-Seara, Monne
+    identifier: https://orcid.org/0000-0001-9716-1713
+  - name: Vattulainen, Ilpo
+    identifier: https://orcid.org/0000-0001-7408-3214
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  - DCHOL
+  - 18,19-di-nor-cholesterol
+  - CLA
+  - SOD
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs)
+  - Slipids force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3540513
+    name: 392DPPC_52DCHOL_17760SOL_48SOD_48CLA_310K
+    contentSize: 2384429868
+    encodingFormat: application/x-xtc
+    hasPart:
+    - LT_BINARY_DMCHOL.xtc
+    - LT_BINARY_DMCHOL.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3540513
+    identifier: 10.5281/zenodo.3540513
+    url: https://doi.org/10.5281/zenodo.3540513
+    name: Simulations of mixed DPPC/cholesterol membranes Part 2/2
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3540513
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

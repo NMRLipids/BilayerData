@@ -36,7 +36,6 @@ COMPOSITION:
     MAPPING: mappingCL.yaml
     COUNT: 80
 DIR_WRK: /home/lara/Databank
-PUBLICATION: 10.1016/j.bbamem.2011.11.033
 AUTHORS_CONTACT: Cwiklik, Lukasz
 SYSTEM: 102POPC_26POPS_4290SOL_106CES_80CLA_310K
 SOFTWARE_VERSION: 4.0.7
@@ -55,7 +54,7 @@ TRAJECTORY_SIZE: 182051560
 TRJLENGTH: 50020.0
 TEMPERATURE: 310.0
 NUMBER_OF_ATOMS: 19790
-DATEOFRUNNING: 27/03/2022
+DATEOFRUNNING: '2022-03-27'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -63,3 +62,107 @@ EXPERIMENT:
     POPS: []
   FORMFACTOR: []
 ID: 184
+bioschema_properties:
+  name: Molecular dynamics trajectory of a CES/POPC/CLA/POPS (34:32:25:8) bilayer at 310 K (Berger, GROMACS 4.0.7, 50 ns) [NMRlipids simulation 184]
+  alternateName: 102POPC_26POPS_4290SOL_106CES_80CLA_310K
+  description: Molecular dynamics trajectory of a lipid bilayer of 106 CES (34 mol%), 102 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 32 mol%), 80 CLA (25 mol%) and 26 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 8 mol%) at 310 K. Simulated with Berger in GROMACS 4.0.7 for 50 ns (19790 atoms). Deposited as NMRlipids Databank simulation 184 and available from https://doi.org/10.5281/zenodo.838229.
+  sameAs: https://doi.org/10.5281/zenodo.838229
+  datePublished: '2017-08-02'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Cwiklik, Lukasz
+  citation:
+  - 10.1016/j.bbamem.2011.11.033
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - CES
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 4.0.7)
+  - Berger force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.838229
+    name: 102POPC_26POPS_4290SOL_106CES_80CLA_310K
+    contentSize: 182051560
+    encodingFormat: application/x-xtc
+    hasPart:
+    - traj.xtc
+    - topol.tpr
+    - topol.top
+    - conf.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.838229
+    identifier: 10.5281/zenodo.838229
+    url: https://doi.org/10.5281/zenodo.838229
+    name: Md Simulation Trajectory Of A Popc/Pops (4:1) Bilayer With 1M Cscl, Berger Force Field For Lipids, Dang'S For Cs+ And Ffgmx For Cl-
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.838229
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

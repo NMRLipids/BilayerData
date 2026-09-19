@@ -10,7 +10,6 @@ SOFTWARE: gromacs
 PREEQTIME: 0
 TIMELEFTOUT: 0
 SYSTEM: POPC_113mM_NaCl_prosECCo75
-PUBLICATION: https://doi.org/10.1021/acs.jctc.4c00743
 CPT:
 - - POPC_113mM_NaCl_prosECCo75.cpt
 LOG:
@@ -44,10 +43,111 @@ TRAJECTORY_SIZE: 1991796252
 TRJLENGTH: 1000100.0
 TEMPERATURE: 310.0
 NUMBER_OF_ATOMS: 53836
-DATEOFRUNNING: 23/09/2025
+DATEOFRUNNING: '2025-09-23'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPC: []
   FORMFACTOR: []
 ID: 841
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (85:8:8) bilayer at 310 K (prosECCo75, GROMACS, 1000 ns) [NMRlipids simulation 841]
+  alternateName: POPC_113mM_NaCl_prosECCo75
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 85 mol%), 18 CLA (8 mol%) and 18 SOD (8 mol%) at 310 K. Simulated with prosECCo75 in GROMACS for 1000 ns (53836 atoms). Deposited as NMRlipids Databank simulation 841 and available from https://doi.org/10.5281/zenodo.10464960.
+  sameAs: https://doi.org/10.5281/zenodo.10464960
+  datePublished: '2024-01-06'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Nencini, Ricky
+  citation:
+  - 10.1021/acs.jctc.4c00743
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - SOD
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs)
+  - prosECCo75 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.10464960
+    name: POPC_113mM_NaCl_prosECCo75
+    contentSize: 1991796252
+    encodingFormat: application/x-xtc
+    hasPart:
+    - POPC_113mM_NaCl_prosECCo75.xtc
+    - POPC_113mM_NaCl_prosECCo75.tpr
+    - POPC_113mM_NaCl_prosECCo75.top
+    - POPC_113mM_NaCl_prosECCo75.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.10464960
+    identifier: 10.5281/zenodo.10464960
+    url: https://doi.org/10.5281/zenodo.10464960
+    name: POPC bilayer at 310K with the prosECCo75 force field, 111 mM NaCl
+    publisher: Zenodo
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.10464960
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

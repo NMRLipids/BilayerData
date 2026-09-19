@@ -19,7 +19,6 @@ COMPOSITION:
     MAPPING: mappingTIP3Pwater.yaml
     COUNT: 5120
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Girych Mykhailo; Ollila O. H. Samuli
 SYSTEM: 128POPC_5120SOL_298K
 SOFTWARE_VERSION: 5.0.3
@@ -34,7 +33,7 @@ TRAJECTORY_SIZE: 1205630200
 TRJLENGTH: 100010.0
 TEMPERATURE: 298.15
 NUMBER_OF_ATOMS: 32512
-DATEOFRUNNING: 03/01/2022
+DATEOFRUNNING: '2022-01-03'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -44,3 +43,107 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/1
 ID: 30
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC bilayer at 298.15 K (Lipid14 with Verlet scheme, GROMACS 5.0.3, 100 ns) [NMRlipids simulation 30]
+  alternateName: 128POPC_5120SOL_298K
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 298.15 K. Simulated with Lipid14 with Verlet scheme in GROMACS 5.0.3 for 100 ns (32512 atoms). Deposited as NMRlipids Databank simulation 30 and available from https://doi.org/10.5281/zenodo.30898.
+  sameAs: https://doi.org/10.5281/zenodo.30898
+  datePublished: '2015-09-11'
+  license:
+    spdx: GPL-3.0-only
+    name: GNU General Public License v3.0 only
+    url: https://spdx.org/licenses/GPL-3.0-only.html
+    sameAs: http://www.opensource.org/licenses/GPL-3.0
+  publisher: Zenodo
+  creator:
+  - name: Girych Mykhailo
+  - name: Ollila O. H. Samuli
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - LIPID14
+  - Gromacs
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 5.0.3)
+  - Lipid14 with Verlet scheme force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.30898
+    name: 128POPC_5120SOL_298K
+    contentSize: 1205630200
+    encodingFormat: application/x-xtc
+    hasPart:
+    - 0m_popc_amb_100_200ns.xtc
+    - run_200ns_gpu.tpr
+    - topol.top
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
+  - experiments/OrderParameters/10.1039/c2cp42738a/1
+  - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.30898
+    identifier: 10.5281/zenodo.30898
+    url: https://doi.org/10.5281/zenodo.30898
+    name: Popc_Amber_Lipid14_Verlet
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.30898
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

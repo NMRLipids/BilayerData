@@ -7,7 +7,6 @@ TPR:
 PREEQTIME: 0
 TIMELEFTOUT: 0
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
-PUBLICATION: 10.1038/s41598-017-01247-9
 AUTHORS_CONTACT: Javanainen, Matti; Martinez-Seara, Hector; Vattulainen, Ilpo
 SYSTEM: 1152DPPC_46440SOL_124SOD_124CLA_300K
 SOFTWARE_VERSION: 4.6
@@ -42,10 +41,113 @@ TRAJECTORY_SIZE: 5403749940
 TRJLENGTH: 500100.0
 TEMPERATURE: 300.0
 NUMBER_OF_ATOMS: 289328
-DATEOFRUNNING: 23/12/2021
+DATEOFRUNNING: '2021-12-23'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     DPPC: []
   FORMFACTOR: []
 ID: 542
+bioschema_properties:
+  name: Molecular dynamics trajectory of a DPPC/CLA/SOD (82:9:9) bilayer at 300 K (Slipids, GROMACS 4.6, 500 ns) [NMRlipids simulation 542]
+  alternateName: 1152DPPC_46440SOL_124SOD_124CLA_300K
+  description: Molecular dynamics trajectory of a lipid bilayer of 1152 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine, 82 mol%), 124 CLA (9 mol%) and 124 SOD (9 mol%) at 300 K. Simulated with Slipids in GROMACS 4.6 for 500 ns (289328 atoms). Deposited as NMRlipids Databank simulation 542 and available from https://doi.org/10.5281/zenodo.439080.
+  sameAs: https://doi.org/10.5281/zenodo.439080
+  datePublished: '2017-03-29'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+  - name: Martinez-Seara, Hector
+  - name: Vattulainen, Ilpo
+  citation:
+  - 10.1038/s41598-017-01247-9
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - SOD
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 4.6)
+  - Slipids force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.439080
+    name: 1152DPPC_46440SOL_124SOD_124CLA_300K
+    contentSize: 5403749940
+    encodingFormat: application/x-xtc
+    hasPart:
+    - dppc-0-300.xtc
+    - dppc-0-300.tpr
+    - topol0.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.439080
+    identifier: 10.5281/zenodo.439080
+    url: https://doi.org/10.5281/zenodo.439080
+    name: Simulations Of Dppc/Cholesterol Bilayers With The Slipids Force Field, Part 2/2
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.439080
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

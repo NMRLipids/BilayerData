@@ -29,7 +29,6 @@ COMPOSITION:
     MAPPING: mappingCA.yaml
     COUNT: 26
 DIR_WRK: /home/lara/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Ollila, O. H. Samuli; Määttä, Jukka; Monticelli, Luca
 SYSTEM: 72POPC_2802SOL_52CLA_26CAL_298K
 SOFTWARE_VERSION: 4.5
@@ -44,10 +43,110 @@ TRAJECTORY_SIZE: 266813980
 TRJLENGTH: 60010.0
 TEMPERATURE: 298.0
 NUMBER_OF_ATOMS: 12228
-DATEOFRUNNING: 16/06/2022
+DATEOFRUNNING: '2022-06-16'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPC: []
   FORMFACTOR: []
 ID: 157
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC/CLA/CAL (48:35:17) bilayer at 298 K (Orange, GROMACS 4.5, 60 ns) [NMRlipids simulation 157]
+  alternateName: 72POPC_2802SOL_52CLA_26CAL_298K
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 48 mol%), 52 CLA (35 mol%) and 26 CAL (17 mol%) at 298 K. Simulated with Orange in GROMACS 4.5 for 60 ns (12228 atoms). Deposited as NMRlipids Databank simulation 157 and available from https://doi.org/10.5281/zenodo.34498.
+  sameAs: https://doi.org/10.5281/zenodo.34498
+  datePublished: '2015-12-02'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0
+  publisher: Zenodo
+  creator:
+  - name: Ollila, O. H. Samuli
+  - name: Määttä, Jukka
+  - name: Monticelli, Luca
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - CAL
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 4.5)
+  - Orange force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.34498
+    name: 72POPC_2802SOL_52CLA_26CAL_298K
+    contentSize: 266813980
+    encodingFormat: application/x-xtc
+    hasPart:
+    - popcRUN2.xtc
+    - popcRUN2.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.34498
+    identifier: 10.5281/zenodo.34498
+    url: https://doi.org/10.5281/zenodo.34498
+    name: Md Simulation Trajectory For Popc Bilayer With 510Mm Cacl_2 (Orange, Gromacs 4.5.)
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.34498
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

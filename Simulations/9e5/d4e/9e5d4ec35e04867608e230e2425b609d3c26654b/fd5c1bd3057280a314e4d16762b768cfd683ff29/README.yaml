@@ -31,7 +31,6 @@ COMPOSITION:
     MAPPING: mappingK.yaml
     COUNT: 38
 DIR_WRK: /home/lara/Databank
-PUBLICATION: 10.1021/acs.langmuir.6b00788
 AUTHORS_CONTACT: Ollila, Samuli; Khandelia, Himanshu
 SYSTEM: 90POPC_38PAzePCdeprot_7250SOL_38POT_298K
 SOFTWARE_VERSION: 4.5
@@ -49,7 +48,7 @@ TRAJECTORY_SIZE: 2029852392
 TRJLENGTH: 60020.0
 TEMPERATURE: 298.0
 NUMBER_OF_ATOMS: 28178
-DATEOFRUNNING: 12/04/2022
+DATEOFRUNNING: '2022-04-12'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -57,3 +56,107 @@ EXPERIMENT:
     PAzePCdeprot: []
   FORMFACTOR: []
 ID: 354
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC/PAzePCdeprot/POT (54:23:23) bilayer at 298 K (Berger, GROMACS 4.5, 60 ns) [NMRlipids simulation 354]
+  alternateName: 90POPC_38PAzePCdeprot_7250SOL_38POT_298K
+  description: Molecular dynamics trajectory of a lipid bilayer of 90 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 54 mol%), 38 PAzePCdeprot (1-palmitoyl-2-azelaoyl-sn-glycero-3-phosphocholine deprotonated, 23 mol%) and 38 POT (23 mol%) at 298 K. Simulated with Berger in GROMACS 4.5 for 60 ns (28178 atoms). Deposited as NMRlipids Databank simulation 354 and available from https://doi.org/10.5281/zenodo.44622.
+  sameAs: https://doi.org/10.5281/zenodo.44622
+  datePublished: '2016-01-12'
+  license:
+    spdx: CC0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    url: https://spdx.org/licenses/CC0-1.0.html
+    sameAs: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Ollila, Samuli
+  - name: Khandelia, Himanshu
+  citation:
+  - 10.1021/acs.langmuir.6b00788
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - PAzePCdeprot
+  - 1-palmitoyl-2-azelaoyl-sn-glycero-3-phosphocholine deprotonated
+  - POT
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 4.5)
+  - Berger force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.44622
+    name: 90POPC_38PAzePCdeprot_7250SOL_38POT_298K
+    contentSize: 2029852392
+    encodingFormat: application/x-trr
+    hasPart:
+    - pzpcRUN2.trr
+    - pzpcRUN2.tpr
+    - pzpc.top
+    - pzpcRUN2.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.44622
+    identifier: 10.5281/zenodo.44622
+    url: https://doi.org/10.5281/zenodo.44622
+    name: MD simulation trajectory and related files for POPC bilayer with 30 mol% of deprotonated pazePC (Berger, Gromacs 4.5.)
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.44622
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

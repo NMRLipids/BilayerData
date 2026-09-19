@@ -3,7 +3,6 @@ FF_DATE: June 2015
 SYSTEM: 256DPPC_42642SOL_358K
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 358.0
-PUBLICATION: 10.1002/jcc.26508
 NUMBER_OF_ATOMS: 161206
 EXPERIMENT:
   ORDERPARAMETER:
@@ -31,7 +30,7 @@ TOP: null
 PREEQTIME: 0
 DOI: 10.5281/zenodo.4300706
 DATE: 2020-12-01
-DATEOFRUNNING: 05/10/2021
+DATEOFRUNNING: '2021-10-05'
 TPR:
 - - dppc_fluid.tpr
 TRJ:
@@ -40,3 +39,107 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 255
+bioschema_properties:
+  name: Molecular dynamics trajectory of a DPPC bilayer at 358 K (CHARMM36, GROMACS 2020, 25 ns) [NMRlipids simulation 255]
+  alternateName: 256DPPC_42642SOL_358K
+  description: Molecular dynamics trajectory of a lipid bilayer of 256 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 358 K. Simulated with CHARMM36 in GROMACS 2020 for 25 ns (161206 atoms). Deposited as NMRlipids Databank simulation 255 and available from https://doi.org/10.5281/zenodo.4300706.
+  sameAs: https://doi.org/10.5281/zenodo.4300706
+  datePublished: '2020-12-01'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Walter, Vivien
+    identifier: https://orcid.org/0000-0003-3203-9543
+  - name: Ruscher, Celine
+    identifier: https://orcid.org/0000-0003-1095-9103
+  - name: Benzerara, Olivier
+  - name: Thalmann, Fabrice
+    identifier: https://orcid.org/0000-0002-9630-1128
+  citation:
+  - 10.1002/jcc.26508
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 2020)
+  - CHARMM36 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.4300706
+    name: 256DPPC_42642SOL_358K
+    contentSize: 2995251216
+    encodingFormat: application/x-xtc
+    hasPart:
+    - dppc_fluid.xtc
+    - dppc_fluid.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.4300706
+    identifier: 10.5281/zenodo.4300706
+    url: https://doi.org/10.5281/zenodo.4300706
+    name: 256 DPPC Molecules bilayer in pure Water, simulated at 288K (gel) or 358K (fluid)
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.4300706
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

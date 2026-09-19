@@ -20,7 +20,6 @@ COMPOSITION:
     NAME: TIP3
     MAPPING: mappingTIP3PCHARMMgui.yaml
     COUNT: 9000
-PUBLICATION: Doktorova et al. 2017 Phys. Chem. Chem. Phys. article (DOI 10.1039/c7cp01921a)
 AUTHORS_CONTACT: Milka Doktorova
 SYSTEM: DLIPC simulation
 SOFTWARE_VERSION: null
@@ -31,7 +30,7 @@ TOP: null
 TRAJECTORY_SIZE: 7909580276
 TRJLENGTH: 598.8805725
 NUMBER_OF_ATOMS: 53800
-DATEOFRUNNING: 27/09/2023
+DATEOFRUNNING: '2023-09-27'
 TYPEOFSYSTEM: lipid bilayer
 WARNINGS: SKIP_EQTIMES
 ID: 775
@@ -39,3 +38,102 @@ EXPERIMENT:
   ORDERPARAMETER:
     DLIPC: []
   FORMFACTOR: []
+bioschema_properties:
+  name: Molecular dynamics trajectory of a DLIPC bilayer at 298 K (Charmm36, NAMD, 1 ns) [NMRlipids simulation 775]
+  alternateName: DLIPC simulation
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 DLIPC (1,2-dilinoleoyl-sn-glycero-3-phosphocholine) at 298 K. Simulated with Charmm36 in NAMD for 1 ns (53800 atoms). Deposited as NMRlipids Databank simulation 775 and available from https://doi.org/10.5281/zenodo.8357170.
+  sameAs: https://doi.org/10.5281/zenodo.8357170
+  datePublished: '2023-09-18'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Doktorova, Milka
+    identifier: https://orcid.org/0000-0003-4366-2242
+  citation:
+  - 10.1039/c7cp01921a
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DLIPC
+  - 1,2-dilinoleoyl-sn-glycero-3-phosphocholine
+  - DLiPC bilayer
+  - PUFA
+  - membrane simulation
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (NAMD)
+  - Charmm36 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.8357170
+    name: DLIPC simulation
+    contentSize: 7909580276
+    encodingFormat: application/x-dcd
+    hasPart:
+    - traj_center_245ns.dcd
+    - struct.psf
+    - struct.pdb
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8357170
+    identifier: 10.5281/zenodo.8357170
+    url: https://doi.org/10.5281/zenodo.8357170
+    name: NAMD Trajectory of a DLiPC (di18:2PC) bilayer
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8357170
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

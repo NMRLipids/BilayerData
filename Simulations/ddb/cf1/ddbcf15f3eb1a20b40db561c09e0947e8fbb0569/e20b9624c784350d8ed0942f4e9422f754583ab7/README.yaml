@@ -19,7 +19,6 @@ COMPOSITION:
     MAPPING: mappingTIP3PCHARMMgui.yaml
     COUNT: 8880
 DIR_WRK: /media/osollila/Data1/tmp/DATABANK/
-PUBLICATION: null
 AUTHORS_CONTACT: Milla Lindström
 SYSTEM: 200POPC_8880SOL_300K
 SOFTWARE_VERSION: 2019.5
@@ -35,7 +34,7 @@ TRAJECTORY_SIZE: 9042621000
 TRJLENGTH: 460010.0
 TEMPERATURE: 300.0
 NUMBER_OF_ATOMS: 53440
-DATEOFRUNNING: 10/06/2022
+DATEOFRUNNING: '2022-06-10'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -45,3 +44,104 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/1
 ID: 164
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC bilayer at 300 K (CHARMM36, GROMACS 2019.5, 460 ns) [NMRlipids simulation 164]
+  alternateName: 200POPC_8880SOL_300K
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with CHARMM36 in GROMACS 2019.5 for 460 ns (53440 atoms). Deposited as NMRlipids Databank simulation 164 and available from https://doi.org/10.5281/zenodo.6336691.
+  sameAs: https://doi.org/10.5281/zenodo.6336691
+  datePublished: '2022-03-08'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Lindström, Milla
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 2019.5)
+  - CHARMM36 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.6336691
+    name: 200POPC_8880SOL_300K
+    contentSize: 9042621000
+    encodingFormat: application/x-xtc
+    hasPart:
+    - centered-40-500ns.xtc
+    - production.tpr
+    - topol.top
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jpcb.4c04719/4
+  - experiments/OrderParameters/10.1039/c2cp42738a/1
+  - experiments/FormFactors/10.1021/acs.jctc.3c00648/1
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.6336691
+    identifier: 10.5281/zenodo.6336691
+    url: https://doi.org/10.5281/zenodo.6336691
+    name: MD simulation of POPC bilayer with CHARMM36 force field. Full hydration 44 w/l.
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.6336691
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

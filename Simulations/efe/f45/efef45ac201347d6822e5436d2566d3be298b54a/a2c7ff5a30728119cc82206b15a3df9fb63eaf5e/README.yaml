@@ -40,7 +40,7 @@ COMPOSITION:
     MAPPING: mappingSPCwater.yaml
 TIMELEFTOUT: 0
 POPE: POPE
-DATEOFRUNNING: 05/10/2021
+DATEOFRUNNING: '2021-10-05'
 FF: lipid17ecc
 SOFTWARE: gromacs
 PREEQTIME: 100
@@ -55,3 +55,104 @@ TRJ:
 - - 100-400ns.xtc
 TEMPERATURE: 298.0
 ID: 417
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC/CLA/POPG/SOD/CAL (52:14:13:13:7) bilayer at 298 K (lipid17ecc, GROMACS, 300 ns) [NMRlipids simulation 417]
+  alternateName: POPC:POPG(4:1)_T298K_0.1MCaCl
+  description: Molecular dynamics trajectory of a lipid bilayer of 350 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 52 mol%), 94 CLA (14 mol%), 88 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 13 mol%), 88 SOD (13 mol%) and 47 CAL (7 mol%) at 298 K. Simulated with lipid17ecc in GROMACS for 300 ns (136677 atoms). Deposited as NMRlipids Databank simulation 417 and available from https://doi.org/10.5281/zenodo.3997176.
+  sameAs: https://doi.org/10.5281/zenodo.3997176
+  datePublished: '2020-08-24'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kiirikki, M. Anne; Ollila O. H. Samuli
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - SOD
+  - CAL
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs)
+  - lipid17ecc force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3997176
+    name: POPC:POPG(4:1)_T298K_0.1MCaCl
+    contentSize: 7595871916
+    encodingFormat: application/x-xtc
+    hasPart:
+    - 100-400ns.xtc
+    - run_400ns.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3997176
+    identifier: 10.5281/zenodo.3997176
+    url: https://doi.org/10.5281/zenodo.3997176
+    name: Lipid17ecc POPC:POPG 4:1 bilayer simulation in 0.1 M CaCl2 solution and Na+ counter ions
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3997176
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

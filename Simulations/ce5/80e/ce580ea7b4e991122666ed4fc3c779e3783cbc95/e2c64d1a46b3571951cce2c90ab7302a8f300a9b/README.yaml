@@ -3,7 +3,6 @@ FF_DATE: pre-2020
 SYSTEM: 128POPS_4880SOL_128SOD_298K_v1
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 298.0
-PUBLICATION: null
 NUMBER_OF_ATOMS: 29824
 EXPERIMENT:
   ORDERPARAMETER:
@@ -40,7 +39,7 @@ TOP: null
 PREEQTIME: 400
 DOI: 10.5281/zenodo.1129441
 DATE: 2017-12-24
-DATEOFRUNNING: 12/10/2021
+DATEOFRUNNING: '2021-10-12'
 TPR:
 - - for-md-Slipids_10A_cut-off_LJ-PME_POPS_298K_v1.tpr
 TRJ:
@@ -49,3 +48,106 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /usr/home/bort/Databank
 ID: 529
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPS/SOD (50:50) bilayer at 298 K (Slipids, GROMACS, 100 ns) [NMRlipids simulation 529]
+  alternateName: 128POPS_4880SOL_128SOD_298K_v1
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 50 mol%) and 128 SOD (50 mol%) at 298 K. Simulated with Slipids in GROMACS for 100 ns (29824 atoms). Deposited as NMRlipids Databank simulation 529 and available from https://doi.org/10.5281/zenodo.1129441.
+  sameAs: https://doi.org/10.5281/zenodo.1129441
+  datePublished: '2017-12-24'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Piggot, Thomas
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  - SOD
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs)
+  - Slipids force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1129441
+    name: 128POPS_4880SOL_128SOD_298K_v1
+    contentSize: 221912104
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md-Slipids_LJ-PME_POPS_v1_400-500ns_skip10.xtc
+    - for-md-Slipids_10A_cut-off_LJ-PME_POPS_298K_v1.tpr
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jctc.9b00824/1
+  - experiments/OrderParameters/10.1021/acs.jpcb.9b06091/1
+  - experiments/FormFactors/10.1039/C4SM00066H/1
+  - experiments/FormFactors/10.1039/C4SM00066H/2
+  - experiments/FormFactors/10.1039/C4SM00066H/3
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1129441
+    identifier: 10.5281/zenodo.1129441
+    url: https://doi.org/10.5281/zenodo.1129441
+    name: Slipids Pops Simulations (Versions 1 And 2) 298 K 1.0 Nm Cut-Off With Lj-Pme
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1129441
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

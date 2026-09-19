@@ -23,7 +23,6 @@ COMPOSITION:
     MAPPING: mappingNA.yaml
     COUNT: 72
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Melcr, Josef
 SYSTEM: 72POPS_3600SOL_72SOD_298K
 SOFTWARE_VERSION: 2018.0
@@ -40,7 +39,7 @@ TRAJECTORY_SIZE: 3652498440
 TRJLENGTH: 1000020.0
 TEMPERATURE: 298.0
 NUMBER_OF_ATOMS: 20016
-DATEOFRUNNING: 13/01/2022
+DATEOFRUNNING: '2022-01-13'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -52,3 +51,109 @@ EXPERIMENT:
   - 10.1039/C4SM00066H/2
   - 10.1039/C4SM00066H/3
 ID: 483
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPS/SOD (50:50) bilayer at 298 K (Lipid17 and Dang ions, GROMACS 2018.0, 1000 ns) [NMRlipids simulation 483]
+  alternateName: 72POPS_3600SOL_72SOD_298K
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 50 mol%) and 72 SOD (50 mol%) at 298 K. Simulated with Lipid17 and Dang ions in GROMACS 2018.0 for 1000 ns (20016 atoms). Deposited as NMRlipids Databank simulation 483 and available from https://doi.org/10.5281/zenodo.1487761.
+  sameAs: https://doi.org/10.5281/zenodo.1487761
+  datePublished: '2018-11-14'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Melcr, Josef
+    identifier: https://orcid.org/0000-0003-4729-3990
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPS
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
+  - SOD
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 2018.0)
+  - Lipid17 and Dang ions force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1487761
+    name: 72POPS_3600SOL_72SOD_298K
+    contentSize: 3652498440
+    encodingFormat: application/x-xtc
+    hasPart:
+    - lipid17_pure-POPS_298K.xtc
+    - lipid17_pure-POPS_298K.tpr
+    - lipid17_pure-POPS_298K.top
+    - lipid17_pure-POPS_298K.gro
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jctc.9b00824/1
+  - experiments/OrderParameters/10.1021/acs.jpcb.9b06091/1
+  - experiments/FormFactors/10.1039/C4SM00066H/1
+  - experiments/FormFactors/10.1039/C4SM00066H/2
+  - experiments/FormFactors/10.1039/C4SM00066H/3
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1487761
+    identifier: 10.5281/zenodo.1487761
+    url: https://doi.org/10.5281/zenodo.1487761
+    name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS with the lipid17 force field, only counterions, and CaCl2 concentrations
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1487761
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

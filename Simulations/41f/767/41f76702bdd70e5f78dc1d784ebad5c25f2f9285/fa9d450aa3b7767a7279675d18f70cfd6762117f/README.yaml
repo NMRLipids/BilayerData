@@ -36,7 +36,6 @@ COMPOSITION:
     MAPPING: mappingCL.yaml
     COUNT: 49
 DIR_WRK: /home/lara/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: ANTONIO PEON
 SYSTEM: 374POPG_126POPE_25000SOL_423SOD_49CLA_310K
 SOFTWARE_VERSION: 5.1.2
@@ -53,7 +52,7 @@ TRAJECTORY_SIZE: 3819350212
 TRJLENGTH: 100010.0
 TEMPERATURE: 310.0
 NUMBER_OF_ATOMS: 101846
-DATEOFRUNNING: 18/05/2022
+DATEOFRUNNING: '2022-05-18'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -61,3 +60,107 @@ EXPERIMENT:
     POPE: []
   FORMFACTOR: []
 ID: 447
+bioschema_properties:
+  name: Molecular dynamics trajectory of a SOD/POPG/POPE/CLA (44:38:13:5) bilayer at 310 K (GROMOS-CKP, GROMACS 5.1.2, 100 ns) [NMRlipids simulation 447]
+  alternateName: 374POPG_126POPE_25000SOL_423SOD_49CLA_310K
+  description: Molecular dynamics trajectory of a lipid bilayer of 423 SOD (44 mol%), 374 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 38 mol%), 126 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 13 mol%) and 49 CLA (5 mol%) at 310 K. Simulated with GROMOS-CKP in GROMACS 5.1.2 for 100 ns (101846 atoms). Deposited as NMRlipids Databank simulation 447 and available from https://doi.org/10.5281/zenodo.2580158.
+  sameAs: https://doi.org/10.5281/zenodo.2580158
+  datePublished: '2019-02-28'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: PEÓN, Antonio
+    identifier: https://orcid.org/0000-0003-4803-988X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - SOD
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - POPE
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  - CLA
+  - GROMOS-CKP
+  - POPG-POPE 3:1
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 5.1.2)
+  - GROMOS-CKP force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.2580158
+    name: 374POPG_126POPE_25000SOL_423SOD_49CLA_310K
+    contentSize: 3819350212
+    encodingFormat: application/x-xtc
+    hasPart:
+    - dm_popg_pope_3_1_gromos.xtc
+    - md_07.tpr
+    - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.2580158
+    identifier: 10.5281/zenodo.2580158
+    url: https://doi.org/10.5281/zenodo.2580158
+    name: GROMOS-CKP POPG-POPE 3:1 Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.2580158
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

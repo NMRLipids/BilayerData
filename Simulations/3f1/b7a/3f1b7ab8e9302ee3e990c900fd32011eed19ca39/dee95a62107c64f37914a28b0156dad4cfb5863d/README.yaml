@@ -3,7 +3,6 @@ FFCAL: ECC calcium
 SYSTEM: 86CHOL_200POPC_9000SOL_73CAL_146CLA_310K
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 310.15
-PUBLICATION: null
 NUMBER_OF_ATOMS: 60383
 EXPERIMENT:
   ORDERPARAMETER:
@@ -42,7 +41,7 @@ TPR:
 - - md30.tpr
 SOFTWARE_VERSION: 5.0
 FF: CHARMM36 with incorrect multiplicity in dihedrals and ECC ions
-DATEOFRUNNING: 05/10/2021
+DATEOFRUNNING: '2021-10-05'
 TOP:
 - - md30.top
 PREEQTIME: 0
@@ -58,3 +57,104 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 252
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC/CLA/CHOL/CAL (40:29:17:14) bilayer at 310.15 K (CHARMM36 with incorrect multiplicity in dihedrals and ECC ions, GROMACS 5.0, 800 ns) [NMRlipids simulation 252]
+  alternateName: 86CHOL_200POPC_9000SOL_73CAL_146CLA_310K
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 40 mol%), 146 CLA (29 mol%), 86 CHOL (cholesterol, 17 mol%) and 73 CAL (14 mol%) at 310.15 K. Simulated with CHARMM36 with incorrect multiplicity in dihedrals and ECC ions in GROMACS 5.0 for 800 ns (60383 atoms). Deposited as NMRlipids Databank simulation 252 and available from https://doi.org/10.5281/zenodo.259376.
+  sameAs: https://doi.org/10.5281/zenodo.259376
+  datePublished: '2017-01-24'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - CHOL
+  - cholesterol
+  - CAL
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 5.0)
+  - CHARMM36 with incorrect multiplicity in dihedrals and ECC ions force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.259376
+    name: 86CHOL_200POPC_9000SOL_73CAL_146CLA_310K
+    contentSize: 1806818000
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md30.xtc
+    - md30.tpr
+    - md30.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.259376
+    identifier: 10.5281/zenodo.259376
+    url: https://doi.org/10.5281/zenodo.259376
+    name: Popc With Varying Amounts Of Cholesterol, 450 Mm Of Cacl_2. Charmm36 With Ecc-Scaled Ions
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.259376
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

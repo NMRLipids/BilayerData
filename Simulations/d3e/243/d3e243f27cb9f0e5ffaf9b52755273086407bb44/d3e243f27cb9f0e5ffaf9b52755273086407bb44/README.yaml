@@ -6,7 +6,6 @@ PREEQTIME: 100
 TIMELEFTOUT: 0
 TEMPERATURE: 303.15
 SYSTEM: POPC:SSM(sphingomyelin):CHOL(1:1:1)
-PUBLICATION: 10.1038/s41467-025-58334-z
 AUTHORS_CONTACT: franci.merzel@ki.si
 SOFTWARE_VERSION: NAMD 2.13
 FF: Charmm36
@@ -50,12 +49,119 @@ COMPOSITION:
 TRAJECTORY_SIZE: 10673709396
 TRJLENGTH: 0.23955224037812034
 NUMBER_OF_ATOMS: 181519
-DATEOFRUNNING: 29/08/2026
+DATEOFRUNNING: '2026-08-29'
 TYPEOFSYSTEM: lipid bilayer
-ID: 922
 EXPERIMENT:
   ORDERPARAMETER:
     POPC: []
     SM18: []
     CHOL: []
   FORMFACTOR: []
+ID: 922
+bioschema_properties:
+  name: Molecular dynamics trajectory of a CHOL/POPC/SM18/CLA/SOD (28:28:28:8:8) bilayer at 303.15 K (Charmm36, NAMD NAMD 2.13, 0 ns) [NMRlipids simulation 922]
+  alternateName: POPC:SSM(sphingomyelin):CHOL(1:1:1)
+  description: Molecular dynamics trajectory of a lipid bilayer of 276 CHOL (cholesterol, 28 mol%), 276 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 28 mol%), 276 SM18 (N-stearoyl-D-erythro-sphingosylphosphorylcholine, 28 mol%), 77 CLA (8 mol%) and 77 SOD (8 mol%) at 303.15 K. Simulated with Charmm36 in NAMD NAMD 2.13 for 0 ns (181519 atoms). Deposited as NMRlipids Databank simulation 922 and available from https://doi.org/10.5281/zenodo.21937938.
+  sameAs: https://doi.org/10.5281/zenodo.21937938
+  datePublished: '2026-08-14'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Merzel, Franci
+    identifier: https://orcid.org/0000-0002-2748-4901
+  citation:
+  - 10.1038/s41467-025-58334-z
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - CHOL
+  - cholesterol
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - SM18
+  - N-stearoyl-D-erythro-sphingosylphosphorylcholine
+  - CLA
+  - SOD
+  - lipid bilayer
+  - MD simulation
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (NAMD NAMD 2.13)
+  - Charmm36 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.21937938
+    name: POPC:SSM(sphingomyelin):CHOL(1:1:1)
+    contentSize: 10673709396
+    encodingFormat: application/x-dcd
+    hasPart:
+    - cnt-mmb_111.dcd
+    - input_111.psf
+    - input_111.pdb
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.21937938
+    identifier: 10.5281/zenodo.21937938
+    url: https://doi.org/10.5281/zenodo.21937938
+    name: All-atom POPC-SSM (1:1) and POPC-SSM-CHOL (1:1:1) trajectories
+    publisher: Zenodo
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.21937938
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

@@ -41,14 +41,120 @@ SOFTWARE_VERSION: 2023.2
 FF: Charmm36
 FF_SOURCE: CHARMM-GUI
 FF_DATE: 01/01/2024
-PUBLICATION: null
 TRAJECTORY_SIZE: 4073374512
 TRJLENGTH: 500100.0
 NUMBER_OF_ATOMS: 33933
-DATEOFRUNNING: 17/10/2024
+DATEOFRUNNING: '2024-10-17'
 TYPEOFSYSTEM: lipid bilayer
 ID: 825
 EXPERIMENT:
   ORDERPARAMETER:
     TLCL_0H: []
   FORMFACTOR: []
+bioschema_properties:
+  name: Molecular dynamics trajectory of a SOD/TLCL_0H/CLA (64:29:7) bilayer at 303.15 K (Charmm36, GROMACS 2023.2, 500 ns) [NMRlipids simulation 825]
+  alternateName: TLCL_66_Na_Cl_T303_45w/P
+  description: Molecular dynamics trajectory of a lipid bilayer of 147 SOD (64 mol%), 66 TLCL_0H (tetralinoleoyl cardiolipin(2−), 29 mol%) and 15 CLA (7 mol%) at 303.15 K. Simulated with Charmm36 in GROMACS 2023.2 for 500 ns (33933 atoms). Deposited as NMRlipids Databank simulation 825 and available from https://doi.org/10.5281/zenodo.13933145.
+  sameAs: https://doi.org/10.5281/zenodo.13933145
+  datePublished: '2024-10-15'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Hörstel, Ferdinand
+  - name: Miettinen, Markus S.
+    identifier: https://orcid.org/0000-0002-3999-4722
+  - name: Nesterenko, Alexey
+    identifier: https://orcid.org/0000-0003-1592-257X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - SOD
+  - TLCL_0H
+  - tetralinoleoyl cardiolipin(2−)
+  - CLA
+  - Lipids
+  - GROMACS
+  - cardiolipin
+  - NMRlipids
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 2023.2)
+  - Charmm36 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.13933145
+    name: TLCL_66_Na_Cl_T303_45w/P
+    contentSize: 4073374512
+    encodingFormat: application/x-trr
+    hasPart:
+    - TLCL_Na_prod500ns.trr
+    - TLCL_Na_prod500.tpr
+    - TOCL_Na.top
+    - TLCL_Na_prod500ns.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.13933145
+    identifier: 10.5281/zenodo.13933145
+    url: https://doi.org/10.5281/zenodo.13933145
+    name: MD simulations of TOCL(TMA/Na) and TLCL(Na) in CHARMM36
+    publisher: Zenodo
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.13933145
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

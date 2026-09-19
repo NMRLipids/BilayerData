@@ -32,10 +32,107 @@ TRAJECTORY_SIZE: 1012328064
 TRJLENGTH: 100010.0
 TEMPERATURE: 298.0
 NUMBER_OF_ATOMS: 27434
-DATEOFRUNNING: 24/03/2022
+DATEOFRUNNING: '2022-03-24'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPG: []
   FORMFACTOR: []
 ID: 284
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPG/POT (50:50) bilayer at 298 K (CHARMM36, GROMACS, 100 ns) [NMRlipids simulation 284]
+  alternateName: POPG_T298K
+  description: Molecular dynamics trajectory of a lipid bilayer of 118 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 50 mol%) and 118 POT (50 mol%) at 298 K. Simulated with CHARMM36 in GROMACS for 100 ns (27434 atoms). Deposited as NMRlipids Databank simulation 284 and available from https://doi.org/10.5281/zenodo.1011096.
+  sameAs: https://doi.org/10.5281/zenodo.1011096
+  datePublished: '2017-10-13'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Ollila, O. H. Samuli
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - POT
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs)
+  - CHARMM36 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1011096
+    name: POPG_T298K
+    contentSize: 1012328064
+    encodingFormat: application/x-xtc
+    hasPart:
+    - run2.xtc
+    - run2.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1011096
+    identifier: 10.5281/zenodo.1011096
+    url: https://doi.org/10.5281/zenodo.1011096
+    name: Popg Lipid Bilayer Simulation At T298K Ran With Model_Charmm_Gui Force Field And Gromacs
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1011096
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

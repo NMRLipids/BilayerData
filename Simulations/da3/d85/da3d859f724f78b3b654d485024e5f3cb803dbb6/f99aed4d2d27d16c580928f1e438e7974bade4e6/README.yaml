@@ -8,7 +8,6 @@ TPR:
 PREEQTIME: 0
 TIMELEFTOUT: 0
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Javanainen, Matti
 SYSTEM: 204DPPC_52CHOL_166DOPC_16880SOL_46SOD_46CLA_310K
 SOFTWARE_VERSION: 4.6
@@ -55,7 +54,7 @@ TRAJECTORY_SIZE: 768395828
 TRJLENGTH: 200100.0
 TEMPERATURE: 310.0
 NUMBER_OF_ATOMS: 104008
-DATEOFRUNNING: 18/12/2021
+DATEOFRUNNING: '2021-12-18'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -64,3 +63,106 @@ EXPERIMENT:
     DOPC: []
   FORMFACTOR: []
 ID: 156
+bioschema_properties:
+  name: Molecular dynamics trajectory of a DPPC/DOPC/CHOL/CLA/SOD (40:32:10:9:9) bilayer at 310 K (Slipids for lipids and Smith & Dang for ions, GROMACS 4.6, 200 ns) [NMRlipids simulation 156]
+  alternateName: 204DPPC_52CHOL_166DOPC_16880SOL_46SOD_46CLA_310K
+  description: Molecular dynamics trajectory of a lipid bilayer of 204 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine, 40 mol%), 166 DOPC (1,2-dioleoyl-sn-glycero-3-phosphocholine, 32 mol%), 52 CHOL (cholesterol, 10 mol%), 46 CLA (9 mol%) and 46 SOD (9 mol%) at 310 K. Simulated with Slipids for lipids and Smith & Dang for ions in GROMACS 4.6 for 200 ns (104008 atoms). Deposited as NMRlipids Databank simulation 156 and available from https://doi.org/10.5281/zenodo.259443.
+  sameAs: https://doi.org/10.5281/zenodo.259443
+  datePublished: '2017-01-24'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  - DOPC
+  - 1,2-dioleoyl-sn-glycero-3-phosphocholine
+  - CHOL
+  - cholesterol
+  - CLA
+  - SOD
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 4.6)
+  - Slipids for lipids and Smith & Dang for ions force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.259443
+    name: 204DPPC_52CHOL_166DOPC_16880SOL_46SOD_46CLA_310K
+    contentSize: 768395828
+    encodingFormat: application/x-xtc
+    hasPart:
+    - ternary_na_150mM.xtc
+    - ternary_na_150mM.tpr
+    - ternary_na_150mM.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.259443
+    identifier: 10.5281/zenodo.259443
+    url: https://doi.org/10.5281/zenodo.259443
+    name: Simulations Of Na+ And Ca2+ Binding To Phospholipid Membranes
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.259443
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

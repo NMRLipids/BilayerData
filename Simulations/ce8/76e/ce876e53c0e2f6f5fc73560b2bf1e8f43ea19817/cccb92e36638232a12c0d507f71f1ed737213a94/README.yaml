@@ -6,7 +6,6 @@ PREEQTIME: 1.875
 TIMELEFTOUT: 10
 TEMPERATURE: 303.15
 SYSTEM: DMPC
-PUBLICATION: 10.1021/ja962951b
 AUTHORS_CONTACT: Anna Kristine Sandtorv-Lerøen/anna.kristine.sandtorv.leroen@gmail.com
   / Markus S. Miettinen/Markus.Miettinen@uib.no
 SOFTWARE_VERSION: '2026.1'
@@ -32,7 +31,7 @@ COMPOSITION:
 TRAJECTORY_SIZE: 318898344
 TRJLENGTH: 100010.0
 NUMBER_OF_ATOMS: 8800
-DATEOFRUNNING: 03/06/2026
+DATEOFRUNNING: '2026-06-03'
 TYPEOFSYSTEM: lipid bilayer
 ID: 910
 EXPERIMENT:
@@ -41,3 +40,111 @@ EXPERIMENT:
     - 10.1021/acs.jacs.ja962951b/1
   FORMFACTOR:
   - 10.1016/j.bbamem.2011.07.022/18
+bioschema_properties:
+  name: Molecular dynamics trajectory of a DMPC bilayer at 303.15 K (CHARMM36, GROMACS 2026.1, 100 ns) [NMRlipids simulation 910]
+  alternateName: DMPC
+  description: Molecular dynamics trajectory of a lipid bilayer of 40 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine) at 303.15 K. Simulated with CHARMM36 in GROMACS 2026.1 for 100 ns (8800 atoms). Deposited as NMRlipids Databank simulation 910 and available from https://doi.org/10.5281/zenodo.20283378.
+  sameAs: https://doi.org/10.5281/zenodo.20283378
+  datePublished: '2026-06-03'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Sandtorv-Lerøen, Anna Kristine
+  - name: Miettinen, Markus S.
+    identifier: https://orcid.org/0000-0002-3999-4722
+  citation:
+  - 10.1021/ja962951b
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DMPC
+  - 1,2-dimyristoyl-sn-glycero-3-phosphocholine
+  - '1'
+  - 2-dimyristoyl-sn-glycero-3-phosphocholine
+  - Molecular Dynamics Simulation
+  - Lipid Bilayers
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 2026.1)
+  - CHARMM36 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.20283378
+    name: DMPC
+    contentSize: 318898344
+    encodingFormat: application/x-xtc
+    hasPart:
+    - production.xtc
+    - prod243.tpr
+    - topol.top
+    - production.gro
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/acs.jacs.ja962951b/1
+  - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/18
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.20283378
+    identifier: 10.5281/zenodo.20283378
+    url: https://doi.org/10.5281/zenodo.20283378
+    name: MD simulation trajectory and related files for DMPC lipid bilayer in full hydration at 303 K with Charmm6
+    publisher: Zenodo
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.20283378
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

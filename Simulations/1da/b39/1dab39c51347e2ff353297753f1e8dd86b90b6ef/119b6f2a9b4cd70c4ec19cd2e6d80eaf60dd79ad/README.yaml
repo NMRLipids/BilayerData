@@ -8,7 +8,6 @@ TPR:
 PREEQTIME: 0
 TIMELEFTOUT: 0
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Javanainen, Matti
 SYSTEM: 200DOPC_9000SOL_73CAL_146CLA_310K
 SOFTWARE_VERSION: 4.6
@@ -43,10 +42,109 @@ TRAJECTORY_SIZE: 1016962024
 TRJLENGTH: 500100.0
 TEMPERATURE: 310.0
 NUMBER_OF_ATOMS: 54819
-DATEOFRUNNING: 29/11/2021
+DATEOFRUNNING: '2021-11-29'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     DOPC: []
   FORMFACTOR: []
 ID: 384
+bioschema_properties:
+  name: Molecular dynamics trajectory of a DOPC/CLA/CAL (48:35:17) bilayer at 310 K (Slipids for lipids and Kohagen for ions, GROMACS 4.6, 500 ns) [NMRlipids simulation 384]
+  alternateName: 200DOPC_9000SOL_73CAL_146CLA_310K
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 DOPC (1,2-dioleoyl-sn-glycero-3-phosphocholine, 48 mol%), 146 CLA (35 mol%) and 73 CAL (17 mol%) at 310 K. Simulated with Slipids for lipids and Kohagen for ions in GROMACS 4.6 for 500 ns (54819 atoms). Deposited as NMRlipids Databank simulation 384 and available from https://doi.org/10.5281/zenodo.259443.
+  sameAs: https://doi.org/10.5281/zenodo.259443
+  datePublished: '2017-01-24'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DOPC
+  - 1,2-dioleoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - CAL
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 4.6)
+  - Slipids for lipids and Kohagen for ions force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.259443
+    name: 200DOPC_9000SOL_73CAL_146CLA_310K
+    contentSize: 1016962024
+    encodingFormat: application/x-xtc
+    hasPart:
+    - dopc_ld_ca.xtc
+    - dopc_ld_ca.tpr
+    - dopc_ld_ca.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.259443
+    identifier: 10.5281/zenodo.259443
+    url: https://doi.org/10.5281/zenodo.259443
+    name: Simulations Of Na+ And Ca2+ Binding To Phospholipid Membranes
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.259443
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

@@ -5,7 +5,6 @@ TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 310.0
 UNITEDATOM_DICT:
   POPC: GROMOSCKP_POPC
-PUBLICATION: ??
 FFSOL: SPC
 NUMBER_OF_ATOMS: 101000
 EXPERIMENT:
@@ -33,7 +32,7 @@ SOFTWARE: gromacs
 PREEQTIME: 400
 DOI: 10.5281/zenodo.3247435
 DATE: 2019-06-17
-DATEOFRUNNING: 01/10/2021
+DATEOFRUNNING: '2021-10-01'
 TPR:
 - - md_0.tpr
 TRJ:
@@ -42,3 +41,102 @@ TOP:
 - - topol.top
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 261
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC bilayer at 310 K (GROMOS-CKP, GROMACS 2018.3, 100 ns) [NMRlipids simulation 261]
+  alternateName: POPC_T310K
+  description: Molecular dynamics trajectory of a lipid bilayer of 500 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 310 K. Simulated with GROMOS-CKP in GROMACS 2018.3 for 100 ns (101000 atoms). Deposited as NMRlipids Databank simulation 261 and available from https://doi.org/10.5281/zenodo.3247435.
+  sameAs: https://doi.org/10.5281/zenodo.3247435
+  datePublished: '2019-06-17'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: PEON, ANTONIO
+    identifier: https://orcid.org/0000-0003-4803-988X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - GROMOS-CKP POPC Bilayer
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 2018.3)
+  - GROMOS-CKP force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3247435
+    name: POPC_T310K
+    contentSize: 3738892988
+    encodingFormat: application/x-xtc
+    hasPart:
+    - total_4_500.xtc
+    - md_0.tpr
+    - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3247435
+    identifier: 10.5281/zenodo.3247435
+    url: https://doi.org/10.5281/zenodo.3247435
+    name: GROMOS-CKP POPC Bilayer Simulation (Last 100 ns, 310 K )
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3247435
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

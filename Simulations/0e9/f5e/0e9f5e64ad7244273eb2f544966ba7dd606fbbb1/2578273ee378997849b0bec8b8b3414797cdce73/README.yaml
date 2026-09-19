@@ -25,7 +25,6 @@ COMPOSITION:
     MAPPING: mappingwaterlipid14.yaml
     COUNT: 3968
 DIR_WRK: /usr/home/bort/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Jesper J Madsen
 SYSTEM: 52POPC_76CHOL_3968SOL_303K
 SOFTWARE_VERSION: 5.0.4
@@ -40,7 +39,7 @@ TRAJECTORY_SIZE: 180462252
 TRJLENGTH: 200100.0
 TEMPERATURE: 303.0
 NUMBER_OF_ATOMS: 24496
-DATEOFRUNNING: 03/01/2022
+DATEOFRUNNING: '2022-01-03'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -50,3 +49,103 @@ EXPERIMENT:
 WARNINGS:
   PBC: z-jumps
 ID: 490
+bioschema_properties:
+  name: Molecular dynamics trajectory of a CHOL/POPC (59:41) bilayer at 303 K (Lipid14, GROMACS 5.0.4, 200 ns) [NMRlipids simulation 490]
+  alternateName: 52POPC_76CHOL_3968SOL_303K
+  description: Molecular dynamics trajectory of a lipid bilayer of 76 CHOL (cholesterol, 59 mol%) and 52 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 41 mol%) at 303 K. Simulated with Lipid14 in GROMACS 5.0.4 for 200 ns (24496 atoms). Deposited as NMRlipids Databank simulation 490 and available from https://doi.org/10.5281/zenodo.3871008.
+  sameAs: https://doi.org/10.5281/zenodo.3871008
+  datePublished: '2020-06-01'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Madsen, Jesper J
+    identifier: https://orcid.org/0000-0003-1411-9080
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - CHOL
+  - cholesterol
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 5.0.4)
+  - Lipid14 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3871008
+    name: 52POPC_76CHOL_3968SOL_303K
+    contentSize: 180462252
+    encodingFormat: application/x-xtc
+    hasPart:
+    - run.total.xtc
+    - step7_production.tpr
+    - md.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3871008
+    identifier: 10.5281/zenodo.3871008
+    url: https://doi.org/10.5281/zenodo.3871008
+    name: 'MD simulations of bilayers containing POPC and Cholesterol: 52POPC_76CHL_31Nwat_neutral (lipid14)'
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3871008
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

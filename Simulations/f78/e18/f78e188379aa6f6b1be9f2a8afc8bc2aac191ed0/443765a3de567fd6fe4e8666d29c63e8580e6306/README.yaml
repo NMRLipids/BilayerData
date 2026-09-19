@@ -36,7 +36,6 @@ COMPOSITION:
     MAPPING: mappingSPCwater.yaml
     COUNT: 5304
 DIR_WRK: /home/lara/Databank
-PUBLICATION: 10.1021/jp810233q; ISBN 978-952-60-3194-1
 AUTHORS_CONTACT: Miettinen, Markus S.; Gurtovenko, Andrey A.
 SYSTEM: 32DMPC_96DMTAP_96SOD_192CLA_5304SOL_323K
 SOFTWARE_VERSION: 3.x
@@ -56,7 +55,7 @@ TRAJECTORY_SIZE: 860492676
 TRJLENGTH: 110010.0
 TEMPERATURE: 323.0
 NUMBER_OF_ATOMS: 21416
-DATEOFRUNNING: 21/06/2022
+DATEOFRUNNING: '2022-06-21'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -64,3 +63,113 @@ EXPERIMENT:
     DMTAP: []
   FORMFACTOR: []
 ID: 240
+bioschema_properties:
+  name: Molecular dynamics trajectory of a CLA/DMTAP/SOD/DMPC (46:23:23:8) bilayer at 323 K (Berger with DMTAP modification by Gurtovenko et al., GROMACS 3.x, 110 ns) [NMRlipids simulation 240]
+  alternateName: 32DMPC_96DMTAP_96SOD_192CLA_5304SOL_323K
+  description: Molecular dynamics trajectory of a lipid bilayer of 192 CLA (46 mol%), 96 DMTAP (1,2-dimyristoyl-3-trimethylammonium-propane, 23 mol%), 96 SOD (23 mol%) and 32 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine, 8 mol%) at 323 K. Simulated with Berger with DMTAP modification by Gurtovenko et al. in GROMACS 3.x for 110 ns (21416 atoms). Deposited as NMRlipids Databank simulation 240 and available from https://doi.org/10.5281/zenodo.51750.
+  sameAs: https://doi.org/10.5281/zenodo.51750
+  datePublished: '2016-05-20'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Miettinen, Markus S.
+    identifier: https://orcid.org/0000-0002-3999-4722
+  citation:
+  - 10.1021/jp810233q
+  - ISBN 978-952-60-3194-1
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - CLA
+  - DMTAP
+  - 1,2-dimyristoyl-3-trimethylammonium-propane
+  - SOD
+  - DMPC
+  - 1,2-dimyristoyl-sn-glycero-3-phosphocholine
+  - cationic lipid bilayer
+  - NaCl
+  - Molecular Dynamics Simulation
+  - Gromacs
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 3.x)
+  - Berger with DMTAP modification by Gurtovenko et al. force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.51750
+    name: 32DMPC_96DMTAP_96SOD_192CLA_5304SOL_323K
+    contentSize: 860492676
+    encodingFormat: application/x-xtc
+    hasPart:
+    - tap75s10_11-121ns.xtc
+    - tap75s10_1ns.tpr
+    - tap75s10.top
+    - tap75s10_100ns.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.51750
+    identifier: 10.5281/zenodo.51750
+    url: https://doi.org/10.5281/zenodo.51750
+    name: 'Molecular dynamics simulation trajectory of a cationic lipid bilayer: 75/25 mol% DMTAP/DMPC in 1.0 M NaCl'
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.51750
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

@@ -3,7 +3,6 @@ FF_DATE: null
 SYSTEM: 374POPG_126POPE_25000SOL_423SOD_49CLA_310K
 TYPEOFSYSTEM: lipid bilayer
 TEMPERATURE: 310.0
-PUBLICATION: null
 NUMBER_OF_ATOMS: 138720
 EXPERIMENT:
   ORDERPARAMETER:
@@ -47,7 +46,7 @@ TOP:
 PREEQTIME: 400
 DOI: 10.5281/zenodo.2580153
 DATE: 2019-02-28
-DATEOFRUNNING: 04/10/2021
+DATEOFRUNNING: '2021-10-04'
 TPR:
 - - md_03.tpr
 TRJ:
@@ -56,3 +55,107 @@ LOG: null
 SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 377
+bioschema_properties:
+  name: Molecular dynamics trajectory of a SOD/POPG/POPE/CLA (44:38:13:5) bilayer at 310 K (CHARMM36, GROMACS 5.1.2, 100 ns) [NMRlipids simulation 377]
+  alternateName: 374POPG_126POPE_25000SOL_423SOD_49CLA_310K
+  description: Molecular dynamics trajectory of a lipid bilayer of 423 SOD (44 mol%), 374 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 38 mol%), 126 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 13 mol%) and 49 CLA (5 mol%) at 310 K. Simulated with CHARMM36 in GROMACS 5.1.2 for 100 ns (138720 atoms). Deposited as NMRlipids Databank simulation 377 and available from https://doi.org/10.5281/zenodo.2580153.
+  sameAs: https://doi.org/10.5281/zenodo.2580153
+  datePublished: '2019-02-28'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: PEÓN, Antonio
+    identifier: https://orcid.org/0000-0003-4803-988X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - SOD
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  - POPE
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  - CLA
+  - POPG-POPE 3:1
+  - CHARMM36
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 5.1.2)
+  - CHARMM36 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.2580153
+    name: 374POPG_126POPE_25000SOL_423SOD_49CLA_310K
+    contentSize: 5195549740
+    encodingFormat: application/x-xtc
+    hasPart:
+    - dm_popg_pope_3_1_charmm.xtc
+    - md_03.tpr
+    - topol.top
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.2580153
+    identifier: 10.5281/zenodo.2580153
+    url: https://doi.org/10.5281/zenodo.2580153
+    name: CHARMM36 POPG-POPE 3:1 Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.2580153
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

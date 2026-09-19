@@ -19,7 +19,6 @@ COMPOSITION:
     MAPPING: mappingTIP3PCHARMMgui.yaml
     COUNT: 51200
 DIR_WRK: /home/lara/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Javanainen, Matti
 SYSTEM: 1024DMPC_51200SOL_333K
 SOFTWARE_VERSION: null
@@ -37,7 +36,7 @@ TRAJECTORY_SIZE: 1027080236
 TRJLENGTH: 1001000.0
 TEMPERATURE: 333.15
 NUMBER_OF_ATOMS: 274432
-DATEOFRUNNING: 16/08/2022
+DATEOFRUNNING: '2022-08-16'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -45,3 +44,104 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1016/j.bbamem.2011.07.022/20
 ID: 356
+bioschema_properties:
+  name: Molecular dynamics trajectory of a DMPC bilayer at 333.15 K (CHARMM36, GROMACS, 1001 ns) [NMRlipids simulation 356]
+  alternateName: 1024DMPC_51200SOL_333K
+  description: Molecular dynamics trajectory of a lipid bilayer of 1024 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine) at 333.15 K. Simulated with CHARMM36 in GROMACS for 1001 ns (274432 atoms). Deposited as NMRlipids Databank simulation 356 and available from https://doi.org/10.5281/zenodo.6943413.
+  sameAs: https://doi.org/10.5281/zenodo.6943413
+  datePublished: '2022-07-30'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+    identifier: https://orcid.org/0000-0003-4858-364X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DMPC
+  - 1,2-dimyristoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs)
+  - CHARMM36 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.6943413
+    name: 1024DMPC_51200SOL_333K
+    contentSize: 1027080236
+    encodingFormat: application/x-xtc
+    hasPart:
+    - DMPC_large.xtc
+    - DMPC_large.tpr
+    - DMPC_large.top
+    - DMPC_large.gro
+  isBasedOn:
+  - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/20
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.6943413
+    identifier: 10.5281/zenodo.6943413
+    url: https://doi.org/10.5281/zenodo.6943413
+    name: Simulations of different single-component bilayers, three different system sizes
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.6943413
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

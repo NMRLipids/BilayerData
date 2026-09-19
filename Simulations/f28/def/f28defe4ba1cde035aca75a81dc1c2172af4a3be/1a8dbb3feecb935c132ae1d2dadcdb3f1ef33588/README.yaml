@@ -42,14 +42,120 @@ SOFTWARE_VERSION: 2023.2
 FF: Charmm36
 FF_SOURCE: CHARMM-GUI
 FF_DATE: 01/01/2024
-PUBLICATION: null
 TRAJECTORY_SIZE: 3884816808
 TRJLENGTH: 500100.0
 NUMBER_OF_ATOMS: 32362
-DATEOFRUNNING: 16/10/2024
+DATEOFRUNNING: '2024-10-16'
 TYPEOFSYSTEM: lipid bilayer
 ID: 824
 EXPERIMENT:
   ORDERPARAMETER:
     TOCL: []
   FORMFACTOR: []
+bioschema_properties:
+  name: Molecular dynamics trajectory of a SOD/TOCL/CLA (65:30:5) bilayer at 303.15 K (Charmm36, GROMACS 2023.2, 500 ns) [NMRlipids simulation 824]
+  alternateName: TOCL_66_Na_Cl_T303_40w/P
+  description: Molecular dynamics trajectory of a lipid bilayer of 143 SOD (65 mol%), 66 TOCL (1’,3’-Bis[1,2-dioleoyl-sn-glycero-3-phospho]-glycerol, 30 mol%) and 11 CLA (5 mol%) at 303.15 K. Simulated with Charmm36 in GROMACS 2023.2 for 500 ns (32362 atoms). Deposited as NMRlipids Databank simulation 824 and available from https://doi.org/10.5281/zenodo.13933145.
+  sameAs: https://doi.org/10.5281/zenodo.13933145
+  datePublished: '2024-10-15'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Hörstel, Ferdinand
+  - name: Miettinen, Markus S.
+    identifier: https://orcid.org/0000-0002-3999-4722
+  - name: Nesterenko, Alexey
+    identifier: https://orcid.org/0000-0003-1592-257X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - SOD
+  - TOCL
+  - 1’,3’-Bis[1,2-dioleoyl-sn-glycero-3-phospho]-glycerol
+  - CLA
+  - Lipids
+  - GROMACS
+  - cardiolipin
+  - NMRlipids
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 2023.2)
+  - Charmm36 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.13933145
+    name: TOCL_66_Na_Cl_T303_40w/P
+    contentSize: 3884816808
+    encodingFormat: application/x-trr
+    hasPart:
+    - TOCL_Na_prod500ns.trr
+    - TOCL_Na_prod500ns.tpr
+    - TOCL_Na.top
+    - TOCL_Na_prod500ns.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.13933145
+    identifier: 10.5281/zenodo.13933145
+    url: https://doi.org/10.5281/zenodo.13933145
+    name: MD simulations of TOCL(TMA/Na) and TLCL(Na) in CHARMM36
+    publisher: Zenodo
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.13933145
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

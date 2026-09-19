@@ -25,7 +25,6 @@ COMPOSITION:
     - 128
     - 128
 DIR_WRK: /media/osollila/Data1/tmp/DATABANK/
-PUBLICATION: null
 AUTHORS_CONTACT: Matti Javanainen
 SYSTEM: MacRog_POPC_CHOL20_L
 SOFTWARE_VERSION: 2021
@@ -41,7 +40,7 @@ TRAJECTORY_SIZE: 1311552472
 TRJLENGTH: 1001000.0
 TEMPERATURE: 298.15
 NUMBER_OF_ATOMS: 348160
-DATEOFRUNNING: 17/10/2022
+DATEOFRUNNING: '2022-10-17'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -50,3 +49,105 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/5
 ID: 677
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC/CHOL (80:20) bilayer at 298.15 K (MacRog, GROMACS 2021, 1001 ns) [NMRlipids simulation 677]
+  alternateName: MacRog_POPC_CHOL20_L
+  description: Molecular dynamics trajectory of a lipid bilayer of 1024 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 80 mol%) and 256 CHOL (cholesterol, 20 mol%) at 298.15 K. Simulated with MacRog in GROMACS 2021 for 1001 ns (348160 atoms). Deposited as NMRlipids Databank simulation 677 and available from https://doi.org/10.5281/zenodo.7061800.
+  sameAs: https://doi.org/10.5281/zenodo.7061800
+  datePublished: '2022-09-08'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+    identifier: https://orcid.org/0000-0003-4858-364X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CHOL
+  - cholesterol
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 2021)
+  - MacRog force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.7061800
+    name: MacRog_POPC_CHOL20_L
+    contentSize: 1311552472
+    encodingFormat: application/x-xtc
+    hasPart:
+    - CHOL8_large.xtc
+    - CHOL8_large.tpr
+    - CHOL8_large.top
+  isBasedOn:
+  - experiments/FormFactors/10.1021/acs.jctc.3c00648/5
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.7061800
+    identifier: 10.5281/zenodo.7061800
+    url: https://doi.org/10.5281/zenodo.7061800
+    name: Simulations of POPC/cholesterol mixtures at 298 K, three system sizes, MacRog
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.7061800
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

@@ -8,7 +8,6 @@ PREEQTIME: 900
 TIMELEFTOUT: 0
 TEMPERATURE: 300.0
 SYSTEM: POPC, 44 w/l, 300 K, 1 M CaCl2
-PUBLICATION: 10.1021/acs.jcim.2c00395
 AUTHORS_CONTACT: Kurki, Milla
 SOFTWARE_VERSION: Desmond of Schrödinger 2019-4
 FF: OPLS3e
@@ -40,10 +39,112 @@ COMPOSITION:
 TRAJECTORY_SIZE: 2016489248
 TRJLENGTH: 998.974609375
 NUMBER_OF_ATOMS: 53920
-DATEOFRUNNING: 01/01/2026
+DATEOFRUNNING: '2026-01-01'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPC: []
   FORMFACTOR: []
 ID: 858
+bioschema_properties:
+  name: Molecular dynamics trajectory of a CLA/POPC/CAL (47:29:24) bilayer at 300 K (OPLS3e, GROMACS Desmond of Schrödinger 2019-4, 1 ns) [NMRlipids simulation 858]
+  alternateName: POPC, 44 w/l, 300 K, 1 M CaCl2
+  description: Molecular dynamics trajectory of a lipid bilayer of 320 CLA (47 mol%), 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 29 mol%) and 160 CAL (24 mol%) at 300 K. Simulated with OPLS3e in GROMACS Desmond of Schrödinger 2019-4 for 1 ns (53920 atoms). Deposited as NMRlipids Databank simulation 858 and available from https://doi.org/10.5281/zenodo.6619202.
+  sameAs: https://doi.org/10.5281/zenodo.6619202
+  datePublished: '2022-03-15'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Lindström, Milla
+  citation:
+  - 10.1021/acs.jcim.2c00395
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - CLA
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CAL
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs Desmond of Schrödinger 2019-4)
+  - OPLS3e force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.6619202
+    name: POPC, 44 w/l, 300 K, 1 M CaCl2
+    contentSize: 2016489248
+    encodingFormat: application/x-xtc
+    hasPart:
+    - cacl1000mM_900-1000.xtc
+    - analyze.tpr
+    - desmond_md_cacl1000-1-in_converted.top
+    - desmond_md_cacl1000vmd.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.6619202
+    identifier: 10.5281/zenodo.6619202
+    url: https://doi.org/10.5281/zenodo.6619202
+    name: MD simulation of POPC bilayer with OPLS3e force field, 1000 mM CaCl2 part 2
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.6619202
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

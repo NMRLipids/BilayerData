@@ -29,7 +29,6 @@ COMPOSITION:
     NAME: CLA
     MAPPING: mappingCLAcharmmPolarizable.yaml
     COUNT: 115
-PUBLICATION: null
 AUTHORS_CONTACT: Kav, Batuhan
 SYSTEM: 128POPC_6400SOL_115NaCl_303K
 SOFTWARE_VERSION: 7.4.1
@@ -43,10 +42,113 @@ CRD: null
 TRAJECTORY_SIZE: 20706486100
 TRJLENGTH: 474930.0
 NUMBER_OF_ATOMS: 57292
-DATEOFRUNNING: 08/02/2023
+DATEOFRUNNING: '2023-02-08'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
     POPC: []
   FORMFACTOR: []
 ID: 732
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (36:32:32) bilayer at 303 K (Charmm-Drude polarizable; system has been equilibriated using Charmm36, OPENMM 7.4.1, 475 ns) [NMRlipids simulation 732]
+  alternateName: 128POPC_6400SOL_115NaCl_303K
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 36 mol%), 115 CLA (32 mol%) and 115 SOD (32 mol%) at 303 K. Simulated with Charmm-Drude polarizable; system has been equilibriated using Charmm36 in OPENMM 7.4.1 for 475 ns (57292 atoms). Deposited as NMRlipids Databank simulation 732 and available from https://doi.org/10.5281/zenodo.7600326.
+  sameAs: https://doi.org/10.5281/zenodo.7600326
+  datePublished: '2020-08-19'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kav, Batuhan
+    identifier: https://orcid.org/0000-0003-4990-373X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - SOD
+  - phosphatidylcholine
+  - Drude polarizable force field
+  - OpenMM
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (openMM 7.4.1)
+  - Charmm-Drude polarizable; system has been equilibriated using Charmm36 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.7600326
+    name: 128POPC_6400SOL_115NaCl_303K
+    contentSize: 20706486100
+    encodingFormat: application/x-xtc
+    hasPart:
+    - wrapped_full_fixed_dt.xtc
+    - step2_charmm2omm.psf
+    - step2_charmm2omm.pdb
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.7600326
+    identifier: 10.5281/zenodo.7600326
+    url: https://doi.org/10.5281/zenodo.7600326
+    name: Pure POPC Membrane with 1000mM NaCl simulations using Drude Polarizable Force Field and OpenMM
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.7600326
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

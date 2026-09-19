@@ -25,7 +25,6 @@ COMPOSITION:
     NAME: TIP3
     MAPPING: mappingTIP3PCHARMMgui.yaml
     COUNT: 7200
-PUBLICATION: null
 AUTHORS_CONTACT: Melcr, Josef
 SYSTEM: 80POPC_80CHOL_7200SOL_303K
 SOFTWARE_VERSION: v7
@@ -41,7 +40,7 @@ CRD:
 TRAJECTORY_SIZE: 4589600276
 TRJLENGTH: 100000.00029814057
 NUMBER_OF_ATOMS: 38240
-DATEOFRUNNING: 05/07/2022
+DATEOFRUNNING: '2022-07-05'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -49,3 +48,102 @@ EXPERIMENT:
     CHOL: []
   FORMFACTOR: []
 ID: 451
+bioschema_properties:
+  name: Molecular dynamics trajectory of a CHOL/POPC (50:50) bilayer at 303 K (CHARMM36, OPENMM v7, 100 ns) [NMRlipids simulation 451]
+  alternateName: 80POPC_80CHOL_7200SOL_303K
+  description: Molecular dynamics trajectory of a lipid bilayer of 80 CHOL (cholesterol, 50 mol%) and 80 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) at 303 K. Simulated with CHARMM36 in OPENMM v7 for 100 ns (38240 atoms). Deposited as NMRlipids Databank simulation 451 and available from https://doi.org/10.5281/zenodo.163345.
+  sameAs: https://doi.org/10.5281/zenodo.163345
+  datePublished: '2016-10-26'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Melcr, Josef
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - CHOL
+  - cholesterol
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (openMM v7)
+  - CHARMM36 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.163345
+    name: 80POPC_80CHOL_7200SOL_303K
+    contentSize: 4589600276
+    encodingFormat: application/x-dcd
+    hasPart:
+    - step8_1.dcd
+    - step5_charmm2omm.psf
+    - step5_charmm2omm.pdb
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.163345
+    identifier: 10.5281/zenodo.163345
+    url: https://doi.org/10.5281/zenodo.163345
+    name: Popc/Cholesterol (50:50) Lipid Membrane, 303K, Charmm36 Force Field From Charmm-Gui, Simulation Files And 100 Ns Trajectory For Openmm Simulation Engine V7
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.163345
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

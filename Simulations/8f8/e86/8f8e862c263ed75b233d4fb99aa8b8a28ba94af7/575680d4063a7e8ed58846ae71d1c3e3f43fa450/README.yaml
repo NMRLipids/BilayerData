@@ -27,7 +27,6 @@ COMPOSITION:
     MAPPING: mappingSPCwater.yaml
     COUNT: 11096
 DIR_WRK: /home/lara/Databank
-PUBLICATION: null
 AUTHORS_CONTACT: Bacle Amélie; Fuchs Patrick F.J.
 SYSTEM: 128POPC_128DOPE_11096SOL_300K
 SOFTWARE_VERSION: null
@@ -43,7 +42,7 @@ TRAJECTORY_SIZE: 518003032
 TRJLENGTH: 300100.0
 TEMPERATURE: 300.0
 NUMBER_OF_ATOMS: 46856
-DATEOFRUNNING: 12/04/2022
+DATEOFRUNNING: '2022-04-12'
 TYPEOFSYSTEM: lipid bilayer
 EXPERIMENT:
   ORDERPARAMETER:
@@ -51,3 +50,103 @@ EXPERIMENT:
     DOPE: []
   FORMFACTOR: []
 ID: 75
+bioschema_properties:
+  name: Molecular dynamics trajectory of a DOPE/POPC (50:50) bilayer at 300 K (Berger (modified to add a repulsive potential onto the ethanolamine hydrogens), GROMACS, 300 ns) [NMRlipids simulation 75]
+  alternateName: 128POPC_128DOPE_11096SOL_300K
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 DOPE (1,2-dioleoyl-sn-glycero-3-phosphoethanolamine, 50 mol%) and 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) at 300 K. Simulated with Berger (modified to add a repulsive potential onto the ethanolamine hydrogens) in GROMACS for 300 ns (46856 atoms). Deposited as NMRlipids Databank simulation 75 and available from https://doi.org/10.5281/zenodo.1402441.
+  sameAs: https://doi.org/10.5281/zenodo.1402441
+  datePublished: '2018-08-23'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0
+  publisher: Zenodo
+  creator:
+  - name: Bacle Amélie
+  - name: Fuchs Patrick, F.J.
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DOPE
+  - 1,2-dioleoyl-sn-glycero-3-phosphoethanolamine
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs)
+  - Berger (modified to add a repulsive potential onto the ethanolamine hydrogens) force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.1402441
+    name: 128POPC_128DOPE_11096SOL_300K
+    contentSize: 518003032
+    encodingFormat: application/x-xtc
+    hasPart:
+    - md_dt100_OK_centered.xtc
+    - md.tpr
+    - start.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.1402441
+    identifier: 10.5281/zenodo.1402441
+    url: https://doi.org/10.5281/zenodo.1402441
+    name: Berger Popc/Dope (50:50 Ratio) Md Simulation (300 K - 300Ns - 1 Bar)
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.1402441
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'

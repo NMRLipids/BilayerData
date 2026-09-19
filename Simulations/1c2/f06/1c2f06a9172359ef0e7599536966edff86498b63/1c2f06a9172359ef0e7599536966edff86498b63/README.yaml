@@ -29,7 +29,6 @@ COMPOSITION:
     NAME: CLA
     MAPPING: mappingCLAcharmmPolarizable.yaml
     COUNT: 82
-PUBLICATION: null
 AUTHORS_CONTACT: Kav, Batuhan
 SYSTEM: POPC_350_CaCl2_CHARMMdrude2023_303K
 SOFTWARE_VERSION: null
@@ -42,10 +41,110 @@ CRD: null
 TRAJECTORY_SIZE: 5627622780
 TRJLENGTH: 219590.0
 NUMBER_OF_ATOMS: 57078
-DATEOFRUNNING: 23/07/2023
+DATEOFRUNNING: '2023-07-23'
 TYPEOFSYSTEM: lipid bilayer
 ID: 757
 EXPERIMENT:
   ORDERPARAMETER:
     POPC: []
   FORMFACTOR: []
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPC/CLA/CAL (51:33:16) bilayer at 303 K (Charmm-Drude polarizable, OPENMM, 220 ns) [NMRlipids simulation 757]
+  alternateName: POPC_350_CaCl2_CHARMMdrude2023_303K
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 51 mol%), 82 CLA (33 mol%) and 41 CAL (16 mol%) at 303 K. Simulated with Charmm-Drude polarizable in OPENMM for 220 ns (57078 atoms). Deposited as NMRlipids Databank simulation 757 and available from https://doi.org/10.5281/zenodo.8000065.
+  sameAs: https://doi.org/10.5281/zenodo.8000065
+  datePublished: '2023-06-02'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Kav, Batuhan
+    identifier: https://orcid.org/0000-0003-4990-373X
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - CAL
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (openMM)
+  - Charmm-Drude polarizable force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.8000065
+    name: POPC_350_CaCl2_CHARMMdrude2023_303K
+    contentSize: 5627622780
+    encodingFormat: application/x-xtc
+    hasPart:
+    - traj.xtc
+    - step2_drude.psf
+    - step2_drude.pdb
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.8000065
+    identifier: 10.5281/zenodo.8000065
+    url: https://doi.org/10.5281/zenodo.8000065
+    name: Pure POPC membrane simulations with 350 mM CaCl2 with the CHARMM-Drude2023 force field (OpenMM)
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.8000065
+    spdxLicenseList: 3.28.0
+    retrieved: '2026-09-09'
