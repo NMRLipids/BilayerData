@@ -79,11 +79,46 @@ jobs:
           python "Databank/developer/autocomplete_expsim_metadata.py" "${files[@]}"
           echo "::endgroup::"
 
+      - name: Set up reviewdog
+        if: steps.files.outputs.changed_files != ''
+        uses: reviewdog/action-setup@v1
+        with:
+          reviewdog_version: v0.21.2
+
+      # This is what reviewdog/action-suggester does, with one step inserted, so
+      # it runs reviewdog directly rather than through the action.
+      #
+      # The autocomplete appends its block to the end of a README, and git
+      # reports an append as a pure insertion -- `@@ -41,0 +42,74 @@`. reviewdog
+      # anchors an inserted hunk at the line after the last unchanged one, which
+      # for an append is one line past the end of the file; no review comment can
+      # attach there, so the filter dropped every suggestion carrying the block
+      # while this job still reported success. That is how PR #522 ended up with
+      # a green check and no metadata.
+      #
+      # reanchor_eof_hunks.py rewrites that hunk into a replacement of the file's
+      # last line, which is a line the pull request's diff contains. The
+      # suggestion then reads as that line followed by the block and produces the
+      # same file, byte for byte, that the script wrote.
       - name: Suggest changes on PR
         if: steps.files.outputs.changed_files != ''
-        uses: reviewdog/action-suggester@v1
-        with:
-          tool_name: expsimmetadata
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          fail_level: none         # post suggestions without failing the job
-          reviewdog_flags: -tee    # echo reviewdog's stdout/stderr to the log
+        env:
+          REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git diff > "$RUNNER_TEMP/autocomplete.diff"
+          python Databank/developer/reanchor_eof_hunks.py \
+            < "$RUNNER_TEMP/autocomplete.diff" \
+            > "$RUNNER_TEMP/autocomplete.reanchored.diff"
+          git stash -u
+          reviewdog \
+            -name=expsimmetadata \
+            -f=diff \
+            -f.diff.strip=1 \
+            -reporter=github-pr-review \
+            -filter-mode=diff_context \
+            -fail-level=none \
+            -level=warning \
+            -tee \
+            < "$RUNNER_TEMP/autocomplete.reanchored.diff"
+          git stash drop || true
