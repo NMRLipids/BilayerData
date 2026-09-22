@@ -1,0 +1,139 @@
+DOI: 10.5281/zenodo.10635500
+TRJ:
+- - DPPC_200_SOL_9000_prosECCo75_LO_327K.xtc
+SOFTWARE: gromacs
+PREEQTIME: 0
+TIMELEFTOUT: 0
+TEMPERATURE: 327.0
+SYSTEM: DPPC_200_SOL_9000_prosECCo75_LO_327K
+AUTHORS_CONTACT: Ricky Nencini
+SOFTWARE_VERSION: 2022.5-plumed_2.8.2
+FF: prosECCo 75 paper related data
+CPT:
+- - DPPC_200_SOL_9000_prosECCo75_LO_327K.cpt
+LOG:
+- - DPPC_200_SOL_9000_prosECCo75_LO_327K.log
+TOP:
+- - DPPC_200_SOL_9000_prosECCo75.top
+EDR:
+- - DPPC_200_SOL_9000_prosECCo75_LO_327K.edr
+TPR:
+- - DPPC_200_SOL_9000_prosECCo75_LO_327K.tpr
+GRO:
+- - DPPC_200_SOL_9000_prosECCo75_LO_327K.gro
+COMPOSITION:
+  DPPC:
+    NAME: DPPC
+    MAPPING: mappingDPPCcharmm.yaml
+    COUNT:
+    - 100
+    - 100
+  SOL:
+    NAME: SOL
+    MAPPING: mappingSPCwater.yaml
+    COUNT: 9000
+TRAJECTORY_SIZE: 1956150512
+TRJLENGTH: 1000100.0
+NUMBER_OF_ATOMS: 53000
+DATEOFRUNNING: '2026-09-17'
+TYPEOFSYSTEM: lipid bilayer
+ID: -1
+bioschema_properties:
+  name: Molecular dynamics trajectory of a DPPC bilayer at 327 K (prosECCo 75 paper related data, GROMACS 2022.5-plumed_2.8.2, 1000 ns) [NMRlipids simulation -1]
+  alternateName: DPPC_200_SOL_9000_prosECCo75_LO_327K
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 327 K. Simulated with prosECCo 75 paper related data in GROMACS 2022.5-plumed_2.8.2 for 1000 ns (53000 atoms). Deposited as NMRlipids Databank simulation -1 and available from https://doi.org/10.5281/zenodo.10635500.
+  sameAs: https://doi.org/10.5281/zenodo.10635500
+  datePublished: '2024-02-08'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Martinez-Seara, Hector
+  citation:
+  - 10.1021/acs.jctc.4c00743
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 2022.5-plumed_2.8.2)
+  - prosECCo 75 paper related data force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.10635500
+    name: DPPC_200_SOL_9000_prosECCo75_LO_327K
+    contentSize: 1956150512
+    encodingFormat: application/x-xtc
+    hasPart:
+    - DPPC_200_SOL_9000_prosECCo75_LO_327K.xtc
+    - DPPC_200_SOL_9000_prosECCo75_LO_327K.tpr
+    - DPPC_200_SOL_9000_prosECCo75.top
+    - DPPC_200_SOL_9000_prosECCo75_LO_327K.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.10635500
+    identifier: 10.5281/zenodo.10635500
+    url: https://doi.org/10.5281/zenodo.10635500
+    name: prosECCo75 paper related MD Simulation, DPPC prosECCo75 LO, melting T
+    publisher: Zenodo
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.10635500
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-22'
