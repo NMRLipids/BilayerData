@@ -37,7 +37,7 @@ TRJLENGTH: 1000100.0
 NUMBER_OF_ATOMS: 53000
 DATEOFRUNNING: '2026-09-16'
 TYPEOFSYSTEM: lipid bilayer
-ID: -1
+ID: 938
 bioschema_properties:
   name: Molecular dynamics trajectory of a DPPC bilayer at 326 K (prosECCo 75 paper related data, GROMACS 2022.5-plumed_2.8.2, 1000 ns) [NMRlipids simulation -1]
   alternateName: DPPC_200_SOL_9000_prosECCo75_LO_326K
