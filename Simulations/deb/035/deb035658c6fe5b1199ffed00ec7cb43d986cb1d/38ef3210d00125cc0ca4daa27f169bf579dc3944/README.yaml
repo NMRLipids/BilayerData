@@ -52,9 +52,18 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 290
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/POPE (50:50) bilayer at 300 K (Berger (modified to add a repulsive potential onto the ethanolamine hydrogens), GROMACS, 400 ns) [NMRlipids simulation 290]
+  name: >-
+    Molecular dynamics trajectory of a POPC/POPE (50:50) bilayer at 300 K (Berger (modified to add a
+    repulsive potential onto the ethanolamine hydrogens), GROMACS, 400 ns) [NMRlipids simulation
+    290]
   alternateName: 128POPC_128POPE_11096SOL_300K_Berger
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) and 128 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 50 mol%) at 300 K. Simulated with Berger (modified to add a repulsive potential onto the ethanolamine hydrogens) in GROMACS for 400 ns (46600 atoms). Deposited as NMRlipids Databank simulation 290 and available from https://doi.org/10.5281/zenodo.1402449.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 128 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) and 128 POPE
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 50 mol%) at 300 K. Simulated with Berger
+    (modified to add a repulsive potential onto the ethanolamine hydrogens) in GROMACS for 400 ns
+    (46600 atoms). Deposited as NMRlipids Databank simulation 290 and available from
+    https://doi.org/10.5281/zenodo.1402449.
   sameAs: https://doi.org/10.5281/zenodo.1402449
   datePublished: '2018-08-23'
   license:
@@ -149,5 +158,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.1402449
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

@@ -48,9 +48,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 705
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CHOL (71:29) bilayer at 298.15 K (MacRog, GROMACS 2021, 1001 ns) [NMRlipids simulation 705]
+  name: >-
+    Molecular dynamics trajectory of a POPC/CHOL (71:29) bilayer at 298.15 K (MacRog, GROMACS 2021,
+    1001 ns) [NMRlipids simulation 705]
   alternateName: MacRog_POPC_CHOL29_L
-  description: Molecular dynamics trajectory of a lipid bilayer of 1024 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 71 mol%) and 416 CHOL (cholesterol, 29 mol%) at 298.15 K. Simulated with MacRog in GROMACS 2021 for 1001 ns (384000 atoms). Deposited as NMRlipids Databank simulation 705 and available from https://doi.org/10.5281/zenodo.7061800.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 1024 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 71 mol%) and 416 CHOL (cholesterol, 29 mol%)
+    at 298.15 K. Simulated with MacRog in GROMACS 2021 for 1001 ns (384000 atoms). Deposited as
+    NMRlipids Databank simulation 705 and available from https://doi.org/10.5281/zenodo.7061800.
   sameAs: https://doi.org/10.5281/zenodo.7061800
   datePublished: '2022-09-08'
   license:
@@ -145,5 +151,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.7061800
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

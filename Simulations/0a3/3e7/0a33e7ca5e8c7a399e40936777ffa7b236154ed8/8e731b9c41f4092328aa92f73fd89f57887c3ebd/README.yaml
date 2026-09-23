@@ -48,9 +48,16 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 246
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPE/DOG (91:9) bilayer at 310 K (Lipid17, GROMACS 18.6, 2100 ns) [NMRlipids simulation 246]
+  name: >-
+    Molecular dynamics trajectory of a POPE/DOG (91:9) bilayer at 310 K (Lipid17, GROMACS 18.6, 2100
+    ns) [NMRlipids simulation 246]
   alternateName: 9.4%DOGinPOPEwithLipid17
-  description: Molecular dynamics trajectory of a lipid bilayer of 116 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 91 mol%) and 12 DOG (1,2-dioleoyl-sn-glycerol, 9 mol%) at 310 K. Simulated with Lipid17 in GROMACS 18.6 for 2100 ns (35092 atoms). Deposited as NMRlipids Databank simulation 246 and available from https://doi.org/10.5281/zenodo.6778072.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 116 POPE
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 91 mol%) and 12 DOG
+    (1,2-dioleoyl-sn-glycerol, 9 mol%) at 310 K. Simulated with Lipid17 in GROMACS 18.6 for 2100 ns
+    (35092 atoms). Deposited as NMRlipids Databank simulation 246 and available from
+    https://doi.org/10.5281/zenodo.6778072.
   sameAs: https://doi.org/10.5281/zenodo.6778072
   datePublished: '2022-06-29'
   license:
@@ -143,5 +150,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.6778072
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

@@ -52,9 +52,16 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 459
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/CAL (48:35:17) bilayer at 310.15 K (CHARMM36 noNBFIX, GROMACS, 897 ns) [NMRlipids simulation 459]
+  name: >-
+    Molecular dynamics trajectory of a POPC/CLA/CAL (48:35:17) bilayer at 310.15 K (CHARMM36
+    noNBFIX, GROMACS, 897 ns) [NMRlipids simulation 459]
   alternateName: 200POPC_9000SOL_73CAL_146CLA_310K_noNBFIX
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 48 mol%), 146 CLA (35 mol%) and 73 CAL (17 mol%) at 310.15 K. Simulated with CHARMM36 noNBFIX in GROMACS for 897 ns (54019 atoms). Deposited as NMRlipids Databank simulation 459 and available from https://doi.org/10.5281/zenodo.3434396.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 200 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 48 mol%), 146 CLA (35 mol%) and 73 CAL (17
+    mol%) at 310.15 K. Simulated with CHARMM36 noNBFIX in GROMACS for 897 ns (54019 atoms).
+    Deposited as NMRlipids Databank simulation 459 and available from
+    https://doi.org/10.5281/zenodo.3434396.
   sameAs: https://doi.org/10.5281/zenodo.3434396
   datePublished: '2019-09-17'
   license:
@@ -147,5 +154,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.3434396
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

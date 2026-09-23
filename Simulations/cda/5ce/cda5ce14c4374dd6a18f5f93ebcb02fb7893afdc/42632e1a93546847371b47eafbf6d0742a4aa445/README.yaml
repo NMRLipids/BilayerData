@@ -64,9 +64,17 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 491
 bioschema_properties:
-  name: Molecular dynamics trajectory of a CLA/SOD/DPPC/DOPC/CHOL (30:30:20:16:5) bilayer at 310 K (Slipids for lipids and Smith & Dang for ions, GROMACS 4.6, 200 ns) [NMRlipids simulation 491]
+  name: >-
+    Molecular dynamics trajectory of a CLA/SOD/DPPC/DOPC/CHOL (30:30:20:16:5) bilayer at 310 K
+    (Slipids for lipids and Smith & Dang for ions, GROMACS 4.6, 200 ns) [NMRlipids simulation 491]
   alternateName: 204DPPC_52CHOL_166DOPC_16880SOL_304SOD_304CLA_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 304 CLA (30 mol%), 304 SOD (30 mol%), 204 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine, 20 mol%), 166 DOPC (1,2-dioleoyl-sn-glycero-3-phosphocholine, 16 mol%) and 52 CHOL (cholesterol, 5 mol%) at 310 K. Simulated with Slipids for lipids and Smith & Dang for ions in GROMACS 4.6 for 200 ns (104524 atoms). Deposited as NMRlipids Databank simulation 491 and available from https://doi.org/10.5281/zenodo.259443.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 304 CLA (30 mol%), 304 SOD (30 mol%), 204
+    DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine, 20 mol%), 166 DOPC
+    (1,2-dioleoyl-sn-glycero-3-phosphocholine, 16 mol%) and 52 CHOL (cholesterol, 5 mol%) at 310 K.
+    Simulated with Slipids for lipids and Smith & Dang for ions in GROMACS 4.6 for 200 ns (104524
+    atoms). Deposited as NMRlipids Databank simulation 491 and available from
+    https://doi.org/10.5281/zenodo.259443.
   sameAs: https://doi.org/10.5281/zenodo.259443
   datePublished: '2017-01-24'
   license:
@@ -164,5 +172,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.259443
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

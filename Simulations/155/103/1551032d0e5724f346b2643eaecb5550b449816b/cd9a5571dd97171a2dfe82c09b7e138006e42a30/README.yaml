@@ -49,9 +49,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 220
 bioschema_properties:
-  name: Molecular dynamics trajectory of a SOD/POPG/CLA (50:46:4) bilayer at 310 K (Lipid17, GROMACS 2020.1, 100 ns) [NMRlipids simulation 220]
+  name: >-
+    Molecular dynamics trajectory of a SOD/POPG/CLA (50:46:4) bilayer at 310 K (Lipid17, GROMACS
+    2020.1, 100 ns) [NMRlipids simulation 220]
   alternateName: 500POPG_549SOD_49CLA_25000SOL_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 549 SOD (50 mol%), 500 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 46 mol%) and 49 CLA (4 mol%) at 310 K. Simulated with Lipid17 in GROMACS 2020.1 for 100 ns (139098 atoms). Deposited as NMRlipids Databank simulation 220 and available from https://doi.org/10.5281/zenodo.4386514.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 549 SOD (50 mol%), 500 POPG
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 46 mol%) and 49 CLA (4 mol%) at 310 K.
+    Simulated with Lipid17 in GROMACS 2020.1 for 100 ns (139098 atoms). Deposited as NMRlipids
+    Databank simulation 220 and available from https://doi.org/10.5281/zenodo.4386514.
   sameAs: https://doi.org/10.5281/zenodo.4386514
   datePublished: '2019-02-20'
   license:
@@ -148,5 +154,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.4386514
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

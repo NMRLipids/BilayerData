@@ -49,9 +49,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 168
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CHOL (70:30) bilayer at 303 K (CHARMM36, OPENMM v7, 100 ns) [NMRlipids simulation 168]
+  name: >-
+    Molecular dynamics trajectory of a POPC/CHOL (70:30) bilayer at 303 K (CHARMM36, OPENMM v7, 100
+    ns) [NMRlipids simulation 168]
   alternateName: 84POPC_36CHOL_4800SOL_303K
-  description: Molecular dynamics trajectory of a lipid bilayer of 84 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 70 mol%) and 36 CHOL (cholesterol, 30 mol%) at 303 K. Simulated with CHARMM36 in OPENMM v7 for 100 ns (28320 atoms). Deposited as NMRlipids Databank simulation 168 and available from https://doi.org/10.5281/zenodo.163333.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 84 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 70 mol%) and 36 CHOL (cholesterol, 30 mol%)
+    at 303 K. Simulated with CHARMM36 in OPENMM v7 for 100 ns (28320 atoms). Deposited as NMRlipids
+    Databank simulation 168 and available from https://doi.org/10.5281/zenodo.163333.
   sameAs: https://doi.org/10.5281/zenodo.163333
   datePublished: '2016-10-26'
   license:
@@ -138,11 +144,13 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.163333
     identifier: 10.5281/zenodo.163333
     url: https://doi.org/10.5281/zenodo.163333
-    name: Popc/Cholesterol (70:30) Lipid Membrane, 303K, Charmm36 Force Field, Simulation Files And 100 Ns Trajectory For Openmm Simulation Engine V7
+    name: >-
+      Popc/Cholesterol (70:30) Lipid Membrane, 303K, Charmm36 Force Field, Simulation Files And 100
+      Ns Trajectory For Openmm Simulation Engine V7
     publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.163333
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

@@ -57,9 +57,16 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 339
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/CAL/CHOL (45:33:17:5) bilayer at 310 K (Slipids with default Amber ions parameters (type C0), GROMACS 4.6, 2000 ns) [NMRlipids simulation 339]
+  name: >-
+    Molecular dynamics trajectory of a POPC/CLA/CAL/CHOL (45:33:17:5) bilayer at 310 K (Slipids with
+    default Amber ions parameters (type C0), GROMACS 4.6, 2000 ns) [NMRlipids simulation 339]
   alternateName: 22CHOL_200POPC_9000SOL_73CAL_146CLA_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 45 mol%), 146 CLA (33 mol%), 73 CAL (17 mol%) and 22 CHOL (cholesterol, 5 mol%) at 310 K. Simulated with Slipids with default Amber ions parameters (type C0) in GROMACS 4.6 for 2000 ns (55647 atoms). Deposited as NMRlipids Databank simulation 339 and available from https://doi.org/10.5281/zenodo.259349.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 200 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 45 mol%), 146 CLA (33 mol%), 73 CAL (17 mol%)
+    and 22 CHOL (cholesterol, 5 mol%) at 310 K. Simulated with Slipids with default Amber ions
+    parameters (type C0) in GROMACS 4.6 for 2000 ns (55647 atoms). Deposited as NMRlipids Databank
+    simulation 339 and available from https://doi.org/10.5281/zenodo.259349.
   sameAs: https://doi.org/10.5281/zenodo.259349
   datePublished: '2017-01-24'
   license:
@@ -149,11 +156,12 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.259349
     identifier: 10.5281/zenodo.259349
     url: https://doi.org/10.5281/zenodo.259349
-    name: Popc With Varying Amounts Of Cholesterol, 450 Mm Of Cacl_2. Slipids With Default Amber Ions
+    name: >-
+      Popc With Varying Amounts Of Cholesterol, 450 Mm Of Cacl_2. Slipids With Default Amber Ions
     publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.259349
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

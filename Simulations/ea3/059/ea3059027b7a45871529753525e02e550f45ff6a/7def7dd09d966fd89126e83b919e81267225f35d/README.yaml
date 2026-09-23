@@ -49,9 +49,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 143
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPE/CLA/SOD (83:8:8) bilayer at 310 K (Lipid17, GROMACS 2020.1, 100 ns) [NMRlipids simulation 143]
+  name: >-
+    Molecular dynamics trajectory of a POPE/CLA/SOD (83:8:8) bilayer at 310 K (Lipid17, GROMACS
+    2020.1, 100 ns) [NMRlipids simulation 143]
   alternateName: 500POPE_50SOD_50CLA_25000SOL_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 500 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 83 mol%), 50 CLA (8 mol%) and 50 SOD (8 mol%) at 310 K. Simulated with Lipid17 in GROMACS 2020.1 for 100 ns (137600 atoms). Deposited as NMRlipids Databank simulation 143 and available from https://doi.org/10.5281/zenodo.4424934.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 500 POPE
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 83 mol%), 50 CLA (8 mol%) and 50 SOD (8
+    mol%) at 310 K. Simulated with Lipid17 in GROMACS 2020.1 for 100 ns (137600 atoms). Deposited as
+    NMRlipids Databank simulation 143 and available from https://doi.org/10.5281/zenodo.4424934.
   sameAs: https://doi.org/10.5281/zenodo.4424934
   datePublished: '2019-02-25'
   license:
@@ -147,5 +153,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.4424934
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

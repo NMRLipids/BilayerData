@@ -52,9 +52,18 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 131
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DOPC/DOPE (50:50) bilayer at 300 K (Berger (modified to add a repulsive potential onto the ethanolamine hydrogens), GROMACS, 300 ns) [NMRlipids simulation 131]
+  name: >-
+    Molecular dynamics trajectory of a DOPC/DOPE (50:50) bilayer at 300 K (Berger (modified to add a
+    repulsive potential onto the ethanolamine hydrogens), GROMACS, 300 ns) [NMRlipids simulation
+    131]
   alternateName: 128DOPC_128DOPE_11096SOL_300K
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 DOPC (1,2-dioleoyl-sn-glycero-3-phosphocholine, 50 mol%) and 128 DOPE (1,2-dioleoyl-sn-glycero-3-phosphoethanolamine, 50 mol%) at 300 K. Simulated with Berger (modified to add a repulsive potential onto the ethanolamine hydrogens) in GROMACS for 300 ns (47112 atoms). Deposited as NMRlipids Databank simulation 131 and available from https://doi.org/10.5281/zenodo.1402437.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 128 DOPC
+    (1,2-dioleoyl-sn-glycero-3-phosphocholine, 50 mol%) and 128 DOPE
+    (1,2-dioleoyl-sn-glycero-3-phosphoethanolamine, 50 mol%) at 300 K. Simulated with Berger
+    (modified to add a repulsive potential onto the ethanolamine hydrogens) in GROMACS for 300 ns
+    (47112 atoms). Deposited as NMRlipids Databank simulation 131 and available from
+    https://doi.org/10.5281/zenodo.1402437.
   sameAs: https://doi.org/10.5281/zenodo.1402437
   datePublished: '2018-08-23'
   license:
@@ -149,5 +158,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.1402437
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

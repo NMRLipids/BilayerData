@@ -45,9 +45,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 379
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DLPC bilayer at 300 K (Berger-DLPC-13, GROMACS 4.5.4, 80 ns) [NMRlipids simulation 379]
+  name: >-
+    Molecular dynamics trajectory of a DLPC bilayer at 300 K (Berger-DLPC-13, GROMACS 4.5.4, 80 ns)
+    [NMRlipids simulation 379]
   alternateName: 72DLPC_1728SOL_300K
-  description: Molecular dynamics trajectory of a lipid bilayer of 72 DLPC (1,2-dilauroyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with Berger-DLPC-13 in GROMACS 4.5.4 for 80 ns (8208 atoms). Deposited as NMRlipids Databank simulation 379 and available from https://doi.org/10.5281/zenodo.16289.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 72 DLPC
+    (1,2-dilauroyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with Berger-DLPC-13 in GROMACS
+    4.5.4 for 80 ns (8208 atoms). Deposited as NMRlipids Databank simulation 379 and available from
+    https://doi.org/10.5281/zenodo.16289.
   sameAs: https://doi.org/10.5281/zenodo.16289
   datePublished: '2015-03-24'
   license:
@@ -143,5 +149,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.16289
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

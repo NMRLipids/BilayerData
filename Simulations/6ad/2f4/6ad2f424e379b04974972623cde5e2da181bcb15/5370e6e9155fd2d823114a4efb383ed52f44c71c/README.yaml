@@ -55,9 +55,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 243
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DPPC/CLA/SOD (82:9:9) bilayer at 323 K (Berger-DPPC-98, GROMACS 5.0.4, 120 ns) [NMRlipids simulation 243]
+  name: >-
+    Molecular dynamics trajectory of a DPPC/CLA/SOD (82:9:9) bilayer at 323 K (Berger-DPPC-98,
+    GROMACS 5.0.4, 120 ns) [NMRlipids simulation 243]
   alternateName: 72DPPC_2864SOL_8SOD_8CLA_323K
-  description: Molecular dynamics trajectory of a lipid bilayer of 72 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine, 82 mol%), 8 CLA (9 mol%) and 8 SOD (9 mol%) at 323 K. Simulated with Berger-DPPC-98 in GROMACS 5.0.4 for 120 ns (12208 atoms). Deposited as NMRlipids Databank simulation 243 and available from https://doi.org/10.5281/zenodo.16319.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 72 DPPC
+    (1,2-dipalmitoyl-sn-glycero-3-phosphocholine, 82 mol%), 8 CLA (9 mol%) and 8 SOD (9 mol%) at 323
+    K. Simulated with Berger-DPPC-98 in GROMACS 5.0.4 for 120 ns (12208 atoms). Deposited as
+    NMRlipids Databank simulation 243 and available from https://doi.org/10.5281/zenodo.16319.
   sameAs: https://doi.org/10.5281/zenodo.16319
   datePublished: '2015-03-24'
   license:
@@ -152,5 +158,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.16319
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

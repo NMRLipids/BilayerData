@@ -53,9 +53,16 @@ EXPERIMENT:
   - 10.1039/C4SM00066H/3
 ID: 535
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPS/SOD (50:50) bilayer at 298 K (GROMOS-CKP, Berger/Chiu NH3 charges and PME, GROMACS, 100 ns) [NMRlipids simulation 535]
+  name: >-
+    Molecular dynamics trajectory of a POPS/SOD (50:50) bilayer at 298 K (GROMOS-CKP, Berger/Chiu
+    NH3 charges and PME, GROMACS, 100 ns) [NMRlipids simulation 535]
   alternateName: 128POPS_4480SOL_128SOD_298K_GROMOS-CKP_v2
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 50 mol%) and 128 SOD (50 mol%) at 298 K. Simulated with GROMOS-CKP, Berger/Chiu NH3 charges and PME in GROMACS for 100 ns (20608 atoms). Deposited as NMRlipids Databank simulation 535 and available from https://doi.org/10.5281/zenodo.1129431.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 128 POPS
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 50 mol%) and 128 SOD (50 mol%) at 298 K.
+    Simulated with GROMOS-CKP, Berger/Chiu NH3 charges and PME in GROMACS for 100 ns (20608 atoms).
+    Deposited as NMRlipids Databank simulation 535 and available from
+    https://doi.org/10.5281/zenodo.1129431.
   sameAs: https://doi.org/10.5281/zenodo.1129431
   datePublished: '2017-12-24'
   license:
@@ -154,5 +161,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.1129431
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

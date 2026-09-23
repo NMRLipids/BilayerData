@@ -41,9 +41,15 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1021/acs.jctc.3c00648/1
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC bilayer at 300 K (Sage2.2.0 Espaloma Charges, GROMACS, 200 ns) [NMRlipids simulation 834]
+  name: >-
+    Molecular dynamics trajectory of a POPC bilayer at 300 K (Sage2.2.0 Espaloma Charges, GROMACS,
+    200 ns) [NMRlipids simulation 834]
   alternateName: POPCandTIP3P
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with Sage2.2.0 Espaloma Charges in GROMACS for 200 ns (32512 atoms). Deposited as NMRlipids Databank simulation 834 and available from https://doi.org/10.5281/zenodo.15065566.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 128 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with Sage2.2.0 Espaloma
+    Charges in GROMACS for 200 ns (32512 atoms). Deposited as NMRlipids Databank simulation 834 and
+    available from https://doi.org/10.5281/zenodo.15065566.
   sameAs: https://doi.org/10.5281/zenodo.15065566
   datePublished: '2025-03-21'
   license:
@@ -138,5 +144,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.15065566
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

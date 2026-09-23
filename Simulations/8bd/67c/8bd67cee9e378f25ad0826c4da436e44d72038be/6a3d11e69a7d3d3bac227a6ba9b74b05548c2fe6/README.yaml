@@ -43,9 +43,16 @@ TRJ:
 TEMPERATURE: 300.0
 ID: 149
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/POPE (50:50) bilayer at 300 K (MacRog, GROMACS, 500 ns) [NMRlipids simulation 149]
+  name: >-
+    Molecular dynamics trajectory of a POPC/POPE (50:50) bilayer at 300 K (MacRog, GROMACS, 500 ns)
+    [NMRlipids simulation 149]
   alternateName: POPC:POPE(1:1)_T300K
-  description: Molecular dynamics trajectory of a lipid bilayer of 64 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) and 64 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 50 mol%) at 300 K. Simulated with MacRog in GROMACS for 500 ns (31936 atoms). Deposited as NMRlipids Databank simulation 149 and available from https://doi.org/10.5281/zenodo.3725637.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 64 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) and 64 POPE
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 50 mol%) at 300 K. Simulated with MacRog
+    in GROMACS for 500 ns (31936 atoms). Deposited as NMRlipids Databank simulation 149 and
+    available from https://doi.org/10.5281/zenodo.3725637.
   sameAs: https://doi.org/10.5281/zenodo.3725637
   datePublished: '2020-03-26'
   license:
@@ -141,5 +148,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.3725637
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

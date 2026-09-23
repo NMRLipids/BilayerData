@@ -52,9 +52,17 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 505
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPE/POPG/SOD (60:20:20) bilayer at 310 K (Lipid17 for lipids and AMBER ff15ipq for ions, GROMACS 2018.3, 100 ns) [NMRlipids simulation 505]
+  name: >-
+    Molecular dynamics trajectory of a POPE/POPG/SOD (60:20:20) bilayer at 310 K (Lipid17 for lipids
+    and AMBER ff15ipq for ions, GROMACS 2018.3, 100 ns) [NMRlipids simulation 505]
   alternateName: POPE_POPG_SOD_SOL_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 374 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 60 mol%), 126 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 20 mol%) and 126 SOD (20 mol%) at 310 K. Simulated with Lipid17 for lipids and AMBER ff15ipq for ions in GROMACS 2018.3 for 100 ns (137878 atoms). Deposited as NMRlipids Databank simulation 505 and available from https://doi.org/10.5281/zenodo.3241269.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 374 POPE
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 60 mol%), 126 POPG
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 20 mol%) and 126 SOD (20 mol%) at 310 K.
+    Simulated with Lipid17 for lipids and AMBER ff15ipq for ions in GROMACS 2018.3 for 100 ns
+    (137878 atoms). Deposited as NMRlipids Databank simulation 505 and available from
+    https://doi.org/10.5281/zenodo.3241269.
   sameAs: https://doi.org/10.5281/zenodo.3241269
   datePublished: '2019-06-07'
   license:
@@ -151,5 +159,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.3241269
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

@@ -41,9 +41,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 386
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC bilayer at 310 K (Lipid17, GROMACS 2018.3, 100 ns) [NMRlipids simulation 386]
+  name: >-
+    Molecular dynamics trajectory of a POPC bilayer at 310 K (Lipid17, GROMACS 2018.3, 100 ns)
+    [NMRlipids simulation 386]
   alternateName: 500POPC_25000SOL_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 500 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 310 K. Simulated with Lipid17 in GROMACS 2018.3 for 100 ns (142000 atoms). Deposited as NMRlipids Databank simulation 386 and available from https://doi.org/10.5281/zenodo.3237657.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 500 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 310 K. Simulated with Lipid17 in GROMACS
+    2018.3 for 100 ns (142000 atoms). Deposited as NMRlipids Databank simulation 386 and available
+    from https://doi.org/10.5281/zenodo.3237657.
   sameAs: https://doi.org/10.5281/zenodo.3237657
   datePublished: '2019-06-03'
   license:
@@ -137,5 +143,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.3237657
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

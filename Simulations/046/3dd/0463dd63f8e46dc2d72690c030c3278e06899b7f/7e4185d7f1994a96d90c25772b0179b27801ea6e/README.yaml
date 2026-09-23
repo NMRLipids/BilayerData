@@ -50,9 +50,16 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 271
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/SOD (83:9:9) bilayer at 310 K (Slipids for lipids and Smith & Dang for ions, GROMACS 4.6, 200 ns) [NMRlipids simulation 271]
+  name: >-
+    Molecular dynamics trajectory of a POPC/CLA/SOD (83:9:9) bilayer at 310 K (Slipids for lipids
+    and Smith & Dang for ions, GROMACS 4.6, 200 ns) [NMRlipids simulation 271]
   alternateName: 200POPC_9000SOL_21SOD_21CLA_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 83 mol%), 21 CLA (9 mol%) and 21 SOD (9 mol%) at 310 K. Simulated with Slipids for lipids and Smith & Dang for ions in GROMACS 4.6 for 200 ns (53842 atoms). Deposited as NMRlipids Databank simulation 271 and available from https://doi.org/10.5281/zenodo.259335.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 200 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 83 mol%), 21 CLA (9 mol%) and 21 SOD (9 mol%)
+    at 310 K. Simulated with Slipids for lipids and Smith & Dang for ions in GROMACS 4.6 for 200 ns
+    (53842 atoms). Deposited as NMRlipids Databank simulation 271 and available from
+    https://doi.org/10.5281/zenodo.259335.
   sameAs: https://doi.org/10.5281/zenodo.259335
   datePublished: '2017-01-24'
   license:
@@ -140,11 +147,12 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.259335
     identifier: 10.5281/zenodo.259335
     url: https://doi.org/10.5281/zenodo.259335
-    name: Popc With Varying Amounts Of Cholesterol, 130 Mm Of Nacl. Slipids With Ions By Smith & Dang
+    name: >-
+      Popc With Varying Amounts Of Cholesterol, 130 Mm Of Nacl. Slipids With Ions By Smith & Dang
     publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.259335
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

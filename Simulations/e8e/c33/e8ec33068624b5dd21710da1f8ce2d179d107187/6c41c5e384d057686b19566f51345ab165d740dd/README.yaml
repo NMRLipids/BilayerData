@@ -51,9 +51,16 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 514
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/POPS/POT (71:14:14) bilayer at 298 K (CHARMM36, GROMACS, 100 ns) [NMRlipids simulation 514]
+  name: >-
+    Molecular dynamics trajectory of a POPC/POPS/POT (71:14:14) bilayer at 298 K (CHARMM36, GROMACS,
+    100 ns) [NMRlipids simulation 514]
   alternateName: 110POPC_22POPS_22POT_4620SOL_298K_v2
-  description: Molecular dynamics trajectory of a lipid bilayer of 110 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 71 mol%), 22 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 14 mol%) and 22 POT (14 mol%) at 298 K. Simulated with CHARMM36 in GROMACS for 100 ns (31416 atoms). Deposited as NMRlipids Databank simulation 514 and available from https://doi.org/10.5281/zenodo.1182658.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 110 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 71 mol%), 22 POPS
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 14 mol%) and 22 POT (14 mol%) at 298 K.
+    Simulated with CHARMM36 in GROMACS for 100 ns (31416 atoms). Deposited as NMRlipids Databank
+    simulation 514 and available from https://doi.org/10.5281/zenodo.1182658.
   sameAs: https://doi.org/10.5281/zenodo.1182658
   datePublished: '2018-02-21'
   license:
@@ -147,5 +154,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.1182658
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

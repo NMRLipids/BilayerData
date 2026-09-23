@@ -56,9 +56,16 @@ EXPERIMENT:
     SM16: []
   FORMFACTOR: []
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/SM16/ERG (35:35:30) bilayer at 295 K (Slipids, GROMACS 2019.6, 100 ns) [NMRlipids simulation 847]
+  name: >-
+    Molecular dynamics trajectory of a POPC/SM16/ERG (35:35:30) bilayer at 295 K (Slipids, GROMACS
+    2019.6, 100 ns) [NMRlipids simulation 847]
   alternateName: POPC/SM16/ERG(35:35:30)
-  description: Molecular dynamics trajectory of a lipid bilayer of 360 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 35 mol%), 352 SM16 (N-palmitoyl-D-erythro-sphingosylphosphorylcholine, 35 mol%) and 304 ERG (ergosterol, 30 mol%) at 295 K. Simulated with Slipids in GROMACS 2019.6 for 100 ns (222656 atoms). Deposited as NMRlipids Databank simulation 847 and available from https://doi.org/10.5281/zenodo.17730735.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 360 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 35 mol%), 352 SM16
+    (N-palmitoyl-D-erythro-sphingosylphosphorylcholine, 35 mol%) and 304 ERG (ergosterol, 30 mol%)
+    at 295 K. Simulated with Slipids in GROMACS 2019.6 for 100 ns (222656 atoms). Deposited as
+    NMRlipids Databank simulation 847 and available from https://doi.org/10.5281/zenodo.17730735.
   sameAs: https://doi.org/10.5281/zenodo.17730735
   datePublished: '2025-11-27'
   license:
@@ -154,10 +161,12 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.17730735
     identifier: 10.5281/zenodo.17730735
     url: https://doi.org/10.5281/zenodo.17730735
-    name: 'MD simulation trajectory of Ternary mixture of POPC/PSM/Ergo (35:35:30) at 295 K: Slipids, GROMACS 2019.6'
+    name: >-
+      MD simulation trajectory of Ternary mixture of POPC/PSM/Ergo (35:35:30) at 295 K: Slipids,
+      GROMACS 2019.6
     publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.17730735
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

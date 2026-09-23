@@ -1,4 +1,5 @@
-AUTHORS_CONTACT: Fredrik Grote (fredrik.grote@mmk.su.se), Alexander Lyubartsev (alexander.lyubartsev@mmk.su.se)
+AUTHORS_CONTACT: >-
+  Fredrik Grote (fredrik.grote@mmk.su.se), Alexander Lyubartsev (alexander.lyubartsev@mmk.su.se)
 FF_DATE: ?/?/2020
 SYSTEM: POPC bilayer 303 K
 TYPEOFSYSTEM: lipid bilayer
@@ -42,9 +43,15 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 591
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (Slipids2020, GROMACS GROMACS 2019, 268 ns) [NMRlipids simulation 591]
+  name: >-
+    Molecular dynamics trajectory of a POPC bilayer at 303 K (Slipids2020, GROMACS GROMACS 2019, 268
+    ns) [NMRlipids simulation 591]
   alternateName: POPC bilayer 303 K
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with Slipids2020 in GROMACS GROMACS 2019 for 268 ns (32512 atoms). Deposited as NMRlipids Databank simulation 591 and available from https://doi.org/10.5281/zenodo.4683633.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 128 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with Slipids2020 in
+    GROMACS GROMACS 2019 for 268 ns (32512 atoms). Deposited as NMRlipids Databank simulation 591
+    and available from https://doi.org/10.5281/zenodo.4683633.
   sameAs: https://doi.org/10.5281/zenodo.4683633
   datePublished: '2020-09-14'
   license:
@@ -140,5 +147,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.4683633
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

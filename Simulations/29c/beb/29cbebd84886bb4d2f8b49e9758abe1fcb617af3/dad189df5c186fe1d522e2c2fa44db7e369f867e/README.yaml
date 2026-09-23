@@ -67,9 +67,16 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 95
 bioschema_properties:
-  name: Molecular dynamics trajectory of a CLA/POT/POPC/POPS/SOD (40:40:14:3:3) bilayer at 298 K (ECC-lipids, GROMACS 2018.0, 1000 ns) [NMRlipids simulation 95]
+  name: >-
+    Molecular dynamics trajectory of a CLA/POT/POPC/POPS/SOD (40:40:14:3:3) bilayer at 298 K
+    (ECC-lipids, GROMACS 2018.0, 1000 ns) [NMRlipids simulation 95]
   alternateName: 12POPS_60POPC_3213SOL_12SOD_174POT_174CLA_298K
-  description: Molecular dynamics trajectory of a lipid bilayer of 174 CLA (40 mol%), 174 POT (40 mol%), 60 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 14 mol%), 12 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 3 mol%) and 12 SOD (3 mol%) at 298 K. Simulated with ECC-lipids in GROMACS 2018.0 for 1000 ns (19563 atoms). Deposited as NMRlipids Databank simulation 95 and available from https://doi.org/10.5281/zenodo.3332778.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 174 CLA (40 mol%), 174 POT (40 mol%), 60
+    POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 14 mol%), 12 POPS
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 3 mol%) and 12 SOD (3 mol%) at 298 K.
+    Simulated with ECC-lipids in GROMACS 2018.0 for 1000 ns (19563 atoms). Deposited as NMRlipids
+    Databank simulation 95 and available from https://doi.org/10.5281/zenodo.3332778.
   sameAs: https://doi.org/10.5281/zenodo.3332778
   datePublished: '2018-11-14'
   license:
@@ -162,11 +169,14 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.3332778
     identifier: 10.5281/zenodo.3332778
     url: https://doi.org/10.5281/zenodo.3332778
-    name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS (5:1) with ECC-lipids force field, and Na+ (K+) counterions at various additional concentrations of NaCl and KCl
+    name: >-
+      Molecular dynamics simulations of lipid bilayers containing POPC and POPS (5:1) with
+      ECC-lipids force field, and Na+ (K+) counterions at various additional concentrations of NaCl
+      and KCl
     publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3332778
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

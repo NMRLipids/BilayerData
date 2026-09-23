@@ -41,9 +41,15 @@ SOFTWARE: gromacs
 DIR_WRK: /usr/home/bort/Databank
 ID: 376
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (Slipids, GROMACS 2020.1, 1200 ns) [NMRlipids simulation 376]
+  name: >-
+    Molecular dynamics trajectory of a POPC bilayer at 303 K (Slipids, GROMACS 2020.1, 1200 ns)
+    [NMRlipids simulation 376]
   alternateName: 122POPC_4880SOL_303K
-  description: Molecular dynamics trajectory of a lipid bilayer of 122 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with Slipids in GROMACS 2020.1 for 1200 ns (30988 atoms). Deposited as NMRlipids Databank simulation 376 and available from https://doi.org/10.5281/zenodo.4352287.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 122 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with Slipids in GROMACS
+    2020.1 for 1200 ns (30988 atoms). Deposited as NMRlipids Databank simulation 376 and available
+    from https://doi.org/10.5281/zenodo.4352287.
   sameAs: https://doi.org/10.5281/zenodo.4352287
   datePublished: '2020-12-18'
   license:
@@ -137,5 +143,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.4352287
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

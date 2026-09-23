@@ -40,9 +40,15 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1016/j.bbamem.2011.07.022/2
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (Charmm-Drude polarizable, OPENMM, 200 ns) [NMRlipids simulation 749]
+  name: >-
+    Molecular dynamics trajectory of a POPC bilayer at 303 K (Charmm-Drude polarizable, OPENMM, 200
+    ns) [NMRlipids simulation 749]
   alternateName: POPC_CHARMMdrude2023_303K
-  description: Molecular dynamics trajectory of a lipid bilayer of 72 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with Charmm-Drude polarizable in OPENMM for 200 ns (25163 atoms). Deposited as NMRlipids Databank simulation 749 and available from https://doi.org/10.5281/zenodo.7916287.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 72 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with Charmm-Drude
+    polarizable in OPENMM for 200 ns (25163 atoms). Deposited as NMRlipids Databank simulation 749
+    and available from https://doi.org/10.5281/zenodo.7916287.
   sameAs: https://doi.org/10.5281/zenodo.7916287
   datePublished: '2023-05-09'
   license:
@@ -136,5 +142,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.7916287
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

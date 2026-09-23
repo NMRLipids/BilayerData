@@ -45,9 +45,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 236
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPE bilayer at 303 K (Berger-POPE-2004, GROMACS 4.0.7, 100 ns) [NMRlipids simulation 236]
+  name: >-
+    Molecular dynamics trajectory of a POPE bilayer at 303 K (Berger-POPE-2004, GROMACS 4.0.7, 100
+    ns) [NMRlipids simulation 236]
   alternateName: 128POPE_3552SOL_303K_v1
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 303 K. Simulated with Berger-POPE-2004 in GROMACS 4.0.7 for 100 ns (17312 atoms). Deposited as NMRlipids Databank simulation 236 and available from https://doi.org/10.5281/zenodo.1293889.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 128 POPE
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 303 K. Simulated with
+    Berger-POPE-2004 in GROMACS 4.0.7 for 100 ns (17312 atoms). Deposited as NMRlipids Databank
+    simulation 236 and available from https://doi.org/10.5281/zenodo.1293889.
   sameAs: https://doi.org/10.5281/zenodo.1293889
   datePublished: '2018-06-20'
   license:
@@ -139,5 +145,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.1293889
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

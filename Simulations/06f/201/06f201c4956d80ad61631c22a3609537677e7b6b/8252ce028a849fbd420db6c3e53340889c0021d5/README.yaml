@@ -49,9 +49,16 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 bioschema_properties:
-  name: Molecular dynamics trajectory of a SOD/POPC/TOCL (50:25:25) bilayer at 310 K (Charmm36, GROMACS, 540 ns) [NMRlipids simulation 771]
+  name: >-
+    Molecular dynamics trajectory of a SOD/POPC/TOCL (50:25:25) bilayer at 310 K (Charmm36, GROMACS,
+    540 ns) [NMRlipids simulation 771]
   alternateName: POPC/TOCL mixture
-  description: Molecular dynamics trajectory of a lipid bilayer of 120 SOD (50 mol%), 60 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 25 mol%) and 60 TOCL (1’,3’-Bis[1,2-dioleoyl-sn-glycero-3-phospho]-glycerol, 25 mol%) at 310 K. Simulated with Charmm36 in GROMACS for 540 ns (59040 atoms). Deposited as NMRlipids Databank simulation 771 and available from https://doi.org/10.5281/zenodo.13984206.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 120 SOD (50 mol%), 60 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 25 mol%) and 60 TOCL
+    (1’,3’-Bis[1,2-dioleoyl-sn-glycero-3-phospho]-glycerol, 25 mol%) at 310 K. Simulated with
+    Charmm36 in GROMACS for 540 ns (59040 atoms). Deposited as NMRlipids Databank simulation 771 and
+    available from https://doi.org/10.5281/zenodo.13984206.
   sameAs: https://doi.org/10.5281/zenodo.13984206
   datePublished: '2023-09-19'
   license:
@@ -150,5 +157,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.13984206
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

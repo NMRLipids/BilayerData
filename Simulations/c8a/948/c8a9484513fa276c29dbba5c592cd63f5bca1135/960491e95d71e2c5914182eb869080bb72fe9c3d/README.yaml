@@ -6,7 +6,6 @@ PREEQTIME: 0
 TIMELEFTOUT: 0
 TEMPERATURE: 328.0
 SYSTEM: PN_model_328K_TIP3P_DPPC_no_ions
-PUBLICATION: https://doi.org/10.1021/acs.jctc.4c00743
 AUTHORS_CONTACT: Ricky Nencini
 SOFTWARE_VERSION: '2016.4'
 FF: Development of PROSECCO PC membranes
@@ -32,10 +31,116 @@ COMPOSITION:
 TRAJECTORY_SIZE: 1428397232
 TRJLENGTH: 730300.0
 NUMBER_OF_ATOMS: 53000
-DATEOFRUNNING: 09/09/2026
+DATEOFRUNNING: '2026-09-09'
 TYPEOFSYSTEM: lipid bilayer
 ID: 929
 EXPERIMENT:
   ORDERPARAMETER:
     DPPC: []
   FORMFACTOR: []
+bioschema_properties:
+  name: >-
+    Molecular dynamics trajectory of a DPPC bilayer at 328 K (Development of PROSECCO PC membranes,
+    GROMACS 2016.4, 730 ns) [NMRlipids simulation 929]
+  alternateName: PN_model_328K_TIP3P_DPPC_no_ions
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 200 DPPC
+    (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 328 K. Simulated with Development of PROSECCO
+    PC membranes in GROMACS 2016.4 for 730 ns (53000 atoms). Deposited as NMRlipids Databank
+    simulation 929 and available from https://doi.org/10.5281/zenodo.3332640.
+  sameAs: https://doi.org/10.5281/zenodo.3332640
+  datePublished: '2019-07-11'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Nencini, Ricky
+  citation:
+  - 10.1021/acs.jctc.4c00743
+  keywords:
+  - '@type': DefinedTerm
+    name: Biomolecular simulation
+    termCode: topic_3892
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3892
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: topic_0176
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0176
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - '@type': DefinedTerm
+    name: Trajectory data
+    termCode: data_3870
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/data_3870
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: Molecular dynamics
+    termCode: operation_2476
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/operation_2476
+  - Molecular dynamics simulation (gromacs 2016.4)
+  - Development of PROSECCO PC membranes force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.3332640
+    name: PN_model_328K_TIP3P_DPPC_no_ions
+    contentSize: 1428397232
+    encodingFormat: application/x-xtc
+    hasPart:
+    - PN_model_328K_TIP3P_DPPC_no_ions.xtc
+    - PN_model_328K_TIP3P_DPPC_no_ions.tpr
+    - PN_model_328K_TIP3P_DPPC_no_ions.top
+    - PN_model_328K_TIP3P_DPPC_no_ions.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.3332640
+    identifier: 10.5281/zenodo.3332640
+    url: https://doi.org/10.5281/zenodo.3332640
+    name: Development of PROSECCO PC membranes - PN model, melting temperature, DPPC membranes
+    publisher: Zenodo
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.3332640
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

@@ -62,9 +62,16 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 465
 bioschema_properties:
-  name: Molecular dynamics trajectory of a SOD/CLA/POPC/POPS (39:34:22:4) bilayer at 298 K (ECC-lipids, GROMACS 2018.0, 1000 ns) [NMRlipids simulation 465]
+  name: >-
+    Molecular dynamics trajectory of a SOD/CLA/POPC/POPS (39:34:22:4) bilayer at 298 K (ECC-lipids,
+    GROMACS 2018.0, 1000 ns) [NMRlipids simulation 465]
   alternateName: 12POPS_60POPC_3377SOL_104SOD_92CLA_298K
-  description: Molecular dynamics trajectory of a lipid bilayer of 104 SOD (39 mol%), 92 CLA (34 mol%), 60 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 22 mol%) and 12 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 4 mol%) at 298 K. Simulated with ECC-lipids in GROMACS 2018.0 for 1000 ns (19891 atoms). Deposited as NMRlipids Databank simulation 465 and available from https://doi.org/10.5281/zenodo.3332778.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 104 SOD (39 mol%), 92 CLA (34 mol%), 60 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 22 mol%) and 12 POPS
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 4 mol%) at 298 K. Simulated with ECC-lipids
+    in GROMACS 2018.0 for 1000 ns (19891 atoms). Deposited as NMRlipids Databank simulation 465 and
+    available from https://doi.org/10.5281/zenodo.3332778.
   sameAs: https://doi.org/10.5281/zenodo.3332778
   datePublished: '2018-11-14'
   license:
@@ -156,11 +163,14 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.3332778
     identifier: 10.5281/zenodo.3332778
     url: https://doi.org/10.5281/zenodo.3332778
-    name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS (5:1) with ECC-lipids force field, and Na+ (K+) counterions at various additional concentrations of NaCl and KCl
+    name: >-
+      Molecular dynamics simulations of lipid bilayers containing POPC and POPS (5:1) with
+      ECC-lipids force field, and Na+ (K+) counterions at various additional concentrations of NaCl
+      and KCl
     publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3332778
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

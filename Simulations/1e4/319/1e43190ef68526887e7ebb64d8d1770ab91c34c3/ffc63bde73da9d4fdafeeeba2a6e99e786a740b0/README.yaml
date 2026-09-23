@@ -55,9 +55,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 213
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/CAL (84:11:5) bilayer at 310 K (Berger, GROMACS 4.5.5, 100 ns) [NMRlipids simulation 213]
+  name: >-
+    Molecular dynamics trajectory of a POPC/CLA/CAL (84:11:5) bilayer at 310 K (Berger, GROMACS
+    4.5.5, 100 ns) [NMRlipids simulation 213]
   alternateName: 128POPC_4452SOL_8CAL_16CLA_310K_Berger
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 84 mol%), 16 CLA (11 mol%) and 8 CAL (5 mol%) at 310 K. Simulated with Berger in GROMACS 4.5.5 for 100 ns (20036 atoms). Deposited as NMRlipids Databank simulation 213 and available from https://doi.org/10.5281/zenodo.887351.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 128 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 84 mol%), 16 CLA (11 mol%) and 8 CAL (5 mol%)
+    at 310 K. Simulated with Berger in GROMACS 4.5.5 for 100 ns (20036 atoms). Deposited as
+    NMRlipids Databank simulation 213 and available from https://doi.org/10.5281/zenodo.887351.
   sameAs: https://doi.org/10.5281/zenodo.887351
   datePublished: '2017-09-07'
   license:
@@ -148,11 +154,13 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.887351
     identifier: 10.5281/zenodo.887351
     url: https://doi.org/10.5281/zenodo.887351
-    name: Md Simulation Trajectory Of A Popc Bilayer With 100Mm Cacl2, Berger Force Field For Lipids, Scaled Charges For Ca2+ And Cl-
+    name: >-
+      Md Simulation Trajectory Of A Popc Bilayer With 100Mm Cacl2, Berger Force Field For Lipids,
+      Scaled Charges For Ca2+ And Cl-
     publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.887351
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

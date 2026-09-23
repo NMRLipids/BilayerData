@@ -44,9 +44,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 44
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DOPE bilayer at 271 K (GROMOS-CKP, GROMACS 5.0.6, 400 ns) [NMRlipids simulation 44]
+  name: >-
+    Molecular dynamics trajectory of a DOPE bilayer at 271 K (GROMOS-CKP, GROMACS 5.0.6, 400 ns)
+    [NMRlipids simulation 44]
   alternateName: 128DOPE_4789SOL_271K_GROMOS-CKP_v2
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 DOPE (1,2-dioleoyl-sn-glycero-3-phosphoethanolamine) at 271 K. Simulated with GROMOS-CKP in GROMACS 5.0.6 for 400 ns (21279 atoms). Deposited as NMRlipids Databank simulation 44 and available from https://doi.org/10.5281/zenodo.1293941.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 128 DOPE
+    (1,2-dioleoyl-sn-glycero-3-phosphoethanolamine) at 271 K. Simulated with GROMOS-CKP in GROMACS
+    5.0.6 for 400 ns (21279 atoms). Deposited as NMRlipids Databank simulation 44 and available from
+    https://doi.org/10.5281/zenodo.1293941.
   sameAs: https://doi.org/10.5281/zenodo.1293941
   datePublished: '2018-06-20'
   license:
@@ -138,5 +144,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.1293941
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

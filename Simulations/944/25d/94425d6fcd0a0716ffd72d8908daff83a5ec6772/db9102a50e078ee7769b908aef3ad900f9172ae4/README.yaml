@@ -54,9 +54,17 @@ DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 538
 AUTHORS_CONTACT: Javanainen, Matti
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/POPG/SOD/CLA/CAL (25:25:25:18:9) bilayer at 298 K (Slipids, GROMACS, 1000 ns) [NMRlipids simulation 538]
+  name: >-
+    Molecular dynamics trajectory of a POPC/POPG/SOD/CLA/CAL (25:25:25:18:9) bilayer at 298 K
+    (Slipids, GROMACS, 1000 ns) [NMRlipids simulation 538]
   alternateName: POPCPOPG(1:1)200mMCaCl2
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 25 mol%), 128 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 25 mol%), 128 SOD (25 mol%), 92 CLA (18 mol%) and 46 CAL (9 mol%) at 298 K. Simulated with Slipids in GROMACS for 1000 ns (72074 atoms). Deposited as NMRlipids Databank simulation 538 and available from https://doi.org/10.5281/zenodo.3613573.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 128 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 25 mol%), 128 POPG
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 25 mol%), 128 SOD (25 mol%), 92 CLA (18
+    mol%) and 46 CAL (9 mol%) at 298 K. Simulated with Slipids in GROMACS for 1000 ns (72074 atoms).
+    Deposited as NMRlipids Databank simulation 538 and available from
+    https://doi.org/10.5281/zenodo.3613573.
   sameAs: https://doi.org/10.5281/zenodo.3613573
   datePublished: '2020-01-13'
   license:
@@ -147,11 +155,13 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.3613573
     identifier: 10.5281/zenodo.3613573
     url: https://doi.org/10.5281/zenodo.3613573
-    name: Simulations of POPC:POPG 1:1 membranes with varying levels of CaCl_2 using the Slipids force field
+    name: >-
+      Simulations of POPC:POPG 1:1 membranes with varying levels of CaCl_2 using the Slipids force
+      field
     publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3613573
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

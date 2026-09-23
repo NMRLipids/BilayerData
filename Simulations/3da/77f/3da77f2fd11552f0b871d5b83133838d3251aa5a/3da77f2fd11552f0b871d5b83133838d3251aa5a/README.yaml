@@ -38,9 +38,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 743
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPE bilayer at 303 K (Charmm-Drude, OPENMM 7.5.0, 300 ns) [NMRlipids simulation 743]
+  name: >-
+    Molecular dynamics trajectory of a POPE bilayer at 303 K (Charmm-Drude, OPENMM 7.5.0, 300 ns)
+    [NMRlipids simulation 743]
   alternateName: 72POPE_5040SOL_303K
-  description: Molecular dynamics trajectory of a lipid bilayer of 144 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 303 K. Simulated with Charmm-Drude in OPENMM 7.5.0 for 300 ns (51408 atoms). Deposited as NMRlipids Databank simulation 743 and available from https://doi.org/10.5281/zenodo.7604627.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 144 POPE
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 303 K. Simulated with Charmm-Drude in
+    OPENMM 7.5.0 for 300 ns (51408 atoms). Deposited as NMRlipids Databank simulation 743 and
+    available from https://doi.org/10.5281/zenodo.7604627.
   sameAs: https://doi.org/10.5281/zenodo.7604627
   datePublished: '2021-04-06'
   license:
@@ -135,5 +141,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.7604627
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

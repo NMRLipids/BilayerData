@@ -88,9 +88,18 @@ EXPERIMENT:
     GM1: []
   FORMFACTOR: []
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/POPE/CHOL/CAL/SM16/POPS/GM1 (26:19:16:14:13:6:3:3) bilayer at 300 K (Charmm36, GROMACS 2020.4, 300 ns) [NMRlipids simulation 768]
+  name: >-
+    Molecular dynamics trajectory of a POPC/CLA/POPE/CHOL/CAL/SM16/POPS/GM1 (26:19:16:14:13:6:3:3)
+    bilayer at 300 K (Charmm36, GROMACS 2020.4, 300 ns) [NMRlipids simulation 768]
   alternateName: POPC_POPE_POPS_SM_CHOL_GM1_CaCl2
-  description: Molecular dynamics trajectory of a lipid bilayer of 152 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 26 mol%), 110 CLA (19 mol%), 96 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 16 mol%), 80 CHOL (cholesterol, 14 mol%), 73 CAL (13 mol%), 36 SM16 (N-palmitoyl-D-erythro-sphingosylphosphorylcholine, 6 mol%), 20 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 3 mol%) and 16 GM1 (GM1(d18:1/16:0), 3 mol%) at 300 K. Simulated with Charmm36 in GROMACS 2020.4 for 300 ns (106024 atoms). Deposited as NMRlipids Databank simulation 768 and available from https://doi.org/10.5281/zenodo.8331805.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 152 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 26 mol%), 110 CLA (19 mol%), 96 POPE
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 16 mol%), 80 CHOL (cholesterol, 14
+    mol%), 73 CAL (13 mol%), 36 SM16 (N-palmitoyl-D-erythro-sphingosylphosphorylcholine, 6 mol%), 20
+    POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 3 mol%) and 16 GM1 (GM1(d18:1/16:0), 3
+    mol%) at 300 K. Simulated with Charmm36 in GROMACS 2020.4 for 300 ns (106024 atoms). Deposited
+    as NMRlipids Databank simulation 768 and available from https://doi.org/10.5281/zenodo.8331805.
   sameAs: https://doi.org/10.5281/zenodo.8331805
   datePublished: '2023-09-10'
   license:
@@ -191,5 +200,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.8331805
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

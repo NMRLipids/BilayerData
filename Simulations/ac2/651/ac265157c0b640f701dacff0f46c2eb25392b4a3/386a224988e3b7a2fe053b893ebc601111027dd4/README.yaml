@@ -49,9 +49,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 542
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DPPC/CLA/SOD (82:9:9) bilayer at 300 K (Slipids, GROMACS 4.6, 500 ns) [NMRlipids simulation 542]
+  name: >-
+    Molecular dynamics trajectory of a DPPC/CLA/SOD (82:9:9) bilayer at 300 K (Slipids, GROMACS 4.6,
+    500 ns) [NMRlipids simulation 542]
   alternateName: 1152DPPC_46440SOL_124SOD_124CLA_300K
-  description: Molecular dynamics trajectory of a lipid bilayer of 1152 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine, 82 mol%), 124 CLA (9 mol%) and 124 SOD (9 mol%) at 300 K. Simulated with Slipids in GROMACS 4.6 for 500 ns (289328 atoms). Deposited as NMRlipids Databank simulation 542 and available from https://doi.org/10.5281/zenodo.439080.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 1152 DPPC
+    (1,2-dipalmitoyl-sn-glycero-3-phosphocholine, 82 mol%), 124 CLA (9 mol%) and 124 SOD (9 mol%) at
+    300 K. Simulated with Slipids in GROMACS 4.6 for 500 ns (289328 atoms). Deposited as NMRlipids
+    Databank simulation 542 and available from https://doi.org/10.5281/zenodo.439080.
   sameAs: https://doi.org/10.5281/zenodo.439080
   datePublished: '2017-03-29'
   license:
@@ -149,5 +155,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.439080
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

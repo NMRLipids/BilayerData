@@ -49,9 +49,15 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 71
 bioschema_properties:
-  name: Molecular dynamics trajectory of a SOD/POPG/CLA (50:46:4) bilayer at 310 K (CHARMM36 and CHARMM TIP3P, GROMACS 5.1.2, 100 ns) [NMRlipids simulation 71]
+  name: >-
+    Molecular dynamics trajectory of a SOD/POPG/CLA (50:46:4) bilayer at 310 K (CHARMM36 and CHARMM
+    TIP3P, GROMACS 5.1.2, 100 ns) [NMRlipids simulation 71]
   alternateName: 500POPG_25000SOL_549SOD_49CLA_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 549 SOD (50 mol%), 500 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 46 mol%) and 49 CLA (4 mol%) at 310 K. Simulated with CHARMM36 and CHARMM TIP3P in GROMACS 5.1.2 for 100 ns (139098 atoms). Deposited as NMRlipids Databank simulation 71 and available from https://doi.org/10.5281/zenodo.2573531.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 549 SOD (50 mol%), 500 POPG
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 46 mol%) and 49 CLA (4 mol%) at 310 K.
+    Simulated with CHARMM36 and CHARMM TIP3P in GROMACS 5.1.2 for 100 ns (139098 atoms). Deposited
+    as NMRlipids Databank simulation 71 and available from https://doi.org/10.5281/zenodo.2573531.
   sameAs: https://doi.org/10.5281/zenodo.2573531
   datePublished: '2019-02-20'
   license:
@@ -149,5 +155,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.2573531
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

@@ -42,9 +42,15 @@ TOP:
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 261
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC bilayer at 310 K (GROMOS-CKP, GROMACS 2018.3, 100 ns) [NMRlipids simulation 261]
+  name: >-
+    Molecular dynamics trajectory of a POPC bilayer at 310 K (GROMOS-CKP, GROMACS 2018.3, 100 ns)
+    [NMRlipids simulation 261]
   alternateName: POPC_T310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 500 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 310 K. Simulated with GROMOS-CKP in GROMACS 2018.3 for 100 ns (101000 atoms). Deposited as NMRlipids Databank simulation 261 and available from https://doi.org/10.5281/zenodo.3247435.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 500 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 310 K. Simulated with GROMOS-CKP in
+    GROMACS 2018.3 for 100 ns (101000 atoms). Deposited as NMRlipids Databank simulation 261 and
+    available from https://doi.org/10.5281/zenodo.3247435.
   sameAs: https://doi.org/10.5281/zenodo.3247435
   datePublished: '2019-06-17'
   license:
@@ -138,5 +144,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.3247435
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

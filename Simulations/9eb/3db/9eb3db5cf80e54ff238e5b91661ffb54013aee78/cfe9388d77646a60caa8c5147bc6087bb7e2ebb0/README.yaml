@@ -53,9 +53,16 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 285
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/DHMDMAB (81:10:10) bilayer at 313 K (Lipid14, GROMACS, 80 ns) [NMRlipids simulation 285]
+  name: >-
+    Molecular dynamics trajectory of a POPC/CLA/DHMDMAB (81:10:10) bilayer at 313 K (Lipid14,
+    GROMACS, 80 ns) [NMRlipids simulation 285]
   alternateName: 100POPC_12DHMDMAB_6214SOL_12CLA_313K
-  description: Molecular dynamics trajectory of a lipid bilayer of 100 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 81 mol%), 12 CLA (10 mol%) and 12 DHMDMAB (dihexadecyldimethylammonium, 10 mol%) at 313 K. Simulated with Lipid14 in GROMACS for 80 ns (33338 atoms). Deposited as NMRlipids Databank simulation 285 and available from https://doi.org/10.5281/zenodo.1020240.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 100 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 81 mol%), 12 CLA (10 mol%) and 12 DHMDMAB
+    (dihexadecyldimethylammonium, 10 mol%) at 313 K. Simulated with Lipid14 in GROMACS for 80 ns
+    (33338 atoms). Deposited as NMRlipids Databank simulation 285 and available from
+    https://doi.org/10.5281/zenodo.1020240.
   sameAs: https://doi.org/10.5281/zenodo.1020240
   datePublished: '2017-10-18'
   license:
@@ -144,11 +151,13 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.1020240
     identifier: 10.5281/zenodo.1020240
     url: https://doi.org/10.5281/zenodo.1020240
-    name: Popc Bilayer With 10% Of Dihexadecyldimethylammonium Simulated At T313K With The Lipid14 Model Using Gromacs
+    name: >-
+      Popc Bilayer With 10% Of Dihexadecyldimethylammonium Simulated At T313K With The Lipid14 Model
+      Using Gromacs
     publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1020240
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

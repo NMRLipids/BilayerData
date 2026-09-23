@@ -44,9 +44,15 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1016/j.bbamem.2011.07.022/18
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DMPC bilayer at 303.15 K (Lipid21(AMBER), GROMACS 2026.1, 100 ns) [NMRlipids simulation 912]
+  name: >-
+    Molecular dynamics trajectory of a DMPC bilayer at 303.15 K (Lipid21(AMBER), GROMACS 2026.1, 100
+    ns) [NMRlipids simulation 912]
   alternateName: DMPC
-  description: Molecular dynamics trajectory of a lipid bilayer of 40 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine) at 303.15 K. Simulated with Lipid21(AMBER) in GROMACS 2026.1 for 100 ns (8800 atoms). Deposited as NMRlipids Databank simulation 912 and available from https://doi.org/10.5281/zenodo.20558593.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 40 DMPC
+    (1,2-dimyristoyl-sn-glycero-3-phosphocholine) at 303.15 K. Simulated with Lipid21(AMBER) in
+    GROMACS 2026.1 for 100 ns (8800 atoms). Deposited as NMRlipids Databank simulation 912 and
+    available from https://doi.org/10.5281/zenodo.20558593.
   sameAs: https://doi.org/10.5281/zenodo.20558593
   datePublished: '2026-06-07'
   license:
@@ -140,10 +146,12 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.20558593
     identifier: 10.5281/zenodo.20558593
     url: https://doi.org/10.5281/zenodo.20558593
-    name: MD simulation trajectory and related files for DMPC lipid bilayer in full hydration at 303 K with Lipid21
+    name: >-
+      MD simulation trajectory and related files for DMPC lipid bilayer in full hydration at 303 K
+      with Lipid21
     publisher: Zenodo
   _source:
     api: datacite
     doi: 10.5281/zenodo.20558593
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

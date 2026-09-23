@@ -45,16 +45,21 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 128
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC bilayer at 298 K (Berger delivered by Peter Tieleman, GROMACS 4.5, 60 ns) [NMRlipids simulation 128]
+  name: >-
+    Molecular dynamics trajectory of a POPC bilayer at 298 K (Berger delivered by Peter Tieleman,
+    GROMACS 4.5, 60 ns) [NMRlipids simulation 128]
   alternateName: 128POPC_896SOL_298K_Berger
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 298 K. Simulated with Berger delivered by Peter Tieleman in GROMACS 4.5 for 60 ns (9344 atoms). Deposited as NMRlipids Databank simulation 128 and available from https://doi.org/10.5281/zenodo.13814.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 128 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 298 K. Simulated with Berger delivered by
+    Peter Tieleman in GROMACS 4.5 for 60 ns (9344 atoms). Deposited as NMRlipids Databank simulation
+    128 and available from https://doi.org/10.5281/zenodo.13814.
   sameAs: https://doi.org/10.5281/zenodo.13814
   datePublished: '2015-01-08'
   license:
-    spdx: GPL-3.0-only
-    name: GNU General Public License v3.0 only
-    url: https://spdx.org/licenses/GPL-3.0-only.html
-    sameAs: http://www.opensource.org/licenses/GPL-3.0
+    name: GNU General Public License 3.0
+    url: http://www.opensource.org/licenses/GPL-3.0
+    spdx: null
   publisher: Zenodo
   creator:
   - name: Ollila O. H. Samuli
@@ -135,11 +140,12 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.13814
     identifier: 10.5281/zenodo.13814
     url: https://doi.org/10.5281/zenodo.13814
-    name: Md Simulation Trajectory And Related Files For Popc Bilayer In Low Hydration (Berger Model Delivered By Tieleman, Gromacs 4.5)
+    name: >-
+      Md Simulation Trajectory And Related Files For Popc Bilayer In Low Hydration (Berger Model
+      Delivered By Tieleman, Gromacs 4.5)
     publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.13814
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    retrieved: '2026-09-23'

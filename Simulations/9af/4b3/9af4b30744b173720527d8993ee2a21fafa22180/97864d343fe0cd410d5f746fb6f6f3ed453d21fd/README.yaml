@@ -43,9 +43,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 126
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DPPE bilayer at 342 K (GROMOS-CKP, GROMACS 5.0.6, 400 ns) [NMRlipids simulation 126]
+  name: >-
+    Molecular dynamics trajectory of a DPPE bilayer at 342 K (GROMOS-CKP, GROMACS 5.0.6, 400 ns)
+    [NMRlipids simulation 126]
   alternateName: 128DPPE_3655SOL_342K_GROMOS-CKP_v1
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 DPPE (1,2-dipalmitoyl-sn-glycero-3-phosphoethanolamine) at 342 K. Simulated with GROMOS-CKP in GROMACS 5.0.6 for 400 ns (17365 atoms). Deposited as NMRlipids Databank simulation 126 and available from https://doi.org/10.5281/zenodo.1293957.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 128 DPPE
+    (1,2-dipalmitoyl-sn-glycero-3-phosphoethanolamine) at 342 K. Simulated with GROMOS-CKP in
+    GROMACS 5.0.6 for 400 ns (17365 atoms). Deposited as NMRlipids Databank simulation 126 and
+    available from https://doi.org/10.5281/zenodo.1293957.
   sameAs: https://doi.org/10.5281/zenodo.1293957
   datePublished: '2018-06-20'
   license:
@@ -137,5 +143,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.1293957
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

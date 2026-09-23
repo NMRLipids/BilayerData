@@ -41,7 +41,8 @@ AUTHORS_CONTACT: Virtanen, Salla; Ollila, O. H. Samuli
 SYSTEM: 350POPC_88POPG_24840SOL_475CAL_950CLA_88SOD_298K
 SOFTWARE_VERSION: null
 FF: Lipid17
-FF_SOURCE: starting structure and lipid 17 parameters from https://zenodo.org/record/2585523#.Xbf0FC17FBx
+FF_SOURCE: >-
+  starting structure and lipid 17 parameters from https://zenodo.org/record/2585523#.Xbf0FC17FBx
 FF_DATE: null
 CPT: null
 LOG: null
@@ -60,9 +61,16 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 418
 bioschema_properties:
-  name: Molecular dynamics trajectory of a CLA/CAL/POPC/POPG/SOD (49:24:18:5:5) bilayer at 298 K (Lipid17, GROMACS, 200 ns) [NMRlipids simulation 418]
+  name: >-
+    Molecular dynamics trajectory of a CLA/CAL/POPC/POPG/SOD (49:24:18:5:5) bilayer at 298 K
+    (Lipid17, GROMACS, 200 ns) [NMRlipids simulation 418]
   alternateName: 350POPC_88POPG_24840SOL_475CAL_950CLA_88SOD_298K
-  description: Molecular dynamics trajectory of a lipid bilayer of 950 CLA (49 mol%), 475 CAL (24 mol%), 350 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 18 mol%), 88 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 5 mol%) and 88 SOD (5 mol%) at 298 K. Simulated with Lipid17 in GROMACS for 200 ns (134109 atoms). Deposited as NMRlipids Databank simulation 418 and available from https://doi.org/10.5281/zenodo.3874378.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 950 CLA (49 mol%), 475 CAL (24 mol%), 350
+    POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 18 mol%), 88 POPG
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 5 mol%) and 88 SOD (5 mol%) at 298 K.
+    Simulated with Lipid17 in GROMACS for 200 ns (134109 atoms). Deposited as NMRlipids Databank
+    simulation 418 and available from https://doi.org/10.5281/zenodo.3874378.
   sameAs: https://doi.org/10.5281/zenodo.3874378
   datePublished: '2019-10-23'
   license:
@@ -160,5 +168,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.3874378
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

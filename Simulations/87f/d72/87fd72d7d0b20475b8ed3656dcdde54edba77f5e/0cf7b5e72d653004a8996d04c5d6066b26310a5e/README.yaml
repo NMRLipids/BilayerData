@@ -11,7 +11,8 @@ AUTHORS_CONTACT: Javanainen, Matti
 SYSTEM: 86CHOL_200POPC_9000SOL_162SOD_162CLA_310K
 SOFTWARE_VERSION: 4.6
 FF: Slipids with ions by Smith & Dang
-FF_SOURCE: http://www.fos.su.se/~sasha/SLipids/; ion parameters from https://bitbucket.org/hseara/ions/
+FF_SOURCE: >-
+  http://www.fos.su.se/~sasha/SLipids/; ion parameters from https://bitbucket.org/hseara/ions/
 FF_DATE: pre-2020
 CPT: null
 LOG: null
@@ -55,9 +56,16 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 152
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/SOD/CHOL (33:27:27:14) bilayer at 310 K (Slipids with ions by Smith & Dang, GROMACS 4.6, 200 ns) [NMRlipids simulation 152]
+  name: >-
+    Molecular dynamics trajectory of a POPC/CLA/SOD/CHOL (33:27:27:14) bilayer at 310 K (Slipids
+    with ions by Smith & Dang, GROMACS 4.6, 200 ns) [NMRlipids simulation 152]
   alternateName: 86CHOL_200POPC_9000SOL_162SOD_162CLA_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 33 mol%), 162 CLA (27 mol%), 162 SOD (27 mol%) and 86 CHOL (cholesterol, 14 mol%) at 310 K. Simulated with Slipids with ions by Smith & Dang in GROMACS 4.6 for 200 ns (60488 atoms). Deposited as NMRlipids Databank simulation 152 and available from https://doi.org/10.5281/zenodo.259341.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 200 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 33 mol%), 162 CLA (27 mol%), 162 SOD (27
+    mol%) and 86 CHOL (cholesterol, 14 mol%) at 310 K. Simulated with Slipids with ions by Smith &
+    Dang in GROMACS 4.6 for 200 ns (60488 atoms). Deposited as NMRlipids Databank simulation 152 and
+    available from https://doi.org/10.5281/zenodo.259341.
   sameAs: https://doi.org/10.5281/zenodo.259341
   datePublished: '2017-01-24'
   license:
@@ -153,5 +161,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.259341
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

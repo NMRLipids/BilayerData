@@ -56,9 +56,17 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 495
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/POPS/SOD (71:14:14) bilayer at 298 K (GROMOS-CKP, Berger/Chiu NH3 charges and PME, GROMACS, 100 ns) [NMRlipids simulation 495]
+  name: >-
+    Molecular dynamics trajectory of a POPC/POPS/SOD (71:14:14) bilayer at 298 K (GROMOS-CKP,
+    Berger/Chiu NH3 charges and PME, GROMACS, 100 ns) [NMRlipids simulation 495]
   alternateName: 110POPC_22POPS_4620SOL_22SOD_298K_GROMOS-CKP_v2
-  description: Molecular dynamics trajectory of a lipid bilayer of 110 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 71 mol%), 22 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 14 mol%) and 22 SOD (14 mol%) at 298 K. Simulated with GROMOS-CKP, Berger/Chiu NH3 charges and PME in GROMACS for 100 ns (20812 atoms). Deposited as NMRlipids Databank simulation 495 and available from https://doi.org/10.5281/zenodo.1283331.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 110 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 71 mol%), 22 POPS
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 14 mol%) and 22 SOD (14 mol%) at 298 K.
+    Simulated with GROMOS-CKP, Berger/Chiu NH3 charges and PME in GROMACS for 100 ns (20812 atoms).
+    Deposited as NMRlipids Databank simulation 495 and available from
+    https://doi.org/10.5281/zenodo.1283331.
   sameAs: https://doi.org/10.5281/zenodo.1283331
   datePublished: '2018-06-05'
   license:
@@ -147,11 +155,12 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.1283331
     identifier: 10.5281/zenodo.1283331
     url: https://doi.org/10.5281/zenodo.1283331
-    name: Gromos-Ckp Pops/Popc Simulations (Versions 1 And 2) 298 K With Berger/Chiu Nh3 Charges And Pme
+    name: >-
+      Gromos-Ckp Pops/Popc Simulations (Versions 1 And 2) 298 K With Berger/Chiu Nh3 Charges And Pme
     publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1283331
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

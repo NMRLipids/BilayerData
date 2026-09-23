@@ -56,9 +56,16 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 89
 bioschema_properties:
-  name: Molecular dynamics trajectory of a SOD/POPG/POPE/CLA (44:38:13:5) bilayer at 310 K (Lipid17, GROMACS 2018.3, 92 ns) [NMRlipids simulation 89]
+  name: >-
+    Molecular dynamics trajectory of a SOD/POPG/POPE/CLA (44:38:13:5) bilayer at 310 K (Lipid17,
+    GROMACS 2018.3, 92 ns) [NMRlipids simulation 89]
   alternateName: POPG_POPE_25000SOL_423SOD_49CLA_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 423 SOD (44 mol%), 374 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 38 mol%), 126 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 13 mol%) and 49 CLA (5 mol%) at 310 K. Simulated with Lipid17 in GROMACS 2018.3 for 92 ns (138720 atoms). Deposited as NMRlipids Databank simulation 89 and available from https://doi.org/10.5281/zenodo.2579344.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 423 SOD (44 mol%), 374 POPG
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 38 mol%), 126 POPE
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 13 mol%) and 49 CLA (5 mol%) at 310 K.
+    Simulated with Lipid17 in GROMACS 2018.3 for 92 ns (138720 atoms). Deposited as NMRlipids
+    Databank simulation 89 and available from https://doi.org/10.5281/zenodo.2579344.
   sameAs: https://doi.org/10.5281/zenodo.2579344
   datePublished: '2019-02-27'
   license:
@@ -157,5 +164,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.2579344
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

@@ -50,9 +50,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 298
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CHOL (71:29) bilayer at 298.15 K (CHARMM36, GROMACS, 1001 ns) [NMRlipids simulation 298]
+  name: >-
+    Molecular dynamics trajectory of a POPC/CHOL (71:29) bilayer at 298.15 K (CHARMM36, GROMACS,
+    1001 ns) [NMRlipids simulation 298]
   alternateName: 256POPC_104CHOL_18000SOL_298K
-  description: Molecular dynamics trajectory of a lipid bilayer of 256 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 71 mol%) and 104 CHOL (cholesterol, 29 mol%) at 298.15 K. Simulated with CHARMM36 in GROMACS for 1001 ns (96000 atoms). Deposited as NMRlipids Databank simulation 298 and available from https://doi.org/10.5281/zenodo.5767451.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 256 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 71 mol%) and 104 CHOL (cholesterol, 29 mol%)
+    at 298.15 K. Simulated with CHARMM36 in GROMACS for 1001 ns (96000 atoms). Deposited as
+    NMRlipids Databank simulation 298 and available from https://doi.org/10.5281/zenodo.5767451.
   sameAs: https://doi.org/10.5281/zenodo.5767451
   datePublished: '2021-12-08'
   license:
@@ -148,5 +154,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.5767451
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

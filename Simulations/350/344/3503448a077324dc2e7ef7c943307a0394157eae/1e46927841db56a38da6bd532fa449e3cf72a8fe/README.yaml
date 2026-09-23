@@ -57,9 +57,16 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 142
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/DHMDMAB (42:29:29) bilayer at 313 K (ECC-lipids, GROMACS 5.1.4, 200 ns) [NMRlipids simulation 142]
+  name: >-
+    Molecular dynamics trajectory of a POPC/CLA/DHMDMAB (42:29:29) bilayer at 313 K (ECC-lipids,
+    GROMACS 5.1.4, 200 ns) [NMRlipids simulation 142]
   alternateName: 100POPC_6214SOL_70DHMDMAB_70CLA_313K_SPCEmodel
-  description: Molecular dynamics trajectory of a lipid bilayer of 100 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 42 mol%), 70 CLA (29 mol%) and 70 DHMDMAB (dihexadecyldimethylammonium, 29 mol%) at 313 K. Simulated with ECC-lipids in GROMACS 5.1.4 for 200 ns (39602 atoms). Deposited as NMRlipids Databank simulation 142 and available from https://doi.org/10.5281/zenodo.1118682.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 100 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 42 mol%), 70 CLA (29 mol%) and 70 DHMDMAB
+    (dihexadecyldimethylammonium, 29 mol%) at 313 K. Simulated with ECC-lipids in GROMACS 5.1.4 for
+    200 ns (39602 atoms). Deposited as NMRlipids Databank simulation 142 and available from
+    https://doi.org/10.5281/zenodo.1118682.
   sameAs: https://doi.org/10.5281/zenodo.1118682
   datePublished: '2017-12-19'
   license:
@@ -150,11 +157,13 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.1118682
     identifier: 10.5281/zenodo.1118682
     url: https://doi.org/10.5281/zenodo.1118682
-    name: Simulations Of Popc Lipid Bilayer In Water Solution With Various Molar Fractions Of Cationic Surfactant Dihexadecylammonium Using Ecc-Popc Force Field
+    name: >-
+      Simulations Of Popc Lipid Bilayer In Water Solution With Various Molar Fractions Of Cationic
+      Surfactant Dihexadecylammonium Using Ecc-Popc Force Field
     publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.1118682
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

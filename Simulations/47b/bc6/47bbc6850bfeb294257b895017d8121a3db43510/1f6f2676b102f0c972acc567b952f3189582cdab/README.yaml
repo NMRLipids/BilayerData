@@ -51,9 +51,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 59
 bioschema_properties:
-  name: Molecular dynamics trajectory of a CHOL/POPC (50:50) bilayer at 303 K (Berger, GROMACS Gpu-version 2020.1, 1200 ns) [NMRlipids simulation 59]
+  name: >-
+    Molecular dynamics trajectory of a CHOL/POPC (50:50) bilayer at 303 K (Berger, GROMACS
+    Gpu-version 2020.1, 1200 ns) [NMRlipids simulation 59]
   alternateName: 256POPC_256CHOL_20480SOL_303K_Berger
-  description: Molecular dynamics trajectory of a lipid bilayer of 256 CHOL (cholesterol, 50 mol%) and 256 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) at 303 K. Simulated with Berger in GROMACS Gpu-version 2020.1 for 1200 ns (82176 atoms). Deposited as NMRlipids Databank simulation 59 and available from https://doi.org/10.5281/zenodo.4537794.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 256 CHOL (cholesterol, 50 mol%) and 256 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) at 303 K. Simulated with Berger in
+    GROMACS Gpu-version 2020.1 for 1200 ns (82176 atoms). Deposited as NMRlipids Databank simulation
+    59 and available from https://doi.org/10.5281/zenodo.4537794.
   sameAs: https://doi.org/10.5281/zenodo.4537794
   datePublished: '2021-02-12'
   license:
@@ -147,5 +153,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.4537794
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

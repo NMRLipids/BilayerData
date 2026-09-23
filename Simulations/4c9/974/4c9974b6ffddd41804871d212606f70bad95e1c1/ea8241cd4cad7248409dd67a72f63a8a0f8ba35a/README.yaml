@@ -55,16 +55,21 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 444
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/SOD (84:8:8) bilayer at 298.15 K (Ulmschneider, GROMACS 5.0.3, 200 ns) [NMRlipids simulation 444]
+  name: >-
+    Molecular dynamics trajectory of a POPC/CLA/SOD (84:8:8) bilayer at 298.15 K (Ulmschneider,
+    GROMACS 5.0.3, 200 ns) [NMRlipids simulation 444]
   alternateName: 128POPC_5120SOL_12SOD_12CLA_298K
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 84 mol%), 12 CLA (8 mol%) and 12 SOD (8 mol%) at 298.15 K. Simulated with Ulmschneider in GROMACS 5.0.3 for 200 ns (22040 atoms). Deposited as NMRlipids Databank simulation 444 and available from https://doi.org/10.5281/zenodo.30892.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 128 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 84 mol%), 12 CLA (8 mol%) and 12 SOD (8 mol%)
+    at 298.15 K. Simulated with Ulmschneider in GROMACS 5.0.3 for 200 ns (22040 atoms). Deposited as
+    NMRlipids Databank simulation 444 and available from https://doi.org/10.5281/zenodo.30892.
   sameAs: https://doi.org/10.5281/zenodo.30892
   datePublished: '2015-09-11'
   license:
-    spdx: GPL-3.0-only
-    name: GNU General Public License v3.0 only
-    url: https://spdx.org/licenses/GPL-3.0-only.html
-    sameAs: http://www.opensource.org/licenses/GPL-3.0
+    name: GNU General Public License 3.0
+    url: http://www.opensource.org/licenses/GPL-3.0
+    spdx: null
   publisher: Zenodo
   creator:
   - name: Girych Mykhailo
@@ -155,5 +160,4 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.30892
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    retrieved: '2026-09-23'

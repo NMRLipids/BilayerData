@@ -41,9 +41,15 @@ EXPERIMENT:
   - 10.1021/acs.jctc.3c00648/1
 AUTHORS_CONTACT: Hoelfich, Jullianne
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC bilayer at 300 K (FF-development, GROMACS, 500 ns) [NMRlipids simulation 835]
+  name: >-
+    Molecular dynamics trajectory of a POPC bilayer at 300 K (FF-development, GROMACS, 500 ns)
+    [NMRlipids simulation 835]
   alternateName: POPCandTIP3P
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with FF-development in GROMACS for 500 ns (32512 atoms). Deposited as NMRlipids Databank simulation 835 and available from https://doi.org/10.5281/zenodo.15328669.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 128 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with FF-development in
+    GROMACS for 500 ns (32512 atoms). Deposited as NMRlipids Databank simulation 835 and available
+    from https://doi.org/10.5281/zenodo.15328669.
   sameAs: https://doi.org/10.5281/zenodo.15328669
   datePublished: '2025-05-02'
   license:
@@ -138,5 +144,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.15328669
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

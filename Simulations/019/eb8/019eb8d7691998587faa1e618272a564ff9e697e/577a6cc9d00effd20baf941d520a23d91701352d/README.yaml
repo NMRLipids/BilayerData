@@ -47,9 +47,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 327
 bioschema_properties:
-  name: Molecular dynamics trajectory of a CHOL/POPC (59:41) bilayer at 310 K (MacRog, GROMACS 4.6, 200 ns) [NMRlipids simulation 327]
+  name: >-
+    Molecular dynamics trajectory of a CHOL/POPC (59:41) bilayer at 310 K (MacRog, GROMACS 4.6, 200
+    ns) [NMRlipids simulation 327]
   alternateName: 52POPC_76CHOL_6400SOL_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 76 CHOL (cholesterol, 59 mol%) and 52 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 41 mol%) at 310 K. Simulated with MacRog in GROMACS 4.6 for 200 ns (31792 atoms). Deposited as NMRlipids Databank simulation 327 and available from https://doi.org/10.5281/zenodo.3252052.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 76 CHOL (cholesterol, 59 mol%) and 52 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 41 mol%) at 310 K. Simulated with MacRog in
+    GROMACS 4.6 for 200 ns (31792 atoms). Deposited as NMRlipids Databank simulation 327 and
+    available from https://doi.org/10.5281/zenodo.3252052.
   sameAs: https://doi.org/10.5281/zenodo.3252052
   datePublished: '2015-01-11'
   license:
@@ -142,11 +148,12 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.3252052
     identifier: 10.5281/zenodo.3252052
     url: https://doi.org/10.5281/zenodo.3252052
-    name: POPC/Cholesterol @ 310K. 0, 10, 40, 50 and 60 mol-% cholesterol. Model by Maciejewski and Rog
+    name: >-
+      POPC/Cholesterol @ 310K. 0, 10, 40, 50 and 60 mol-% cholesterol. Model by Maciejewski and Rog
     publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.3252052
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

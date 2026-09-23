@@ -50,9 +50,17 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 733
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/SOD (61:20:20) bilayer at 303 K (Charmm-Drude polarizable; system has been equilibriated using Charmm36, OPENMM 7.4.1, 514 ns) [NMRlipids simulation 733]
+  name: >-
+    Molecular dynamics trajectory of a POPC/CLA/SOD (61:20:20) bilayer at 303 K (Charmm-Drude
+    polarizable; system has been equilibriated using Charmm36, OPENMM 7.4.1, 514 ns) [NMRlipids
+    simulation 733]
   alternateName: 128POPC_6400SOL_41NaCl_303K
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 61 mol%), 41 CLA (20 mol%) and 41 SOD (20 mol%) at 303 K. Simulated with Charmm-Drude polarizable; system has been equilibriated using Charmm36 in OPENMM 7.4.1 for 514 ns (56996 atoms). Deposited as NMRlipids Databank simulation 733 and available from https://doi.org/10.5281/zenodo.7586915.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 128 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 61 mol%), 41 CLA (20 mol%) and 41 SOD (20
+    mol%) at 303 K. Simulated with Charmm-Drude polarizable; system has been equilibriated using
+    Charmm36 in OPENMM 7.4.1 for 514 ns (56996 atoms). Deposited as NMRlipids Databank simulation
+    733 and available from https://doi.org/10.5281/zenodo.7586915.
   sameAs: https://doi.org/10.5281/zenodo.7586915
   datePublished: '2020-08-19'
   license:
@@ -144,11 +152,12 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.7586915
     identifier: 10.5281/zenodo.7586915
     url: https://doi.org/10.5281/zenodo.7586915
-    name: Pure POPC Membrane with 350mM NaCl simulations using Drude Polarizable Force Field and OpenMM
+    name: >-
+      Pure POPC Membrane with 350mM NaCl simulations using Drude Polarizable Force Field and OpenMM
     publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.7586915
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

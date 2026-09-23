@@ -48,9 +48,16 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 351
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/SOD (39:31:31) bilayer at 310.15 K (ECC-CHARMM36, GROMACS 5.1.4, 352 ns) [NMRlipids simulation 351]
+  name: >-
+    Molecular dynamics trajectory of a POPC/CLA/SOD (39:31:31) bilayer at 310.15 K (ECC-CHARMM36,
+    GROMACS 5.1.4, 352 ns) [NMRlipids simulation 351]
   alternateName: 200POPC_9000SOL_157SOD_157CLA_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 39 mol%), 157 CLA (31 mol%) and 157 SOD (31 mol%) at 310.15 K. Simulated with ECC-CHARMM36 in GROMACS 5.1.4 for 352 ns (54114 atoms). Deposited as NMRlipids Databank simulation 351 and available from https://doi.org/10.5281/zenodo.2562083.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 200 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 39 mol%), 157 CLA (31 mol%) and 157 SOD (31
+    mol%) at 310.15 K. Simulated with ECC-CHARMM36 in GROMACS 5.1.4 for 352 ns (54114 atoms).
+    Deposited as NMRlipids Databank simulation 351 and available from
+    https://doi.org/10.5281/zenodo.2562083.
   sameAs: https://doi.org/10.5281/zenodo.2562083
   datePublished: '2019-02-11'
   license:
@@ -138,11 +145,13 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.2562083
     identifier: 10.5281/zenodo.2562083
     url: https://doi.org/10.5281/zenodo.2562083
-    name: Simulation data for ECC-CHARMM36 POPC bilayer, 100 lipids/leaflet, 940 mM NaCl, 310K, GROMACS 5.1.4
+    name: >-
+      Simulation data for ECC-CHARMM36 POPC bilayer, 100 lipids/leaflet, 940 mM NaCl, 310K, GROMACS
+      5.1.4
     publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.2562083
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

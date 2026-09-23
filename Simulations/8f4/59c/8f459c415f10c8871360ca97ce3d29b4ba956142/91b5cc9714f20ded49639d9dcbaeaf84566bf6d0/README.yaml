@@ -57,9 +57,16 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 11
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/SOD/CER (72:11:11:7) bilayer at 310 K (CHARMM36, GROMACS 2016.2, 3497 ns) [NMRlipids simulation 11]
+  name: >-
+    Molecular dynamics trajectory of a POPC/CLA/SOD/CER (72:11:11:7) bilayer at 310 K (CHARMM36,
+    GROMACS 2016.2, 3497 ns) [NMRlipids simulation 11]
   alternateName: 512POPC_50CER_28100SOL_75SOD_75CLA_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 512 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 72 mol%), 75 CLA (11 mol%), 75 SOD (11 mol%) and 50 CER (N-palmitoyl-D-erythro-sphingosine, 7 mol%) at 310 K. Simulated with CHARMM36 in GROMACS 2016.2 for 3497 ns (158308 atoms). Deposited as NMRlipids Databank simulation 11 and available from https://doi.org/10.5281/zenodo.1230390.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 512 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 72 mol%), 75 CLA (11 mol%), 75 SOD (11 mol%)
+    and 50 CER (N-palmitoyl-D-erythro-sphingosine, 7 mol%) at 310 K. Simulated with CHARMM36 in
+    GROMACS 2016.2 for 3497 ns (158308 atoms). Deposited as NMRlipids Databank simulation 11 and
+    available from https://doi.org/10.5281/zenodo.1230390.
   sameAs: https://doi.org/10.5281/zenodo.1230390
   datePublished: '2018-04-26'
   license:
@@ -161,5 +168,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.1230390
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

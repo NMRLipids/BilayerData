@@ -55,9 +55,16 @@ TRJ:
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 368
 bioschema_properties:
-  name: Molecular dynamics trajectory of a CLA/CAL/POPC/POPG/SOD (48:24:19:5:5) bilayer at 298 K (CHARMM36, GROMACS, 289 ns) [NMRlipids simulation 368]
+  name: >-
+    Molecular dynamics trajectory of a CLA/CAL/POPC/POPG/SOD (48:24:19:5:5) bilayer at 298 K
+    (CHARMM36, GROMACS, 289 ns) [NMRlipids simulation 368]
   alternateName: POPC:POPG(4:1)+1MCaCl_T298K
-  description: Molecular dynamics trajectory of a lipid bilayer of 902 CLA (48 mol%), 451 CAL (24 mol%), 350 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 19 mol%), 88 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 5 mol%) and 88 SOD (5 mol%) at 298 K. Simulated with CHARMM36 in GROMACS for 289 ns (134298 atoms). Deposited as NMRlipids Databank simulation 368 and available from https://doi.org/10.5281/zenodo.3997037.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 902 CLA (48 mol%), 451 CAL (24 mol%), 350
+    POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 19 mol%), 88 POPG
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 5 mol%) and 88 SOD (5 mol%) at 298 K.
+    Simulated with CHARMM36 in GROMACS for 289 ns (134298 atoms). Deposited as NMRlipids Databank
+    simulation 368 and available from https://doi.org/10.5281/zenodo.3997037.
   sameAs: https://doi.org/10.5281/zenodo.3997037
   datePublished: '2020-08-24'
   license:
@@ -153,5 +160,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.3997037
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

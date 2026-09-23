@@ -56,9 +56,17 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 460
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/POPS/SOD (71:14:14) bilayer at 298 K (GROMOS-CKP, GROMOS NH3 charges and PME, GROMACS, 100 ns) [NMRlipids simulation 460]
+  name: >-
+    Molecular dynamics trajectory of a POPC/POPS/SOD (71:14:14) bilayer at 298 K (GROMOS-CKP, GROMOS
+    NH3 charges and PME, GROMACS, 100 ns) [NMRlipids simulation 460]
   alternateName: 110POPC_22POPS_4620SOL_22SOD_298K_GROMOS-CKP_v2
-  description: Molecular dynamics trajectory of a lipid bilayer of 110 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 71 mol%), 22 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 14 mol%) and 22 SOD (14 mol%) at 298 K. Simulated with GROMOS-CKP, GROMOS NH3 charges and PME in GROMACS for 100 ns (20812 atoms). Deposited as NMRlipids Databank simulation 460 and available from https://doi.org/10.5281/zenodo.1283333.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 110 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 71 mol%), 22 POPS
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 14 mol%) and 22 SOD (14 mol%) at 298 K.
+    Simulated with GROMOS-CKP, GROMOS NH3 charges and PME in GROMACS for 100 ns (20812 atoms).
+    Deposited as NMRlipids Databank simulation 460 and available from
+    https://doi.org/10.5281/zenodo.1283333.
   sameAs: https://doi.org/10.5281/zenodo.1283333
   datePublished: '2018-06-05'
   license:
@@ -153,5 +161,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.1283333
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

@@ -44,9 +44,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 802
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC bilayer at 300 K (OPLS4, GROMACS Desmond XXXX-X, 400 ns) [NMRlipids simulation 802]
+  name: >-
+    Molecular dynamics trajectory of a POPC bilayer at 300 K (OPLS4, GROMACS Desmond XXXX-X, 400 ns)
+    [NMRlipids simulation 802]
   alternateName: 200POPC_1500SOL_300K
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with OPLS4 in GROMACS Desmond XXXX-X for 400 ns (31300 atoms). Deposited as NMRlipids Databank simulation 802 and available from https://doi.org/10.5281/zenodo.10948670.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 200 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with OPLS4 in GROMACS
+    Desmond XXXX-X for 400 ns (31300 atoms). Deposited as NMRlipids Databank simulation 802 and
+    available from https://doi.org/10.5281/zenodo.10948670.
   sameAs: https://doi.org/10.5281/zenodo.10948670
   datePublished: '2024-04-09'
   license:
@@ -140,5 +146,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.10948670
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

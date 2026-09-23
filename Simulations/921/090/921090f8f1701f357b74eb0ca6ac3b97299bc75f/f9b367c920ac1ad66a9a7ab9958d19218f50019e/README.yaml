@@ -47,9 +47,16 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 863
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/CAL (81:13:6) bilayer at 300 K (OPLS3e, GROMACS Desmond of Schrödinger 2019-4, 243 ns) [NMRlipids simulation 863]
+  name: >-
+    Molecular dynamics trajectory of a POPC/CLA/CAL (81:13:6) bilayer at 300 K (OPLS3e, GROMACS
+    Desmond of Schrödinger 2019-4, 243 ns) [NMRlipids simulation 863]
   alternateName: POPC, 44 w/l, 300 K, 0.1 M CaCl2
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 81 mol%), 32 CLA (13 mol%) and 16 CAL (6 mol%) at 300 K. Simulated with OPLS3e in GROMACS Desmond of Schrödinger 2019-4 for 243 ns (53488 atoms). Deposited as NMRlipids Databank simulation 863 and available from https://doi.org/10.5281/zenodo.10212636.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 200 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 81 mol%), 32 CLA (13 mol%) and 16 CAL (6
+    mol%) at 300 K. Simulated with OPLS3e in GROMACS Desmond of Schrödinger 2019-4 for 243 ns (53488
+    atoms). Deposited as NMRlipids Databank simulation 863 and available from
+    https://doi.org/10.5281/zenodo.10212636.
   sameAs: https://doi.org/10.5281/zenodo.10212636
   datePublished: '2022'
   license:
@@ -145,5 +152,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.10212636
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

@@ -64,9 +64,17 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 120
 bioschema_properties:
-  name: Molecular dynamics trajectory of a CLA/DMPC/DMTAP/SOD (39:22:22:17) bilayer at 323 K (Berger with DMTAP modification by Gurtovenko et al., GROMACS 3.x, 179 ns) [NMRlipids simulation 120]
+  name: >-
+    Molecular dynamics trajectory of a CLA/DMPC/DMTAP/SOD (39:22:22:17) bilayer at 323 K (Berger
+    with DMTAP modification by Gurtovenko et al., GROMACS 3.x, 179 ns) [NMRlipids simulation 120]
   alternateName: 64DMPC_64DMTAP_48SOD_112CLA_5240SOL_323K
-  description: Molecular dynamics trajectory of a lipid bilayer of 112 CLA (39 mol%), 64 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine, 22 mol%), 64 DMTAP (1,2-dimyristoyl-3-trimethylammonium-propane, 22 mol%) and 48 SOD (17 mol%) at 323 K. Simulated with Berger with DMTAP modification by Gurtovenko et al. in GROMACS 3.x for 179 ns (21320 atoms). Deposited as NMRlipids Databank simulation 120 and available from https://doi.org/10.5281/zenodo.53151.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 112 CLA (39 mol%), 64 DMPC
+    (1,2-dimyristoyl-sn-glycero-3-phosphocholine, 22 mol%), 64 DMTAP
+    (1,2-dimyristoyl-3-trimethylammonium-propane, 22 mol%) and 48 SOD (17 mol%) at 323 K. Simulated
+    with Berger with DMTAP modification by Gurtovenko et al. in GROMACS 3.x for 179 ns (21320
+    atoms). Deposited as NMRlipids Databank simulation 120 and available from
+    https://doi.org/10.5281/zenodo.53151.
   sameAs: https://doi.org/10.5281/zenodo.53151
   datePublished: '2016-05-26'
   license:
@@ -165,11 +173,13 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.53151
     identifier: 10.5281/zenodo.53151
     url: https://doi.org/10.5281/zenodo.53151
-    name: 'Molecular dynamics simulation trajectory of a cationic lipid bilayer: 50/50 mol% DMTAP/DMPC in 0.5 M NaCl'
+    name: >-
+      Molecular dynamics simulation trajectory of a cationic lipid bilayer: 50/50 mol% DMTAP/DMPC in
+      0.5 M NaCl
     publisher: Zenodo
   accessRights: openAccess
   _source:
     api: datacite
     doi: 10.5281/zenodo.53151
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

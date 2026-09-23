@@ -40,9 +40,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 818
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC bilayer at 300 K (Charmm36, GROMACS 2019.5, 425 ns) [NMRlipids simulation 818]
+  name: >-
+    Molecular dynamics trajectory of a POPC bilayer at 300 K (Charmm36, GROMACS 2019.5, 425 ns)
+    [NMRlipids simulation 818]
   alternateName: POPС(300K, 10w/l, CHARMM36)
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with Charmm36 in GROMACS 2019.5 for 425 ns (32800 atoms). Deposited as NMRlipids Databank simulation 818 and available from https://doi.org/10.5281/zenodo.6334005.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 200 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with Charmm36 in GROMACS
+    2019.5 for 425 ns (32800 atoms). Deposited as NMRlipids Databank simulation 818 and available
+    from https://doi.org/10.5281/zenodo.6334005.
   sameAs: https://doi.org/10.5281/zenodo.6334005
   datePublished: '2022-03-07'
   license:
@@ -137,5 +143,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.6334005
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'

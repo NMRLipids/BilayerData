@@ -57,9 +57,16 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 526
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/CHOL/CAL (40:29:17:14) bilayer at 310 K (Slipids with ECC-scaled ions (Kohagen), GROMACS 4.6, 600 ns) [NMRlipids simulation 526]
+  name: >-
+    Molecular dynamics trajectory of a POPC/CLA/CHOL/CAL (40:29:17:14) bilayer at 310 K (Slipids
+    with ECC-scaled ions (Kohagen), GROMACS 4.6, 600 ns) [NMRlipids simulation 526]
   alternateName: 86CHOL_200POPC_9000SOL_73CAL_146CLA_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 40 mol%), 146 CLA (29 mol%), 86 CHOL (cholesterol, 17 mol%) and 73 CAL (14 mol%) at 310 K. Simulated with Slipids with ECC-scaled ions (Kohagen) in GROMACS 4.6 for 600 ns (60383 atoms). Deposited as NMRlipids Databank simulation 526 and available from https://doi.org/10.5281/zenodo.259354.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 200 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 40 mol%), 146 CLA (29 mol%), 86 CHOL
+    (cholesterol, 17 mol%) and 73 CAL (14 mol%) at 310 K. Simulated with Slipids with ECC-scaled
+    ions (Kohagen) in GROMACS 4.6 for 600 ns (60383 atoms). Deposited as NMRlipids Databank
+    simulation 526 and available from https://doi.org/10.5281/zenodo.259354.
   sameAs: https://doi.org/10.5281/zenodo.259354
   datePublished: '2017-01-24'
   license:
@@ -155,5 +162,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.259354
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-09-23'
