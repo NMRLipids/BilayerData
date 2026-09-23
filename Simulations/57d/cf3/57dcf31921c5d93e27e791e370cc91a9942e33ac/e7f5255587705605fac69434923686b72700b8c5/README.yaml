@@ -54,15 +54,13 @@ EXPERIMENT:
     BOG: []
   FORMFACTOR: []
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a BOG/DMPC (50:50) bilayer at 303.15 K (Charmm36, GROMACS
-    2023.2, 500 ns) [NMRlipids simulation 821]
+  name: Molecular dynamics trajectory of a BOG/DMPC (50:50) bilayer at 303.15 K (Charmm36,
+    GROMACS 2023.2, 500 ns) [NMRlipids simulation 821]
   alternateName: DMPC_BOG_1x1_fh
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 90 BOG (beta-octyl D-glucopyranoside, 50
-    mol%) and 90 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine, 50 mol%) at 303.15 K. Simulated
-    with Charmm36 in GROMACS 2023.2 for 500 ns (47046 atoms). Deposited as NMRlipids Databank
-    simulation 821 and available from https://doi.org/10.5281/zenodo.13881447.
+  description: Molecular dynamics trajectory of a lipid bilayer of 90 BOG (beta-octyl
+    D-glucopyranoside, 50 mol%) and 90 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine,
+    50 mol%) at 303.15 K. Simulated with Charmm36 in GROMACS 2023.2 for 500 ns (47046
+    atoms). Deposited as NMRlipids Databank simulation 821 and available from https://doi.org/10.5281/zenodo.13881447.
   sameAs: https://doi.org/10.5281/zenodo.13881447
   datePublished: '2024-10-02'
   license:

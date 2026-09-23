@@ -44,15 +44,12 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 6
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a DLIPC bilayer at 333.15 K (CHARMM36, GROMACS, 1001 ns)
-    [NMRlipids simulation 6]
+  name: Molecular dynamics trajectory of a DLIPC bilayer at 333.15 K (CHARMM36, GROMACS,
+    1001 ns) [NMRlipids simulation 6]
   alternateName: 256DLIPC_12800SOL_333K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 256 DLIPC
-    (1,2-dilinoleoyl-sn-glycero-3-phosphocholine) at 333.15 K. Simulated with CHARMM36 in GROMACS
-    for 1001 ns (72704 atoms). Deposited as NMRlipids Databank simulation 6 and available from
-    https://doi.org/10.5281/zenodo.6943413.
+  description: Molecular dynamics trajectory of a lipid bilayer of 256 DLIPC (1,2-dilinoleoyl-sn-glycero-3-phosphocholine)
+    at 333.15 K. Simulated with CHARMM36 in GROMACS for 1001 ns (72704 atoms). Deposited
+    as NMRlipids Databank simulation 6 and available from https://doi.org/10.5281/zenodo.6943413.
   sameAs: https://doi.org/10.5281/zenodo.6943413
   datePublished: '2022-07-30'
   license:
@@ -140,7 +137,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.6943413
     identifier: 10.5281/zenodo.6943413
     url: https://doi.org/10.5281/zenodo.6943413
-    name: Simulations of different single-component bilayers, three different system sizes
+    name: Simulations of different single-component bilayers, three different system
+      sizes
     publisher: Zenodo
   accessRights: openAccess
   _source:

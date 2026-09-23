@@ -65,16 +65,14 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 827
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a TMA/BOG/TMCL/CLA/SOD (49:24:24:1:1) bilayer at 303.15 K
-    (Charmm36, GROMACS 2023.2, 500 ns) [NMRlipids simulation 827]
+  name: Molecular dynamics trajectory of a TMA/BOG/TMCL/CLA/SOD (49:24:24:1:1) bilayer
+    at 303.15 K (Charmm36, GROMACS 2023.2, 500 ns) [NMRlipids simulation 827]
   alternateName: TMCL_BOG_TMA_NaCl_T303_21w/P
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 160 TMA (49 mol%), 80 BOG (beta-octyl
-    D-glucopyranoside, 24 mol%), 80 TMCL (Tetramyristoyl cardiolipin, 24 mol%), 4 CLA (1 mol%) and 4
-    SOD (1 mol%) at 303.15 K. Simulated with Charmm36 in GROMACS 2023.2 for 500 ns (38388 atoms).
-    Deposited as NMRlipids Databank simulation 827 and available from
-    https://doi.org/10.5281/zenodo.13981147.
+  description: Molecular dynamics trajectory of a lipid bilayer of 160 TMA (49 mol%),
+    80 BOG (beta-octyl D-glucopyranoside, 24 mol%), 80 TMCL (Tetramyristoyl cardiolipin,
+    24 mol%), 4 CLA (1 mol%) and 4 SOD (1 mol%) at 303.15 K. Simulated with Charmm36
+    in GROMACS 2023.2 for 500 ns (38388 atoms). Deposited as NMRlipids Databank simulation
+    827 and available from https://doi.org/10.5281/zenodo.13981147.
   sameAs: https://doi.org/10.5281/zenodo.13981147
   datePublished: '2024-10-23'
   license:

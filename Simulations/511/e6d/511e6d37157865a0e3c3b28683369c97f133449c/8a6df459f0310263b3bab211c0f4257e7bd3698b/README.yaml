@@ -53,15 +53,13 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 69
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC/CLA/SOD (84:8:8) bilayer at 310 K (GROMOS-CKP, GROMACS
-    5.1.2, 100 ns) [NMRlipids simulation 69]
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (84:8:8) bilayer at 310 K
+    (GROMOS-CKP, GROMACS 5.1.2, 100 ns) [NMRlipids simulation 69]
   alternateName: 500POPC_25000SOL_48SOD_48CLA_310K_GROMOS-CKP
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 500 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 84 mol%), 48 CLA (8 mol%) and 48 SOD (8 mol%)
-    at 310 K. Simulated with GROMOS-CKP in GROMACS 5.1.2 for 100 ns (101096 atoms). Deposited as
-    NMRlipids Databank simulation 69 and available from https://doi.org/10.5281/zenodo.2574691.
+  description: Molecular dynamics trajectory of a lipid bilayer of 500 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    84 mol%), 48 CLA (8 mol%) and 48 SOD (8 mol%) at 310 K. Simulated with GROMOS-CKP
+    in GROMACS 5.1.2 for 100 ns (101096 atoms). Deposited as NMRlipids Databank simulation
+    69 and available from https://doi.org/10.5281/zenodo.2574691.
   sameAs: https://doi.org/10.5281/zenodo.2574691
   datePublished: '2019-02-22'
   license:

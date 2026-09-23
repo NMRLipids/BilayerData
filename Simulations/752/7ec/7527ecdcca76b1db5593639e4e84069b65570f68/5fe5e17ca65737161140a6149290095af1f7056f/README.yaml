@@ -42,15 +42,12 @@ EXPERIMENT:
   - 10.1016/j.bbamem.2011.07.022/2
 ID: 602
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC bilayer at 303 K (GAFFlipid, GROMACS 4.5, 32 ns)
-    [NMRlipids simulation 602]
+  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (GAFFlipid, GROMACS
+    4.5, 32 ns) [NMRlipids simulation 602]
   alternateName: 126POPC_3948SOL_303K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 126 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with GAFFlipid in GROMACS
-    4.5 for 32 ns (28728 atoms). Deposited as NMRlipids Databank simulation 602 and available from
-    https://doi.org/10.5281/zenodo.5734452.
+  description: Molecular dynamics trajectory of a lipid bilayer of 126 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine)
+    at 303 K. Simulated with GAFFlipid in GROMACS 4.5 for 32 ns (28728 atoms). Deposited
+    as NMRlipids Databank simulation 602 and available from https://doi.org/10.5281/zenodo.5734452.
   sameAs: https://doi.org/10.5281/zenodo.5734452
   datePublished: '2015-01-07'
   license:
@@ -139,7 +136,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.5734452
     identifier: 10.5281/zenodo.5734452
     url: https://doi.org/10.5281/zenodo.5734452
-    name: MD simulation trajectory and related files for POPC bilayer (GAFFlipid, Gromacs 4.5)
+    name: MD simulation trajectory and related files for POPC bilayer (GAFFlipid,
+      Gromacs 4.5)
     publisher: Zenodo
   accessRights: openAccess
   _source:

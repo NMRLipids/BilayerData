@@ -46,16 +46,13 @@ TRJ:
 - - trajSKIP.xtc
 ID: 317
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC/POPG/SOD (67:17:17) bilayer at 298 K (lipid17, GROMACS,
-    350 ns) [NMRlipids simulation 317]
+  name: Molecular dynamics trajectory of a POPC/POPG/SOD (67:17:17) bilayer at 298
+    K (lipid17, GROMACS, 350 ns) [NMRlipids simulation 317]
   alternateName: POPC:POPG(4:1)_T298K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 350 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 67 mol%), 88 POPG
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 17 mol%) and 88 SOD (17 mol%) at 298 K.
-    Simulated with lipid17 in GROMACS for 350 ns (136959 atoms). Deposited as NMRlipids Databank
-    simulation 317 and available from https://doi.org/10.5281/zenodo.3693681.
+  description: Molecular dynamics trajectory of a lipid bilayer of 350 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    67 mol%), 88 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 17 mol%)
+    and 88 SOD (17 mol%) at 298 K. Simulated with lipid17 in GROMACS for 350 ns (136959
+    atoms). Deposited as NMRlipids Databank simulation 317 and available from https://doi.org/10.5281/zenodo.3693681.
   sameAs: https://doi.org/10.5281/zenodo.3693681
   datePublished: '2019-10-23'
   license:

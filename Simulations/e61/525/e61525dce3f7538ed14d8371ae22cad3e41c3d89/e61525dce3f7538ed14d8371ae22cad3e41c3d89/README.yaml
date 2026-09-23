@@ -49,16 +49,13 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC/CLA/SOD (36:32:32) bilayer at 303 K (Charmm-Drude
-    polarizable, OPENMM, 220 ns) [NMRlipids simulation 759]
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD (36:32:32) bilayer at 303
+    K (Charmm-Drude polarizable, OPENMM, 220 ns) [NMRlipids simulation 759]
   alternateName: POPC_1000_NaCl_CHARMMdrude2023_303K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 128 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 36 mol%), 115 CLA (32 mol%) and 115 SOD (32
-    mol%) at 303 K. Simulated with Charmm-Drude polarizable in OPENMM for 220 ns (57292 atoms).
-    Deposited as NMRlipids Databank simulation 759 and available from
-    https://doi.org/10.5281/zenodo.8000133.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    36 mol%), 115 CLA (32 mol%) and 115 SOD (32 mol%) at 303 K. Simulated with Charmm-Drude
+    polarizable in OPENMM for 220 ns (57292 atoms). Deposited as NMRlipids Databank
+    simulation 759 and available from https://doi.org/10.5281/zenodo.8000133.
   sameAs: https://doi.org/10.5281/zenodo.8000133
   datePublished: '2023-06-02'
   license:
@@ -143,9 +140,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.8000133
     identifier: 10.5281/zenodo.8000133
     url: https://doi.org/10.5281/zenodo.8000133
-    name: >-
-      Pure POPC membrane simulations with 1000 mM NaCl with the CHARMM-Drude2023 force field
-      (OpenMM)
+    name: Pure POPC membrane simulations with 1000 mM NaCl with the CHARMM-Drude2023
+      force field (OpenMM)
     publisher: Zenodo
   accessRights: openAccess
   _source:

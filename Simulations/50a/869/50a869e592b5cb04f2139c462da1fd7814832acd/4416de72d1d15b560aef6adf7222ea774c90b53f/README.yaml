@@ -33,8 +33,7 @@ AUTHORS_CONTACT: Virtanen, Salla; Ollila, O. H. Samuli
 SYSTEM: 150POPC_150POPG_31572SOL_150SOD_298K
 SOFTWARE_VERSION: null
 FF: Lipid17
-FF_SOURCE: >-
-  starting structure and lipid 17 parameters from https://zenodo.org/record/2585523#.Xbf0FC17FBx
+FF_SOURCE: starting structure and lipid 17 parameters from https://zenodo.org/record/2585523#.Xbf0FC17FBx
 FF_DATE: null
 CPT: null
 LOG: null
@@ -53,16 +52,13 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 503
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC/POPG/SOD (33:33:33) bilayer at 298 K (Lipid17, GROMACS,
-    200 ns) [NMRlipids simulation 503]
+  name: Molecular dynamics trajectory of a POPC/POPG/SOD (33:33:33) bilayer at 298
+    K (Lipid17, GROMACS, 200 ns) [NMRlipids simulation 503]
   alternateName: 150POPC_150POPG_31572SOL_150SOD_298K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 150 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 33 mol%), 150 POPG
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 33 mol%) and 150 SOD (33 mol%) at 298 K.
-    Simulated with Lipid17 in GROMACS for 200 ns (134016 atoms). Deposited as NMRlipids Databank
-    simulation 503 and available from https://doi.org/10.5281/zenodo.3857816.
+  description: Molecular dynamics trajectory of a lipid bilayer of 150 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    33 mol%), 150 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 33 mol%)
+    and 150 SOD (33 mol%) at 298 K. Simulated with Lipid17 in GROMACS for 200 ns (134016
+    atoms). Deposited as NMRlipids Databank simulation 503 and available from https://doi.org/10.5281/zenodo.3857816.
   sameAs: https://doi.org/10.5281/zenodo.3857816
   datePublished: '2019-10-28'
   license:

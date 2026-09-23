@@ -56,16 +56,13 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 189
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC/CHOL/CLA/SOD (76:8:8:8) bilayer at 310.15 K (CHARMM36,
-    GROMACS 5.0, 200 ns) [NMRlipids simulation 189]
+  name: Molecular dynamics trajectory of a POPC/CHOL/CLA/SOD (76:8:8:8) bilayer at
+    310.15 K (CHARMM36, GROMACS 5.0, 200 ns) [NMRlipids simulation 189]
   alternateName: 22CHOL_200POPC_9000SOL_21SOD_21CLA_310K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 200 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 76 mol%), 22 CHOL (cholesterol, 8 mol%), 21
-    CLA (8 mol%) and 21 SOD (8 mol%) at 310.15 K. Simulated with CHARMM36 in GROMACS 5.0 for 200 ns
-    (55470 atoms). Deposited as NMRlipids Databank simulation 189 and available from
-    https://doi.org/10.5281/zenodo.259392.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    76 mol%), 22 CHOL (cholesterol, 8 mol%), 21 CLA (8 mol%) and 21 SOD (8 mol%) at
+    310.15 K. Simulated with CHARMM36 in GROMACS 5.0 for 200 ns (55470 atoms). Deposited
+    as NMRlipids Databank simulation 189 and available from https://doi.org/10.5281/zenodo.259392.
   sameAs: https://doi.org/10.5281/zenodo.259392
   datePublished: '2017-01-24'
   license:
@@ -155,8 +152,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.259392
     identifier: 10.5281/zenodo.259392
     url: https://doi.org/10.5281/zenodo.259392
-    name: >-
-      Popc With Varying Amounts Of Cholesterol, 130 Mm Of Nacl. Charmm36 With Default Charmm Ions
+    name: Popc With Varying Amounts Of Cholesterol, 130 Mm Of Nacl. Charmm36 With
+      Default Charmm Ions
     publisher: Zenodo
   accessRights: openAccess
   _source:

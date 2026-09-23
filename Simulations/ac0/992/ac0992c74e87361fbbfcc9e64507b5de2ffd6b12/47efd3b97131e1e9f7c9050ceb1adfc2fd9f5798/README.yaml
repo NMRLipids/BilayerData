@@ -60,16 +60,16 @@ EXPERIMENT:
     POPS: []
   FORMFACTOR: []
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a CLA/POPC/CAL/POPS/SOD (41:27:21:5:5) bilayer at 320 K
-    (CHARMM36 with NBFIX-Han, GROMACS 2018.6, 437 ns) [NMRlipids simulation 928]
+  name: Molecular dynamics trajectory of a CLA/POPC/CAL/POPS/SOD (41:27:21:5:5) bilayer
+    at 320 K (CHARMM36 with NBFIX-Han, GROMACS 2018.6, 437 ns) [NMRlipids simulation
+    928]
   alternateName: popc_pops_250_50_contra_sodium_940mM_CaCl_nbfix_han
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 378 CLA (41 mol%), 250 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 27 mol%), 189 CAL (21 mol%), 50 POPS
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 5 mol%) and 50 SOD (5 mol%) at 320 K.
-    Simulated with CHARMM36 with NBFIX-Han in GROMACS 2018.6 for 437 ns (73989 atoms). Deposited as
-    NMRlipids Databank simulation 928 and available from https://doi.org/10.5281/zenodo.3371327.
+  description: Molecular dynamics trajectory of a lipid bilayer of 378 CLA (41 mol%),
+    250 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 27 mol%), 189 CAL
+    (21 mol%), 50 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 5 mol%)
+    and 50 SOD (5 mol%) at 320 K. Simulated with CHARMM36 with NBFIX-Han in GROMACS
+    2018.6 for 437 ns (73989 atoms). Deposited as NMRlipids Databank simulation 928
+    and available from https://doi.org/10.5281/zenodo.3371327.
   sameAs: https://doi.org/10.5281/zenodo.3371327
   datePublished: '2019-08-19'
   license:

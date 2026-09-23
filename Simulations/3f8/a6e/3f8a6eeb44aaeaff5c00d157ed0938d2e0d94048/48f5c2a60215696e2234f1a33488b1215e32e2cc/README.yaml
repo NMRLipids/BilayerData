@@ -53,15 +53,13 @@ EXPERIMENT:
   - 10.1039/C4SM00066H/3
 ID: 263
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPS/SOD (50:50) bilayer at 298 K (CHARMM36-UA, GROMACS, 100
-    ns) [NMRlipids simulation 263]
+  name: Molecular dynamics trajectory of a POPS/SOD (50:50) bilayer at 298 K (CHARMM36-UA,
+    GROMACS, 100 ns) [NMRlipids simulation 263]
   alternateName: 128POPS_4480SOL_128SOD_298K_v2
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 128 POPS
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 50 mol%) and 128 SOD (50 mol%) at 298 K.
-    Simulated with CHARMM36-UA in GROMACS for 100 ns (22144 atoms). Deposited as NMRlipids Databank
-    simulation 263 and available from https://doi.org/10.5281/zenodo.1129458.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine,
+    50 mol%) and 128 SOD (50 mol%) at 298 K. Simulated with CHARMM36-UA in GROMACS
+    for 100 ns (22144 atoms). Deposited as NMRlipids Databank simulation 263 and available
+    from https://doi.org/10.5281/zenodo.1129458.
   sameAs: https://doi.org/10.5281/zenodo.1129458
   datePublished: '2017-12-24'
   license:

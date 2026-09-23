@@ -54,16 +54,14 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 530
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a SOD/POPG/CLA (50:46:4) bilayer at 310 K
+  name: Molecular dynamics trajectory of a SOD/POPG/CLA (50:46:4) bilayer at 310 K
     (GROMOS-CKP-POPG-Tom_Piggot-v1, GROMACS 5.1.2, 100 ns) [NMRlipids simulation 530]
   alternateName: 500POPG_25000SOL_549SOD_49CLA_310K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 549 SOD (50 mol%), 500 POPG
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 46 mol%) and 49 CLA (4 mol%) at 310 K.
-    Simulated with GROMOS-CKP-POPG-Tom_Piggot-v1 in GROMACS 5.1.2 for 100 ns (102098 atoms).
-    Deposited as NMRlipids Databank simulation 530 and available from
-    https://doi.org/10.5281/zenodo.3378992.
+  description: Molecular dynamics trajectory of a lipid bilayer of 549 SOD (50 mol%),
+    500 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 46 mol%) and 49 CLA
+    (4 mol%) at 310 K. Simulated with GROMOS-CKP-POPG-Tom_Piggot-v1 in GROMACS 5.1.2
+    for 100 ns (102098 atoms). Deposited as NMRlipids Databank simulation 530 and
+    available from https://doi.org/10.5281/zenodo.3378992.
   sameAs: https://doi.org/10.5281/zenodo.3378992
   datePublished: '2019-02-19'
   license:

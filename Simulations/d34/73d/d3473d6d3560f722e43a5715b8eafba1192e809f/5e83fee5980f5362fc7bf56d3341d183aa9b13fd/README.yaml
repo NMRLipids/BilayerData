@@ -40,15 +40,12 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 227
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a DPPE bilayer at 336 K (Slipids, GROMACS 5.0.4, 50 ns)
-    [NMRlipids simulation 227]
+  name: Molecular dynamics trajectory of a DPPE bilayer at 336 K (Slipids, GROMACS
+    5.0.4, 50 ns) [NMRlipids simulation 227]
   alternateName: 288DPPE_9386SOL_336K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 288 DPPE
-    (1,2-dipalmitoyl-sn-glycero-3-phosphoethanolamine) at 336 K. Simulated with Slipids in GROMACS
-    5.0.4 for 50 ns (63006 atoms). Deposited as NMRlipids Databank simulation 227 and available from
-    https://doi.org/10.5281/zenodo.495247.
+  description: Molecular dynamics trajectory of a lipid bilayer of 288 DPPE (1,2-dipalmitoyl-sn-glycero-3-phosphoethanolamine)
+    at 336 K. Simulated with Slipids in GROMACS 5.0.4 for 50 ns (63006 atoms). Deposited
+    as NMRlipids Databank simulation 227 and available from https://doi.org/10.5281/zenodo.495247.
   sameAs: https://doi.org/10.5281/zenodo.495247
   datePublished: '2017-04-06'
   license:
@@ -135,7 +132,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.495247
     identifier: 10.5281/zenodo.495247
     url: https://doi.org/10.5281/zenodo.495247
-    name: 'Md Simulation Trajectory Of A Fully Hydrated Dppe Bilayer: Slipids, Gromacs 5.0.4. 2017.'
+    name: 'Md Simulation Trajectory Of A Fully Hydrated Dppe Bilayer: Slipids, Gromacs
+      5.0.4. 2017.'
     publisher: Zenodo
   accessRights: openAccess
   _source:

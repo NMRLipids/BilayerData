@@ -46,16 +46,14 @@ TRJ:
 - - 100-400ns.xtc
 ID: 592
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC/POPG/SOD (33:33:33) bilayer at 298 K (CHARMM36, GROMACS,
-    300 ns) [NMRlipids simulation 592]
+  name: Molecular dynamics trajectory of a POPC/POPG/SOD (33:33:33) bilayer at 298
+    K (CHARMM36, GROMACS, 300 ns) [NMRlipids simulation 592]
   alternateName: POPC:POPG(1:1)_T298K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 150 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 33 mol%), 150 POPG
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 33 mol%) and 150 SOD (33 mol%) at 298 K.
-    Simulated with CHARMM36 in GROMACS for 300 ns (133800 atoms). Deposited as NMRlipids Databank
-    simulation 592 and available from https://doi.org/10.5281/zenodo.3997116.
+  description: Molecular dynamics trajectory of a lipid bilayer of 150 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    33 mol%), 150 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 33 mol%)
+    and 150 SOD (33 mol%) at 298 K. Simulated with CHARMM36 in GROMACS for 300 ns
+    (133800 atoms). Deposited as NMRlipids Databank simulation 592 and available from
+    https://doi.org/10.5281/zenodo.3997116.
   sameAs: https://doi.org/10.5281/zenodo.3997116
   datePublished: '2020-08-24'
   license:

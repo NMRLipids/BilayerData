@@ -44,15 +44,12 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 330
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a DOPC bilayer at 300 K (Berger, GROMACS, 300 ns) [NMRlipids
-    simulation 330]
+  name: Molecular dynamics trajectory of a DOPC bilayer at 300 K (Berger, GROMACS,
+    300 ns) [NMRlipids simulation 330]
   alternateName: 256DOPC_11096SOL_300K_Berger
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 256 DOPC
-    (1,2-dioleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with Berger in GROMACS for 300 ns
-    (47112 atoms). Deposited as NMRlipids Databank simulation 330 and available from
-    https://doi.org/10.5281/zenodo.1402411.
+  description: Molecular dynamics trajectory of a lipid bilayer of 256 DOPC (1,2-dioleoyl-sn-glycero-3-phosphocholine)
+    at 300 K. Simulated with Berger in GROMACS for 300 ns (47112 atoms). Deposited
+    as NMRlipids Databank simulation 330 and available from https://doi.org/10.5281/zenodo.1402411.
   sameAs: https://doi.org/10.5281/zenodo.1402411
   datePublished: '2018-08-23'
   license:

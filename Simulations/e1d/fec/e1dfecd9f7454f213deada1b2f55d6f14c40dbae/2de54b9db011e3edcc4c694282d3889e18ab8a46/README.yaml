@@ -54,16 +54,14 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 188
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC/POPS/SOD (71:14:14) bilayer at 298 K (Lipid17 and Dang
-    ions, GROMACS 2018.0, 975 ns) [NMRlipids simulation 188]
+  name: Molecular dynamics trajectory of a POPC/POPS/SOD (71:14:14) bilayer at 298
+    K (Lipid17 and Dang ions, GROMACS 2018.0, 975 ns) [NMRlipids simulation 188]
   alternateName: 60POPC_12POPS_3600SOL_12SOD_298K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 60 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 71 mol%), 12 POPS
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 14 mol%) and 12 SOD (14 mol%) at 298 K.
-    Simulated with Lipid17 and Dang ions in GROMACS 2018.0 for 975 ns (20376 atoms). Deposited as
-    NMRlipids Databank simulation 188 and available from https://doi.org/10.5281/zenodo.1487761.
+  description: Molecular dynamics trajectory of a lipid bilayer of 60 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    71 mol%), 12 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 14 mol%)
+    and 12 SOD (14 mol%) at 298 K. Simulated with Lipid17 and Dang ions in GROMACS
+    2018.0 for 975 ns (20376 atoms). Deposited as NMRlipids Databank simulation 188
+    and available from https://doi.org/10.5281/zenodo.1487761.
   sameAs: https://doi.org/10.5281/zenodo.1487761
   datePublished: '2018-11-14'
   license:
@@ -153,9 +151,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.1487761
     identifier: 10.5281/zenodo.1487761
     url: https://doi.org/10.5281/zenodo.1487761
-    name: >-
-      Molecular dynamics simulations of lipid bilayers containing POPC and POPS with the lipid17
-      force field, only counterions, and CaCl2 concentrations
+    name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS
+      with the lipid17 force field, only counterions, and CaCl2 concentrations
     publisher: Zenodo
   accessRights: openAccess
   _source:

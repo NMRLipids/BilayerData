@@ -52,15 +52,13 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC/CLA/POT (81:9:9) bilayer at 298.15 K (CHARMM36m, GROMACS
-    2020.1, 1203 ns) [NMRlipids simulation 773]
+  name: Molecular dynamics trajectory of a POPC/CLA/POT (81:9:9) bilayer at 298.15
+    K (CHARMM36m, GROMACS 2020.1, 1203 ns) [NMRlipids simulation 773]
   alternateName: POPC_298K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 300 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 81 mol%), 35 CLA (9 mol%) and 35 POT (9 mol%)
-    at 298.15 K. Simulated with CHARMM36m in GROMACS 2020.1 for 1203 ns (80791 atoms). Deposited as
-    NMRlipids Databank simulation 773 and available from https://doi.org/10.5281/zenodo.8370414.
+  description: Molecular dynamics trajectory of a lipid bilayer of 300 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    81 mol%), 35 CLA (9 mol%) and 35 POT (9 mol%) at 298.15 K. Simulated with CHARMM36m
+    in GROMACS 2020.1 for 1203 ns (80791 atoms). Deposited as NMRlipids Databank simulation
+    773 and available from https://doi.org/10.5281/zenodo.8370414.
   sameAs: https://doi.org/10.5281/zenodo.8370414
   datePublished: '2023-09-22'
   license:

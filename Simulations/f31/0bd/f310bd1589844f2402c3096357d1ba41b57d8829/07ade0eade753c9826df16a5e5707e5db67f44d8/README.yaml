@@ -45,15 +45,12 @@ EXPERIMENT:
   - 10.1016/j.bbamem.2011.07.022/2
 ID: 90
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC bilayer at 303 K (CHARMM36 noNBFIX, GROMACS, 298 ns)
-    [NMRlipids simulation 90]
+  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (CHARMM36 noNBFIX,
+    GROMACS, 298 ns) [NMRlipids simulation 90]
   alternateName: 200POPC_9000SOL_303K_noNBFIX
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 200 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with CHARMM36 noNBFIX in
-    GROMACS for 298 ns (53800 atoms). Deposited as NMRlipids Databank simulation 90 and available
-    from https://doi.org/10.5281/zenodo.3434396.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine)
+    at 303 K. Simulated with CHARMM36 noNBFIX in GROMACS for 298 ns (53800 atoms).
+    Deposited as NMRlipids Databank simulation 90 and available from https://doi.org/10.5281/zenodo.3434396.
   sameAs: https://doi.org/10.5281/zenodo.3434396
   datePublished: '2019-09-17'
   license:

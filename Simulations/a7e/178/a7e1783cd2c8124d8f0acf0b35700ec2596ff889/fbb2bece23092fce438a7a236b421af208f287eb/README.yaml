@@ -54,16 +54,14 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 870
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a NH4/POPI/POPC (44:44:11) bilayer at 310 K (CHARMM36, GROMACS
-    2022.4, 500 ns) [NMRlipids simulation 870]
+  name: Molecular dynamics trajectory of a NH4/POPI/POPC (44:44:11) bilayer at 310
+    K (CHARMM36, GROMACS 2022.4, 500 ns) [NMRlipids simulation 870]
   alternateName: POPI-POPC (80:20), full hydration, 310 K, NH4+ counter ions
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 160 NH4 (44 mol%), 160 POPI
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol, 44 mol%) and 40 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 11 mol%) at 310 K. Simulated with CHARMM36 in
-    GROMACS 2022.4 for 500 ns (58080 atoms). Deposited as NMRlipids Databank simulation 870 and
-    available from https://doi.org/10.5281/zenodo.10253820.
+  description: Molecular dynamics trajectory of a lipid bilayer of 160 NH4 (44 mol%),
+    160 POPI (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol, 44 mol%) and 40 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 11 mol%) at 310 K. Simulated
+    with CHARMM36 in GROMACS 2022.4 for 500 ns (58080 atoms). Deposited as NMRlipids
+    Databank simulation 870 and available from https://doi.org/10.5281/zenodo.10253820.
   sameAs: https://doi.org/10.5281/zenodo.10253820
   datePublished: '2023-12-18'
   license:

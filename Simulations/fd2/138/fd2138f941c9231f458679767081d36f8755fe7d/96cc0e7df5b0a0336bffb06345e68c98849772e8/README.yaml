@@ -56,16 +56,14 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 377
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a SOD/POPG/POPE/CLA (44:38:13:5) bilayer at 310 K (CHARMM36,
-    GROMACS 5.1.2, 100 ns) [NMRlipids simulation 377]
+  name: Molecular dynamics trajectory of a SOD/POPG/POPE/CLA (44:38:13:5) bilayer
+    at 310 K (CHARMM36, GROMACS 5.1.2, 100 ns) [NMRlipids simulation 377]
   alternateName: 374POPG_126POPE_25000SOL_423SOD_49CLA_310K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 423 SOD (44 mol%), 374 POPG
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 38 mol%), 126 POPE
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 13 mol%) and 49 CLA (5 mol%) at 310 K.
-    Simulated with CHARMM36 in GROMACS 5.1.2 for 100 ns (138720 atoms). Deposited as NMRlipids
-    Databank simulation 377 and available from https://doi.org/10.5281/zenodo.2580153.
+  description: Molecular dynamics trajectory of a lipid bilayer of 423 SOD (44 mol%),
+    374 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 38 mol%), 126 POPE
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 13 mol%) and 49 CLA (5
+    mol%) at 310 K. Simulated with CHARMM36 in GROMACS 5.1.2 for 100 ns (138720 atoms).
+    Deposited as NMRlipids Databank simulation 377 and available from https://doi.org/10.5281/zenodo.2580153.
   sameAs: https://doi.org/10.5281/zenodo.2580153
   datePublished: '2019-02-28'
   license:
@@ -158,7 +156,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.2580153
     identifier: 10.5281/zenodo.2580153
     url: https://doi.org/10.5281/zenodo.2580153
-    name: CHARMM36 POPG-POPE 3:1 Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+    name: CHARMM36 POPG-POPE 3:1 Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310
+      K )
     publisher: Zenodo
   accessRights: openAccess
   _source:

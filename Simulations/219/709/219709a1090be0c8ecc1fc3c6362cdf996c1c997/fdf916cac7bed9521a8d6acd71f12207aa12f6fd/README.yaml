@@ -64,16 +64,16 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 331
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a CLA/DMTAP/SOD/DMPC (45:30:15:10) bilayer at 323 K (Berger
-    with DMTAP modification by Gurtovenko et al., GROMACS 3.x, 110 ns) [NMRlipids simulation 331]
+  name: Molecular dynamics trajectory of a CLA/DMTAP/SOD/DMPC (45:30:15:10) bilayer
+    at 323 K (Berger with DMTAP modification by Gurtovenko et al., GROMACS 3.x, 110
+    ns) [NMRlipids simulation 331]
   alternateName: 32DMPC_96DMTAP_49SOD_145CLA_5398SOL_323K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 145 CLA (45 mol%), 96 DMTAP
-    (1,2-dimyristoyl-3-trimethylammonium-propane, 30 mol%), 49 SOD (15 mol%) and 32 DMPC
-    (1,2-dimyristoyl-sn-glycero-3-phosphocholine, 10 mol%) at 323 K. Simulated with Berger with
-    DMTAP modification by Gurtovenko et al. in GROMACS 3.x for 110 ns (21604 atoms). Deposited as
-    NMRlipids Databank simulation 331 and available from https://doi.org/10.5281/zenodo.51754.
+  description: Molecular dynamics trajectory of a lipid bilayer of 145 CLA (45 mol%),
+    96 DMTAP (1,2-dimyristoyl-3-trimethylammonium-propane, 30 mol%), 49 SOD (15 mol%)
+    and 32 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine, 10 mol%) at 323 K. Simulated
+    with Berger with DMTAP modification by Gurtovenko et al. in GROMACS 3.x for 110
+    ns (21604 atoms). Deposited as NMRlipids Databank simulation 331 and available
+    from https://doi.org/10.5281/zenodo.51754.
   sameAs: https://doi.org/10.5281/zenodo.51754
   datePublished: '2016-05-20'
   license:
@@ -172,9 +172,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.51754
     identifier: 10.5281/zenodo.51754
     url: https://doi.org/10.5281/zenodo.51754
-    name: >-
-      Molecular dynamics simulation trajectory of a cationic lipid bilayer: 75/25 mol% DMTAP/DMPC in
-      0.5 M NaCl
+    name: 'Molecular dynamics simulation trajectory of a cationic lipid bilayer: 75/25
+      mol% DMTAP/DMPC in 0.5 M NaCl'
     publisher: Zenodo
   accessRights: openAccess
   _source:

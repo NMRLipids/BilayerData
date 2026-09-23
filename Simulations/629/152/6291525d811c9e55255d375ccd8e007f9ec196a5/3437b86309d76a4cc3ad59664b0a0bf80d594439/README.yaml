@@ -55,16 +55,13 @@ EXPERIMENT:
     CHOL: []
   FORMFACTOR: []
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPE/CHOL/SDG (58:33:9) bilayer at 310 K (Lipid17, GROMACS
-    18.7, 1000 ns) [NMRlipids simulation 719]
+  name: Molecular dynamics trajectory of a POPE/CHOL/SDG (58:33:9) bilayer at 310
+    K (Lipid17, GROMACS 18.7, 1000 ns) [NMRlipids simulation 719]
   alternateName: DOGandCHOLinSDPEwithLipid17
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 74 POPE
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 58 mol%), 42 CHOL (cholesterol, 33 mol%)
-    and 12 SDG (1-stearoyl-2-docosahexaenoyl-sn-glycerol, 9 mol%) at 310 K. Simulated with Lipid17
-    in GROMACS 18.7 for 1000 ns (32998 atoms). Deposited as NMRlipids Databank simulation 719 and
-    available from https://doi.org/10.5281/zenodo.6823087.
+  description: Molecular dynamics trajectory of a lipid bilayer of 74 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine,
+    58 mol%), 42 CHOL (cholesterol, 33 mol%) and 12 SDG (1-stearoyl-2-docosahexaenoyl-sn-glycerol,
+    9 mol%) at 310 K. Simulated with Lipid17 in GROMACS 18.7 for 1000 ns (32998 atoms).
+    Deposited as NMRlipids Databank simulation 719 and available from https://doi.org/10.5281/zenodo.6823087.
   sameAs: https://doi.org/10.5281/zenodo.6823087
   datePublished: '2022-07-12'
   license:

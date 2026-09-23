@@ -63,16 +63,14 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 241
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC/CAL/POPS/CLA (62:14:14:10) bilayer at 310 K (Berger,
-    GROMACS 4.5.5, 100 ns) [NMRlipids simulation 241]
+  name: Molecular dynamics trajectory of a POPC/CAL/POPS/CLA (62:14:14:10) bilayer
+    at 310 K (Berger, GROMACS 4.5.5, 100 ns) [NMRlipids simulation 241]
   alternateName: 104POPC_24OPS_4306SOL_24CAL_16CLA_310K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 104 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 62 mol%), 24 CAL (14 mol%), 24 POPS
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 14 mol%) and 16 CLA (10 mol%) at 310 K.
-    Simulated with Berger in GROMACS 4.5.5 for 100 ns (19686 atoms). Deposited as NMRlipids Databank
-    simulation 241 and available from https://doi.org/10.5281/zenodo.887398.
+  description: Molecular dynamics trajectory of a lipid bilayer of 104 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    62 mol%), 24 CAL (14 mol%), 24 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine,
+    14 mol%) and 16 CLA (10 mol%) at 310 K. Simulated with Berger in GROMACS 4.5.5
+    for 100 ns (19686 atoms). Deposited as NMRlipids Databank simulation 241 and available
+    from https://doi.org/10.5281/zenodo.887398.
   sameAs: https://doi.org/10.5281/zenodo.887398
   datePublished: '2017-09-07'
   license:
@@ -165,9 +163,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.887398
     identifier: 10.5281/zenodo.887398
     url: https://doi.org/10.5281/zenodo.887398
-    name: >-
-      Md Simulation Trajectory Of A Popc/Pops (4:1) Bilayer With 102Mm Cacl2, Berger Force Field For
-      Lipids, Scaled Charges For Ca2+ And Cl-
+    name: Md Simulation Trajectory Of A Popc/Pops (4:1) Bilayer With 102Mm Cacl2,
+      Berger Force Field For Lipids, Scaled Charges For Ca2+ And Cl-
     publisher: Zenodo
   accessRights: openAccess
   _source:

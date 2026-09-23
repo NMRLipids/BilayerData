@@ -50,15 +50,13 @@ WARNINGS:
   PBC: z-jumps
 ID: 85
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a CHOL/POPC (50:50) bilayer at 303 K (Lipid14, GROMACS 5.0.4,
-    200 ns) [NMRlipids simulation 85]
+  name: Molecular dynamics trajectory of a CHOL/POPC (50:50) bilayer at 303 K (Lipid14,
+    GROMACS 5.0.4, 200 ns) [NMRlipids simulation 85]
   alternateName: 64POPC_64CHOL_3968SOL_303K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 64 CHOL (cholesterol, 50 mol%) and 64 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) at 303 K. Simulated with Lipid14 in
-    GROMACS 5.0.4 for 200 ns (25216 atoms). Deposited as NMRlipids Databank simulation 85 and
-    available from https://doi.org/10.5281/zenodo.3871006.
+  description: Molecular dynamics trajectory of a lipid bilayer of 64 CHOL (cholesterol,
+    50 mol%) and 64 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%)
+    at 303 K. Simulated with Lipid14 in GROMACS 5.0.4 for 200 ns (25216 atoms). Deposited
+    as NMRlipids Databank simulation 85 and available from https://doi.org/10.5281/zenodo.3871006.
   sameAs: https://doi.org/10.5281/zenodo.3871006
   datePublished: '2020-06-01'
   license:
@@ -147,9 +145,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.3871006
     identifier: 10.5281/zenodo.3871006
     url: https://doi.org/10.5281/zenodo.3871006
-    name: >-
-      MD simulations of bilayers containing POPC and Cholesterol: 64POPC_64CHL_31Nwat_neutral
-      (lipid14)
+    name: 'MD simulations of bilayers containing POPC and Cholesterol: 64POPC_64CHL_31Nwat_neutral
+      (lipid14)'
     publisher: Zenodo
   accessRights: openAccess
   _source:

@@ -41,15 +41,12 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 385
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPE bilayer at 300 K (MacRog, GROMACS, 500 ns) [NMRlipids
-    simulation 385]
+  name: Molecular dynamics trajectory of a POPE bilayer at 300 K (MacRog, GROMACS,
+    500 ns) [NMRlipids simulation 385]
   alternateName: 128POPE_5120SOL_300K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 128 POPE
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 300 K. Simulated with MacRog in
-    GROMACS for 500 ns (31360 atoms). Deposited as NMRlipids Databank simulation 385 and available
-    from https://doi.org/10.5281/zenodo.3725670.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine)
+    at 300 K. Simulated with MacRog in GROMACS for 500 ns (31360 atoms). Deposited
+    as NMRlipids Databank simulation 385 and available from https://doi.org/10.5281/zenodo.3725670.
   sameAs: https://doi.org/10.5281/zenodo.3725670
   datePublished: '2020-03-26'
   license:

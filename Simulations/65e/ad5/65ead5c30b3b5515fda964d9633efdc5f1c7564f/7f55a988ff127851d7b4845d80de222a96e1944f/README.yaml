@@ -52,15 +52,13 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 162
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a CLA/POPC/CAL (48:28:24) bilayer at 313 K (ECC-lipids,
-    GROMACS, 1292 ns) [NMRlipids simulation 162]
+  name: Molecular dynamics trajectory of a CLA/POPC/CAL (48:28:24) bilayer at 313
+    K (ECC-lipids, GROMACS, 1292 ns) [NMRlipids simulation 162]
   alternateName: 512POPC_24928SOL_440CAL_880CLA_313K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 880 CLA (48 mol%), 512 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 28 mol%) and 440 CAL (24 mol%) at 313 K.
-    Simulated with ECC-lipids in GROMACS for 1292 ns (144712 atoms). Deposited as NMRlipids Databank
-    simulation 162 and available from https://doi.org/10.5281/zenodo.3434100.
+  description: Molecular dynamics trajectory of a lipid bilayer of 880 CLA (48 mol%),
+    512 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 28 mol%) and 440 CAL
+    (24 mol%) at 313 K. Simulated with ECC-lipids in GROMACS for 1292 ns (144712 atoms).
+    Deposited as NMRlipids Databank simulation 162 and available from https://doi.org/10.5281/zenodo.3434100.
   sameAs: https://doi.org/10.5281/zenodo.3434100
   datePublished: '2019-09-17'
   license:

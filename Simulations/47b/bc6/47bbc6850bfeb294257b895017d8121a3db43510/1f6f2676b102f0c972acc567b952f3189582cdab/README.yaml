@@ -51,15 +51,13 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 59
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a CHOL/POPC (50:50) bilayer at 303 K (Berger, GROMACS
-    Gpu-version 2020.1, 1200 ns) [NMRlipids simulation 59]
+  name: Molecular dynamics trajectory of a CHOL/POPC (50:50) bilayer at 303 K (Berger,
+    GROMACS Gpu-version 2020.1, 1200 ns) [NMRlipids simulation 59]
   alternateName: 256POPC_256CHOL_20480SOL_303K_Berger
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 256 CHOL (cholesterol, 50 mol%) and 256 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) at 303 K. Simulated with Berger in
-    GROMACS Gpu-version 2020.1 for 1200 ns (82176 atoms). Deposited as NMRlipids Databank simulation
-    59 and available from https://doi.org/10.5281/zenodo.4537794.
+  description: Molecular dynamics trajectory of a lipid bilayer of 256 CHOL (cholesterol,
+    50 mol%) and 256 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%)
+    at 303 K. Simulated with Berger in GROMACS Gpu-version 2020.1 for 1200 ns (82176
+    atoms). Deposited as NMRlipids Databank simulation 59 and available from https://doi.org/10.5281/zenodo.4537794.
   sameAs: https://doi.org/10.5281/zenodo.4537794
   datePublished: '2021-02-12'
   license:
@@ -147,7 +145,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.4537794
     identifier: 10.5281/zenodo.4537794
     url: https://doi.org/10.5281/zenodo.4537794
-    name: MD simulation of 50% POPC+50% cholesterol bilayer using Berger force field at T=303K
+    name: MD simulation of 50% POPC+50% cholesterol bilayer using Berger force field
+      at T=303K
     publisher: Zenodo
   accessRights: openAccess
   _source:

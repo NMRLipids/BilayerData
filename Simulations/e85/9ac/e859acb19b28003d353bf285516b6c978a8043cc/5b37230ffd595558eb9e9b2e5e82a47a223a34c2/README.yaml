@@ -56,16 +56,14 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 580
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a CLA/POPC/CAL/POPS (42:28:24:6) bilayer at 298 K (CHARMM36,
-    GROMACS, 200 ns) [NMRlipids simulation 580]
+  name: Molecular dynamics trajectory of a CLA/POPC/CAL/POPS (42:28:24:6) bilayer
+    at 298 K (CHARMM36, GROMACS, 200 ns) [NMRlipids simulation 580]
   alternateName: 250POPC_50POPS_214CAL_378CLA_298K_73964Atoms
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 378 CLA (42 mol%), 250 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 28 mol%), 214 CAL (24 mol%) and 50 POPS
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 6 mol%) at 298 K. Simulated with CHARMM36
-    in GROMACS for 200 ns (73964 atoms). Deposited as NMRlipids Databank simulation 580 and
-    available from https://doi.org/10.5281/zenodo.2542135.
+  description: Molecular dynamics trajectory of a lipid bilayer of 378 CLA (42 mol%),
+    250 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 28 mol%), 214 CAL
+    (24 mol%) and 50 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 6 mol%)
+    at 298 K. Simulated with CHARMM36 in GROMACS for 200 ns (73964 atoms). Deposited
+    as NMRlipids Databank simulation 580 and available from https://doi.org/10.5281/zenodo.2542135.
   sameAs: https://doi.org/10.5281/zenodo.2542135
   datePublished: '2019-01-16'
   license:

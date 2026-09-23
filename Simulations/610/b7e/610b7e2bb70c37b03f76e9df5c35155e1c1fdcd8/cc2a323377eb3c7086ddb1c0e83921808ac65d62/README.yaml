@@ -52,16 +52,14 @@ EXPERIMENT:
     POPS: []
   FORMFACTOR: []
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC/POPS/SOD (71:14:14) bilayer at 320 K (CHARMM36 with
-    NBFIX-Han, GROMACS 2018.6, 399 ns) [NMRlipids simulation 926]
+  name: Molecular dynamics trajectory of a POPC/POPS/SOD (71:14:14) bilayer at 320
+    K (CHARMM36 with NBFIX-Han, GROMACS 2018.6, 399 ns) [NMRlipids simulation 926]
   alternateName: popc_pops_250_50_contra_sodium_nbfix_han
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 250 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 71 mol%), 50 POPS
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 14 mol%) and 50 SOD (14 mol%) at 320 K.
-    Simulated with CHARMM36 with NBFIX-Han in GROMACS 2018.6 for 399 ns (73521 atoms). Deposited as
-    NMRlipids Databank simulation 926 and available from https://doi.org/10.5281/zenodo.3371327.
+  description: Molecular dynamics trajectory of a lipid bilayer of 250 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    71 mol%), 50 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 14 mol%)
+    and 50 SOD (14 mol%) at 320 K. Simulated with CHARMM36 with NBFIX-Han in GROMACS
+    2018.6 for 399 ns (73521 atoms). Deposited as NMRlipids Databank simulation 926
+    and available from https://doi.org/10.5281/zenodo.3371327.
   sameAs: https://doi.org/10.5281/zenodo.3371327
   datePublished: '2019-08-19'
   license:

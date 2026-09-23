@@ -61,17 +61,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 177
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC/CLA/CAL/POPS/SOD (49:21:11:10:10) bilayer at 298 K
-    (Lipid17 and Dang ions, GROMACS 2018.0, 975 ns) [NMRlipids simulation 177]
+  name: Molecular dynamics trajectory of a POPC/CLA/CAL/POPS/SOD (49:21:11:10:10)
+    bilayer at 298 K (Lipid17 and Dang ions, GROMACS 2018.0, 975 ns) [NMRlipids simulation
+    177]
   alternateName: 60POPC_12POPS_3561SOL_13CAL_26CLA_12SOD_298K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 60 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 49 mol%), 26 CLA (21 mol%), 13 CAL (11 mol%),
-    12 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 10 mol%) and 12 SOD (10 mol%) at
-    298 K. Simulated with Lipid17 and Dang ions in GROMACS 2018.0 for 975 ns (20298 atoms).
-    Deposited as NMRlipids Databank simulation 177 and available from
-    https://doi.org/10.5281/zenodo.1487761.
+  description: Molecular dynamics trajectory of a lipid bilayer of 60 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    49 mol%), 26 CLA (21 mol%), 13 CAL (11 mol%), 12 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine,
+    10 mol%) and 12 SOD (10 mol%) at 298 K. Simulated with Lipid17 and Dang ions in
+    GROMACS 2018.0 for 975 ns (20298 atoms). Deposited as NMRlipids Databank simulation
+    177 and available from https://doi.org/10.5281/zenodo.1487761.
   sameAs: https://doi.org/10.5281/zenodo.1487761
   datePublished: '2018-11-14'
   license:
@@ -163,9 +161,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.1487761
     identifier: 10.5281/zenodo.1487761
     url: https://doi.org/10.5281/zenodo.1487761
-    name: >-
-      Molecular dynamics simulations of lipid bilayers containing POPC and POPS with the lipid17
-      force field, only counterions, and CaCl2 concentrations
+    name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS
+      with the lipid17 force field, only counterions, and CaCl2 concentrations
     publisher: Zenodo
   accessRights: openAccess
   _source:

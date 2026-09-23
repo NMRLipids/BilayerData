@@ -44,17 +44,14 @@ SOFTWARE: gromacs
 DIR_WRK: /usr/home/bort/Databank
 ID: 171
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a DPPC bilayer at 325 K (CHARMM36 (center of mass removed
-    independently for upper leaflet, lower leaflet and water+ions), GROMACS 5.0.4, 500 ns)
-    [NMRlipids simulation 171]
+  name: Molecular dynamics trajectory of a DPPC bilayer at 325 K (CHARMM36 (center
+    of mass removed independently for upper leaflet, lower leaflet and water+ions),
+    GROMACS 5.0.4, 500 ns) [NMRlipids simulation 171]
   alternateName: 72DPPC_2880SOL_325K_rmcomm_leaflets
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 72 DPPC
-    (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 325 K. Simulated with CHARMM36 (center of mass
-    removed independently for upper leaflet, lower leaflet and water+ions) in GROMACS 5.0.4 for 500
-    ns (18000 atoms). Deposited as NMRlipids Databank simulation 171 and available from
-    https://doi.org/10.5281/zenodo.1009607.
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine)
+    at 325 K. Simulated with CHARMM36 (center of mass removed independently for upper
+    leaflet, lower leaflet and water+ions) in GROMACS 5.0.4 for 500 ns (18000 atoms).
+    Deposited as NMRlipids Databank simulation 171 and available from https://doi.org/10.5281/zenodo.1009607.
   sameAs: https://doi.org/10.5281/zenodo.1009607
   datePublished: '2017-10-12'
   license:
@@ -107,9 +104,8 @@ bioschema_properties:
     inDefinedTermSet: http://edamontology.org
     url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 5.0.4)
-  - >-
-    CHARMM36 (center of mass removed independently for upper leaflet, lower leaflet and water+ions)
-    force field
+  - CHARMM36 (center of mass removed independently for upper leaflet, lower leaflet
+    and water+ions) force field
   variableMeasured:
   - '@type': PropertyValue
     name: area per lipid
@@ -151,7 +147,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.1009607
     identifier: 10.5281/zenodo.1009607
     url: https://doi.org/10.5281/zenodo.1009607
-    name: Set Simulations Small Pure Bilayers (72 Lipids) Using Charmm36 Ff In Gromacs (Dppc, Popc)
+    name: Set Simulations Small Pure Bilayers (72 Lipids) Using Charmm36 Ff In Gromacs
+      (Dppc, Popc)
     publisher: Zenodo
   accessRights: openAccess
   _source:

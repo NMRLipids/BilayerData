@@ -48,15 +48,13 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 249
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a CHOL/POPC (50:50) bilayer at 310 K (Slipids, GROMACS 4.6, 500
-    ns) [NMRlipids simulation 249]
+  name: Molecular dynamics trajectory of a CHOL/POPC (50:50) bilayer at 310 K (Slipids,
+    GROMACS 4.6, 500 ns) [NMRlipids simulation 249]
   alternateName: 200POPC_9000SOL_200CHOL_310K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 200 CHOL (cholesterol, 50 mol%) and 200 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) at 310 K. Simulated with Slipids in
-    GROMACS 4.6 for 500 ns (95600 atoms). Deposited as NMRlipids Databank simulation 249 and
-    available from https://doi.org/10.5281/zenodo.3243329.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 CHOL (cholesterol,
+    50 mol%) and 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%)
+    at 310 K. Simulated with Slipids in GROMACS 4.6 for 500 ns (95600 atoms). Deposited
+    as NMRlipids Databank simulation 249 and available from https://doi.org/10.5281/zenodo.3243329.
   sameAs: https://doi.org/10.5281/zenodo.3243329
   datePublished: '2016-09-18'
   license:

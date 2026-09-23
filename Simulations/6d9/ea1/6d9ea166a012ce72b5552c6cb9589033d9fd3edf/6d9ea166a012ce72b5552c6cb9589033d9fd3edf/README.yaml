@@ -48,15 +48,13 @@ EXPERIMENT:
     TOCL: []
   FORMFACTOR: []
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POT/TOCL/CLA (65:30:5) bilayer at 303 K (Charmm36, NAMD, 0
-    ns) [NMRlipids simulation 766]
+  name: Molecular dynamics trajectory of a POT/TOCL/CLA (65:30:5) bilayer at 303 K
+    (Charmm36, NAMD, 0 ns) [NMRlipids simulation 766]
   alternateName: TOCL NAMD
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 215 POT (65 mol%), 100 TOCL
-    (1’,3’-Bis[1,2-dioleoyl-sn-glycero-3-phospho]-glycerol, 30 mol%) and 15 CLA (5 mol%) at 303 K.
-    Simulated with Charmm36 in NAMD for 0 ns (43030 atoms). Deposited as NMRlipids Databank
-    simulation 766 and available from https://doi.org/10.5281/zenodo.8341624.
+  description: Molecular dynamics trajectory of a lipid bilayer of 215 POT (65 mol%),
+    100 TOCL (1’,3’-Bis[1,2-dioleoyl-sn-glycero-3-phospho]-glycerol, 30 mol%) and
+    15 CLA (5 mol%) at 303 K. Simulated with Charmm36 in NAMD for 0 ns (43030 atoms).
+    Deposited as NMRlipids Databank simulation 766 and available from https://doi.org/10.5281/zenodo.8341624.
   sameAs: https://doi.org/10.5281/zenodo.8341624
   datePublished: '2023-09-13'
   license:

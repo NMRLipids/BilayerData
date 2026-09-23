@@ -55,16 +55,14 @@ EXPERIMENT:
   - 10.1021/acs.jctc.3c00648/2
 ID: 305
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC/CHOL (94:6) bilayer at 298 K (Berger and Modified Höltje
-    model for cholesterol, GROMACS 4.5, 50 ns) [NMRlipids simulation 305]
+  name: Molecular dynamics trajectory of a POPC/CHOL (94:6) bilayer at 298 K (Berger
+    and Modified Höltje model for cholesterol, GROMACS 4.5, 50 ns) [NMRlipids simulation
+    305]
   alternateName: 8CHOL_120POPC_7290SOL_298K_Berger
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 120 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 94 mol%) and 8 CHOL (cholesterol, 6 mol%) at
-    298 K. Simulated with Berger and Modified Höltje model for cholesterol in GROMACS 4.5 for 50 ns
-    (28342 atoms). Deposited as NMRlipids Databank simulation 305 and available from
-    https://doi.org/10.5281/zenodo.4643899.
+  description: Molecular dynamics trajectory of a lipid bilayer of 120 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    94 mol%) and 8 CHOL (cholesterol, 6 mol%) at 298 K. Simulated with Berger and
+    Modified Höltje model for cholesterol in GROMACS 4.5 for 50 ns (28342 atoms).
+    Deposited as NMRlipids Databank simulation 305 and available from https://doi.org/10.5281/zenodo.4643899.
   sameAs: https://doi.org/10.5281/zenodo.4643899
   datePublished: '2014-12-17'
   license:
@@ -160,9 +158,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.4643899
     identifier: 10.5281/zenodo.4643899
     url: https://doi.org/10.5281/zenodo.4643899
-    name: >-
-      MD simulation trajectory and related files for POPC/cholesterol (7 mol%) bilayer (Berger model
-      delivered by Tieleman, modified Höltje, Gromacs 4.5)
+    name: MD simulation trajectory and related files for POPC/cholesterol (7 mol%)
+      bilayer (Berger model delivered by Tieleman, modified Höltje, Gromacs 4.5)
     publisher: Zenodo
   accessRights: openAccess
   _source:

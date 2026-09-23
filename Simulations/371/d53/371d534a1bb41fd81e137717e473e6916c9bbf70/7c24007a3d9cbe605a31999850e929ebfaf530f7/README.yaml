@@ -49,15 +49,13 @@ EXPERIMENT:
   - 10.1039/C4SM00066H/3
 ID: 26
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPS/SOD (50:50) bilayer at 298 K (MacRog, GROMACS, 100 ns)
-    [NMRlipids simulation 26]
+  name: Molecular dynamics trajectory of a POPS/SOD (50:50) bilayer at 298 K (MacRog,
+    GROMACS, 100 ns) [NMRlipids simulation 26]
   alternateName: 128POPS_4480SOL_128SOD_298K_v2
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 128 POPS
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 50 mol%) and 128 SOD (50 mol%) at 298 K.
-    Simulated with MacRog in GROMACS for 100 ns (29824 atoms). Deposited as NMRlipids Databank
-    simulation 26 and available from https://doi.org/10.5281/zenodo.1283335.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine,
+    50 mol%) and 128 SOD (50 mol%) at 298 K. Simulated with MacRog in GROMACS for
+    100 ns (29824 atoms). Deposited as NMRlipids Databank simulation 26 and available
+    from https://doi.org/10.5281/zenodo.1283335.
   sameAs: https://doi.org/10.5281/zenodo.1283335
   datePublished: '2018-06-05'
   license:
@@ -149,7 +147,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.1283335
     identifier: 10.5281/zenodo.1283335
     url: https://doi.org/10.5281/zenodo.1283335
-    name: Macrog Pops Simulations (Versions 1 And 2) 298 K With Corrected Po Not Op Tails
+    name: Macrog Pops Simulations (Versions 1 And 2) 298 K With Corrected Po Not Op
+      Tails
     publisher: Zenodo
   accessRights: openAccess
   _source:

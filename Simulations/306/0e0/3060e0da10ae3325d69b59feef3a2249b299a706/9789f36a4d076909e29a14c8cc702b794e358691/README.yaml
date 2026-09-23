@@ -56,17 +56,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 458
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPE/SOD/POPG/CLA (52:24:17:7) bilayer at 310 K (Lipid17 for
-    lipids and AMBER ff15ipq for ions, GROMACS 5.1.2, 100 ns) [NMRlipids simulation 458]
+  name: Molecular dynamics trajectory of a POPE/SOD/POPG/CLA (52:24:17:7) bilayer
+    at 310 K (Lipid17 for lipids and AMBER ff15ipq for ions, GROMACS 5.1.2, 100 ns)
+    [NMRlipids simulation 458]
   alternateName: 371POPE_126POPG_176SOD_50CLA_25000SOL_310K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 374 POPE
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 52 mol%), 176 SOD (24 mol%), 126 POPG
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 17 mol%) and 50 CLA (7 mol%) at 310 K.
-    Simulated with Lipid17 for lipids and AMBER ff15ipq for ions in GROMACS 5.1.2 for 100 ns (137978
-    atoms). Deposited as NMRlipids Databank simulation 458 and available from
-    https://doi.org/10.5281/zenodo.2579061.
+  description: Molecular dynamics trajectory of a lipid bilayer of 374 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine,
+    52 mol%), 176 SOD (24 mol%), 126 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol,
+    17 mol%) and 50 CLA (7 mol%) at 310 K. Simulated with Lipid17 for lipids and AMBER
+    ff15ipq for ions in GROMACS 5.1.2 for 100 ns (137978 atoms). Deposited as NMRlipids
+    Databank simulation 458 and available from https://doi.org/10.5281/zenodo.2579061.
   sameAs: https://doi.org/10.5281/zenodo.2579061
   datePublished: '2019-02-27'
   license:
@@ -159,7 +157,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.2579061
     identifier: 10.5281/zenodo.2579061
     url: https://doi.org/10.5281/zenodo.2579061
-    name: LIPID17 POPG-POPE 1:3 Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310 K )
+    name: LIPID17 POPG-POPE 1:3 Bilayer Simulation (Last 100 ns, 150 mM NaCl, 310
+      K )
     publisher: Zenodo
   accessRights: openAccess
   _source:

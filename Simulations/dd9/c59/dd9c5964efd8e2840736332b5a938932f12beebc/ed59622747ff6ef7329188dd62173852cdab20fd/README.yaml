@@ -50,16 +50,14 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 247
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a DPPC/CLA/CAL (48:35:17) bilayer at 293 K (Slipids for lipids
-    and Kohagen for ions, GROMACS 4.6, 800 ns) [NMRlipids simulation 247]
+  name: Molecular dynamics trajectory of a DPPC/CLA/CAL (48:35:17) bilayer at 293
+    K (Slipids for lipids and Kohagen for ions, GROMACS 4.6, 800 ns) [NMRlipids simulation
+    247]
   alternateName: 200DOPC_9000SOL_73CAL_146CLA_293K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 200 DPPC
-    (1,2-dipalmitoyl-sn-glycero-3-phosphocholine, 48 mol%), 146 CLA (35 mol%) and 73 CAL (17 mol%)
-    at 293 K. Simulated with Slipids for lipids and Kohagen for ions in GROMACS 4.6 for 800 ns
-    (53219 atoms). Deposited as NMRlipids Databank simulation 247 and available from
-    https://doi.org/10.5281/zenodo.259443.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine,
+    48 mol%), 146 CLA (35 mol%) and 73 CAL (17 mol%) at 293 K. Simulated with Slipids
+    for lipids and Kohagen for ions in GROMACS 4.6 for 800 ns (53219 atoms). Deposited
+    as NMRlipids Databank simulation 247 and available from https://doi.org/10.5281/zenodo.259443.
   sameAs: https://doi.org/10.5281/zenodo.259443
   datePublished: '2017-01-24'
   license:

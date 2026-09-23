@@ -56,16 +56,14 @@ EXPERIMENT:
     SM16: []
   FORMFACTOR: []
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC/SM16/CHOL (35:35:30) bilayer at 295 K (Slipids, GROMACS
-    5.1.4, 100 ns) [NMRlipids simulation 849]
+  name: Molecular dynamics trajectory of a POPC/SM16/CHOL (35:35:30) bilayer at 295
+    K (Slipids, GROMACS 5.1.4, 100 ns) [NMRlipids simulation 849]
   alternateName: POPC/SM16/CHOL (35:35:30)
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 360 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 35 mol%), 352 SM16
-    (N-palmitoyl-D-erythro-sphingosylphosphorylcholine, 35 mol%) and 304 CHOL (cholesterol, 30 mol%)
-    at 295 K. Simulated with Slipids in GROMACS 5.1.4 for 100 ns (222960 atoms). Deposited as
-    NMRlipids Databank simulation 849 and available from https://doi.org/10.5281/zenodo.17730864.
+  description: Molecular dynamics trajectory of a lipid bilayer of 360 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    35 mol%), 352 SM16 (N-palmitoyl-D-erythro-sphingosylphosphorylcholine, 35 mol%)
+    and 304 CHOL (cholesterol, 30 mol%) at 295 K. Simulated with Slipids in GROMACS
+    5.1.4 for 100 ns (222960 atoms). Deposited as NMRlipids Databank simulation 849
+    and available from https://doi.org/10.5281/zenodo.17730864.
   sameAs: https://doi.org/10.5281/zenodo.17730864
   datePublished: '2025-11-27'
   license:
@@ -161,9 +159,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.17730864
     identifier: 10.5281/zenodo.17730864
     url: https://doi.org/10.5281/zenodo.17730864
-    name: >-
-      MD simulation trajectory of Ternary mixture of POPC/PSM/Chol (35:35:30) at 295 K: Slipids,
-      GROMACS 5.1.4.
+    name: 'MD simulation trajectory of Ternary mixture of POPC/PSM/Chol (35:35:30)
+      at 295 K: Slipids, GROMACS 5.1.4.'
     publisher: Zenodo
   _source:
     api: datacite

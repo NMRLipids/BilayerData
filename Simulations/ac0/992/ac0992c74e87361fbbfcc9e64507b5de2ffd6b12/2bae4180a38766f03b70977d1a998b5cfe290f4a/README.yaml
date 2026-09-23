@@ -60,17 +60,16 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 618
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a CLA/POPC/CAL/POPS/SOD (41:27:21:5:5) bilayer at 320 K
-    (CHARMM36 with NBFIX for calcium ions, GROMACS 2018.6, 437 ns) [NMRlipids simulation 618]
+  name: Molecular dynamics trajectory of a CLA/POPC/CAL/POPS/SOD (41:27:21:5:5) bilayer
+    at 320 K (CHARMM36 with NBFIX for calcium ions, GROMACS 2018.6, 437 ns) [NMRlipids
+    simulation 618]
   alternateName: 250POPC_50POPS_11174SOL_50SOD_189CAL_378CLA_320K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 378 CLA (41 mol%), 250 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 27 mol%), 189 CAL (21 mol%), 50 POPS
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 5 mol%) and 50 SOD (5 mol%) at 320 K.
-    Simulated with CHARMM36 with NBFIX for calcium ions in GROMACS 2018.6 for 437 ns (73989 atoms).
-    Deposited as NMRlipids Databank simulation 618 and available from
-    https://doi.org/10.5281/zenodo.3371327.
+  description: Molecular dynamics trajectory of a lipid bilayer of 378 CLA (41 mol%),
+    250 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 27 mol%), 189 CAL
+    (21 mol%), 50 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 5 mol%)
+    and 50 SOD (5 mol%) at 320 K. Simulated with CHARMM36 with NBFIX for calcium ions
+    in GROMACS 2018.6 for 437 ns (73989 atoms). Deposited as NMRlipids Databank simulation
+    618 and available from https://doi.org/10.5281/zenodo.3371327.
   sameAs: https://doi.org/10.5281/zenodo.3371327
   datePublished: '2019-08-19'
   license:

@@ -46,15 +46,13 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 118
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC/CHOL (70:30) bilayer at 298 K (Slipids, GROMACS 4.6.3,
-    100 ns) [NMRlipids simulation 118]
+  name: Molecular dynamics trajectory of a POPC/CHOL (70:30) bilayer at 298 K (Slipids,
+    GROMACS 4.6.3, 100 ns) [NMRlipids simulation 118]
   alternateName: 154CHOL_358POPC_21183SOL_298K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 358 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 70 mol%) and 154 CHOL (cholesterol, 30 mol%)
-    at 298 K. Simulated with Slipids in GROMACS 4.6.3 for 100 ns (122917 atoms). Deposited as
-    NMRlipids Databank simulation 118 and available from https://doi.org/10.5281/zenodo.62026.
+  description: Molecular dynamics trajectory of a lipid bilayer of 358 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    70 mol%) and 154 CHOL (cholesterol, 30 mol%) at 298 K. Simulated with Slipids
+    in GROMACS 4.6.3 for 100 ns (122917 atoms). Deposited as NMRlipids Databank simulation
+    118 and available from https://doi.org/10.5281/zenodo.62026.
   sameAs: https://doi.org/10.5281/zenodo.62026
   datePublished: '2016-09-10'
   license:
@@ -143,9 +141,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.62026
     identifier: 10.5281/zenodo.62026
     url: https://doi.org/10.5281/zenodo.62026
-    name: >-
-      Md Simulation Trajectory Of A Lipid Bilayer: 70/30 Mol% Popc/Cholesterol . Slipids, Gromacs
-      4.6.3. 2016.
+    name: 'Md Simulation Trajectory Of A Lipid Bilayer: 70/30 Mol% Popc/Cholesterol
+      . Slipids, Gromacs 4.6.3. 2016.'
     publisher: Zenodo
   accessRights: openAccess
   _source:

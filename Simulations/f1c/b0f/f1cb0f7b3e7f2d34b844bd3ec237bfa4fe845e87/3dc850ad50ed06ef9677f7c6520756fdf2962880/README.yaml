@@ -41,15 +41,12 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 378
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC bilayer at 298 K (MacRog, GROMACS 4.5.5, 50 ns)
-    [NMRlipids simulation 378]
+  name: Molecular dynamics trajectory of a POPC bilayer at 298 K (MacRog, GROMACS
+    4.5.5, 50 ns) [NMRlipids simulation 378]
   alternateName: 288POPC_1440SOL_298K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 288 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 298 K. Simulated with MacRog in GROMACS
-    4.5.5 for 50 ns (42912 atoms). Deposited as NMRlipids Databank simulation 378 and available from
-    https://doi.org/10.5281/zenodo.13498.
+  description: Molecular dynamics trajectory of a lipid bilayer of 288 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine)
+    at 298 K. Simulated with MacRog in GROMACS 4.5.5 for 50 ns (42912 atoms). Deposited
+    as NMRlipids Databank simulation 378 and available from https://doi.org/10.5281/zenodo.13498.
   sameAs: https://doi.org/10.5281/zenodo.13498
   datePublished: '2014-12-30'
   license:

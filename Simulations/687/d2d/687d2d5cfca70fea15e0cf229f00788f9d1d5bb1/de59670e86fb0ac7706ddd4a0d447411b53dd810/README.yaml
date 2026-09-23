@@ -49,15 +49,13 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 160
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC/CLA/CAL (48:35:17) bilayer at 310.15 K (CHARMM36,
-    GROMACS, 100 ns) [NMRlipids simulation 160]
+  name: Molecular dynamics trajectory of a POPC/CLA/CAL (48:35:17) bilayer at 310.15
+    K (CHARMM36, GROMACS, 100 ns) [NMRlipids simulation 160]
   alternateName: 200POPC_9000SOL_73CAL_146CLA_310K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 200 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 48 mol%), 146 CLA (35 mol%) and 73 CAL (17
-    mol%) at 310.15 K. Simulated with CHARMM36 in GROMACS for 100 ns (54019 atoms). Deposited as
-    NMRlipids Databank simulation 160 and available from https://doi.org/10.5281/zenodo.51185.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    48 mol%), 146 CLA (35 mol%) and 73 CAL (17 mol%) at 310.15 K. Simulated with CHARMM36
+    in GROMACS for 100 ns (54019 atoms). Deposited as NMRlipids Databank simulation
+    160 and available from https://doi.org/10.5281/zenodo.51185.
   sameAs: https://doi.org/10.5281/zenodo.51185
   datePublished: '2016-05-09'
   license:

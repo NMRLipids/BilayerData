@@ -55,15 +55,13 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 52
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC/CLA/CAL (44:37:19) bilayer at 313 K (ECC-lipids, GROMACS
-    5.1.4, 2 ns) [NMRlipids simulation 52]
+  name: Molecular dynamics trajectory of a POPC/CLA/CAL (44:37:19) bilayer at 313
+    K (ECC-lipids, GROMACS 5.1.4, 2 ns) [NMRlipids simulation 52]
   alternateName: 128POPC_6400SOL_54CAL_108CLA_313K_OPC4model
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 128 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 44 mol%), 108 CLA (37 mol%) and 54 CAL (19
-    mol%) at 313 K. Simulated with ECC-lipids in GROMACS 5.1.4 for 2 ns (42914 atoms). Deposited as
-    NMRlipids Databank simulation 52 and available from https://doi.org/10.5281/zenodo.1118980.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    44 mol%), 108 CLA (37 mol%) and 54 CAL (19 mol%) at 313 K. Simulated with ECC-lipids
+    in GROMACS 5.1.4 for 2 ns (42914 atoms). Deposited as NMRlipids Databank simulation
+    52 and available from https://doi.org/10.5281/zenodo.1118980.
   sameAs: https://doi.org/10.5281/zenodo.1118980
   datePublished: '2017-12-19'
   license:
@@ -153,9 +151,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.1118980
     identifier: 10.5281/zenodo.1118980
     url: https://doi.org/10.5281/zenodo.1118980
-    name: >-
-      Simulations Of Popc Lipid Bilayer In Water Solution At Various Nacl And Cacl2 Concentrations
-      Using Ecc-Popc Force Field And Various Water Models
+    name: Simulations Of Popc Lipid Bilayer In Water Solution At Various Nacl And
+      Cacl2 Concentrations Using Ecc-Popc Force Field And Various Water Models
     publisher: Zenodo
   accessRights: openAccess
   _source:

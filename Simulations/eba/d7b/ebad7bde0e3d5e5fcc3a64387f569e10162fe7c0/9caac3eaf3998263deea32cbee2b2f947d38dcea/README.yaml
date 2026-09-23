@@ -44,15 +44,13 @@ EXPERIMENT:
   - 10.1021/acs.jctc.3c00648/1
 ID: 30
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC bilayer at 298.15 K (Lipid14 with Verlet scheme, GROMACS
-    5.0.3, 100 ns) [NMRlipids simulation 30]
+  name: Molecular dynamics trajectory of a POPC bilayer at 298.15 K (Lipid14 with
+    Verlet scheme, GROMACS 5.0.3, 100 ns) [NMRlipids simulation 30]
   alternateName: 128POPC_5120SOL_298K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 128 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 298.15 K. Simulated with Lipid14 with
-    Verlet scheme in GROMACS 5.0.3 for 100 ns (32512 atoms). Deposited as NMRlipids Databank
-    simulation 30 and available from https://doi.org/10.5281/zenodo.30898.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine)
+    at 298.15 K. Simulated with Lipid14 with Verlet scheme in GROMACS 5.0.3 for 100
+    ns (32512 atoms). Deposited as NMRlipids Databank simulation 30 and available
+    from https://doi.org/10.5281/zenodo.30898.
   sameAs: https://doi.org/10.5281/zenodo.30898
   datePublished: '2015-09-11'
   license:

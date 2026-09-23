@@ -12,8 +12,7 @@ AUTHORS_CONTACT: Javanainen, Matti
 SYSTEM: 50CHOL_200POPC_9000SOL_162SOD_162CLA_310K
 SOFTWARE_VERSION: 4.6
 FF: Slipids with ions by Smith & Dang
-FF_SOURCE: >-
-  http://www.fos.su.se/~sasha/SLipids/; ion parameters from https://bitbucket.org/hseara/ions/
+FF_SOURCE: http://www.fos.su.se/~sasha/SLipids/; ion parameters from https://bitbucket.org/hseara/ions/
 FF_DATE: pre-2020
 CPT: null
 LOG: null
@@ -57,16 +56,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 569
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC/CLA/SOD/CHOL (35:28:28:9) bilayer at 310 K (Slipids with
-    ions by Smith & Dang, GROMACS 4.6, 200 ns) [NMRlipids simulation 569]
+  name: Molecular dynamics trajectory of a POPC/CLA/SOD/CHOL (35:28:28:9) bilayer
+    at 310 K (Slipids with ions by Smith & Dang, GROMACS 4.6, 200 ns) [NMRlipids simulation
+    569]
   alternateName: 50CHOL_200POPC_9000SOL_162SOD_162CLA_310K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 200 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 35 mol%), 162 CLA (28 mol%), 162 SOD (28
-    mol%) and 50 CHOL (cholesterol, 9 mol%) at 310 K. Simulated with Slipids with ions by Smith &
-    Dang in GROMACS 4.6 for 200 ns (57824 atoms). Deposited as NMRlipids Databank simulation 569 and
-    available from https://doi.org/10.5281/zenodo.259341.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    35 mol%), 162 CLA (28 mol%), 162 SOD (28 mol%) and 50 CHOL (cholesterol, 9 mol%)
+    at 310 K. Simulated with Slipids with ions by Smith & Dang in GROMACS 4.6 for
+    200 ns (57824 atoms). Deposited as NMRlipids Databank simulation 569 and available
+    from https://doi.org/10.5281/zenodo.259341.
   sameAs: https://doi.org/10.5281/zenodo.259341
   datePublished: '2017-01-24'
   license:
@@ -156,7 +154,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.259341
     identifier: 10.5281/zenodo.259341
     url: https://doi.org/10.5281/zenodo.259341
-    name: Popc With Varying Amounts Of Cholesterol, 1 M Of Nacl. Slipids With Ions By Smith & Dang
+    name: Popc With Varying Amounts Of Cholesterol, 1 M Of Nacl. Slipids With Ions
+      By Smith & Dang
     publisher: Zenodo
   accessRights: openAccess
   _source:

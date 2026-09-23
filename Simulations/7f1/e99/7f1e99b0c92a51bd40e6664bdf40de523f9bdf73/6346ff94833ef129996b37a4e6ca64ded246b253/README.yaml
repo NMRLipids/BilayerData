@@ -45,15 +45,12 @@ EXPERIMENT:
     - unpublished/nesterenkoDMPCbOG/1
   FORMFACTOR: []
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a DMPC bilayer at 313.15 K (Charmm36, GROMACS 2022.5, 592 ns)
-    [NMRlipids simulation 788]
+  name: Molecular dynamics trajectory of a DMPC bilayer at 313.15 K (Charmm36, GROMACS
+    2022.5, 592 ns) [NMRlipids simulation 788]
   alternateName: DMPC(313K,rfz)
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 64 DMPC
-    (1,2-dimyristoyl-sn-glycero-3-phosphocholine) at 313.15 K. Simulated with Charmm36 in GROMACS
-    2022.5 for 592 ns (17152 atoms). Deposited as NMRlipids Databank simulation 788 and available
-    from https://doi.org/10.5281/zenodo.8431710.
+  description: Molecular dynamics trajectory of a lipid bilayer of 64 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine)
+    at 313.15 K. Simulated with Charmm36 in GROMACS 2022.5 for 592 ns (17152 atoms).
+    Deposited as NMRlipids Databank simulation 788 and available from https://doi.org/10.5281/zenodo.8431710.
   sameAs: https://doi.org/10.5281/zenodo.8431710
   datePublished: '2023-10-11'
   license:

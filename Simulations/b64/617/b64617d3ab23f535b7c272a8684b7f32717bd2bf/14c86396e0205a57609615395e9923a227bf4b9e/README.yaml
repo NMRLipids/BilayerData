@@ -79,18 +79,16 @@ EXPERIMENT:
     GM1: []
   FORMFACTOR: []
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC/POPE/CHOL/SM16/POPS/GM1 (38:24:20:9:5:4) bilayer at 300
-    K (Charmm36, GROMACS 2020.4, 300 ns) [NMRlipids simulation 769]
+  name: Molecular dynamics trajectory of a POPC/POPE/CHOL/SM16/POPS/GM1 (38:24:20:9:5:4)
+    bilayer at 300 K (Charmm36, GROMACS 2020.4, 300 ns) [NMRlipids simulation 769]
   alternateName: POPC_POPE_POPS_SM_CHOL_GM1_NoIons
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 152 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 38 mol%), 96 POPE
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 24 mol%), 80 CHOL (cholesterol, 20
-    mol%), 36 SM16 (N-palmitoyl-D-erythro-sphingosylphosphorylcholine, 9 mol%), 20 POPS
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 5 mol%) and 16 GM1 (GM1(d18:1/16:0), 4
-    mol%) at 300 K. Simulated with Charmm36 in GROMACS 2020.4 for 300 ns (107914 atoms). Deposited
-    as NMRlipids Databank simulation 769 and available from https://doi.org/10.5281/zenodo.8331718.
+  description: Molecular dynamics trajectory of a lipid bilayer of 152 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    38 mol%), 96 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 24 mol%),
+    80 CHOL (cholesterol, 20 mol%), 36 SM16 (N-palmitoyl-D-erythro-sphingosylphosphorylcholine,
+    9 mol%), 20 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 5 mol%)
+    and 16 GM1 (GM1(d18:1/16:0), 4 mol%) at 300 K. Simulated with Charmm36 in GROMACS
+    2020.4 for 300 ns (107914 atoms). Deposited as NMRlipids Databank simulation 769
+    and available from https://doi.org/10.5281/zenodo.8331718.
   sameAs: https://doi.org/10.5281/zenodo.8331718
   datePublished: '2023-09-10'
   license:

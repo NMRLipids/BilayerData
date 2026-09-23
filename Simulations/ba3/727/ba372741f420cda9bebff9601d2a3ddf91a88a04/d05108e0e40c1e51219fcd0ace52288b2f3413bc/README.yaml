@@ -37,15 +37,12 @@ EXPERIMENT:
     POPE: []
   FORMFACTOR: []
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPE bilayer at 300 K (OpenFF, GROMACS, 200 ns) [NMRlipids
-    simulation 791]
+  name: Molecular dynamics trajectory of a POPE bilayer at 300 K (OpenFF, GROMACS,
+    200 ns) [NMRlipids simulation 791]
   alternateName: POPE_128_OPENFF_300K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 128 POPE
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 300 K. Simulated with OpenFF in
-    GROMACS for 200 ns (31000 atoms). Deposited as NMRlipids Databank simulation 791 and available
-    from https://doi.org/10.5281/zenodo.8411733.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine)
+    at 300 K. Simulated with OpenFF in GROMACS for 200 ns (31000 atoms). Deposited
+    as NMRlipids Databank simulation 791 and available from https://doi.org/10.5281/zenodo.8411733.
   sameAs: https://doi.org/10.5281/zenodo.8411733
   datePublished: '2023-10-06'
   license:

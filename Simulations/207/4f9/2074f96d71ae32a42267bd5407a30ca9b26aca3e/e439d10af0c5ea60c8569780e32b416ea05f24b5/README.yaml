@@ -57,16 +57,14 @@ EXPERIMENT:
 ID: 509
 AUTHORS_CONTACT: Kiirikki, M. Anne; Ollila O. H. Samuli
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a CLA/CAL/POPC/POPG/SOD (53:26:7:7:7) bilayer at 298 K
-    (CHARMM36, GROMACS, 300 ns) [NMRlipids simulation 509]
+  name: Molecular dynamics trajectory of a CLA/CAL/POPC/POPG/SOD (53:26:7:7:7) bilayer
+    at 298 K (CHARMM36, GROMACS, 300 ns) [NMRlipids simulation 509]
   alternateName: POPC:POPG(1:1)+1MCaCl_T298K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 1156 CLA (53 mol%), 578 CAL (26 mol%), 150
-    POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 7 mol%), 150 POPG
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 7 mol%) and 150 SOD (7 mol%) at 298 K.
-    Simulated with CHARMM36 in GROMACS for 300 ns (130332 atoms). Deposited as NMRlipids Databank
-    simulation 509 and available from https://doi.org/10.5281/zenodo.3997135.
+  description: Molecular dynamics trajectory of a lipid bilayer of 1156 CLA (53 mol%),
+    578 CAL (26 mol%), 150 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    7 mol%), 150 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 7 mol%)
+    and 150 SOD (7 mol%) at 298 K. Simulated with CHARMM36 in GROMACS for 300 ns (130332
+    atoms). Deposited as NMRlipids Databank simulation 509 and available from https://doi.org/10.5281/zenodo.3997135.
   sameAs: https://doi.org/10.5281/zenodo.3997135
   datePublished: '2020-08-24'
   license:
@@ -156,7 +154,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.3997135
     identifier: 10.5281/zenodo.3997135
     url: https://doi.org/10.5281/zenodo.3997135
-    name: POPC:POPG 1:1 MD simulation with CHARMM36 in 1 M CaCL solution and Na+ counter ions
+    name: POPC:POPG 1:1 MD simulation with CHARMM36 in 1 M CaCL solution and Na+ counter
+      ions
     publisher: Zenodo
   accessRights: openAccess
   _source:

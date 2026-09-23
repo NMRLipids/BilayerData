@@ -62,16 +62,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 48
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC/CLA/CAL/POPS/SOD (37:32:16:7:7) bilayer at 298 K
-    (Lipid17 and Dang ions, GROMACS 2018.0, 975 ns) [NMRlipids simulation 48]
+  name: Molecular dynamics trajectory of a POPC/CLA/CAL/POPS/SOD (37:32:16:7:7) bilayer
+    at 298 K (Lipid17 and Dang ions, GROMACS 2018.0, 975 ns) [NMRlipids simulation
+    48]
   alternateName: 60POPC_12POPS_3522SOL_26CAL_52CLA_12SOD_298K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 60 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 37 mol%), 52 CLA (32 mol%), 26 CAL (16 mol%),
-    12 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 7 mol%) and 12 SOD (7 mol%) at 298
-    K. Simulated with Lipid17 and Dang ions in GROMACS 2018.0 for 975 ns (20220 atoms). Deposited as
-    NMRlipids Databank simulation 48 and available from https://doi.org/10.5281/zenodo.1487761.
+  description: Molecular dynamics trajectory of a lipid bilayer of 60 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    37 mol%), 52 CLA (32 mol%), 26 CAL (16 mol%), 12 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine,
+    7 mol%) and 12 SOD (7 mol%) at 298 K. Simulated with Lipid17 and Dang ions in
+    GROMACS 2018.0 for 975 ns (20220 atoms). Deposited as NMRlipids Databank simulation
+    48 and available from https://doi.org/10.5281/zenodo.1487761.
   sameAs: https://doi.org/10.5281/zenodo.1487761
   datePublished: '2018-11-14'
   license:
@@ -163,9 +162,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.1487761
     identifier: 10.5281/zenodo.1487761
     url: https://doi.org/10.5281/zenodo.1487761
-    name: >-
-      Molecular dynamics simulations of lipid bilayers containing POPC and POPS with the lipid17
-      force field, only counterions, and CaCl2 concentrations
+    name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS
+      with the lipid17 force field, only counterions, and CaCl2 concentrations
     publisher: Zenodo
   accessRights: openAccess
   _source:

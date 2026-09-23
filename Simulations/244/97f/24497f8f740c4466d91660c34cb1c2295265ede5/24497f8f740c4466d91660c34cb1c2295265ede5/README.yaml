@@ -40,15 +40,12 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1016/j.bbamem.2011.07.022/2
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC bilayer at 303 K (Charmm-Drude polarizable, OPENMM, 200
-    ns) [NMRlipids simulation 748]
+  name: Molecular dynamics trajectory of a POPC bilayer at 303 K (Charmm-Drude polarizable,
+    OPENMM, 200 ns) [NMRlipids simulation 748]
   alternateName: POPC_CHARMMdrude2023_303K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 72 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with Charmm-Drude
-    polarizable in OPENMM for 200 ns (25163 atoms). Deposited as NMRlipids Databank simulation 748
-    and available from https://doi.org/10.5281/zenodo.7916287.
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine)
+    at 303 K. Simulated with Charmm-Drude polarizable in OPENMM for 200 ns (25163
+    atoms). Deposited as NMRlipids Databank simulation 748 and available from https://doi.org/10.5281/zenodo.7916287.
   sameAs: https://doi.org/10.5281/zenodo.7916287
   datePublished: '2023-05-09'
   license:
@@ -136,7 +133,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.7916287
     identifier: 10.5281/zenodo.7916287
     url: https://doi.org/10.5281/zenodo.7916287
-    name: OpenMM simulations of POPC using the CHARMM Drude2023 force field in xtc format
+    name: OpenMM simulations of POPC using the CHARMM Drude2023 force field in xtc
+      format
     publisher: Zenodo
   accessRights: openAccess
   _source:

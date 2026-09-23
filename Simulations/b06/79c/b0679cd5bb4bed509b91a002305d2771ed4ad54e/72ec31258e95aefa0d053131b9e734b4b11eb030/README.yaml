@@ -44,15 +44,12 @@ TOP:
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 497
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC bilayer at 298 K (Berger, GROMACS 4.5, 50 ns) [NMRlipids
-    simulation 497]
+  name: Molecular dynamics trajectory of a POPC bilayer at 298 K (Berger, GROMACS
+    4.5, 50 ns) [NMRlipids simulation 497]
   alternateName: POPC_T298K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 128 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 298 K. Simulated with Berger in GROMACS
-    4.5 for 50 ns (28526 atoms). Deposited as NMRlipids Databank simulation 497 and available from
-    https://doi.org/10.5281/zenodo.4643875.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine)
+    at 298 K. Simulated with Berger in GROMACS 4.5 for 50 ns (28526 atoms). Deposited
+    as NMRlipids Databank simulation 497 and available from https://doi.org/10.5281/zenodo.4643875.
   sameAs: https://doi.org/10.5281/zenodo.4643875
   datePublished: '2014-12-17'
   license:
@@ -147,9 +144,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.4643875
     identifier: 10.5281/zenodo.4643875
     url: https://doi.org/10.5281/zenodo.4643875
-    name: >-
-      MD simulation trajectory and related files for POPC bilayer (Berger model delivered by
-      Tieleman, Gromacs 4.5)
+    name: MD simulation trajectory and related files for POPC bilayer (Berger model
+      delivered by Tieleman, Gromacs 4.5)
     publisher: Zenodo
   accessRights: openAccess
   _source:

@@ -40,15 +40,13 @@ EXPERIMENT:
     - 10.1021/bi00687a021/1
   FORMFACTOR: []
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a DPPC bilayer at 320 K (CHARMM36_charge075_onP_and_on_N,
+  name: Molecular dynamics trajectory of a DPPC bilayer at 320 K (CHARMM36_charge075_onP_and_on_N,
     GROMACS 2016.4, 404 ns) [NMRlipids simulation 924]
   alternateName: Development of PROSECCO PC membranes
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 200 DPPC
-    (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 320 K. Simulated with
-    CHARMM36_charge075_onP_and_on_N in GROMACS 2016.4 for 404 ns (53000 atoms). Deposited as
-    NMRlipids Databank simulation 924 and available from https://doi.org/10.5281/zenodo.3332640.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine)
+    at 320 K. Simulated with CHARMM36_charge075_onP_and_on_N in GROMACS 2016.4 for
+    404 ns (53000 atoms). Deposited as NMRlipids Databank simulation 924 and available
+    from https://doi.org/10.5281/zenodo.3332640.
   sameAs: https://doi.org/10.5281/zenodo.3332640
   datePublished: '2019-07-11'
   license:
@@ -139,7 +137,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.3332640
     identifier: 10.5281/zenodo.3332640
     url: https://doi.org/10.5281/zenodo.3332640
-    name: Development of PROSECCO PC membranes - PN model, melting temperature, DPPC membranes
+    name: Development of PROSECCO PC membranes - PN model, melting temperature, DPPC
+      membranes
     publisher: Zenodo
   accessRights: openAccess
   _source:

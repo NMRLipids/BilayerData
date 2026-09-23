@@ -42,15 +42,12 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 669
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a SOPC bilayer at 298.15 K (CHARMM36, GROMACS 2021, 1001 ns)
-    [NMRlipids simulation 669]
+  name: Molecular dynamics trajectory of a SOPC bilayer at 298.15 K (CHARMM36, GROMACS
+    2021, 1001 ns) [NMRlipids simulation 669]
   alternateName: SOPC_S
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 64 SOPC
-    (1-stearoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 298.15 K. Simulated with CHARMM36 in
-    GROMACS 2021 for 1001 ns (18560 atoms). Deposited as NMRlipids Databank simulation 669 and
-    available from https://doi.org/10.5281/zenodo.7103807.
+  description: Molecular dynamics trajectory of a lipid bilayer of 64 SOPC (1-stearoyl-2-oleoyl-sn-glycero-3-phosphocholine)
+    at 298.15 K. Simulated with CHARMM36 in GROMACS 2021 for 1001 ns (18560 atoms).
+    Deposited as NMRlipids Databank simulation 669 and available from https://doi.org/10.5281/zenodo.7103807.
   sameAs: https://doi.org/10.5281/zenodo.7103807
   datePublished: '2022-09-22'
   license:

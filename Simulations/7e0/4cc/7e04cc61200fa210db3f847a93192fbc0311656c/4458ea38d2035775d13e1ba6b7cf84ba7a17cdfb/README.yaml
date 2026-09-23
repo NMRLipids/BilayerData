@@ -49,16 +49,14 @@ EXPERIMENT:
     POPE: []
   FORMFACTOR: []
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a SOD/POPE/TOCL (50:25:25) bilayer at 310 K (Charmm36, GROMACS,
-    530 ns) [NMRlipids simulation 772]
+  name: Molecular dynamics trajectory of a SOD/POPE/TOCL (50:25:25) bilayer at 310
+    K (Charmm36, GROMACS, 530 ns) [NMRlipids simulation 772]
   alternateName: POPC/TOCL mixture
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 120 SOD (50 mol%), 60 POPE
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 25 mol%) and 60 TOCL
-    (1’,3’-Bis[1,2-dioleoyl-sn-glycero-3-phospho]-glycerol, 25 mol%) at 310 K. Simulated with
-    Charmm36 in GROMACS for 530 ns (58500 atoms). Deposited as NMRlipids Databank simulation 772 and
-    available from https://doi.org/10.5281/zenodo.13984201.
+  description: Molecular dynamics trajectory of a lipid bilayer of 120 SOD (50 mol%),
+    60 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 25 mol%) and 60
+    TOCL (1’,3’-Bis[1,2-dioleoyl-sn-glycero-3-phospho]-glycerol, 25 mol%) at 310 K.
+    Simulated with Charmm36 in GROMACS for 530 ns (58500 atoms). Deposited as NMRlipids
+    Databank simulation 772 and available from https://doi.org/10.5281/zenodo.13984201.
   sameAs: https://doi.org/10.5281/zenodo.13984201
   datePublished: '2023-09-29'
   license:

@@ -63,17 +63,15 @@ EXPERIMENT:
     POPE: []
   FORMFACTOR: []
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POT/SAPC/POPE/TLCL_0H/CLA (33:25:20:11:10) bilayer at 310 K
-    (CHARMM36, GROMACS, 1000 ns) [NMRlipids simulation 839]
+  name: Molecular dynamics trajectory of a POT/SAPC/POPE/TLCL_0H/CLA (33:25:20:11:10)
+    bilayer at 310 K (CHARMM36, GROMACS, 1000 ns) [NMRlipids simulation 839]
   alternateName: IMMmodel_CHARMM_310K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 117 POT (33 mol%), 90 SAPC
-    (1-stearoyl-2-arachidonoyl-sn-glycero-3-phosphocholine, 25 mol%), 70 POPE
+  description: Molecular dynamics trajectory of a lipid bilayer of 117 POT (33 mol%),
+    90 SAPC (1-stearoyl-2-arachidonoyl-sn-glycero-3-phosphocholine, 25 mol%), 70 POPE
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 20 mol%), 40 TLCL_0H (tetralinoleoyl
-    cardiolipin(2−), 11 mol%) and 37 CLA (10 mol%) at 310 K. Simulated with CHARMM36 in GROMACS for
-    1000 ns (73551 atoms). Deposited as NMRlipids Databank simulation 839 and available from
-    https://doi.org/10.5281/zenodo.16001915.
+    cardiolipin(2−), 11 mol%) and 37 CLA (10 mol%) at 310 K. Simulated with CHARMM36
+    in GROMACS for 1000 ns (73551 atoms). Deposited as NMRlipids Databank simulation
+    839 and available from https://doi.org/10.5281/zenodo.16001915.
   sameAs: https://doi.org/10.5281/zenodo.16001915
   datePublished: '2025-07-17'
   license:

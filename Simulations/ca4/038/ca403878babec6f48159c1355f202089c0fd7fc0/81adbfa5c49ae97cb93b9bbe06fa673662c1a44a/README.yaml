@@ -45,15 +45,12 @@ WARNINGS:
   PBC: hexagonal-box
 ID: 29
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPE bilayer at 310 K (Slipids, GROMACS 5.0.6, 100 ns)
-    [NMRlipids simulation 29]
+  name: Molecular dynamics trajectory of a POPE bilayer at 310 K (Slipids, GROMACS
+    5.0.6, 100 ns) [NMRlipids simulation 29]
   alternateName: 336POPE_13460SOL_310K_v1
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 336 POPE
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 310 K. Simulated with Slipids in
-    GROMACS 5.0.6 for 100 ns (82380 atoms). Deposited as NMRlipids Databank simulation 29 and
-    available from https://doi.org/10.5281/zenodo.1293813.
+  description: Molecular dynamics trajectory of a lipid bilayer of 336 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine)
+    at 310 K. Simulated with Slipids in GROMACS 5.0.6 for 100 ns (82380 atoms). Deposited
+    as NMRlipids Databank simulation 29 and available from https://doi.org/10.5281/zenodo.1293813.
   sameAs: https://doi.org/10.5281/zenodo.1293813
   datePublished: '2018-06-20'
   license:

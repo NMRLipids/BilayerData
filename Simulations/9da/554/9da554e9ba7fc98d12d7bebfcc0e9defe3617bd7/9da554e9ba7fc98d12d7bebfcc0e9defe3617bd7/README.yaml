@@ -39,15 +39,12 @@ EXPERIMENT:
     DLIPC: []
   FORMFACTOR: []
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a DLIPC bilayer at 298 K (Charmm36, NAMD, 1 ns) [NMRlipids
-    simulation 775]
+  name: Molecular dynamics trajectory of a DLIPC bilayer at 298 K (Charmm36, NAMD,
+    1 ns) [NMRlipids simulation 775]
   alternateName: DLIPC simulation
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 200 DLIPC
-    (1,2-dilinoleoyl-sn-glycero-3-phosphocholine) at 298 K. Simulated with Charmm36 in NAMD for 1 ns
-    (53800 atoms). Deposited as NMRlipids Databank simulation 775 and available from
-    https://doi.org/10.5281/zenodo.8357170.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 DLIPC (1,2-dilinoleoyl-sn-glycero-3-phosphocholine)
+    at 298 K. Simulated with Charmm36 in NAMD for 1 ns (53800 atoms). Deposited as
+    NMRlipids Databank simulation 775 and available from https://doi.org/10.5281/zenodo.8357170.
   sameAs: https://doi.org/10.5281/zenodo.8357170
   datePublished: '2023-09-18'
   license:

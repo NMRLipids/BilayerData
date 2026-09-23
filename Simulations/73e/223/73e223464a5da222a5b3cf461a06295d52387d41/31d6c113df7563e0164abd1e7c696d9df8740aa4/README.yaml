@@ -43,16 +43,13 @@ EXPERIMENT:
 ID: 607
 AUTHORS_CONTACT: Javanainen, Matti
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC/POPE (50:50) bilayer at 298 K (Slipids, GROMACS, 300 ns)
-    [NMRlipids simulation 607]
+  name: Molecular dynamics trajectory of a POPC/POPE (50:50) bilayer at 298 K (Slipids,
+    GROMACS, 300 ns) [NMRlipids simulation 607]
   alternateName: POPCPOPE_(1:1)_T298K
-  description: >-
-    Molecular dynamics trajectory of a lipid bilayer of 100 POPC
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) and 100 POPE
-    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 50 mol%) at 298 K. Simulated with
-    Slipids in GROMACS for 300 ns (52900 atoms). Deposited as NMRlipids Databank simulation 607 and
-    available from https://doi.org/10.5281/zenodo.3605386.
+  description: Molecular dynamics trajectory of a lipid bilayer of 100 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    50 mol%) and 100 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine,
+    50 mol%) at 298 K. Simulated with Slipids in GROMACS for 300 ns (52900 atoms).
+    Deposited as NMRlipids Databank simulation 607 and available from https://doi.org/10.5281/zenodo.3605386.
   sameAs: https://doi.org/10.5281/zenodo.3605386
   datePublished: '2020-01-12'
   license:
