@@ -45,9 +45,12 @@ EXPERIMENT:
   - 10.1021/acs.jctc.3c00648/1
 ID: 38
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC bilayer at 298 K (Orange, GROMACS 4.5, 50 ns) [NMRlipids simulation 38]
+  name: Molecular dynamics trajectory of a POPC bilayer at 298 K (Orange, GROMACS
+    4.5, 50 ns) [NMRlipids simulation 38]
   alternateName: 72POPC_2880SOL_298K
-  description: Molecular dynamics trajectory of a lipid bilayer of 72 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 298 K. Simulated with Orange in GROMACS 4.5 for 50 ns (12384 atoms). Deposited as NMRlipids Databank simulation 38 and available from https://doi.org/10.5281/zenodo.34488.
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine)
+    at 298 K. Simulated with Orange in GROMACS 4.5 for 50 ns (12384 atoms). Deposited
+    as NMRlipids Databank simulation 38 and available from https://doi.org/10.5281/zenodo.34488.
   sameAs: https://doi.org/10.5281/zenodo.34488
   datePublished: '2015-12-02'
   license:

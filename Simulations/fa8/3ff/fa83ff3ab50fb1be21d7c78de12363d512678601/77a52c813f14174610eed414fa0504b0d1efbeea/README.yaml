@@ -50,9 +50,13 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 2
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DAPC/CHOL (90:10) bilayer at 333 K (CHARMM36, GROMACS, 2000 ns) [NMRlipids simulation 2]
+  name: Molecular dynamics trajectory of a DAPC/CHOL (90:10) bilayer at 333 K (CHARMM36,
+    GROMACS, 2000 ns) [NMRlipids simulation 2]
   alternateName: 260DAPC_28CHOL_11520SOL_333K
-  description: Molecular dynamics trajectory of a lipid bilayer of 260 DAPC (1,2-diarachidonoyl-sn-glycero-3-phosphocholine, 90 mol%) and 28 CHOL (cholesterol, 10 mol%) at 333 K. Simulated with CHARMM36 in GROMACS for 2000 ns (72512 atoms). Deposited as NMRlipids Databank simulation 2 and available from https://doi.org/10.5281/zenodo.2653735.
+  description: Molecular dynamics trajectory of a lipid bilayer of 260 DAPC (1,2-diarachidonoyl-sn-glycero-3-phosphocholine,
+    90 mol%) and 28 CHOL (cholesterol, 10 mol%) at 333 K. Simulated with CHARMM36
+    in GROMACS for 2000 ns (72512 atoms). Deposited as NMRlipids Databank simulation
+    2 and available from https://doi.org/10.5281/zenodo.2653735.
   sameAs: https://doi.org/10.5281/zenodo.2653735
   datePublished: '2019-04-29'
   license:
@@ -141,7 +145,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.2653735
     identifier: 10.5281/zenodo.2653735
     url: https://doi.org/10.5281/zenodo.2653735
-    name: Atomistic simulations of DAPC/cholesterol bilayers with one cholesterol restrained to the membrane core
+    name: Atomistic simulations of DAPC/cholesterol bilayers with one cholesterol
+      restrained to the membrane core
     publisher: Zenodo
   accessRights: openAccess
   _source:

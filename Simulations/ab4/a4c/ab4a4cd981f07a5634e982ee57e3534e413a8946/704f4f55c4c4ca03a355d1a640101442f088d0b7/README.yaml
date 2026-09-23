@@ -46,9 +46,12 @@ EXPERIMENT:
   - 10.1016/j.bbamem.2011.07.022/4
 ID: 593
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DPPC bilayer at 323 K (Poger GROMOS 53A6_L, GROMACS 4.0.7, 100 ns) [NMRlipids simulation 593]
+  name: Molecular dynamics trajectory of a DPPC bilayer at 323 K (Poger GROMOS 53A6_L,
+    GROMACS 4.0.7, 100 ns) [NMRlipids simulation 593]
   alternateName: 128DPPC_5841SOL_323K
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 323 K. Simulated with Poger GROMOS 53A6_L in GROMACS 4.0.7 for 100 ns (23923 atoms). Deposited as NMRlipids Databank simulation 593 and available from https://doi.org/10.5281/zenodo.14595.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine)
+    at 323 K. Simulated with Poger GROMOS 53A6_L in GROMACS 4.0.7 for 100 ns (23923
+    atoms). Deposited as NMRlipids Databank simulation 593 and available from https://doi.org/10.5281/zenodo.14595.
   sameAs: https://doi.org/10.5281/zenodo.14595
   datePublished: '2015-01-27'
   license:
@@ -140,7 +143,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.14595
     identifier: 10.5281/zenodo.14595
     url: https://doi.org/10.5281/zenodo.14595
-    name: Md Simulation Trajectory And Related Files For Dppc Bilayer In Full Hydration (Poger Gromos 53A6_L, Gromacs 4.0.7, Pme, Traj 2)
+    name: Md Simulation Trajectory And Related Files For Dppc Bilayer In Full Hydration
+      (Poger Gromos 53A6_L, Gromacs 4.0.7, Pme, Traj 2)
     publisher: Zenodo
   accessRights: openAccess
   _source:

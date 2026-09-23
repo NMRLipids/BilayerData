@@ -50,9 +50,13 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 594
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DLPC/CLA/SOD (81:9:9) bilayer at 310 K (CHARMM36, GROMACS 2019, 500 ns) [NMRlipids simulation 594]
+  name: Molecular dynamics trajectory of a DLPC/CLA/SOD (81:9:9) bilayer at 310 K
+    (CHARMM36, GROMACS 2019, 500 ns) [NMRlipids simulation 594]
   alternateName: 200DLPC_10000SOL_23SOD_23CLA
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 DLPC (1,2-dilauroyl-sn-glycero-3-phosphocholine, 81 mol%), 23 CLA (9 mol%) and 23 SOD (9 mol%) at 310 K. Simulated with CHARMM36 in GROMACS 2019 for 500 ns (51246 atoms). Deposited as NMRlipids Databank simulation 594 and available from https://doi.org/10.5281/zenodo.3592499.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 DLPC (1,2-dilauroyl-sn-glycero-3-phosphocholine,
+    81 mol%), 23 CLA (9 mol%) and 23 SOD (9 mol%) at 310 K. Simulated with CHARMM36
+    in GROMACS 2019 for 500 ns (51246 atoms). Deposited as NMRlipids Databank simulation
+    594 and available from https://doi.org/10.5281/zenodo.3592499.
   sameAs: https://doi.org/10.5281/zenodo.3592499
   datePublished: '2019-12-24'
   license:

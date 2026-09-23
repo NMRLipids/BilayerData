@@ -58,9 +58,15 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 80
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/SOD/CLA/POPS (37:31:24:7) bilayer at 298 K (Lipid17 and Dang ions, GROMACS 2018.0, 1000 ns) [NMRlipids simulation 80]
+  name: Molecular dynamics trajectory of a POPC/SOD/CLA/POPS (37:31:24:7) bilayer
+    at 298 K (Lipid17 and Dang ions, GROMACS 2018.0, 1000 ns) [NMRlipids simulation
+    80]
   alternateName: 12POPS_60POPC_3483SOL_51SOD_39CLA_298K
-  description: Molecular dynamics trajectory of a lipid bilayer of 60 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 37 mol%), 51 SOD (31 mol%), 39 CLA (24 mol%) and 12 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 7 mol%) at 298 K. Simulated with Lipid17 and Dang ions in GROMACS 2018.0 for 1000 ns (20103 atoms). Deposited as NMRlipids Databank simulation 80 and available from https://doi.org/10.5281/zenodo.1487895.
+  description: Molecular dynamics trajectory of a lipid bilayer of 60 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    37 mol%), 51 SOD (31 mol%), 39 CLA (24 mol%) and 12 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine,
+    7 mol%) at 298 K. Simulated with Lipid17 and Dang ions in GROMACS 2018.0 for 1000
+    ns (20103 atoms). Deposited as NMRlipids Databank simulation 80 and available
+    from https://doi.org/10.5281/zenodo.1487895.
   sameAs: https://doi.org/10.5281/zenodo.1487895
   datePublished: '2018-11-14'
   license:
@@ -151,7 +157,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.1487895
     identifier: 10.5281/zenodo.1487895
     url: https://doi.org/10.5281/zenodo.1487895
-    name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS with the lipid17 force field, NaCl and KCl salt concentrations
+    name: Molecular dynamics simulations of lipid bilayers containing POPC and POPS
+      with the lipid17 force field, NaCl and KCl salt concentrations
     publisher: Zenodo
   accessRights: openAccess
   _source:

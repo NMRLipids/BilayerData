@@ -54,9 +54,14 @@ EXPERIMENT:
     POPC: []
   FORMFACTOR: []
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/SM16/CLA/SOD (52:22:13:13) bilayer at 298 K (Charmm36, NAMD, 0 ns) [NMRlipids simulation 770]
+  name: Molecular dynamics trajectory of a POPC/SM16/CLA/SOD (52:22:13:13) bilayer
+    at 298 K (Charmm36, NAMD, 0 ns) [NMRlipids simulation 770]
   alternateName: POPC/PSM (70/30) NAMD
-  description: Molecular dynamics trajectory of a lipid bilayer of 140 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 52 mol%), 60 SM16 (N-palmitoyl-D-erythro-sphingosylphosphorylcholine, 22 mol%), 35 CLA (13 mol%) and 35 SOD (13 mol%) at 298 K. Simulated with Charmm36 in NAMD for 0 ns (68450 atoms). Deposited as NMRlipids Databank simulation 770 and available from https://doi.org/10.5281/zenodo.8357123.
+  description: Molecular dynamics trajectory of a lipid bilayer of 140 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    52 mol%), 60 SM16 (N-palmitoyl-D-erythro-sphingosylphosphorylcholine, 22 mol%),
+    35 CLA (13 mol%) and 35 SOD (13 mol%) at 298 K. Simulated with Charmm36 in NAMD
+    for 0 ns (68450 atoms). Deposited as NMRlipids Databank simulation 770 and available
+    from https://doi.org/10.5281/zenodo.8357123.
   sameAs: https://doi.org/10.5281/zenodo.8357123
   datePublished: '2023-09-18'
   license:

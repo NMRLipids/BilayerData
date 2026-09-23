@@ -46,9 +46,13 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 740
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DOPC/CLA/SOD (51:25:25) bilayer at 303 K (AMOEBA, OPENMM v7.5.1, 202 ns) [NMRlipids simulation 740]
+  name: Molecular dynamics trajectory of a DOPC/CLA/SOD (51:25:25) bilayer at 303
+    K (AMOEBA, OPENMM v7.5.1, 202 ns) [NMRlipids simulation 740]
   alternateName: DOPC_1000mM_NaCl_at_303K_with_AMOEBA
-  description: Molecular dynamics trajectory of a lipid bilayer of 72 DOPC (1,2-dioleoyl-sn-glycero-3-phosphocholine, 51 mol%), 35 CLA (25 mol%) and 35 SOD (25 mol%) at 303 K. Simulated with AMOEBA in OPENMM v7.5.1 for 202 ns (18646 atoms). Deposited as NMRlipids Databank simulation 740 and available from https://doi.org/10.5281/zenodo.7625844.
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 DOPC (1,2-dioleoyl-sn-glycero-3-phosphocholine,
+    51 mol%), 35 CLA (25 mol%) and 35 SOD (25 mol%) at 303 K. Simulated with AMOEBA
+    in OPENMM v7.5.1 for 202 ns (18646 atoms). Deposited as NMRlipids Databank simulation
+    740 and available from https://doi.org/10.5281/zenodo.7625844.
   sameAs: https://doi.org/10.5281/zenodo.7625844
   datePublished: '2023-02-09'
   license:
@@ -136,7 +140,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.7625844
     identifier: 10.5281/zenodo.7625844
     url: https://doi.org/10.5281/zenodo.7625844
-    name: MD Simulation data for a pure DOPC bilayer (1000 mM NaCl) with AMOEBA force field + OpenMM
+    name: MD Simulation data for a pure DOPC bilayer (1000 mM NaCl) with AMOEBA force
+      field + OpenMM
     publisher: Zenodo
   accessRights: openAccess
   _source:

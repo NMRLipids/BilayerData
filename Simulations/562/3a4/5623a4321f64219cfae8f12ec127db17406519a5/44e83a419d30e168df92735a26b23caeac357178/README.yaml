@@ -39,9 +39,13 @@ DATEOFRUNNING: '2026-09-17'
 TYPEOFSYSTEM: lipid bilayer
 ID: 937
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DPPC bilayer at 327 K (prosECCo 75 paper related data, GROMACS 2022.5-plumed_2.8.2, 1000 ns) [NMRlipids simulation -1]
+  name: Molecular dynamics trajectory of a DPPC bilayer at 327 K (prosECCo 75 paper
+    related data, GROMACS 2022.5-plumed_2.8.2, 1000 ns) [NMRlipids simulation -1]
   alternateName: DPPC_200_SOL_9000_prosECCo75_LO_327K
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 327 K. Simulated with prosECCo 75 paper related data in GROMACS 2022.5-plumed_2.8.2 for 1000 ns (53000 atoms). Deposited as NMRlipids Databank simulation -1 and available from https://doi.org/10.5281/zenodo.10635500.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine)
+    at 327 K. Simulated with prosECCo 75 paper related data in GROMACS 2022.5-plumed_2.8.2
+    for 1000 ns (53000 atoms). Deposited as NMRlipids Databank simulation -1 and available
+    from https://doi.org/10.5281/zenodo.10635500.
   sameAs: https://doi.org/10.5281/zenodo.10635500
   datePublished: '2024-02-08'
   license:
@@ -137,3 +141,7 @@ bioschema_properties:
     doi: 10.5281/zenodo.10635500
     spdxLicenseList: 3.29.0
     retrieved: '2026-09-22'
+EXPERIMENT:
+  ORDERPARAMETER:
+    DPPC: []
+  FORMFACTOR: []

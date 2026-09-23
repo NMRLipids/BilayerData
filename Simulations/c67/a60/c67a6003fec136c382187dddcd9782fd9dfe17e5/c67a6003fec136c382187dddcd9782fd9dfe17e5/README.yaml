@@ -43,9 +43,12 @@ EXPERIMENT:
   FORMFACTOR:
   - 10.1016/j.bbamem.2011.07.022/4
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DPPC bilayer at 323 K (CHARMM36-LJPME, OPENMM, 300 ns) [NMRlipids simulation 728]
+  name: Molecular dynamics trajectory of a DPPC bilayer at 323 K (CHARMM36-LJPME,
+    OPENMM, 300 ns) [NMRlipids simulation 728]
   alternateName: DPPC_SOL_323K
-  description: Molecular dynamics trajectory of a lipid bilayer of 288 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 323 K. Simulated with CHARMM36-LJPME in OPENMM for 300 ns (64224 atoms). Deposited as NMRlipids Databank simulation 728 and available from https://doi.org/10.5281/zenodo.7476579.
+  description: Molecular dynamics trajectory of a lipid bilayer of 288 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine)
+    at 323 K. Simulated with CHARMM36-LJPME in OPENMM for 300 ns (64224 atoms). Deposited
+    as NMRlipids Databank simulation 728 and available from https://doi.org/10.5281/zenodo.7476579.
   sameAs: https://doi.org/10.5281/zenodo.7476579
   datePublished: '2022-02-02'
   license:

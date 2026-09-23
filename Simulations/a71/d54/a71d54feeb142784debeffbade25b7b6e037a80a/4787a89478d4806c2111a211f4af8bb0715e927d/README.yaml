@@ -43,9 +43,13 @@ SOFTWARE: gromacs
 DIR_WRK: /usr/home/bort/Databank
 ID: 548
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DOPS/SOD (50:50) bilayer at 303 K (Slipids, GROMACS, 100 ns) [NMRlipids simulation 548]
+  name: Molecular dynamics trajectory of a DOPS/SOD (50:50) bilayer at 303 K (Slipids,
+    GROMACS, 100 ns) [NMRlipids simulation 548]
   alternateName: 128DOPS_4880SOL_128SOD_303K_v1
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 DOPS (1,2-dioleoyl-sn-glycero-3-phospho-L-serine, 50 mol%) and 128 SOD (50 mol%) at 303 K. Simulated with Slipids in GROMACS for 100 ns (30336 atoms). Deposited as NMRlipids Databank simulation 548 and available from https://doi.org/10.5281/zenodo.1129439.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 DOPS (1,2-dioleoyl-sn-glycero-3-phospho-L-serine,
+    50 mol%) and 128 SOD (50 mol%) at 303 K. Simulated with Slipids in GROMACS for
+    100 ns (30336 atoms). Deposited as NMRlipids Databank simulation 548 and available
+    from https://doi.org/10.5281/zenodo.1129439.
   sameAs: https://doi.org/10.5281/zenodo.1129439
   datePublished: '2017-12-24'
   license:

@@ -50,9 +50,13 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 62
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DPPC/CLA/SOD (82:9:9) bilayer at 320 K (CHARMM36, GROMACS 5.0.4, 500 ns) [NMRlipids simulation 62]
+  name: Molecular dynamics trajectory of a DPPC/CLA/SOD (82:9:9) bilayer at 320 K
+    (CHARMM36, GROMACS 5.0.4, 500 ns) [NMRlipids simulation 62]
   alternateName: DPPC_512_NaCl_150mM_320K_v-rescale
-  description: Molecular dynamics trajectory of a lipid bilayer of 512 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine, 82 mol%), 55 CLA (9 mol%) and 55 SOD (9 mol%) at 320 K. Simulated with CHARMM36 in GROMACS 5.0.4 for 500 ns (128110 atoms). Deposited as NMRlipids Databank simulation 62 and available from https://doi.org/10.5281/zenodo.1009027.
+  description: Molecular dynamics trajectory of a lipid bilayer of 512 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine,
+    82 mol%), 55 CLA (9 mol%) and 55 SOD (9 mol%) at 320 K. Simulated with CHARMM36
+    in GROMACS 5.0.4 for 500 ns (128110 atoms). Deposited as NMRlipids Databank simulation
+    62 and available from https://doi.org/10.5281/zenodo.1009027.
   sameAs: https://doi.org/10.5281/zenodo.1009027
   datePublished: '2017-10-11'
   license:

@@ -57,9 +57,13 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 215
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DPPC/CLA/SOD/CHOL (74:9:9:9) bilayer at 310 K (Slipids, GROMACS 4.6, 1400 ns) [NMRlipids simulation 215]
+  name: Molecular dynamics trajectory of a DPPC/CLA/SOD/CHOL (74:9:9:9) bilayer at
+    310 K (Slipids, GROMACS 4.6, 1400 ns) [NMRlipids simulation 215]
   alternateName: 1032DPPC_120CHOL_46440SOL_124SOD_124CLA_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 1032 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine, 74 mol%), 124 CLA (9 mol%), 124 SOD (9 mol%) and 120 CHOL (cholesterol, 9 mol%) at 310 K. Simulated with Slipids in GROMACS 4.6 for 1400 ns (282608 atoms). Deposited as NMRlipids Databank simulation 215 and available from https://doi.org/10.5281/zenodo.439066.
+  description: Molecular dynamics trajectory of a lipid bilayer of 1032 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine,
+    74 mol%), 124 CLA (9 mol%), 124 SOD (9 mol%) and 120 CHOL (cholesterol, 9 mol%)
+    at 310 K. Simulated with Slipids in GROMACS 4.6 for 1400 ns (282608 atoms). Deposited
+    as NMRlipids Databank simulation 215 and available from https://doi.org/10.5281/zenodo.439066.
   sameAs: https://doi.org/10.5281/zenodo.439066
   datePublished: '2017-03-29'
   license:
@@ -153,7 +157,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.439066
     identifier: 10.5281/zenodo.439066
     url: https://doi.org/10.5281/zenodo.439066
-    name: Simulations Of Dppc/Cholesterol Bilayers With The Slipids Force Field, Part 1/2
+    name: Simulations Of Dppc/Cholesterol Bilayers With The Slipids Force Field, Part
+      1/2
     publisher: Zenodo
   accessRights: openAccess
   _source:

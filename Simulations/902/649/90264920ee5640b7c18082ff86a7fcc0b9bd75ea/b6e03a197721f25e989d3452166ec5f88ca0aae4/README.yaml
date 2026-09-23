@@ -54,9 +54,15 @@ EXPERIMENT:
 ID: 32
 AUTHORS_CONTACT: Javanainen, Matti
 bioschema_properties:
-  name: Molecular dynamics trajectory of a CLA/CAL/POPC/POPG/SOD (43:21:12:12:12) bilayer at 298 K (Slipids, GROMACS, 1000 ns) [NMRlipids simulation 32]
+  name: Molecular dynamics trajectory of a CLA/CAL/POPC/POPG/SOD (43:21:12:12:12)
+    bilayer at 298 K (Slipids, GROMACS, 1000 ns) [NMRlipids simulation 32]
   alternateName: POPC_POPG_1:1_1000mMCaCL2
-  description: Molecular dynamics trajectory of a lipid bilayer of 460 CLA (43 mol%), 230 CAL (21 mol%), 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 12 mol%), 128 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 12 mol%) and 128 SOD (12 mol%) at 298 K. Simulated with Slipids in GROMACS for 1000 ns (72626 atoms). Deposited as NMRlipids Databank simulation 32 and available from https://doi.org/10.5281/zenodo.3613573.
+  description: Molecular dynamics trajectory of a lipid bilayer of 460 CLA (43 mol%),
+    230 CAL (21 mol%), 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    12 mol%), 128 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 12 mol%)
+    and 128 SOD (12 mol%) at 298 K. Simulated with Slipids in GROMACS for 1000 ns
+    (72626 atoms). Deposited as NMRlipids Databank simulation 32 and available from
+    https://doi.org/10.5281/zenodo.3613573.
   sameAs: https://doi.org/10.5281/zenodo.3613573
   datePublished: '2020-01-13'
   license:
@@ -147,7 +153,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.3613573
     identifier: 10.5281/zenodo.3613573
     url: https://doi.org/10.5281/zenodo.3613573
-    name: Simulations of POPC:POPG 1:1 membranes with varying levels of CaCl_2 using the Slipids force field
+    name: Simulations of POPC:POPG 1:1 membranes with varying levels of CaCl_2 using
+      the Slipids force field
     publisher: Zenodo
   accessRights: openAccess
   _source:

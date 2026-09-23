@@ -52,9 +52,14 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 596
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPE/POPG/SOD (60:20:20) bilayer at 310 K (CHARMM36 and CHARMM TIP3P, GROMACS 2018.3, 100 ns) [NMRlipids simulation 596]
+  name: Molecular dynamics trajectory of a POPE/POPG/SOD (60:20:20) bilayer at 310
+    K (CHARMM36 and CHARMM TIP3P, GROMACS 2018.3, 100 ns) [NMRlipids simulation 596]
   alternateName: 126POPG_374POPE_25000SOL_126SOD_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 374 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 60 mol%), 126 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 20 mol%) and 126 SOD (20 mol%) at 310 K. Simulated with CHARMM36 and CHARMM TIP3P in GROMACS 2018.3 for 100 ns (137878 atoms). Deposited as NMRlipids Databank simulation 596 and available from https://doi.org/10.5281/zenodo.3249960.
+  description: Molecular dynamics trajectory of a lipid bilayer of 374 POPE (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine,
+    60 mol%), 126 POPG (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 20 mol%)
+    and 126 SOD (20 mol%) at 310 K. Simulated with CHARMM36 and CHARMM TIP3P in GROMACS
+    2018.3 for 100 ns (137878 atoms). Deposited as NMRlipids Databank simulation 596
+    and available from https://doi.org/10.5281/zenodo.3249960.
   sameAs: https://doi.org/10.5281/zenodo.3249960
   datePublished: '2019-06-19'
   license:

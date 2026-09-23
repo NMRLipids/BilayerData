@@ -46,9 +46,12 @@ EXPERIMENT:
   - 10.1016/j.bbamem.2011.07.022/4
 ID: 41
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DPPC bilayer at 323 K (Berger-DPPC-98, GROMACS 4.6.6, 60 ns) [NMRlipids simulation 41]
+  name: Molecular dynamics trajectory of a DPPC bilayer at 323 K (Berger-DPPC-98,
+    GROMACS 4.6.6, 60 ns) [NMRlipids simulation 41]
   alternateName: 72DPPC_2880SOL_323K_Berger
-  description: Molecular dynamics trajectory of a lipid bilayer of 72 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 323 K. Simulated with Berger-DPPC-98 in GROMACS 4.6.6 for 60 ns (12240 atoms). Deposited as NMRlipids Databank simulation 41 and available from https://doi.org/10.5281/zenodo.13934.
+  description: Molecular dynamics trajectory of a lipid bilayer of 72 DPPC (1,2-dipalmitoyl-sn-glycero-3-phosphocholine)
+    at 323 K. Simulated with Berger-DPPC-98 in GROMACS 4.6.6 for 60 ns (12240 atoms).
+    Deposited as NMRlipids Databank simulation 41 and available from https://doi.org/10.5281/zenodo.13934.
   sameAs: https://doi.org/10.5281/zenodo.13934
   datePublished: '2015-01-13'
   license:

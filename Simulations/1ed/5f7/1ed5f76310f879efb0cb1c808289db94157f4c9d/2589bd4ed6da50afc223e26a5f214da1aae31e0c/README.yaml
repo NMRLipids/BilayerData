@@ -42,9 +42,12 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 381
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC bilayer at 310.15 K (CHARMM36, GROMACS 5.0, 100 ns) [NMRlipids simulation 381]
+  name: Molecular dynamics trajectory of a POPC bilayer at 310.15 K (CHARMM36, GROMACS
+    5.0, 100 ns) [NMRlipids simulation 381]
   alternateName: 800POPC_36000SOL
-  description: Molecular dynamics trajectory of a lipid bilayer of 800 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 310.15 K. Simulated with CHARMM36 in GROMACS 5.0 for 100 ns (215200 atoms). Deposited as NMRlipids Databank simulation 381 and available from https://doi.org/10.5281/zenodo.545941.
+  description: Molecular dynamics trajectory of a lipid bilayer of 800 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine)
+    at 310.15 K. Simulated with CHARMM36 in GROMACS 5.0 for 100 ns (215200 atoms).
+    Deposited as NMRlipids Databank simulation 381 and available from https://doi.org/10.5281/zenodo.545941.
   sameAs: https://doi.org/10.5281/zenodo.545941
   datePublished: '2017-04-13'
   license:

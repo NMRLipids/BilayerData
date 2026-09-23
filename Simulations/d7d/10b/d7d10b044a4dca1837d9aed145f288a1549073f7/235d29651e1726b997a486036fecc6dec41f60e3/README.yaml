@@ -50,9 +50,14 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 346
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DOPC/CLA/SOD (83:9:9) bilayer at 310 K (Slipids for lipids and Smith & Dang for ions, GROMACS 4.6, 200 ns) [NMRlipids simulation 346]
+  name: Molecular dynamics trajectory of a DOPC/CLA/SOD (83:9:9) bilayer at 310 K
+    (Slipids for lipids and Smith & Dang for ions, GROMACS 4.6, 200 ns) [NMRlipids
+    simulation 346]
   alternateName: 200DOPC_9000SOL_21SOD_21CLA_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 DOPC (1,2-dioleoyl-sn-glycero-3-phosphocholine, 83 mol%), 21 CLA (9 mol%) and 21 SOD (9 mol%) at 310 K. Simulated with Slipids for lipids and Smith & Dang for ions in GROMACS 4.6 for 200 ns (54642 atoms). Deposited as NMRlipids Databank simulation 346 and available from https://doi.org/10.5281/zenodo.259443.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 DOPC (1,2-dioleoyl-sn-glycero-3-phosphocholine,
+    83 mol%), 21 CLA (9 mol%) and 21 SOD (9 mol%) at 310 K. Simulated with Slipids
+    for lipids and Smith & Dang for ions in GROMACS 4.6 for 200 ns (54642 atoms).
+    Deposited as NMRlipids Databank simulation 346 and available from https://doi.org/10.5281/zenodo.259443.
   sameAs: https://doi.org/10.5281/zenodo.259443
   datePublished: '2017-01-24'
   license:

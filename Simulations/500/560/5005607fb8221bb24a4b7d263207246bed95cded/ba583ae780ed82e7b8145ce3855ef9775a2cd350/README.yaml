@@ -44,9 +44,13 @@ EXPERIMENT:
     POPS: []
   FORMFACTOR: []
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPS/POT (50:50) bilayer at 298 K (Macrog, GROMACS 2016.3, 200 ns) [NMRlipids simulation 881]
+  name: Molecular dynamics trajectory of a POPS/POT (50:50) bilayer at 298 K (Macrog,
+    GROMACS 2016.3, 200 ns) [NMRlipids simulation 881]
   alternateName: Bilayer
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 50 mol%) and 128 POT (50 mol%) at 298 K. Simulated with Macrog in GROMACS 2016.3 for 200 ns (29824 atoms). Deposited as NMRlipids Databank simulation 881 and available from https://doi.org/10.5281/zenodo.1434990.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine,
+    50 mol%) and 128 POT (50 mol%) at 298 K. Simulated with Macrog in GROMACS 2016.3
+    for 200 ns (29824 atoms). Deposited as NMRlipids Databank simulation 881 and available
+    from https://doi.org/10.5281/zenodo.1434990.
   sameAs: https://doi.org/10.5281/zenodo.1434990
   datePublished: '2018-09-25'
   license:

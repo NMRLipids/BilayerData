@@ -44,9 +44,13 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 203
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPS/POT (50:50) bilayer at 298 K (CHARMM36, GROMACS, 100 ns) [NMRlipids simulation 203]
+  name: Molecular dynamics trajectory of a POPS/POT (50:50) bilayer at 298 K (CHARMM36,
+    GROMACS, 100 ns) [NMRlipids simulation 203]
   alternateName: 128POPS_128POT_4480SOL_298K_v2
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 50 mol%) and 128 POT (50 mol%) at 298 K. Simulated with CHARMM36 in GROMACS for 100 ns (29824 atoms). Deposited as NMRlipids Databank simulation 203 and available from https://doi.org/10.5281/zenodo.1182654.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine,
+    50 mol%) and 128 POT (50 mol%) at 298 K. Simulated with CHARMM36 in GROMACS for
+    100 ns (29824 atoms). Deposited as NMRlipids Databank simulation 203 and available
+    from https://doi.org/10.5281/zenodo.1182654.
   sameAs: https://doi.org/10.5281/zenodo.1182654
   datePublished: '2018-02-21'
   license:
@@ -132,7 +136,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.1182654
     identifier: 10.5281/zenodo.1182654
     url: https://doi.org/10.5281/zenodo.1182654
-    name: Charmm36 Pops Simulations (Versions 1 And 2) 298 K 1.0 Nm Lj Switching With K Ions
+    name: Charmm36 Pops Simulations (Versions 1 And 2) 298 K 1.0 Nm Lj Switching With
+      K Ions
     publisher: Zenodo
   accessRights: openAccess
   _source:

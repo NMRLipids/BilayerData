@@ -43,9 +43,12 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 76
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DOPC bilayer at 293.15 K (CHARMM36, GROMACS, 1001 ns) [NMRlipids simulation 76]
+  name: Molecular dynamics trajectory of a DOPC bilayer at 293.15 K (CHARMM36, GROMACS,
+    1001 ns) [NMRlipids simulation 76]
   alternateName: 1024DOPC_51200SOL_293K
-  description: Molecular dynamics trajectory of a lipid bilayer of 1024 DOPC (1,2-dioleoyl-sn-glycero-3-phosphocholine) at 293.15 K. Simulated with CHARMM36 in GROMACS for 1001 ns (294912 atoms). Deposited as NMRlipids Databank simulation 76 and available from https://doi.org/10.5281/zenodo.6943086.
+  description: Molecular dynamics trajectory of a lipid bilayer of 1024 DOPC (1,2-dioleoyl-sn-glycero-3-phosphocholine)
+    at 293.15 K. Simulated with CHARMM36 in GROMACS for 1001 ns (294912 atoms). Deposited
+    as NMRlipids Databank simulation 76 and available from https://doi.org/10.5281/zenodo.6943086.
   sameAs: https://doi.org/10.5281/zenodo.6943086
   datePublished: '2022-07-30'
   license:

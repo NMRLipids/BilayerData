@@ -45,9 +45,12 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 264
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DOPE bilayer at 271 K (Berger-DOPE-2018, GROMACS 4.0.7, 200 ns) [NMRlipids simulation 264]
+  name: Molecular dynamics trajectory of a DOPE bilayer at 271 K (Berger-DOPE-2018,
+    GROMACS 4.0.7, 200 ns) [NMRlipids simulation 264]
   alternateName: 128DOPE_4789SOL_271K_v1
-  description: Molecular dynamics trajectory of a lipid bilayer of 128 DOPE (1,2-dioleoyl-sn-glycero-3-phosphoethanolamine) at 271 K. Simulated with Berger-DOPE-2018 in GROMACS 4.0.7 for 200 ns (21279 atoms). Deposited as NMRlipids Databank simulation 264 and available from https://doi.org/10.5281/zenodo.1293905.
+  description: Molecular dynamics trajectory of a lipid bilayer of 128 DOPE (1,2-dioleoyl-sn-glycero-3-phosphoethanolamine)
+    at 271 K. Simulated with Berger-DOPE-2018 in GROMACS 4.0.7 for 200 ns (21279 atoms).
+    Deposited as NMRlipids Databank simulation 264 and available from https://doi.org/10.5281/zenodo.1293905.
   sameAs: https://doi.org/10.5281/zenodo.1293905
   datePublished: '2018-06-20'
   license:

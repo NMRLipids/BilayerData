@@ -67,9 +67,15 @@ EXPERIMENT:
     SAPI25: []
   FORMFACTOR: []
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/POT/CHOL/CLA/SAPI25 (56:22:11:7:4) bilayer at 298.15 K (CHARMM36m, GROMACS 2020.1, 1206 ns) [NMRlipids simulation 783]
+  name: Molecular dynamics trajectory of a POPC/POT/CHOL/CLA/SAPI25 (56:22:11:7:4)
+    bilayer at 298.15 K (CHARMM36m, GROMACS 2020.1, 1206 ns) [NMRlipids simulation
+    783]
   alternateName: POPC_238_SAPI25_16_CHOL_46_KCl_150mM_298.15K
-  description: Molecular dynamics trajectory of a lipid bilayer of 238 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 56 mol%), 96 POT (22 mol%), 46 CHOL (cholesterol, 11 mol%), 32 CLA (7 mol%) and 16 SAPI25 (1-stearoyl-2-arachidonoyl-sn-phosphatidylinositol 4,5-biphosphate, 4 mol%) at 298.15 K. Simulated with CHARMM36m in GROMACS 2020.1 for 1206 ns (75159 atoms). Deposited as NMRlipids Databank simulation 783 and available from https://doi.org/10.5281/zenodo.8370440.
+  description: Molecular dynamics trajectory of a lipid bilayer of 238 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    56 mol%), 96 POT (22 mol%), 46 CHOL (cholesterol, 11 mol%), 32 CLA (7 mol%) and
+    16 SAPI25 (1-stearoyl-2-arachidonoyl-sn-phosphatidylinositol 4,5-biphosphate,
+    4 mol%) at 298.15 K. Simulated with CHARMM36m in GROMACS 2020.1 for 1206 ns (75159
+    atoms). Deposited as NMRlipids Databank simulation 783 and available from https://doi.org/10.5281/zenodo.8370440.
   sameAs: https://doi.org/10.5281/zenodo.8370440
   datePublished: '2023-09-22'
   license:

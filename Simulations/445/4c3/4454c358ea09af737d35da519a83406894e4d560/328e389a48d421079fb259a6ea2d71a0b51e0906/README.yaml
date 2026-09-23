@@ -58,9 +58,14 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 266
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CER/CLA/SOD (63:16:11:11) bilayer at 310 K (CHARMM36, GROMACS 2016.1, 3012 ns) [NMRlipids simulation 266]
+  name: Molecular dynamics trajectory of a POPC/CER/CLA/SOD (63:16:11:11) bilayer
+    at 310 K (CHARMM36, GROMACS 2016.1, 3012 ns) [NMRlipids simulation 266]
   alternateName: 512POPC_128CER_32000SOL_86SOD_86CLA_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 512 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 63 mol%), 128 CER (N-palmitoyl-D-erythro-sphingosine, 16 mol%), 86 CLA (11 mol%) and 86 SOD (11 mol%) at 310 K. Simulated with CHARMM36 in GROMACS 2016.1 for 3012 ns (178220 atoms). Deposited as NMRlipids Databank simulation 266 and available from https://doi.org/10.5281/zenodo.3248612.
+  description: Molecular dynamics trajectory of a lipid bilayer of 512 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    63 mol%), 128 CER (N-palmitoyl-D-erythro-sphingosine, 16 mol%), 86 CLA (11 mol%)
+    and 86 SOD (11 mol%) at 310 K. Simulated with CHARMM36 in GROMACS 2016.1 for 3012
+    ns (178220 atoms). Deposited as NMRlipids Databank simulation 266 and available
+    from https://doi.org/10.5281/zenodo.3248612.
   sameAs: https://doi.org/10.5281/zenodo.3248612
   datePublished: '2019-06-18'
   license:

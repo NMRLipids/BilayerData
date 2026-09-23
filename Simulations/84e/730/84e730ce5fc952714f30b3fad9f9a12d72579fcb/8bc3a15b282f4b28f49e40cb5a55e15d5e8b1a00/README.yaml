@@ -55,9 +55,13 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 201
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/CAL/CHOL (45:33:17:5) bilayer at 310.15 K (CHARMM36, GROMACS 5.0, 2000 ns) [NMRlipids simulation 201]
+  name: Molecular dynamics trajectory of a POPC/CLA/CAL/CHOL (45:33:17:5) bilayer
+    at 310.15 K (CHARMM36, GROMACS 5.0, 2000 ns) [NMRlipids simulation 201]
   alternateName: 22CHOL_200POPC_9000SOL_73CAL_146CLA_310K
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 45 mol%), 146 CLA (33 mol%), 73 CAL (17 mol%) and 22 CHOL (cholesterol, 5 mol%) at 310.15 K. Simulated with CHARMM36 in GROMACS 5.0 for 2000 ns (55647 atoms). Deposited as NMRlipids Databank simulation 201 and available from https://doi.org/10.5281/zenodo.259365.
+  description: Molecular dynamics trajectory of a lipid bilayer of 200 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine,
+    45 mol%), 146 CLA (33 mol%), 73 CAL (17 mol%) and 22 CHOL (cholesterol, 5 mol%)
+    at 310.15 K. Simulated with CHARMM36 in GROMACS 5.0 for 2000 ns (55647 atoms).
+    Deposited as NMRlipids Databank simulation 201 and available from https://doi.org/10.5281/zenodo.259365.
   sameAs: https://doi.org/10.5281/zenodo.259365
   datePublished: '2017-01-24'
   license:
@@ -147,7 +151,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.259365
     identifier: 10.5281/zenodo.259365
     url: https://doi.org/10.5281/zenodo.259365
-    name: Popc With Varying Amounts Of Cholesterol, 450 Mm Of Cacl_2. Charmm36 With Default Charmm Ions
+    name: Popc With Varying Amounts Of Cholesterol, 450 Mm Of Cacl_2. Charmm36 With
+      Default Charmm Ions
     publisher: Zenodo
   accessRights: openAccess
   _source:

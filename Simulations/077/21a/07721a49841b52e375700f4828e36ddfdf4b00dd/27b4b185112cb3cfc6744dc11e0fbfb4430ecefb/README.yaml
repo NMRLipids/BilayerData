@@ -38,9 +38,12 @@ EXPERIMENT:
   - 10.1016/j.bbamem.2011.07.022/9
 ID: 920
 bioschema_properties:
-  name: Molecular dynamics trajectory of a DLPC bilayer at 333 K (CHARMM36/LJ-PME, GROMACS Gromacs 2022, 100 ns) [NMRlipids simulation 920]
+  name: Molecular dynamics trajectory of a DLPC bilayer at 333 K (CHARMM36/LJ-PME,
+    GROMACS Gromacs 2022, 100 ns) [NMRlipids simulation 920]
   alternateName: Fully hydrated DLPC bilayer in SPC/E water (LJ_cutoff=1.2 nm)
-  description: Molecular dynamics trajectory of a lipid bilayer of 100 DLPC (1,2-dilauroyl-sn-glycero-3-phosphocholine) at 333 K. Simulated with CHARMM36/LJ-PME in GROMACS Gromacs 2022 for 100 ns (23542 atoms). Deposited as NMRlipids Databank simulation 920 and available from https://doi.org/10.5281/zenodo.20579050.
+  description: Molecular dynamics trajectory of a lipid bilayer of 100 DLPC (1,2-dilauroyl-sn-glycero-3-phosphocholine)
+    at 333 K. Simulated with CHARMM36/LJ-PME in GROMACS Gromacs 2022 for 100 ns (23542
+    atoms). Deposited as NMRlipids Databank simulation 920 and available from https://doi.org/10.5281/zenodo.20579050.
   sameAs: https://doi.org/10.5281/zenodo.20579050
   datePublished: '2026-06-07'
   license:
@@ -131,7 +134,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.20579050
     identifier: 10.5281/zenodo.20579050
     url: https://doi.org/10.5281/zenodo.20579050
-    name: Fully hydrated DLPC bilayer at different temperatures simulated using CHARMM36 with LJ-PME and LJ-cutoff
+    name: Fully hydrated DLPC bilayer at different temperatures simulated using CHARMM36
+      with LJ-PME and LJ-cutoff
     publisher: Zenodo
   _source:
     api: datacite
