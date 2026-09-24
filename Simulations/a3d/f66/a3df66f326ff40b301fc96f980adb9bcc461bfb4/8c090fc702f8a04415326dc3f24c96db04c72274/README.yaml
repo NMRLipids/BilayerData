@@ -8,8 +8,9 @@ PREEQTIME: 100
 TIMELEFTOUT: 0
 TEMPERATURE: 342.0
 SYSTEM: DPPE in TIP3(Water) at 342K
-AUTHORS_CONTACT: Avneesh Singh - ms23249@iisermohali.ac.in, Anubhav Ganguly - ms23237@iisermohali.ac.in,
-  Prof. M. Miettinen Markus.Miettinen@uib.no
+AUTHORS_CONTACT: >-
+  Avneesh Singh - ms23249@iisermohali.ac.in, Anubhav Ganguly - ms23237@iisermohali.ac.in, Prof. M.
+  Miettinen Markus.Miettinen@uib.no
 SOFTWARE_VERSION: '2023.3'
 FF: CHARMM36
 FF_SOURCE: Charmm-GUI

@@ -8,8 +8,7 @@ EXPERIMENT:
   ORDERPARAMETER:
     POPC: []
   FORMFACTOR: []
-FF_SOURCE: http://www.charmm-gui.org for lipids and https://bitbucket.org/hseara/ions/
-  for ions
+FF_SOURCE: http://www.charmm-gui.org for lipids and https://bitbucket.org/hseara/ions/ for ions
 COMPOSITION:
   SOL:
     NAME: TIP3

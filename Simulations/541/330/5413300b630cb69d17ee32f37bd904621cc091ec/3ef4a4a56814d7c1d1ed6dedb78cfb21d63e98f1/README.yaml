@@ -32,8 +32,7 @@ LOG: null
 TOP:
 - - topol.top
 WARNINGS:
-  FF: Hybrid force field test for fun, not production-ready. Simulated with Slipids
-    mdp.
+  FF: Hybrid force field test for fun, not production-ready. Simulated with Slipids mdp.
 TRAJECTORY_SIZE: 673355092
 TRJLENGTH: 500100.0
 TEMPERATURE: 298.0

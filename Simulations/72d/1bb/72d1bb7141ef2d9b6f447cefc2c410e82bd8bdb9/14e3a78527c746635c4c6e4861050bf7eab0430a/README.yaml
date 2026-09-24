@@ -12,8 +12,8 @@ AUTHORS_CONTACT: Javanainen, Matti
 SYSTEM: 86CHOL_200POPC_9000SOL_73CAL_146CLA_310K
 SOFTWARE_VERSION: 4.6
 FF: Slipids with ECC-scaled ions (Kohagen)
-FF_SOURCE: http://www.fos.su.se/~sasha/SLipids/ for lipids and https://bitbucket.org/hseara/ions/
-  for ions
+FF_SOURCE: >-
+  http://www.fos.su.se/~sasha/SLipids/ for lipids and https://bitbucket.org/hseara/ions/ for ions
 FF_DATE: pre-2020
 CPT: null
 LOG: null

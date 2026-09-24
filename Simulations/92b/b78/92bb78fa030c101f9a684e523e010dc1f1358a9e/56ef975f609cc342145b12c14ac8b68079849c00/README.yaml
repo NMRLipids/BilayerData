@@ -22,8 +22,9 @@ AUTHORS_CONTACT: Milan Rodriguez, Paula; Fuchs, Patrick F.J.
 SYSTEM: 128POPE_5120SOL_300K
 SOFTWARE_VERSION: null
 FF: MacRog
-FF_SOURCE: starting structure from CHARMM-GUI, the initial PDB file was modified to
-  match MacRog nomenclature and atom order
+FF_SOURCE: >-
+  starting structure from CHARMM-GUI, the initial PDB file was modified to match MacRog nomenclature
+  and atom order
 FF_DATE: null
 CPT: null
 LOG: null

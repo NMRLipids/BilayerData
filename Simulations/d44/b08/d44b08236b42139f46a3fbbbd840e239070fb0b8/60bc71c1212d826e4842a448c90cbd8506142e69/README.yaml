@@ -19,8 +19,9 @@ COMPOSITION:
     COUNT: 10623
     MAPPING: mappingTIP3Pwater.yaml
 DIR_WRK: /usr/home/bort/Databank
-AUTHORS_CONTACT: Walter, Vivien; Ruscher, Celine; Gola, Adrien; Marques, Carlos; Benzerara,
-  Olivier; Thalmann, Fabrice
+AUTHORS_CONTACT: >-
+  Walter, Vivien; Ruscher, Celine; Gola, Adrien; Marques, Carlos; Benzerara, Olivier; Thalmann,
+  Fabrice
 SYSTEM: 64DPPC_10623SOL_288K
 SOFTWARE_VERSION: 2016.4
 FF: CHARMM36

@@ -28,8 +28,7 @@ AUTHORS_CONTACT: Thomas Piggot
 SYSTEM: 128DOPS_4480SOL_128SOD_303K_v1
 SOFTWARE_VERSION: null
 FF: Berger
-FF_SOURCE: starting structure from the CHARMM-GUI with the appropriate hydrogen atoms
-  removed
+FF_SOURCE: starting structure from the CHARMM-GUI with the appropriate hydrogen atoms removed
 FF_DATE: null
 CPT: null
 LOG: null

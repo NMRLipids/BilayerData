@@ -6,8 +6,9 @@ PREEQTIME: 1.875
 TIMELEFTOUT: 7
 TEMPERATURE: 303.15
 SYSTEM: DMPC
-AUTHORS_CONTACT: Anna Kristine Sandtorv-Leroen/anna.kristine.sandtorv.leroen@gmail.com
-  / Markus S. Miettinen/Markus.Miettinen@uib.no
+AUTHORS_CONTACT: >-
+  Anna Kristine Sandtorv-Leroen/anna.kristine.sandtorv.leroen@gmail.com / Markus S.
+  Miettinen/Markus.Miettinen@uib.no
 SOFTWARE_VERSION: '2026.1'
 FF: Lipid21(AMBER)
 FF_SOURCE: CHARMM-GUI

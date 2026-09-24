@@ -12,8 +12,7 @@ AUTHORS_CONTACT: Javanainen, Matti
 SYSTEM: 204DPPC_52CHOL_166DOPC_16880SOL_304SOD_304CLA_310K
 SOFTWARE_VERSION: 4.6
 FF: Slipids for lipids and Smith & Dang for ions
-FF_SOURCE: http://www.fos.su.se/~sasha/SLipids/ and  https://bitbucket.org/hseara/ions/
-  for ions
+FF_SOURCE: http://www.fos.su.se/~sasha/SLipids/ and  https://bitbucket.org/hseara/ions/ for ions
 FF_DATE: pre-2020
 CPT: null
 LOG: null

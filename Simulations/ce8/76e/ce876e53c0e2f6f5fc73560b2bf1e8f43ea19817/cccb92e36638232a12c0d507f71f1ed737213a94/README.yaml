@@ -6,8 +6,9 @@ PREEQTIME: 1.875
 TIMELEFTOUT: 10
 TEMPERATURE: 303.15
 SYSTEM: DMPC
-AUTHORS_CONTACT: Anna Kristine Sandtorv-Lerøen/anna.kristine.sandtorv.leroen@gmail.com
-  / Markus S. Miettinen/Markus.Miettinen@uib.no
+AUTHORS_CONTACT: >-
+  Anna Kristine Sandtorv-Lerøen/anna.kristine.sandtorv.leroen@gmail.com / Markus S.
+  Miettinen/Markus.Miettinen@uib.no
 SOFTWARE_VERSION: '2026.1'
 FF: CHARMM36
 FF_DATE: 14.04.2026

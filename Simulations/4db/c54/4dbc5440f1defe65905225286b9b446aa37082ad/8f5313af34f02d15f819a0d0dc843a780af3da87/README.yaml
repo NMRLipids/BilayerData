@@ -26,8 +26,7 @@ CPT:
 TRJLENGTH: 500100.0
 TRAJECTORY_SIZE: 303517108
 SOFTWARE_VERSION: 5.0.4
-FF: CHARMM36 (center of mass removed independently for upper leaflet, lower leaflet
-  and water+ions)
+FF: CHARMM36 (center of mass removed independently for upper leaflet, lower leaflet and water+ions)
 TOP:
 - - POPC_72_310K_rmcomm_leaflets_low_hydration_md.top
 PREEQTIME: 0
