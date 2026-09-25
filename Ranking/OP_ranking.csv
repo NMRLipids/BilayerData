@@ -22,7 +22,11 @@ ID,FF,composition,T,Hydration,Q_FF,Q_OP,Q_OP_tails,Q_OP_heads
 674,MacRog,POPC (1),298.15,50.0,0.493,0.665,0.6968,0.6013
 800,CHARMM36,DMPC (1),314.0,5.0,,0.66,0.645,0.6901
 675,MacRog,POPC (1),298.15,50.0,0.4311,0.659,0.6605,0.6558
+948,prosECCo75 paper related MD Simulation,DPPC (1),323.0,45.0,0.4611,0.6589,0.0,0.6589
+943,prosECCo75 paper related MD Simulation,DPPC (1),324.0,45.0,0.4747,0.6587,0.0,0.6587
+946,prosECCo75 paper related MD Simulation,DPPC (1),322.0,45.0,0.4315,0.6586,0.0,0.6586
 935,prosECCo 75 paper related data,DPPC (1),324.0,45.0,0.4525,0.6585,0.0,0.6585
+947,prosECCo75 paper related MD Simulation,DPPC (1),321.0,45.0,0.3944,0.6583,0.0,0.6583
 934,prosECCo 75 paper related data,DPPC (1),322.0,45.0,0.1789,0.6571,0.0,0.6571
 931,prosECCo 75 paper related data,DPPC (1),323.0,45.0,0.4128,0.6561,0.0,0.6561
 715,Lipid17,POPC (1),298.15,50.0,0.8957,0.6511,0.7313,0.4905
