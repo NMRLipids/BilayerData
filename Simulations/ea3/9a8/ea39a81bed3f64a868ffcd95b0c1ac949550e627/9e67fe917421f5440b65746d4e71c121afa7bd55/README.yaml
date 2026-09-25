@@ -143,3 +143,7 @@ bioschema_properties:
     doi: 10.5281/zenodo.10635496
     spdxLicenseList: 3.29.0
     retrieved: '2026-09-25'
+EXPERIMENT:
+  ORDERPARAMETER:
+    DPPC: []
+  FORMFACTOR: []

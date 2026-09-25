@@ -5,13 +5,16 @@ ID,FF,composition,T,Hydration,Q_FF,Q_OP,Q_OP_tails,Q_OP_heads
 946,prosECCo75 paper related MD Simulation,DPPC (1),322.0,45.0,0.4315,0.6586,,0.6586
 935,prosECCo 75 paper related data,DPPC (1),324.0,45.0,0.4525,0.6585,,0.6585
 947,prosECCo75 paper related MD Simulation,DPPC (1),321.0,45.0,0.3944,0.6583,,0.6583
+953,prosECCo75 paper related MD Simulation,DPPC (1),320.0,45.0,,0.6574,,0.6574
 934,prosECCo 75 paper related data,DPPC (1),322.0,45.0,0.1789,0.6571,,0.6571
 931,prosECCo 75 paper related data,DPPC (1),323.0,45.0,0.4128,0.6561,,0.6561
 463,Slipids,DPPC (1),323.0,30.0,0.5802,0.6369,,0.6369
 936,prosECCo 75 paper related data,DPPC (1),321.0,45.0,0.0262,0.6337,,0.6337
 933,prosECCo 75 paper related data,DPPC (1),320.0,45.0,,0.6118,,0.6118
+952,prosECCo75 paper related MD Simulation,DPPC (1),323.0,45.0,0.0273,0.5998,,0.5998
 911,CHARMM36,DPPC (1),322.0,41.1,0.2489,0.5992,,0.5992
 319,CHARMM36,DPPC (1),323.0,30.4,0.3746,0.5944,,0.5944
+949,prosECCo75 paper related MD Simulation,DPPC (1),322.0,45.0,0.0244,0.5932,,0.5932
 390,GAFFlipid,DPPC (1),323.0,30.5,0.3819,0.5881,,0.5881
 924,CHARMM36_charge075_onP_and_on_N,DPPC (1),320.0,45.0,,0.5646,,0.5646
 254,CHARMM36,DPPC (1),333.15,50.0,0.2253,0.1645,,0.1645
