@@ -43,3 +43,76 @@ ION_CONCENTRATIONS:
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: 'full hydration'
 COUNTER_IONS:
+bioschema_properties:
+  name: C-H bond order parameters of a PAPC bilayer at 303 K, 50% water, with EDTA/PBS (2H NMR) [Rajamoorthi 1991]
+  description: Experimental C-H bond order parameters for a lipid bilayer of PAPC (1-palmitoyl-2-arachidonoyl-sn-glycero-3-phosphocholine) at 303 K, hydrated to 50% water, with additives EDTA and PBS; pH 7.1 (buffer). Measured by solid-state nuclear magnetic resonance spectroscopy (2H:QE) on a GN-300 (GE, Vermont) at 46.13 MHz equipped with a home-built high-power transverse solenoid probe.. Values digitised into the NMRlipids Databank from https://doi.org/10.1021/bi00231a015.
+  sameAs: https://doi.org/10.1021/bi00231a015
+  datePublished: '1991-04-30'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  publisher: American Chemical Society (ACS)
+  creator:
+  - name: Kannan Rajamoorthi
+  - name: Michael F. Brown
+  citation:
+  - 10.1021/bi00231a015
+  keywords:
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - PAPC
+  - 1-palmitoyl-2-arachidonoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: solid-state nuclear magnetic resonance spectroscopy
+    termCode: CHMO_0000614
+    inDefinedTermSet: http://purl.obolibrary.org/obo/chmo.owl
+    url: http://purl.obolibrary.org/obo/CHMO_0000614
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - 'NMR: 2H:QE'
+  - 'GN-300 (GE, Vermont) at 46.13 MHz  equipped with a
+
+    home-built high-power transverse solenoid probe.
+
+    '
+  variableMeasured:
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    name: PAPC_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1021/bi00231a015
+    identifier: 10.1021/bi00231a015
+    url: https://doi.org/10.1021/bi00231a015
+    name: Bilayers of arachidonic acid containing phospholipids studied by deuterium and phosphorus-31 NMR spectroscopy
+    isPartOf:
+      '@type': Periodical
+      name: Biochemistry
+  _source:
+    api: crossref
+    doi: 10.1021/bi00231a015
+    retrieved: '2026-09-09'
