@@ -1,0 +1,30 @@
+DOI: 10.5281/zenodo.22284506
+TRJ: cnt-mmb_11.dcd
+SOFTWARE: NAMD
+PREEQTIME: 300
+TIMELEFTOUT: 100
+TEMPERATURE: 303
+SYSTEM: All-atom POPC-SSM (1:1)bilayer
+PUBLICATION: 10.1038/s41467-025-58334-z
+AUTHORS_CONTACT: franci.merzel@ki.si
+SOFTWARE_VERSION: NAMD  2.13
+FF: charmm36
+FF_SOURCE: charmm-gui
+PSF: input_11.psf
+PDB: input_11.pdb
+COMPOSITION:
+  POPC:
+    NAME: POPC
+    MAPPING: mappingPOPCcharmm.yaml
+  SM18:
+    NAME: SSM
+    MAPPING: mappingSM18charmm.yaml
+  CLA:
+    NAME: CLA
+    MAPPING: mappingCLA.yaml
+  SOD:
+    NAME: SOD
+    MAPPING: mappingSOD.yaml
+  SOL:
+    NAME: TIP3
+    MAPPING: mappingTIP3PCHARMMgui.yaml
