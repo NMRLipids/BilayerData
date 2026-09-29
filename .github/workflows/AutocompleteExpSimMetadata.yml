@@ -1,0 +1,124 @@
+name: AutocompleteExpSimMetadata
+
+on:
+  pull_request_target:
+    paths:
+      - 'Simulations/**/README.yaml'
+      - 'experiments/**/README.yaml'
+
+permissions:
+  contents: read
+  checks: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  add-expsim-metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout BilayerData
+        uses: actions/checkout@v7
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          persist-credentials: false
+          allow-unsafe-pr-checkout: true
+
+      - name: Checkout Databank
+        uses: actions/checkout@v7
+        with:
+          repository: NMRlipids/FAIRMD_lipids
+          ref: main
+          path: Databank
+          persist-credentials: false
+
+      - name: Install Databank
+        working-directory: Databank
+        run: pip install .
+
+      - name: Install the gh cli
+        uses: ksivamuthu/actions-setup-gh-cli@v3
+        with:
+          version: 2.83.0
+
+      - name: Find changed README.yaml files
+        id: files
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          changed_files=$(gh api --paginate \
+            "repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files" \
+            --jq '.[] | select(.status != "removed") | .filename' \
+            | grep -E '^(Simulations|experiments)/.+/README\.yaml$' || true)
+          {
+            echo "changed_files<<EOF"
+            echo "$changed_files"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+          echo "Changed files:"
+          echo "$changed_files"
+
+      # Many simulations share a Zenodo deposition -- roughly 480 distinct DOIs
+      # across 900 records -- so a warm cache turns most runs into no network at
+      # all, and keeps the databank polite towards DataCite and CrossRef.
+      - name: Restore API response cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ runner.temp }}/.cache/bioschema
+          key: bioschema-${{ hashFiles('Simulations/**/README.yaml', 'experiments/**/README.yaml') }}
+          restore-keys: bioschema-
+
+      - name: Run autocomplete_expsim_metadata.py and create suggestions
+        if: steps.files.outputs.changed_files != ''
+        env:
+          CHANGED_FILES: ${{ steps.files.outputs.changed_files }}
+        run: |
+          set -euo pipefail
+          mapfile -t files <<< "$CHANGED_FILES"
+          echo "::group::autocomplete_expsim_metadata.py"
+          python "Databank/developer/autocomplete_expsim_metadata.py" "${files[@]}"
+          echo "::endgroup::"
+
+      - name: Set up reviewdog
+        if: steps.files.outputs.changed_files != ''
+        uses: reviewdog/action-setup@v1
+        with:
+          reviewdog_version: v0.21.2
+
+      # This is what reviewdog/action-suggester does, with one step inserted, so
+      # it runs reviewdog directly rather than through the action.
+      #
+      # The autocomplete appends its block to the end of a README, and git
+      # reports an append as a pure insertion -- `@@ -41,0 +42,74 @@`. reviewdog
+      # anchors an inserted hunk at the line after the last unchanged one, which
+      # for an append is one line past the end of the file; no review comment can
+      # attach there, so the filter dropped every suggestion carrying the block
+      # while this job still reported success. That is how PR #522 ended up with
+      # a green check and no metadata.
+      #
+      # reanchor_eof_hunks.py rewrites that hunk into a replacement of the file's
+      # last line, which is a line the pull request's diff contains. The
+      # suggestion then reads as that line followed by the block and produces the
+      # same file, byte for byte, that the script wrote.
+      - name: Suggest changes on PR
+        if: steps.files.outputs.changed_files != ''
+        env:
+          REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git diff > "$RUNNER_TEMP/autocomplete.diff"
+          python Databank/developer/reanchor_eof_hunks.py \
+            < "$RUNNER_TEMP/autocomplete.diff" \
+            > "$RUNNER_TEMP/autocomplete.reanchored.diff"
+          git stash -u
+          reviewdog \
+            -name=expsimmetadata \
+            -f=diff \
+            -f.diff.strip=1 \
+            -reporter=github-pr-review \
+            -filter-mode=diff_context \
+            -fail-level=none \
+            -level=warning \
+            -tee \
+            < "$RUNNER_TEMP/autocomplete.reanchored.diff"
+          git stash drop || true

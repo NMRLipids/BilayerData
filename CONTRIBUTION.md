@@ -63,6 +63,12 @@ its own maintenance.
 Please do not ignore them. Their output can guide you on how to improve your
 metadata or point to errors.
 
+**Metadata enrichment** workflows run on changed `README.yaml` files and post their
+findings as inline review suggestions on the pull request. Contributors of simulations
+and experiments, as well as curators, should review these suggestions and accept or
+reject them deliberately: they are automatically derived (e.g. from publication or dataset
+records via their DOI), so they complement but do not replace the metadata you provide yourself.
+
 **Simulation ID uniqueness** is maintained by auto-PRs. Each simulation is
 added with a negative ID, and then it adds a PR to fix it. It ensures uniqueness of
 IDs.

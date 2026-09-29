@@ -2,6 +2,7 @@
 Simulations/**/*.psf
 Simulations/**/*.dcd
 Simulations/**/*.pdb
+.cache
 # macOS
 .DS_Store
 .AppleDouble
