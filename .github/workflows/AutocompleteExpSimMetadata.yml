@@ -62,7 +62,7 @@ jobs:
       # across 900 records -- so a warm cache turns most runs into no network at
       # all, and keeps the databank polite towards DataCite and CrossRef.
       - name: Restore API response cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ${{ runner.temp }}/.cache/bioschema
           key: bioschema-${{ hashFiles('Simulations/**/README.yaml', 'experiments/**/README.yaml') }}
