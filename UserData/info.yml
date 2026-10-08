@@ -1,0 +1,17 @@
+DOI: 10.5281/zenodo.20524112
+TRJ: production.xtc
+SOFTWARE: gromacs
+PREEQTIME: 1.875
+TIMELEFTOUT: 20
+TEMPERATURE: 322
+SYSTEM: DPPC
+AUTHORS_CONTACT: 'Stine Floen / stflo9270@uib.no / Markus Miettinen '
+FF: AMBER
+TPR: productionAmber.tpr
+COMPOSITION:
+  DPPC:
+    NAME: DPPC
+    MAPPING: mappingDPPC_Amber.yaml
+  SOL:
+    NAME: TIP3
+    MAPPING: mappingTIP3P_amber.yaml
