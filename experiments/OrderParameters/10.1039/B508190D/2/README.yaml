@@ -9,3 +9,71 @@ ION_CONCENTRATIONS:
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: 5.55
 COUNTER_IONS:
+bioschema_properties:
+  name: C-H bond order parameters of a DMPC bilayer at 314 K, 10 waters per lipid (NMR) [Dvinskikh 2005]
+  description: Experimental C-H bond order parameters for a lipid bilayer of DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine) at 314 K, hydrated to 10 waters per lipid. Measured by nuclear magnetic resonance spectroscopy. Values digitised into the NMRlipids Databank from https://doi.org/10.1039/B508190D.
+  sameAs: https://doi.org/10.1039/B508190D
+  datePublished: '2005'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  publisher: Royal Society of Chemistry (RSC)
+  creator:
+  - name: Sergey V. Dvinskikh
+  - name: Vasco Castro
+  - name: Dick Sandström
+  citation:
+  - 10.1039/B508190D
+  keywords:
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - DMPC
+  - 1,2-dimyristoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: nuclear magnetic resonance spectroscopy
+    termCode: CHMO_0000591
+    inDefinedTermSet: http://purl.obolibrary.org/obo/chmo.owl
+    url: http://purl.obolibrary.org/obo/CHMO_0000591
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  variableMeasured:
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    name: DMPC_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1039/B508190D
+    identifier: 10.1039/B508190D
+    url: https://doi.org/10.1039/B508190D
+    name: Probing segmental order in lipid bilayers at variable hydration levels by amplitude- and phase-modulated cross-polarization NMR
+    isPartOf:
+      '@type': Periodical
+      name: Physical Chemistry Chemical Physics
+  _source:
+    api: crossref
+    doi: 10.1039/B508190D
+    retrieved: '2026-09-09'
