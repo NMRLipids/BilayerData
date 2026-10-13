@@ -1,0 +1,25 @@
+DOI: 10.5281/zenodo.23209175
+TRJ: production_40_200ns_10ps.xtc
+SOFTWARE: gromacs
+PREEQTIME: 40
+TIMELEFTOUT: 0
+TEMPERATURE: 298
+SYSTEM: POPC bilayer simulated with Amber Lipid21 and OPC water at 298 K
+AUTHORS_CONTACT: Emilie Fjeldberg Taule, emilie.taule@uib.no
+SOFTWARE_VERSION: '2025.4'
+FF: Lipid21
+FF_SOURCE: CHARMM-GUI
+FF_DATE: 02.10.2026
+CPT: production_200ns.cpt
+LOG: production.log
+TOP: topol.top
+EDR: production.edr
+TPR: production_200ns.tpr
+GRO: production_40ns.gro
+COMPOSITION:
+  POPC:
+    NAME: PC
+    MAPPING: mappingPOPC_AmberLipid.yaml
+  SOL:
+    NAME: OPC
+    MAPPING: mappingOPCwater.yaml
