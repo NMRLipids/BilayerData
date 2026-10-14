@@ -39,7 +39,7 @@ TRJLENGTH: 160010.0
 NUMBER_OF_ATOMS: 9996
 DATEOFRUNNING: '2026-10-14'
 TYPEOFSYSTEM: lipid bilayer
-ID: -1
+ID: 963
 bioschema_properties:
   name: Molecular dynamics trajectory of a POPC bilayer at 298 K (Lipid21, GROMACS 2025.4, 160 ns)
   alternateName: POPC bilayer simulated with Amber Lipid21 and OPC water at 298 K
