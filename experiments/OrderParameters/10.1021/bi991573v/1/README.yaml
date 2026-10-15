@@ -39,3 +39,76 @@ ION_CONCENTRATIONS:
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: 'full hydration'
 COUNTER_IONS:
+bioschema_properties:
+  name: C-H bond order parameters of a PAPC bilayer at 310 K, 95% water, with EDTA/TRIS (2H NMR) [Drobnies 1999]
+  description: Experimental C-H bond order parameters for a lipid bilayer of PAPC (1-palmitoyl-2-arachidonoyl-sn-glycero-3-phosphocholine) at 310 K, hydrated to 95% water, with additives EDTA and TRIS; pH 7.4 (buffer). Measured by solid-state nuclear magnetic resonance spectroscopy (2H:QE) on a Custom-built spectrometer (Davis, 1979) operating at 46.2 MHz. Values digitised into the NMRlipids Databank from https://doi.org/10.1021/bi991573v.
+  sameAs: https://doi.org/10.1021/bi991573v
+  datePublished: '1999-11-01'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  publisher: American Chemical Society (ACS)
+  creator:
+  - name: Adrienne E. Drobnies
+  - name: Bryan van der Ende
+  - name: Jenifer L. Thewalt
+  - name: Rosemary B. Cornell
+  citation:
+  - 10.1021/bi991573v
+  keywords:
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - PAPC
+  - 1-palmitoyl-2-arachidonoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: solid-state nuclear magnetic resonance spectroscopy
+    termCode: CHMO_0000614
+    inDefinedTermSet: http://purl.obolibrary.org/obo/chmo.owl
+    url: http://purl.obolibrary.org/obo/CHMO_0000614
+  - '@type': DefinedTerm
+    name: NMR
+    termCode: topic_0593
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0593
+  - 'NMR: 2H:QE'
+  - 'Custom-built spectrometer (Davis, 1979) operating at 46.2 MHz
+
+    '
+  variableMeasured:
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    name: PAPC_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1021/bi991573v
+    identifier: 10.1021/bi991573v
+    url: https://doi.org/10.1021/bi991573v
+    name: 'CTP:Phosphocholine Cytidylyltransferase Activation by Oxidized Phosphatidylcholines Correlates with a Decrease in Lipid Order: A 2 H NMR Analysis'
+    isPartOf:
+      '@type': Periodical
+      name: Biochemistry
+  _source:
+    api: crossref
+    doi: 10.1021/bi991573v
+    retrieved: '2026-09-09'
