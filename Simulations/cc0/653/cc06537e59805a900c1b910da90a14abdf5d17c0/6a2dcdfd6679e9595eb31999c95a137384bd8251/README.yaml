@@ -1,0 +1,41 @@
+DOI: 10.5281/zenodo.10683741
+TRJ:
+- - chol0.xtc
+SOFTWARE: gromacs
+PREEQTIME: 0
+TIMELEFTOUT: 0
+TEMPERATURE: 310.15
+SYSTEM: MD Simulation of POPC cholesterol (0%) bilayers, prosECCo75 FF
+PUBLICATION: https://doi.org/10.1021/acs.jctc.4c00743
+AUTHORS_CONTACT: Ricky Nencini
+SOFTWARE_VERSION: '2019.1'
+FF: prosECCo75
+CPT:
+- - chol0.cpt
+LOG:
+- - chol0.log
+TOP:
+- - chol0.top
+EDR:
+- - chol0.edr
+TPR:
+- - chol0.tpr
+GRO:
+- - chol0.gro
+COMPOSITION:
+  POPC:
+    NAME: POPC
+    MAPPING: mappingPOPCcharmm.yaml
+    COUNT:
+    - 100
+    - 100
+  SOL:
+    NAME: SOL
+    MAPPING: mappingSPCwater.yaml
+    COUNT: 9000
+TRAJECTORY_SIZE: 398163648
+TRJLENGTH: 200100.0
+NUMBER_OF_ATOMS: 53800
+DATEOFRUNNING: 17/10/2026
+TYPEOFSYSTEM: lipid bilayer
+ID: -1
