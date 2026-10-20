@@ -1,0 +1,38 @@
+# Bioschemas properties inherited by every X-ray form-factor experiment below this
+# folder, on top of experiments/bioschema_properties.yaml.
+#
+# EDAM has no small-angle-scattering term; X-ray diffraction is the closest. The
+# exact technique, CHMO's small-angle X-ray scattering, is in each record's own
+# `measurementTechnique`, beside the sample type and the beamline. State here only
+# what is true of every record by definition: a record cannot remove an inherited
+# list item.
+#
+# The form factor's q axis is in reciprocal angstrom. UO has no reciprocal units,
+# so the unit falls back to QUDT.
+keywords:
+- '@type': DefinedTerm
+  name: X-ray diffraction
+  termCode: topic_2828
+  inDefinedTermSet: http://edamontology.org
+  url: http://edamontology.org/topic_2828
+- '@type': DefinedTerm
+  name: Membrane and lipoproteins
+  termCode: topic_0820
+  inDefinedTermSet: http://edamontology.org
+  url: http://edamontology.org/topic_0820
+- '@type': DefinedTerm
+  name: Biophysics
+  termCode: topic_3306
+  inDefinedTermSet: http://edamontology.org
+  url: http://edamontology.org/topic_3306
+measurementTechnique:
+- '@type': DefinedTerm
+  name: X-ray diffraction
+  termCode: topic_2828
+  inDefinedTermSet: http://edamontology.org
+  url: http://edamontology.org/topic_2828
+variableMeasured:
+- '@type': PropertyValue
+  name: X-ray scattering form factor
+  unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+  unitText: Å⁻¹

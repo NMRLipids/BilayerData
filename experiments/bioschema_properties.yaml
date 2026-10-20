@@ -1,0 +1,21 @@
+# Bioschemas properties inherited by every experiment below this folder.
+#
+# The `bioschema_properties` block of a README.yaml under experiments/ holds only
+# what is specific to that record. Its complete block is that block applied on top
+# of this file, then of the template in its kind's folder (OrderParameters/ or
+# FormFactors/), and of any bioschema_properties.yaml in a folder between there and
+# the record. The rules are in FAIRMD_lipids,
+# src/fairmd/lipids/bioschema_inheritance.py.
+#
+# `license` is the licence of the data this repository distributes, per its own
+# LICENSE file. An experiment record digitises values out of a paper: the paper
+# carries the publisher's copyright, while the digitised values are distributed
+# under CC-BY-4.0. Those are different facts, so `license` states the dataset
+# licence and a record's own `articleLicense` keeps whatever the registry said about
+# the publication. `license` is inherited whole: a record stating its own replaces
+# this one entirely rather than merging with it.
+license:
+  spdx: CC-BY-4.0
+  name: Creative Commons Attribution 4.0 International
+  url: https://spdx.org/licenses/CC-BY-4.0.html
+  sameAs: https://creativecommons.org/licenses/by/4.0/

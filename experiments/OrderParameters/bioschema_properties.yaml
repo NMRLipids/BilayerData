@@ -1,0 +1,34 @@
+# Bioschemas properties inherited by every NMR order-parameter experiment below this
+# folder, on top of experiments/bioschema_properties.yaml.
+#
+# A record's own `measurementTechnique` adds the CHMO term its NMR METHOD maps
+# onto, and the method and instrument as text; the EDAM topic below is what every
+# one of them shares. State here only what is true of every record by definition:
+# a record cannot remove an inherited list item.
+keywords:
+- '@type': DefinedTerm
+  name: NMR
+  termCode: topic_0593
+  inDefinedTermSet: http://edamontology.org
+  url: http://edamontology.org/topic_0593
+- '@type': DefinedTerm
+  name: Membrane and lipoproteins
+  termCode: topic_0820
+  inDefinedTermSet: http://edamontology.org
+  url: http://edamontology.org/topic_0820
+- '@type': DefinedTerm
+  name: Biophysics
+  termCode: topic_3306
+  inDefinedTermSet: http://edamontology.org
+  url: http://edamontology.org/topic_3306
+measurementTechnique:
+- '@type': DefinedTerm
+  name: NMR
+  termCode: topic_0593
+  inDefinedTermSet: http://edamontology.org
+  url: http://edamontology.org/topic_0593
+variableMeasured:
+- '@type': PropertyValue
+  name: C-H bond order parameter
+  unitCode: http://purl.obolibrary.org/obo/UO_0000186
+  unitText: dimensionless
