@@ -12,7 +12,9 @@ ADDITIONAL_MOLECULES:
   EDTA: Ethylenediaminetetraacetic acid, 0.0001 M
   Acetic_acid: sodium acetate-acetic acid, 0.2 M
 REAGENT_SOURCES:
-  DPPC: Synthesized locally, specifically deuterated at the choline alpha (+NCD2CH2-DPPC), beta (+NCH2CD2-DPPC), and gamma ((CD3)3N+-DPPC) segments
+  DPPC: >-
+    Synthesized locally, specifically deuterated at the choline alpha (+NCD2CH2-DPPC), beta
+    (+NCH2CD2-DPPC), and gamma ((CD3)3N+-DPPC) segments
   water: Unknown
   EDTA: Unknown
   acetic_acid: Unknown

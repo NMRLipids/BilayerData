@@ -13,7 +13,8 @@ TOTAL_HYDRATION: 50.0
 
 NMR:
   T_RF_HEATING: UNKNOWN
-  INSTRUMENT: Custom designed spectrometer (397.9 MHz for 1H), 5 mm Doty high-speed spinning assembly
+  INSTRUMENT: >-
+    Custom designed spectrometer (397.9 MHz for 1H), 5 mm Doty high-speed spinning assembly
   METHOD: PDLF:DROSS
   SIGN_MEASURED: S-DROSS
   DETAILS: >

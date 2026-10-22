@@ -7,13 +7,17 @@ SOLUTION_COMPOSITION:
 # empty
 PH: UNKNOWN
 REAGENT_SOURCES:
-  SDPC: (d3518:0)-Docosopentanoeyl-PC was synthesized by Avanti Polar lipids. The docosopentanoeic acid (98%, by HPLC and GC) was provided by the Nutrasweet Kelco Company (Deerfield, IL).
-  water: Carefully degassed, deuterium-depleted water or D2O (Cambridge Isotope Laboratories, Woburn, MA)
+  SDPC: >-
+    (d3518:0)-Docosopentanoeyl-PC was synthesized by Avanti Polar lipids. The docosopentanoeic acid
+    (98%, by HPLC and GC) was provided by the Nutrasweet Kelco Company (Deerfield, IL).
+  water: >-
+    Carefully degassed, deuterium-depleted water or D2O (Cambridge Isotope Laboratories, Woburn, MA)
 ADDITIONAL_MOLECULES:
   DTPA: diethylenetriaminepentaacetic acid, 1 mM
   BHT: '2,6-di-tert-butyl-4-methylphenol, 1:150 (bht:lipid)'
 TOTAL_HYDRATION: 50
-SAMPLE_PROTOCOL:  lipid/water dispersions were homogenized by stirring and centrifugation and then packed
+SAMPLE_PROTOCOL:  >-
+  lipid/water dispersions were homogenized by stirring and centrifugation and then packed
 
 NMR:
   T_RF_HEATING: measured

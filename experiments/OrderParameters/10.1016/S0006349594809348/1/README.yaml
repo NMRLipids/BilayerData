@@ -5,7 +5,9 @@ MEMBRANE_COMPOSITION:
   DOPC: 1
 PH: UNKNOWN
 REAGENT_SOURCES:
-  DOPC: Synthetic dioleoylphosphatidylcholine (DOPC), specifically deuterated at the alpha, beta, and gamma segments of the choline headgroup (DOPC-d4 and DOPC-d9)
+  DOPC: >-
+    Synthetic dioleoylphosphatidylcholine (DOPC), specifically deuterated at the alpha, beta, and
+    gamma segments of the choline headgroup (DOPC-d4 and DOPC-d9)
   water: Deuterium-depleted water (Aldrich)
 TOTAL_HYDRATION: 33.5
 SAMPLE_PROTOCOL: > 

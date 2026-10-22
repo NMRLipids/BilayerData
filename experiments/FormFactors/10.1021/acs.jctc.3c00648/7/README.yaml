@@ -8,7 +8,8 @@ TOTAL_HYDRATION: 97
 PH: UNKNOWN
 REAGENT_SOURCES:
   POPC: Avanti Polar Lipids
-SAMPLE_PROTOCOL: Rapid solvent exchange as described in 10.1016/j.chemphyslip.2014.12.001 & 10.1039/C6SM02727J
+SAMPLE_PROTOCOL: >-
+  Rapid solvent exchange as described in 10.1016/j.chemphyslip.2014.12.001 & 10.1039/C6SM02727J
 
 XRAY:
   SOURCE: EMBL BioSAXS beamline, PETRA III

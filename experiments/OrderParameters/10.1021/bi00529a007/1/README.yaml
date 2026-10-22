@@ -9,7 +9,9 @@ ADDITIONAL_MOLECULES:
 PH: 7
 PH_METHOD: Buffer
 REAGENT_SOURCES: 
-  DPPC: Selectively deuterated at the choline alpha and beta segments as described by Gally et al. (1975). Nondeuterated DPPC was obtained from Fluka, Switzerland
+  DPPC: >-
+    Selectively deuterated at the choline alpha and beta segments as described by Gally et al.
+    (1975). Nondeuterated DPPC was obtained from Fluka, Switzerland
   Pipes: AR grade
   EDTA: AR grade
 TOTAL_HYDRATION: 95
@@ -19,7 +21,9 @@ SAMPLE_PROTOCOL: >
 
 NMR:
   T_RF_HEATING: UNKNOWN
-  INSTRUMENT: Spectrometers operating at 13.8 and 61.4 MHz (single-pulse mode) and at 46 MHz (quadrupole echo technique)
+  INSTRUMENT: >-
+    Spectrometers operating at 13.8 and 61.4 MHz (single-pulse mode) and at 46 MHz (quadrupole echo
+    technique)
   METHOD: 2H:QE
   SIGN_MEASURED: NONE
   DETAILS: >
