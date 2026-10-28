@@ -4,11 +4,11 @@ M_G1_M:
   FRAGMENT: glycerol backbone
   SMILEIDX: 18
 M_G1H1_M:
-  ATOMNAME: HS
+  ATOMNAME: HR
   RESIDUE: PE
   FRAGMENT: glycerol backbone
 M_G1H2_M:
-  ATOMNAME: HR
+  ATOMNAME: HS
   RESIDUE: PE
   FRAGMENT: glycerol backbone
 M_G1O1_M:
