@@ -78,16 +78,41 @@ jobs:
           key: bioschema-${{ hashFiles('Simulations/**/README.yaml', 'experiments/**/README.yaml') }}
           restore-keys: bioschema-
 
+      # The script exits 1 when it refuses a record whose kind template is missing
+      # or states no licence; it still enriches every other record. That status is
+      # held back here and raised by the last step, so the suggestions for the
+      # records it did enrich are posted first.
+      #
+      # Python also exits 1 on an uncaught exception, so status 1 alone does not
+      # mean a refusal. It counts as one only when the run reached its summary
+      # line and that line reports refused records; anything else is a crash and
+      # fails this step at once, before any suggestion is posted.
       - name: Run autocomplete_expsim_metadata.py and create suggestions
+        id: autocomplete
         if: steps.files.outputs.changed_files != ''
         env:
           CHANGED_FILES: ${{ steps.files.outputs.changed_files }}
         run: |
           set -euo pipefail
           mapfile -t files <<< "$CHANGED_FILES"
+          log="$RUNNER_TEMP/autocomplete.log"
           echo "::group::autocomplete_expsim_metadata.py"
-          python "Databank/developer/autocomplete_expsim_metadata.py" "${files[@]}"
+          status=0
+          python "Databank/developer/autocomplete_expsim_metadata.py" "${files[@]}" \
+            > "$log" 2>&1 || status=$?
+          cat "$log"
           echo "::endgroup::"
+          if [ "$status" -eq 0 ]; then
+            exit 0
+          fi
+          summary=$(tail -n 1 "$log")
+          if [ "$status" -eq 1 ] \
+            && [[ "$summary" =~ ^[0-9]+\ of\ [0-9]+\ records\ .*refused\ for\ a\ missing\ or\ incomplete\ template$ ]]; then
+            echo "refused=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "::error::autocomplete_expsim_metadata.py failed (exit $status); see the log above"
+            exit "$status"
+          fi
 
       - name: Set up reviewdog
         if: steps.files.outputs.changed_files != ''
@@ -138,12 +163,25 @@ jobs:
       # once. Templates are checked rather than enriched: the script validates
       # each against the bioschema block schema and rejects properties that
       # belong to one record, and an invalid template fails this job. It runs
-      # last so that the README suggestions above are posted either way.
+      # last so that the README suggestions above are posted either way, and
+      # always() runs it even when a README step above failed, so a broken
+      # template is reported in the same run. It still needs the file list.
       - name: Check changed bioschema_properties.yaml templates
-        if: steps.files.outputs.changed_templates != ''
+        if: >-
+          always()
+          && steps.files.outcome == 'success'
+          && steps.files.outputs.changed_templates != ''
         env:
           CHANGED_TEMPLATES: ${{ steps.files.outputs.changed_templates }}
         run: |
           set -euo pipefail
           mapfile -t templates <<< "$CHANGED_TEMPLATES"
           python "Databank/developer/autocomplete_expsim_metadata.py" --check "${templates[@]}"
+
+      - name: Fail on records refused for a missing or incomplete template
+        if: always() && steps.autocomplete.outputs.refused == 'true'
+        run: |
+          echo "::error::autocomplete_expsim_metadata.py refused at least one record because its" \
+               "kind's bioschema_properties.yaml is missing or states no license; see the" \
+               "'Run autocomplete_expsim_metadata.py' step log"
+          exit 1

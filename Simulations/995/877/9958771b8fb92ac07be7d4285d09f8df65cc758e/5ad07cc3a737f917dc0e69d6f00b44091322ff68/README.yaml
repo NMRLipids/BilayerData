@@ -47,15 +47,13 @@ EXPERIMENT:
   - 10.1021/acs.jctc.3c00648/1
 ID: 573
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC bilayer at 300 K (ECC-lipids, GROMACS 5.1.4, 300 ns)
-    [NMRlipids simulation 573]
+  name: Molecular dynamics trajectory of a POPC bilayer at 300 K (ECC-lipids, GROMACS 5.1.4, 300 ns)
   alternateName: 128POPC_6400SOL_300K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 128 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 300 K. Simulated with ECC-lipids in
-    GROMACS 5.1.4 for 300 ns (36352 atoms). Deposited as NMRlipids Databank simulation 573 and
-    available from https://doi.org/10.5281/zenodo.3335503.
+    GROMACS 5.1.4 for 300 ns (36352 atoms). Part of the NMRlipids Databank and available from
+    https://doi.org/10.5281/zenodo.3335503.
   sameAs: https://doi.org/10.5281/zenodo.3335503
   datePublished: '2017-12-19'
   license:
@@ -128,4 +126,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.3335503
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

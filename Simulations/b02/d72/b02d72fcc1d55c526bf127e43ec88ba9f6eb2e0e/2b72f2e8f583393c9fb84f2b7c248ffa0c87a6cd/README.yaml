@@ -56,13 +56,13 @@ ID: 79
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC/CLA/CAL (60:27:13) bilayer at 313 K (ECC-lipids, GROMACS
-    5.1.4, 300 ns) [NMRlipids simulation 79]
+    5.1.4, 300 ns)
   alternateName: 128POPC_6400SOL_29CAL_58CLA_313K_OPC4model
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 128 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 60 mol%), 58 CLA (27 mol%) and 29 CAL (13
-    mol%) at 313 K. Simulated with ECC-lipids in GROMACS 5.1.4 for 300 ns (42839 atoms). Deposited
-    as NMRlipids Databank simulation 79 and available from https://doi.org/10.5281/zenodo.1118980.
+    mol%) at 313 K. Simulated with ECC-lipids in GROMACS 5.1.4 for 300 ns (42839 atoms). Part of the
+    NMRlipids Databank and available from https://doi.org/10.5281/zenodo.1118980.
   sameAs: https://doi.org/10.5281/zenodo.1118980
   datePublished: '2017-12-19'
   license:
@@ -131,4 +131,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.1118980
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

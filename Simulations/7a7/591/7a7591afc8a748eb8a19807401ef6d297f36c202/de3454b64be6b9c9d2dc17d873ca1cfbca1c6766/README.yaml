@@ -43,13 +43,13 @@ ID: 522
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC bilayer at 310.15 K (ECC-CHARMM36, GROMACS 5.1.4, 367
-    ns) [NMRlipids simulation 522]
+    ns)
   alternateName: 200POPC_9000SOL_310K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 200 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 310.15 K. Simulated with ECC-CHARMM36 in
-    GROMACS 5.1.4 for 367 ns (53800 atoms). Deposited as NMRlipids Databank simulation 522 and
-    available from https://doi.org/10.5281/zenodo.2562080.
+    GROMACS 5.1.4 for 367 ns (53800 atoms). Part of the NMRlipids Databank and available from
+    https://doi.org/10.5281/zenodo.2562080.
   sameAs: https://doi.org/10.5281/zenodo.2562080
   datePublished: '2019-02-11'
   license:
@@ -112,4 +112,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.2562080
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

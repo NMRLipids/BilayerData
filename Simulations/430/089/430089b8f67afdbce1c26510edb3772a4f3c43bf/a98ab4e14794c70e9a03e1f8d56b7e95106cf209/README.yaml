@@ -40,13 +40,13 @@ EXPERIMENT:
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a DLPC bilayer at 323 K (CHARMM36/LJ-PME, GROMACS Gromacs 2022,
-    100 ns) [NMRlipids simulation 917]
+    100 ns)
   alternateName: Fully hydrated DLPC bilayer in SPC/E water (LJ-PME)
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 100 DLPC
     (1,2-dilauroyl-sn-glycero-3-phosphocholine) at 323 K. Simulated with CHARMM36/LJ-PME in GROMACS
-    Gromacs 2022 for 100 ns (23542 atoms). Deposited as NMRlipids Databank simulation 917 and
-    available from https://doi.org/10.5281/zenodo.20579050.
+    Gromacs 2022 for 100 ns (23542 atoms). Part of the NMRlipids Databank and available from
+    https://doi.org/10.5281/zenodo.20579050.
   sameAs: https://doi.org/10.5281/zenodo.20579050
   datePublished: '2026-06-07'
   license:
@@ -115,4 +115,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.20579050
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

@@ -65,14 +65,14 @@ ID: 260
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC/CLA/CAL/POPS/SOD (49:21:11:10:10) bilayer at 298 K
-    (ECC-lipids, SPC/E water model, ECC-ions, GROMACS 2018.0, 1328 ns) [NMRlipids simulation 260]
+    (ECC-lipids, SPC/E water model, ECC-ions, GROMACS 2018.0, 1328 ns)
   alternateName: 12POPS_60POPC_3561SOL_13CAL_26CLA_12SOD_298K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 60 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 49 mol%), 26 CLA (21 mol%), 13 CAL (11 mol%),
     12 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 10 mol%) and 12 SOD (10 mol%) at
     298 K. Simulated with ECC-lipids, SPC/E water model, ECC-ions in GROMACS 2018.0 for 1328 ns
-    (20298 atoms). Deposited as NMRlipids Databank simulation 260 and available from
+    (20298 atoms). Part of the NMRlipids Databank and available from
     https://doi.org/10.5281/zenodo.1488102.
   sameAs: https://doi.org/10.5281/zenodo.1488102
   datePublished: '2018-11-14'
@@ -145,4 +145,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.1488102
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

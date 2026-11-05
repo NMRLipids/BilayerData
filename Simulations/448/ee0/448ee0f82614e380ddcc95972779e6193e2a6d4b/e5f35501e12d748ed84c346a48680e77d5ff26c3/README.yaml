@@ -57,14 +57,14 @@ ID: 223
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC/POPS/POT (33:33:33) bilayer at 298 K (ECC-lipids, SPC/E
-    water model, ECC-ions, GROMACS 2018.0, 987 ns) [NMRlipids simulation 223]
+    water model, ECC-ions, GROMACS 2018.0, 987 ns)
   alternateName: 64POPS_64POPC_5253SOL_64POT_298K_ECC-lipid
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 64 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 33 mol%), 64 POPS
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 33 mol%) and 64 POT (33 mol%) at 298 K.
     Simulated with ECC-lipids, SPC/E water model, ECC-ions in GROMACS 2018.0 for 987 ns (32527
-    atoms). Deposited as NMRlipids Databank simulation 223 and available from
+    atoms). Part of the NMRlipids Databank and available from
     https://doi.org/10.5281/zenodo.1488094.
   sameAs: https://doi.org/10.5281/zenodo.1488094
   datePublished: '2018-11-14'
@@ -135,4 +135,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.1488094
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

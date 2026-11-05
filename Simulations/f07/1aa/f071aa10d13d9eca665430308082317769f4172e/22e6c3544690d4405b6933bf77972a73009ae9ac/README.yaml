@@ -47,13 +47,13 @@ EXPERIMENT:
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a DMPC bilayer at 303.15 K (Lipid21(AMBER), GROMACS 2026.1, 100
-    ns) [NMRlipids simulation 912]
+    ns)
   alternateName: DMPC
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 40 DMPC
     (1,2-dimyristoyl-sn-glycero-3-phosphocholine) at 303.15 K. Simulated with Lipid21(AMBER) in
-    GROMACS 2026.1 for 100 ns (8800 atoms). Deposited as NMRlipids Databank simulation 912 and
-    available from https://doi.org/10.5281/zenodo.20558593.
+    GROMACS 2026.1 for 100 ns (8800 atoms). Part of the NMRlipids Databank and available from
+    https://doi.org/10.5281/zenodo.20558593.
   sameAs: https://doi.org/10.5281/zenodo.20558593
   datePublished: '2026-06-07'
   license:
@@ -125,4 +125,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.20558593
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

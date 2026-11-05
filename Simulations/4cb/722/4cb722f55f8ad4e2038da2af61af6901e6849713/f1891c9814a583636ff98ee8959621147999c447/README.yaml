@@ -101,6 +101,8 @@ bioschema_properties:
     - DPPC_200_SOL_9000_CHARMM36_LO_325K.tpr
     - DPPC_200_SOL_9000_CHARMM36.top
     - DPPC_200_SOL_9000_CHARMM36_LO_325K.gro
+  isBasedOn:
+  - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/4
   isPartOf:
     '@type': Dataset
     '@id': https://doi.org/10.5281/zenodo.10635496
@@ -112,7 +114,7 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.10635496
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-24'
+    retrieved: '2026-11-05'
 EXPERIMENT:
   ORDERPARAMETER:
     DPPC: []

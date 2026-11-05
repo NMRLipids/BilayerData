@@ -52,13 +52,13 @@ ID: 572
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a CHOL/POPC (50:50) bilayer at 303.15 K (CHARMM36, GROMACS
-    5.1.2, 201 ns) [NMRlipids simulation 572]
+    5.1.2, 201 ns)
   alternateName: 80POPC_7200SOL_80CHOL_303.80K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 80 CHOL (cholesterol, 50 mol%) and 80 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) at 303.15 K. Simulated with CHARMM36
-    in GROMACS 5.1.2 for 201 ns (38240 atoms). Deposited as NMRlipids Databank simulation 572 and
-    available from https://doi.org/10.5281/zenodo.163343.
+    in GROMACS 5.1.2 for 201 ns (38240 atoms). Part of the NMRlipids Databank and available from
+    https://doi.org/10.5281/zenodo.163343.
   sameAs: https://doi.org/10.5281/zenodo.163343
   datePublished: '2016-10-26'
   license:
@@ -125,4 +125,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.163343
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

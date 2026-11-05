@@ -65,14 +65,14 @@ ID: 241
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC/CAL/POPS/CLA (62:14:14:10) bilayer at 310 K (Berger,
-    GROMACS 4.5.5, 100 ns) [NMRlipids simulation 241]
+    GROMACS 4.5.5, 100 ns)
   alternateName: 104POPC_24OPS_4306SOL_24CAL_16CLA_310K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 104 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 62 mol%), 24 CAL (14 mol%), 24 POPS
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 14 mol%) and 16 CLA (10 mol%) at 310 K.
-    Simulated with Berger in GROMACS 4.5.5 for 100 ns (19686 atoms). Deposited as NMRlipids Databank
-    simulation 241 and available from https://doi.org/10.5281/zenodo.887398.
+    Simulated with Berger in GROMACS 4.5.5 for 100 ns (19686 atoms). Part of the NMRlipids Databank
+    and available from https://doi.org/10.5281/zenodo.887398.
   sameAs: https://doi.org/10.5281/zenodo.887398
   datePublished: '2017-09-07'
   license:
@@ -144,4 +144,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.887398
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

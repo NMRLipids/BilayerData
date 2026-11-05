@@ -51,13 +51,13 @@ ID: 369
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC/CHOL (84:16) bilayer at 303 K (Lipid14, GROMACS 5.0.4,
-    200 ns) [NMRlipids simulation 369]
+    200 ns)
   alternateName: 108POPC_20CHOL_3968SOL_303K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 108 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 84 mol%) and 20 CHOL (cholesterol, 16 mol%)
-    at 303 K. Simulated with Lipid14 in GROMACS 5.0.4 for 200 ns (27856 atoms). Deposited as
-    NMRlipids Databank simulation 369 and available from https://doi.org/10.5281/zenodo.3871000.
+    at 303 K. Simulated with Lipid14 in GROMACS 5.0.4 for 200 ns (27856 atoms). Part of the
+    NMRlipids Databank and available from https://doi.org/10.5281/zenodo.3871000.
   sameAs: https://doi.org/10.5281/zenodo.3871000
   datePublished: '2020-06-01'
   license:
@@ -125,4 +125,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.3871000
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

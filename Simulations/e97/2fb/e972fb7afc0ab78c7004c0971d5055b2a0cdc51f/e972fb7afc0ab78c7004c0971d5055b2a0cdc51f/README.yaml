@@ -43,13 +43,12 @@ ID: 734
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC bilayer at 303 K (Charmm-Drude, OPENMM 7.5.0, 500 ns)
-    [NMRlipids simulation 734]
   alternateName: 64POPC_6400SOL_303K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 128 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with Charmm-Drude in
-    OPENMM 7.5.0 for 500 ns (56832 atoms). Deposited as NMRlipids Databank simulation 734 and
-    available from https://doi.org/10.5281/zenodo.7607436.
+    OPENMM 7.5.0 for 500 ns (56832 atoms). Part of the NMRlipids Databank and available from
+    https://doi.org/10.5281/zenodo.7607436.
   sameAs: https://doi.org/10.5281/zenodo.7607436
   datePublished: '2021-03-15'
   license:
@@ -114,4 +113,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.7607436
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

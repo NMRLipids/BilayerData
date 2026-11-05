@@ -59,14 +59,14 @@ ID: 569
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC/CLA/SOD/CHOL (35:28:28:9) bilayer at 310 K (Slipids with
-    ions by Smith & Dang, GROMACS 4.6, 200 ns) [NMRlipids simulation 569]
+    ions by Smith & Dang, GROMACS 4.6, 200 ns)
   alternateName: 50CHOL_200POPC_9000SOL_162SOD_162CLA_310K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 200 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 35 mol%), 162 CLA (28 mol%), 162 SOD (28
     mol%) and 50 CHOL (cholesterol, 9 mol%) at 310 K. Simulated with Slipids with ions by Smith &
-    Dang in GROMACS 4.6 for 200 ns (57824 atoms). Deposited as NMRlipids Databank simulation 569 and
-    available from https://doi.org/10.5281/zenodo.259341.
+    Dang in GROMACS 4.6 for 200 ns (57824 atoms). Part of the NMRlipids Databank and available from
+    https://doi.org/10.5281/zenodo.259341.
   sameAs: https://doi.org/10.5281/zenodo.259341
   datePublished: '2017-01-24'
   license:
@@ -133,4 +133,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.259341
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

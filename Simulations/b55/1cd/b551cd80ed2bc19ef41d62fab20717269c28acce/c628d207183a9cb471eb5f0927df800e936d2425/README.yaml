@@ -61,14 +61,14 @@ ID: 442
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC/SOD/POPG/CLA (47:27:20:6) bilayer at 310 K (GROMOS-CKP,
-    GROMACS 5.1.2, 100 ns) [NMRlipids simulation 442]
+    GROMACS 5.1.2, 100 ns)
   alternateName: 350POPC_150POPG_25000SOL_198SOD_48CLA_310K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 350 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 47 mol%), 198 SOD (27 mol%), 150 POPG
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 20 mol%) and 48 CLA (6 mol%) at 310 K.
-    Simulated with GROMOS-CKP in GROMACS 5.1.2 for 100 ns (101396 atoms). Deposited as NMRlipids
-    Databank simulation 442 and available from https://doi.org/10.5281/zenodo.2582721.
+    Simulated with GROMOS-CKP in GROMACS 5.1.2 for 100 ns (101396 atoms). Part of the NMRlipids
+    Databank and available from https://doi.org/10.5281/zenodo.2582721.
   sameAs: https://doi.org/10.5281/zenodo.2582721
   datePublished: '2019-03-04'
   license:
@@ -138,4 +138,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.2582721
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

@@ -42,14 +42,12 @@ EXPERIMENT:
   - 10.1016/j.bbamem.2011.07.022/4
 ID: 390
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a DPPC bilayer at 323 K (GAFFlipid, GROMACS 4.5, 50 ns)
-    [NMRlipids simulation 390]
+  name: Molecular dynamics trajectory of a DPPC bilayer at 323 K (GAFFlipid, GROMACS 4.5, 50 ns)
   alternateName: 72DPPC_2197SOL_323K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 72 DPPC
     (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 323 K. Simulated with GAFFlipid in GROMACS 4.5
-    for 50 ns (15951 atoms). Deposited as NMRlipids Databank simulation 390 and available from
+    for 50 ns (15951 atoms). Part of the NMRlipids Databank and available from
     https://doi.org/10.5281/zenodo.15550.
   sameAs: https://doi.org/10.5281/zenodo.15550
   datePublished: '2015-02-20'
@@ -117,4 +115,4 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.15550
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

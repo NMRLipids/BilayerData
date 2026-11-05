@@ -37,15 +37,13 @@ EXPERIMENT:
     - 10.1021/ja029029o/2
   FORMFACTOR: []
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a SD5PC bilayer at 303.15 K (CHARMM36m, NAMD 3, 500 ns)
-    [NMRlipids simulation 905]
+  name: Molecular dynamics trajectory of a SD5PC bilayer at 303.15 K (CHARMM36m, NAMD 3, 500 ns)
   alternateName: SDPC18:0(d35)/22:5n6PC)
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 200 SD5PC
     (1-octadecanoyl-2-(4Z,7Z,10Z,13Z,16Z-docosapentaenoyl)-sn-glycero-3-phosphocholine) at 303.15 K.
-    Simulated with CHARMM36m in NAMD 3 for 500 ns (57600 atoms). Deposited as NMRlipids Databank
-    simulation 905 and available from https://doi.org/10.5281/zenodo.18470730.
+    Simulated with CHARMM36m in NAMD 3 for 500 ns (57600 atoms). Part of the NMRlipids Databank and
+    available from https://doi.org/10.5281/zenodo.18470730.
   sameAs: https://doi.org/10.5281/zenodo.18470730
   datePublished: '2026-02-03'
   license:
@@ -114,4 +112,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.18470730
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

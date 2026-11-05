@@ -56,13 +56,13 @@ ID: 10
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC/CLA/CAL (49:34:17) bilayer at 298 K (Berger delivered by
-    Peter Tieleman, GROMACS 4.5, 58 ns) [NMRlipids simulation 10]
+    Peter Tieleman, GROMACS 4.5, 58 ns)
   alternateName: 128POPC_44CAL_88CLA_7157SOL_298K_Berger
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 128 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 49 mol%), 88 CLA (34 mol%) and 44 CAL (17
     mol%) at 298 K. Simulated with Berger delivered by Peter Tieleman in GROMACS 4.5 for 58 ns
-    (28259 atoms). Deposited as NMRlipids Databank simulation 10 and available from
+    (28259 atoms). Part of the NMRlipids Databank and available from
     https://doi.org/10.5281/zenodo.32173.
   sameAs: https://doi.org/10.5281/zenodo.32173
   datePublished: '2015-10-16'
@@ -131,4 +131,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.32173
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

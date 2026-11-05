@@ -46,13 +46,12 @@ ID: 349
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPE bilayer at 313 K (GROMOS 43A1-S3, GROMACS 4.0.7, 100 ns)
-    [NMRlipids simulation 349]
   alternateName: 128POPE_3552SOL_313K_v2
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 128 POPE
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 313 K. Simulated with GROMOS 43A1-S3
-    in GROMACS 4.0.7 for 100 ns (17312 atoms). Deposited as NMRlipids Databank simulation 349 and
-    available from https://doi.org/10.5281/zenodo.1293762.
+    in GROMACS 4.0.7 for 100 ns (17312 atoms). Part of the NMRlipids Databank and available from
+    https://doi.org/10.5281/zenodo.1293762.
   sameAs: https://doi.org/10.5281/zenodo.1293762
   datePublished: '2018-06-20'
   license:
@@ -116,4 +115,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.1293762
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

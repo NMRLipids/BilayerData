@@ -40,14 +40,12 @@ EXPERIMENT:
   - 10.1016/j.bbamem.2011.07.022/4
 ID: 911
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a DPPC bilayer at 322 K (CHARMM36, GROMACS, 100 ns) [NMRlipids
-    simulation 911]
+  name: Molecular dynamics trajectory of a DPPC bilayer at 322 K (CHARMM36, GROMACS, 100 ns)
   alternateName: DPPC
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 40 DPPC
     (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 322 K. Simulated with CHARMM36 in GROMACS for
-    100 ns (10135 atoms). Deposited as NMRlipids Databank simulation 911 and available from
+    100 ns (10135 atoms). Part of the NMRlipids Databank and available from
     https://doi.org/10.5281/zenodo.20524112.
   sameAs: https://doi.org/10.5281/zenodo.20524112
   datePublished: '2026-06-04'
@@ -121,4 +119,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.20524112
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

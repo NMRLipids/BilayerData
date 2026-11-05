@@ -79,7 +79,7 @@ EXPERIMENT:
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a CHOL/POPC/SM16/POPE/SOD/POPS/SAPI24 (35:19:14:13:12:6:1)
-    bilayer at 310 K (CHARMM36m, NAMD 2.14, 200 ns) [NMRlipids simulation 774]
+    bilayer at 310 K (CHARMM36m, NAMD 2.14, 200 ns)
   alternateName: (innerleaflet,76CHOL,30POPC,52POPE,26POPS,6SAPI24)(outerleaflet,76CHOL,52POPC,6POPE,2POPS,57PSM),13495SOL,52SOD
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 152 CHOL (cholesterol, 35 mol%), 82 POPC
@@ -88,8 +88,8 @@ bioschema_properties:
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 13 mol%), 52 SOD (12 mol%), 28 POPS
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 6 mol%) and 6 SAPI24
     (1-stearoyl-2-arachidonoyl-sn-glycero-3-phospho-(1’-myo-inositol-4’,5’-bisphosphate), 1 mol%) at
-    310 K. Simulated with CHARMM36m in NAMD 2.14 for 200 ns (81972 atoms). Deposited as NMRlipids
-    Databank simulation 774 and available from https://doi.org/10.5281/zenodo.8369348.
+    310 K. Simulated with CHARMM36m in NAMD 2.14 for 200 ns (81972 atoms). Part of the NMRlipids
+    Databank and available from https://doi.org/10.5281/zenodo.8369348.
   sameAs: https://doi.org/10.5281/zenodo.8369348
   datePublished: '2023-09-18'
   license:
@@ -164,4 +164,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.8369348
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

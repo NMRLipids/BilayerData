@@ -69,14 +69,14 @@ ID: 387
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC/CLA/POT/POPS/SOD (37:24:24:7:7) bilayer at 298 K
-    (ECC-lipids, GROMACS 2018.0, 975 ns) [NMRlipids simulation 387]
+    (ECC-lipids, GROMACS 2018.0, 975 ns)
   alternateName: 12POPS_60POPC_3483SOL_12SOD_39POT_39CLA_298K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 60 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 37 mol%), 39 CLA (24 mol%), 39 POT (24 mol%),
     12 POPS (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 7 mol%) and 12 SOD (7 mol%) at 298
-    K. Simulated with ECC-lipids in GROMACS 2018.0 for 975 ns (20103 atoms). Deposited as NMRlipids
-    Databank simulation 387 and available from https://doi.org/10.5281/zenodo.3332778.
+    K. Simulated with ECC-lipids in GROMACS 2018.0 for 975 ns (20103 atoms). Part of the NMRlipids
+    Databank and available from https://doi.org/10.5281/zenodo.3332778.
   sameAs: https://doi.org/10.5281/zenodo.3332778
   datePublished: '2018-11-14'
   license:
@@ -149,4 +149,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.3332778
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

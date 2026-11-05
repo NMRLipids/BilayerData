@@ -56,14 +56,14 @@ ID: 302
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a CLA/POPC/POPG/SOD/CAL (32:18:18:18:16) bilayer at 298 K
-    (Slipids, GROMACS, 1000 ns) [NMRlipids simulation 302]
+    (Slipids, GROMACS, 1000 ns)
   alternateName: POPCPOPG(1:1)500mM
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 230 CLA (32 mol%), 128 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 18 mol%), 128 POPG
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 18 mol%), 128 SOD (18 mol%) and 115 CAL (16
-    mol%) at 298 K. Simulated with Slipids in GROMACS for 1000 ns (72281 atoms). Deposited as
-    NMRlipids Databank simulation 302 and available from https://doi.org/10.5281/zenodo.3613573.
+    mol%) at 298 K. Simulated with Slipids in GROMACS for 1000 ns (72281 atoms). Part of the
+    NMRlipids Databank and available from https://doi.org/10.5281/zenodo.3613573.
   sameAs: https://doi.org/10.5281/zenodo.3613573
   datePublished: '2020-01-13'
   license:
@@ -133,4 +133,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.3613573
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

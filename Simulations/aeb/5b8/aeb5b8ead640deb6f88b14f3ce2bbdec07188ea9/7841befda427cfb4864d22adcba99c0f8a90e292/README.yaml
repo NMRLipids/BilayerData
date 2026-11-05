@@ -55,13 +55,13 @@ ID: 518
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC/CLA/DHMDMAB (64:18:18) bilayer at 313 K (Lipid14,
-    GROMACS, 80 ns) [NMRlipids simulation 518]
+    GROMACS, 80 ns)
   alternateName: 100POPC_28DHMDMAB_6214SOL_28CLA_313K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 100 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 64 mol%), 28 CLA (18 mol%) and 28 DHMDMAB
     (dihexadecyldimethylammonium, 18 mol%) at 313 K. Simulated with Lipid14 in GROMACS for 80 ns
-    (35066 atoms). Deposited as NMRlipids Databank simulation 518 and available from
+    (35066 atoms). Part of the NMRlipids Databank and available from
     https://doi.org/10.5281/zenodo.1020593.
   sameAs: https://doi.org/10.5281/zenodo.1020593
   datePublished: '2017-10-18'
@@ -130,4 +130,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.1020593
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

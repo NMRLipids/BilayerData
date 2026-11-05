@@ -101,6 +101,8 @@ bioschema_properties:
     - DPPC_200_SOL_9000_prosECCo75_GEL_320K.tpr
     - DPPC_200_SOL_9000_prosECCo75.top
     - DPPC_200_SOL_9000_prosECCo75_GEL_320K.gro
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/bi00687a021/1
   isPartOf:
     '@type': Dataset
     '@id': https://doi.org/10.5281/zenodo.10635502
@@ -112,7 +114,7 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.10635502
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-25'
+    retrieved: '2026-11-05'
 EXPERIMENT:
   ORDERPARAMETER:
     DPPC:

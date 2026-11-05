@@ -42,13 +42,13 @@ EXPERIMENT:
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a DPPC bilayer at 330 K (Development of PROSECCO PC membranes,
-    GROMACS 2016.4, 114 ns) [NMRlipids simulation 927]
+    GROMACS 2016.4, 114 ns)
   alternateName: PN_model_330K_TIP3P_DPPC_no_ions_melt
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 200 DPPC
     (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 330 K. Simulated with Development of PROSECCO
-    PC membranes in GROMACS 2016.4 for 114 ns (53000 atoms). Deposited as NMRlipids Databank
-    simulation 927 and available from https://doi.org/10.5281/zenodo.3332640.
+    PC membranes in GROMACS 2016.4 for 114 ns (53000 atoms). Part of the NMRlipids Databank and
+    available from https://doi.org/10.5281/zenodo.3332640.
   sameAs: https://doi.org/10.5281/zenodo.3332640
   datePublished: '2019-07-11'
   license:
@@ -116,4 +116,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.3332640
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

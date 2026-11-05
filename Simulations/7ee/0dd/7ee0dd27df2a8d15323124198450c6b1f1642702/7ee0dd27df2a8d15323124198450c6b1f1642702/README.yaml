@@ -79,7 +79,7 @@ EXPERIMENT:
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC/POPE/SOD/POPI/POPS/CHOL/CER180 (45:20:14:9:5:4:3)
-    bilayer at 310 K (CHARMM36m, NAMD 2.14, 200 ns) [NMRlipids simulation 776]
+    bilayer at 310 K (CHARMM36m, NAMD 2.14, 200 ns)
   alternateName: 12CHOL,134POPC,60POPE,14POPS,26POPI,10CER180,10551SOL,40SOD
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 134 POPC
@@ -88,7 +88,7 @@ bioschema_properties:
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol, 9 mol%), 14 POPS
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 5 mol%), 12 CHOL (cholesterol, 4 mol%) and
     10 CER180 (N-stearoyl-D-erythro-sphingosine, 3 mol%) at 310 K. Simulated with CHARMM36m in NAMD
-    2.14 for 200 ns (64487 atoms). Deposited as NMRlipids Databank simulation 776 and available from
+    2.14 for 200 ns (64487 atoms). Part of the NMRlipids Databank and available from
     https://doi.org/10.5281/zenodo.8369427.
   sameAs: https://doi.org/10.5281/zenodo.8369427
   datePublished: '2023-09-18'
@@ -164,4 +164,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.8369427
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'
