@@ -1,5 +1,5 @@
 ARTICLE_DOI: 10.1016/j.chemphyslip.2020.104892
-DATE: 2020-02-12T14:12:18Z
+DATE: '2020-02-12'
 TEMPERATURE: 303  # K 
 MEMBRANE_COMPOSITION:
   SDPC: 1
@@ -33,3 +33,83 @@ ION_CONCENTRATIONS:
   CLA: 0
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: "full hydration"
+bioschema_properties:
+  name: X-ray scattering form factor of a SDPC bilayer at 303 K, 99% water (SAXS, SUV) [Marquardt 2020]
+  description: Experimental X-ray scattering form factor for a lipid bilayer of SDPC (1-stearoyl-2-docosahexaenoyl-sn-glycero-3-phosphocholine) at 303 K, hydrated to 99% water. Measured by small-angle X-ray scattering on SUV samples at CHESS G-1 station. Values digitised into the NMRlipids Databank from https://doi.org/10.1016/j.chemphyslip.2020.104892.
+  sameAs: https://doi.org/10.1016/j.chemphyslip.2020.104892
+  datePublished: 2020-07
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/
+  articleLicense:
+    url: https://www.elsevier.com/tdm/userlicense/1.0/
+    spdx: null
+  publisher: Elsevier BV
+  creator:
+  - name: Drew Marquardt
+    identifier: https://orcid.org/0000-0001-6848-2497
+  - name: Frederick A. Heberle
+  - name: Jianjun Pan
+  - name: Xiaolin Cheng
+  - name: Georg Pabst
+  - name: Thad A. Harroun
+    identifier: https://orcid.org/0000-0001-9816-2590
+  - name: Norbert Kučerka
+  - name: John Katsaras
+  citation:
+  - 10.1016/j.chemphyslip.2020.104892
+  keywords:
+  - '@type': DefinedTerm
+    name: X-ray diffraction
+    termCode: topic_2828
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_2828
+  - '@type': DefinedTerm
+    name: Membrane and lipoproteins
+    termCode: topic_0820
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_0820
+  - '@type': DefinedTerm
+    name: Biophysics
+    termCode: topic_3306
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_3306
+  - SDPC
+  - 1-stearoyl-2-docosahexaenoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: small-angle X-ray scattering
+    termCode: CHMO_0000204
+    inDefinedTermSet: http://purl.obolibrary.org/obo/chmo.owl
+    url: http://purl.obolibrary.org/obo/CHMO_0000204
+  - '@type': DefinedTerm
+    name: X-ray diffraction
+    termCode: topic_2828
+    inDefinedTermSet: http://edamontology.org
+    url: http://edamontology.org/topic_2828
+  - X-ray scattering (SUV)
+  - CHESS G-1 station
+  variableMeasured:
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  distribution:
+  - '@type': DataDownload
+    name: SDPC_ULV_30C_FormFactor.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1016/j.chemphyslip.2020.104892
+    identifier: 10.1016/j.chemphyslip.2020.104892
+    url: https://doi.org/10.1016/j.chemphyslip.2020.104892
+    name: The structures of polyunsaturated lipid bilayers by joint refinement of neutron and X-ray scattering data
+    isPartOf:
+      '@type': Periodical
+      name: Chemistry and Physics of Lipids
+  _source:
+    api: crossref
+    doi: 10.1016/j.chemphyslip.2020.104892
+    retrieved: '2026-09-09'
