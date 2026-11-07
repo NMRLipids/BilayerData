@@ -10,3 +10,46 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: 'full hydration'
 COUNTER_IONS:
   SOD: POPG
+bioschema_properties:
+  name: C-H bond order parameters of a POPG bilayer at 298 K, full hydration (NMR) [OhsOllila 2021]
+  description: >-
+    Experimental C-H bond order parameters for a lipid bilayer of POPG
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol) at 298 K, fully hydrated. Measured by
+    nuclear magnetic resonance spectroscopy. Values digitised into the NMRlipids Databank from
+    https://doi.org/10.5281/zenodo.4748647.
+  sameAs: https://doi.org/10.5281/zenodo.4748647
+  datePublished: '2021-05-11'
+  publisher: Zenodo
+  version: '0.0'
+  creator:
+  - name: OhsOllila
+  - name: Miettinen, Markus
+  - name: Akiirik
+  - name: Ivan-Gushchin-Mipt
+  - name: Pbuslaev
+  citation:
+  - 10.5281/zenodo.4748647
+  keywords:
+  - POPG
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: nuclear magnetic resonance spectroscopy
+    termCode: CHMO_0000591
+    inDefinedTermSet: http://purl.obolibrary.org/obo/chmo.owl
+    url: http://purl.obolibrary.org/obo/CHMO_0000591
+  distribution:
+  - '@type': DataDownload
+    name: POPG_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.5281/zenodo.4748647
+    identifier: 10.5281/zenodo.4748647
+    url: https://doi.org/10.5281/zenodo.4748647
+    name: 'NMRLipids/NMRlipidsIVPEandPG: First submission'
+  accessRights: openAccess
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.4748647
+    retrieved: '2026-10-22'

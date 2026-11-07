@@ -1,11 +1,12 @@
 name: LintReadmeLineLength
 
-# Flags README.yaml lines longer than 100 characters and suggests the fold that
-# fixes them. Advisory only: the job never fails on what it finds.
+# Flags README.yaml and bioschema_properties.yaml lines longer than 100
+# characters and suggests the fold that fixes them. Advisory only: the job never
+# fails on what it finds.
 #
 # pull_request_target, like AutocompleteExpSimMetadata, so the suggestions can be
 # posted on pull requests from forks too. That runs with a write token, so
-# nothing from the pull request is executed: its README files are only read, the
+# nothing from the pull request is executed: its YAML files are only read, the
 # yamllint configuration is written from this file rather than taken from the
 # checkout, and the fold script comes from FAIRMD_lipids main.
 
@@ -14,6 +15,8 @@ on:
     paths:
       - 'Simulations/**/README.yaml'
       - 'experiments/**/README.yaml'
+      - 'Simulations/**/bioschema_properties.yaml'
+      - 'experiments/**/bioschema_properties.yaml'
 
 permissions:
   contents: read
@@ -47,7 +50,7 @@ jobs:
         with:
           version: 2.83.0
 
-      - name: Find changed README.yaml files
+      - name: Find changed README.yaml and bioschema_properties.yaml files
         id: files
         env:
           GH_TOKEN: ${{ github.token }}
@@ -55,7 +58,8 @@ jobs:
           changed_files=$(gh api --paginate \
             "repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files" \
             --jq '.[] | select(.status != "removed") | .filename' \
-            | grep -E '^(Simulations|experiments)/.+/README\.yaml$' || true)
+            | grep -E '^(Simulations|experiments)/(.+/README|(.+/)?bioschema_properties)\.yaml$' \
+            || true)
           {
             echo "changed_files<<EOF"
             echo "$changed_files"
@@ -75,6 +79,14 @@ jobs:
       # space in it cannot be folded, so `key: <one long word>` is allowed.
       # filter-mode=added keeps it to the lines this pull request writes, not the
       # ones already in the file.
+      #
+      # yamllint exits 1 whenever it finds a long line, and pipefail would carry
+      # that through reviewdog and fail the job -- even for lines that were
+      # already in the file and that filter-mode=added never reports. Its output
+      # goes to a file first, and only its "problems found" status is tolerated.
+      # A Python crash also exits 1, so status 1 counts as "problems found" only
+      # when yamllint reported at least one problem and wrote nothing to stderr;
+      # any other outcome fails the step.
       - name: Highlight lines over 100 characters
         if: steps.files.outputs.changed_files != ''
         env:
@@ -89,15 +101,27 @@ jobs:
               allow-non-breakable-inline-mappings: true
           EOF
           mapfile -t files <<< "$CHANGED_FILES"
+          status=0
           yamllint -f parsable -c "$RUNNER_TEMP/yamllint.yaml" "${files[@]}" \
-            | reviewdog \
-                -name=line-length \
-                -efm='%f:%l:%c: [%t%*[a-z]] %m' \
-                -reporter=github-pr-review \
-                -filter-mode=added \
-                -fail-level=none \
-                -level=warning \
-                -tee
+            > "$RUNNER_TEMP/yamllint.out" 2> "$RUNNER_TEMP/yamllint.err" || status=$?
+          cat "$RUNNER_TEMP/yamllint.err" >&2
+          if [ "$status" -ne 0 ] && {
+              [ "$status" -ne 1 ] \
+              || [ -s "$RUNNER_TEMP/yamllint.err" ] \
+              || [ ! -s "$RUNNER_TEMP/yamllint.out" ]
+            }; then
+            echo "::error::yamllint failed (exit $status) without reporting any problem"
+            exit "$status"
+          fi
+          reviewdog \
+            -name=line-length \
+            -efm='%f:%l:%c: [%t%*[a-z]] %m' \
+            -reporter=github-pr-review \
+            -filter-mode=added \
+            -fail-level=none \
+            -level=warning \
+            -tee \
+            < "$RUNNER_TEMP/yamllint.out"
 
       # Same pattern as the suggestion step in AutocompleteExpSimMetadata: run the
       # fixer, hand its diff to reviewdog, and restore the pull request's files

@@ -40,14 +40,12 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 519
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPC bilayer at 298 K (MacRog, GROMACS 4.5.5, 50 ns)
-    [NMRlipids simulation 519]
+  name: Molecular dynamics trajectory of a POPC bilayer at 298 K (MacRog, GROMACS 4.5.5, 50 ns)
   alternateName: 288POPC_7200SOL_298K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 288 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 298 K. Simulated with MacRog in GROMACS
-    4.5.5 for 50 ns (60192 atoms). Deposited as NMRlipids Databank simulation 519 and available from
+    4.5.5 for 50 ns (60192 atoms). Part of the NMRlipids Databank and available from
     https://doi.org/10.5281/zenodo.13498.
   sameAs: https://doi.org/10.5281/zenodo.13498
   datePublished: '2014-12-30'
@@ -63,39 +61,9 @@ bioschema_properties:
   - 10.1101/2020.11.09.374850
   - 10.1021/acs.jpcb.5b04878
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 4.5.5)
   - MacRog force field
   variableMeasured:
@@ -143,4 +111,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.13498
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

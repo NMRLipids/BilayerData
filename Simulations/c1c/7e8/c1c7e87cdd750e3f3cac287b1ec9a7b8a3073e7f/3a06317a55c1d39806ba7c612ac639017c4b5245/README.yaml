@@ -45,13 +45,12 @@ WARNINGS:
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a DMPC bilayer at 314 K (OPLS4, GROMACS Desmond 2022-2, 490 ns)
-    [NMRlipids simulation 812]
   alternateName: 200DMPC_4000SOL_300K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 200 DMPC
     (1,2-dimyristoyl-sn-glycero-3-phosphocholine) at 314 K. Simulated with OPLS4 in GROMACS Desmond
-    2022-2 for 490 ns (35600 atoms). Deposited as NMRlipids Databank simulation 812 and available
-    from https://doi.org/10.5281/zenodo.11044799.
+    2022-2 for 490 ns (35600 atoms). Part of the NMRlipids Databank and available from
+    https://doi.org/10.5281/zenodo.11044799.
   sameAs: https://doi.org/10.5281/zenodo.11044799
   datePublished: '2024-04-23'
   license:
@@ -63,39 +62,9 @@ bioschema_properties:
   creator:
   - name: Kurki, Milla
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - DMPC
   - 1,2-dimyristoyl-sn-glycero-3-phosphocholine
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs Desmond 2022-2)
   - OPLS4 force field
   variableMeasured:
@@ -143,4 +112,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.11044799
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

@@ -45,15 +45,13 @@ EXPERIMENT:
   - 10.1021/jp511159q/1
 ID: 790
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a POPE bilayer at 310 K (Charmm36, GROMACS 2022.5, 512 ns)
-    [NMRlipids simulation 790]
+  name: Molecular dynamics trajectory of a POPE bilayer at 310 K (Charmm36, GROMACS 2022.5, 512 ns)
   alternateName: POPE(313K,rfz)
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 144 POPE
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 310 K. Simulated with Charmm36 in
-    GROMACS 2022.5 for 512 ns (35280 atoms). Deposited as NMRlipids Databank simulation 790 and
-    available from https://doi.org/10.5281/zenodo.8435138.
+    GROMACS 2022.5 for 512 ns (35280 atoms). Part of the NMRlipids Databank and available from
+    https://doi.org/10.5281/zenodo.8435138.
   sameAs: https://doi.org/10.5281/zenodo.8435138
   datePublished: '2023-10-12'
   license:
@@ -68,31 +66,6 @@ bioschema_properties:
   - name: Miettinen, Markus S.
     identifier: https://orcid.org/0000-0002-3999-4722
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - POPE
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
   - MD simulation
@@ -102,11 +75,6 @@ bioschema_properties:
   - GROMACS
   - NMRlipids
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 2022.5)
   - Charmm36 force field
   variableMeasured:
@@ -158,4 +126,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.8435138
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

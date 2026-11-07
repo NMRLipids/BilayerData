@@ -61,14 +61,14 @@ ID: 200
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a SOD/CLA/POPC/POPS (39:34:22:4) bilayer at 298 K (Lipid17 and
-    Dang ions, GROMACS 2018.0, 1000 ns) [NMRlipids simulation 200]
+    Dang ions, GROMACS 2018.0, 1000 ns)
   alternateName: 12POPS_60POPC_3377SOL_104SOD_92CLA_298K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 104 SOD (39 mol%), 92 CLA (34 mol%), 60 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 22 mol%) and 12 POPS
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 4 mol%) at 298 K. Simulated with Lipid17
-    and Dang ions in GROMACS 2018.0 for 1000 ns (19891 atoms). Deposited as NMRlipids Databank
-    simulation 200 and available from https://doi.org/10.5281/zenodo.1487895.
+    and Dang ions in GROMACS 2018.0 for 1000 ns (19891 atoms). Part of the NMRlipids Databank and
+    available from https://doi.org/10.5281/zenodo.1487895.
   sameAs: https://doi.org/10.5281/zenodo.1487895
   datePublished: '2018-11-14'
   license:
@@ -81,31 +81,6 @@ bioschema_properties:
   - name: Melcr, Josef
     identifier: https://orcid.org/0000-0003-4729-3990
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - SOD
   - CLA
   - POPC
@@ -113,11 +88,6 @@ bioschema_properties:
   - POPS
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 2018.0)
   - Lipid17 and Dang ions force field
   variableMeasured:
@@ -169,4 +139,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.1487895
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

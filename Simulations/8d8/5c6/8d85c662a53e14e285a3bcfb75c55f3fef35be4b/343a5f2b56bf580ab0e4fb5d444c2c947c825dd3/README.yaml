@@ -56,13 +56,13 @@ ID: 10
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC/CLA/CAL (49:34:17) bilayer at 298 K (Berger delivered by
-    Peter Tieleman, GROMACS 4.5, 58 ns) [NMRlipids simulation 10]
+    Peter Tieleman, GROMACS 4.5, 58 ns)
   alternateName: 128POPC_44CAL_88CLA_7157SOL_298K_Berger
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 128 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 49 mol%), 88 CLA (34 mol%) and 44 CAL (17
     mol%) at 298 K. Simulated with Berger delivered by Peter Tieleman in GROMACS 4.5 for 58 ns
-    (28259 atoms). Deposited as NMRlipids Databank simulation 10 and available from
+    (28259 atoms). Part of the NMRlipids Databank and available from
     https://doi.org/10.5281/zenodo.32173.
   sameAs: https://doi.org/10.5281/zenodo.32173
   datePublished: '2015-10-16'
@@ -75,41 +75,11 @@ bioschema_properties:
   creator:
   - name: Ollila O. H. Samuli
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - CLA
   - CAL
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 4.5)
   - Berger delivered by Peter Tieleman force field
   variableMeasured:
@@ -161,4 +131,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.32173
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

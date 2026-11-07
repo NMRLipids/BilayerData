@@ -10,3 +10,62 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
 
+bioschema_properties:
+  name: C-H bond order parameters of a SM16 bilayer at 318 K, full hydration (NMR) [Doktorova 2020]
+  description: >-
+    Experimental C-H bond order parameters for a lipid bilayer of SM16
+    (N-palmitoyl-D-erythro-sphingosylphosphorylcholine) at 318 K, fully hydrated. Measured by
+    nuclear magnetic resonance spectroscopy. Values digitised into the NMRlipids Databank from
+    https://doi.org/10.1021/acs.jpcb.0c03389.
+  sameAs: https://doi.org/10.1021/acs.jpcb.0c03389
+  datePublished: '2020-05-29'
+  articleLicense:
+    url: https://doi.org/10.15223/policy-029
+    spdx: null
+  publisher: American Chemical Society (ACS)
+  creator:
+  - name: Milka Doktorova
+  - name: Norbert Kučerka
+  - name: Jacob J. Kinnun
+  - name: Jianjun Pan
+    identifier: https://orcid.org/0000-0002-7042-0022
+  - name: Drew Marquardt
+    identifier: https://orcid.org/0000-0001-6848-2497
+  - name: Haden L. Scott
+  - name: Richard M. Venable
+  - name: Richard W. Pastor
+    identifier: https://orcid.org/0000-0002-2454-5131
+  - name: Stephen R. Wassall
+  - name: John Katsaras
+  - name: Frederick A. Heberle
+    identifier: https://orcid.org/0000-0002-0424-3240
+  citation:
+  - 10.1021/acs.jpcb.0c03389
+  keywords:
+  - SM16
+  - N-palmitoyl-D-erythro-sphingosylphosphorylcholine
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: nuclear magnetic resonance spectroscopy
+    termCode: CHMO_0000591
+    inDefinedTermSet: http://purl.obolibrary.org/obo/chmo.owl
+    url: http://purl.obolibrary.org/obo/CHMO_0000591
+  distribution:
+  - '@type': DataDownload
+    name: SM16_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1021/acs.jpcb.0c03389
+    identifier: 10.1021/acs.jpcb.0c03389
+    url: https://doi.org/10.1021/acs.jpcb.0c03389
+    name: >-
+      Molecular Structure of Sphingomyelin in Fluid Phase Bilayers Determined by the Joint Analysis
+      of Small-Angle Neutron and X-ray Scattering Data
+    isPartOf:
+      '@type': Periodical
+      name: The Journal of Physical Chemistry B
+  _source:
+    api: crossref
+    doi: 10.1021/acs.jpcb.0c03389
+    retrieved: '2026-10-22'

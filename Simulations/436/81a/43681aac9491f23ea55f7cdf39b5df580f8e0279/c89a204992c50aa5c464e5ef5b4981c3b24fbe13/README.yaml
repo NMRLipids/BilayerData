@@ -49,13 +49,13 @@ ID: 13
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a CHOL/POPC (50:50) bilayer at 303 K (CHARMM36, GROMACS 2020.1,
-    840 ns) [NMRlipids simulation 13]
+    840 ns)
   alternateName: 122CHOL_122POPC_9760SOL_303K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 122 CHOL (cholesterol, 50 mol%) and 122 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 50 mol%) at 303 K. Simulated with CHARMM36 in
-    GROMACS 2020.1 for 840 ns (54656 atoms). Deposited as NMRlipids Databank simulation 13 and
-    available from https://doi.org/10.5281/zenodo.4071264.
+    GROMACS 2020.1 for 840 ns (54656 atoms). Part of the NMRlipids Databank and available from
+    https://doi.org/10.5281/zenodo.4071264.
   sameAs: https://doi.org/10.5281/zenodo.4071264
   datePublished: '2020-10-07'
   license:
@@ -68,31 +68,6 @@ bioschema_properties:
   - name: Antila, Hanne
     identifier: https://orcid.org/0000-0002-2474-5053
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - CHOL
   - cholesterol
   - POPC
@@ -100,11 +75,6 @@ bioschema_properties:
   - c36
   - gromacs
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 2020.1)
   - CHARMM36 force field
   variableMeasured:
@@ -153,4 +123,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.4071264
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

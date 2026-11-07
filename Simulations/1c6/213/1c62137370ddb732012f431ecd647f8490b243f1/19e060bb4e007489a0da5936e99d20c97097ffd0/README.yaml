@@ -65,14 +65,14 @@ ID: 25
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a CLA/POPC/CAL/POPS/SOD (39:30:19:6:6) bilayer at 298 K
-    (ECC-lipids, SPC/E water model, ECC-ions, GROMACS 2018.0, 823 ns) [NMRlipids simulation 25]
+    (ECC-lipids, SPC/E water model, ECC-ions, GROMACS 2018.0, 823 ns)
   alternateName: 12POPS_60POPC_3483SOL_39CAL_78CLA_12SOD_298K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 78 CLA (39 mol%), 60 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 30 mol%), 39 CAL (19 mol%), 12 POPS
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 6 mol%) and 12 SOD (6 mol%) at 298 K.
     Simulated with ECC-lipids, SPC/E water model, ECC-ions in GROMACS 2018.0 for 823 ns (20142
-    atoms). Deposited as NMRlipids Databank simulation 25 and available from
+    atoms). Part of the NMRlipids Databank and available from
     https://doi.org/10.5281/zenodo.1488102.
   sameAs: https://doi.org/10.5281/zenodo.1488102
   datePublished: '2018-11-14'
@@ -86,31 +86,6 @@ bioschema_properties:
   - name: Josef, Melcr
     identifier: https://orcid.org/0000-0003-4729-3990
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - CLA
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
@@ -119,11 +94,6 @@ bioschema_properties:
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
   - SOD
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 2018.0)
   - ECC-lipids, SPC/E water model, ECC-ions force field
   variableMeasured:
@@ -175,4 +145,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.1488102
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

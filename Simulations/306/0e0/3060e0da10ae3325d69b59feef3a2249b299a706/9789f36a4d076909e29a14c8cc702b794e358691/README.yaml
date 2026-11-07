@@ -58,14 +58,14 @@ ID: 458
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPE/SOD/POPG/CLA (52:24:17:7) bilayer at 310 K (Lipid17 for
-    lipids and AMBER ff15ipq for ions, GROMACS 5.1.2, 100 ns) [NMRlipids simulation 458]
+    lipids and AMBER ff15ipq for ions, GROMACS 5.1.2, 100 ns)
   alternateName: 371POPE_126POPG_176SOD_50CLA_25000SOL_310K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 374 POPE
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine, 52 mol%), 176 SOD (24 mol%), 126 POPG
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 17 mol%) and 50 CLA (7 mol%) at 310 K.
     Simulated with Lipid17 for lipids and AMBER ff15ipq for ions in GROMACS 5.1.2 for 100 ns (137978
-    atoms). Deposited as NMRlipids Databank simulation 458 and available from
+    atoms). Part of the NMRlipids Databank and available from
     https://doi.org/10.5281/zenodo.2579061.
   sameAs: https://doi.org/10.5281/zenodo.2579061
   datePublished: '2019-02-27'
@@ -79,31 +79,6 @@ bioschema_properties:
   - name: PEÓN, Antonio
     identifier: https://orcid.org/0000-0003-4803-988X
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - POPE
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
   - SOD
@@ -113,11 +88,6 @@ bioschema_properties:
   - POPG-POPE 1:3
   - LIPID17
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 5.1.2)
   - Lipid17 for lipids and AMBER  ff15ipq for ions force field
   variableMeasured:
@@ -166,4 +136,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.2579061
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

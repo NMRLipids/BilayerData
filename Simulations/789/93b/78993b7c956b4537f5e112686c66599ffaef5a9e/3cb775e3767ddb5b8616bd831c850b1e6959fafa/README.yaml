@@ -51,13 +51,13 @@ ID: 559
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC/CLA/SOD (38:31:31) bilayer at 310 K (Slipids for lipids,
-    Kohagen for NaCl, GROMACS 4.6, 100 ns) [NMRlipids simulation 559]
+    Kohagen for NaCl, GROMACS 4.6, 100 ns)
   alternateName: 200POPC_9000SOL_162SOD_162CLA_310K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 200 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 38 mol%), 162 CLA (31 mol%) and 162 SOD (31
     mol%) at 310 K. Simulated with Slipids for lipids, Kohagen for NaCl in GROMACS 4.6 for 100 ns
-    (54124 atoms). Deposited as NMRlipids Databank simulation 559 and available from
+    (54124 atoms). Part of the NMRlipids Databank and available from
     https://doi.org/10.5281/zenodo.35193.
   sameAs: https://doi.org/10.5281/zenodo.35193
   datePublished: '2015-12-11'
@@ -70,41 +70,11 @@ bioschema_properties:
   creator:
   - name: Javanainen, Matti
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - CLA
   - SOD
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 4.6)
   - Slipids for lipids, Kohagen for NaCl force field
   variableMeasured:
@@ -153,4 +123,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.35193
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

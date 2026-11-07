@@ -41,13 +41,13 @@ ID: 936
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a DPPC bilayer at 321 K (prosECCo 75 paper related data,
-    GROMACS 2022.5-plumed_2.8.2, 1000 ns) [NMRlipids simulation 936]
+    GROMACS 2022.5-plumed_2.8.2, 1000 ns)
   alternateName: DPPC_200_SOL_9000_prosECCo75_LO_321K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 200 DPPC
     (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 321 K. Simulated with prosECCo 75 paper related
-    data in GROMACS 2022.5-plumed_2.8.2 for 1000 ns (53000 atoms). Deposited as NMRlipids Databank
-    simulation 936 and available from https://doi.org/10.5281/zenodo.10635500.
+    data in GROMACS 2022.5-plumed_2.8.2 for 1000 ns (53000 atoms). Part of the NMRlipids Databank
+    and available from https://doi.org/10.5281/zenodo.10635500.
   sameAs: https://doi.org/10.5281/zenodo.10635500
   datePublished: '2024-02-08'
   license:
@@ -61,39 +61,9 @@ bioschema_properties:
   citation:
   - 10.1021/acs.jctc.4c00743
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - DPPC
   - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 2022.5-plumed_2.8.2)
   - prosECCo 75 paper related data force field
   variableMeasured:
@@ -131,6 +101,9 @@ bioschema_properties:
     - DPPC_200_SOL_9000_prosECCo75_LO_321K.tpr
     - DPPC_200_SOL_9000_prosECCo75.top
     - DPPC_200_SOL_9000_prosECCo75_LO_321K.gro
+  isBasedOn:
+  - experiments/OrderParameters/10.1021/bi00687a021/1
+  - experiments/FormFactors/10.1016/j.bbamem.2011.07.022/4
   isPartOf:
     '@type': Dataset
     '@id': https://doi.org/10.5281/zenodo.10635500
@@ -142,7 +115,7 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.10635500
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'
 EXPERIMENT:
   ORDERPARAMETER:
     DPPC:
