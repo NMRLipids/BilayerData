@@ -1,0 +1,47 @@
+DOI: 10.5281/zenodo.10683741
+TRJ:
+- - chol50.xtc
+SOFTWARE: gromacs
+PREEQTIME: 0
+TIMELEFTOUT: 0
+TEMPERATURE: 310.15
+SYSTEM: MD Simulation of POPC cholesterol (50%) bilayers, prosECCo75 FF
+PUBLICATION: https://doi.org/10.1021/acs.jctc.4c00743
+AUTHORS_CONTACT: Matti Javanainen
+SOFTWARE_VERSION: '2019.1'
+FF: prosECCo75
+CPT:
+- - chol50.cpt
+LOG:
+- - chol50.log
+TOP:
+- - chol50.top
+EDR:
+- - chol50.edr
+TPR:
+- - chol50.tpr
+GRO:
+- - chol50.gro
+COMPOSITION:
+  POPC:
+    NAME: POPC
+    MAPPING: mappingPOPCcharmm.yaml
+    COUNT:
+    - 100
+    - 100
+  CHOL:
+    NAME: CHL1
+    MAPPING: mappingCHOLESTEROLcharmm.yaml
+    COUNT:
+    - 101
+    - 99
+  SOL:
+    NAME: SOL
+    MAPPING: mappingSPCwater.yaml
+    COUNT: 18000
+TRAJECTORY_SIZE: 710864052
+TRJLENGTH: 200100.0
+NUMBER_OF_ATOMS: 95600
+DATEOFRUNNING: 17/10/2026
+TYPEOFSYSTEM: lipid bilayer
+ID: -1
