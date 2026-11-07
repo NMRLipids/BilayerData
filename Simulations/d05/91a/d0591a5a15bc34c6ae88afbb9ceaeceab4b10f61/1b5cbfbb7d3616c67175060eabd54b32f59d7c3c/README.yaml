@@ -65,14 +65,14 @@ ID: 621
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a SOD/POPC/CLA/POPS (34:32:25:8) bilayer at 310 K (Berger,
-    GROMACS 4.0.7, 50 ns) [NMRlipids simulation 621]
+    GROMACS 4.0.7, 50 ns)
   alternateName: 102POPC_26POPS_4290SOL_106SOD_80CLA_310K_Berger
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 106 SOD (34 mol%), 102 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 32 mol%), 80 CLA (25 mol%) and 26 POPS
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 8 mol%) at 310 K. Simulated with Berger in
-    GROMACS 4.0.7 for 50 ns (19790 atoms). Deposited as NMRlipids Databank simulation 621 and
-    available from https://doi.org/10.5281/zenodo.838219.
+    GROMACS 4.0.7 for 50 ns (19790 atoms). Part of the NMRlipids Databank and available from
+    https://doi.org/10.5281/zenodo.838219.
   sameAs: https://doi.org/10.5281/zenodo.838219
   datePublished: '2017-08-02'
   license:
@@ -86,31 +86,6 @@ bioschema_properties:
   citation:
   - 10.1016/j.bbamem.2011.11.033
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - SOD
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
@@ -118,11 +93,6 @@ bioschema_properties:
   - POPS
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 4.0.7)
   - Berger force field
   variableMeasured:
@@ -174,4 +144,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.838219
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

@@ -59,14 +59,14 @@ ID: 165
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC/CLA/SOD/CER (72:11:11:7) bilayer at 310 K (CHARMM36,
-    GROMACS 2016.2, 1070 ns) [NMRlipids simulation 165]
+    GROMACS 2016.2, 1070 ns)
   alternateName: 512POPC_50CER_28100SOL_75SOD_75CLA_310K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 512 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 72 mol%), 75 CLA (11 mol%), 75 SOD (11 mol%)
     and 50 CER (N-palmitoyl-D-erythro-sphingosine, 7 mol%) at 310 K. Simulated with CHARMM36 in
-    GROMACS 2016.2 for 1070 ns (158308 atoms). Deposited as NMRlipids Databank simulation 165 and
-    available from https://doi.org/10.5281/zenodo.1219494.
+    GROMACS 2016.2 for 1070 ns (158308 atoms). Part of the NMRlipids Databank and available from
+    https://doi.org/10.5281/zenodo.1219494.
   sameAs: https://doi.org/10.5281/zenodo.1219494
   datePublished: '2018-04-17'
   license:
@@ -81,31 +81,6 @@ bioschema_properties:
   citation:
   - 10.1021/acscentsci.7b00556
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - CLA
@@ -116,11 +91,6 @@ bioschema_properties:
   - ceramide
   - CER16
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 2016.2)
   - CHARMM36 force field
   variableMeasured:
@@ -169,4 +139,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.1219494
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

@@ -48,12 +48,11 @@ ID: 41
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a DPPC bilayer at 323 K (Berger-DPPC-98, GROMACS 4.6.6, 60 ns)
-    [NMRlipids simulation 41]
   alternateName: 72DPPC_2880SOL_323K_Berger
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 72 DPPC
     (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 323 K. Simulated with Berger-DPPC-98 in GROMACS
-    4.6.6 for 60 ns (12240 atoms). Deposited as NMRlipids Databank simulation 41 and available from
+    4.6.6 for 60 ns (12240 atoms). Part of the NMRlipids Databank and available from
     https://doi.org/10.5281/zenodo.13934.
   sameAs: https://doi.org/10.5281/zenodo.13934
   datePublished: '2015-01-13'
@@ -68,39 +67,9 @@ bioschema_properties:
   citation:
   - 10.1021/acs.jpcb.5b04878
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - DPPC
   - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 4.6.6)
   - Berger-DPPC-98 force field
   variableMeasured:
@@ -153,4 +122,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.13934
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

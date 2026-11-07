@@ -24,7 +24,10 @@ AUTHORS_CONTACT: Kav, Batuhan
 SYSTEM: DOPC_nosalt_at_303K_with_AMOEBA
 SOFTWARE_VERSION: v7.5.1
 FF: AMOEBA
-FF_SOURCE: OpenMM version https://github.com/Inniag/openmm-scripts-amoeba used in publication https://doi.org/10.1021/jacs.0c02394, original parameters  https://doi.org/10.1080/00268976.2018.1436201
+FF_SOURCE: >-
+  OpenMM version https://github.com/Inniag/openmm-scripts-amoeba used in publication
+  https://doi.org/10.1021/jacs.0c02394, original parameters
+  https://doi.org/10.1080/00268976.2018.1436201
 FF_DATE: null
 TRAJECTORY_SIZE: 1373734948
 TRJLENGTH: 201600.0
@@ -39,14 +42,12 @@ EXPERIMENT:
   - 10.1529/biophysj.108.132662/1
 ID: 742
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a DOPC bilayer at 303 K (AMOEBA, OPENMM v7.5.1, 202 ns)
-    [NMRlipids simulation 742]
+  name: Molecular dynamics trajectory of a DOPC bilayer at 303 K (AMOEBA, OPENMM v7.5.1, 202 ns)
   alternateName: DOPC_nosalt_at_303K_with_AMOEBA
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 72 DOPC
     (1,2-dioleoyl-sn-glycero-3-phosphocholine) at 303 K. Simulated with AMOEBA in OPENMM v7.5.1 for
-    202 ns (18576 atoms). Deposited as NMRlipids Databank simulation 742 and available from
+    202 ns (18576 atoms). Part of the NMRlipids Databank and available from
     https://doi.org/10.5281/zenodo.7604681.
   sameAs: https://doi.org/10.5281/zenodo.7604681
   datePublished: '2022-12-09'
@@ -60,39 +61,9 @@ bioschema_properties:
   - name: Kav, Batuhan
     identifier: https://orcid.org/0000-0003-4990-373X
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - DOPC
   - 1,2-dioleoyl-sn-glycero-3-phosphocholine
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (openMM v7.5.1)
   - AMOEBA force field
   variableMeasured:
@@ -143,4 +114,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.7604681
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

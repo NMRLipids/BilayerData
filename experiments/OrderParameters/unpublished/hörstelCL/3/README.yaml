@@ -13,13 +13,12 @@ REAGENT_SOURCES:
   water: Type I Milli-Q, degassed by argon bubbling
   DSS: Sigma-Aldrich
 SAMPLE_PROTOCOL: >
-  TLCL_0H/Na+ (27.3mg, 1.0 eq.) and DSS (0.25mg, 0.06eq.) were dissolved with 1ml chloroform:methanol
-  (7:3, v/v) in an Eppendorf vial. The solvent was evaporated at 40°C under a constant stream of
-  argon and freeze-dried over night. 18.0µl degassed water was added and the Eppendorf was stored
-  at 40°C for three days. Lost water was added and the sample was mixed thoroughly with a steel rod.
-  After another two days of equilibration the sample was again mixed before packing the insert.
-  Hydration by 1H MAS NMR: 18 per phosphate,
-  Na+ concentration guessed
+  TLCL_0H/Na+ (27.3mg, 1.0 eq.) and DSS (0.25mg, 0.06eq.) were dissolved with 1ml
+  chloroform:methanol (7:3, v/v) in an Eppendorf vial. The solvent was evaporated at 40°C under a
+  constant stream of argon and freeze-dried over night. 18.0µl degassed water was added and the
+  Eppendorf was stored at 40°C for three days. Lost water was added and the sample was mixed
+  thoroughly with a steel rod. After another two days of equilibration the sample was again mixed
+  before packing the insert. Hydration by 1H MAS NMR: 18 per phosphate, Na+ concentration guessed
 NMR:
   INSTRUMENT: Bruker Avance III HD 500 MHz, Triple Resonance CP-MAS Probe (4mm)
   METHOD: PDLF:R18_1^7
@@ -39,3 +38,58 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: 3.1
 COUNTER_IONS:
   SOD: TLCL_0H
+bioschema_properties:
+  name: >-
+    C-H bond order parameters of a TLCL_0H bilayer at 300.5 K, 30% water, with SOD and DSS (R-PDLF
+    NMR) [Miettinen 2026]
+  description: >-
+    Experimental C-H bond order parameters for a lipid bilayer of TLCL_0H (tetralinoleoyl
+    cardiolipin(2−)) at 300.5 K, hydrated to 30% water, with ions SOD; additives DSS. Measured by
+    R-type recoupling proton detected separated local field spectroscopy (PDLF:R18_1^7) on a Bruker
+    Avance III HD 500 MHz, Triple Resonance CP-MAS Probe (4mm). Values digitised into the NMRlipids
+    Databank from https://doi.org/10.57992/nmrxiv.p157.s1604.
+  sameAs: https://doi.org/10.57992/nmrxiv.p157.s1604
+  datePublished: '2026-01-16'
+  publisher: nmrXiv
+  creator:
+  - name: Miettinen, Markus
+    identifier: https://orcid.org/0000-0002-3999-4722
+  - name: Nesterenko, Alexey
+    identifier: https://orcid.org/0000-0003-1592-257X
+  - name: Hörstel, Ferdinand
+    identifier: https://orcid.org/0009-0004-1647-8209
+  citation:
+  - 10.57992/nmrxiv.p157.s1604
+  keywords:
+  - TLCL_0H
+  - tetralinoleoyl cardiolipin(2−)
+  - SOD
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: R-type recoupling proton detected separated local field spectroscopy
+    termCode: CHMO_0001068
+    inDefinedTermSet: http://purl.obolibrary.org/obo/chmo.owl
+    url: http://purl.obolibrary.org/obo/CHMO_0001068
+  - 'NMR: PDLF:R18_1^7'
+  - Bruker Avance III HD 500 MHz, Triple Resonance CP-MAS Probe (4mm)
+  distribution:
+  - '@type': DataDownload
+    name: TLCL_0H_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.57992/nmrxiv.p157.s1604
+    identifier: 10.57992/nmrxiv.p157.s1604
+    url: https://doi.org/10.57992/nmrxiv.p157.s1604
+    name: BHCL_Na_DSS
+    publisher: nmrXiv
+    license:
+      spdx: CC-BY-4.0
+      name: Creative Commons Attribution 4.0 International
+      url: https://spdx.org/licenses/CC-BY-4.0.html
+      sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  _source:
+    api: datacite
+    doi: 10.57992/nmrxiv.p157.s1604
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-10-22'

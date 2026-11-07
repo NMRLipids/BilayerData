@@ -9,3 +9,28 @@ ION_CONCENTRATIONS:
   CAL: 0
 TOTAL_LIPID_CONCENTRATION: 'full hydration'
 COUNTER_IONS:
+bioschema_properties:
+  name: >-
+    C-H bond order parameters of a DMPC bilayer at 315 K, full hydration (NMR) [unpublished,
+    nesterenkoDMPCbOG]
+  description: >-
+    Experimental C-H bond order parameters for a lipid bilayer of DMPC
+    (1,2-dimyristoyl-sn-glycero-3-phosphocholine) at 315 K, fully hydrated. Measured by nuclear
+    magnetic resonance spectroscopy. Unpublished data contributed to the NMRlipids Databank.
+  keywords:
+  - DMPC
+  - 1,2-dimyristoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: nuclear magnetic resonance spectroscopy
+    termCode: CHMO_0000591
+    inDefinedTermSet: http://purl.obolibrary.org/obo/chmo.owl
+    url: http://purl.obolibrary.org/obo/CHMO_0000591
+  distribution:
+  - '@type': DataDownload
+    name: DMPC_OrderParameters.json
+    encodingFormat: application/json
+  _source:
+    api: null
+    doi: null
+    retrieved: '2026-10-22'

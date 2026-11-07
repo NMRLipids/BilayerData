@@ -43,14 +43,12 @@ SOFTWARE: gromacs
 DIR_WRK: /media/osollila/Data/tmp/DATABANK/
 ID: 87
 bioschema_properties:
-  name: >-
-    Molecular dynamics trajectory of a DPPC bilayer at 325 K (CHARMM36, GROMACS 5.0.4, 400 ns)
-    [NMRlipids simulation 87]
+  name: Molecular dynamics trajectory of a DPPC bilayer at 325 K (CHARMM36, GROMACS 5.0.4, 400 ns)
   alternateName: 512DPPC_20480SOL_325K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 512 DPPC
     (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 325 K. Simulated with CHARMM36 in GROMACS 5.0.4
-    for 400 ns (128000 atoms). Deposited as NMRlipids Databank simulation 87 and available from
+    for 400 ns (128000 atoms). Part of the NMRlipids Databank and available from
     https://doi.org/10.5281/zenodo.16254.
   sameAs: https://doi.org/10.5281/zenodo.16254
   datePublished: '2015-03-21'
@@ -66,31 +64,6 @@ bioschema_properties:
   - name: Rissanen, Sami
   - name: Lolicato, Fabio
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - DPPC
   - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
   - Molecular Mechanics
@@ -98,11 +71,6 @@ bioschema_properties:
   - Bilayer
   - Gromacs
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 5.0.4)
   - CHARMM36 force field
   variableMeasured:
@@ -153,4 +121,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.16254
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

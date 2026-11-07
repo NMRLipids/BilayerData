@@ -5,13 +5,16 @@ MEMBRANE_COMPOSITION:
   DPPC: 1
 PH: UNKNOWN
 REAGENT_SOURCES:
-  DPPC: Synthesized locally (dipalmitoyl-3-sn-phosphatidylcholine), specifically deuterated at the choline (alpha, beta, gamma) and glycerol (C-3) positions.
+  DPPC: >-
+    Synthesized locally (dipalmitoyl-3-sn-phosphatidylcholine), specifically deuterated at the
+    choline (alpha, beta, gamma) and glycerol (C-3) positions.
   water: H2O and D2O
 TOTAL_HYDRATION: 50
 SAMPLE_PROTOCOL: >
-  DPPC bilayers were prepared by thoroughly mixing lipid (50 wt %) and water (50 wt %). 
-  Approximately 200-500 mg of liquid crystalline phase was used for measuring powder type spectra. 
-  Samples were sealed in ampoules and equilibrated above the phase transition temperature.
+  DPPC bilayers were prepared by thoroughly mixing lipid (50 wt %) and water (50
+  wt %). Approximately 200-500 mg of liquid crystalline phase was used for
+  measuring powder type spectra. Samples were sealed in ampoules and
+  equilibrated above the phase transition temperature.
 
 NMR:
   T_RF_HEATING: UNKNOWN
@@ -19,14 +22,20 @@ NMR:
   METHOD: 2H:SP
   SIGN_MEASURED: NONE
   DETAILS: >
-     The experiment studied the headgroup and glycerol backbone (g3) conformation.   
-     Absolute values of order parameters (|S_CD| = 0.00784 x Δν) were given in the publication as a function of temperature. The numbers given here were calculated (by @markussmiettinen) by fitting 
-     a line to the data points nearest to 322K and reading the value of the fit at 322K.
+     The experiment studied the headgroup and glycerol backbone (g3)
+     conformation. Absolute values of order parameters (|S_CD| = 0.00784 x Δν)
+     were given in the publication as a function of temperature. The numbers
+     given here were calculated (by @markussmiettinen) by fitting a line to the
+     data points nearest to 322K and reading the value of the fit at 322K.
 
-     For g3 the deuterium magnetic resonance spectra reveal two quadrupole splittings with 
-     separations of about 27 and 29 kHz" = 0.21168 and 0.22736 in terms of order parameters.The values below are extracted from Fig 6 of the publication, which showed the average 
-     value of two couplings with a difference of about 2 kHz" = 0.016, hence the values below are the fitted value of 0.220136724393763 +/- 0.008. It is not specified in the publication
-     which hydrogen corresponds to which splitting value, so HA has been assigned the largest magnitude and HB the smallest. 
+     For g3 the deuterium magnetic resonance spectra reveal two quadrupole
+     splittings with separations of about 27 and 29 kHz" = 0.21168 and 0.22736
+     in terms of order parameters.The values below are extracted from Fig 6 of
+     the publication, which showed the average value of two couplings with a
+     difference of about 2 kHz" = 0.016, hence the values below are the fitted
+     value of 0.220136724393763 +/- 0.008. It is not specified in the
+     publication which hydrogen corresponds to which splitting value, so HA has
+     been assigned the largest magnitude and HB the smallest.
 
      Signs determined as described in http://arxiv.org/abs/1309.2131v2
 
@@ -42,3 +51,48 @@ TOTAL_LIPID_CONCENTRATION: 1.362
 COUNTER_IONS:
  
 
+bioschema_properties:
+  name: C-H bond order parameters of a DPPC bilayer at 322 K, 50% water (2H NMR) [Gally 1975]
+  description: >-
+    Experimental C-H bond order parameters for a lipid bilayer of DPPC
+    (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 322 K, hydrated to 50% water. Measured by
+    solid-state nuclear magnetic resonance spectroscopy (2H:SP). Values digitised into the NMRlipids
+    Databank from https://doi.org/10.1021/bi00687a021.
+  sameAs: https://doi.org/10.1021/bi00687a021
+  datePublished: '1975-08-01'
+  publisher: American Chemical Society (ACS)
+  creator:
+  - name: Hans U. Gally
+  - name: Werner Niederberger
+  - name: Joachim Seelig
+  citation:
+  - 10.1021/bi00687a021
+  keywords:
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: solid-state nuclear magnetic resonance spectroscopy
+    termCode: CHMO_0000614
+    inDefinedTermSet: http://purl.obolibrary.org/obo/chmo.owl
+    url: http://purl.obolibrary.org/obo/CHMO_0000614
+  - 'NMR: 2H:SP'
+  distribution:
+  - '@type': DataDownload
+    name: DPPC_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1021/bi00687a021
+    identifier: 10.1021/bi00687a021
+    url: https://doi.org/10.1021/bi00687a021
+    name: >-
+      Conformation and motion of the choline head group in bilayers of
+      dipalmitoyl-3-sn-phosphatidylcholine
+    isPartOf:
+      '@type': Periodical
+      name: Biochemistry
+  _source:
+    api: crossref
+    doi: 10.1021/bi00687a021
+    retrieved: '2026-10-22'

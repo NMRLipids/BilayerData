@@ -58,14 +58,14 @@ EXPERIMENT:
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC/SM16/ERG (35:35:30) bilayer at 295 K (Slipids, GROMACS
-    2019.6, 100 ns) [NMRlipids simulation 847]
+    2019.6, 100 ns)
   alternateName: POPC/SM16/ERG(35:35:30)
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 360 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 35 mol%), 352 SM16
     (N-palmitoyl-D-erythro-sphingosylphosphorylcholine, 35 mol%) and 304 ERG (ergosterol, 30 mol%)
-    at 295 K. Simulated with Slipids in GROMACS 2019.6 for 100 ns (222656 atoms). Deposited as
-    NMRlipids Databank simulation 847 and available from https://doi.org/10.5281/zenodo.17730735.
+    at 295 K. Simulated with Slipids in GROMACS 2019.6 for 100 ns (222656 atoms). Part of the
+    NMRlipids Databank and available from https://doi.org/10.5281/zenodo.17730735.
   sameAs: https://doi.org/10.5281/zenodo.17730735
   datePublished: '2025-11-27'
   license:
@@ -80,31 +80,6 @@ bioschema_properties:
   citation:
   - 10.1016/j.bpc.2025.107408
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - SM16
@@ -114,11 +89,6 @@ bioschema_properties:
   - PSM
   - Gromacs
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 2019.6)
   - Slipids force field
   variableMeasured:
@@ -169,4 +139,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.17730735
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

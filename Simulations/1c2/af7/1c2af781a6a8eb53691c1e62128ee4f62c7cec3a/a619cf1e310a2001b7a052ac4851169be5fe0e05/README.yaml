@@ -56,14 +56,13 @@ ID: 530
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a SOD/POPG/CLA (50:46:4) bilayer at 310 K
-    (GROMOS-CKP-POPG-Tom_Piggot-v1, GROMACS 5.1.2, 100 ns) [NMRlipids simulation 530]
+    (GROMOS-CKP-POPG-Tom_Piggot-v1, GROMACS 5.1.2, 100 ns)
   alternateName: 500POPG_25000SOL_549SOD_49CLA_310K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 549 SOD (50 mol%), 500 POPG
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 46 mol%) and 49 CLA (4 mol%) at 310 K.
-    Simulated with GROMOS-CKP-POPG-Tom_Piggot-v1 in GROMACS 5.1.2 for 100 ns (102098 atoms).
-    Deposited as NMRlipids Databank simulation 530 and available from
-    https://doi.org/10.5281/zenodo.3378992.
+    Simulated with GROMOS-CKP-POPG-Tom_Piggot-v1 in GROMACS 5.1.2 for 100 ns (102098 atoms). Part of
+    the NMRlipids Databank and available from https://doi.org/10.5281/zenodo.3378992.
   sameAs: https://doi.org/10.5281/zenodo.3378992
   datePublished: '2019-02-19'
   license:
@@ -76,31 +75,6 @@ bioschema_properties:
   - name: PEÓN, Antonio
     identifier: https://orcid.org/0000-0003-4803-988X
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - SOD
   - POPG
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
@@ -109,11 +83,6 @@ bioschema_properties:
   - Gromos
   - Gromacs
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 5.1.2)
   - GROMOS-CKP-POPG-Tom_Piggot-v1 force field
   variableMeasured:
@@ -163,4 +132,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.3378992
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

@@ -9,24 +9,35 @@ ADDITIONAL_MOLECULES:
 PH: 7
 PH_METHOD: Buffer
 REAGENT_SOURCES: 
-  DPPC: Selectively deuterated at the choline alpha and beta segments as described by Gally et al. (1975). Nondeuterated DPPC was obtained from Fluka, Switzerland
+  DPPC: >-
+    Selectively deuterated at the choline alpha and beta segments as described
+    by Gally et al. (1975). Nondeuterated DPPC was obtained from Fluka,
+    Switzerland
   Pipes: AR grade
   EDTA: AR grade
 TOTAL_HYDRATION: 95
 SAMPLE_PROTOCOL: >
-  Lipid (~30 mg) was dispersed in ~30 mL of buffer at 50 °C and centrifuged to form a pellet. The pellet was transferred to a NMR sample tube and measured in the presence of 
-  excess buffer. A second series of experiments used a constant lipid concentration of 70 mM. No differences in quadrupole splittings were detected between the two sample types.
+  Lipid (~30 mg) was dispersed in ~30 mL of buffer at 50 °C and centrifuged to
+  form a pellet. The pellet was transferred to a NMR sample tube and measured in
+  the presence of excess buffer. A second series of experiments used a constant
+  lipid concentration of 70 mM. No differences in quadrupole splittings were
+  detected between the two sample types.
 
 NMR:
   T_RF_HEATING: UNKNOWN
-  INSTRUMENT: Spectrometers operating at 13.8 and 61.4 MHz (single-pulse mode) and at 46 MHz (quadrupole echo technique)
+  INSTRUMENT: >-
+    Spectrometers operating at 13.8 and 61.4 MHz (single-pulse mode) and at 46
+    MHz (quadrupole echo technique)
   METHOD: 2H:QE
   SIGN_MEASURED: NONE
   DETAILS: >
-    The interaction of mono-, di-, and trivalent metal ions (Na+, Ca2+, La3+) with DPPC bilayers was investigated. Quadrupole splittings were evaluated from 
-    powder-type spectra. The alpha segment was found to be almost insensitive to temperature, while the beta segment showed a pronounced decrease in splitting 
-    with increasing temperature
-    The study states that only relative signs could be determined. However, based on established databank conventions for PC headgroups, alpha is positive and beta is negative.
+    The interaction of mono-, di-, and trivalent metal ions (Na+, Ca2+, La3+)
+    with DPPC bilayers was investigated. Quadrupole splittings were evaluated
+    from powder-type spectra. The alpha segment was found to be almost
+    insensitive to temperature, while the beta segment showed a pronounced
+    decrease in splitting with increasing temperature The study states that only
+    relative signs could be determined. However, based on established databank
+    conventions for PC headgroups, alpha is positive and beta is negative.
 
 # outdated fields
 MOLAR_FRACTIONS:
@@ -39,3 +50,52 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: 0.07
 COUNTER_IONS:
 
+bioschema_properties:
+  name: >-
+    C-H bond order parameters of a DPPC bilayer at 332 K, 95% water, with EDTA/Pipes (2H NMR)
+    [Akutsu 1981]
+  description: >-
+    Experimental C-H bond order parameters for a lipid bilayer of DPPC
+    (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 332 K, hydrated to 95% water, with additives
+    EDTA and Pipes; pH 7 (Buffer). Measured by solid-state nuclear magnetic resonance spectroscopy
+    (2H:QE) on a Spectrometers operating at 13.8 and 61.4 MHz (single-pulse mode) and at 46 MHz
+    (quadrupole echo technique). Values digitised into the NMRlipids Databank from
+    https://doi.org/10.1021/bi00529a007.
+  sameAs: https://doi.org/10.1021/bi00529a007
+  datePublished: '1981-12-01'
+  publisher: American Chemical Society (ACS)
+  creator:
+  - name: Hideo Akutsu
+  - name: Joachim Seelig
+  citation:
+  - 10.1021/bi00529a007
+  keywords:
+  - DPPC
+  - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - '@type': DefinedTerm
+    name: solid-state nuclear magnetic resonance spectroscopy
+    termCode: CHMO_0000614
+    inDefinedTermSet: http://purl.obolibrary.org/obo/chmo.owl
+    url: http://purl.obolibrary.org/obo/CHMO_0000614
+  - 'NMR: 2H:QE'
+  - >-
+    Spectrometers operating at 13.8 and 61.4 MHz (single-pulse mode) and at 46 MHz (quadrupole echo
+    technique)
+  distribution:
+  - '@type': DataDownload
+    name: DPPC_OrderParameters.json
+    encodingFormat: application/json
+  isPartOf:
+    '@type': ScholarlyArticle
+    '@id': https://doi.org/10.1021/bi00529a007
+    identifier: 10.1021/bi00529a007
+    url: https://doi.org/10.1021/bi00529a007
+    name: Interaction of metal ions with phosphatidylcholine bilayer membranes
+    isPartOf:
+      '@type': Periodical
+      name: Biochemistry
+  _source:
+    api: crossref
+    doi: 10.1021/bi00529a007
+    retrieved: '2026-10-22'

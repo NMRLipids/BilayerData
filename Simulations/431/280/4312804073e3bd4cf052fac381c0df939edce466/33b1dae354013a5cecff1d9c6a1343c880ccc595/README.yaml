@@ -58,15 +58,14 @@ ID: 460
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC/POPS/SOD (71:14:14) bilayer at 298 K (GROMOS-CKP, GROMOS
-    NH3 charges and PME, GROMACS, 100 ns) [NMRlipids simulation 460]
+    NH3 charges and PME, GROMACS, 100 ns)
   alternateName: 110POPC_22POPS_4620SOL_22SOD_298K_GROMOS-CKP_v2
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 110 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 71 mol%), 22 POPS
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine, 14 mol%) and 22 SOD (14 mol%) at 298 K.
-    Simulated with GROMOS-CKP, GROMOS NH3 charges and PME in GROMACS for 100 ns (20812 atoms).
-    Deposited as NMRlipids Databank simulation 460 and available from
-    https://doi.org/10.5281/zenodo.1283333.
+    Simulated with GROMOS-CKP, GROMOS NH3 charges and PME in GROMACS for 100 ns (20812 atoms). Part
+    of the NMRlipids Databank and available from https://doi.org/10.5281/zenodo.1283333.
   sameAs: https://doi.org/10.5281/zenodo.1283333
   datePublished: '2018-06-05'
   license:
@@ -78,42 +77,12 @@ bioschema_properties:
   creator:
   - name: Piggot, Thomas
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - POPS
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phospho-L-serine
   - SOD
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs)
   - GROMOS-CKP, GROMOS NH3 charges and PME force field
   variableMeasured:
@@ -162,4 +131,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.1283333
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

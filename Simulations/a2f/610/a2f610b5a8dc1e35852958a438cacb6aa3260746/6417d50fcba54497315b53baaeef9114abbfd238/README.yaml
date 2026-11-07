@@ -65,15 +65,14 @@ EXPERIMENT:
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a CHOL/POPC/SM18/CLA/SOD (30:30:30:5:5) bilayer at 321.15 K
-    (CHARMM36, GROMACS 2020.4 and 2021.4, 300 ns) [NMRlipids simulation 764]
+    (CHARMM36, GROMACS 2020.4 and 2021.4, 300 ns)
   alternateName: POPC/SSM/CHOL bilayer in water (with ions), 321.15 K, NPT
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 100 CHOL (cholesterol, 30 mol%), 100 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 30 mol%), 100 SM18
     (N-stearoyl-D-erythro-sphingosylphosphorylcholine, 30 mol%), 18 CLA (5 mol%) and 18 SOD (5 mol%)
-    at 321.15 K. Simulated with CHARMM36 in GROMACS 2020.4 and 2021.4 for 300 ns (61136 atoms).
-    Deposited as NMRlipids Databank simulation 764 and available from
-    https://doi.org/10.5281/zenodo.8337239.
+    at 321.15 K. Simulated with CHARMM36 in GROMACS 2020.4 and 2021.4 for 300 ns (61136 atoms). Part
+    of the NMRlipids Databank and available from https://doi.org/10.5281/zenodo.8337239.
   sameAs: https://doi.org/10.5281/zenodo.8337239
   datePublished: '2023-09-12'
   license:
@@ -90,31 +89,6 @@ bioschema_properties:
   - name: Monticelli, Luca
     identifier: https://orcid.org/0000-0002-6352-4595
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - CHOL
   - cholesterol
   - POPC
@@ -128,11 +102,6 @@ bioschema_properties:
   - CHARMM36
   - sphingomyelin
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 2020.4 and 2021.4)
   - CHARMM36 force field
   variableMeasured:
@@ -181,4 +150,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.8337239
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

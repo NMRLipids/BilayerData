@@ -56,14 +56,14 @@ ID: 253
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC/POPG/SOD/CLA/CAL (25:25:25:18:9) bilayer at 298 K
-    (lipid17ecc, GROMACS, 300 ns) [NMRlipids simulation 253]
+    (lipid17ecc, GROMACS, 300 ns)
   alternateName: POPC:POPG(1:1)_T298K_100mM_CaCl
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 150 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 25 mol%), 150 POPG
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol, 25 mol%), 150 SOD (25 mol%), 108 CLA (18
     mol%) and 54 CAL (9 mol%) at 298 K. Simulated with lipid17ecc in GROMACS for 300 ns (129057
-    atoms). Deposited as NMRlipids Databank simulation 253 and available from
+    atoms). Part of the NMRlipids Databank and available from
     https://doi.org/10.5281/zenodo.3855729.
   sameAs: https://doi.org/10.5281/zenodo.3855729
   datePublished: '2020-05-26'
@@ -77,31 +77,6 @@ bioschema_properties:
   - name: Ollila, O. H. Samuli
   - name: Virtanen, I. Salla
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - POPG
@@ -110,11 +85,6 @@ bioschema_properties:
   - CLA
   - CAL
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs)
   - lipid17ecc force field
   variableMeasured:
@@ -162,4 +132,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.3855729
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

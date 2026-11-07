@@ -52,13 +52,13 @@ ID: 660
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC/CHOL (89:11) bilayer at 298.15 K (MacRog, GROMACS 2021,
-    1001 ns) [NMRlipids simulation 660]
+    1001 ns)
   alternateName: MacRog_POPC_CHOL11_L
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 1024 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 89 mol%) and 128 CHOL (cholesterol, 11 mol%)
-    at 298.15 K. Simulated with MacRog in GROMACS 2021 for 1001 ns (319488 atoms). Deposited as
-    NMRlipids Databank simulation 660 and available from https://doi.org/10.5281/zenodo.7061800.
+    at 298.15 K. Simulated with MacRog in GROMACS 2021 for 1001 ns (319488 atoms). Part of the
+    NMRlipids Databank and available from https://doi.org/10.5281/zenodo.7061800.
   sameAs: https://doi.org/10.5281/zenodo.7061800
   datePublished: '2022-09-08'
   license:
@@ -71,41 +71,11 @@ bioschema_properties:
   - name: Javanainen, Matti
     identifier: https://orcid.org/0000-0003-4858-364X
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - CHOL
   - cholesterol
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 2021)
   - MacRog force field
   variableMeasured:
@@ -156,4 +126,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.7061800
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

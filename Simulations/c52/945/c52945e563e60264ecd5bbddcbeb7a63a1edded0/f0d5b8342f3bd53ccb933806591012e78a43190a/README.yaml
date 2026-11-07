@@ -47,13 +47,13 @@ EXPERIMENT:
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a DPPC/C20 (86:14) bilayer at 333 K (Slipids, GROMACS 2018.7,
-    100 ns) [NMRlipids simulation 885]
+    100 ns)
   alternateName: DPPC:C20(72:20)_60C_Slipids
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 72 DPPC
     (1,2-dipalmitoyl-sn-glycero-3-phosphocholine, 86 mol%) and 12 C20 (n-Eicosane, 14 mol%) at 333
-    K. Simulated with Slipids in GROMACS 2018.7 for 100 ns (13563 atoms). Deposited as NMRlipids
-    Databank simulation 885 and available from https://doi.org/10.5281/zenodo.7572990.
+    K. Simulated with Slipids in GROMACS 2018.7 for 100 ns (13563 atoms). Part of the NMRlipids
+    Databank and available from https://doi.org/10.5281/zenodo.7572990.
   sameAs: https://doi.org/10.5281/zenodo.7572990
   datePublished: '2023-01-26'
   license:
@@ -70,41 +70,11 @@ bioschema_properties:
   citation:
   - 10.1002/mats.202200078
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - DPPC
   - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine
   - C20
   - n-Eicosane
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 2018.7)
   - Slipids force field
   variableMeasured:
@@ -155,4 +125,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.7572990
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'

@@ -50,13 +50,13 @@ ID: 831
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC bilayer at 298 K (C36_Slipids_Hybrid, GROMACS 2024.3,
-    500 ns) [NMRlipids simulation 831]
+    500 ns)
   alternateName: POPC_hybrid_slmdp
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 128 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 298 K. Simulated with C36_Slipids_Hybrid
-    in GROMACS 2024.3 for 500 ns (36352 atoms). Deposited as NMRlipids Databank simulation 831 and
-    available from https://doi.org/10.5281/zenodo.15172176.
+    in GROMACS 2024.3 for 500 ns (36352 atoms). Part of the NMRlipids Databank and available from
+    https://doi.org/10.5281/zenodo.15172176.
   sameAs: https://doi.org/10.5281/zenodo.15172176
   datePublished: '2025-04-08'
   license:
@@ -72,39 +72,9 @@ bioschema_properties:
   - name: Javanainen, Matti
     identifier: https://orcid.org/0000-0003-4858-364X
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 2024.3)
   - C36_Slipids_Hybrid force field
   variableMeasured:
@@ -156,4 +126,4 @@ bioschema_properties:
     api: datacite
     doi: 10.5281/zenodo.15172176
     spdxLicenseList: 3.29.0
-    retrieved: '2026-09-23'
+    retrieved: '2026-11-05'
