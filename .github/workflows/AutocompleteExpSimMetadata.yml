@@ -38,11 +38,6 @@ jobs:
         working-directory: Databank
         run: pip install .
 
-      - name: Install the gh cli
-        uses: ksivamuthu/actions-setup-gh-cli@v3
-        with:
-          version: 2.83.0
-
       - name: Find changed README.yaml and bioschema_properties.yaml files
         id: files
         env:

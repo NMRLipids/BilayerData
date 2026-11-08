@@ -24,11 +24,6 @@ jobs:
           path: BilayerData
           persist-credentials: false
 
-      - name: Install the gh cli
-        uses: ksivamuthu/actions-setup-gh-cli@v3
-        with:
-          version: 2.83.0
-
       - name: Install FAIRMD_lipids dependencies
         run: |
           pip install git+https://github.com/NMRLipids/FAIRMD_lipids.git
