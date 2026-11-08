@@ -1,4 +1,4 @@
-name: CheckMetadataSchema.yaml
+name: "Check Molecular Metadata"
 
 on:
   pull_request:
