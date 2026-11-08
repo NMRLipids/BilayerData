@@ -10,7 +10,6 @@ permissions:
 
 jobs:
   Check-Readme:
-    if: github.repository == 'NMRLipids/BilayerData' 
     runs-on: ubuntu-latest
     env:
       FMDL_DATA_PATH: ${{ github.workspace }}/BilayerData
