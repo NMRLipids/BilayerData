@@ -72,11 +72,31 @@ jobs:
             echo "::endgroup::"
           done <<< "$CHANGED_FILES"
 
+      - name: Set up reviewdog
+        if: steps.files.outputs.changed_files != ''
+        uses: reviewdog/action-setup@v1
+        with:
+          reviewdog_version: v0.21.2
+
       - name: Suggest changes on PR
         if: steps.files.outputs.changed_files != ''
-        uses: reviewdog/action-suggester@v1
-        with:
-          tool_name: molmetadata
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          fail_level: none         # post suggestions without failing the job
-          reviewdog_flags: -tee    # echo reviewdog's stdout/stderr to the log
+        env:
+          REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git diff > "$RUNNER_TEMP/autocomplete-mol.diff"
+          python Databank/developer/reanchor_eof_hunks.py \
+            < "$RUNNER_TEMP/autocomplete-mol.diff" \
+            > "$RUNNER_TEMP/autocomplete-mol.reanchored.diff"
+          git stash -u
+          reviewdog \
+            -name=molmetadata \
+            -f=diff \
+            -f.diff.strip=1 \
+            -reporter=github-pr-review \
+            -filter-mode=diff_context \
+            -fail-level=none \
+            -level=warning \
+            -tee \
+            < "$RUNNER_TEMP/autocomplete-mol.reanchored.diff"
+          git stash drop || true
