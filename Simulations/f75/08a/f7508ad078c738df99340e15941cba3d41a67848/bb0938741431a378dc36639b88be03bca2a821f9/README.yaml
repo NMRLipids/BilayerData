@@ -43,7 +43,7 @@ TRJLENGTH: 200100.0
 NUMBER_OF_ATOMS: 95600
 DATEOFRUNNING: '2026-10-17'
 TYPEOFSYSTEM: lipid bilayer
-ID: -1
+ID: 964
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a CHOL/POPC (50:50) bilayer at 310.15 K (prosECCo75, GROMACS
