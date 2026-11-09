@@ -40,7 +40,7 @@ jobs:
             git checkout -B analysis/update-sims origin/analysis/update-sims
             git merge --no-edit origin/main
           else
-            git checkout -b analysis/update-sims origin/main
+            echo "Analysis branch does not exist yet; create-pull-request will create it."
           fi
 
       - name: Check source pull request
