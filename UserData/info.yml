@@ -1,0 +1,25 @@
+DOI: 10.5281/zenodo.23998890
+TRJ: production_30_200ns_10ps.xtc
+SOFTWARE: gromacs
+PREEQTIME: 30
+TIMELEFTOUT: 0
+TEMPERATURE: 298
+SYSTEM: Molecular dynamics trajectory of a POPE bilayer at 298 K (Lipid21, GROMACS 2025.4, 170 ns)
+AUTHORS_CONTACT: Emilie Fjeldberg Taule emilie.taule@uib.no
+SOFTWARE_VERSION: '2025.4'
+FF: Lipid21
+FF_SOURCE: CHARMM-GUI
+FF_DATE: 15.10.2026
+CPT: production.cpt
+LOG: production.log
+TOP: topol.top
+EDR: production.edr
+TPR: production_200ns.tpr
+GRO: production_30ns.gro
+COMPOSITION:
+  POPE:
+    NAME: PE
+    MAPPING: mappingPOPE_AmberLipid.yaml
+  SOL:
+    NAME: OPC
+    MAPPING: mappingOPC_amber.yaml
