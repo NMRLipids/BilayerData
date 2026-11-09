@@ -6,7 +6,6 @@ PREEQTIME: 0
 TIMELEFTOUT: 0
 TEMPERATURE: 310.15
 SYSTEM: MD Simulation of POPC cholesterol (20%) bilayers, prosECCo75 FF
-PUBLICATION: https://doi.org/10.1021/acs.jctc.4c00743
 AUTHORS_CONTACT: Matti Javanainen
 SOFTWARE_VERSION: '2019.1'
 FF: prosECCo75
@@ -42,6 +41,83 @@ COMPOSITION:
 TRAJECTORY_SIZE: 429504580
 TRJLENGTH: 200100.0
 NUMBER_OF_ATOMS: 57500
-DATEOFRUNNING: 17/10/2026
+DATEOFRUNNING: '2026-10-17'
 TYPEOFSYSTEM: lipid bilayer
 ID: -1
+bioschema_properties:
+  name: >-
+    Molecular dynamics trajectory of a POPC/CHOL (80:20) bilayer at 310.15 K (prosECCo75, GROMACS
+    2019.1, 200 ns)
+  alternateName: MD Simulation of POPC cholesterol (20%) bilayers, prosECCo75 FF
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 200 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 80 mol%) and 50 CHOL (cholesterol, 20 mol%)
+    at 310.15 K. Simulated with prosECCo75 in GROMACS 2019.1 for 200 ns (57500 atoms). Part of the
+    NMRlipids Databank and available from https://doi.org/10.5281/zenodo.10683741.
+  sameAs: https://doi.org/10.5281/zenodo.10683741
+  datePublished: '2024-02-20'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Javanainen, Matti
+  citation:
+  - 10.1021/acs.jctc.4c00743
+  keywords:
+  - POPC
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
+  - CHOL
+  - cholesterol
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2019.1)
+  - prosECCo75 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.10683741
+    name: MD Simulation of POPC cholesterol (20%) bilayers, prosECCo75 FF
+    contentSize: 429504580
+    encodingFormat: application/x-xtc
+    hasPart:
+    - chol20.xtc
+    - chol20.tpr
+    - chol20.top
+    - chol20.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.10683741
+    identifier: 10.5281/zenodo.10683741
+    url: https://doi.org/10.5281/zenodo.10683741
+    name: MD Simulation of POPC cholesterol bilayers, prosECCo75 FF, different compositions, 310 K
+    publisher: Zenodo
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.10683741
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-11-08'
