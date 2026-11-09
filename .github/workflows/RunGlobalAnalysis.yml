@@ -29,6 +29,20 @@ jobs:
         with:
           path: BilayerData
 
+      - name: Prepare analysis branch
+        working-directory: BilayerData
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          if git ls-remote --exit-code origin \
+              'refs/heads/analysis/update-sims' >/dev/null 2>&1; then
+            git fetch origin analysis/update-sims
+            git checkout -B analysis/update-sims origin/analysis/update-sims
+            git merge --no-edit origin/main
+          else
+            git checkout -b analysis/update-sims origin/main
+          fi
+
       - name: Check source pull request
         id: source-pr
         env:
@@ -71,8 +85,9 @@ jobs:
           committer: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
           author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
           title: Global simulation analysis after simulation addition
-          branch: analysis/update-sims-${{ github.run_number }}-${{ github.sha }}
+          branch: analysis/update-sims
           base: main
+          delete-branch: false
           body: |
             This PR automatically runs the global analysis scripts:
                 - match simulations to experiments
