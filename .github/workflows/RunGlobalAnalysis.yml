@@ -13,6 +13,10 @@ on:
       - 'experiments/**'
   workflow_dispatch:
 
+concurrency:
+  group: global-analysis
+  cancel-in-progress: true
+
 jobs:
   GlobalAnalysis:
     runs-on: ubuntu-26.04
@@ -60,6 +64,10 @@ jobs:
               --jq 'any(.[]; (.title | startswith("Upload Portal:")) or any(.labels[]?; .name == "GlobAnalysis"))'
           )"
           echo "skip=$skip" >> "$GITHUB_OUTPUT"
+
+      - name: Verify simulation IDs
+        if: steps.source-pr.outputs.skip != 'true'
+        run: bash .github/workflows/CheckIDs.sh validate
 
       - name: Checkout Databank API
         if: steps.source-pr.outputs.skip != 'true'

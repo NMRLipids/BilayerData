@@ -17,6 +17,10 @@ on:
     paths: ['Simulations/**/README.yaml']
   workflow_dispatch:
 
+concurrency:
+  group: update-ids
+  cancel-in-progress: true
+
 jobs:
   UpdateIDs:
     runs-on: ubuntu-26.04
@@ -35,6 +39,7 @@ jobs:
             git fetch origin maintanance/update-id
             git checkout -B maintanance/update-id origin/maintanance/update-id
             git reset --hard origin/main
+            git checkout --detach origin/main
           else
             echo "Update branch does not exist yet; create-pull-request will create it."
           fi
