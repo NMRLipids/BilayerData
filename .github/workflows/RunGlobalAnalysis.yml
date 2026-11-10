@@ -40,7 +40,7 @@ jobs:
               'refs/heads/analysis/update-sims' >/dev/null 2>&1; then
             git fetch origin analysis/update-sims
             git checkout -B analysis/update-sims origin/analysis/update-sims
-            git merge --no-edit --allow-unrelated-histories origin/main
+            git reset --hard origin/main
           else
             echo "Analysis branch does not exist yet; create-pull-request will create it."
           fi
