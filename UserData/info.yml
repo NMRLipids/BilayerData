@@ -9,7 +9,7 @@ AUTHORS_CONTACT: Emilie Fjeldberg Taule emilie.taule@uib.no
 SOFTWARE_VERSION: '2025.4'
 FF: Lipid21
 FF_SOURCE: CHARMM-GUI
-FF_DATE: 15.10.2026
+FF_DATE: 02.10.2026
 CPT: production.cpt
 LOG: production.log
 TOP: topol.top
