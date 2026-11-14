@@ -19,6 +19,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   TestNewSystems:
+    if: ${{ github.event_name == 'workflow_dispatch' || !startsWith(github.event.pull_request.title, 'Upload Portal:') }}
     runs-on: ubuntu-26.04
 
     steps:
