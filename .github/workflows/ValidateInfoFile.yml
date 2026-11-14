@@ -10,7 +10,7 @@ on:
 jobs:
   ValidateInfoFile:
     if: "${{ github.event.pull_request.head.repo.full_name == 'NMRlipids/UserData' && github.repository == 'NMRlipids/BilayerData' }}"
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     container:
       image: nmrlipids/core
       options: --user 1001:118 # run container as uid=1001,gid=118 to match the GitHub runner user
@@ -43,15 +43,18 @@ jobs:
         uses: actions/checkout@v7
         with:
           repository: NMRLipids/Databank
-          ref: main
+          ref: v1.7.0
           path: Databank
 
-      - name: Run dry run of AddData 
+      - name: Install Databank API
         if: steps.check_info.outputs.found == 'true'
+        working-directory: Databank
+        run: pip install .
+
+      - name: Run dry run of AddData
+        if: steps.check_info.outputs.found == 'true'
+        working-directory: Databank
         env:
           TQDM_DISABLE: True
-        working-directory: Databank
-        run: |
-          pip install .
-          python developer/process_info_file.py \
-            --info_file_path ../BilayerData/UserData/info.yml --dry-run
+        run: python developer/process_info_file.py \
+          --info_file_path ../BilayerData/UserData/info.yml --dry-run
