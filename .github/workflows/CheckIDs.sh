@@ -110,7 +110,7 @@ fi
 echo "#### Number of systems to be fixed: "${counter} >>$GITHUB_STEP_SUMMARY
 echo " " >>$GITHUB_STEP_SUMMARY
 
-if [[ "${1}" != "generate" ]]; then
+if [[ "${1}" = "validate" ]]; then
 	echo "Simulation IDs are invalid; run UpdateIDs before global analysis." >&2
 	exit 1
 fi
