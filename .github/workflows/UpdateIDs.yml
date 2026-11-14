@@ -17,12 +17,32 @@ on:
     paths: ['Simulations/**/README.yaml']
   workflow_dispatch:
 
+concurrency:
+  group: update-ids
+  cancel-in-progress: true
+
 jobs:
   UpdateIDs:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     steps:
       - name: Checkout the repo
         uses: actions/checkout@v7
+
+      - name: Prepare update branch
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          if git ls-remote --exit-code origin \
+              'refs/heads/maintanance/update-id' >/dev/null 2>&1; then
+            git fetch origin maintanance/update-id
+            git checkout -B maintanance/update-id origin/maintanance/update-id
+            git reset --hard origin/main
+            git checkout --detach origin/main
+          else
+            echo "Update branch does not exist yet; create-pull-request will create it."
+          fi
 
       - name: Assign new IDs
         id: newids
@@ -41,8 +61,9 @@ jobs:
           committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
           author: ${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>
           signoff: false
-          branch: workflow_addID_PR-${{ github.sha }}
-          branch-suffix: short-commit-hash
+          branch: maintanance/update-id
+          base: main
+          delete-branch: false
           title: Update IDs after commit ${{github.sha}}
           body: |
             Generated new IDs for duplicates or new systems at ${{ github.sha }}.
@@ -54,4 +75,3 @@ jobs:
             AutoPR
             contribute:sim
           draft: false
-

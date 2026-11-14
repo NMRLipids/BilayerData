@@ -13,16 +13,41 @@ on:
       - 'experiments/**'
   workflow_dispatch:
 
+concurrency:
+  group: global-analysis
+  cancel-in-progress: true
+
 jobs:
   GlobalAnalysis:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     env:
       FMDL_DATA_PATH: ${{ github.workspace }}/BilayerData
     steps:
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
       - name: Checkout BilayerData
         uses: actions/checkout@v7
         with:
           path: BilayerData
+
+      - name: Prepare analysis branch
+        working-directory: BilayerData
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          if git ls-remote --exit-code origin \
+              'refs/heads/analysis/update-sims' >/dev/null 2>&1; then
+            git fetch origin analysis/update-sims
+            git checkout -B analysis/update-sims origin/analysis/update-sims
+            git reset --hard origin/main
+          else
+            echo "Analysis branch does not exist yet; create-pull-request will create it."
+          fi
 
       - name: Check source pull request
         id: source-pr
@@ -40,12 +65,17 @@ jobs:
           )"
           echo "skip=$skip" >> "$GITHUB_OUTPUT"
 
+      - name: Verify simulation IDs
+        if: steps.source-pr.outputs.skip != 'true'
+        working-directory: BilayerData
+        run: bash .github/workflows/CheckIDs.sh validate
+
       - name: Checkout Databank API
         if: steps.source-pr.outputs.skip != 'true'
         uses: actions/checkout@v7
         with:
           repository: NMRLipids/FAIRMD_lipids
-          ref: main
+          ref: v1.7.0
           path: Databank
 
       - name: Compute new data
@@ -54,7 +84,7 @@ jobs:
           TQDM_DISABLE: "True"
         working-directory: "Databank"
         run: |
-          pip install .
+          python -m pip install .
           python developer/run_global_analysis.py
 
       - name: Create Pull Request with simulation updates
@@ -66,8 +96,9 @@ jobs:
           committer: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
           author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
           title: Global simulation analysis after simulation addition
-          branch: analysis/update-sims-${{ github.run_number }}-${{ github.sha }}
+          branch: analysis/update-sims
           base: main
+          delete-branch: false
           body: |
             This PR automatically runs the global analysis scripts:
                 - match simulations to experiments

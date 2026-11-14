@@ -1,4 +1,4 @@
-name: Validate Readme Files 
+name: Validate Simulation Metadata 
 
 on:
   pull_request:
@@ -10,12 +10,16 @@ permissions:
 
 jobs:
   Check-Readme:
-    if: github.repository == 'NMRLipids/BilayerData' 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     env:
       FMDL_DATA_PATH: ${{ github.workspace }}/BilayerData
 
     steps:
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
       - name: Checkout BilayerData
         uses: actions/checkout@v7
         with:
@@ -24,14 +28,9 @@ jobs:
           path: BilayerData
           persist-credentials: false
 
-      - name: Install the gh cli
-        uses: ksivamuthu/actions-setup-gh-cli@v3
-        with:
-          version: 2.83.0
-
       - name: Install FAIRMD_lipids dependencies
         run: |
-          pip install git+https://github.com/NMRLipids/FAIRMD_lipids.git
+          python -m pip install 'fairmd-lipids==1.7.0'
 
       - name: Validate all README.yaml files 
         working-directory: BilayerData

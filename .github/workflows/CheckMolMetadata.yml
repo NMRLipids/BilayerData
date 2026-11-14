@@ -1,4 +1,4 @@
-name: CheckMetadataSchema.yaml
+name: "Check Molecular Metadata"
 
 on:
   pull_request:
@@ -8,11 +8,16 @@ on:
 
 jobs:
   validate:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     env:
       FMDL_DATA_PATH: ${{ github.workspace }}/BilayerData
 
     steps:
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
       - name: Checkout BilayerData
         uses: actions/checkout@v7
         with:
@@ -24,16 +29,11 @@ jobs:
         uses: actions/checkout@v7
         with:
           repository: NMRlipids/FAIRMD_lipids
-          ref: main
-          path: Databank        
-          
-      - name: Install Databank dependencies
-        working-directory: Databank
-        run: |
-          pip install .
+          ref: v1.7.0
+          path: Databank
           
       - name: Install check-jsonschema
-        run: pip install check-jsonschema==0.34.1
+        run: python -m pip install check-jsonschema==0.34.1
 
       - name: Validate metadata.yaml files
         working-directory: BilayerData
