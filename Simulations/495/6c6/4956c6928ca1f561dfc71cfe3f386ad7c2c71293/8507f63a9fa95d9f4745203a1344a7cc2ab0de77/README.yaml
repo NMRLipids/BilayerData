@@ -6,7 +6,6 @@ PREEQTIME: 0
 TIMELEFTOUT: 0
 TEMPERATURE: 310.15
 SYSTEM: MD Simulation of POPC cholesterol (20%) bilayers, prosECCo75 FF
-PUBLICATION: https://doi.org/10.1021/acs.jctc.4c00743
 AUTHORS_CONTACT: Matti Javanainen
 SOFTWARE_VERSION: '2019.1'
 FF: prosECCo75
