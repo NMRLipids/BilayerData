@@ -62,6 +62,7 @@ jobs:
           author: ${{ github.actor }} <${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com>
           signoff: false
           branch: maintanance/update-id
+          base: main
           delete-branch: false
           title: Update IDs after commit ${{github.sha}}
           body: |
