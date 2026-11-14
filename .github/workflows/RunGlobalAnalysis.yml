@@ -67,6 +67,7 @@ jobs:
 
       - name: Verify simulation IDs
         if: steps.source-pr.outputs.skip != 'true'
+        working-directory: BilayerData
         run: bash .github/workflows/CheckIDs.sh validate
 
       - name: Checkout Databank API
