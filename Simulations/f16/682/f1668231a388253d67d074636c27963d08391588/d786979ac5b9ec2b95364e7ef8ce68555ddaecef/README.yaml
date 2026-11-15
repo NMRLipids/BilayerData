@@ -72,11 +72,6 @@ bioschema_properties:
   - CHOL
   - cholesterol
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 2019.1)
   - prosECCo75 force field
   variableMeasured:
