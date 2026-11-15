@@ -18,7 +18,7 @@ on:
 jobs:
   gen_op_dataseta:
     if: github.repository == 'NMRLipids/BilayerData'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     env:
       SCRIPT_ARGS: >-
         ${{
@@ -44,7 +44,7 @@ jobs:
         uses: actions/checkout@v7
         with:
           repository: NMRlipids/FAIRMD_lipids
-          ref: datasets-geenerator # TODO: turn off when merged to main
+          ref: v1.7.0
           path: Databank
 
       - name: Pin python version

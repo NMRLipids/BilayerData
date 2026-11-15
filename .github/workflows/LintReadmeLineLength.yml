@@ -24,8 +24,13 @@ permissions:
 
 jobs:
   line-length:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     steps:
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
       - name: Checkout BilayerData
         uses: actions/checkout@v7
         with:
@@ -34,21 +39,16 @@ jobs:
           persist-credentials: false
           allow-unsafe-pr-checkout: true
 
-      - name: Checkout Databank
+      - name: Checkout Databank API
         uses: actions/checkout@v7
         with:
           repository: NMRlipids/FAIRMD_lipids
-          ref: main
+          ref: v1.7.0
           path: Databank
           persist-credentials: false
 
       - name: Install yamllint and PyYAML
-        run: pip install yamllint PyYAML
-
-      - name: Install the gh cli
-        uses: ksivamuthu/actions-setup-gh-cli@v3
-        with:
-          version: 2.83.0
+        run: python -m pip install yamllint==1.37.1 PyYAML==6.0.2
 
       - name: Find changed README.yaml and bioschema_properties.yaml files
         id: files
