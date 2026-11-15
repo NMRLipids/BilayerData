@@ -56,5 +56,6 @@ jobs:
         working-directory: Databank
         env:
           TQDM_DISABLE: True
-        run: python developer/process_info_file.py \
-          --info_file_path ../BilayerData/UserData/info.yml --dry-run
+        run: |
+          python developer/process_info_file.py \
+            --info_file_path ../BilayerData/UserData/info.yml --dry-run
