@@ -45,6 +45,7 @@ jobs:
             git fetch origin analysis/update-sims
             git checkout -B analysis/update-sims origin/analysis/update-sims
             git reset --hard origin/main
+            git checkout --detach origin/main
           else
             echo "Analysis branch does not exist yet; create-pull-request will create it."
           fi
