@@ -5,8 +5,7 @@ SOFTWARE: gromacs
 PREEQTIME: 30
 TIMELEFTOUT: 0
 TEMPERATURE: 298.0
-SYSTEM: Molecular dynamics trajectory of a POPE bilayer at 298 K (Lipid21, GROMACS
-  2025.4, 170 ns)
+SYSTEM: Molecular dynamics trajectory of a POPE bilayer at 298 K (Lipid21, GROMACS 2025.4, 170 ns)
 AUTHORS_CONTACT: Emilie Fjeldberg Taule emilie.taule@uib.no
 SOFTWARE_VERSION: '2025.4'
 FF: Lipid21
@@ -116,3 +115,7 @@ bioschema_properties:
     doi: 10.5281/zenodo.23998890
     spdxLicenseList: 3.29.0
     retrieved: '2026-11-15'
+EXPERIMENT:
+  ORDERPARAMETER:
+    POPE: []
+  FORMFACTOR: []

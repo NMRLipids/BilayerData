@@ -5,8 +5,7 @@ SOFTWARE: gromacs
 PREEQTIME: 0
 TIMELEFTOUT: 100
 TEMPERATURE: 298.0
-SYSTEM: Molecular dynamics trajectory of a POPC bilayer at 298 K (Lipid21, GROMACS
-  2025.4, 400 ns)
+SYSTEM: Molecular dynamics trajectory of a POPC bilayer at 298 K (Lipid21, GROMACS 2025.4, 400 ns)
 AUTHORS_CONTACT: Emilie Fjeldberg Taule emilie.taule@uib.no
 SOFTWARE_VERSION: '2025.4'
 FF: Lipid21
@@ -116,3 +115,10 @@ bioschema_properties:
     doi: 10.5281/zenodo.23941551
     spdxLicenseList: 3.29.0
     retrieved: '2026-11-15'
+EXPERIMENT:
+  ORDERPARAMETER:
+    POPC:
+    - 10.1021/acs.jpcb.4c04719/4
+    - 10.1039/c2cp42738a/1
+  FORMFACTOR:
+  - 10.1021/acs.jctc.3c00648/1
