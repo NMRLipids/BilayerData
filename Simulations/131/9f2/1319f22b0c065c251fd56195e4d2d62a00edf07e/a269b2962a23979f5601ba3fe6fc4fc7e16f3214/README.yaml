@@ -1,0 +1,52 @@
+DOI: 10.5281/zenodo.23500206
+SOFTWARE: gromacs
+SOFTWARE_VERSION: '2026.3'
+TRJ:
+- - amber_DMPG1.xtc
+TPR:
+- - amber_DMPG1.tpr
+EDR:
+- - amber_DMPG1.edr
+LOG:
+- - amber_DMPG1.log
+CPT:
+- - amber_DMPG1.cpt
+PREEQTIME: 1.375
+TIMELEFTOUT: 30
+TEMPERATURE: 310.0
+SYSTEM: DMPG bilayer (128 lipids) with K+ counterions and KCl at 310 K, Lipid21, replica
+  1
+TYPEOFSYSTEM: lipid bilayer
+BATCHID: poppleton2026_amber_DMPG
+PUBLICATION: https://doi.org/10.64898/2026.10.23.760959
+AUTHORS_CONTACT: Erik Poppleton e.poppleton@zmbh.uni-heidelberg.de
+FF_DATE: 07/2026
+FF: Lipid21 (TIP3P, Åqvist K+, Joung-Cheatham Cl-)
+FF_SOURCE: CHARMM-GUI
+FFSOL: TIP3P
+FFCLA: Joung-Cheatham
+FFPOT: Åqvist
+COMPOSITION:
+  DMPG:
+    NAME: PGR
+    MAPPING: mappingDMPG_Amber.yaml
+    COUNT:
+    - 64
+    - 64
+  SOL:
+    NAME: TP3
+    MAPPING: mappingTIP3P_amber.yaml
+    COUNT: 5433
+  POT:
+    NAME: K+
+    MAPPING: mappingK+.yaml
+    COUNT: 142
+  CLA:
+    NAME: Cl-
+    MAPPING: mappingCL-.yaml
+    COUNT: 14
+TRAJECTORY_SIZE: 281069176
+TRJLENGTH: 500200.0
+NUMBER_OF_ATOMS: 30663
+DATEOFRUNNING: 26/11/2026
+ID: -11

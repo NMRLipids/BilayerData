@@ -1,0 +1,54 @@
+DOI: 10.5281/zenodo.23500388
+SOFTWARE: gromacs
+SOFTWARE_VERSION: '2026.3'
+TRJ:
+- - charmm_DMPG2.xtc
+TPR:
+- - charmm_DMPG2.tpr
+EDR:
+- - charmm_DMPG2.edr
+LOG:
+- - charmm_DMPG2.log
+CPT:
+- - charmm_DMPG2.cpt
+GRO:
+- - charmm_DMPG2.gro
+PREEQTIME: 1.375
+TIMELEFTOUT: 10
+TEMPERATURE: 310.0
+SYSTEM: DMPG bilayer (128 lipids) with K+ counterions and KCl at 310 K, CHARMM36,
+  replica 2
+TYPEOFSYSTEM: lipid bilayer
+BATCHID: poppleton2026_charmm_DMPG
+PUBLICATION: https://doi.org/10.64898/2026.10.23.760959
+AUTHORS_CONTACT: Erik Poppleton e.poppleton@zmbh.uni-heidelberg.de
+FF_DATE: 07/2026
+FF: CHARMM36 (CHARMM TIP3P, CHARMM36 ions)
+FF_SOURCE: CHARMM-GUI
+FFSOL: CHARMM TIP3P
+FFPOT: CHARMM36
+FFCLA: CHARMM36
+COMPOSITION:
+  DMPG:
+    NAME: DMPG
+    MAPPING: mappingDMPGcharmm.yaml
+    COUNT:
+    - 64
+    - 64
+  SOL:
+    NAME: TIP3
+    MAPPING: mappingTIP3PCHARMMgui.yaml
+    COUNT: 5433
+  POT:
+    NAME: POT
+    MAPPING: mappingPOT.yaml
+    COUNT: 142
+  CLA:
+    NAME: CLA
+    MAPPING: mappingCLA.yaml
+    COUNT: 14
+TRAJECTORY_SIZE: 280905560
+TRJLENGTH: 500200.0
+NUMBER_OF_ATOMS: 30663
+DATEOFRUNNING: 26/11/2026
+ID: -29

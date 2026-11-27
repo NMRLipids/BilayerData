@@ -1,0 +1,43 @@
+DOI: 10.5281/zenodo.23500336
+SOFTWARE: gromacs
+SOFTWARE_VERSION: '2026.3'
+TRJ:
+- - charmm_DMPC_noions1.xtc
+TPR:
+- - charmm_DMPC_noions1.tpr
+EDR:
+- - charmm_DMPC_noions1.edr
+LOG:
+- - charmm_DMPC_noions1.log
+CPT:
+- - charmm_DMPC_noions1.cpt
+GRO:
+- - charmm_DMPC_noions1.gro
+PREEQTIME: 1.375
+TIMELEFTOUT: 0
+TEMPERATURE: 310.0
+SYSTEM: DMPC bilayer (128 lipids) without ions at 310 K, CHARMM36, replica 1
+TYPEOFSYSTEM: lipid bilayer
+BATCHID: poppleton2026_charmm_DMPC_noions
+PUBLICATION: https://doi.org/10.64898/2026.10.23.760959
+AUTHORS_CONTACT: Erik Poppleton e.poppleton@zmbh.uni-heidelberg.de
+FF_DATE: 07/2026
+FF: CHARMM36 (CHARMM TIP3P)
+FF_SOURCE: CHARMM-GUI
+FFSOL: CHARMM TIP3P
+COMPOSITION:
+  DMPC:
+    NAME: DMPC
+    MAPPING: mappingDMPCcharmm.yaml
+    COUNT:
+    - 64
+    - 64
+  SOL:
+    NAME: TIP3
+    MAPPING: mappingTIP3PCHARMMgui.yaml
+    COUNT: 5756
+TRAJECTORY_SIZE: 295828612
+TRJLENGTH: 500200.0
+NUMBER_OF_ATOMS: 32372
+DATEOFRUNNING: 26/11/2026
+ID: -20

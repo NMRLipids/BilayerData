@@ -1,0 +1,64 @@
+DOI: 10.5281/zenodo.23500388
+SOFTWARE: gromacs
+SOFTWARE_VERSION: '2026.3'
+TRJ:
+- - charmm_DMPG_JC1.xtc
+TPR:
+- - charmm_DMPG_JC1.tpr
+EDR:
+- - charmm_DMPG_JC1.edr
+LOG:
+- - charmm_DMPG_JC1.log
+CPT:
+- - charmm_DMPG_JC1.cpt
+GRO:
+- - charmm_DMPG_JC1.gro
+PREEQTIME: 1.375
+TIMELEFTOUT: 250
+TEMPERATURE: 310.0
+SYSTEM: DMPG bilayer (128 lipids) with NaCl, MgCl2 and CaCl2 at 310 K, CHARMM36, replica
+  1. Not equilibrated within 500 ns (slow drift in tail properties)
+TYPEOFSYSTEM: lipid bilayer
+BATCHID: poppleton2026_charmm_DMPG_JC
+PUBLICATION: https://doi.org/10.64898/2026.10.23.760959
+AUTHORS_CONTACT: Erik Poppleton e.poppleton@zmbh.uni-heidelberg.de
+FF_DATE: 07/2026
+FF: CHARMM36 (CHARMM TIP3P, CHARMM36 ions)
+FF_SOURCE: CHARMM-GUI
+FFSOL: CHARMM TIP3P
+FFSOD: CHARMM36
+FFMG: CHARMM36
+FFCAL: CHARMM36
+FFCLA: CHARMM36
+COMPOSITION:
+  DMPG:
+    NAME: DMPG
+    MAPPING: mappingDMPGcharmm.yaml
+    COUNT:
+    - 64
+    - 64
+  SOL:
+    NAME: TIP3
+    MAPPING: mappingTIP3PCHARMMgui.yaml
+    COUNT: 5406
+  SOD:
+    NAME: SOD
+    MAPPING: mappingSOD.yaml
+    COUNT: 141
+  MG:
+    NAME: MG
+    MAPPING: mappingMG.yaml
+    COUNT: 4
+  CAL:
+    NAME: CAL
+    MAPPING: mappingCAL.yaml
+    COUNT: 2
+  CLA:
+    NAME: CLA
+    MAPPING: mappingCLA.yaml
+    COUNT: 25
+TRAJECTORY_SIZE: 280356188
+TRJLENGTH: 500200.0
+NUMBER_OF_ATOMS: 30598
+DATEOFRUNNING: 26/11/2026
+ID: -25

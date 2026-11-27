@@ -1,0 +1,43 @@
+DOI: 10.5281/zenodo.23500493
+SOFTWARE: gromacs
+SOFTWARE_VERSION: '2026.3'
+TRJ:
+- - slipids_DMPC_noions1.xtc
+TPR:
+- - slipids_DMPC_noions1.tpr
+EDR:
+- - slipids_DMPC_noions1.edr
+LOG:
+- - slipids_DMPC_noions1.log
+CPT:
+- - slipids_DMPC_noions1.cpt
+GRO:
+- - slipids_DMPC_noions1.gro
+PREEQTIME: 1.375
+TIMELEFTOUT: 80
+TEMPERATURE: 310.0
+SYSTEM: DMPC bilayer (128 lipids) without ions at 310 K, Slipids2020, replica 1
+TYPEOFSYSTEM: lipid bilayer
+BATCHID: poppleton2026_slipids_DMPC_noions
+PUBLICATION: https://doi.org/10.64898/2026.10.23.760959
+AUTHORS_CONTACT: Erik Poppleton e.poppleton@zmbh.uni-heidelberg.de
+FF_DATE: 07/2026
+FF: Slipids2020 (TIP3P)
+FF_SOURCE: https://bitbucket.org/alexander_lyubartsev/slipids-2020
+FFSOL: TIP3P
+COMPOSITION:
+  DMPC:
+    NAME: DMPC
+    MAPPING: mappingDMPCslipids.yaml
+    COUNT:
+    - 64
+    - 64
+  SOL:
+    NAME: TP3
+    MAPPING: mappingTIP3P_amber.yaml
+    COUNT: 5756
+TRAJECTORY_SIZE: 296496404
+TRJLENGTH: 500200.0
+NUMBER_OF_ATOMS: 32372
+DATEOFRUNNING: 26/11/2026
+ID: -37

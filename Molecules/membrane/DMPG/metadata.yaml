@@ -1,0 +1,26 @@
+NMRlipids:
+  id: DMPG
+  name: 1,2-dimyristoyl-sn-glycero-3-phospho-(1'-rac-glycerol)
+  charge: -1
+sameAs:
+  pubchem.compound: 11846226
+  unii: 2847IF81RI
+  cas: 185463-23-4
+bioschema_properties:
+  iupacName: '[(2R)-3-[2,3-dihydroxypropoxy(hydroxy)phosphoryl]oxy-2-tetradecanoyloxypropyl]
+    tetradecanoate'
+  smiles: CCCCCCCCCCCCCC(=O)OC[C@H](COP(=O)(O)OCC(CO)O)OC(=O)CCCCCCCCCCCCC
+  inChI: InChI=1S/C34H67O10P/c1-3-5-7-9-11-13-15-17-19-21-23-25-33(37)41-29-32(30-43-45(39,40)42-28-31(36)27-35)44-34(38)26-24-22-20-18-16-14-12-10-8-6-4-2/h31-32,35-36H,3-30H2,1-2H3,(H,39,40)/t31?,32-/m1/s1
+  inChIKey: BPHQZTVXXXJVHI-IADGFXSZSA-N
+  molecularFormula: C34H67O10P
+  molecularWeight: 666.9
+  name: '[(2R)-3-[2,3-dihydroxypropoxy(hydroxy)phosphoryl]oxy-2-tetradecanoyloxypropyl]
+    tetradecanoate'
+  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=11846226&t=l
+  alternateName:
+  - 1,2-dimyristoyl-sn-glycero-3-phospho-(1'-rac-glycerol)
+  - 1,2-dimyristoyl-sn-glycero-3-phosphoglycerol
+  - dimyristoylphosphatidylglycerol
+  - DMPG
+  - PG(14:0/14:0)
+  - PG(28:0)

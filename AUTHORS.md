@@ -15,6 +15,7 @@ Alphabetical list of contributors:
 - Anne Kiirikki (@akiirik)
 - Batuhan Kav (@batukav)
 - Cedric Mingham (@thraindk)
+- Erik Poppleton (@ErikPoppleton)
 - Korbinian Michael Bösl (@korbinib)
 - Fabián Suárez-Lestón (@fsuarezleston)
 - Ferdinand Hörstel (@ferdi385)

@@ -1,0 +1,62 @@
+DOI: 10.5281/zenodo.23500288
+SOFTWARE: gromacs
+SOFTWARE_VERSION: '2026.3'
+TRJ:
+- - amber_DOPC1.xtc
+TPR:
+- - amber_DOPC1.tpr
+EDR:
+- - amber_DOPC1.edr
+LOG:
+- - amber_DOPC1.log
+CPT:
+- - amber_DOPC1.cpt
+PREEQTIME: 1.375
+TIMELEFTOUT: 0
+TEMPERATURE: 310.0
+SYSTEM: DOPC bilayer (128 lipids) with NaCl, MgCl2 and CaCl2 at 310 K, Lipid21, replica
+  1
+TYPEOFSYSTEM: lipid bilayer
+BATCHID: poppleton2026_amber_DOPC
+PUBLICATION: https://doi.org/10.64898/2026.10.23.760959
+AUTHORS_CONTACT: Erik Poppleton e.poppleton@zmbh.uni-heidelberg.de
+FF_DATE: 07/2026
+FF: Lipid21 (TIP3P, Joung-Cheatham Na+/Cl-, Li-Merz Mg2+/Ca2+)
+FF_SOURCE: CHARMM-GUI
+FFSOL: TIP3P
+FFSOD: Joung-Cheatham
+FFCLA: Joung-Cheatham
+FFMG: Li-Merz
+FFCAL: Li-Merz
+COMPOSITION:
+  DOPC:
+    NAME: PC
+    MAPPING: mappingDOPC_Amber.yaml
+    COUNT:
+    - 64
+    - 64
+  SOL:
+    NAME: TP3
+    MAPPING: mappingTIP3P_amber.yaml
+    COUNT: 5924
+  SOD:
+    NAME: Na+
+    MAPPING: mappingNA+.yaml
+    COUNT: 14
+  MG:
+    NAME: MG
+    MAPPING: mappingMG.yaml
+    COUNT: 4
+  CAL:
+    NAME: CA
+    MAPPING: mappingCA.yaml
+    COUNT: 2
+  CLA:
+    NAME: Cl-
+    MAPPING: mappingCL-.yaml
+    COUNT: 26
+TRAJECTORY_SIZE: 326363380
+TRJLENGTH: 500200.0
+NUMBER_OF_ATOMS: 35482
+DATEOFRUNNING: 26/11/2026
+ID: -17
