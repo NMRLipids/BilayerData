@@ -1,0 +1,121 @@
+DOI: 10.5281/zenodo.23998890
+TRJ:
+- - production_30_200ns_10ps.xtc
+SOFTWARE: gromacs
+PREEQTIME: 30
+TIMELEFTOUT: 0
+TEMPERATURE: 298.0
+SYSTEM: Molecular dynamics trajectory of a POPE bilayer at 298 K (Lipid21, GROMACS 2025.4, 170 ns)
+AUTHORS_CONTACT: Emilie Fjeldberg Taule emilie.taule@uib.no
+SOFTWARE_VERSION: '2025.4'
+FF: Lipid21
+FF_SOURCE: CHARMM-GUI
+FF_DATE: 15.10.2026
+CPT:
+- - production.cpt
+LOG:
+- - production.log
+TOP:
+- - topol.top
+EDR:
+- - production.edr
+TPR:
+- - production_200ns.tpr
+GRO:
+- - production_30ns.gro
+COMPOSITION:
+  POPE:
+    NAME: PE
+    MAPPING: mappingPOPE_AmberLipid.yaml
+    COUNT:
+    - 17
+    - 17
+  SOL:
+    NAME: OPC
+    MAPPING: mappingOPC_amber.yaml
+    COUNT: 1360
+TRAJECTORY_SIZE: 577736128
+TRJLENGTH: 170010.0
+NUMBER_OF_ATOMS: 9690
+DATEOFRUNNING: '2026-11-15'
+TYPEOFSYSTEM: lipid bilayer
+ID: 980
+bioschema_properties:
+  name: Molecular dynamics trajectory of a POPE bilayer at 298 K (Lipid21, GROMACS 2025.4, 170 ns)
+  alternateName: >-
+    Molecular dynamics trajectory of a POPE bilayer at 298 K (Lipid21, GROMACS 2025.4, 170 ns)
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 34 POPE
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 298 K. Simulated with Lipid21 in
+    GROMACS 2025.4 for 170 ns (9690 atoms). Part of the NMRlipids Databank and available from
+    https://doi.org/10.5281/zenodo.23998890.
+  sameAs: https://doi.org/10.5281/zenodo.23998890
+  datePublished: '2026-11-07'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Fjeldberg Taule, Emilie
+    identifier: https://orcid.org/0009-0002-4423-2877
+  - name: Miettinen, Markus S.
+    identifier: https://orcid.org/0000-0002-3999-4722
+  keywords:
+  - POPE
+  - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2025.4)
+  - Lipid21 force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.23998890
+    name: Molecular dynamics trajectory of a POPE bilayer at 298 K (Lipid21, GROMACS 2025.4, 170 ns)
+    contentSize: 577736128
+    encodingFormat: application/x-xtc
+    hasPart:
+    - production_30_200ns_10ps.xtc
+    - production_200ns.tpr
+    - topol.top
+    - production_30ns.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.23998890
+    identifier: 10.5281/zenodo.23998890
+    url: https://doi.org/10.5281/zenodo.23998890
+    name: POPE bilayer simulated with Amber Lipid21 and OPC water at 298 K
+    publisher: Zenodo
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.23998890
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-11-15'
+EXPERIMENT:
+  ORDERPARAMETER:
+    POPE: []
+  FORMFACTOR: []

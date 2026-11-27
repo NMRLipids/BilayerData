@@ -31,8 +31,10 @@ AUTHORS_CONTACT: Kav, Batuhan
 SYSTEM: DOPC_1000mM_CaCl2_at_303K_with_AMOEBA
 SOFTWARE_VERSION: v7.5.1
 FF: AMOEBA
-FF_SOURCE: OpenMM version https://github.com/Inniag/openmm-scripts-amoeba used in
-  publication https://doi.org/10.1021/jacs.0c02394, original parameters  https://doi.org/10.1080/00268976.2018.1436201
+FF_SOURCE: >-
+  OpenMM version https://github.com/Inniag/openmm-scripts-amoeba used in publication
+  https://doi.org/10.1021/jacs.0c02394, original parameters
+  https://doi.org/10.1080/00268976.2018.1436201
 FF_DATE: null
 TRAJECTORY_SIZE: 1499986540
 TRJLENGTH: 218400.0
@@ -47,13 +49,13 @@ ID: 739
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a CLA/DOPC/CAL (40:40:20) bilayer at 303 K (AMOEBA, OPENMM
-    v7.5.1, 218 ns) [NMRlipids simulation 739]
+    v7.5.1, 218 ns)
   alternateName: DOPC_1000mM_CaCl2_at_303K_with_AMOEBA
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 72 CLA (40 mol%), 72 DOPC
     (1,2-dioleoyl-sn-glycero-3-phosphocholine, 40 mol%) and 36 CAL (20 mol%) at 303 K. Simulated
-    with AMOEBA in OPENMM v7.5.1 for 218 ns (18684 atoms). Deposited as NMRlipids Databank
-    simulation 739 and available from https://doi.org/10.5281/zenodo.7604810.
+    with AMOEBA in OPENMM v7.5.1 for 218 ns (18684 atoms). Part of the NMRlipids Databank and
+    available from https://doi.org/10.5281/zenodo.7604810.
   sameAs: https://doi.org/10.5281/zenodo.7604810
   datePublished: '2022-12-11'
   license:
@@ -118,5 +120,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.7604810
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-11-05'

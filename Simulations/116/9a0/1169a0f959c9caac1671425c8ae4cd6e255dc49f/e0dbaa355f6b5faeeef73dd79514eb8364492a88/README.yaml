@@ -27,8 +27,7 @@ CPT:
 TRJLENGTH: 500100.0
 TRAJECTORY_SIZE: 332189196
 SOFTWARE_VERSION: 5.0.4
-FF: CHARMM36 (center of mass removed independently for upper leaflet, lower leaflet
-  and water+ions)
+FF: CHARMM36 (center of mass removed independently for upper leaflet, lower leaflet and water+ions)
 TOP:
 - - DPPC_72_325K_rmcomm_leaflets_md.top
 PREEQTIME: 0
@@ -47,13 +46,12 @@ bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a DPPC bilayer at 325 K (CHARMM36 (center of mass removed
     independently for upper leaflet, lower leaflet and water+ions), GROMACS 5.0.4, 500 ns)
-    [NMRlipids simulation 171]
   alternateName: 72DPPC_2880SOL_325K_rmcomm_leaflets
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 72 DPPC
     (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 325 K. Simulated with CHARMM36 (center of mass
     removed independently for upper leaflet, lower leaflet and water+ions) in GROMACS 5.0.4 for 500
-    ns (18000 atoms). Deposited as NMRlipids Databank simulation 171 and available from
+    ns (18000 atoms). Part of the NMRlipids Databank and available from
     https://doi.org/10.5281/zenodo.1009607.
   sameAs: https://doi.org/10.5281/zenodo.1009607
   datePublished: '2017-10-12'
@@ -127,5 +125,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.1009607
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-11-05'

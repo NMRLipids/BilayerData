@@ -1,74 +1,75 @@
-name: Validate Molecules
+name: Validate Databank Integrity
 permissions:
   contents: read
 
 on:
   pull_request:
-      branches: main
-      paths: Molecules/**
+    branches: main
+    paths: Molecules/**
+  workflow_dispatch:
 
 jobs:
-    Validate_Databank:
-        if: github.repository == 'NMRLipids/BilayerData' 
-        runs-on: ubuntu-latest
-        container:
-            image: nmrlipids/core
-            options: --user 1001:118 # run container as uid=1001,gid=118 to match the GitHub runner user
-        env:
-            FMDL_DATA_PATH: ${{ github.workspace }}/BilayerData
-        steps:
-          - name: Checkout BilayerData
-            uses: actions/checkout@v7
-            with:
-                repository: ${{ github.event.pull_request.head.repo.full_name }}
-                ref: ${{ github.event.pull_request.head.ref }}
-                path: BilayerData
+  Validate_Databank:
+    runs-on: ubuntu-26.04
+    env:
+      FMDL_DATA_PATH: ${{ github.workspace }}/BilayerData
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
 
-          - name: Checkout Databank
-            uses: actions/checkout@v7
-            with:
-                repository: NMRlipids/FAIRMD_lipids
-                ref: main
-                path: Databank
+      - name: Checkout BilayerData
+        uses: actions/checkout@v7
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          path: BilayerData
 
-          - name: Install Databank dependencies
-            working-directory: "Databank"
-            run: |
-               pip install .
+      - name: Checkout Databank
+        uses: actions/checkout@v7
+        with:
+          repository: NMRlipids/FAIRMD_lipids
+          ref: v1.7.0
+          path: Databank
 
-          - name: Validate
-            working-directory: "Databank"
-            shell: bash --noprofile --norc {0}
-            run: |
-              out="$(
-                  python developer/validate_data.py
-              )"
-              status=$?
+      - name: Install Databank dependencies
+        working-directory: "Databank"
+        run: |
+            pip install .
 
-              warnings=""
-              while IFS= read -r line; do
-                if [[ "$line" =~ [Ee][Rr][Rr][Oo][Rr] ]]; then
-                  echo "::warning::Detected error line: $line"
-                  warnings+="$line"$'\n'
-                fi
-              done <<< "$out"
+      - name: Validate
+        working-directory: "Databank"
+        shell: bash --noprofile --norc {0}
+        run: |
+          out="$(
+              python developer/validate_data.py
+          )"
+          status=$?
 
-              echo "::group::Full output"
-              echo $out
-              echo "::endgroup::"
+          warnings=""
+          while IFS= read -r line; do
+            if [[ "$line" =~ [Ee][Rr][Rr][Oo][Rr] ]]; then
+              echo "::warning::Detected error line: $line"
+              warnings+="$line"$'\n'
+            fi
+          done <<< "$out"
 
-              [ -n "$warnings" ] || warnings="None"
+          echo "::group::Full output"
+          echo $out
+          echo "::endgroup::"
 
-              {
-                echo "## README.yaml validation"
-                echo
-                echo "**Warnings:**"
-                echo
-                echo '```text'
-                printf '%s' "$warnings"
-                echo
-                echo '```'
-              } >> "$GITHUB_STEP_SUMMARY"
+          [ -n "$warnings" ] || warnings="None"
 
-              exit $status
+          {
+            echo "## README.yaml validation"
+            echo
+            echo "**Warnings:**"
+            echo
+            echo '```text'
+            printf '%s' "$warnings"
+            echo
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
 
+          exit $status

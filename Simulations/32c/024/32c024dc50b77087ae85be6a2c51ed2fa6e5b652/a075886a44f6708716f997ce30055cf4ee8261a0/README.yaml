@@ -49,20 +49,19 @@ ID: 267
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a DPPC bilayer at 323 K (Poger GROMOS 53A6_L; Reaction Field
-    for computing electrostatics, GROMACS 4.0.7, 100 ns) [NMRlipids simulation 267]
+    for computing electrostatics, GROMACS 4.0.7, 100 ns)
   alternateName: 128DPPC_5841SOL_323K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 128 DPPC
     (1,2-dipalmitoyl-sn-glycero-3-phosphocholine) at 323 K. Simulated with Poger GROMOS 53A6_L;
-    Reaction Field for computing electrostatics in GROMACS 4.0.7 for 100 ns (23923 atoms). Deposited
-    as NMRlipids Databank simulation 267 and available from https://doi.org/10.5281/zenodo.14592.
+    Reaction Field for computing electrostatics in GROMACS 4.0.7 for 100 ns (23923 atoms). Part of
+    the NMRlipids Databank and available from https://doi.org/10.5281/zenodo.14592.
   sameAs: https://doi.org/10.5281/zenodo.14592
   datePublished: '2015-01-27'
   license:
-    spdx: GPL-3.0-only
-    name: GNU General Public License v3.0 only
-    url: https://spdx.org/licenses/GPL-3.0-only.html
-    sameAs: http://www.opensource.org/licenses/GPL-3.0
+    name: GNU General Public License 3.0
+    url: http://www.opensource.org/licenses/GPL-3.0
+    spdx: null
   publisher: Zenodo
   creator:
   - name: Fuchs, Patrick F.J.
@@ -125,5 +124,4 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.14592
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    retrieved: '2026-11-05'

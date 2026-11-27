@@ -35,8 +35,9 @@ AUTHORS_CONTACT: Ollila, Samuli; Khandelia, Himanshu
 SYSTEM: 90POPC_38PAzePCdeprot_7250SOL_38POT_298K
 SOFTWARE_VERSION: 4.5
 FF: Berger
-FF_SOURCE: H. Khandelia and O. G. Mouritsen, Biophysical Journal, 2009, 96(7), 2734
-  – 2743, http://dx.doi.org/10.1016/j.bpj.2009.01.007 for PAzePCdeprot
+FF_SOURCE: >-
+  H. Khandelia and O. G. Mouritsen, Biophysical Journal, 2009, 96(7), 2734 – 2743,
+  http://dx.doi.org/10.1016/j.bpj.2009.01.007 for PAzePCdeprot
 FF_DATE: null
 CPT: null
 LOG: null
@@ -59,14 +60,14 @@ ID: 354
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC/PAzePCdeprot/POT (54:23:23) bilayer at 298 K (Berger,
-    GROMACS 4.5, 60 ns) [NMRlipids simulation 354]
+    GROMACS 4.5, 60 ns)
   alternateName: 90POPC_38PAzePCdeprot_7250SOL_38POT_298K
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 90 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 54 mol%), 38 PAzePCdeprot
     (1-palmitoyl-2-azelaoyl-sn-glycero-3-phosphocholine deprotonated, 23 mol%) and 38 POT (23 mol%)
-    at 298 K. Simulated with Berger in GROMACS 4.5 for 60 ns (28178 atoms). Deposited as NMRlipids
-    Databank simulation 354 and available from https://doi.org/10.5281/zenodo.44622.
+    at 298 K. Simulated with Berger in GROMACS 4.5 for 60 ns (28178 atoms). Part of the NMRlipids
+    Databank and available from https://doi.org/10.5281/zenodo.44622.
   sameAs: https://doi.org/10.5281/zenodo.44622
   datePublished: '2016-01-12'
   license:
@@ -137,5 +138,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.44622
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-11-05'

@@ -25,8 +25,9 @@ AUTHORS_CONTACT: Thomas Piggot
 SYSTEM: 336POPE_15254SOL_310K_v1
 SOFTWARE_VERSION: 5.0.6
 FF: CHARMM36-UA
-FF_SOURCE: starting structure was made by reverse mapping an equilibrated MARTINI
-  POPE bilayer (constructed with the INSANE script)
+FF_SOURCE: >-
+  starting structure was made by reverse mapping an equilibrated MARTINI POPE bilayer (constructed
+  with the INSANE script)
 FF_DATE: null
 CPT: null
 LOG: null
@@ -50,13 +51,12 @@ ID: 233
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPE bilayer at 310 K (CHARMM36-UA, GROMACS 5.0.6, 100 ns)
-    [NMRlipids simulation 233]
   alternateName: 336POPE_15254SOL_310K_v1
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 336 POPE
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoethanolamine) at 310 K. Simulated with CHARMM36-UA in
-    GROMACS 5.0.6 for 100 ns (67602 atoms). Deposited as NMRlipids Databank simulation 233 and
-    available from https://doi.org/10.5281/zenodo.1293774.
+    GROMACS 5.0.6 for 100 ns (67602 atoms). Part of the NMRlipids Databank and available from
+    https://doi.org/10.5281/zenodo.1293774.
   sameAs: https://doi.org/10.5281/zenodo.1293774
   datePublished: '2018-06-20'
   license:
@@ -124,5 +124,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.1293774
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-11-05'

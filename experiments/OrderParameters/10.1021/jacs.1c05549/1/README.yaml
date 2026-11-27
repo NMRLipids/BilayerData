@@ -27,6 +27,8 @@ bioschema_properties:
   - name: Akiirik
   - name: Ivan-Gushchin-Mipt
   - name: Pbuslaev
+  citation:
+  - 10.5281/zenodo.4748647
   keywords:
   - POPG
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoglycerol
@@ -50,4 +52,4 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.4748647
-    retrieved: '2026-09-09'
+    retrieved: '2026-10-22'

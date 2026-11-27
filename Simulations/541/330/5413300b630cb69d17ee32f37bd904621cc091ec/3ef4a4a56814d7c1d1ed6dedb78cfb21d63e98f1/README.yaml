@@ -32,8 +32,7 @@ LOG: null
 TOP:
 - - topol.top
 WARNINGS:
-  FF: Hybrid force field test for fun, not production-ready. Simulated with Slipids
-    mdp.
+  FF: Hybrid force field test for fun, not production-ready. Simulated with Slipids mdp.
 TRAJECTORY_SIZE: 673355092
 TRJLENGTH: 500100.0
 TEMPERATURE: 298.0
@@ -51,13 +50,13 @@ ID: 831
 bioschema_properties:
   name: >-
     Molecular dynamics trajectory of a POPC bilayer at 298 K (C36_Slipids_Hybrid, GROMACS 2024.3,
-    500 ns) [NMRlipids simulation 831]
+    500 ns)
   alternateName: POPC_hybrid_slmdp
   description: >-
     Molecular dynamics trajectory of a lipid bilayer of 128 POPC
     (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine) at 298 K. Simulated with C36_Slipids_Hybrid
-    in GROMACS 2024.3 for 500 ns (36352 atoms). Deposited as NMRlipids Databank simulation 831 and
-    available from https://doi.org/10.5281/zenodo.15172176.
+    in GROMACS 2024.3 for 500 ns (36352 atoms). Part of the NMRlipids Databank and available from
+    https://doi.org/10.5281/zenodo.15172176.
   sameAs: https://doi.org/10.5281/zenodo.15172176
   datePublished: '2025-04-08'
   license:
@@ -126,5 +125,5 @@ bioschema_properties:
   _source:
     api: datacite
     doi: 10.5281/zenodo.15172176
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-11-05'

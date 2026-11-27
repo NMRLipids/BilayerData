@@ -79,5 +79,5 @@ bioschema_properties:
   _source:
     api: crossref
     doi: 10.1021/jacs.1c05549
-    spdxLicenseList: 3.28.0
-    retrieved: '2026-09-09'
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-10-22'
