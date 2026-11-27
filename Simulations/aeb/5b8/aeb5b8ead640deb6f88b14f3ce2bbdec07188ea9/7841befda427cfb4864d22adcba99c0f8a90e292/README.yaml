@@ -53,9 +53,16 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 518
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/CLA/DHMDMAB (64:18:18) bilayer at 313 K (Lipid14, GROMACS, 80 ns) [NMRlipids simulation 518]
+  name: >-
+    Molecular dynamics trajectory of a POPC/CLA/DHMDMAB (64:18:18) bilayer at 313 K (Lipid14,
+    GROMACS, 80 ns) [NMRlipids simulation 518]
   alternateName: 100POPC_28DHMDMAB_6214SOL_28CLA_313K
-  description: Molecular dynamics trajectory of a lipid bilayer of 100 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 64 mol%), 28 CLA (18 mol%) and 28 DHMDMAB (dihexadecyldimethylammonium, 18 mol%) at 313 K. Simulated with Lipid14 in GROMACS for 80 ns (35066 atoms). Deposited as NMRlipids Databank simulation 518 and available from https://doi.org/10.5281/zenodo.1020593.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 100 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 64 mol%), 28 CLA (18 mol%) and 28 DHMDMAB
+    (dihexadecyldimethylammonium, 18 mol%) at 313 K. Simulated with Lipid14 in GROMACS for 80 ns
+    (35066 atoms). Deposited as NMRlipids Databank simulation 518 and available from
+    https://doi.org/10.5281/zenodo.1020593.
   sameAs: https://doi.org/10.5281/zenodo.1020593
   datePublished: '2017-10-18'
   license:
@@ -67,42 +74,12 @@ bioschema_properties:
   creator:
   - name: Ollila, O. H. Samuli
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - CLA
   - DHMDMAB
   - dihexadecyldimethylammonium
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs)
   - Lipid14 force field
   variableMeasured:
@@ -144,7 +121,9 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.1020593
     identifier: 10.5281/zenodo.1020593
     url: https://doi.org/10.5281/zenodo.1020593
-    name: Popc Bilayer With 20% Of Dihexadecyldimethylammonium Simulated At T313K With The Lipid14 Model Using Gromacs
+    name: >-
+      Popc Bilayer With 20% Of Dihexadecyldimethylammonium Simulated At T313K With The Lipid14 Model
+      Using Gromacs
     publisher: Zenodo
   accessRights: openAccess
   _source:

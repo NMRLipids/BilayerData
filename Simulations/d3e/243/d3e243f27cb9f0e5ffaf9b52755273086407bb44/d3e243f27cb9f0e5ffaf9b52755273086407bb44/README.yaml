@@ -53,9 +53,16 @@ DATEOFRUNNING: '2026-08-29'
 TYPEOFSYSTEM: lipid bilayer
 ID: 922
 bioschema_properties:
-  name: Molecular dynamics trajectory of a CHOL/POPC/SM18/CLA/SOD (28:28:28:8:8) bilayer at 303.15 K (Charmm36, NAMD NAMD 2.13, 0 ns) [NMRlipids simulation 922]
+  name: >-
+    Molecular dynamics trajectory of a CHOL/POPC/SM18/CLA/SOD (28:28:28:8:8) bilayer at 303.15 K
+    (Charmm36, NAMD NAMD 2.13, 0 ns) [NMRlipids simulation 922]
   alternateName: POPC:SSM(sphingomyelin):CHOL(1:1:1)
-  description: Molecular dynamics trajectory of a lipid bilayer of 276 CHOL (cholesterol, 28 mol%), 276 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 28 mol%), 276 SM18 (N-stearoyl-D-erythro-sphingosylphosphorylcholine, 28 mol%), 77 CLA (8 mol%) and 77 SOD (8 mol%) at 303.15 K. Simulated with Charmm36 in NAMD NAMD 2.13 for 0 ns (181519 atoms). Deposited as NMRlipids Databank simulation 922 and available from https://doi.org/10.5281/zenodo.21937938.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 276 CHOL (cholesterol, 28 mol%), 276 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 28 mol%), 276 SM18
+    (N-stearoyl-D-erythro-sphingosylphosphorylcholine, 28 mol%), 77 CLA (8 mol%) and 77 SOD (8 mol%)
+    at 303.15 K. Simulated with Charmm36 in NAMD NAMD 2.13 for 0 ns (181519 atoms). Deposited as
+    NMRlipids Databank simulation 922 and available from https://doi.org/10.5281/zenodo.21937938.
   sameAs: https://doi.org/10.5281/zenodo.21937938
   datePublished: '2026-08-14'
   license:
@@ -70,31 +77,6 @@ bioschema_properties:
   citation:
   - 10.1038/s41467-025-58334-z
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - CHOL
   - cholesterol
   - POPC
@@ -106,11 +88,6 @@ bioschema_properties:
   - lipid bilayer
   - MD simulation
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (NAMD NAMD 2.13)
   - Charmm36 force field
   variableMeasured:

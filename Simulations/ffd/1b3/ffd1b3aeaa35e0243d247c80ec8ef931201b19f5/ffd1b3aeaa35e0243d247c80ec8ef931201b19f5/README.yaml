@@ -37,9 +37,15 @@ EXPERIMENT:
     - 10.1021/bi00218a003/2
   FORMFACTOR: []
 bioschema_properties:
-  name: Molecular dynamics trajectory of a PILPC bilayer at 303.15 K (CHARMM36m, NAMD 3.0, 500 ns) [NMRlipids simulation 906]
+  name: >-
+    Molecular dynamics trajectory of a PILPC bilayer at 303.15 K (CHARMM36m, NAMD 3.0, 500 ns)
+    [NMRlipids simulation 906]
   alternateName: PiLPC
-  description: Molecular dynamics trajectory of a lipid bilayer of 200 PILPC (1-Palmitoyl-2-isolinoleoyl phosphatidylcholine) at 303.15 K. Simulated with CHARMM36m in NAMD 3.0 for 500 ns (51600 atoms). Deposited as NMRlipids Databank simulation 906 and available from https://doi.org/10.5281/zenodo.18480411.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 200 PILPC (1-Palmitoyl-2-isolinoleoyl
+    phosphatidylcholine) at 303.15 K. Simulated with CHARMM36m in NAMD 3.0 for 500 ns (51600 atoms).
+    Deposited as NMRlipids Databank simulation 906 and available from
+    https://doi.org/10.5281/zenodo.18480411.
   sameAs: https://doi.org/10.5281/zenodo.18480411
   datePublished: '2026-02-04'
   license:
@@ -54,39 +60,9 @@ bioschema_properties:
   - name: Reuter, Nathalie
     identifier: https://orcid.org/0000-0002-3649-7675
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - PILPC
   - 1-Palmitoyl-2-isolinoleoyl phosphatidylcholine
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (NAMD 3.0)
   - CHARMM36m force field
   variableMeasured:
@@ -130,7 +106,9 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.18480411
     identifier: 10.5281/zenodo.18480411
     url: https://doi.org/10.5281/zenodo.18480411
-    name: PLPC (PiLPC) lipid bilayer | 1-palmitoyl-2-isolinoleoyl-i«-glycero-3-phosphocholine with C6-C7 and the C9-C10 double bonds | 303K, CHARMM36m-WYF forcefield, NAMD 3.0.2, 2* 500 ns
+    name: >-
+      PLPC (PiLPC) lipid bilayer | 1-palmitoyl-2-isolinoleoyl-i«-glycero-3-phosphocholine with C6-C7
+      and the C9-C10 double bonds | 303K, CHARMM36m-WYF forcefield, NAMD 3.0.2, 2* 500 ns
     publisher: Zenodo
   _source:
     api: datacite

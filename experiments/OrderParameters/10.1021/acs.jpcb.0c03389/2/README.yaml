@@ -12,14 +12,13 @@ COUNTER_IONS:
 
 bioschema_properties:
   name: C-H bond order parameters of a SM16 bilayer at 321 K, full hydration (NMR) [Doktorova 2020]
-  description: Experimental C-H bond order parameters for a lipid bilayer of SM16 (N-palmitoyl-D-erythro-sphingosylphosphorylcholine) at 321 K, fully hydrated. Measured by nuclear magnetic resonance spectroscopy. Values digitised into the NMRlipids Databank from https://doi.org/10.1021/acs.jpcb.0c03389.
+  description: >-
+    Experimental C-H bond order parameters for a lipid bilayer of SM16
+    (N-palmitoyl-D-erythro-sphingosylphosphorylcholine) at 321 K, fully hydrated. Measured by
+    nuclear magnetic resonance spectroscopy. Values digitised into the NMRlipids Databank from
+    https://doi.org/10.1021/acs.jpcb.0c03389.
   sameAs: https://doi.org/10.1021/acs.jpcb.0c03389
   datePublished: '2020-05-29'
-  license:
-    spdx: CC-BY-4.0
-    name: Creative Commons Attribution 4.0 International
-    url: https://spdx.org/licenses/CC-BY-4.0.html
-    sameAs: https://creativecommons.org/licenses/by/4.0/
   articleLicense:
     url: https://doi.org/10.15223/policy-029
     spdx: null
@@ -43,21 +42,6 @@ bioschema_properties:
   citation:
   - 10.1021/acs.jpcb.0c03389
   keywords:
-  - '@type': DefinedTerm
-    name: NMR
-    termCode: topic_0593
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0593
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
   - SM16
   - N-palmitoyl-D-erythro-sphingosylphosphorylcholine
   measurementTechnique:
@@ -66,16 +50,6 @@ bioschema_properties:
     termCode: CHMO_0000591
     inDefinedTermSet: http://purl.obolibrary.org/obo/chmo.owl
     url: http://purl.obolibrary.org/obo/CHMO_0000591
-  - '@type': DefinedTerm
-    name: NMR
-    termCode: topic_0593
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0593
-  variableMeasured:
-  - '@type': PropertyValue
-    name: C-H bond order parameter
-    unitCode: http://purl.obolibrary.org/obo/UO_0000186
-    unitText: dimensionless
   distribution:
   - '@type': DataDownload
     name: SM16_OrderParameters.json
@@ -85,7 +59,9 @@ bioschema_properties:
     '@id': https://doi.org/10.1021/acs.jpcb.0c03389
     identifier: 10.1021/acs.jpcb.0c03389
     url: https://doi.org/10.1021/acs.jpcb.0c03389
-    name: Molecular Structure of Sphingomyelin in Fluid Phase Bilayers Determined by the Joint Analysis of Small-Angle Neutron and X-ray Scattering Data
+    name: >-
+      Molecular Structure of Sphingomyelin in Fluid Phase Bilayers Determined by the Joint Analysis
+      of Small-Angle Neutron and X-ray Scattering Data
     isPartOf:
       '@type': Periodical
       name: The Journal of Physical Chemistry B

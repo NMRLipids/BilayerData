@@ -46,9 +46,17 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 744
 bioschema_properties:
-  name: Molecular dynamics trajectory of a CLA/POPC/CAL (43:36:21) bilayer at 303 K (Charmm-Drude polarizable; system has been equilibriated using Charmm36, OPENMM 7.4.1, 517 ns) [NMRlipids simulation 744]
+  name: >-
+    Molecular dynamics trajectory of a CLA/POPC/CAL (43:36:21) bilayer at 303 K (Charmm-Drude
+    polarizable; system has been equilibriated using Charmm36, OPENMM 7.4.1, 517 ns) [NMRlipids
+    simulation 744]
   alternateName: 128POPC_6400SOL_76CaCl2_303K
-  description: Molecular dynamics trajectory of a lipid bilayer of 152 CLA (43 mol%), 128 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 36 mol%) and 76 CAL (21 mol%) at 303 K. Simulated with Charmm-Drude polarizable; system has been equilibriated using Charmm36 in OPENMM 7.4.1 for 517 ns (57288 atoms). Deposited as NMRlipids Databank simulation 744 and available from https://doi.org/10.5281/zenodo.7604040.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 152 CLA (43 mol%), 128 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 36 mol%) and 76 CAL (21 mol%) at 303 K.
+    Simulated with Charmm-Drude polarizable; system has been equilibriated using Charmm36 in OPENMM
+    7.4.1 for 517 ns (57288 atoms). Deposited as NMRlipids Databank simulation 744 and available
+    from https://doi.org/10.5281/zenodo.7604040.
   sameAs: https://doi.org/10.5281/zenodo.7604040
   datePublished: '2020-08-21'
   license:
@@ -61,31 +69,6 @@ bioschema_properties:
   - name: Kav, Batuhan
     identifier: https://orcid.org/0000-0003-4990-373X
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - CLA
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
@@ -94,11 +77,6 @@ bioschema_properties:
   - Drude polarizable force field
   - OpenMM
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (openMM 7.4.1)
   - Charmm-Drude polarizable; system has been equilibriated using Charmm36 force field
   variableMeasured:
@@ -140,7 +118,8 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.7604040
     identifier: 10.5281/zenodo.7604040
     url: https://doi.org/10.5281/zenodo.7604040
-    name: Pure POPC Membrane with 650mM CaCl2 simulations using Drude Polarizable Force Field and OpenMM
+    name: >-
+      Pure POPC Membrane with 650mM CaCl2 simulations using Drude Polarizable Force Field and OpenMM
     publisher: Zenodo
   accessRights: openAccess
   _source:

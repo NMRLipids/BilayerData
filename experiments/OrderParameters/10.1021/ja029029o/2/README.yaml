@@ -43,15 +43,17 @@ ION_CONCENTRATIONS:
 TOTAL_LIPID_CONCENTRATION: "full hydration"
 COUNTER_IONS:
 bioschema_properties:
-  name: C-H bond order parameters of a SD5PC bilayer at 303.15 K, 50% water, with BHT/DTPA (2H NMR) [Eldho 2003]
-  description: Experimental C-H bond order parameters for a lipid bilayer of SD5PC (1-octadecanoyl-2-(4Z,7Z,10Z,13Z,16Z-docosapentaenoyl)-sn-glycero-3-phosphocholine) at 303.15 K, hydrated to 50% water, with additives BHT and DTPA. Measured by solid-state nuclear magnetic resonance spectroscopy (2H:QE, 13C:INVREC/CP) on a Bruker DMX500 and DMX300, 4mm MAS probe. Values digitised into the NMRlipids Databank from https://doi.org/10.1021/ja029029o.
+  name: >-
+    C-H bond order parameters of a SD5PC bilayer at 303.15 K, 50% water, with BHT/DTPA (2H NMR)
+    [Eldho 2003]
+  description: >-
+    Experimental C-H bond order parameters for a lipid bilayer of SD5PC
+    (1-octadecanoyl-2-(4Z,7Z,10Z,13Z,16Z-docosapentaenoyl)-sn-glycero-3-phosphocholine) at 303.15 K,
+    hydrated to 50% water, with additives BHT and DTPA. Measured by solid-state nuclear magnetic
+    resonance spectroscopy (2H:QE, 13C:INVREC/CP) on a Bruker DMX500 and DMX300, 4mm MAS probe.
+    Values digitised into the NMRlipids Databank from https://doi.org/10.1021/ja029029o.
   sameAs: https://doi.org/10.1021/ja029029o
   datePublished: '2003-05-01'
-  license:
-    spdx: CC-BY-4.0
-    name: Creative Commons Attribution 4.0 International
-    url: https://spdx.org/licenses/CC-BY-4.0.html
-    sameAs: https://creativecommons.org/licenses/by/4.0/
   publisher: American Chemical Society (ACS)
   creator:
   - name: Nadukkudy V. Eldho
@@ -62,21 +64,6 @@ bioschema_properties:
   citation:
   - 10.1021/ja029029o
   keywords:
-  - '@type': DefinedTerm
-    name: NMR
-    termCode: topic_0593
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0593
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
   - SD5PC
   - 1-octadecanoyl-2-(4Z,7Z,10Z,13Z,16Z-docosapentaenoyl)-sn-glycero-3-phosphocholine
   measurementTechnique:
@@ -85,18 +72,8 @@ bioschema_properties:
     termCode: CHMO_0000614
     inDefinedTermSet: http://purl.obolibrary.org/obo/chmo.owl
     url: http://purl.obolibrary.org/obo/CHMO_0000614
-  - '@type': DefinedTerm
-    name: NMR
-    termCode: topic_0593
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0593
   - 'NMR: 2H:QE, 13C:INVREC/CP'
   - Bruker DMX500 and DMX300, 4mm MAS probe
-  variableMeasured:
-  - '@type': PropertyValue
-    name: C-H bond order parameter
-    unitCode: http://purl.obolibrary.org/obo/UO_0000186
-    unitText: dimensionless
   distribution:
   - '@type': DataDownload
     name: SD5PC_OrderParameters.json
@@ -106,7 +83,9 @@ bioschema_properties:
     '@id': https://doi.org/10.1021/ja029029o
     identifier: 10.1021/ja029029o
     url: https://doi.org/10.1021/ja029029o
-    name: Polyunsaturated Docosahexaenoic vs Docosapentaenoic AcidDifferences in Lipid Matrix Properties from the Loss of One Double Bond
+    name: >-
+      Polyunsaturated Docosahexaenoic vs Docosapentaenoic AcidDifferences in Lipid Matrix Properties
+      from the Loss of One Double Bond
     isPartOf:
       '@type': Periodical
       name: Journal of the American Chemical Society

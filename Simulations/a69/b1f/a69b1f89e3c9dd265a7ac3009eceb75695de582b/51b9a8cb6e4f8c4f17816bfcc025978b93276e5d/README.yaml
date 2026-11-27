@@ -63,9 +63,17 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 112
 bioschema_properties:
-  name: Molecular dynamics trajectory of a CLA/DMTAP/DMPC/SOD (43:39:13:4) bilayer at 323 K (Berger with DMTAP modification by Gurtovenko et al., GROMACS 3.x, 110 ns) [NMRlipids simulation 112]
+  name: >-
+    Molecular dynamics trajectory of a CLA/DMTAP/DMPC/SOD (43:39:13:4) bilayer at 323 K (Berger with
+    DMTAP modification by Gurtovenko et al., GROMACS 3.x, 110 ns) [NMRlipids simulation 112]
   alternateName: 32DMPC_96DMTAP_10SOD_106CLA_5476SOL_323K
-  description: Molecular dynamics trajectory of a lipid bilayer of 106 CLA (43 mol%), 96 DMTAP (1,2-dimyristoyl-3-trimethylammonium-propane, 39 mol%), 32 DMPC (1,2-dimyristoyl-sn-glycero-3-phosphocholine, 13 mol%) and 10 SOD (4 mol%) at 323 K. Simulated with Berger with DMTAP modification by Gurtovenko et al. in GROMACS 3.x for 110 ns (21760 atoms). Deposited as NMRlipids Databank simulation 112 and available from https://doi.org/10.5281/zenodo.51760.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 106 CLA (43 mol%), 96 DMTAP
+    (1,2-dimyristoyl-3-trimethylammonium-propane, 39 mol%), 32 DMPC
+    (1,2-dimyristoyl-sn-glycero-3-phosphocholine, 13 mol%) and 10 SOD (4 mol%) at 323 K. Simulated
+    with Berger with DMTAP modification by Gurtovenko et al. in GROMACS 3.x for 110 ns (21760
+    atoms). Deposited as NMRlipids Databank simulation 112 and available from
+    https://doi.org/10.5281/zenodo.51760.
   sameAs: https://doi.org/10.5281/zenodo.51760
   datePublished: '2016-05-20'
   license:
@@ -81,31 +89,6 @@ bioschema_properties:
   - 10.1021/jp810233q
   - ISBN 978-952-60-3194-1
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - CLA
   - DMTAP
   - 1,2-dimyristoyl-3-trimethylammonium-propane
@@ -117,11 +100,6 @@ bioschema_properties:
   - Molecular Dynamics Simulation
   - Gromacs
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 3.x)
   - Berger with DMTAP modification by Gurtovenko et al. force field
   variableMeasured:
@@ -164,7 +142,9 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.51760
     identifier: 10.5281/zenodo.51760
     url: https://doi.org/10.5281/zenodo.51760
-    name: 'Molecular dynamics simulation trajectory of a cationic lipid bilayer: 75/25 mol% DMTAP/DMPC in 0.1 M NaCl'
+    name: >-
+      Molecular dynamics simulation trajectory of a cationic lipid bilayer: 75/25 mol% DMTAP/DMPC in
+      0.1 M NaCl
     publisher: Zenodo
   accessRights: openAccess
   _source:

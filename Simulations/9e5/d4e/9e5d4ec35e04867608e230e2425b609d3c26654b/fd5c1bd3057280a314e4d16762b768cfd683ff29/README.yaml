@@ -57,9 +57,16 @@ EXPERIMENT:
   FORMFACTOR: []
 ID: 354
 bioschema_properties:
-  name: Molecular dynamics trajectory of a POPC/PAzePCdeprot/POT (54:23:23) bilayer at 298 K (Berger, GROMACS 4.5, 60 ns) [NMRlipids simulation 354]
+  name: >-
+    Molecular dynamics trajectory of a POPC/PAzePCdeprot/POT (54:23:23) bilayer at 298 K (Berger,
+    GROMACS 4.5, 60 ns) [NMRlipids simulation 354]
   alternateName: 90POPC_38PAzePCdeprot_7250SOL_38POT_298K
-  description: Molecular dynamics trajectory of a lipid bilayer of 90 POPC (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 54 mol%), 38 PAzePCdeprot (1-palmitoyl-2-azelaoyl-sn-glycero-3-phosphocholine deprotonated, 23 mol%) and 38 POT (23 mol%) at 298 K. Simulated with Berger in GROMACS 4.5 for 60 ns (28178 atoms). Deposited as NMRlipids Databank simulation 354 and available from https://doi.org/10.5281/zenodo.44622.
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 90 POPC
+    (1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine, 54 mol%), 38 PAzePCdeprot
+    (1-palmitoyl-2-azelaoyl-sn-glycero-3-phosphocholine deprotonated, 23 mol%) and 38 POT (23 mol%)
+    at 298 K. Simulated with Berger in GROMACS 4.5 for 60 ns (28178 atoms). Deposited as NMRlipids
+    Databank simulation 354 and available from https://doi.org/10.5281/zenodo.44622.
   sameAs: https://doi.org/10.5281/zenodo.44622
   datePublished: '2016-01-12'
   license:
@@ -74,42 +81,12 @@ bioschema_properties:
   citation:
   - 10.1021/acs.langmuir.6b00788
   keywords:
-  - '@type': DefinedTerm
-    name: Biomolecular simulation
-    termCode: topic_3892
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3892
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: topic_0176
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0176
-  - '@type': DefinedTerm
-    name: Membrane and lipoproteins
-    termCode: topic_0820
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_0820
-  - '@type': DefinedTerm
-    name: Biophysics
-    termCode: topic_3306
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/topic_3306
-  - '@type': DefinedTerm
-    name: Trajectory data
-    termCode: data_3870
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/data_3870
   - POPC
   - 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine
   - PAzePCdeprot
   - 1-palmitoyl-2-azelaoyl-sn-glycero-3-phosphocholine deprotonated
   - POT
   measurementTechnique:
-  - '@type': DefinedTerm
-    name: Molecular dynamics
-    termCode: operation_2476
-    inDefinedTermSet: http://edamontology.org
-    url: http://edamontology.org/operation_2476
   - Molecular dynamics simulation (gromacs 4.5)
   - Berger force field
   variableMeasured:
@@ -152,7 +129,9 @@ bioschema_properties:
     '@id': https://doi.org/10.5281/zenodo.44622
     identifier: 10.5281/zenodo.44622
     url: https://doi.org/10.5281/zenodo.44622
-    name: MD simulation trajectory and related files for POPC bilayer with 30 mol% of deprotonated pazePC (Berger, Gromacs 4.5.)
+    name: >-
+      MD simulation trajectory and related files for POPC bilayer with 30 mol% of deprotonated
+      pazePC (Berger, Gromacs 4.5.)
     publisher: Zenodo
   accessRights: openAccess
   _source:
