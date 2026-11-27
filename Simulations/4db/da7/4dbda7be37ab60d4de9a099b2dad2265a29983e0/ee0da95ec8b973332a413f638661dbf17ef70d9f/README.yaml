@@ -20,7 +20,6 @@ SYSTEM: DMPG bilayer (128 lipids) with K+ counterions and KCl at 310 K, CHARMM36
   replica 3
 TYPEOFSYSTEM: lipid bilayer
 BATCHID: poppleton2026_charmm_DMPG
-PUBLICATION: https://doi.org/10.64898/2026.10.23.760959
 AUTHORS_CONTACT: Erik Poppleton e.poppleton@zmbh.uni-heidelberg.de
 FF_DATE: 07/2026
 FF: CHARMM36 (CHARMM TIP3P, CHARMM36 ions)
@@ -50,5 +49,93 @@ COMPOSITION:
 TRAJECTORY_SIZE: 280928436
 TRJLENGTH: 500200.0
 NUMBER_OF_ATOMS: 30663
-DATEOFRUNNING: 26/11/2026
+DATEOFRUNNING: '2026-11-26'
 ID: -30
+bioschema_properties:
+  name: >-
+    Molecular dynamics trajectory of a POT/DMPG/CLA (50:45:5) bilayer at 310 K (CHARMM36 (CHARMM
+    TIP3P, CHARMM36 ions), GROMACS 2026.3, 500 ns)
+  alternateName: DMPG bilayer (128 lipids) with K+ counterions and KCl at 310 K, CHARMM36, replica 3
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 142 POT (50 mol%), 128 DMPG
+    (1,2-dimyristoyl-sn-glycero-3-phospho-(1'-rac-glycerol), 45 mol%) and 14 CLA (5 mol%) at 310 K.
+    Simulated with CHARMM36 (CHARMM TIP3P, CHARMM36 ions) in GROMACS 2026.3 for 500 ns (30663
+    atoms). Part of the NMRlipids Databank and available from
+    https://doi.org/10.5281/zenodo.23500388.
+  sameAs: https://doi.org/10.5281/zenodo.23500388
+  datePublished: '2026-10-20'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Poppleton, Erik
+    identifier: https://orcid.org/0000-0002-5146-5970
+  - name: Gräter, Frauke
+    identifier: https://orcid.org/0000-0003-2891-3381
+  - name: Hub, Jochen S.
+    identifier: https://orcid.org/0000-0001-7716-1767
+  - name: Aponte-Santamaría, Camilo
+    identifier: https://orcid.org/0000-0002-8427-6965
+  - name: Göpfrich, Kerstin
+    identifier: https://orcid.org/0000-0003-2115-3551
+  citation:
+  - 10.64898/2026.10.23.760959
+  keywords:
+  - POT
+  - DMPG
+  - 1,2-dimyristoyl-sn-glycero-3-phospho-(1'-rac-glycerol)
+  - CLA
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2026.3)
+  - CHARMM36 (CHARMM TIP3P, CHARMM36 ions) force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: equilibration time
+    unitCode: http://purl.obolibrary.org/obo/UO_0000150
+    unitText: ns
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.23500388
+    name: DMPG bilayer (128 lipids) with K+ counterions and KCl at 310 K, CHARMM36, replica 3
+    contentSize: 280928436
+    encodingFormat: application/x-xtc
+    hasPart:
+    - charmm_DMPG3.xtc
+    - charmm_DMPG3.tpr
+    - charmm_DMPG3.gro
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.23500388
+    identifier: 10.5281/zenodo.23500388
+    url: https://doi.org/10.5281/zenodo.23500388
+    name: >-
+      Choosing a lipid force field for membrane remodeling: pore formation and membrane mimetics in
+      CHARMM36, AMBER Lipid21 and Slipids - CHARMM_DMPG data
+    publisher: Zenodo
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.23500388
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-11-27'

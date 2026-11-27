@@ -18,7 +18,6 @@ SYSTEM: DMPC bilayer (128 lipids) with NaCl, MgCl2 and CaCl2 at 310 K, Lipid21, 
   2
 TYPEOFSYSTEM: lipid bilayer
 BATCHID: poppleton2026_amber_DMPC
-PUBLICATION: https://doi.org/10.64898/2026.10.23.760959
 AUTHORS_CONTACT: Erik Poppleton e.poppleton@zmbh.uni-heidelberg.de
 FF_DATE: 07/2026
 FF: Lipid21 (TIP3P, Joung-Cheatham Na+/Cl-, Li-Merz Mg2+/Ca2+)
@@ -58,5 +57,90 @@ COMPOSITION:
 TRAJECTORY_SIZE: 296271132
 TRJLENGTH: 500200.0
 NUMBER_OF_ATOMS: 32385
-DATEOFRUNNING: 26/11/2026
+DATEOFRUNNING: '2026-11-26'
 ID: -6
+bioschema_properties:
+  name: >-
+    Molecular dynamics trajectory of a DMPC/CLA/SOD/MG/CAL (76:13:8:2:1) bilayer at 310 K (Lipid21
+    (TIP3P, Joung-Cheatham Na+/Cl-, Li-Merz Mg2+/Ca2+), GROMACS 2026.3, 500 ns)
+  alternateName: DMPC bilayer (128 lipids) with NaCl, MgCl2 and CaCl2 at 310 K, Lipid21, replica 2
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 128 DMPC
+    (1,2-dimyristoyl-sn-glycero-3-phosphocholine, 76 mol%), 22 CLA (13 mol%), 14 SOD (8 mol%), 3 MG
+    (2 mol%) and 1 CAL (1 mol%) at 310 K. Simulated with Lipid21 (TIP3P, Joung-Cheatham Na+/Cl-,
+    Li-Merz Mg2+/Ca2+) in GROMACS 2026.3 for 500 ns (32385 atoms). Part of the NMRlipids Databank
+    and available from https://doi.org/10.5281/zenodo.23497810.
+  sameAs: https://doi.org/10.5281/zenodo.23497810
+  datePublished: '2026-10-20'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Poppleton, Erik
+    identifier: https://orcid.org/0000-0002-5146-5970
+  - name: Gräter, Frauke
+    identifier: https://orcid.org/0000-0003-2891-3381
+  - name: Hub, Jochen S.
+    identifier: https://orcid.org/0000-0001-7716-1767
+  - name: Aponte-Santamaría, Camilo
+    identifier: https://orcid.org/0000-0002-8427-6965
+  - name: Göpfrich, Kerstin
+    identifier: https://orcid.org/0000-0003-2115-3551
+  citation:
+  - 10.64898/2026.10.23.760959
+  keywords:
+  - DMPC
+  - 1,2-dimyristoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - SOD
+  - MG
+  - CAL
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2026.3)
+  - Lipid21 (TIP3P, Joung-Cheatham Na+/Cl-, Li-Merz Mg2+/Ca2+) force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.23497810
+    name: DMPC bilayer (128 lipids) with NaCl, MgCl2 and CaCl2 at 310 K, Lipid21, replica 2
+    contentSize: 296271132
+    encodingFormat: application/x-xtc
+    hasPart:
+    - amber_DMPC2.xtc
+    - amber_DMPC2.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.23497810
+    identifier: 10.5281/zenodo.23497810
+    url: https://doi.org/10.5281/zenodo.23497810
+    name: >-
+      Choosing a lipid force field for membrane remodeling: pore formation and membrane mimetics in
+      CHARMM36, AMBER Lipid21 and Slipids - AMBER_DMPC data
+    publisher: Zenodo
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.23497810
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-11-27'
