@@ -17,6 +17,17 @@ bioschema_properties:
   molecularWeight: 292.37
   name: (2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-octoxyoxane-3,4,5-triol
   image: https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL446037?dimensions=200
+  imageAttribution:
+    creditText: '"BOG structure depiction" by ChEMBL is licensed under CC BY-SA 3.0
+      (https://creativecommons.org/licenses/by-sa/3.0/). Source: https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL446037'
+    license:
+      spdx: CC-BY-SA-3.0
+      name: Creative Commons Attribution-ShareAlike 3.0 Unported
+      url: https://creativecommons.org/licenses/by-sa/3.0/
+    source:
+      name: ChEMBL
+      url: https://www.ebi.ac.uk/chembl/
+      sameAs: https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL446037
   alternateName:
   - β-octylglucoside
   - 1-octyl-β-D-glucopyranoside

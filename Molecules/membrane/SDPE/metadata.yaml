@@ -18,7 +18,18 @@ bioschema_properties:
   molecularWeight: 792.1
   name: '[(2R)-1-[2-aminoethoxy(hydroxy)phosphoryl]oxy-3-octadecanoyloxypropan-2-yl]
     (4Z,7Z,10Z,13Z,16Z,19Z)-docosa-4,7,10,13,16,19-hexaenoate'
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=9546798&t=l
+  image: https://lipidmaps.org/api/molecules/LMGP02010094/svg
+  imageAttribution:
+    creditText: '"SDPE structure depiction" by LIPID MAPS® is licensed under CC BY
+      4.0 (https://creativecommons.org/licenses/by/4.0/). Source: https://www.lipidmaps.org/databases/lmsd/LMGP02010094'
+    license:
+      spdx: CC-BY-4.0
+      name: Creative Commons Attribution 4.0 International
+      url: https://creativecommons.org/licenses/by/4.0/
+    source:
+      name: LIPID MAPS®
+      url: https://www.lipidmaps.org/
+      sameAs: https://www.lipidmaps.org/databases/lmsd/LMGP02010094
   alternateName:
   - 1-octadecanoyl-2-docosahexaenoyl-sn-glycero-3-phosphoethanolamine zwitterion
   - PE(18:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z))

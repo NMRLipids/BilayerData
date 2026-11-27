@@ -19,7 +19,18 @@ bioschema_properties:
   molecularWeight: 731.1
   name: '[(E,2S,3R)-3-hydroxy-2-(octadecanoylamino)octadec-4-enyl] 2-(trimethylazaniumyl)ethyl
     phosphate'
-  image: https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL1609656?dimensions=200
+  image: https://lipidmaps.org/api/molecules/LMSP03010001/svg
+  imageAttribution:
+    creditText: '"SM18 structure depiction" by LIPID MAPS® is licensed under CC BY
+      4.0 (https://creativecommons.org/licenses/by/4.0/). Source: https://www.lipidmaps.org/databases/lmsd/LMSP03010001'
+    license:
+      spdx: CC-BY-4.0
+      name: Creative Commons Attribution 4.0 International
+      url: https://creativecommons.org/licenses/by/4.0/
+    source:
+      name: LIPID MAPS®
+      url: https://www.lipidmaps.org/
+      sameAs: https://www.lipidmaps.org/databases/lmsd/LMSP03010001
   alternateName:
   - N-octadecanoylsphingosine-1-phosphocholine
   - sphingomyelin (d18:1/18:0)

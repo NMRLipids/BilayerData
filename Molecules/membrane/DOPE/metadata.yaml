@@ -19,7 +19,18 @@ bioschema_properties:
   inChI: InChI=1S/C41H78NO8P/c1-3-5-7-9-11-13-15-17-19-21-23-25-27-29-31-33-40(43)47-37-39(38-49-51(45,46)48-36-35-42)50-41(44)34-32-30-28-26-24-22-20-18-16-14-12-10-8-6-4-2/h17-20,39H,3-16,21-38,42H2,1-2H3,(H,45,46)/b19-17-,20-18-/t39-/m1/s1
   inChIKey: MWRBNPKJOOWZPW-NYVOMTAGSA-N
   smiles: CCCCCCCC/C=C\CCCCCCCC(=O)OC[C@H](COP(=O)(O)OCCN)OC(=O)CCCCCCC/C=C\CCCCCCCC
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=9546757&t=l
+  image: https://lipidmaps.org/api/molecules/LMGP02010052/svg
+  imageAttribution:
+    creditText: '"DOPE structure depiction" by LIPID MAPS® is licensed under CC BY
+      4.0 (https://creativecommons.org/licenses/by/4.0/). Source: https://www.lipidmaps.org/databases/lmsd/LMGP02010052'
+    license:
+      spdx: CC-BY-4.0
+      name: Creative Commons Attribution 4.0 International
+      url: https://creativecommons.org/licenses/by/4.0/
+    source:
+      name: LIPID MAPS®
+      url: https://www.lipidmaps.org/
+      sameAs: https://www.lipidmaps.org/databases/lmsd/LMGP02010052
   alternateName:
   - PE(18:1(9Z)/18:1(9Z))
   - PE(18:1/18:1)

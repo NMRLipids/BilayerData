@@ -18,7 +18,18 @@ bioschema_properties:
   molecularFormula: C37H74NO8P
   molecularWeight: 692
   name: '[(2R)-3-[2-aminoethoxy(hydroxy)phosphoryl]oxy-2-hexadecanoyloxypropyl] hexadecanoate'
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=445468&t=l
+  image: https://lipidmaps.org/api/molecules/LMGP02010037/svg
+  imageAttribution:
+    creditText: '"DPPE structure depiction" by LIPID MAPS® is licensed under CC BY
+      4.0 (https://creativecommons.org/licenses/by/4.0/). Source: https://www.lipidmaps.org/databases/lmsd/LMGP02010037'
+    license:
+      spdx: CC-BY-4.0
+      name: Creative Commons Attribution 4.0 International
+      url: https://creativecommons.org/licenses/by/4.0/
+    source:
+      name: LIPID MAPS®
+      url: https://www.lipidmaps.org/
+      sameAs: https://www.lipidmaps.org/databases/lmsd/LMGP02010037
   alternateName:
   - Dipalmitoyl phosphatidylethanolamine
   - 1,2-dipalmitoyl-sn-glycero-3-phosphoethanolamine

@@ -18,7 +18,18 @@ bioschema_properties:
   molecularFormula: C40H80NO8P
   molecularWeight: 734
   name: '[(2R)-2,3-di(hexadecanoyloxy)propyl] 2-(trimethylazaniumyl)ethyl phosphate'
-  image: https://www.ebi.ac.uk/chembl/api/data/image/CHEMBL1200737?dimensions=200
+  image: https://lipidmaps.org/api/molecules/LMGP01010564/svg
+  imageAttribution:
+    creditText: '"DPPC structure depiction" by LIPID MAPS® is licensed under CC BY
+      4.0 (https://creativecommons.org/licenses/by/4.0/). Source: https://www.lipidmaps.org/databases/lmsd/LMGP01010564'
+    license:
+      spdx: CC-BY-4.0
+      name: Creative Commons Attribution 4.0 International
+      url: https://creativecommons.org/licenses/by/4.0/
+    source:
+      name: LIPID MAPS®
+      url: https://www.lipidmaps.org/
+      sameAs: https://www.lipidmaps.org/databases/lmsd/LMGP01010564
   alternateName:
   - PC(16:0/16:0)
   - 1,2-dipalmitoyl-sn-glycero-3-phosphocholine

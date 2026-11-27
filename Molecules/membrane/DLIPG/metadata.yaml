@@ -18,7 +18,18 @@ bioschema_properties:
   molecularWeight: 771.014
   name: '[(2R)-3-[[(2S)-2,3-dihydroxypropoxy]-hydroxyphosphoryl]oxy-2-[(9Z,12Z)-octadeca-9,12-dienoyl]oxypropyl]
     (9Z,12Z)-octadeca-9,12-dienoate'
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=52927219&t=l
+  image: https://lipidmaps.org/api/molecules/LMGP04010956/svg
+  imageAttribution:
+    creditText: '"DLIPG structure depiction" by LIPID MAPS® is licensed under CC BY
+      4.0 (https://creativecommons.org/licenses/by/4.0/). Source: https://www.lipidmaps.org/databases/lmsd/LMGP04010956'
+    license:
+      spdx: CC-BY-4.0
+      name: Creative Commons Attribution 4.0 International
+      url: https://creativecommons.org/licenses/by/4.0/
+    source:
+      name: LIPID MAPS®
+      url: https://www.lipidmaps.org/
+      sameAs: https://www.lipidmaps.org/databases/lmsd/LMGP04010956
   alternateName:
   - Phosphatidylglycerol(18:2/18:2)
   - Phosphatidylglycerol(18:2n6/18:2n6)

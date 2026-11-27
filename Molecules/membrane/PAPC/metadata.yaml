@@ -15,7 +15,18 @@ bioschema_properties:
   molecularFormula: C44H80NO8P
   molecularWeight: 782.1
   name: 1-palmitoyl-2-arachidonoyl-sn-glycero-3-phosphocholine
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=10747814&t=l
+  image: https://lipidmaps.org/api/molecules/LMGP01012254/svg
+  imageAttribution:
+    creditText: '"PAPC structure depiction" by LIPID MAPS® is licensed under CC BY
+      4.0 (https://creativecommons.org/licenses/by/4.0/). Source: https://www.lipidmaps.org/databases/lmsd/LMGP01012254'
+    license:
+      spdx: CC-BY-4.0
+      name: Creative Commons Attribution 4.0 International
+      url: https://creativecommons.org/licenses/by/4.0/
+    source:
+      name: LIPID MAPS®
+      url: https://www.lipidmaps.org/
+      sameAs: https://www.lipidmaps.org/databases/lmsd/LMGP01012254
   alternateName:
   - 1-hexadecanoyl-2-(5Z,8Z,11Z,14Z-eicosatetraenoyl)-sn-glycero-3-phosphocholine
   - PAPC

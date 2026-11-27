@@ -19,6 +19,17 @@ bioschema_properties:
   molecularWeight: 718
   name: '[(2R)-1-[2-aminoethoxy(hydroxy)phosphoryl]oxy-3-hexadecanoyloxypropan-2-yl]
     (Z)-octadec-9-enoate'
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=5283496&t=l
+  image: https://lipidmaps.org/api/molecules/LMGP02010009/svg
+  imageAttribution:
+    creditText: '"POPE structure depiction" by LIPID MAPS® is licensed under CC BY
+      4.0 (https://creativecommons.org/licenses/by/4.0/). Source: https://www.lipidmaps.org/databases/lmsd/LMGP02010009'
+    license:
+      spdx: CC-BY-4.0
+      name: Creative Commons Attribution 4.0 International
+      url: https://creativecommons.org/licenses/by/4.0/
+    source:
+      name: LIPID MAPS®
+      url: https://www.lipidmaps.org/
+      sameAs: https://www.lipidmaps.org/databases/lmsd/LMGP02010009
   alternateName:
   - 1-Hexadecanoyl-2-(9Z-octadecenoyl)-sn-glycero-3-phosphoethanolamine

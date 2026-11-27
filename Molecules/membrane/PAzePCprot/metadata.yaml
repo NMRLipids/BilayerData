@@ -18,7 +18,18 @@ bioschema_properties:
   molecularWeight: 665.8
   name: '[(2R)-2-(8-carboxyoctanoyloxy)-3-hexadecanoyloxypropyl] 2-(trimethylazaniumyl)ethyl
     phosphate'
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=46907870&t=l
+  image: https://lipidmaps.org/api/molecules/LMGP20010007/svg
+  imageAttribution:
+    creditText: '"PAzePCprot structure depiction" by LIPID MAPS® is licensed under
+      CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Source: https://www.lipidmaps.org/databases/lmsd/LMGP20010007'
+    license:
+      spdx: CC-BY-4.0
+      name: Creative Commons Attribution 4.0 International
+      url: https://creativecommons.org/licenses/by/4.0/
+    source:
+      name: LIPID MAPS®
+      url: https://www.lipidmaps.org/
+      sameAs: https://www.lipidmaps.org/databases/lmsd/LMGP20010007
   alternateName:
   - 1-O-palmitoyl-2-O-azelaoyl-sn-glycero-3-phosphocholine
   - 16:0-09:0(ALDO)phosphocholine

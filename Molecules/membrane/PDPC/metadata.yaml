@@ -18,4 +18,15 @@ bioschema_properties:
   alternateName:
   - PC(16:0/22:6)
   - PDPC
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=6441886&t=l
+  image: https://lipidmaps.org/api/molecules/LMGP01012137/svg
+  imageAttribution:
+    creditText: '"PDPC structure depiction" by LIPID MAPS® is licensed under CC BY
+      4.0 (https://creativecommons.org/licenses/by/4.0/). Source: https://www.lipidmaps.org/databases/lmsd/LMGP01012137'
+    license:
+      spdx: CC-BY-4.0
+      name: Creative Commons Attribution 4.0 International
+      url: https://creativecommons.org/licenses/by/4.0/
+    source:
+      name: LIPID MAPS®
+      url: https://www.lipidmaps.org/
+      sameAs: https://www.lipidmaps.org/databases/lmsd/LMGP01012137

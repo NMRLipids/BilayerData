@@ -29,3 +29,15 @@ bioschema_properties:
   - Phosphatidylinositol(18:0/20:4w6)
   - Phosphatidylinositol(18:0/20:4)
   - 1-stearoyl-2-[(5Z,8Z,11Z,14Z-icosatetraenoyl)]-sn-glycero-3-phospho-1D-myo-inositol
+  image: https://lipidmaps.org/api/molecules/LMGP06010010/svg
+  imageAttribution:
+    creditText: '"SAPI structure depiction" by LIPID MAPS® is licensed under CC BY
+      4.0 (https://creativecommons.org/licenses/by/4.0/). Source: https://www.lipidmaps.org/databases/lmsd/LMGP06010010'
+    license:
+      spdx: CC-BY-4.0
+      name: Creative Commons Attribution 4.0 International
+      url: https://creativecommons.org/licenses/by/4.0/
+    source:
+      name: LIPID MAPS®
+      url: https://www.lipidmaps.org/
+      sameAs: https://www.lipidmaps.org/databases/lmsd/LMGP06010010

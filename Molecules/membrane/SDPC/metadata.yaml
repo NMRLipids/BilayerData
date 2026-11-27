@@ -18,5 +18,16 @@ bioschema_properties:
   name: 1-stearoyl-2-docosahexaenoyl-sn-glycero-3-phosphocholine
   alternateName:
   - PC(18:0/22:6)
-  - PC 18:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z)  
-  image: https://pubchem.ncbi.nlm.nih.gov/image/imgsrv.fcgi?cid=24778876&t=l
+  - PC 18:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z)
+  image: https://lipidmaps.org/api/molecules/LMGP01010821/svg
+  imageAttribution:
+    creditText: '"SDPC structure depiction" by LIPID MAPS® is licensed under CC BY
+      4.0 (https://creativecommons.org/licenses/by/4.0/). Source: https://www.lipidmaps.org/databases/lmsd/LMGP01010821'
+    license:
+      spdx: CC-BY-4.0
+      name: Creative Commons Attribution 4.0 International
+      url: https://creativecommons.org/licenses/by/4.0/
+    source:
+      name: LIPID MAPS®
+      url: https://www.lipidmaps.org/
+      sameAs: https://www.lipidmaps.org/databases/lmsd/LMGP01010821
