@@ -1,0 +1,146 @@
+DOI: 10.5281/zenodo.23500288
+SOFTWARE: gromacs
+SOFTWARE_VERSION: '2026.3'
+TRJ:
+- - amber_DOPC1.xtc
+TPR:
+- - amber_DOPC1.tpr
+EDR:
+- - amber_DOPC1.edr
+LOG:
+- - amber_DOPC1.log
+CPT:
+- - amber_DOPC1.cpt
+PREEQTIME: 1.375
+TIMELEFTOUT: 0
+TEMPERATURE: 310.0
+SYSTEM: DOPC bilayer (128 lipids) with NaCl, MgCl2 and CaCl2 at 310 K, Lipid21, replica
+  1
+TYPEOFSYSTEM: lipid bilayer
+BATCHID: poppleton2026_amber_DOPC
+AUTHORS_CONTACT: Erik Poppleton e.poppleton@zmbh.uni-heidelberg.de
+FF_DATE: 07/2026
+FF: Lipid21 (TIP3P, Joung-Cheatham Na+/Cl-, Li-Merz Mg2+/Ca2+)
+FF_SOURCE: CHARMM-GUI
+FFSOL: TIP3P
+FFSOD: Joung-Cheatham
+FFCLA: Joung-Cheatham
+FFMG: Li-Merz
+FFCAL: Li-Merz
+COMPOSITION:
+  DOPC:
+    NAME: PC
+    MAPPING: mappingDOPC_Amber.yaml
+    COUNT:
+    - 64
+    - 64
+  SOL:
+    NAME: TP3
+    MAPPING: mappingTIP3P_amber.yaml
+    COUNT: 5924
+  SOD:
+    NAME: Na+
+    MAPPING: mappingNA+.yaml
+    COUNT: 14
+  MG:
+    NAME: MG
+    MAPPING: mappingMG.yaml
+    COUNT: 4
+  CAL:
+    NAME: CA
+    MAPPING: mappingCA.yaml
+    COUNT: 2
+  CLA:
+    NAME: Cl-
+    MAPPING: mappingCL-.yaml
+    COUNT: 26
+TRAJECTORY_SIZE: 326363380
+TRJLENGTH: 500200.0
+NUMBER_OF_ATOMS: 35482
+DATEOFRUNNING: '2026-11-26'
+ID: -17
+bioschema_properties:
+  name: >-
+    Molecular dynamics trajectory of a DOPC/CLA/SOD/MG/CAL (74:15:8:2:1) bilayer at 310 K (Lipid21
+    (TIP3P, Joung-Cheatham Na+/Cl-, Li-Merz Mg2+/Ca2+), GROMACS 2026.3, 500 ns)
+  alternateName: DOPC bilayer (128 lipids) with NaCl, MgCl2 and CaCl2 at 310 K, Lipid21, replica 1
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 128 DOPC
+    (1,2-dioleoyl-sn-glycero-3-phosphocholine, 74 mol%), 26 CLA (15 mol%), 14 SOD (8 mol%), 4 MG (2
+    mol%) and 2 CAL (1 mol%) at 310 K. Simulated with Lipid21 (TIP3P, Joung-Cheatham Na+/Cl-,
+    Li-Merz Mg2+/Ca2+) in GROMACS 2026.3 for 500 ns (35482 atoms). Part of the NMRlipids Databank
+    and available from https://doi.org/10.5281/zenodo.23500288.
+  sameAs: https://doi.org/10.5281/zenodo.23500288
+  datePublished: '2026-10-20'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Poppleton, Erik
+    identifier: https://orcid.org/0000-0002-5146-5970
+  - name: Gräter, Frauke
+    identifier: https://orcid.org/0000-0003-2891-3381
+  - name: Hub, Jochen S.
+    identifier: https://orcid.org/0000-0001-7716-1767
+  - name: Aponte-Santamaría, Camilo
+    identifier: https://orcid.org/0000-0002-8427-6965
+  - name: Göpfrich, Kerstin
+    identifier: https://orcid.org/0000-0003-2115-3551
+  citation:
+  - 10.64898/2026.10.23.760959
+  keywords:
+  - DOPC
+  - 1,2-dioleoyl-sn-glycero-3-phosphocholine
+  - CLA
+  - SOD
+  - MG
+  - CAL
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2026.3)
+  - Lipid21 (TIP3P, Joung-Cheatham Na+/Cl-, Li-Merz Mg2+/Ca2+) force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.23500288
+    name: DOPC bilayer (128 lipids) with NaCl, MgCl2 and CaCl2 at 310 K, Lipid21, replica 1
+    contentSize: 326363380
+    encodingFormat: application/x-xtc
+    hasPart:
+    - amber_DOPC1.xtc
+    - amber_DOPC1.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.23500288
+    identifier: 10.5281/zenodo.23500288
+    url: https://doi.org/10.5281/zenodo.23500288
+    name: >-
+      Choosing a lipid force field for membrane remodeling: pore formation and membrane mimetics in
+      CHARMM36, AMBER Lipid21 and Slipids - AMBER_DOPC data
+    publisher: Zenodo
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.23500288
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-11-27'

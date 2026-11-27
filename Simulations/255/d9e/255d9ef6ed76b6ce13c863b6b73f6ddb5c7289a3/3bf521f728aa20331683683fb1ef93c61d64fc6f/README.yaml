@@ -1,0 +1,120 @@
+DOI: 10.5281/zenodo.23500288
+SOFTWARE: gromacs
+SOFTWARE_VERSION: '2026.3'
+TRJ:
+- - amber_DOPC_noions2.xtc
+TPR:
+- - amber_DOPC_noions2.tpr
+EDR:
+- - amber_DOPC_noions2.edr
+LOG:
+- - amber_DOPC_noions2.log
+CPT:
+- - amber_DOPC_noions2.cpt
+PREEQTIME: 1.375
+TIMELEFTOUT: 40
+TEMPERATURE: 310.0
+SYSTEM: DOPC bilayer (128 lipids) without ions at 310 K, Lipid21, replica 2
+TYPEOFSYSTEM: lipid bilayer
+BATCHID: poppleton2026_amber_DOPC_noions
+AUTHORS_CONTACT: Erik Poppleton e.poppleton@zmbh.uni-heidelberg.de
+FF_DATE: 07/2026
+FF: Lipid21 (TIP3P)
+FF_SOURCE: CHARMM-GUI
+FFSOL: TIP3P
+COMPOSITION:
+  DOPC:
+    NAME: PC
+    MAPPING: mappingDOPC_Amber.yaml
+    COUNT:
+    - 64
+    - 64
+  SOL:
+    NAME: TP3
+    MAPPING: mappingTIP3P_amber.yaml
+    COUNT: 5910
+TRAJECTORY_SIZE: 325328932
+TRJLENGTH: 500200.0
+NUMBER_OF_ATOMS: 35394
+DATEOFRUNNING: '2026-11-26'
+ID: -15
+bioschema_properties:
+  name: >-
+    Molecular dynamics trajectory of a DOPC bilayer at 310 K (Lipid21 (TIP3P), GROMACS 2026.3, 500
+    ns)
+  alternateName: DOPC bilayer (128 lipids) without ions at 310 K, Lipid21, replica 2
+  description: >-
+    Molecular dynamics trajectory of a lipid bilayer of 128 DOPC
+    (1,2-dioleoyl-sn-glycero-3-phosphocholine) at 310 K. Simulated with Lipid21 (TIP3P) in GROMACS
+    2026.3 for 500 ns (35394 atoms). Part of the NMRlipids Databank and available from
+    https://doi.org/10.5281/zenodo.23500288.
+  sameAs: https://doi.org/10.5281/zenodo.23500288
+  datePublished: '2026-10-20'
+  license:
+    spdx: CC-BY-4.0
+    name: Creative Commons Attribution 4.0 International
+    url: https://spdx.org/licenses/CC-BY-4.0.html
+    sameAs: https://creativecommons.org/licenses/by/4.0/legalcode
+  publisher: Zenodo
+  creator:
+  - name: Poppleton, Erik
+    identifier: https://orcid.org/0000-0002-5146-5970
+  - name: Gräter, Frauke
+    identifier: https://orcid.org/0000-0003-2891-3381
+  - name: Hub, Jochen S.
+    identifier: https://orcid.org/0000-0001-7716-1767
+  - name: Aponte-Santamaría, Camilo
+    identifier: https://orcid.org/0000-0002-8427-6965
+  - name: Göpfrich, Kerstin
+    identifier: https://orcid.org/0000-0003-2115-3551
+  citation:
+  - 10.64898/2026.10.23.760959
+  keywords:
+  - DOPC
+  - 1,2-dioleoyl-sn-glycero-3-phosphocholine
+  measurementTechnique:
+  - Molecular dynamics simulation (gromacs 2026.3)
+  - Lipid21 (TIP3P) force field
+  variableMeasured:
+  - '@type': PropertyValue
+    name: area per lipid
+    unitCode: http://purl.obolibrary.org/obo/UO_0000324
+    unitText: Å²
+  - '@type': PropertyValue
+    name: membrane thickness
+    unitCode: http://purl.obolibrary.org/obo/UO_0000018
+    unitText: nm
+  - '@type': PropertyValue
+    name: total density profile
+    unitText: nm⁻³
+  - '@type': PropertyValue
+    name: X-ray scattering form factor
+    unitCode: http://qudt.org/vocab/unit/PER-ANGSTROM
+    unitText: Å⁻¹
+  - '@type': PropertyValue
+    name: C-H bond order parameter
+    unitCode: http://purl.obolibrary.org/obo/UO_0000186
+    unitText: dimensionless
+  distribution:
+  - '@type': DataDownload
+    contentUrl: https://doi.org/10.5281/zenodo.23500288
+    name: DOPC bilayer (128 lipids) without ions at 310 K, Lipid21, replica 2
+    contentSize: 325328932
+    encodingFormat: application/x-xtc
+    hasPart:
+    - amber_DOPC_noions2.xtc
+    - amber_DOPC_noions2.tpr
+  isPartOf:
+    '@type': Dataset
+    '@id': https://doi.org/10.5281/zenodo.23500288
+    identifier: 10.5281/zenodo.23500288
+    url: https://doi.org/10.5281/zenodo.23500288
+    name: >-
+      Choosing a lipid force field for membrane remodeling: pore formation and membrane mimetics in
+      CHARMM36, AMBER Lipid21 and Slipids - AMBER_DOPC data
+    publisher: Zenodo
+  _source:
+    api: datacite
+    doi: 10.5281/zenodo.23500288
+    spdxLicenseList: 3.29.0
+    retrieved: '2026-11-27'

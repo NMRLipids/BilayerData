@@ -78,6 +78,10 @@ authors:
   - name: suviheinonen
     family-names: Heinonen
     given-names: Suvi
+  - name: ErikPoppleton
+    family-names: Poppleton
+    given-names: Erik
+    orcid: https://orcid.org/0000-0002-5146-5970
 identifiers:
   - type: url
     value: >-

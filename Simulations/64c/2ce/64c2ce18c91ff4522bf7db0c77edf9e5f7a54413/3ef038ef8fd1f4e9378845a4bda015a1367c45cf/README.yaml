@@ -1,0 +1,64 @@
+DOI: 10.5281/zenodo.23500493
+SOFTWARE: gromacs
+SOFTWARE_VERSION: '2026.3'
+TRJ:
+- - slipids_DMPC2.xtc
+TPR:
+- - slipids_DMPC2.tpr
+EDR:
+- - slipids_DMPC2.edr
+LOG:
+- - slipids_DMPC2.log
+CPT:
+- - slipids_DMPC2.cpt
+GRO:
+- - slipids_DMPC2.gro
+PREEQTIME: 1.375
+TIMELEFTOUT: 10
+TEMPERATURE: 310.0
+SYSTEM: DMPC bilayer (128 lipids) with NaCl, MgCl2 and CaCl2 at 310 K, Slipids2020,
+  replica 2
+TYPEOFSYSTEM: lipid bilayer
+BATCHID: poppleton2026_slipids_DMPC
+PUBLICATION: https://doi.org/10.64898/2026.10.23.760959
+AUTHORS_CONTACT: Erik Poppleton e.poppleton@zmbh.uni-heidelberg.de
+FF_DATE: 07/2026
+FF: Slipids2020 (TIP3P, Joung-Cheatham Na+/Cl-, Li-Merz Mg2+/Ca2+)
+FF_SOURCE: https://bitbucket.org/alexander_lyubartsev/slipids-2020
+FFSOL: TIP3P
+FFSOD: Joung-Cheatham
+FFCLA: Joung-Cheatham
+FFMG: Li-Merz
+FFCAL: Li-Merz
+COMPOSITION:
+  DMPC:
+    NAME: DMPC
+    MAPPING: mappingDMPCslipids.yaml
+    COUNT:
+    - 64
+    - 64
+  SOL:
+    NAME: SOL
+    MAPPING: mappingTIP3Pwater.yaml
+    COUNT: 5764
+  SOD:
+    NAME: NA
+    MAPPING: mappingNA.yaml
+    COUNT: 14
+  MG:
+    NAME: MG
+    MAPPING: mappingMG.yaml
+    COUNT: 3
+  CAL:
+    NAME: CA
+    MAPPING: mappingCA.yaml
+    COUNT: 1
+  CLA:
+    NAME: CL
+    MAPPING: mappingCL.yaml
+    COUNT: 22
+TRAJECTORY_SIZE: 297099444
+TRJLENGTH: 500200.0
+NUMBER_OF_ATOMS: 32436
+DATEOFRUNNING: 26/11/2026
+ID: -41

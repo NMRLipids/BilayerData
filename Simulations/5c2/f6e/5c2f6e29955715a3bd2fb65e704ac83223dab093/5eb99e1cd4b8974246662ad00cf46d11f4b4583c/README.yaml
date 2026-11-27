@@ -1,0 +1,64 @@
+DOI: 10.5281/zenodo.23500336
+SOFTWARE: gromacs
+SOFTWARE_VERSION: '2026.3'
+TRJ:
+- - charmm_DMPC3.xtc
+TPR:
+- - charmm_DMPC3.tpr
+EDR:
+- - charmm_DMPC3.edr
+LOG:
+- - charmm_DMPC3.log
+CPT:
+- - charmm_DMPC3.cpt
+GRO:
+- - charmm_DMPC3.gro
+PREEQTIME: 1.375
+TIMELEFTOUT: 120
+TEMPERATURE: 310.0
+SYSTEM: DMPC bilayer (128 lipids) with NaCl, MgCl2 and CaCl2 at 310 K, CHARMM36, replica
+  3
+TYPEOFSYSTEM: lipid bilayer
+BATCHID: poppleton2026_charmm_DMPC
+PUBLICATION: https://doi.org/10.64898/2026.10.23.760959
+AUTHORS_CONTACT: Erik Poppleton e.poppleton@zmbh.uni-heidelberg.de
+FF_DATE: 07/2026
+FF: CHARMM36 (CHARMM TIP3P, CHARMM36 ions)
+FF_SOURCE: CHARMM-GUI
+FFSOL: CHARMM TIP3P
+FFSOD: CHARMM36
+FFMG: CHARMM36
+FFCAL: CHARMM36
+FFCLA: CHARMM36
+COMPOSITION:
+  DMPC:
+    NAME: DMPC
+    MAPPING: mappingDMPCcharmm.yaml
+    COUNT:
+    - 64
+    - 64
+  SOL:
+    NAME: TIP3
+    MAPPING: mappingTIP3PCHARMMgui.yaml
+    COUNT: 5764
+  SOD:
+    NAME: SOD
+    MAPPING: mappingSOD.yaml
+    COUNT: 14
+  MG:
+    NAME: MG
+    MAPPING: mappingMG.yaml
+    COUNT: 3
+  CAL:
+    NAME: CAL
+    MAPPING: mappingCAL.yaml
+    COUNT: 1
+  CLA:
+    NAME: CLA
+    MAPPING: mappingCLA.yaml
+    COUNT: 22
+TRAJECTORY_SIZE: 296539444
+TRJLENGTH: 500200.0
+NUMBER_OF_ATOMS: 32436
+DATEOFRUNNING: 26/11/2026
+ID: -24
